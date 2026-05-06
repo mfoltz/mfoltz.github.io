@@ -1,0 +1,1228 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "assetripper-monobehaviour-blood-hunts",
+  "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+  "sourceRowCount": 61,
+  "entriesByGuid": {
+    "24378719": {
+      "prefab": "CHAR_Wendigo_VBlood",
+      "guid": 24378719,
+      "bloodHuntLevel": 53,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1366506583,
+        "_b": -582741427,
+        "_c": 1804064945,
+        "_d": -492151920
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "106480588": {
+      "prefab": "CHAR_Gloomrot_Purifier_VBlood",
+      "guid": 106480588,
+      "bloodHuntLevel": 61,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1990807719,
+        "_b": -867582861,
+        "_c": -1814552402,
+        "_d": 734748326
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "109969450": {
+      "prefab": "CHAR_Villager_CursedWanderer_VBlood",
+      "guid": 109969450,
+      "bloodHuntLevel": 63,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 592864333,
+        "_b": -1639062144,
+        "_c": 264151730,
+        "_d": 934388860
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "114912615": {
+      "prefab": "CHAR_ChurchOfLight_Cardinal_VBlood",
+      "guid": 114912615,
+      "bloodHuntLevel": 77,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1675389918,
+        "_b": 1094987094,
+        "_c": 1419647660,
+        "_d": 692513366
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "153390636": {
+      "prefab": "CHAR_Undead_Priest_VBlood",
+      "guid": 153390636,
+      "bloodHuntLevel": 35,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1647377404,
+        "_b": -498887525,
+        "_c": 633446831,
+        "_d": -559751700
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "172235178": {
+      "prefab": "CHAR_Gloomrot_Iva_VBlood",
+      "guid": 172235178,
+      "bloodHuntLevel": 60,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1146170029,
+        "_b": -1807078440,
+        "_c": 2033021088,
+        "_d": 1616325332
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "192051202": {
+      "prefab": "CHAR_ChurchOfLight_Sommelier_VBlood",
+      "guid": 192051202,
+      "bloodHuntLevel": 70,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -266437476,
+        "_b": 708940495,
+        "_c": 973463213,
+        "_d": 1205737568
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "326378955": {
+      "prefab": "CHAR_Undead_CursedSmith_VBlood",
+      "guid": 326378955,
+      "bloodHuntLevel": 65,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1465291388,
+        "_b": -1891258475,
+        "_c": 81069982,
+        "_d": -1189635642
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "336560131": {
+      "prefab": "CHAR_VHunter_CastleMan",
+      "guid": 336560131,
+      "bloodHuntLevel": 80,
+      "bloodHuntHideLevel": true,
+      "nameKey": {
+        "_a": 1627855486,
+        "_b": 1715935770,
+        "_c": 944169373,
+        "_d": 1884908309
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 1
+      }
+    },
+    "495971434": {
+      "prefab": "CHAR_Vampire_BloodKnight_VBlood",
+      "guid": 495971434,
+      "bloodHuntLevel": 83,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -758361131,
+        "_b": -599181829,
+        "_c": -1911888210,
+        "_d": 619786419
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "577478542": {
+      "prefab": "CHAR_Undead_BishopOfDeath_VBlood",
+      "guid": 577478542,
+      "bloodHuntLevel": 27,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1732743544,
+        "_b": 222714591,
+        "_c": 621028741,
+        "_d": 1037196826
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "613251918": {
+      "prefab": "CHAR_Undead_Infiltrator_VBlood",
+      "guid": 613251918,
+      "bloodHuntLevel": 50,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1124698989,
+        "_b": -1488344249,
+        "_c": -1538908028,
+        "_d": 1264759919
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "619948378": {
+      "prefab": "CHAR_Militia_Fabian_VBlood",
+      "guid": 619948378,
+      "bloodHuntLevel": 46,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1395244389,
+        "_b": -1723450551,
+        "_c": 933608852,
+        "_d": -1003517322
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "685266977": {
+      "prefab": "CHAR_Harpy_Matriarch_VBlood",
+      "guid": 685266977,
+      "bloodHuntLevel": 70,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1200368549,
+        "_b": 423715477,
+        "_c": 560121523,
+        "_d": -1962654914
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "763273073": {
+      "prefab": "CHAR_Bandit_Chaosarrow_VBlood",
+      "guid": 763273073,
+      "bloodHuntLevel": 30,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1199492861,
+        "_b": -1471230268,
+        "_c": 1111860414,
+        "_d": -1260104443
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "795262842": {
+      "prefab": "CHAR_Vampire_IceRanger_VBlood",
+      "guid": 795262842,
+      "bloodHuntLevel": 53,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1819955650,
+        "_b": -1253071585,
+        "_c": 362143916,
+        "_d": 236122505
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "814083983": {
+      "prefab": "CHAR_Gloomrot_TheProfessor_VBlood",
+      "guid": 814083983,
+      "bloodHuntLevel": 74,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 883740091,
+        "_b": -1773219365,
+        "_c": -704460922,
+        "_d": 1898092421
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "850622034": {
+      "prefab": "CHAR_Militia_Longbowman_LightArrow_Vblood",
+      "guid": 850622034,
+      "bloodHuntLevel": 50,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -280271641,
+        "_b": -447871487,
+        "_c": 2111892637,
+        "_d": -1472772177
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "910988233": {
+      "prefab": "CHAR_Militia_Glassblower_VBlood",
+      "guid": 910988233,
+      "bloodHuntLevel": 50,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 463297083,
+        "_b": 122507295,
+        "_c": 67269037,
+        "_d": -1165998379
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "939467639": {
+      "prefab": "CHAR_Undead_BishopOfShadows_VBlood",
+      "guid": 939467639,
+      "bloodHuntLevel": 47,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -2039179336,
+        "_b": -599257204,
+        "_c": -790933068,
+        "_d": 500706626
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1106149033": {
+      "prefab": "CHAR_Bandit_Stalker_VBlood",
+      "guid": 1106149033,
+      "bloodHuntLevel": 27,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 125153944,
+        "_b": 1263103707,
+        "_c": -1476093548,
+        "_d": -628636010
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1112948824": {
+      "prefab": "CHAR_BatVampire_VBlood",
+      "guid": 1112948824,
+      "bloodHuntLevel": 83,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1113919873,
+        "_b": 994757841,
+        "_c": -1193367887,
+        "_d": -1405223469
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1124739990": {
+      "prefab": "CHAR_Bandit_Frostarrow_VBlood",
+      "guid": 1124739990,
+      "bloodHuntLevel": 20,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1299182203,
+        "_b": -2008437508,
+        "_c": -1637094469,
+        "_d": 919632434
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1233988687": {
+      "prefab": "CHAR_Gloomrot_Monster_VBlood",
+      "guid": 1233988687,
+      "bloodHuntLevel": 88,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -134934695,
+        "_b": -867749960,
+        "_c": -497597035,
+        "_d": -963233357
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1295855316": {
+      "prefab": "CHAR_Blackfang_Lucie_VBlood",
+      "guid": 1295855316,
+      "bloodHuntLevel": 76,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1736516158,
+        "_b": 222405256,
+        "_c": -893109087,
+        "_d": 351551282
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1688478381": {
+      "prefab": "CHAR_Militia_Leader_VBlood",
+      "guid": 1688478381,
+      "bloodHuntLevel": 58,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 456232217,
+        "_b": 1733024658,
+        "_c": -557893220,
+        "_d": 1538722245
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1896428751": {
+      "prefab": "CHAR_Bandit_Bomber_VBlood",
+      "guid": 1896428751,
+      "bloodHuntLevel": 30,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 613826691,
+        "_b": 155864683,
+        "_c": -698496105,
+        "_d": -502147021
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "1945956671": {
+      "prefab": "CHAR_Militia_Scribe_VBlood",
+      "guid": 1945956671,
+      "bloodHuntLevel": 47,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 2016724478,
+        "_b": -733551206,
+        "_c": 708297362,
+        "_d": 690896233
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "2054432370": {
+      "prefab": "CHAR_Gloomrot_RailgunSergeant_VBlood",
+      "guid": 2054432370,
+      "bloodHuntLevel": 77,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1093633055,
+        "_b": 1766765291,
+        "_c": 1882162617,
+        "_d": -1077331044
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "2122229952": {
+      "prefab": "CHAR_Bandit_Foreman_VBlood",
+      "guid": 2122229952,
+      "bloodHuntLevel": 20,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1181306263,
+        "_b": -229745739,
+        "_c": 257340568,
+        "_d": -1506892857
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-2122682556": {
+      "prefab": "CHAR_Bandit_Fisherman_VBlood",
+      "guid": -2122682556,
+      "bloodHuntLevel": 32,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1515521382,
+        "_b": 843178593,
+        "_c": -114630230,
+        "_d": -1125811300
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-2039908510": {
+      "prefab": "CHAR_Vermin_DireRat_VBlood",
+      "guid": -2039908510,
+      "bloodHuntLevel": 30,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1442443973,
+        "_b": -1723141274,
+        "_c": -2094373215,
+        "_d": -2109230775
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-2025101517": {
+      "prefab": "CHAR_Bandit_StoneBreaker_VBlood",
+      "guid": -2025101517,
+      "bloodHuntLevel": 20,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 469722001,
+        "_b": 474383383,
+        "_c": -358455400,
+        "_d": -1142310420
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-2013903325": {
+      "prefab": "CHAR_ArchMage_VBlood",
+      "guid": -2013903325,
+      "bloodHuntLevel": 70,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -836213372,
+        "_b": 373628038,
+        "_c": -2124586878,
+        "_d": 444398919
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1968372384": {
+      "prefab": "CHAR_VHunter_Jade_VBlood",
+      "guid": -1968372384,
+      "bloodHuntLevel": 57,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 747664545,
+        "_b": 1883513187,
+        "_c": -190804820,
+        "_d": -1607684816
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1942352521": {
+      "prefab": "CHAR_Villager_Tailor_VBlood",
+      "guid": -1942352521,
+      "bloodHuntLevel": 40,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 443760379,
+        "_b": -129025133,
+        "_c": 447672245,
+        "_d": 460430756
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1936575244": {
+      "prefab": "CHAR_Cursed_MountainBeast_VBlood",
+      "guid": -1936575244,
+      "bloodHuntLevel": 83,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 759093781,
+        "_b": -733385877,
+        "_c": 1334740659,
+        "_d": -1271606051
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1905691330": {
+      "prefab": "CHAR_Forest_Wolf_VBlood",
+      "guid": -1905691330,
+      "bloodHuntLevel": 16,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1988441778,
+        "_b": 1128490363,
+        "_c": 883242624,
+        "_d": -159229832
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1659822956": {
+      "prefab": "CHAR_Bandit_Tourok_VBlood",
+      "guid": -1659822956,
+      "bloodHuntLevel": 37,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1413426701,
+        "_b": -45107933,
+        "_c": 2056030135,
+        "_d": 559293234
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1505705712": {
+      "prefab": "CHAR_WerewolfChieftain_Human",
+      "guid": -1505705712,
+      "bloodHuntLevel": 64,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -335392385,
+        "_b": -1656484358,
+        "_c": -1296973694,
+        "_d": -1659887210
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1449631170": {
+      "prefab": "CHAR_VHunter_Leader_VBlood",
+      "guid": -1449631170,
+      "bloodHuntLevel": 44,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1366422207,
+        "_b": -1522203235,
+        "_c": -1444071292,
+        "_d": -1105947527
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1391546313": {
+      "prefab": "CHAR_Forest_Bear_Dire_Vblood",
+      "guid": -1391546313,
+      "bloodHuntLevel": 35,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 2020899707,
+        "_b": -1907677529,
+        "_c": -665245024,
+        "_d": 1295866169
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1383529374": {
+      "prefab": "CHAR_Blackfang_Livith_VBlood",
+      "guid": -1383529374,
+      "bloodHuntLevel": 75,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1323849501,
+        "_b": 1128620742,
+        "_c": -2006563910,
+        "_d": 2110544887
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1365931036": {
+      "prefab": "CHAR_Undead_Leader_Vblood",
+      "guid": -1365931036,
+      "bloodHuntLevel": 47,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -2131689730,
+        "_b": -515282197,
+        "_c": 732638651,
+        "_d": -1605286028
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1347412392": {
+      "prefab": "CHAR_Winter_Yeti_VBlood",
+      "guid": -1347412392,
+      "bloodHuntLevel": 77,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1334479702,
+        "_b": 155992680,
+        "_c": -1596335979,
+        "_d": 257005169
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1208888966": {
+      "prefab": "CHAR_Undead_ZealousCultist_VBlood",
+      "guid": -1208888966,
+      "bloodHuntLevel": 63,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 520283619,
+        "_b": 1548292776,
+        "_c": -1389443965,
+        "_d": -1361188753
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1101874342": {
+      "prefab": "CHAR_Gloomrot_Voltage_VBlood",
+      "guid": -1101874342,
+      "bloodHuntLevel": 60,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -121847611,
+        "_b": 2118473834,
+        "_c": -504822101,
+        "_d": -1380371104
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-1065970933": {
+      "prefab": "CHAR_Geomancer_Human_VBlood",
+      "guid": -1065970933,
+      "bloodHuntLevel": 53,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -64047856,
+        "_b": 240067740,
+        "_c": -2096246387,
+        "_d": -999299889
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-910296704": {
+      "prefab": "CHAR_Cursed_Witch_VBlood",
+      "guid": -910296704,
+      "bloodHuntLevel": 74,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1267794526,
+        "_b": -1555082347,
+        "_c": -474524779,
+        "_d": -1492731165
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-753453016": {
+      "prefab": "CHAR_Undead_ArenaChampion_VBlood",
+      "guid": -753453016,
+      "bloodHuntLevel": 55,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -629517795,
+        "_b": -665888788,
+        "_c": 1470630276,
+        "_d": -1333366017
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-740796338": {
+      "prefab": "CHAR_ChurchOfLight_Paladin_VBlood",
+      "guid": -740796338,
+      "bloodHuntLevel": 86,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 440825909,
+        "_b": 591560020,
+        "_c": -132458828,
+        "_d": -922935991
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-680831417": {
+      "prefab": "CHAR_Militia_BishopOfDunley_VBlood",
+      "guid": -680831417,
+      "bloodHuntLevel": 57,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1138083375,
+        "_b": -62459980,
+        "_c": -878458708,
+        "_d": -1729857485
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-548489519": {
+      "prefab": "CHAR_Spider_Queen_VBlood",
+      "guid": -548489519,
+      "bloodHuntLevel": 63,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1607794466,
+        "_b": -1522034139,
+        "_c": -1927414123,
+        "_d": 1026705784
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-496360395": {
+      "prefab": "CHAR_Vampire_HighLord_VBlood",
+      "guid": -496360395,
+      "bloodHuntLevel": 57,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -2051541545,
+        "_b": -1638971736,
+        "_c": 195192510,
+        "_d": -961118731
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-484556888": {
+      "prefab": "CHAR_Poloma_VBlood",
+      "guid": -484556888,
+      "bloodHuntLevel": 35,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -1070839349,
+        "_b": 1900159829,
+        "_c": -1392176244,
+        "_d": 482056027
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-393555055": {
+      "prefab": "CHAR_Manticore_VBlood",
+      "guid": -393555055,
+      "bloodHuntLevel": 86,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 347320999,
+        "_b": -1589342806,
+        "_c": -1849564018,
+        "_d": 84931349
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-327335305": {
+      "prefab": "CHAR_Vampire_Dracula_VBlood",
+      "guid": -327335305,
+      "bloodHuntLevel": 90,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -584858412,
+        "_b": 1380350174,
+        "_c": -1532098674,
+        "_d": -319532786
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-203043163": {
+      "prefab": "CHAR_Cursed_ToadKing_VBlood",
+      "guid": -203043163,
+      "bloodHuntLevel": 64,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -909872198,
+        "_b": 843747528,
+        "_c": 110004645,
+        "_d": 1930887451
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-99012450": {
+      "prefab": "CHAR_Militia_Nun_VBlood",
+      "guid": -99012450,
+      "bloodHuntLevel": 44,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": -279048378,
+        "_b": -1421084375,
+        "_c": 1097185449,
+        "_d": -1432793934
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-29797003": {
+      "prefab": "CHAR_Militia_Guard_VBlood",
+      "guid": -29797003,
+      "bloodHuntLevel": 44,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 584594399,
+        "_b": 156010949,
+        "_c": 1055661737,
+        "_d": -34985969
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    },
+    "-26105228": {
+      "prefab": "CHAR_ChurchOfLight_Overseer_VBlood",
+      "guid": -26105228,
+      "bloodHuntLevel": 66,
+      "bloodHuntHideLevel": false,
+      "nameKey": {
+        "_a": 1421244306,
+        "_b": -1253480571,
+        "_c": 1662961294,
+        "_d": 1259909294
+      },
+      "provenance": {
+        "sourceKind": "assetripper-monobehaviour-blood-hunts",
+        "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
+        "prefabSourceRef": "data/prefabs/All.json",
+        "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
+        "hideLevelSourceValue": 0
+      }
+    }
+  }
+}
