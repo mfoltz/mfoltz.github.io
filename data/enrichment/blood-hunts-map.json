@@ -15,11 +15,13 @@
         "_c": 1804064945,
         "_d": -492151920
       },
+      "nameLocalizationGuid": "a9c38cae-4d12-44dd-b1d8-876b905baae2",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -35,11 +37,13 @@
         "_c": -1814552402,
         "_d": 734748326
       },
+      "nameLocalizationGuid": "59af5689-73bc-49cc-ae20-d893a65ecb2b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -55,11 +59,13 @@
         "_c": 264151730,
         "_d": 934388860
       },
+      "nameLocalizationGuid": "4d645623-80e5-4d9e-b2a2-be0f7ca4b137",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -75,11 +81,13 @@
         "_c": 1419647660,
         "_d": 692513366
       },
+      "nameLocalizationGuid": "de6bdc63-562d-4441-ac1a-9e5456ea4629",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -95,11 +103,13 @@
         "_c": 633446831,
         "_d": -559751700
       },
+      "nameLocalizationGuid": "0404cf9d-9b94-43e2-afa1-c125ecdda2de",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -115,11 +125,13 @@
         "_c": 2033021088,
         "_d": 1616325332
       },
+      "nameLocalizationGuid": "53d5aebb-d82b-4a94-a070-2d79d42a5760",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -135,11 +147,13 @@
         "_c": 973463213,
         "_d": 1205737568
       },
+      "nameLocalizationGuid": "9c7c1ef0-cf92-412a-adde-053a6018de47",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -155,11 +169,13 @@
         "_c": 81069982,
         "_d": -1189635642
       },
+      "nameLocalizationGuid": "846da9a8-95af-458f-9e07-d504c69917b9",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -175,11 +191,13 @@
         "_c": 944169373,
         "_d": 1884908309
       },
+      "nameLocalizationGuid": "7e1a0761-1a1a-4766-9de1-4638156b5970",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 1
       }
@@ -195,11 +213,13 @@
         "_c": -1911888210,
         "_d": 619786419
       },
+      "nameLocalizationGuid": "d553ccd2-fb35-49dc-aee6-0a8eb330f124",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -215,11 +235,13 @@
         "_c": 621028741,
         "_d": 1037196826
       },
+      "nameLocalizationGuid": "886eb898-df5a-460d-8525-04251a5ed23d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -235,11 +257,13 @@
         "_c": -1538908028,
         "_d": 1264759919
       },
+      "nameLocalizationGuid": "6d8b0943-47ab-49a7-8420-46a46fb4624b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -255,11 +279,13 @@
         "_c": 933608852,
         "_d": -1003517322
       },
+      "nameLocalizationGuid": "65bd2953-493b-4699-94bd-a537768a2fc4",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -275,11 +301,13 @@
         "_c": 560121523,
         "_d": -1962654914
       },
+      "nameLocalizationGuid": "a52b8c47-9562-4119-b3c6-62213e43048b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -295,11 +323,13 @@
         "_c": 1111860414,
         "_d": -1260104443
       },
+      "nameLocalizationGuid": "033181b8-c4ce-4ea8-bea4-45420555e4b4",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -315,11 +345,13 @@
         "_c": 362143916,
         "_d": 236122505
       },
+      "nameLocalizationGuid": "c2517a6c-1fa5-4fb5-ace0-951589f1120e",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -335,11 +367,13 @@
         "_c": -704460922,
         "_d": 1898092421
       },
+      "nameLocalizationGuid": "bbcdac34-dbd1-4e96-86c7-02d685972271",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -355,11 +389,13 @@
         "_c": 2111892637,
         "_d": -1472772177
       },
+      "nameLocalizationGuid": "e7644bef-0106-4ee5-9dec-e07daf4737a8",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -375,11 +411,13 @@
         "_c": 67269037,
         "_d": -1165998379
       },
+      "nameLocalizationGuid": "3b5a9d1b-1f50-4d07-ad71-0204d54680ba",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -395,11 +433,13 @@
         "_c": -790933068,
         "_d": 500706626
       },
+      "nameLocalizationGuid": "b8977486-8c0f-48dc-b451-dbd0422dd81d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -415,11 +455,13 @@
         "_c": -1476093548,
         "_d": -628636010
       },
+      "nameLocalizationGuid": "98b27507-db6e-494b-9499-04a896c687da",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -435,11 +477,13 @@
         "_c": -1193367887,
         "_d": -1405223469
       },
+      "nameLocalizationGuid": "7fee9abd-d1cc-4a3b-b1a6-deb8d3fd3dac",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -455,11 +499,13 @@
         "_c": -1637094469,
         "_d": 919632434
       },
+      "nameLocalizationGuid": "850d90b2-fcac-4988-bbeb-6b9e327ad036",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -475,11 +521,13 @@
         "_c": -497597035,
         "_d": -963233357
       },
+      "nameLocalizationGuid": "590ff5f7-b82f-47cc-9545-57e2b33996c6",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -495,11 +543,13 @@
         "_c": -893109087,
         "_d": 351551282
       },
+      "nameLocalizationGuid": "3e228167-88a2-410d-a13c-c4ca323ff414",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -515,11 +565,13 @@
         "_c": -557893220,
         "_d": 1538722245
       },
+      "nameLocalizationGuid": "198d311b-92db-4b67-9c39-bfdec509b75b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -535,11 +587,13 @@
         "_c": -698496105,
         "_d": -502147021
       },
+      "nameLocalizationGuid": "83409624-6b4e-4a09-97cb-5dd633d811e2",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -555,11 +609,13 @@
         "_c": 708297362,
         "_d": 690896233
       },
+      "nameLocalizationGuid": "fec53478-9ae5-46d4-92c2-372a693d2e29",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -575,11 +631,13 @@
         "_c": 1882162617,
         "_d": -1077331044
       },
+      "nameLocalizationGuid": "1f842f41-ebb2-4e69-b985-2f709c3bc9bf",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -595,11 +653,13 @@
         "_c": 257340568,
         "_d": -1506892857
       },
+      "nameLocalizationGuid": "69b296b9-b55b-4ef2-98b4-560fc7a32ea6",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -615,11 +675,13 @@
         "_c": -114630230,
         "_d": -1125811300
       },
+      "nameLocalizationGuid": "9afaaaa5-61e2-4132-aae1-2af99c7be5bc",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -635,11 +697,13 @@
         "_c": -2094373215,
         "_d": -2109230775
       },
+      "nameLocalizationGuid": "3b0d06aa-66f3-4a99-a166-2a8349b14782",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -655,11 +719,13 @@
         "_c": -358455400,
         "_d": -1142310420
       },
+      "nameLocalizationGuid": "9163ff1b-1784-461c-9867-a2eaecb9e9bb",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -675,11 +741,13 @@
         "_c": -2124586878,
         "_d": 444398919
       },
+      "nameLocalizationGuid": "846528ce-861c-4516-8260-5d8147fd7c1a",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -695,11 +763,13 @@
         "_c": -190804820,
         "_d": -1607684816
       },
+      "nameLocalizationGuid": "a174902c-6321-4470-ac8c-a0f430ad2ca0",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -715,11 +785,13 @@
         "_c": 447672245,
         "_d": 460430756
       },
+      "nameLocalizationGuid": "fb3e731a-933b-4ff8-b5ef-ae1aa49d711b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -735,11 +807,13 @@
         "_c": 1334740659,
         "_d": -1271606051
       },
+      "nameLocalizationGuid": "15da3e2d-6b6b-49d4-b386-8e4fddd434b4",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -755,11 +829,13 @@
         "_c": 883242624,
         "_d": -159229832
       },
+      "nameLocalizationGuid": "4ec97a89-7b65-4343-8036-a534785882f6",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -775,11 +851,13 @@
         "_c": 2056030135,
         "_d": 559293234
       },
+      "nameLocalizationGuid": "0d2e3f54-23b5-4ffd-b787-8c7a32235621",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -795,11 +873,13 @@
         "_c": -1296973694,
         "_d": -1659887210
       },
+      "nameLocalizationGuid": "7f5102ec-fa0d-449d-82c0-b1b29621109d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -815,11 +895,13 @@
         "_c": -1444071292,
         "_d": -1105947527
       },
+      "nameLocalizationGuid": "bff27151-9d05-45a5-8438-eda9799414be",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -835,11 +917,13 @@
         "_c": -665245024,
         "_d": 1295866169
       },
+      "nameLocalizationGuid": "7b7b7478-a726-4b8e-a02a-59d839593d4d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -855,11 +939,13 @@
         "_c": -2006563910,
         "_d": 2110544887
       },
+      "nameLocalizationGuid": "e3a817b1-c662-4543-ba43-6688f75bcc7d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -875,11 +961,13 @@
         "_c": 732638651,
         "_d": -1605286028
       },
+      "nameLocalizationGuid": "fefef080-eb6a-49e1-bb2d-ab2b744751a0",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -895,11 +983,13 @@
         "_c": -1596335979,
         "_d": 257005169
       },
+      "nameLocalizationGuid": "aa7475b0-6842-4c09-95d8-d9a07196510f",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -915,11 +1005,13 @@
         "_c": -1389443965,
         "_d": -1361188753
       },
+      "nameLocalizationGuid": "e3e5021f-a812-495c-83c4-2ead6fe8ddae",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -935,11 +1027,13 @@
         "_c": -504822101,
         "_d": -1380371104
       },
+      "nameLocalizationGuid": "c5c0bcf8-6a58-457e-ab06-e9e16035b9ad",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -955,11 +1049,13 @@
         "_c": -2096246387,
         "_d": -999299889
       },
+      "nameLocalizationGuid": "10b52efc-9c24-4f0e-8dd1-0d83cfe46fc4",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -975,11 +1071,13 @@
         "_c": -474524779,
         "_d": -1492731165
       },
+      "nameLocalizationGuid": "a2fd6eb4-9553-4fa3-9553-b7e3e3ba06a7",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -995,11 +1093,13 @@
         "_c": 1470630276,
         "_d": -1333366017
       },
+      "nameLocalizationGuid": "1d527ada-ec57-4fd8-8409-a857ff7286b0",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1015,11 +1115,13 @@
         "_c": -132458828,
         "_d": -922935991
       },
+      "nameLocalizationGuid": "3578461a-547d-4223-b4d6-1af8491dfdc8",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1035,11 +1137,13 @@
         "_c": -878458708,
         "_d": -1729857485
       },
+      "nameLocalizationGuid": "2fc6d543-b4ef-46fc-acc8-a3cb3378e498",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1055,11 +1159,13 @@
         "_c": -1927414123,
         "_d": 1026705784
       },
+      "nameLocalizationGuid": "22ffd45f-259a-47a5-95fe-1d8d7849323d",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1075,11 +1181,13 @@
         "_c": 195192510,
         "_d": -961118731
       },
+      "nameLocalizationGuid": "d7f5b785-a846-4f9e-be66-a20bf57db6c6",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1095,11 +1203,13 @@
         "_c": -1392176244,
         "_d": 482056027
       },
+      "nameLocalizationGuid": "cb492cc0-5523-4271-8c13-05ad5b97bb1c",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1115,11 +1225,13 @@
         "_c": -1849564018,
         "_d": 84931349
       },
+      "nameLocalizationGuid": "a7b2b314-aa8d-44a1-8ee4-c19115f30f05",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1135,11 +1247,13 @@
         "_c": -1532098674,
         "_d": -319532786
       },
+      "nameLocalizationGuid": "d4c423dd-de78-4652-8e07-aea40e51f4ec",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1155,11 +1269,13 @@
         "_c": 110004645,
         "_d": 1930887451
       },
+      "nameLocalizationGuid": "ba73c4c9-c890-4a32-a589-8e061b011773",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1175,11 +1291,13 @@
         "_c": 1097185449,
         "_d": -1432793934
       },
+      "nameLocalizationGuid": "460f5eef-29f9-4bab-a9b8-6541b24c99aa",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1195,11 +1313,13 @@
         "_c": 1055661737,
         "_d": -34985969
       },
+      "nameLocalizationGuid": "df33d822-c589-4c09-a91e-ec3e0f28eafd",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }
@@ -1215,11 +1335,13 @@
         "_c": 1662961294,
         "_d": 1259909294
       },
+      "nameLocalizationGuid": "9277b654-8567-49b5-8ec6-1e63aeb0184b",
       "provenance": {
         "sourceKind": "assetripper-monobehaviour-blood-hunts",
         "sourceRef": "MonoBehaviour/BloodHuntsDataAuthoring.json",
         "prefabSourceRef": "data/prefabs/All.json",
         "localizedNameSourceRef": "data/enrichment/prefab-localization.json:namesByGuid",
+        "localizedTextSourceRef": "Resources/Localization/English.json:Nodes",
         "npcDisplaySourceRef": "data/enrichment/npc-display-map.json",
         "hideLevelSourceValue": 0
       }

@@ -1,7 +1,8 @@
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { bloodHuntsSourceKind } from "./blood-hunts";
+import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
+import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
 import { isSafeSlug } from "../src/lib/slug";
 import {
   extractTextVariables,
@@ -75,11 +76,13 @@ type BloodHuntsMapEntry = {
   bloodHuntLevel: number;
   bloodHuntHideLevel: boolean;
   nameKey: BloodHuntsNameKey;
+  nameLocalizationGuid: string;
   provenance: {
     sourceKind: string;
     sourceRef: string;
     prefabSourceRef: string;
     localizedNameSourceRef: string;
+    localizedTextSourceRef: string;
     npcDisplaySourceRef: string;
     hideLevelSourceValue: number;
   };
@@ -95,6 +98,55 @@ type BloodHuntsMapSnapshot = {
 
 type PrefabDisplayMapEntry = {
   displayNameEn?: string;
+};
+
+type NpcClassificationMapEntry = {
+  guid?: number;
+  isVBlood?: boolean;
+  bloodType?: string;
+};
+
+type NpcPortraitCandidateEntry = {
+  assetName: string;
+  assetFamily: string;
+  assetSourceRefs: string[];
+  joinStatus: string;
+  approvalStatus?: string;
+  approvalNote?: string;
+  candidatePrefab?: string;
+  candidateGuid?: number;
+  displayNameEn?: string;
+  evidenceRefs: string[];
+  reason: string;
+};
+
+type NpcPortraitCandidatesSnapshot = {
+  schemaVersion: number;
+  sourceKind: string;
+  sourceRefs: string[];
+  totalAssets: number;
+  currentVbloodRows: number;
+  entriesByAssetName: Record<string, NpcPortraitCandidateEntry>;
+};
+
+type NpcPortraitMapEntry = {
+  prefab: string;
+  guid: number;
+  displayNameEn: string;
+  portraitAssetName: string;
+  portraitAssetFamily: string;
+  joinStatus: string;
+  approvalStatus?: string;
+  approvalNote?: string;
+  evidenceRefs: string[];
+};
+
+type NpcPortraitMapSnapshot = {
+  schemaVersion: number;
+  sourceKind: string;
+  sourceRef: string;
+  totalCurrentVbloodRows: number;
+  entriesByPrefab: Record<string, NpcPortraitMapEntry>;
 };
 
 const prefabCategoryParityTargets = [
@@ -302,15 +354,79 @@ async function validateBloodHuntsMap(repoRoot: string): Promise<void> {
     assert(typeof entry.bloodHuntLevel === "number" && entry.bloodHuntLevel > 0, `${source}: missing positive bloodHuntLevel`);
     assert(typeof entry.bloodHuntHideLevel === "boolean", `${source}: bloodHuntHideLevel must be boolean`);
     assertBloodHuntsNameKey(entry.nameKey, source);
+    assert(entry.nameLocalizationGuid === nameKeyToLocalizationGuid(entry.nameKey), `${source}: nameLocalizationGuid must be derived from nameKey`);
     assert(entry.provenance?.sourceKind === bloodHuntsSourceKind, `${source}: missing Blood Hunts source provenance`);
     assert(entry.provenance.sourceRef === bloodHuntsMap.sourceRef, `${source}: entry sourceRef must match map sourceRef`);
     assert(entry.provenance.prefabSourceRef === "data/prefabs/All.json", `${source}: unexpected prefabSourceRef`);
     assert(entry.provenance.localizedNameSourceRef === "data/enrichment/prefab-localization.json:namesByGuid", `${source}: unexpected localizedNameSourceRef`);
+    assert(entry.provenance.localizedTextSourceRef === "Resources/Localization/English.json:Nodes", `${source}: unexpected localizedTextSourceRef`);
     assert(entry.provenance.npcDisplaySourceRef === "data/enrichment/npc-display-map.json", `${source}: unexpected npcDisplaySourceRef`);
     assert(
       Number(entry.provenance.hideLevelSourceValue) === (entry.bloodHuntHideLevel ? 1 : 0),
       `${source}: hideLevelSourceValue must match bloodHuntHideLevel`
     );
+  }
+}
+
+async function validateNpcPortraitMaps(repoRoot: string): Promise<void> {
+  const candidatesPath = path.join(repoRoot, "data", "enrichment", "npc-portrait-candidates.json");
+  const portraitMapPath = path.join(repoRoot, "data", "enrichment", "npc-portrait-map.json");
+  const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const npcDisplayPath = path.join(repoRoot, "data", "enrichment", "npc-display-map.json");
+  const npcClassificationPath = path.join(repoRoot, "data", "enrichment", "npc-classification-map.json");
+  const bloodHuntsMapPath = path.join(repoRoot, "data", "enrichment", "blood-hunts-map.json");
+
+  const [candidates, portraitMap, allPrefabs, npcDisplay, npcClassification, bloodHuntsMap] = await Promise.all([
+    readJson<NpcPortraitCandidatesSnapshot>(candidatesPath),
+    readJson<NpcPortraitMapSnapshot>(portraitMapPath),
+    readJson<Record<string, number>>(allPrefabsPath),
+    readJson<Record<string, PrefabDisplayMapEntry>>(npcDisplayPath),
+    readJson<Record<string, NpcClassificationMapEntry>>(npcClassificationPath),
+    readJson<BloodHuntsMapSnapshot>(bloodHuntsMapPath)
+  ]);
+  const bloodHuntsPrefabs = new Set(Object.values(bloodHuntsMap.entriesByGuid ?? {}).map((entry) => entry.prefab));
+
+  assert(candidates.schemaVersion === 1, `${candidatesPath}: expected schemaVersion 1`);
+  assert(candidates.sourceKind === npcPortraitCandidatesSourceKind, `${candidatesPath}: unexpected sourceKind '${candidates.sourceKind}'`);
+  assert(candidates.totalAssets === Object.keys(candidates.entriesByAssetName ?? {}).length, `${candidatesPath}: totalAssets must match entriesByAssetName count`);
+  assert(portraitMap.schemaVersion === 1, `${portraitMapPath}: expected schemaVersion 1`);
+  assert(portraitMap.sourceKind === npcPortraitMapSourceKind, `${portraitMapPath}: unexpected sourceKind '${portraitMap.sourceKind}'`);
+  assert(portraitMap.sourceRef === "data/enrichment/npc-portrait-candidates.json", `${portraitMapPath}: unexpected sourceRef`);
+
+  const validJoinStatuses = new Set(["source-backed", "user-attested", "circumstantial", "unsafe"]);
+  const validApprovalStatuses = new Set(["pending", "approved", "rejected"]);
+  for (const [assetName, entry] of Object.entries(candidates.entriesByAssetName ?? {})) {
+    const source = `${candidatesPath}:${assetName}`;
+    assert(entry.assetName === assetName, `${source}: assetName must match map key`);
+    assert(validJoinStatuses.has(entry.joinStatus), `${source}: invalid joinStatus '${entry.joinStatus}'`);
+    assert(Array.isArray(entry.assetSourceRefs) && entry.assetSourceRefs.length > 0, `${source}: missing assetSourceRefs`);
+    assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
+    assert(typeof entry.reason === "string" && entry.reason.trim().length > 0, `${source}: missing reason`);
+    if (entry.joinStatus !== "source-backed") {
+      assert(Boolean(entry.approvalStatus), `${source}: non-source-backed row must carry approvalStatus`);
+      assert(validApprovalStatuses.has(entry.approvalStatus ?? ""), `${source}: invalid approvalStatus '${entry.approvalStatus}'`);
+    }
+  }
+
+  for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab ?? {})) {
+    const source = `${portraitMapPath}:${prefab}`;
+    assert(entry.prefab === prefab, `${source}: prefab must match map key`);
+    assert(entry.joinStatus === "source-backed" || entry.joinStatus === "user-attested", `${source}: unusable joinStatus '${entry.joinStatus}' promoted into portrait map`);
+    assert(entry.joinStatus !== "user-attested" || entry.approvalStatus === "approved", `${source}: user-attested row must be approved before promotion`);
+    assert(!unsafeNpcPortraitPrefabPattern.test(prefab), `${source}: unsafe prefab variant promoted into portrait map`);
+    assert(allPrefabs[prefab] === entry.guid, `${source}: prefab '${prefab}' does not join through ${allPrefabsPath}`);
+    assert(npcDisplay[prefab]?.displayNameEn === entry.displayNameEn, `${source}: displayNameEn does not match ${npcDisplayPath}`);
+    const classificationEntry = npcClassification[prefab];
+    assert(
+      classificationEntry?.isVBlood === true || classificationEntry?.bloodType === "V Blood" || bloodHuntsPrefabs.has(prefab),
+      `${source}: portrait map row must join a current V Blood NPC classification or Blood Hunts row`
+    );
+    const candidate = candidates.entriesByAssetName?.[entry.portraitAssetName];
+    assert(Boolean(candidate), `${source}: portraitAssetName '${entry.portraitAssetName}' missing from ${candidatesPath}`);
+    assert(candidate?.candidatePrefab === prefab, `${source}: candidate prefab does not match promoted prefab`);
+    assert(candidate?.candidateGuid === entry.guid, `${source}: candidate guid does not match promoted guid`);
+    assert(candidate?.joinStatus === entry.joinStatus, `${source}: candidate joinStatus does not match promoted joinStatus`);
+    assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
   }
 }
 
@@ -432,6 +548,7 @@ async function main() {
   }
   await validatePrefabCategoryParity(repoRoot, prefabReferenceEntries);
   await validateBloodHuntsMap(repoRoot);
+  await validateNpcPortraitMaps(repoRoot);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();
