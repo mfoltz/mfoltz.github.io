@@ -25,6 +25,23 @@ const hiddenKeys = new Set([
   "runtimeDamageEvidence"
 ]);
 const copyKeyPattern = /(guid|path|prefab|route|source)/i;
+const recipeDetailPresentation = {
+  summaryFieldKeys: new Set(["craftDuration", "outputCount", "requirementCount", "repairCostCount"]),
+  playerSummaryKeys: new Set(["crafts", "requires", "repairsWith"]),
+  linkedRecordsAnchorId: "linked-records",
+  linkedRecordsTitle: "Linked Records",
+  summaryLabelCues: {
+    "Craft time": "⏱",
+    Output: "📦",
+    Ingredients: "🧩",
+    "Repair cost": "🔧"
+  } as Record<string, string>,
+  relationGroups: [
+    { key: "outputs", title: "Output records", emptyLabel: "No outputs recorded." },
+    { key: "requirements", title: "Ingredient records", emptyLabel: "No requirements recorded." },
+    { key: "repairCosts", title: "Repair records", emptyLabel: "No repair costs recorded." }
+  ] as const
+};
 
 interface ProvenanceLink {
   label: string;
@@ -95,6 +112,10 @@ function formatDuration(seconds: number): string {
   return remaining === 0 ? `${minutes}m` : `${minutes}m ${formatNumber(remaining)}s`;
 }
 
+function formatItemQuantity(value: number): string {
+  return `${formatNumber(value)}x`;
+}
+
 function formatFieldValue(value: unknown, format: DbFieldSpec["format"]): ReactNode {
   if (value === null || value === undefined) {
     return "-";
@@ -137,6 +158,11 @@ function isRelatedEntityRef(value: unknown): value is DbRelatedEntityRef {
 
 function isRelatedEntityList(value: unknown): value is DbRelatedEntityRef[] {
   return Array.isArray(value) && value.every((item) => isRelatedEntityRef(item));
+}
+
+function getRelatedEntityList(detail: DbEntityDetail, key: string): DbRelatedEntityRef[] {
+  const value = detail[key];
+  return isRelatedEntityList(value) ? value : [];
 }
 
 function isRuntimeDamageEvidence(value: unknown): value is DbRuntimeDamageEvidence {
@@ -1002,11 +1028,125 @@ function renderSourceActions(detail: DbEntityDetail) {
   );
 }
 
+function hasRecipeSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
+  if (section !== "recipes") {
+    return false;
+  }
+
+  return (
+    typeof detail.craftDuration === "number" ||
+    getRelatedEntityList(detail, "outputs").length > 0 ||
+    getRelatedEntityList(detail, "requirements").length > 0 ||
+    getRelatedEntityList(detail, "repairCosts").length > 0
+  );
+}
+
+function renderRecipeItemChip(item: DbRelatedEntityRef) {
+  const chipContent = (
+    <>
+      {item.icon ? <img src={item.icon} alt="" loading="lazy" className="h-6 w-6 rounded-[0.45rem] object-contain" /> : null}
+      {typeof item.amount === "number" ? <span className="font-semibold text-[var(--database-accent-soft)]">{formatItemQuantity(item.amount)}</span> : null}
+      <span className="min-w-0 truncate">{item.title}</span>
+    </>
+  );
+  const className = "database-chip inline-flex max-w-full items-center gap-2 rounded-full px-2.5 py-1.5 text-xs text-[var(--database-ink)]";
+
+  return item.path ? (
+    <Link key={`${item.prefab}:${item.guid ?? "unknown"}`} to={item.path} className={className}>
+      {chipContent}
+    </Link>
+  ) : (
+    <span key={`${item.prefab}:${item.guid ?? "unknown"}`} className={className}>
+      {chipContent}
+    </span>
+  );
+}
+
+function renderRecipeChipList(items: DbRelatedEntityRef[], emptyLabel?: string) {
+  if (items.length === 0) {
+    return emptyLabel ? <span className="text-xs text-[var(--database-dim)]">{emptyLabel}</span> : null;
+  }
+
+  return <div className="flex min-w-0 flex-wrap gap-2">{items.map(renderRecipeItemChip)}</div>;
+}
+
+function renderRecipeSummaryRow(label: string, value: ReactNode) {
+  const cue = recipeDetailPresentation.summaryLabelCues[label];
+
+  return (
+    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:items-center">
+      <dt className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">
+        {cue ? (
+          <span aria-hidden="true" className="text-[0.72rem] leading-none">
+            {cue}
+          </span>
+        ) : null}
+        <span>{label}</span>
+      </dt>
+      <dd className="min-w-0 text-sm leading-6 text-[var(--database-ink)]">{value}</dd>
+    </div>
+  );
+}
+
+function getRecipeLinkedRecordCount(detail: DbEntityDetail): number {
+  return recipeDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
+}
+
+function renderRecipeLinkedRecordsSurface(detail: DbEntityDetail) {
+  const linkedCount = getRecipeLinkedRecordCount(detail);
+  if (linkedCount === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title={recipeDetailPresentation.linkedRecordsTitle} anchorId={recipeDetailPresentation.linkedRecordsAnchorId} meta={`${formatNumber(linkedCount)} linked`}>
+      <div className="space-y-5">
+        {recipeDetailPresentation.relationGroups.map((relation) => {
+          const items = getRelatedEntityList(detail, relation.key);
+          if (items.length === 0) {
+            return null;
+          }
+
+          return (
+            <div key={relation.key} className="space-y-2.5">
+              <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
+              <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />
+            </div>
+          );
+        })}
+      </div>
+    </DbSurface>
+  );
+}
+
+function renderRecipeSummary(section: DbSection, detail: DbEntityDetail) {
+  if (!hasRecipeSummaryData(section, detail)) {
+    return null;
+  }
+
+  const outputs = getRelatedEntityList(detail, "outputs");
+  const requirements = getRelatedEntityList(detail, "requirements");
+  const repairCosts = getRelatedEntityList(detail, "repairCosts");
+  const repairEmptyLabel = detail.repairCostCount === 0 ? "None recorded" : undefined;
+
+  return (
+    <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
+      <dl className="divide-y divide-[var(--database-divider)]">
+        {typeof detail.craftDuration === "number" ? renderRecipeSummaryRow("Craft time", formatDuration(detail.craftDuration)) : null}
+        {outputs.length > 0 ? renderRecipeSummaryRow("Output", renderRecipeChipList(outputs)) : null}
+        {requirements.length > 0 ? renderRecipeSummaryRow("Ingredients", renderRecipeChipList(requirements)) : null}
+        {repairCosts.length > 0 || repairEmptyLabel ? renderRecipeSummaryRow("Repair cost", renderRecipeChipList(repairCosts, repairEmptyLabel)) : null}
+      </dl>
+    </div>
+  );
+}
+
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = getHeroCategories(section, detail);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy } = getHeroBodyCopy(section, detail);
+  const recipeSummary = renderRecipeSummary(section, detail);
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
@@ -1023,11 +1163,12 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
               <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
               {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
-              {bodyCopy ? (
+              {bodyCopy && !recipeSummary ? (
                 <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
+              {recipeSummary}
             </div>
             {detailIcon && !showSummaryRail ? (
               <DbIconAvatar
@@ -1078,6 +1219,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
 
 function buildSchemaJumpItems(
   schemaRelationSections: Array<{ key: string; title: string }>,
+  consolidatedRelationItem: DetailJumpItem | null,
   detail: DbEntityDetail,
   playerRows: DbDisplayRow[],
   hasTooltipSurface: boolean,
@@ -1108,10 +1250,14 @@ function buildSchemaJumpItems(
     items.push({ id: "usage-links", label: "Usage & Links" });
   }
 
-  for (const relation of schemaRelationSections) {
-    const value = detail[relation.key];
-    if (isRelatedEntityList(value) && value.length > 0) {
-      items.push({ id: `relation-${headingId(relation.title)}`, label: relation.title, meta: `${value.length}` });
+  if (consolidatedRelationItem) {
+    items.push(consolidatedRelationItem);
+  } else {
+    for (const relation of schemaRelationSections) {
+      const value = detail[relation.key];
+      if (isRelatedEntityList(value) && value.length > 0) {
+        items.push({ id: `relation-${headingId(relation.title)}`, label: relation.title, meta: `${value.length}` });
+      }
     }
   }
 
@@ -1143,9 +1289,26 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   }
 
   const schema = dbSchemas[section];
-  const factRows = buildRowsFromSpecs(detail, schema.factFields);
+  const hasStructuredRecipeSummary = hasRecipeSummaryData(section, detail);
+  const recipeLinkedRecordCount = hasStructuredRecipeSummary ? getRecipeLinkedRecordCount(detail) : 0;
+  const consolidatedRecipeRelationItem =
+    section === "recipes" && hasStructuredRecipeSummary && recipeLinkedRecordCount > 0
+      ? {
+          id: recipeDetailPresentation.linkedRecordsAnchorId,
+          label: recipeDetailPresentation.linkedRecordsTitle,
+          meta: formatNumber(recipeLinkedRecordCount)
+        }
+      : null;
+  const factRows = buildRowsFromSpecs(detail, schema.factFields).filter(
+    (row) => !hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.summaryFieldKeys.has(row.key)
+  );
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
-  const playerRows = [...buildSupplementalPlayerRows(section, detail), ...buildRowsFromSpecs(detail, schema.playerFields ?? []).filter((row) => row.key !== heroBodyKey)];
+  const playerRows = [
+    ...buildSupplementalPlayerRows(section, detail),
+    ...buildRowsFromSpecs(detail, schema.playerFields ?? []).filter(
+      (row) => row.key !== heroBodyKey && (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.playerSummaryKeys.has(row.key))
+    )
+  ];
   const abilityTooltipRows = section === "abilities" ? buildAbilityTooltipRows(detail) : [];
   const hasAbilityTooltipSurface =
     section === "abilities" &&
@@ -1175,6 +1338,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const provenanceGroups = buildProvenanceGroups(section, detail, schema.relationSections);
   const jumpItems = buildSchemaJumpItems(
     schema.relationSections,
+    consolidatedRecipeRelationItem,
     detail,
     playerRows,
     hasAbilityTooltipSurface,
@@ -1210,18 +1374,20 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ) : null}
 
-        {schema.relationSections.map((relation) => {
-          const value = detail[relation.key];
-          if (!isRelatedEntityList(value) || value.length === 0) {
-            return null;
-          }
+        {consolidatedRecipeRelationItem
+          ? renderRecipeLinkedRecordsSurface(detail)
+          : schema.relationSections.map((relation) => {
+              const value = detail[relation.key];
+              if (!isRelatedEntityList(value) || value.length === 0) {
+                return null;
+              }
 
-          return (
-            <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>
-              <DbReferenceList items={value} emptyLabel={relation.emptyLabel} />
-            </DbSurface>
-          );
-        })}
+              return (
+                <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>
+                  <DbReferenceList items={value} emptyLabel={relation.emptyLabel} />
+                </DbSurface>
+              );
+            })}
 
         {detailRows.length > 0 ? (
           <DbSurface title={schema.detailSectionTitle ?? "Record Details"} anchorId="record-details">

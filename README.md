@@ -161,6 +161,7 @@ When Codex needs native process spawning for this repo, use repo-owned npm scrip
 Approved spawn-enabled lanes:
 
 - `npm run qa:spawn-readiness`
+- `npm run dev:review`
 - `npm run build`
 - `npm run verify`
 - `npm run visual:compare`
@@ -170,6 +171,22 @@ Approved spawn-enabled lanes:
 - `npm run visual:compare:ci`
 
 If an exact-script approval is unavailable or inconvenient, use the GitHub Actions `Visual Review` artifact instead. Baseline refresh remains an explicit accepted-visual-change step even when the command is approved to spawn.
+
+Local browser review helper:
+
+```bash
+npm run dev:review -- --path /db/recipes/recipe-armor-boots-t01-bone
+```
+
+This helper starts one strict-port Vite server for the selected route, writes `.codex-tmp/dev-review/latest.json`, and prints the exact local URL plus a Codex Browser Use handoff line. It defaults to `127.0.0.1:5173` and does not silently hop to another port.
+
+If the port is occupied by a stale repo-local Vite server, retry with the explicit cleanup mode:
+
+```bash
+npm run dev:review -- --clean-stale --path /db/recipes/recipe-armor-boots-t01-bone
+```
+
+Cleanup is intentionally opt-in. Unknown port owners are reported but not killed. Use the printed `@browser-use open ...` line as a Codex instruction, not as text to paste into the browser address bar.
 
 ### Visual review screenshots
 
@@ -247,6 +264,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run visual:compare:capture:ci` compares screenshots from an already-built `dist/` while allowing screenshot diffs
 - `npm run visual:feedback` writes a draft design-feedback packet from the latest visual-review `report.json`
 - `npm run visual:summary` writes visual-review counts and artifact instructions to the GitHub Actions step summary when available
+- `npm run dev:review` starts a strict local Vite server for an in-app browser review route and writes `.codex-tmp/dev-review/latest.json`
 - `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation through `jiti`, without `tsx`, esbuild, or Node's `--test` runner
 - `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
 - `npm run qa:ingestion-readiness` writes a core-domain ingestion readiness report under `.codex-tmp/ingestion-readiness/`
