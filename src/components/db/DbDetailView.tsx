@@ -60,6 +60,24 @@ const itemDetailPresentation = {
     { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." }
   ] as const
 };
+const npcDetailPresentation = {
+  summaryFieldKeys: new Set(["npcKind", "npcLevel", "npcBloodType", "npcFaction", "npcUnitCategory", "essenceGain"]),
+  playerSummaryKeys: new Set(["npc-encounter", "npc-drops", "npc-servant"]),
+  linkedRecordsAnchorId: "linked-records",
+  linkedRecordsTitle: "Linked Records",
+  summaryLabelCues: {
+    Kind: "🎭",
+    Level: "✦",
+    Blood: "🩸",
+    Faction: "⚑",
+    Unit: "◇",
+    Essence: "✧"
+  } as Record<string, string>,
+  relationGroups: [
+    { key: "servantPrefabs", title: "Servant records", emptyLabel: "No servant variant linked." },
+    { key: "essenceItemPrefabs", title: "Essence drop records", emptyLabel: "No essence drop linked." }
+  ] as const
+};
 const workstationDetailPresentation = {
   summaryFieldKeys: new Set(["workstationRole", "stationKind", "matchingFloorType", "bonusServantType", "workstationRecipeCount", "workstationOutputCount"]),
   playerSummaryKeys: new Set(["workstation-role", "workstation-bonus", "workstation-recipes"]),
@@ -1286,6 +1304,91 @@ function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
   );
 }
 
+function hasNpcSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
+  if (section !== "npcs") {
+    return false;
+  }
+
+  return (
+    typeof detail.npcKind === "string" ||
+    typeof detail.npcLevel === "number" ||
+    typeof detail.npcBloodType === "string" ||
+    typeof detail.npcFaction === "string" ||
+    typeof detail.npcUnitCategory === "string" ||
+    typeof detail.essenceGain === "number"
+  );
+}
+
+function renderNpcSummaryRow(label: string, value: ReactNode) {
+  const cue = npcDetailPresentation.summaryLabelCues[label];
+
+  return (
+    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:items-center">
+      <dt className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">
+        {cue ? (
+          <span aria-hidden="true" className="text-[0.72rem] leading-none">
+            {cue}
+          </span>
+        ) : null}
+        <span>{label}</span>
+      </dt>
+      <dd className="min-w-0 text-sm leading-6 text-[var(--database-ink)]">{value}</dd>
+    </div>
+  );
+}
+
+function renderNpcSummary(section: DbSection, detail: DbEntityDetail) {
+  if (!hasNpcSummaryData(section, detail)) {
+    return null;
+  }
+
+  const unitCategory = typeof detail.npcUnitCategory === "string" && detail.npcUnitCategory !== "None" ? detail.npcUnitCategory : undefined;
+
+  return (
+    <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
+      <dl className="database-summary-rows-soft">
+        {typeof detail.npcKind === "string" ? renderNpcSummaryRow("Kind", detail.npcKind) : null}
+        {typeof detail.npcLevel === "number" ? renderNpcSummaryRow("Level", formatNumber(detail.npcLevel)) : null}
+        {typeof detail.npcBloodType === "string" ? renderNpcSummaryRow("Blood", detail.npcBloodType) : null}
+        {typeof detail.npcFaction === "string" ? renderNpcSummaryRow("Faction", detail.npcFaction) : null}
+        {unitCategory ? renderNpcSummaryRow("Unit", unitCategory) : null}
+        {typeof detail.essenceGain === "number" ? renderNpcSummaryRow("Essence", formatNumber(detail.essenceGain)) : null}
+      </dl>
+    </div>
+  );
+}
+
+function getNpcLinkedRecordCount(detail: DbEntityDetail): number {
+  return npcDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
+}
+
+function renderNpcLinkedRecordsSurface(detail: DbEntityDetail) {
+  const linkedCount = getNpcLinkedRecordCount(detail);
+  if (linkedCount === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title={npcDetailPresentation.linkedRecordsTitle} anchorId={npcDetailPresentation.linkedRecordsAnchorId} meta={`${formatNumber(linkedCount)} linked`}>
+      <div className="space-y-5">
+        {npcDetailPresentation.relationGroups.map((relation) => {
+          const items = getRelatedEntityList(detail, relation.key);
+          if (items.length === 0) {
+            return null;
+          }
+
+          return (
+            <div key={relation.key} className="space-y-2.5">
+              <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
+              <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />
+            </div>
+          );
+        })}
+      </div>
+    </DbSurface>
+  );
+}
+
 function hasWorkstationSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
   if (section !== "workstations") {
     return false;
@@ -1438,7 +1541,8 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const recipeSummary = renderRecipeSummary(section, detail);
   const workstationSummary = renderWorkstationHeroSummary(section, detail);
   const itemSummary = renderItemSummary(section, detail);
-  const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary;
+  const npcSummary = renderNpcSummary(section, detail);
+  const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary ?? npcSummary;
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const showHeroBodyCopy = Boolean(bodyCopy && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
@@ -1590,9 +1694,11 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const hasStructuredItemSummary = hasItemSummaryData(section, detail);
   const hasStructuredRecipeSummary = hasRecipeSummaryData(section, detail);
   const hasStructuredWorkstationSummary = hasWorkstationSummaryData(section, detail);
+  const hasStructuredNpcSummary = hasNpcSummaryData(section, detail);
   const itemLinkedRecordCount = hasStructuredItemSummary ? getItemLinkedRecordCount(detail) : 0;
   const recipeLinkedRecordCount = hasStructuredRecipeSummary ? getRecipeLinkedRecordCount(detail) : 0;
   const workstationLinkedRecordCount = hasStructuredWorkstationSummary ? getWorkstationLinkedRecordCount(detail) : 0;
+  const npcLinkedRecordCount = hasStructuredNpcSummary ? getNpcLinkedRecordCount(detail) : 0;
   const consolidatedItemRelationItem =
     section === "items" && hasStructuredItemSummary && itemLinkedRecordCount > 0
       ? {
@@ -1617,12 +1723,21 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           meta: formatNumber(workstationLinkedRecordCount)
         }
       : null;
-  const consolidatedRelationItem = consolidatedItemRelationItem ?? consolidatedRecipeRelationItem ?? consolidatedWorkstationRelationItem;
+  const consolidatedNpcRelationItem =
+    section === "npcs" && hasStructuredNpcSummary && npcLinkedRecordCount > 0
+      ? {
+          id: npcDetailPresentation.linkedRecordsAnchorId,
+          label: npcDetailPresentation.linkedRecordsTitle,
+          meta: formatNumber(npcLinkedRecordCount)
+        }
+      : null;
+  const consolidatedRelationItem = consolidatedItemRelationItem ?? consolidatedRecipeRelationItem ?? consolidatedWorkstationRelationItem ?? consolidatedNpcRelationItem;
   const factRows = buildRowsFromSpecs(detail, schema.factFields).filter(
     (row) =>
       (!hasStructuredItemSummary || !row.key || !itemDetailPresentation.summaryFieldKeys.has(row.key)) &&
       (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.summaryFieldKeys.has(row.key)) &&
-      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.summaryFieldKeys.has(row.key))
+      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.summaryFieldKeys.has(row.key)) &&
+      (!hasStructuredNpcSummary || !row.key || !npcDetailPresentation.summaryFieldKeys.has(row.key))
   );
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const playerRows = [
@@ -1632,7 +1747,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
     (row) =>
       row.key !== heroBodyKey &&
       (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.playerSummaryKeys.has(row.key)) &&
-      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.playerSummaryKeys.has(row.key))
+      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.playerSummaryKeys.has(row.key)) &&
+      (!hasStructuredNpcSummary || !row.key || !npcDetailPresentation.playerSummaryKeys.has(row.key))
   );
   const abilityTooltipRows = section === "abilities" ? buildAbilityTooltipRows(detail) : [];
   const hasAbilityTooltipSurface =
@@ -1701,12 +1817,14 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ) : null}
 
-        {consolidatedItemRelationItem || consolidatedRecipeRelationItem || consolidatedWorkstationRelationItem
+        {consolidatedItemRelationItem || consolidatedRecipeRelationItem || consolidatedWorkstationRelationItem || consolidatedNpcRelationItem
           ? consolidatedItemRelationItem
             ? renderItemLinkedRecordsSurface(detail)
             : consolidatedRecipeRelationItem
             ? renderRecipeLinkedRecordsSurface(detail)
-            : renderWorkstationLinkedRecordsSurface(detail)
+            : consolidatedWorkstationRelationItem
+            ? renderWorkstationLinkedRecordsSurface(detail)
+            : renderNpcLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {
               const value = detail[relation.key];
               if (!isRelatedEntityList(value) || value.length === 0) {

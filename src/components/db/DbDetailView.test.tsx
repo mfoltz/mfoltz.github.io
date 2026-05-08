@@ -4,6 +4,7 @@ import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { MemoryRouter } from "react-router-dom";
 import itemDetail from "../../../public/data/db/items/by-slug/item-boots-t01-bone.json";
+import npcDetail from "../../../public/data/db/npcs/by-slug/char-bandit-bomber.json";
 import recipeDetail from "../../../public/data/db/recipes/by-slug/recipe-armor-boots-t01-bone.json";
 import workstationDetail from "../../../public/data/db/workstations/by-slug/tm-crafting-station-jewelcrafting-table.json";
 import workstationWithInventoryDetail from "../../../public/data/db/workstations/by-slug/tm-refinement-station-sawmill-large.json";
@@ -45,6 +46,10 @@ function renderRecipeDetail() {
 
 function renderItemDetail() {
   return renderDetail(itemDetail as DbEntityDetail, "items");
+}
+
+function renderNpcDetail() {
+  return renderDetail(npcDetail as DbEntityDetail, "npcs");
 }
 
 function renderWorkstationDetail() {
@@ -109,6 +114,40 @@ test("structured item detail keeps localized copy while consolidating duplicate 
   assert.match(html, /Repair records/);
   assert.equal(countMatches(html, /href="#relation-crafted-from"/g), 0);
   assert.equal(countMatches(html, /href="#relation-repair-and-salvage"/g), 0);
+});
+
+test("structured NPC detail keeps summary cues while consolidating duplicate relation sections", () => {
+  const html = renderNpcDetail();
+
+  assert.match(html, /Kind/);
+  assert.match(html, /Level/);
+  assert.match(html, /Blood/);
+  assert.match(html, /Faction/);
+  assert.match(html, /Unit/);
+  assert.match(html, /Essence/);
+  assert.match(html, /🎭/);
+  assert.match(html, /✦/);
+  assert.match(html, /🩸/);
+  assert.match(html, /⚑/);
+  assert.match(html, /◇/);
+  assert.match(html, /✧/);
+
+  assert.doesNotMatch(html, />NPC Summary</);
+  assert.doesNotMatch(html, /preserved aggro, movement, and drop context/);
+  assert.doesNotMatch(html, />Encounter</);
+  assert.doesNotMatch(html, />Drop Context</);
+  assert.doesNotMatch(html, />Servant Context</);
+
+  assert.match(html, /Run Speed/);
+  assert.match(html, /Aggro Radius/);
+  assert.match(html, /Leash Distance/);
+
+  assert.equal(countMatches(html, /href="#linked-records"/g), 1);
+  assert.match(html, />Linked Records</);
+  assert.match(html, /Servant records/);
+  assert.match(html, /Essence drop records/);
+  assert.equal(countMatches(html, /href="#relation-servant-forms"/g), 0);
+  assert.equal(countMatches(html, /href="#relation-essence-drops"/g), 0);
 });
 
 test("structured workstation detail keeps summary cues while consolidating duplicate relation sections", () => {
