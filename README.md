@@ -61,10 +61,12 @@ The structured generators currently read from source material in:
 
 These markdown files are treated as extraction input, not as the public rendering model.
 
-Optional enrichment snapshots and curated ability icons live in:
+Optional enrichment snapshots and curated DB icons live in:
 
 - `data/enrichment/*.json`
 - `public/icons/abilities/*`
+- `public/icons/items/*`
+- `public/icons/buildables/*`
 
 `content/dev`, `content/user`, and `content/editing` remain out of the current app scope unless we explicitly revive authored guides later.
 
@@ -100,7 +102,7 @@ This starts from a clean generated-output root so stale legacy files under `publ
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability, item, and buildable portrait icons into `public/icons/abilities/`, `public/icons/items/`, and `public/icons/buildables/`.
 
 The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up. When the unresolved item-icon queue only contains `catalog-seed` generic equip-buff placeholders, treat it as parked until a source-backed icon appears instead of generating or guessing substitute artwork.
 
@@ -253,7 +255,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run generate:db` builds DB section indexes and detail files
 - `npm run generate:search` builds the lightweight unified search index
 - `npm run generate:data` runs the full generation pipeline
-- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability/item icon inputs from local external dumps
+- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability/item/buildable icon inputs from local external dumps
 - `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
@@ -272,7 +274,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 
 ## Contributor Notes
 
-- `public/data/` and `dist/` are build-generated. `public/icons/abilities/` is a repo-owned curated asset input preserved across generation.
+- `public/data/` and `dist/` are build-generated. `public/icons/abilities/`, `public/icons/items/`, and `public/icons/buildables/` are repo-owned curated asset inputs preserved across generation.
 - This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.

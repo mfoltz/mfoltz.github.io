@@ -21,6 +21,7 @@ const hiddenKeys = new Set([
   "tags",
   "prefabPath",
   "icon",
+  "portraitAssetPath",
   "textVariableValues",
   "runtimeDamageEvidence"
 ]);
@@ -40,6 +41,23 @@ const recipeDetailPresentation = {
     { key: "outputs", title: "Output records", emptyLabel: "No outputs recorded." },
     { key: "requirements", title: "Ingredient records", emptyLabel: "No requirements recorded." },
     { key: "repairCosts", title: "Repair records", emptyLabel: "No repair costs recorded." }
+  ] as const
+};
+const itemDetailPresentation = {
+  summaryFieldKeys: new Set(["recordKind", "itemGroup", "itemFamily", "itemType", "equipmentType", "weaponType", "level", "maxAmount", "durability", "consumeAbility"]),
+  linkedRecordsAnchorId: "linked-records",
+  linkedRecordsTitle: "Linked Records",
+  summaryLabelCues: {
+    Group: "🏷",
+    Kind: "◇",
+    Level: "✦",
+    Stack: "📚",
+    Durability: "🛡",
+    "Use effect": "⚡"
+  } as Record<string, string>,
+  relationGroups: [
+    { key: "relatedRecipes", title: "Crafting records", emptyLabel: "No crafting recipe linked." },
+    { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." }
   ] as const
 };
 const workstationDetailPresentation = {
@@ -1160,6 +1178,114 @@ function renderRecipeSummary(section: DbSection, detail: DbEntityDetail) {
   );
 }
 
+function hasItemSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
+  if (section !== "items") {
+    return false;
+  }
+
+  return (
+    typeof detail.itemGroup === "string" ||
+    typeof detail.itemFamily === "string" ||
+    typeof detail.itemType === "string" ||
+    typeof detail.equipmentType === "string" ||
+    typeof detail.weaponType === "string" ||
+    typeof detail.level === "number" ||
+    typeof detail.maxAmount === "number" ||
+    typeof detail.durability === "number" ||
+    typeof detail.consumeAbility === "string"
+  );
+}
+
+function combineDistinctValues(...values: Array<string | undefined>): string | undefined {
+  const distinct = uniqueStrings(values.filter((value): value is string => Boolean(value && value !== "None")));
+  return distinct.length > 0 ? distinct.join(" / ") : undefined;
+}
+
+function combineItemKindValues(itemType?: string, equipmentType?: string, weaponType?: string, group?: string): string | undefined {
+  const groupValues = new Set(
+    uniqueStrings((group ?? "").split(" / ").filter(Boolean)).map((value) => normalizeLooseToken(value))
+  );
+  const kindValues = [itemType, equipmentType, weaponType].filter((value): value is string => Boolean(value && value !== "None"));
+  const distinct = uniqueStrings(kindValues).filter((value) => !groupValues.has(normalizeLooseToken(value)));
+  return distinct.length > 0 ? distinct.join(" / ") : undefined;
+}
+
+function renderItemSummaryRow(label: string, value: ReactNode) {
+  const cue = itemDetailPresentation.summaryLabelCues[label];
+
+  return (
+    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:items-center">
+      <dt className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">
+        {cue ? (
+          <span aria-hidden="true" className="text-[0.72rem] leading-none">
+            {cue}
+          </span>
+        ) : null}
+        <span>{label}</span>
+      </dt>
+      <dd className="min-w-0 text-sm leading-6 text-[var(--database-ink)]">{value}</dd>
+    </div>
+  );
+}
+
+function renderItemSummary(section: DbSection, detail: DbEntityDetail) {
+  if (!hasItemSummaryData(section, detail)) {
+    return null;
+  }
+
+  const group = combineDistinctValues(typeof detail.itemGroup === "string" ? detail.itemGroup : undefined, typeof detail.itemFamily === "string" ? detail.itemFamily : undefined);
+  const kind = combineItemKindValues(
+    typeof detail.itemType === "string" ? detail.itemType : undefined,
+    typeof detail.equipmentType === "string" ? detail.equipmentType : undefined,
+    typeof detail.weaponType === "string" ? detail.weaponType : undefined,
+    group
+  );
+
+  return (
+    <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
+      <dl className="database-summary-rows-soft">
+        {group ? renderItemSummaryRow("Group", group) : null}
+        {kind ? renderItemSummaryRow("Kind", kind) : null}
+        {typeof detail.level === "number" ? renderItemSummaryRow("Level", formatNumber(detail.level)) : null}
+        {typeof detail.maxAmount === "number" ? renderItemSummaryRow("Stack", formatNumber(detail.maxAmount)) : null}
+        {typeof detail.durability === "number" ? renderItemSummaryRow("Durability", formatNumber(detail.durability)) : null}
+        {typeof detail.consumeAbility === "string" ? renderItemSummaryRow("Use effect", detail.consumeAbility) : null}
+      </dl>
+    </div>
+  );
+}
+
+function getItemLinkedRecordCount(detail: DbEntityDetail): number {
+  return itemDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
+}
+
+function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
+  const linkedCount = getItemLinkedRecordCount(detail);
+  if (linkedCount === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title={itemDetailPresentation.linkedRecordsTitle} anchorId={itemDetailPresentation.linkedRecordsAnchorId} meta={`${formatNumber(linkedCount)} linked`}>
+      <div className="space-y-5">
+        {itemDetailPresentation.relationGroups.map((relation) => {
+          const items = getRelatedEntityList(detail, relation.key);
+          if (items.length === 0) {
+            return null;
+          }
+
+          return (
+            <div key={relation.key} className="space-y-2.5">
+              <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
+              <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />
+            </div>
+          );
+        })}
+      </div>
+    </DbSurface>
+  );
+}
+
 function hasWorkstationSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
   if (section !== "workstations") {
     return false;
@@ -1203,8 +1329,8 @@ function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
   }
 
   return (
-    <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
-      <dl className="divide-y divide-[var(--database-divider)]">
+    <div className="database-summary-capsule rounded-[1.15rem] p-4">
+      <dl className="database-summary-rows-soft">
         {typeof detail.workstationRole === "string" ? renderWorkstationSummaryRow("Role", detail.workstationRole) : null}
         {typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
         {typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
@@ -1218,6 +1344,59 @@ function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
       </dl>
     </div>
   );
+}
+
+function renderWorkstationTitlePortrait(section: DbSection, detail: DbEntityDetail) {
+  const portraitAssetPath = typeof detail.portraitAssetPath === "string" ? detail.portraitAssetPath : undefined;
+  if (section !== "workstations" || !portraitAssetPath) {
+    return null;
+  }
+
+  return (
+    <span className="database-summary-capsule hidden h-14 w-14 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] sm:inline-flex">
+      <img
+        src={portraitAssetPath}
+        alt={`${detail.title} station portrait`}
+        className="h-12 w-12 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
+        loading="lazy"
+      />
+    </span>
+  );
+}
+
+function renderItemTitleIcon(section: DbSection, detail: DbEntityDetail) {
+  const icon = typeof detail.icon === "string" ? detail.icon : undefined;
+  if (section !== "items" || !icon) {
+    return null;
+  }
+
+  return (
+    <DbIconAvatar
+      title={detail.title}
+      icon={icon}
+      className="database-summary-capsule hidden h-14 w-14 rounded-[0.9rem] p-1 sm:flex"
+      imageClassName="object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
+      monogramClassName="text-xs"
+    />
+  );
+}
+
+function renderWorkstationHeroSummary(section: DbSection, detail: DbEntityDetail) {
+  const summary = renderWorkstationSummary(section, detail);
+  if (!summary) {
+    return null;
+  }
+
+  return <div className="mt-5 w-full">{summary}</div>;
+}
+
+function getHeroCategoryBadgeTone(section: DbSection, category: string, categories: string[]) {
+  if (section !== "workstations") {
+    return "muted";
+  }
+
+  const primaryCategory = categories.find((candidate) => candidate.toLowerCase() !== "tm");
+  return category === primaryCategory ? "accent" : "muted";
 }
 
 function getWorkstationLinkedRecordCount(detail: DbEntityDetail): number {
@@ -1257,8 +1436,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy } = getHeroBodyCopy(section, detail);
   const recipeSummary = renderRecipeSummary(section, detail);
-  const workstationSummary = renderWorkstationSummary(section, detail);
-  const structuredSummary = recipeSummary ?? workstationSummary;
+  const workstationSummary = renderWorkstationHeroSummary(section, detail);
+  const itemSummary = renderItemSummary(section, detail);
+  const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary;
+  const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
+  const showHeroBodyCopy = Boolean(bodyCopy && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
@@ -1271,18 +1453,22 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
       <div className={`grid gap-5 ${showSummaryRail ? "xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start" : ""}`}>
         <div className="min-w-0">
           <div className="flex items-start justify-between gap-4">
-            <div className="min-w-0 max-w-4xl">
+            <div className="min-w-0 flex-1 max-w-4xl">
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
-              <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
-              {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
-              {bodyCopy && !structuredSummary ? (
+              <div className="mt-3 inline-flex max-w-full items-center gap-3">
+                <h1 className="min-w-0 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
+                {renderWorkstationTitlePortrait(section, detail)}
+                {renderItemTitleIcon(section, detail)}
+              </div>
+              {subtitle ? <p className="mt-2.5 break-all font-mono text-[10px] tracking-[0.04em] text-[var(--database-dim)] opacity-80 sm:text-[11px]">{subtitle}</p> : null}
+              {showHeroBodyCopy ? (
                 <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
               {structuredSummary}
             </div>
-            {detailIcon && !showSummaryRail ? (
+            {detailIcon && !showSummaryRail && section !== "items" ? (
               <DbIconAvatar
                 title={detail.title}
                 icon={detailIcon}
@@ -1295,7 +1481,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
           <div className="mt-4 flex flex-wrap gap-2">
             {detail.tier ? <DbBadge tone="accent">{detail.tier}</DbBadge> : null}
             {visibleCategories.map((category) => (
-              <DbBadge key={category} tone="muted">
+              <DbBadge key={category} tone={getHeroCategoryBadgeTone(section, category, categories)}>
                 {category}
               </DbBadge>
             ))}
@@ -1401,10 +1587,20 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   }
 
   const schema = dbSchemas[section];
+  const hasStructuredItemSummary = hasItemSummaryData(section, detail);
   const hasStructuredRecipeSummary = hasRecipeSummaryData(section, detail);
   const hasStructuredWorkstationSummary = hasWorkstationSummaryData(section, detail);
+  const itemLinkedRecordCount = hasStructuredItemSummary ? getItemLinkedRecordCount(detail) : 0;
   const recipeLinkedRecordCount = hasStructuredRecipeSummary ? getRecipeLinkedRecordCount(detail) : 0;
   const workstationLinkedRecordCount = hasStructuredWorkstationSummary ? getWorkstationLinkedRecordCount(detail) : 0;
+  const consolidatedItemRelationItem =
+    section === "items" && hasStructuredItemSummary && itemLinkedRecordCount > 0
+      ? {
+          id: itemDetailPresentation.linkedRecordsAnchorId,
+          label: itemDetailPresentation.linkedRecordsTitle,
+          meta: formatNumber(itemLinkedRecordCount)
+        }
+      : null;
   const consolidatedRecipeRelationItem =
     section === "recipes" && hasStructuredRecipeSummary && recipeLinkedRecordCount > 0
       ? {
@@ -1421,9 +1617,10 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           meta: formatNumber(workstationLinkedRecordCount)
         }
       : null;
-  const consolidatedRelationItem = consolidatedRecipeRelationItem ?? consolidatedWorkstationRelationItem;
+  const consolidatedRelationItem = consolidatedItemRelationItem ?? consolidatedRecipeRelationItem ?? consolidatedWorkstationRelationItem;
   const factRows = buildRowsFromSpecs(detail, schema.factFields).filter(
     (row) =>
+      (!hasStructuredItemSummary || !row.key || !itemDetailPresentation.summaryFieldKeys.has(row.key)) &&
       (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.summaryFieldKeys.has(row.key)) &&
       (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.summaryFieldKeys.has(row.key))
   );
@@ -1444,7 +1641,9 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const hasRuntimeDamageEvidence =
     section === "abilities" && isRuntimeDamageEvidenceList(detail.runtimeDamageEvidence) && detail.runtimeDamageEvidence.length > 0;
   const detailRows = buildRowsFromSpecs(detail, schema.detailFields ?? []).filter((row) => row.key !== heroBodyKey);
-  const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []);
+  const usageRows = buildRowsFromSpecs(detail, schema.usageFields ?? []).filter(
+    (row) => !hasStructuredItemSummary || !row.key || !itemDetailPresentation.summaryFieldKeys.has(row.key)
+  );
   const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
   const technicalRows = buildRowsFromSpecs(detail, schema.technicalFields);
   const usedKeys = new Set<string>([
@@ -1502,8 +1701,10 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ) : null}
 
-        {consolidatedRecipeRelationItem || consolidatedWorkstationRelationItem
-          ? consolidatedRecipeRelationItem
+        {consolidatedItemRelationItem || consolidatedRecipeRelationItem || consolidatedWorkstationRelationItem
+          ? consolidatedItemRelationItem
+            ? renderItemLinkedRecordsSurface(detail)
+            : consolidatedRecipeRelationItem
             ? renderRecipeLinkedRecordsSurface(detail)
             : renderWorkstationLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {

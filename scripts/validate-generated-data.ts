@@ -38,6 +38,7 @@ type DetailEntry = {
   slug: string;
   icon?: string;
   iconAssetPath?: string;
+  portraitAssetPath?: string;
   description?: string;
   summary?: string;
   tooltipTextEn?: string;
@@ -186,6 +187,7 @@ type BuildablePortraitMapEntry = {
   displayNameEn?: string;
   portraitAssetName: string;
   portraitAssetFamily: string;
+  portraitAssetPath?: string;
   joinStatus: string;
   approvalStatus?: string;
   approvalNote?: string;
@@ -544,7 +546,25 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     if (displayEntry?.displayNameEn) {
       assert(entry.displayNameEn === displayEntry.displayNameEn, `${source}: displayNameEn does not match display map`);
     }
+
+    if (entry.portraitAssetPath) {
+      assert(Boolean(workstationDisplay[prefab]), `${source}: portraitAssetPath is only approved for workstation rows`);
+      assert(entry.joinStatus === "source-backed", `${source}: portraitAssetPath requires a source-backed join`);
+      assertBuildablePortraitPath(entry.portraitAssetPath, source);
+      assert(
+        entry.evidenceRefs.includes(`Texture2D/${entry.portraitAssetName}`) || entry.evidenceRefs.includes(`Sprite/${entry.portraitAssetName}`),
+        `${source}: portraitAssetPath must be backed by a Texture2D or Sprite evidence ref`
+      );
+      await assertPublicIconExists(repoRoot, entry.portraitAssetPath, source);
+    }
   }
+
+  const publicPortraitPaths = Object.values(portraitMap.entriesByPrefab ?? {}).filter((entry) => entry.portraitAssetPath).map((entry) => entry.portraitAssetPath as string);
+  assert(publicPortraitPaths.length <= 25, `${portraitMapPath}: expected at most 25 materialized buildable portrait paths, found ${publicPortraitPaths.length}`);
+  assert(
+    portraitMap.entriesByPrefab.TM_CraftingStation_JewelcraftingTable?.portraitAssetPath === "/icons/buildables/Stunlock_Icon_Structure_JewelcraftingTable.png",
+    `${portraitMapPath}: Jewelcrafting Table must keep the approved source-backed portrait path`
+  );
 }
 
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
@@ -618,6 +638,15 @@ function assertItemIconPath(icon: string | undefined, source: string): void {
   }
 
   assert(icon.startsWith("/icons/items/"), `${source}: icon '${icon}' is not an approved item icon path`);
+  assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
+}
+
+function assertBuildablePortraitPath(icon: string | undefined, source: string): void {
+  if (!icon) {
+    return;
+  }
+
+  assert(icon.startsWith("/icons/buildables/"), `${source}: icon '${icon}' is not an approved buildable portrait path`);
   assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
 }
 
@@ -717,6 +746,10 @@ async function main() {
         [detail.description, detail.summary, detail.tooltipTextEn, detail.localizedDescriptionTextEn],
         `${filePath}:${detail.slug}`
       );
+      if (section === "workstations" && detail.portraitAssetPath) {
+        assertBuildablePortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+        await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+      }
     }
   }
 

@@ -1,7 +1,9 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { MemoryRouter } from "react-router-dom";
+import itemDetail from "../../../public/data/db/items/by-slug/item-boots-t01-bone.json";
 import recipeDetail from "../../../public/data/db/recipes/by-slug/recipe-armor-boots-t01-bone.json";
 import workstationDetail from "../../../public/data/db/workstations/by-slug/tm-crafting-station-jewelcrafting-table.json";
 import workstationWithInventoryDetail from "../../../public/data/db/workstations/by-slug/tm-refinement-station-sawmill-large.json";
@@ -39,6 +41,10 @@ function renderDetail(detail: DbEntityDetail, section: DbSection) {
 
 function renderRecipeDetail() {
   return renderDetail(recipeDetail as DbEntityDetail, "recipes");
+}
+
+function renderItemDetail() {
+  return renderDetail(itemDetail as DbEntityDetail, "items");
 }
 
 function renderWorkstationDetail() {
@@ -81,6 +87,30 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
   assert.equal(countMatches(html, /href="#relation-repair-costs"/g), 0);
 });
 
+test("structured item detail keeps localized copy while consolidating duplicate relation sections", () => {
+  const html = renderItemDetail();
+
+  assert.match(html, /Group/);
+  assert.match(html, /Kind/);
+  assert.match(html, /Stack/);
+  assert.match(html, /Durability/);
+  assert.match(html, /Armor \/ Footgear/);
+  assert.match(html, /Equippable/);
+  assert.doesNotMatch(html, /Equippable \/ Footgear/);
+  assert.doesNotMatch(html, />Item Summary</);
+
+  assert.match(html, /Armour made from collecting the bones of the dead/);
+  assert.doesNotMatch(html, /None item, max stack 1\./);
+  assert.doesNotMatch(html, />Record Type</);
+
+  assert.equal(countMatches(html, /href="#linked-records"/g), 1);
+  assert.match(html, />Linked Records</);
+  assert.match(html, /Crafting records/);
+  assert.match(html, /Repair records/);
+  assert.equal(countMatches(html, /href="#relation-crafted-from"/g), 0);
+  assert.equal(countMatches(html, /href="#relation-repair-and-salvage"/g), 0);
+});
+
 test("structured workstation detail keeps summary cues while consolidating duplicate relation sections", () => {
   const html = renderWorkstationDetail();
 
@@ -96,6 +126,8 @@ test("structured workstation detail keeps summary cues while consolidating dupli
   assert.match(html, /✦/);
   assert.match(html, /📜/);
   assert.match(html, /📦/);
+  assert.match(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_JewelcraftingTable\.png"/);
+  assert.match(html, /alt="Jewelcrafting Table station portrait"/);
 
   assert.doesNotMatch(html, />Station Summary</);
   assert.doesNotMatch(html, /Station workstation record with player-facing naming and technical prefab context/);
@@ -110,6 +142,13 @@ test("structured workstation detail keeps summary cues while consolidating dupli
   assert.equal(countMatches(html, /href="#relation-recipe-outputs"/g), 0);
   assert.equal(countMatches(html, /href="#relation-station-recipes"/g), 0);
   assert.equal(countMatches(html, /href="#relation-inventory-prefabs"/g), 0);
+});
+
+test("structured workstation detail does not render a portrait placeholder without a source-backed path", () => {
+  const html = renderDetail({ ...(workstationDetail as DbEntityDetail), portraitAssetPath: undefined }, "workstations");
+
+  assert.doesNotMatch(html, /station portrait/);
+  assert.doesNotMatch(html, /\/icons\/buildables\//);
 });
 
 test("structured workstation linked records surface includes inventory group when data exists", () => {

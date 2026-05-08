@@ -43,6 +43,7 @@ export interface BuildablePortraitMapEntry {
   displayNameEn?: string;
   portraitAssetName: string;
   portraitAssetFamily: string;
+  portraitAssetPath?: string;
   joinStatus: Extract<BuildablePortraitJoinStatus, "source-backed" | "user-attested">;
   approvalStatus?: Extract<BuildablePortraitApprovalStatus, "approved">;
   approvalNote?: string;
@@ -63,6 +64,19 @@ export interface BuildablePortraitBuildOptions {
   workstationDisplayByPrefab?: Record<string, BuildableDisplayEntry | undefined>;
   blueprintDisplayByPrefab?: Record<string, BuildableDisplayEntry | undefined>;
   userApprovedPortraitCandidates?: Record<string, { prefab: string; approvalNote: string }>;
+}
+
+export interface BuildablePortraitPublicAsset {
+  prefab: string;
+  fileName: string;
+  sourceRef: string;
+  publicPath: string;
+}
+
+export interface SelectBuildablePortraitPublicAssetOptions {
+  workstationPrefabs: Iterable<string>;
+  maxPublicAssets?: number;
+  availableSourceRefs?: Iterable<string>;
 }
 
 interface BuildableDisplayEntry {
@@ -106,6 +120,82 @@ function addAlias(aliases: Set<string>, value: string | undefined): void {
 function sortSourceRefs(sourceRefs: string[]): string[] {
   const rank = (sourceRef: string) => (sourceRef.startsWith("Texture2D/") ? 0 : sourceRef.startsWith("Sprite/") ? 1 : 2);
   return [...sourceRefs].sort((left, right) => rank(left) - rank(right) || left.localeCompare(right));
+}
+
+function preferredPublicSourceRef(entry: BuildablePortraitMapEntry, availableSourceRefs?: Set<string>): string | undefined {
+  const textureRef = `Texture2D/${entry.portraitAssetName}`;
+  const spriteRef = `Sprite/${entry.portraitAssetName}`;
+  const candidates = [textureRef, spriteRef];
+
+  for (const sourceRef of candidates) {
+    if (!entry.evidenceRefs.includes(sourceRef)) {
+      continue;
+    }
+    if (availableSourceRefs && !availableSourceRefs.has(sourceRef)) {
+      continue;
+    }
+    return sourceRef;
+  }
+
+  return undefined;
+}
+
+export function selectBuildablePortraitPublicAssets(
+  portraitMap: BuildablePortraitMapSnapshot,
+  options: SelectBuildablePortraitPublicAssetOptions
+): BuildablePortraitPublicAsset[] {
+  const workstationPrefabs = new Set(options.workstationPrefabs);
+  const availableSourceRefs = options.availableSourceRefs ? new Set(options.availableSourceRefs) : undefined;
+  const maxPublicAssets = options.maxPublicAssets ?? 25;
+  const assets: BuildablePortraitPublicAsset[] = [];
+
+  for (const entry of Object.values(portraitMap.entriesByPrefab)) {
+    if (!workstationPrefabs.has(entry.prefab) || entry.joinStatus !== "source-backed") {
+      continue;
+    }
+
+    const sourceRef = preferredPublicSourceRef(entry, availableSourceRefs);
+    if (!sourceRef) {
+      continue;
+    }
+
+    assets.push({
+      prefab: entry.prefab,
+      fileName: entry.portraitAssetName,
+      sourceRef,
+      publicPath: `/icons/buildables/${entry.portraitAssetName}`
+    });
+  }
+
+  const uniqueAssets = new Map<string, BuildablePortraitPublicAsset>();
+  for (const asset of assets.sort((left, right) => left.prefab.localeCompare(right.prefab) || left.fileName.localeCompare(right.fileName))) {
+    uniqueAssets.set(asset.prefab, asset);
+  }
+
+  if (uniqueAssets.size > maxPublicAssets) {
+    throw new Error(`Refusing to materialize ${uniqueAssets.size} buildable portrait assets; expected at most ${maxPublicAssets}.`);
+  }
+
+  return [...uniqueAssets.values()];
+}
+
+export function attachBuildablePortraitAssetPaths(
+  portraitMap: BuildablePortraitMapSnapshot,
+  publicAssets: BuildablePortraitPublicAsset[]
+): BuildablePortraitMapSnapshot {
+  const publicPathByPrefab = new Map(publicAssets.map((asset) => [asset.prefab, asset.publicPath]));
+  return {
+    ...portraitMap,
+    entriesByPrefab: Object.fromEntries(
+      Object.entries(portraitMap.entriesByPrefab).map(([prefab, entry]) => [
+        prefab,
+        {
+          ...entry,
+          ...(publicPathByPrefab.has(prefab) ? { portraitAssetPath: publicPathByPrefab.get(prefab) } : {})
+        }
+      ])
+    )
+  };
 }
 
 function assetFamily(assetName: string): string | undefined {

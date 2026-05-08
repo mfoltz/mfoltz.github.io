@@ -2312,7 +2312,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Anvil.png"
     },
     "TM_CraftingStation_ArtisansCorner": {
       "prefab": "TM_CraftingStation_ArtisansCorner",
@@ -2326,7 +2327,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_ArtisansCorner.png"
     },
     "TM_CraftingStation_BloodMixer": {
       "prefab": "TM_CraftingStation_BloodMixer",
@@ -2340,7 +2342,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_BloodMixer.png"
     },
     "TM_CraftingStation_FusionForge": {
       "prefab": "TM_CraftingStation_FusionForge",
@@ -2354,7 +2357,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_FusionForge.png"
     },
     "TM_CraftingStation_JewelcraftingTable": {
       "prefab": "TM_CraftingStation_JewelcraftingTable",
@@ -2368,7 +2372,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_JewelcraftingTable.png"
     },
     "TM_CraftingStation_SimpleCraftingBench": {
       "prefab": "TM_CraftingStation_SimpleCraftingBench",
@@ -2382,7 +2387,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_SimpleCraftingBench.png"
     },
     "TM_CraftingStation_Smithy": {
       "prefab": "TM_CraftingStation_Smithy",
@@ -2396,7 +2402,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Smithy.png"
     },
     "TM_CraftingStation_Stables": {
       "prefab": "TM_CraftingStation_Stables",
@@ -2410,7 +2417,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stables.png"
     },
     "TM_RefinementStation_Fabricator": {
       "prefab": "TM_RefinementStation_Fabricator",
@@ -2424,7 +2432,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Fabricator.png"
     },
     "TM_RefinementStation_Sawmill_Small": {
       "prefab": "TM_RefinementStation_Sawmill_Small",
@@ -2438,7 +2447,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/StructureIcon_SawmillSmall_Normal.png"
     },
     "TM_UnitStation_NetherGate": {
       "prefab": "TM_UnitStation_NetherGate",
@@ -2452,7 +2462,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_NetherGate.png"
     },
     "TM_UnitStation_Tomb": {
       "prefab": "TM_UnitStation_Tomb",
@@ -2466,7 +2477,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Tomb.png"
     },
     "TM_UnitStation_VerminNest": {
       "prefab": "TM_UnitStation_VerminNest",
@@ -2480,7 +2492,8 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_VerminNest.png"
     }
   }
 }
