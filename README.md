@@ -108,7 +108,7 @@ Asset dump discovery:
 
 - `VRISING_ASSET_DUMP_DIR` selects a single dump root
 - `VRISING_ASSET_DUMP_DIRS` checks multiple dump roots (comma/semicolon/newline separated)
-- otherwise the scripts check known local defaults, including the moved `Documents/Unorganized/Assets` dump
+- otherwise the scripts check the local default `C:/Users/mitch/Local/Assets`
 - a usable dump must contain `Texture2D/` with `Stunlock_Icon_*.png` files
 
 Optional legacy source discovery:

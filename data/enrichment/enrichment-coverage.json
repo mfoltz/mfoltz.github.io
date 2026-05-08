@@ -27,6 +27,13 @@
     "signal": "high-signal",
     "lowSignalExcluded": 3267
   },
+  "buildable-portrait-map": {
+    "total": 3928,
+    "matched": 177,
+    "coveragePct": 0.0451,
+    "signal": "high-signal",
+    "lowSignalExcluded": 0
+  },
   "item-description-map": {
     "total": 1130,
     "matched": 884,

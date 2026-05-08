@@ -42,6 +42,25 @@ const recipeDetailPresentation = {
     { key: "repairCosts", title: "Repair records", emptyLabel: "No repair costs recorded." }
   ] as const
 };
+const workstationDetailPresentation = {
+  summaryFieldKeys: new Set(["workstationRole", "stationKind", "matchingFloorType", "bonusServantType", "workstationRecipeCount", "workstationOutputCount"]),
+  playerSummaryKeys: new Set(["workstation-role", "workstation-bonus", "workstation-recipes"]),
+  linkedRecordsAnchorId: "linked-records",
+  linkedRecordsTitle: "Linked Records",
+  summaryLabelCues: {
+    Role: "🎭",
+    "Station kind": "🏰",
+    "Matching floor": "◈",
+    "Servant bonus": "✦",
+    Recipes: "📜",
+    Outputs: "📦"
+  } as Record<string, string>,
+  relationGroups: [
+    { key: "workstationOutputs", title: "Recipe output records", emptyLabel: "No buffer-backed recipe outputs linked." },
+    { key: "workstationRecipes", title: "Station recipe records", emptyLabel: "No buffer-backed station recipes linked." },
+    { key: "inventoryPrefabs", title: "Inventory records", emptyLabel: "No linked inventory prefab." }
+  ] as const
+};
 
 interface ProvenanceLink {
   label: string;
@@ -1141,12 +1160,105 @@ function renderRecipeSummary(section: DbSection, detail: DbEntityDetail) {
   );
 }
 
+function hasWorkstationSummaryData(section: DbSection, detail: DbEntityDetail): boolean {
+  if (section !== "workstations") {
+    return false;
+  }
+
+  return (
+    typeof detail.workstationRole === "string" ||
+    typeof detail.stationKind === "string" ||
+    typeof detail.matchingFloorType === "string" ||
+    typeof detail.bonusServantType === "string" ||
+    typeof detail.workstationRecipeCount === "number" ||
+    typeof detail.workstationOutputCount === "number"
+  );
+}
+
+function renderMutedNone(value: string) {
+  return value === "None" ? <span className="text-[var(--database-dim)]">None</span> : value;
+}
+
+function renderWorkstationSummaryRow(label: string, value: ReactNode) {
+  const cue = workstationDetailPresentation.summaryLabelCues[label];
+
+  return (
+    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:items-center">
+      <dt className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">
+        {cue ? (
+          <span aria-hidden="true" className="text-[0.72rem] leading-none">
+            {cue}
+          </span>
+        ) : null}
+        <span>{label}</span>
+      </dt>
+      <dd className="min-w-0 text-sm leading-6 text-[var(--database-ink)]">{value}</dd>
+    </div>
+  );
+}
+
+function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
+  if (!hasWorkstationSummaryData(section, detail)) {
+    return null;
+  }
+
+  return (
+    <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
+      <dl className="divide-y divide-[var(--database-divider)]">
+        {typeof detail.workstationRole === "string" ? renderWorkstationSummaryRow("Role", detail.workstationRole) : null}
+        {typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
+        {typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
+        {typeof detail.bonusServantType === "string" ? renderWorkstationSummaryRow("Servant bonus", renderMutedNone(detail.bonusServantType)) : null}
+        {typeof detail.workstationRecipeCount === "number"
+          ? renderWorkstationSummaryRow("Recipes", `${formatNumber(detail.workstationRecipeCount)} linked`)
+          : null}
+        {typeof detail.workstationOutputCount === "number"
+          ? renderWorkstationSummaryRow("Outputs", `${formatNumber(detail.workstationOutputCount)} linked`)
+          : null}
+      </dl>
+    </div>
+  );
+}
+
+function getWorkstationLinkedRecordCount(detail: DbEntityDetail): number {
+  return workstationDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
+}
+
+function renderWorkstationLinkedRecordsSurface(detail: DbEntityDetail) {
+  const linkedCount = getWorkstationLinkedRecordCount(detail);
+  if (linkedCount === 0) {
+    return null;
+  }
+
+  return (
+    <DbSurface title={workstationDetailPresentation.linkedRecordsTitle} anchorId={workstationDetailPresentation.linkedRecordsAnchorId} meta={`${formatNumber(linkedCount)} linked`}>
+      <div className="space-y-5">
+        {workstationDetailPresentation.relationGroups.map((relation) => {
+          const items = getRelatedEntityList(detail, relation.key);
+          if (items.length === 0) {
+            return null;
+          }
+
+          return (
+            <div key={relation.key} className="space-y-2.5">
+              <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
+              <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />
+            </div>
+          );
+        })}
+      </div>
+    </DbSurface>
+  );
+}
+
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = getHeroCategories(section, detail);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy } = getHeroBodyCopy(section, detail);
   const recipeSummary = renderRecipeSummary(section, detail);
+  const workstationSummary = renderWorkstationSummary(section, detail);
+  const structuredSummary = recipeSummary ?? workstationSummary;
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
@@ -1163,12 +1275,12 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
               <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
               {subtitle ? <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{subtitle}</p> : null}
-              {bodyCopy && !recipeSummary ? (
+              {bodyCopy && !structuredSummary ? (
                 <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
-              {recipeSummary}
+              {structuredSummary}
             </div>
             {detailIcon && !showSummaryRail ? (
               <DbIconAvatar
@@ -1290,7 +1402,9 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
 
   const schema = dbSchemas[section];
   const hasStructuredRecipeSummary = hasRecipeSummaryData(section, detail);
+  const hasStructuredWorkstationSummary = hasWorkstationSummaryData(section, detail);
   const recipeLinkedRecordCount = hasStructuredRecipeSummary ? getRecipeLinkedRecordCount(detail) : 0;
+  const workstationLinkedRecordCount = hasStructuredWorkstationSummary ? getWorkstationLinkedRecordCount(detail) : 0;
   const consolidatedRecipeRelationItem =
     section === "recipes" && hasStructuredRecipeSummary && recipeLinkedRecordCount > 0
       ? {
@@ -1299,16 +1413,30 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           meta: formatNumber(recipeLinkedRecordCount)
         }
       : null;
+  const consolidatedWorkstationRelationItem =
+    section === "workstations" && hasStructuredWorkstationSummary && workstationLinkedRecordCount > 0
+      ? {
+          id: workstationDetailPresentation.linkedRecordsAnchorId,
+          label: workstationDetailPresentation.linkedRecordsTitle,
+          meta: formatNumber(workstationLinkedRecordCount)
+        }
+      : null;
+  const consolidatedRelationItem = consolidatedRecipeRelationItem ?? consolidatedWorkstationRelationItem;
   const factRows = buildRowsFromSpecs(detail, schema.factFields).filter(
-    (row) => !hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.summaryFieldKeys.has(row.key)
+    (row) =>
+      (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.summaryFieldKeys.has(row.key)) &&
+      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.summaryFieldKeys.has(row.key))
   );
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const playerRows = [
     ...buildSupplementalPlayerRows(section, detail),
-    ...buildRowsFromSpecs(detail, schema.playerFields ?? []).filter(
-      (row) => row.key !== heroBodyKey && (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.playerSummaryKeys.has(row.key))
-    )
-  ];
+    ...buildRowsFromSpecs(detail, schema.playerFields ?? [])
+  ].filter(
+    (row) =>
+      row.key !== heroBodyKey &&
+      (!hasStructuredRecipeSummary || !row.key || !recipeDetailPresentation.playerSummaryKeys.has(row.key)) &&
+      (!hasStructuredWorkstationSummary || !row.key || !workstationDetailPresentation.playerSummaryKeys.has(row.key))
+  );
   const abilityTooltipRows = section === "abilities" ? buildAbilityTooltipRows(detail) : [];
   const hasAbilityTooltipSurface =
     section === "abilities" &&
@@ -1338,7 +1466,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const provenanceGroups = buildProvenanceGroups(section, detail, schema.relationSections);
   const jumpItems = buildSchemaJumpItems(
     schema.relationSections,
-    consolidatedRecipeRelationItem,
+    consolidatedRelationItem,
     detail,
     playerRows,
     hasAbilityTooltipSurface,
@@ -1374,8 +1502,10 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
           </DbSurface>
         ) : null}
 
-        {consolidatedRecipeRelationItem
-          ? renderRecipeLinkedRecordsSurface(detail)
+        {consolidatedRecipeRelationItem || consolidatedWorkstationRelationItem
+          ? consolidatedRecipeRelationItem
+            ? renderRecipeLinkedRecordsSurface(detail)
+            : renderWorkstationLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {
               const value = detail[relation.key];
               if (!isRelatedEntityList(value) || value.length === 0) {

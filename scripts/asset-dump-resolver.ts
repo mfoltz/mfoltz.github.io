@@ -22,10 +22,7 @@ export interface AssetDumpResolution {
   checked: AssetDumpInspection[];
 }
 
-const defaultAssetDumpDirs = [
-  "C:/Users/mitch/OneDrive/Documents/Assets",
-  "C:/Users/mitch/OneDrive/Documents/Unorganized/Assets"
-];
+export const defaultAssetDumpDirs = ["C:/Users/mitch/Local/Assets"];
 
 function splitConfiguredPaths(value: string | undefined): string[] {
   return (value ?? "")
