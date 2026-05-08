@@ -13,8 +13,6 @@ The app is fully structured and static-first:
 - generated JSON as the canonical content contract
 - GitHub Pages deployment from `dist/`
 
-Hugo is no longer part of the shipping path.
-
 ## Canonical Data Outputs
 
 Reference content is generated to:
