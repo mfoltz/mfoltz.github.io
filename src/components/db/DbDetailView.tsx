@@ -1682,7 +1682,14 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               ) : null}
             </div>
 
-            {placeStructuredSummaryInRail ? <div className="mt-4">{renderStructuredSummaryRows(section, detail)}</div> : renderSummaryRows(summaryFactRows)}
+            {placeStructuredSummaryInRail ? (
+              <div className="mt-4 space-y-4">
+                {renderStructuredSummaryRows(section, detail)}
+                {renderSummaryRows(summaryFactRows)}
+              </div>
+            ) : (
+              renderSummaryRows(summaryFactRows)
+            )}
           </aside>
         ) : null}
       </div>

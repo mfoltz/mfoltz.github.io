@@ -97,6 +97,12 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
   assert.equal(countMatches(html, /href="#relation-repair-costs"/g), 0);
 });
 
+test("structured recipe detail keeps non-summary fact rows in the quick facts rail", () => {
+  const html = renderDetail({ ...recipeDetailFixture, alwaysUnlocked: true, hideInStation: true, ignoreServerSettings: true }, "recipes");
+
+  assert.match(html, /Ignores Server Settings/);
+});
+
 test("structured item detail keeps localized copy while consolidating duplicate relation sections", () => {
   const html = renderItemDetail();
 
