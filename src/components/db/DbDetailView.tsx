@@ -1143,6 +1143,22 @@ function renderRecipeSummaryRow(label: string, value: ReactNode) {
   );
 }
 
+function renderRecipeSummaryRows(detail: DbEntityDetail) {
+  const outputs = getRelatedEntityList(detail, "outputs");
+  const requirements = getRelatedEntityList(detail, "requirements");
+  const repairCosts = getRelatedEntityList(detail, "repairCosts");
+  const repairEmptyLabel = detail.repairCostCount === 0 ? "None recorded" : undefined;
+
+  return (
+    <dl className="divide-y divide-[var(--database-divider)]">
+      {typeof detail.craftDuration === "number" ? renderRecipeSummaryRow("Craft time", formatDuration(detail.craftDuration)) : null}
+      {outputs.length > 0 ? renderRecipeSummaryRow("Output", renderRecipeChipList(outputs)) : null}
+      {requirements.length > 0 ? renderRecipeSummaryRow("Ingredients", renderRecipeChipList(requirements)) : null}
+      {repairCosts.length > 0 || repairEmptyLabel ? renderRecipeSummaryRow("Repair cost", renderRecipeChipList(repairCosts, repairEmptyLabel)) : null}
+    </dl>
+  );
+}
+
 function getRecipeLinkedRecordCount(detail: DbEntityDetail): number {
   return recipeDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
 }
@@ -1179,19 +1195,9 @@ function renderRecipeSummary(section: DbSection, detail: DbEntityDetail) {
     return null;
   }
 
-  const outputs = getRelatedEntityList(detail, "outputs");
-  const requirements = getRelatedEntityList(detail, "requirements");
-  const repairCosts = getRelatedEntityList(detail, "repairCosts");
-  const repairEmptyLabel = detail.repairCostCount === 0 ? "None recorded" : undefined;
-
   return (
     <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
-      <dl className="divide-y divide-[var(--database-divider)]">
-        {typeof detail.craftDuration === "number" ? renderRecipeSummaryRow("Craft time", formatDuration(detail.craftDuration)) : null}
-        {outputs.length > 0 ? renderRecipeSummaryRow("Output", renderRecipeChipList(outputs)) : null}
-        {requirements.length > 0 ? renderRecipeSummaryRow("Ingredients", renderRecipeChipList(requirements)) : null}
-        {repairCosts.length > 0 || repairEmptyLabel ? renderRecipeSummaryRow("Repair cost", renderRecipeChipList(repairCosts, repairEmptyLabel)) : null}
-      </dl>
+      {renderRecipeSummaryRows(detail)}
     </div>
   );
 }
@@ -1246,11 +1252,7 @@ function renderItemSummaryRow(label: string, value: ReactNode) {
   );
 }
 
-function renderItemSummary(section: DbSection, detail: DbEntityDetail) {
-  if (!hasItemSummaryData(section, detail)) {
-    return null;
-  }
-
+function getItemSummaryValues(detail: DbEntityDetail) {
   const group = combineDistinctValues(typeof detail.itemGroup === "string" ? detail.itemGroup : undefined, typeof detail.itemFamily === "string" ? detail.itemFamily : undefined);
   const kind = combineItemKindValues(
     typeof detail.itemType === "string" ? detail.itemType : undefined,
@@ -1259,16 +1261,32 @@ function renderItemSummary(section: DbSection, detail: DbEntityDetail) {
     group
   );
 
+  return { group, kind };
+}
+
+function renderItemSummaryRows(detail: DbEntityDetail) {
+  const { group, kind } = getItemSummaryValues(detail);
+
+  return (
+    <dl className="database-summary-rows-soft">
+      {group ? renderItemSummaryRow("Group", group) : null}
+      {kind ? renderItemSummaryRow("Kind", kind) : null}
+      {typeof detail.level === "number" ? renderItemSummaryRow("Level", formatNumber(detail.level)) : null}
+      {typeof detail.maxAmount === "number" ? renderItemSummaryRow("Stack", formatNumber(detail.maxAmount)) : null}
+      {typeof detail.durability === "number" ? renderItemSummaryRow("Durability", formatNumber(detail.durability)) : null}
+      {typeof detail.consumeAbility === "string" ? renderItemSummaryRow("Use effect", detail.consumeAbility) : null}
+    </dl>
+  );
+}
+
+function renderItemSummary(section: DbSection, detail: DbEntityDetail) {
+  if (!hasItemSummaryData(section, detail)) {
+    return null;
+  }
+
   return (
     <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
-      <dl className="database-summary-rows-soft">
-        {group ? renderItemSummaryRow("Group", group) : null}
-        {kind ? renderItemSummaryRow("Kind", kind) : null}
-        {typeof detail.level === "number" ? renderItemSummaryRow("Level", formatNumber(detail.level)) : null}
-        {typeof detail.maxAmount === "number" ? renderItemSummaryRow("Stack", formatNumber(detail.maxAmount)) : null}
-        {typeof detail.durability === "number" ? renderItemSummaryRow("Durability", formatNumber(detail.durability)) : null}
-        {typeof detail.consumeAbility === "string" ? renderItemSummaryRow("Use effect", detail.consumeAbility) : null}
-      </dl>
+      {renderItemSummaryRows(detail)}
     </div>
   );
 }
@@ -1337,23 +1355,29 @@ function renderNpcSummaryRow(label: string, value: ReactNode) {
   );
 }
 
+function renderNpcSummaryRows(detail: DbEntityDetail) {
+  const unitCategory = typeof detail.npcUnitCategory === "string" && detail.npcUnitCategory !== "None" ? detail.npcUnitCategory : undefined;
+
+  return (
+    <dl className="database-summary-rows-soft">
+      {typeof detail.npcKind === "string" ? renderNpcSummaryRow("Kind", detail.npcKind) : null}
+      {typeof detail.npcLevel === "number" ? renderNpcSummaryRow("Level", formatNumber(detail.npcLevel)) : null}
+      {typeof detail.npcBloodType === "string" ? renderNpcSummaryRow("Blood", detail.npcBloodType) : null}
+      {typeof detail.npcFaction === "string" ? renderNpcSummaryRow("Faction", detail.npcFaction) : null}
+      {unitCategory ? renderNpcSummaryRow("Unit", unitCategory) : null}
+      {typeof detail.essenceGain === "number" ? renderNpcSummaryRow("Essence", formatNumber(detail.essenceGain)) : null}
+    </dl>
+  );
+}
+
 function renderNpcSummary(section: DbSection, detail: DbEntityDetail) {
   if (!hasNpcSummaryData(section, detail)) {
     return null;
   }
 
-  const unitCategory = typeof detail.npcUnitCategory === "string" && detail.npcUnitCategory !== "None" ? detail.npcUnitCategory : undefined;
-
   return (
     <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
-      <dl className="database-summary-rows-soft">
-        {typeof detail.npcKind === "string" ? renderNpcSummaryRow("Kind", detail.npcKind) : null}
-        {typeof detail.npcLevel === "number" ? renderNpcSummaryRow("Level", formatNumber(detail.npcLevel)) : null}
-        {typeof detail.npcBloodType === "string" ? renderNpcSummaryRow("Blood", detail.npcBloodType) : null}
-        {typeof detail.npcFaction === "string" ? renderNpcSummaryRow("Faction", detail.npcFaction) : null}
-        {unitCategory ? renderNpcSummaryRow("Unit", unitCategory) : null}
-        {typeof detail.essenceGain === "number" ? renderNpcSummaryRow("Essence", formatNumber(detail.essenceGain)) : null}
-      </dl>
+      {renderNpcSummaryRows(detail)}
     </div>
   );
 }
@@ -1426,6 +1450,23 @@ function renderWorkstationSummaryRow(label: string, value: ReactNode) {
   );
 }
 
+function renderWorkstationSummaryRows(detail: DbEntityDetail) {
+  return (
+    <dl className="database-summary-rows-soft">
+      {typeof detail.workstationRole === "string" ? renderWorkstationSummaryRow("Role", detail.workstationRole) : null}
+      {typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
+      {typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
+      {typeof detail.bonusServantType === "string" ? renderWorkstationSummaryRow("Servant bonus", renderMutedNone(detail.bonusServantType)) : null}
+      {typeof detail.workstationRecipeCount === "number"
+        ? renderWorkstationSummaryRow("Recipes", `${formatNumber(detail.workstationRecipeCount)} linked`)
+        : null}
+      {typeof detail.workstationOutputCount === "number"
+        ? renderWorkstationSummaryRow("Outputs", `${formatNumber(detail.workstationOutputCount)} linked`)
+        : null}
+    </dl>
+  );
+}
+
 function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
   if (!hasWorkstationSummaryData(section, detail)) {
     return null;
@@ -1433,18 +1474,7 @@ function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
 
   return (
     <div className="database-summary-capsule rounded-[1.15rem] p-4">
-      <dl className="database-summary-rows-soft">
-        {typeof detail.workstationRole === "string" ? renderWorkstationSummaryRow("Role", detail.workstationRole) : null}
-        {typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
-        {typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
-        {typeof detail.bonusServantType === "string" ? renderWorkstationSummaryRow("Servant bonus", renderMutedNone(detail.bonusServantType)) : null}
-        {typeof detail.workstationRecipeCount === "number"
-          ? renderWorkstationSummaryRow("Recipes", `${formatNumber(detail.workstationRecipeCount)} linked`)
-          : null}
-        {typeof detail.workstationOutputCount === "number"
-          ? renderWorkstationSummaryRow("Outputs", `${formatNumber(detail.workstationOutputCount)} linked`)
-          : null}
-      </dl>
+      {renderWorkstationSummaryRows(detail)}
     </div>
   );
 }
@@ -1551,6 +1581,23 @@ function renderWorkstationLinkedRecordsSurface(detail: DbEntityDetail) {
   );
 }
 
+function renderStructuredSummaryRows(section: DbSection, detail: DbEntityDetail) {
+  if (section === "recipes" && hasRecipeSummaryData(section, detail)) {
+    return renderRecipeSummaryRows(detail);
+  }
+  if (section === "items" && hasItemSummaryData(section, detail)) {
+    return renderItemSummaryRows(detail);
+  }
+  if (section === "workstations" && hasWorkstationSummaryData(section, detail)) {
+    return renderWorkstationSummaryRows(detail);
+  }
+  if (section === "npcs" && hasNpcSummaryData(section, detail)) {
+    return renderNpcSummaryRows(detail);
+  }
+
+  return null;
+}
+
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = getHeroCategories(section, detail);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
@@ -1561,12 +1608,17 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const itemSummary = renderItemSummary(section, detail);
   const npcSummary = renderNpcSummary(section, detail);
   const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary ?? npcSummary;
+  const placeStructuredSummaryInRail = Boolean(recipeSummary || workstationSummary || itemSummary || npcSummary);
+  const summaryRailLabel = placeStructuredSummaryInRail ? eyebrow : humanizeKey(section);
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const showHeroBodyCopy = Boolean(bodyCopy && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
-  const showSummaryRail = summaryFactRows.length > 0;
+  const showSummaryRail = summaryFactRows.length > 0 || placeStructuredSummaryInRail;
+  const summaryRailClassName = placeStructuredSummaryInRail
+    ? "database-summary-capsule hidden rounded-[1.35rem] p-4 sm:p-5 xl:block"
+    : "database-summary-capsule rounded-[1.35rem] p-4 sm:p-5";
   const visibleCategories = categories.slice(0, 3);
   const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
 
@@ -1589,7 +1641,14 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
-              {structuredSummary}
+              {placeStructuredSummaryInRail ? (
+                <div className="xl:hidden">
+                  {structuredSummary}
+                  {summaryFactRows.length > 0 ? <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">{renderSummaryRows(summaryFactRows)}</div> : null}
+                </div>
+              ) : (
+                structuredSummary
+              )}
             </div>
             {detailIcon && !showSummaryRail && section !== "items" ? (
               <DbIconAvatar
@@ -1614,11 +1673,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
           {renderInlineFacts(inlineFactRows)}
         </div>
         {showSummaryRail ? (
-          <aside className="database-summary-capsule rounded-[1.35rem] p-4 sm:p-5">
+          <aside className={summaryRailClassName}>
             <div className="flex items-start justify-between gap-4">
               <div>
                 <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Quick Facts</div>
-                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{summaryRailLabel}</div>
               </div>
               {detailIcon ? (
                 <DbIconAvatar
@@ -1630,7 +1689,14 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               ) : null}
             </div>
 
-            {renderSummaryRows(summaryFactRows)}
+            {placeStructuredSummaryInRail ? (
+              <div className="mt-4 space-y-4">
+                {renderStructuredSummaryRows(section, detail)}
+                {renderSummaryRows(summaryFactRows)}
+              </div>
+            ) : (
+              renderSummaryRows(summaryFactRows)
+            )}
           </aside>
         ) : null}
       </div>
