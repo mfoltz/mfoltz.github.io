@@ -77,6 +77,9 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
   assert.match(html, /📦/);
   assert.match(html, /🧩/);
   assert.match(html, /🔧/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Recipe Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
 
   assert.doesNotMatch(html, />Recipe Summary</);
   assert.doesNotMatch(html, /Player Context/);
@@ -103,6 +106,9 @@ test("structured item detail keeps localized copy while consolidating duplicate 
   assert.match(html, /Durability/);
   assert.match(html, /Armor \/ Footgear/);
   assert.match(html, /Equippable/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Item Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
   assert.doesNotMatch(html, /Equippable \/ Footgear/);
   assert.doesNotMatch(html, />Item Summary</);
 
@@ -170,6 +176,9 @@ test("structured workstation detail keeps summary cues while consolidating dupli
   assert.match(html, /✦/);
   assert.match(html, /📜/);
   assert.match(html, /📦/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Workstation Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
   assert.match(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_JewelcraftingTable\.png"/);
   assert.match(html, /alt="Jewelcrafting Table station portrait"/);
 
