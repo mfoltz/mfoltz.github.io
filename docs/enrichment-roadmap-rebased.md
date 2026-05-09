@@ -36,6 +36,13 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 ## Current baseline outputs
 
 - `data/enrichment/enrichment-coverage.json` tracks high-signal matched counts and low-signal exclusions per domain.
+- `data/enrichment/blood-hunts-map.json` records the current source-backed Blood Hunts MonoBehaviour join.
 - `data/enrichment/npc-classification-map.json` records server-first NPC level, boss, blood type, faction, servant, and unit-category metadata for browse slices.
+- `data/enrichment/npc-portrait-map.json` records V Blood-scoped portrait evidence, but public NPC portrait binaries are not approved in this checkout until the policy and materialization lane land.
+- `data/enrichment/buildable-portrait-map.json` records source-backed buildable portrait evidence and approved materialized paths.
 - `data/enrichment/item-icon-manifest.json` records the currently materialized repo-backed item icon paths.
 - `data/enrichment/item-icon-unresolved.json` is the manual icon curation work queue.
+
+## Current follow-up roadmap
+
+Use `docs/source-backed-next-thread-roadmap.md` for the next source-backed thread order, blockers, and stop gates. The near-term sequence is to close the V Blood portrait lane first, then tighten harness confidence, then reopen only one evidence lane at a time.
