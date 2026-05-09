@@ -1641,7 +1641,14 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
-              {placeStructuredSummaryInRail ? <div className="xl:hidden">{structuredSummary}</div> : structuredSummary}
+              {placeStructuredSummaryInRail ? (
+                <div className="xl:hidden">
+                  {structuredSummary}
+                  {summaryFactRows.length > 0 ? <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">{renderSummaryRows(summaryFactRows)}</div> : null}
+                </div>
+              ) : (
+                structuredSummary
+              )}
             </div>
             {detailIcon && !showSummaryRail && section !== "items" ? (
               <DbIconAvatar
