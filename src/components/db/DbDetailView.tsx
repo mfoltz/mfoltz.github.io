@@ -1467,6 +1467,24 @@ function renderWorkstationTitlePortrait(section: DbSection, detail: DbEntityDeta
   );
 }
 
+function renderNpcTitlePortrait(section: DbSection, detail: DbEntityDetail) {
+  const portraitAssetPath = typeof detail.portraitAssetPath === "string" ? detail.portraitAssetPath : undefined;
+  if (section !== "npcs" || !portraitAssetPath) {
+    return null;
+  }
+
+  return (
+    <span className="database-summary-capsule hidden h-14 w-14 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] sm:inline-flex">
+      <img
+        src={portraitAssetPath}
+        alt={`${detail.title} NPC portrait`}
+        className="h-12 w-12 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
+        loading="lazy"
+      />
+    </span>
+  );
+}
+
 function renderItemTitleIcon(section: DbSection, detail: DbEntityDetail) {
   const icon = typeof detail.icon === "string" ? detail.icon : undefined;
   if (section !== "items" || !icon) {
@@ -1562,6 +1580,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               <div className="mt-3 inline-flex max-w-full items-center gap-3">
                 <h1 className="min-w-0 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
                 {renderWorkstationTitlePortrait(section, detail)}
+                {renderNpcTitlePortrait(section, detail)}
                 {renderItemTitleIcon(section, detail)}
               </div>
               {subtitle ? <p className="mt-2.5 break-all font-mono text-[10px] tracking-[0.04em] text-[var(--database-dim)] opacity-80 sm:text-[11px]">{subtitle}</p> : null}

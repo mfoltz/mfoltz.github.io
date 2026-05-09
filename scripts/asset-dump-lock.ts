@@ -12,7 +12,8 @@ const expectedFolders = ["MonoBehaviour", "Sprite", "TextAsset", "Texture2D"];
 const publicIconDirs = [
   ["public/icons/abilities", "abilities"],
   ["public/icons/items", "items"],
-  ["public/icons/buildables", "buildables"]
+  ["public/icons/buildables", "buildables"],
+  ["public/icons/npcs", "npcs"]
 ] as const;
 
 interface TextureRecord {

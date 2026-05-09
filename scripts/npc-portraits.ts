@@ -36,6 +36,7 @@ export interface NpcPortraitMapEntry {
   displayNameEn: string;
   portraitAssetName: string;
   portraitAssetFamily: string;
+  portraitAssetPath?: string;
   joinStatus: Extract<NpcPortraitJoinStatus, "source-backed" | "user-attested">;
   approvalStatus?: Extract<NpcPortraitApprovalStatus, "approved">;
   approvalNote?: string;
@@ -57,6 +58,18 @@ export interface NpcPortraitBuildOptions {
   npcClassificationByPrefab: Record<string, { guid?: number; isVBlood?: boolean; bloodType?: string } | undefined>;
   bloodHuntsByGuid: Record<string, { prefab?: string; guid?: number } | undefined>;
   vbloodNamesRows: Array<[string, string, string]>;
+}
+
+export interface NpcPortraitPublicAsset {
+  prefab: string;
+  fileName: string;
+  sourceRef: string;
+  publicPath: string;
+}
+
+export interface SelectNpcPortraitPublicAssetOptions {
+  maxPublicAssets?: number;
+  availableSourceRefs?: Iterable<string>;
 }
 
 type AssetRecord = {
@@ -301,6 +314,84 @@ function prefabStem(prefab: string): string {
 function sortSourceRefs(sourceRefs: string[]): string[] {
   const rank = (sourceRef: string) => (sourceRef.startsWith("Texture2D/") ? 0 : sourceRef.startsWith("Sprite/") ? 1 : 2);
   return [...sourceRefs].sort((left, right) => rank(left) - rank(right) || left.localeCompare(right));
+}
+
+function preferredPublicSourceRef(entry: NpcPortraitMapEntry, availableSourceRefs?: Set<string>): string | undefined {
+  const textureRef = `Texture2D/${entry.portraitAssetName}`;
+  const spriteRef = `Sprite/${entry.portraitAssetName}`;
+  for (const sourceRef of [textureRef, spriteRef]) {
+    if (!entry.evidenceRefs.includes(sourceRef)) {
+      continue;
+    }
+    if (availableSourceRefs && !availableSourceRefs.has(sourceRef)) {
+      continue;
+    }
+    return sourceRef;
+  }
+  return undefined;
+}
+
+function isPromotedPortraitEntry(entry: NpcPortraitMapEntry): boolean {
+  return entry.joinStatus === "source-backed" || (entry.joinStatus === "user-attested" && entry.approvalStatus === "approved");
+}
+
+export function selectNpcPortraitPublicAssets(
+  portraitMap: NpcPortraitMapSnapshot,
+  options: SelectNpcPortraitPublicAssetOptions = {}
+): NpcPortraitPublicAsset[] {
+  const availableSourceRefs = options.availableSourceRefs ? new Set(options.availableSourceRefs) : undefined;
+  const maxPublicAssets = options.maxPublicAssets ?? 75;
+  const assets: NpcPortraitPublicAsset[] = [];
+
+  for (const entry of Object.values(portraitMap.entriesByPrefab)) {
+    if (!isPromotedPortraitEntry(entry)) {
+      continue;
+    }
+    const sourceRef = preferredPublicSourceRef(entry, availableSourceRefs);
+    if (!sourceRef) {
+      continue;
+    }
+    assets.push({
+      prefab: entry.prefab,
+      fileName: entry.portraitAssetName,
+      sourceRef,
+      publicPath: `/icons/npcs/${entry.portraitAssetName}`
+    });
+  }
+
+  const uniqueAssets = new Map<string, NpcPortraitPublicAsset>();
+  for (const asset of assets.sort((left, right) => left.prefab.localeCompare(right.prefab) || left.fileName.localeCompare(right.fileName))) {
+    uniqueAssets.set(asset.prefab, asset);
+  }
+
+  if (uniqueAssets.size > maxPublicAssets) {
+    throw new Error(`Refusing to materialize ${uniqueAssets.size} NPC portrait assets; expected at most ${maxPublicAssets}.`);
+  }
+
+  return [...uniqueAssets.values()];
+}
+
+export function attachNpcPortraitAssetPaths(
+  portraitMap: NpcPortraitMapSnapshot,
+  publicAssets: NpcPortraitPublicAsset[]
+): NpcPortraitMapSnapshot {
+  const publicPathByPrefab = new Map(publicAssets.map((asset) => [asset.prefab, asset.publicPath]));
+  return {
+    ...portraitMap,
+    entriesByPrefab: Object.fromEntries(
+      Object.entries(portraitMap.entriesByPrefab).map(([prefab, entry]) => {
+        const entryWithoutPath = { ...entry };
+        delete entryWithoutPath.portraitAssetPath;
+        return [
+          prefab,
+          {
+            ...entryWithoutPath,
+            ...(publicPathByPrefab.has(prefab) ? { portraitAssetPath: publicPathByPrefab.get(prefab) } : {})
+          }
+        ];
+      })
+    )
+  };
 }
 
 function assetFamily(assetName: string): string | undefined {
