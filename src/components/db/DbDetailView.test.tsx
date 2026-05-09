@@ -3,14 +3,16 @@ import test from "node:test";
 import React from "react";
 import { renderToStaticMarkup } from "react-dom/server";
 import { MemoryRouter } from "react-router-dom";
-import itemDetail from "../../../public/data/db/items/by-slug/item-boots-t01-bone.json";
-import npcDetail from "../../../public/data/db/npcs/by-slug/char-bandit-bomber.json";
-import recipeDetail from "../../../public/data/db/recipes/by-slug/recipe-armor-boots-t01-bone.json";
-import workstationDetail from "../../../public/data/db/workstations/by-slug/tm-crafting-station-jewelcrafting-table.json";
-import workstationWithInventoryDetail from "../../../public/data/db/workstations/by-slug/tm-refinement-station-sawmill-large.json";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail } from "../../types/db";
 import { DbDetailView } from "./DbDetailView";
+import {
+  itemDetailFixture,
+  npcDetailFixture,
+  recipeDetailFixture,
+  workstationDetailFixture,
+  workstationWithInventoryDetailFixture
+} from "./DbDetailView.test.fixtures";
 
 function renderWithoutLayoutWarning(render: () => string) {
   const originalError = console.error;
@@ -41,23 +43,23 @@ function renderDetail(detail: DbEntityDetail, section: DbSection) {
 }
 
 function renderRecipeDetail() {
-  return renderDetail(recipeDetail as DbEntityDetail, "recipes");
+  return renderDetail(recipeDetailFixture, "recipes");
 }
 
 function renderItemDetail() {
-  return renderDetail(itemDetail as DbEntityDetail, "items");
+  return renderDetail(itemDetailFixture, "items");
 }
 
 function renderNpcDetail() {
-  return renderDetail(npcDetail as DbEntityDetail, "npcs");
+  return renderDetail(npcDetailFixture, "npcs");
 }
 
 function renderWorkstationDetail() {
-  return renderDetail(workstationDetail as DbEntityDetail, "workstations");
+  return renderDetail(workstationDetailFixture, "workstations");
 }
 
 function renderWorkstationWithInventoryDetail() {
-  return renderDetail(workstationWithInventoryDetail as DbEntityDetail, "workstations");
+  return renderDetail(workstationWithInventoryDetailFixture, "workstations");
 }
 
 function countMatches(value: string, pattern: RegExp): number {
@@ -184,7 +186,7 @@ test("structured workstation detail keeps summary cues while consolidating dupli
 });
 
 test("structured workstation detail does not render a portrait placeholder without a source-backed path", () => {
-  const html = renderDetail({ ...(workstationDetail as DbEntityDetail), portraitAssetPath: undefined }, "workstations");
+  const html = renderDetail({ ...workstationDetailFixture, portraitAssetPath: undefined }, "workstations");
 
   assert.doesNotMatch(html, /station portrait/);
   assert.doesNotMatch(html, /\/icons\/buildables\//);
