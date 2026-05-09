@@ -372,6 +372,19 @@ interface BuildablePortraitMapSnapshot {
   entriesByPrefab?: Record<string, BuildablePortraitMapEntry>;
 }
 
+interface NpcPortraitMapEntry {
+  prefab: string;
+  guid: number;
+  portraitAssetName: string;
+  portraitAssetPath?: string;
+  joinStatus?: string;
+  approvalStatus?: string;
+}
+
+interface NpcPortraitMapSnapshot {
+  entriesByPrefab?: Record<string, NpcPortraitMapEntry>;
+}
+
 interface NpcClassificationMapEntry {
   prefab: string;
   guid: number;
@@ -399,6 +412,7 @@ interface BuildContext {
   recipeLinkByPrefab: Map<string, RecipeLinkMapEntry>;
   npcClassificationByPrefab: Map<string, NpcClassificationMapEntry>;
   npcDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
+  npcPortraitByPrefab: Map<string, NpcPortraitMapEntry>;
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buildablePortraitByPrefab: Map<string, BuildablePortraitMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1536,6 +1550,41 @@ function parseBuildablePortraitMap(snapshot: BuildablePortraitMapSnapshot | null
   );
 }
 
+function parseNpcPortraitMap(snapshot: NpcPortraitMapSnapshot | null): Map<string, NpcPortraitMapEntry> {
+  return new Map(
+    Object.entries(snapshot?.entriesByPrefab ?? {})
+      .map(([prefabKey, rawEntry]) => {
+        if (!rawEntry || typeof rawEntry !== "object") {
+          return null;
+        }
+
+        const entry = rawEntry as unknown as Record<string, unknown>;
+        const prefab = toUnknownString(entry.prefab) ?? prefabKey;
+        const guid = toUnknownNumber(entry.guid);
+        const portraitAssetName = toUnknownString(entry.portraitAssetName);
+        const portraitAssetPath = toUnknownString(entry.portraitAssetPath);
+        const joinStatus = toUnknownString(entry.joinStatus);
+        const approvalStatus = toUnknownString(entry.approvalStatus);
+        if (!prefab || guid === undefined || !portraitAssetName) {
+          return null;
+        }
+
+        return [
+          prefab,
+          {
+            prefab,
+            guid,
+            portraitAssetName,
+            ...(portraitAssetPath ? { portraitAssetPath } : {}),
+            ...(joinStatus ? { joinStatus } : {}),
+            ...(approvalStatus ? { approvalStatus } : {})
+          }
+        ] as const;
+      })
+      .filter((entry): entry is readonly [string, NpcPortraitMapEntry] => Boolean(entry))
+  );
+}
+
 function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Map<string, NpcClassificationMapEntry> {
   return new Map(
     Object.entries(snapshot ?? {})
@@ -1584,7 +1633,7 @@ function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Ma
 
 async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
-  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, serverDamageEvidenceSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, workstationDisplaySnapshot, buildablePortraitSnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
+  const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, serverDamageEvidenceSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, npcPortraitSnapshot, workstationDisplaySnapshot, buildablePortraitSnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
     await Promise.all([
       readJsonIfExists<LocalizedNameSnapshot>(path.join(enrichmentDir, "prefab-localization.json")),
       readJsonIfExists<AbilityCatalogSnapshot>(path.join(enrichmentDir, "ability-catalog.json")),
@@ -1595,6 +1644,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "recipe-link-map.json")),
       readJsonIfExists<NpcClassificationMapSnapshot>(path.join(enrichmentDir, "npc-classification-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "npc-display-map.json")),
+      readJsonIfExists<NpcPortraitMapSnapshot>(path.join(enrichmentDir, "npc-portrait-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "workstation-display-map.json")),
       readJsonIfExists<BuildablePortraitMapSnapshot>(path.join(enrichmentDir, "buildable-portrait-map.json")),
       readJsonIfExists<Record<string, unknown>>(path.join(enrichmentDir, "blueprint-display-map.json")),
@@ -1755,6 +1805,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     recipeLinkByPrefab,
     npcClassificationByPrefab: parseNpcClassificationMap(npcClassificationSnapshot),
     npcDisplayByPrefab: parsePrefabDisplayMap(npcDisplaySnapshot),
+    npcPortraitByPrefab: parseNpcPortraitMap(npcPortraitSnapshot),
     workstationDisplayByPrefab: parsePrefabDisplayMap(workstationDisplaySnapshot),
     buildablePortraitByPrefab: parseBuildablePortraitMap(buildablePortraitSnapshot),
     blueprintDisplayByPrefab: parsePrefabDisplayMap(blueprintDisplaySnapshot),
@@ -2069,6 +2120,14 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
   const classificationEntry = classificationMapEntry && (doc.guid === null || classificationMapEntry.guid === doc.guid) ? classificationMapEntry : undefined;
   const displayMapEntry = buildContext.npcDisplayByPrefab.get(doc.prefabName);
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
+  const portraitMapEntry = buildContext.npcPortraitByPrefab.get(doc.prefabName);
+  const portraitEntry =
+    portraitMapEntry &&
+    typeof portraitMapEntry.portraitAssetPath === "string" &&
+    (portraitMapEntry.joinStatus === "source-backed" || (portraitMapEntry.joinStatus === "user-attested" && portraitMapEntry.approvalStatus === "approved")) &&
+    (doc.guid === null || portraitMapEntry.guid === doc.guid)
+      ? portraitMapEntry
+      : undefined;
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["CHAR"]);
   const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
   const isVBlood = classificationEntry?.isVBlood ?? doc.prefabName.includes("VBlood");
@@ -2142,6 +2201,7 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
       localizedSummaryEn: displayEntry?.summaryEn,
       iconAssetName: displayEntry?.iconAssetName,
       iconAssetPath: displayEntry?.iconAssetPath,
+      portraitAssetPath: portraitEntry?.portraitAssetPath,
       npcClassificationSourceKind: classificationEntry?.sourceKind,
       npcClassificationSourceRef: classificationEntry?.sourceRef,
       servantPrefabs: convertToUnit ? [convertToUnit] : [],

@@ -17,7 +17,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_ArchMage_VBlood_HeadPortrait.png"
     },
     "CHAR_Bandit_Bomber_VBlood": {
       "prefab": "CHAR_Bandit_Bomber_VBlood",
@@ -32,7 +33,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"
     },
     "CHAR_Bandit_Chaosarrow_VBlood": {
       "prefab": "CHAR_Bandit_Chaosarrow_VBlood",
@@ -49,7 +51,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_LidiaChaosArcher.png"
     },
     "CHAR_Bandit_Fisherman_VBlood": {
       "prefab": "CHAR_Bandit_Fisherman_VBlood",
@@ -66,7 +69,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Fisherman.png"
     },
     "CHAR_Bandit_Foreman_VBlood": {
       "prefab": "CHAR_Bandit_Foreman_VBlood",
@@ -81,7 +85,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Bandit_Foreman_VBlood_HeadPortrait.png"
     },
     "CHAR_Bandit_Frostarrow_VBlood": {
       "prefab": "CHAR_Bandit_Frostarrow_VBlood",
@@ -98,7 +103,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_KeelyFrostArcher.png"
     },
     "CHAR_Bandit_Stalker_VBlood": {
       "prefab": "CHAR_Bandit_Stalker_VBlood",
@@ -113,7 +119,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Bandit_Stalker_VBlood_HeadPortrait.png"
     },
     "CHAR_Bandit_StoneBreaker_VBlood": {
       "prefab": "CHAR_Bandit_StoneBreaker_VBlood",
@@ -130,7 +137,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_ErrolStonebreaker.png"
     },
     "CHAR_Bandit_Tourok_VBlood": {
       "prefab": "CHAR_Bandit_Tourok_VBlood",
@@ -145,7 +153,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Bandit_Tourok_VBlood_HeadPortrait.png"
     },
     "CHAR_BatVampire_VBlood": {
       "prefab": "CHAR_BatVampire_VBlood",
@@ -160,7 +169,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_BatVampire_VBlood_HeadPortrait.png"
     },
     "CHAR_Blackfang_Valyr_VBlood": {
       "prefab": "CHAR_Blackfang_Valyr_VBlood",
@@ -177,7 +187,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_ForgeBinder.png"
     },
     "CHAR_ChurchOfLight_Cardinal_VBlood": {
       "prefab": "CHAR_ChurchOfLight_Cardinal_VBlood",
@@ -194,7 +205,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_AzarielSunbringer.png"
     },
     "CHAR_ChurchOfLight_Overseer_VBlood": {
       "prefab": "CHAR_ChurchOfLight_Overseer_VBlood",
@@ -211,7 +223,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Overseer.png"
     },
     "CHAR_ChurchOfLight_Paladin_VBlood": {
       "prefab": "CHAR_ChurchOfLight_Paladin_VBlood",
@@ -228,7 +241,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_SolarusImmaculate.png"
     },
     "CHAR_ChurchOfLight_Sommelier_VBlood": {
       "prefab": "CHAR_ChurchOfLight_Sommelier_VBlood",
@@ -245,7 +259,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Sommelier.png"
     },
     "CHAR_Cursed_MountainBeast_VBlood": {
       "prefab": "CHAR_Cursed_MountainBeast_VBlood",
@@ -262,7 +277,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_GorecrusherBehemoth.png"
     },
     "CHAR_Cursed_ToadKing_VBlood": {
       "prefab": "CHAR_Cursed_ToadKing_VBlood",
@@ -279,7 +295,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_DukeBalaton.png"
     },
     "CHAR_Cursed_Witch_VBlood": {
       "prefab": "CHAR_Cursed_Witch_VBlood",
@@ -296,7 +313,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_MatkaCurseWeaver.png"
     },
     "CHAR_Forest_Bear_Dire_Vblood": {
       "prefab": "CHAR_Forest_Bear_Dire_Vblood",
@@ -313,7 +331,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_FerociousBear.png"
     },
     "CHAR_Forest_Wolf_VBlood": {
       "prefab": "CHAR_Forest_Wolf_VBlood",
@@ -330,7 +349,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_AlphaWolf.png"
     },
     "CHAR_Geomancer_Human_VBlood": {
       "prefab": "CHAR_Geomancer_Human_VBlood",
@@ -347,7 +367,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_TerahGeomancer.png"
     },
     "CHAR_Gloomrot_Purifier_VBlood": {
       "prefab": "CHAR_Gloomrot_Purifier_VBlood",
@@ -364,7 +385,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Purifier.png"
     },
     "CHAR_Gloomrot_TheProfessor_VBlood": {
       "prefab": "CHAR_Gloomrot_TheProfessor_VBlood",
@@ -381,7 +403,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Professor.png"
     },
     "CHAR_Harpy_Matriarch_VBlood": {
       "prefab": "CHAR_Harpy_Matriarch_VBlood",
@@ -398,7 +421,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_MorianStormwingMatriarch.png"
     },
     "CHAR_Manticore_VBlood": {
       "prefab": "CHAR_Manticore_VBlood",
@@ -415,7 +439,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_WingedHorror.png"
     },
     "CHAR_Militia_BishopOfDunley_VBlood": {
       "prefab": "CHAR_Militia_BishopOfDunley_VBlood",
@@ -432,7 +457,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_RazielShepherd.png"
     },
     "CHAR_Militia_Glassblower_VBlood": {
       "prefab": "CHAR_Militia_Glassblower_VBlood",
@@ -449,7 +475,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Glassblower.png"
     },
     "CHAR_Militia_Guard_VBlood": {
       "prefab": "CHAR_Militia_Guard_VBlood",
@@ -464,7 +491,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Militia_Guard_VBlood_HeadPortrait.png"
     },
     "CHAR_Militia_Leader_VBlood": {
       "prefab": "CHAR_Militia_Leader_VBlood",
@@ -479,7 +507,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Militia_Leader_VBlood_HeadPortrait.png"
     },
     "CHAR_Militia_Longbowman_LightArrow_Vblood": {
       "prefab": "CHAR_Militia_Longbowman_LightArrow_Vblood",
@@ -496,7 +525,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_MeredithBrightArcher.png"
     },
     "CHAR_Militia_Nun_VBlood": {
       "prefab": "CHAR_Militia_Nun_VBlood",
@@ -513,7 +543,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_ChristinaSunPriestess.png"
     },
     "CHAR_Poloma_VBlood": {
       "prefab": "CHAR_Poloma_VBlood",
@@ -530,7 +561,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_PoloraFeywalker.png"
     },
     "CHAR_Spider_Queen_VBlood": {
       "prefab": "CHAR_Spider_Queen_VBlood",
@@ -547,7 +579,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_UngoraSpiderQueen.png"
     },
     "CHAR_Undead_ArenaChampion_VBlood": {
       "prefab": "CHAR_Undead_ArenaChampion_VBlood",
@@ -564,7 +597,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_ArenaChampion.png"
     },
     "CHAR_Undead_BishopOfDeath_VBlood": {
       "prefab": "CHAR_Undead_BishopOfDeath_VBlood",
@@ -581,7 +615,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_GoreswineRavager.png"
     },
     "CHAR_Undead_BishopOfShadows_VBlood": {
       "prefab": "CHAR_Undead_BishopOfShadows_VBlood",
@@ -598,7 +633,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_LeandraShadowPriestess.png"
     },
     "CHAR_Undead_CursedSmith_VBlood": {
       "prefab": "CHAR_Undead_CursedSmith_VBlood",
@@ -615,7 +651,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_CursedSmith.png"
     },
     "CHAR_Undead_Leader_Vblood": {
       "prefab": "CHAR_Undead_Leader_Vblood",
@@ -632,7 +669,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_UndeadGeneral.png"
     },
     "CHAR_Undead_Priest_VBlood": {
       "prefab": "CHAR_Undead_Priest_VBlood",
@@ -649,7 +687,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_NicholausFallen.png"
     },
     "CHAR_Undead_ZealousCultist_VBlood": {
       "prefab": "CHAR_Undead_ZealousCultist_VBlood",
@@ -666,7 +705,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_FoulrotSoultaker.png"
     },
     "CHAR_Vampire_BloodKnight_VBlood": {
       "prefab": "CHAR_Vampire_BloodKnight_VBlood",
@@ -683,7 +723,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_BloodCommander.png"
     },
     "CHAR_Vampire_Dracula_VBlood": {
       "prefab": "CHAR_Vampire_Dracula_VBlood",
@@ -700,7 +741,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_Dracula.png"
     },
     "CHAR_Vampire_IceRanger_VBlood": {
       "prefab": "CHAR_Vampire_IceRanger_VBlood",
@@ -717,7 +759,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_FrostCommander.png"
     },
     "CHAR_Vermin_DireRat_VBlood": {
       "prefab": "CHAR_Vermin_DireRat_VBlood",
@@ -732,7 +775,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/All.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/CHAR_Vermin_DireRat_VBlood_HeadPortrait.png"
     },
     "CHAR_VHunter_Jade_VBlood": {
       "prefab": "CHAR_VHunter_Jade_VBlood",
@@ -749,7 +793,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_JadeVampireHunter.png"
     },
     "CHAR_VHunter_Leader_VBlood": {
       "prefab": "CHAR_VHunter_Leader_VBlood",
@@ -766,7 +811,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_TristanVampireHunter.png"
     },
     "CHAR_Villager_CursedWanderer_VBlood": {
       "prefab": "CHAR_Villager_CursedWanderer_VBlood",
@@ -783,7 +829,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_CursedWanderer.png"
     },
     "CHAR_Villager_Tailor_VBlood": {
       "prefab": "CHAR_Villager_Tailor_VBlood",
@@ -800,7 +847,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_BeatriceTailor.png"
     },
     "CHAR_Wendigo_VBlood": {
       "prefab": "CHAR_Wendigo_VBlood",
@@ -817,7 +865,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_FrostmawMountainTerror.png"
     },
     "CHAR_Winter_Yeti_VBlood": {
       "prefab": "CHAR_Winter_Yeti_VBlood",
@@ -834,7 +883,8 @@
         "data/enrichment/npc-display-map.json",
         "data/enrichment/npc-classification-map.json",
         "data/prefabs/VBloodNames.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/npcs/Portrait_Large_Normal_TerrorclawOgre.png"
     }
   }
 }
