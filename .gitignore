@@ -309,6 +309,8 @@ public/icons/*
 !public/icons/items/**
 !public/icons/buildables/
 !public/icons/buildables/**
+!public/icons/npcs/
+!public/icons/npcs/**
 # Ignore Python scripts
 /*.py
 
