@@ -152,6 +152,25 @@ test("structured NPC detail keeps summary cues while consolidating duplicate rel
   assert.equal(countMatches(html, /href="#relation-essence-drops"/g), 0);
 });
 
+test("structured NPC detail renders a portrait only when a source-backed path exists", () => {
+  const html = renderDetail(
+    {
+      ...npcDetailFixture,
+      title: "Clive the Firestarter",
+      npcKind: "V Blood Boss",
+      isVBlood: true,
+      portraitAssetPath: "/icons/npcs/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"
+    },
+    "npcs"
+  );
+  const withoutPath = renderNpcDetail();
+
+  assert.match(html, /src="\/icons\/npcs\/CHAR_Bandit_Bomber_VBlood_HeadPortrait\.png"/);
+  assert.match(html, /alt="Clive the Firestarter NPC portrait"/);
+  assert.doesNotMatch(withoutPath, /NPC portrait/);
+  assert.doesNotMatch(withoutPath, /\/icons\/npcs\//);
+});
+
 test("structured workstation detail keeps summary cues while consolidating duplicate relation sections", () => {
   const html = renderWorkstationDetail();
 

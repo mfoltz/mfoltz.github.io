@@ -5,7 +5,7 @@ import { assertAssetDumpLock, syncAssetRefDirectory, syncIconDirectory } from ".
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { attachBuildablePortraitAssetPaths, buildBuildablePortraitSnapshots, selectBuildablePortraitPublicAssets } from "./buildable-portraits";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
-import { buildNpcPortraitSnapshots } from "./npc-portraits";
+import { attachNpcPortraitAssetPaths, buildNpcPortraitSnapshots, selectNpcPortraitPublicAssets } from "./npc-portraits";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
 import {
   extractTextVariables,
@@ -2781,6 +2781,7 @@ async function main() {
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
   const publicItemIconsDir = path.join(repoRoot, "public", "icons", "items");
   const publicBuildableIconsDir = path.join(repoRoot, "public", "icons", "buildables");
+  const publicNpcIconsDir = path.join(repoRoot, "public", "icons", "npcs");
   const bloodHuntsSourcePath = path.join(assetDumpDir, "MonoBehaviour", "BloodHuntsDataAuthoring.json");
 
   await Promise.all([
@@ -3456,7 +3457,7 @@ async function main() {
     localizedTextSourceRef: "Resources/Localization/English.json:Nodes",
     npcDisplaySourceRef: "data/enrichment/npc-display-map.json"
   });
-  const stableNpcPortraitSnapshots = await buildNpcPortraitSnapshots({
+  const rawNpcPortraitSnapshots = await buildNpcPortraitSnapshots({
     assetDumpDir,
     allPrefabs,
     npcDisplayByPrefab: displaySnapshotsByDomain.get("npc") ?? {},
@@ -3464,6 +3465,16 @@ async function main() {
     bloodHuntsByGuid: stableBloodHuntsSnapshot.entriesByGuid,
     vbloodNamesRows: vBloodNamesRows
   });
+  const npcPortraitPublicAssets = selectNpcPortraitPublicAssets(rawNpcPortraitSnapshots.portraitMap);
+  const npcPortraitSync = await syncAssetRefDirectory({
+    assetDumpDir,
+    targetDir: publicNpcIconsDir,
+    files: npcPortraitPublicAssets
+  });
+  const stableNpcPortraitSnapshots = {
+    candidates: rawNpcPortraitSnapshots.candidates,
+    portraitMap: attachNpcPortraitAssetPaths(rawNpcPortraitSnapshots.portraitMap, npcPortraitPublicAssets)
+  };
   const rawBuildablePortraitSnapshots = await buildBuildablePortraitSnapshots({
     assetDumpDir,
     allPrefabs,
@@ -3607,6 +3618,9 @@ async function main() {
   );
   console.log(
     `Materialized ${buildablePortraitPublicAssets.length} repo-owned buildable portrait assets (${buildablePortraitSync.copied} copied, ${buildablePortraitSync.unchanged} unchanged, ${buildablePortraitSync.deleted} deleted).`
+  );
+  console.log(
+    `Materialized ${npcPortraitPublicAssets.length} repo-owned NPC portrait assets (${npcPortraitSync.copied} copied, ${npcPortraitSync.unchanged} unchanged, ${npcPortraitSync.deleted} deleted).`
   );
   for (const domain of displayDomains) {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);

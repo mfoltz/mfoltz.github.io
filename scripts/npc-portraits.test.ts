@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { mkdtemp, mkdir, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
-import { buildNpcPortraitSnapshots } from "./npc-portraits";
+import { attachNpcPortraitAssetPaths, buildNpcPortraitSnapshots, selectNpcPortraitPublicAssets } from "./npc-portraits";
 
 type TestCase = {
   name: string;
@@ -203,6 +203,145 @@ test("buildNpcPortraitSnapshots marks fuzzy matches unsafe when ambiguous", asyn
     assert.equal(candidate.approvalStatus, "rejected");
     assert.match(candidate.reason, /multiple current NPC rows/);
   });
+});
+
+test("selectNpcPortraitPublicAssets exposes promoted approved rows as public npc paths", () => {
+  const publicAssets = selectNpcPortraitPublicAssets(
+    {
+      schemaVersion: 1,
+      sourceKind: "provisional-vblood-portrait-map",
+      sourceRef: "data/enrichment/npc-portrait-candidates.json",
+      totalCurrentVbloodRows: 4,
+      entriesByPrefab: {
+        CHAR_Bandit_Bomber_VBlood: {
+          prefab: "CHAR_Bandit_Bomber_VBlood",
+          guid: 1896428751,
+          displayNameEn: "Clive the Firestarter",
+          portraitAssetName: "CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+          portraitAssetFamily: "char-vblood-headportrait",
+          joinStatus: "source-backed",
+          evidenceRefs: [
+            "Sprite/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+            "Texture2D/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+            "data/enrichment/npc-display-map.json"
+          ]
+        },
+        CHAR_Bandit_Frostarrow_VBlood: {
+          prefab: "CHAR_Bandit_Frostarrow_VBlood",
+          guid: 1124739990,
+          displayNameEn: "Keely the Frost Archer",
+          portraitAssetName: "Portrait_Large_Normal_KeelyFrostArcher.png",
+          portraitAssetFamily: "portrait-large-normal",
+          joinStatus: "user-attested",
+          approvalStatus: "approved",
+          evidenceRefs: ["Sprite/Portrait_Large_Normal_KeelyFrostArcher.png", "data/enrichment/npc-display-map.json"]
+        }
+      }
+    },
+    {
+      availableSourceRefs: [
+        "Texture2D/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+        "Sprite/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+        "Sprite/Portrait_Large_Normal_KeelyFrostArcher.png"
+      ]
+    }
+  );
+
+  assert.deepEqual(publicAssets, [
+    {
+      prefab: "CHAR_Bandit_Bomber_VBlood",
+      fileName: "CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+      sourceRef: "Texture2D/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+      publicPath: "/icons/npcs/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"
+    },
+    {
+      prefab: "CHAR_Bandit_Frostarrow_VBlood",
+      fileName: "Portrait_Large_Normal_KeelyFrostArcher.png",
+      sourceRef: "Sprite/Portrait_Large_Normal_KeelyFrostArcher.png",
+      publicPath: "/icons/npcs/Portrait_Large_Normal_KeelyFrostArcher.png"
+    }
+  ]);
+
+  const withPaths = attachNpcPortraitAssetPaths(
+    {
+      schemaVersion: 1,
+      sourceKind: "provisional-vblood-portrait-map",
+      sourceRef: "data/enrichment/npc-portrait-candidates.json",
+      totalCurrentVbloodRows: 4,
+      entriesByPrefab: {
+        CHAR_Bandit_Bomber_VBlood: {
+          prefab: "CHAR_Bandit_Bomber_VBlood",
+          guid: 1896428751,
+          displayNameEn: "Clive the Firestarter",
+          portraitAssetName: "CHAR_Bandit_Bomber_VBlood_HeadPortrait.png",
+          portraitAssetFamily: "char-vblood-headportrait",
+          joinStatus: "source-backed",
+          evidenceRefs: ["Texture2D/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"]
+        }
+      }
+    },
+    publicAssets
+  );
+
+  assert.equal(
+    withPaths.entriesByPrefab.CHAR_Bandit_Bomber_VBlood.portraitAssetPath,
+    "/icons/npcs/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"
+  );
+});
+
+test("selectNpcPortraitPublicAssets skips unapproved and unavailable portrait rows", () => {
+  const publicAssets = selectNpcPortraitPublicAssets(
+    {
+      schemaVersion: 1,
+      sourceKind: "provisional-vblood-portrait-map",
+      sourceRef: "data/enrichment/npc-portrait-candidates.json",
+      totalCurrentVbloodRows: 4,
+      entriesByPrefab: {
+        pending: {
+          prefab: "pending",
+          guid: 1,
+          displayNameEn: "Pending",
+          portraitAssetName: "Portrait_Large_Normal_Pending.png",
+          portraitAssetFamily: "portrait-large-normal",
+          joinStatus: "user-attested",
+          approvalStatus: "pending",
+          evidenceRefs: ["Texture2D/Portrait_Large_Normal_Pending.png"]
+        },
+        circumstantial: {
+          prefab: "circumstantial",
+          guid: 2,
+          displayNameEn: "Circumstantial",
+          portraitAssetName: "Portrait_Large_Normal_Circumstantial.png",
+          portraitAssetFamily: "portrait-large-normal",
+          joinStatus: "circumstantial",
+          approvalStatus: "pending",
+          evidenceRefs: ["Texture2D/Portrait_Large_Normal_Circumstantial.png"]
+        },
+        unsafe: {
+          prefab: "unsafe",
+          guid: 3,
+          displayNameEn: "Unsafe",
+          portraitAssetName: "Portrait_Large_Normal_Unsafe.png",
+          portraitAssetFamily: "portrait-large-normal",
+          joinStatus: "unsafe",
+          approvalStatus: "rejected",
+          evidenceRefs: ["Texture2D/Portrait_Large_Normal_Unsafe.png"]
+        },
+        missingSource: {
+          prefab: "missingSource",
+          guid: 4,
+          displayNameEn: "Missing Source",
+          portraitAssetName: "Portrait_Large_Normal_MissingSource.png",
+          portraitAssetFamily: "portrait-large-normal",
+          joinStatus: "source-backed",
+          evidenceRefs: ["Texture2D/Portrait_Large_Normal_MissingSource.png"]
+        }
+      } as any
+    },
+    { availableSourceRefs: ["Texture2D/Portrait_Large_Normal_Pending.png"] }
+  );
+
+  assert.deepEqual(publicAssets, []);
 });
 
 async function main() {
