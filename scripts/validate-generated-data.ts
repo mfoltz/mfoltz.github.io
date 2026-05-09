@@ -1,6 +1,7 @@
 import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind } from "./buildable-portraits";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
 import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
 import { isSafeSlug } from "../src/lib/slug";
@@ -37,6 +38,7 @@ type DetailEntry = {
   slug: string;
   icon?: string;
   iconAssetPath?: string;
+  portraitAssetPath?: string;
   description?: string;
   summary?: string;
   tooltipTextEn?: string;
@@ -147,6 +149,57 @@ type NpcPortraitMapSnapshot = {
   sourceRef: string;
   totalCurrentVbloodRows: number;
   entriesByPrefab: Record<string, NpcPortraitMapEntry>;
+};
+
+type BuildablePortraitCandidateRow = {
+  prefab: string;
+  guid: number;
+  displayNameEn?: string;
+};
+
+type BuildablePortraitCandidateEntry = {
+  assetName: string;
+  assetFamily: string;
+  assetSourceRefs: string[];
+  joinStatus: string;
+  approvalStatus?: string;
+  approvalNote?: string;
+  candidatePrefab?: string;
+  candidateGuid?: number;
+  displayNameEn?: string;
+  candidatePrefabs?: BuildablePortraitCandidateRow[];
+  evidenceRefs: string[];
+  reason: string;
+};
+
+type BuildablePortraitCandidatesSnapshot = {
+  schemaVersion: number;
+  sourceKind: string;
+  sourceRefs: string[];
+  totalAssets: number;
+  currentBuildableRows: number;
+  entriesByAssetName: Record<string, BuildablePortraitCandidateEntry>;
+};
+
+type BuildablePortraitMapEntry = {
+  prefab: string;
+  guid: number;
+  displayNameEn?: string;
+  portraitAssetName: string;
+  portraitAssetFamily: string;
+  portraitAssetPath?: string;
+  joinStatus: string;
+  approvalStatus?: string;
+  approvalNote?: string;
+  evidenceRefs: string[];
+};
+
+type BuildablePortraitMapSnapshot = {
+  schemaVersion: number;
+  sourceKind: string;
+  sourceRef: string;
+  totalCurrentBuildableRows: number;
+  entriesByPrefab: Record<string, BuildablePortraitMapEntry>;
 };
 
 const prefabCategoryParityTargets = [
@@ -430,6 +483,90 @@ async function validateNpcPortraitMaps(repoRoot: string): Promise<void> {
   }
 }
 
+async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
+  const candidatesPath = path.join(repoRoot, "data", "enrichment", "buildable-portrait-candidates.json");
+  const portraitMapPath = path.join(repoRoot, "data", "enrichment", "buildable-portrait-map.json");
+  const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const workstationDisplayPath = path.join(repoRoot, "data", "enrichment", "workstation-display-map.json");
+  const blueprintDisplayPath = path.join(repoRoot, "data", "enrichment", "blueprint-display-map.json");
+
+  const [candidates, portraitMap, allPrefabs, workstationDisplay, blueprintDisplay] = await Promise.all([
+    readJson<BuildablePortraitCandidatesSnapshot>(candidatesPath),
+    readJson<BuildablePortraitMapSnapshot>(portraitMapPath),
+    readJson<Record<string, number>>(allPrefabsPath),
+    readJson<Record<string, PrefabDisplayMapEntry>>(workstationDisplayPath),
+    readJson<Record<string, PrefabDisplayMapEntry>>(blueprintDisplayPath)
+  ]);
+  const currentBuildableRows = Object.keys(allPrefabs).filter((prefab) => /^(TM|BP)_/i.test(prefab)).length;
+
+  assert(candidates.schemaVersion === 1, `${candidatesPath}: expected schemaVersion 1`);
+  assert(candidates.sourceKind === buildablePortraitCandidatesSourceKind, `${candidatesPath}: unexpected sourceKind '${candidates.sourceKind}'`);
+  assert(candidates.totalAssets === Object.keys(candidates.entriesByAssetName ?? {}).length, `${candidatesPath}: totalAssets must match entriesByAssetName count`);
+  assert(candidates.currentBuildableRows === currentBuildableRows, `${candidatesPath}: currentBuildableRows must match TM/BP prefab count`);
+  assert(portraitMap.schemaVersion === 1, `${portraitMapPath}: expected schemaVersion 1`);
+  assert(portraitMap.sourceKind === buildablePortraitMapSourceKind, `${portraitMapPath}: unexpected sourceKind '${portraitMap.sourceKind}'`);
+  assert(portraitMap.sourceRef === "data/enrichment/buildable-portrait-candidates.json", `${portraitMapPath}: unexpected sourceRef`);
+  assert(portraitMap.totalCurrentBuildableRows === currentBuildableRows, `${portraitMapPath}: totalCurrentBuildableRows must match TM/BP prefab count`);
+
+  const validJoinStatuses = new Set(["source-backed", "user-attested", "circumstantial", "unsafe"]);
+  const validApprovalStatuses = new Set(["pending", "approved", "rejected"]);
+  for (const [assetName, entry] of Object.entries(candidates.entriesByAssetName ?? {})) {
+    const source = `${candidatesPath}:${assetName}`;
+    assert(entry.assetName === assetName, `${source}: assetName must match map key`);
+    assert(validJoinStatuses.has(entry.joinStatus), `${source}: invalid joinStatus '${entry.joinStatus}'`);
+    assert(Array.isArray(entry.assetSourceRefs) && entry.assetSourceRefs.length > 0, `${source}: missing assetSourceRefs`);
+    assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
+    assert(typeof entry.reason === "string" && entry.reason.trim().length > 0, `${source}: missing reason`);
+    if (entry.joinStatus !== "source-backed") {
+      assert(Boolean(entry.approvalStatus), `${source}: non-source-backed row must carry approvalStatus`);
+      assert(validApprovalStatuses.has(entry.approvalStatus ?? ""), `${source}: invalid approvalStatus '${entry.approvalStatus}'`);
+    }
+    for (const row of entry.candidatePrefabs ?? []) {
+      assert(allPrefabs[row.prefab] === row.guid, `${source}: candidate prefab '${row.prefab}' does not join through ${allPrefabsPath}`);
+    }
+  }
+
+  for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab ?? {})) {
+    const source = `${portraitMapPath}:${prefab}`;
+    assert(entry.prefab === prefab, `${source}: prefab must match map key`);
+    assert(/^(TM|BP)_/i.test(prefab), `${source}: buildable portrait map row must target a TM/BP prefab`);
+    assert(entry.joinStatus === "source-backed" || entry.joinStatus === "user-attested", `${source}: unusable joinStatus '${entry.joinStatus}' promoted into portrait map`);
+    assert(entry.joinStatus !== "user-attested" || entry.approvalStatus === "approved", `${source}: user-attested row must be approved before promotion`);
+    assert(allPrefabs[prefab] === entry.guid, `${source}: prefab '${prefab}' does not join through ${allPrefabsPath}`);
+
+    const candidate = candidates.entriesByAssetName?.[entry.portraitAssetName];
+    assert(Boolean(candidate), `${source}: portraitAssetName '${entry.portraitAssetName}' missing from ${candidatesPath}`);
+    assert(candidate?.joinStatus === entry.joinStatus, `${source}: candidate joinStatus does not match promoted joinStatus`);
+    assert(candidate?.assetFamily === entry.portraitAssetFamily, `${source}: candidate assetFamily does not match promoted portraitAssetFamily`);
+    assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
+
+    const candidateRows = candidate?.candidatePrefabs ?? [];
+    assert(candidateRows.some((row) => row.prefab === prefab && row.guid === entry.guid), `${source}: promoted prefab is missing from candidatePrefabs`);
+    const displayEntry = workstationDisplay[prefab] ?? blueprintDisplay[prefab];
+    if (displayEntry?.displayNameEn) {
+      assert(entry.displayNameEn === displayEntry.displayNameEn, `${source}: displayNameEn does not match display map`);
+    }
+
+    if (entry.portraitAssetPath) {
+      assert(Boolean(workstationDisplay[prefab]), `${source}: portraitAssetPath is only approved for workstation rows`);
+      assert(entry.joinStatus === "source-backed", `${source}: portraitAssetPath requires a source-backed join`);
+      assertBuildablePortraitPath(entry.portraitAssetPath, source);
+      assert(
+        entry.evidenceRefs.includes(`Texture2D/${entry.portraitAssetName}`) || entry.evidenceRefs.includes(`Sprite/${entry.portraitAssetName}`),
+        `${source}: portraitAssetPath must be backed by a Texture2D or Sprite evidence ref`
+      );
+      await assertPublicIconExists(repoRoot, entry.portraitAssetPath, source);
+    }
+  }
+
+  const publicPortraitPaths = Object.values(portraitMap.entriesByPrefab ?? {}).filter((entry) => entry.portraitAssetPath).map((entry) => entry.portraitAssetPath as string);
+  assert(publicPortraitPaths.length <= 25, `${portraitMapPath}: expected at most 25 materialized buildable portrait paths, found ${publicPortraitPaths.length}`);
+  assert(
+    portraitMap.entriesByPrefab.TM_CraftingStation_JewelcraftingTable?.portraitAssetPath === "/icons/buildables/Stunlock_Icon_Structure_JewelcraftingTable.png",
+    `${portraitMapPath}: Jewelcrafting Table must keep the approved source-backed portrait path`
+  );
+}
+
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
   for (const value of values ?? []) {
     assert(!hasTextVariables(value), `${source}: ${field} '${value}' must not contain unresolved text-variable tokens`);
@@ -504,6 +641,15 @@ function assertItemIconPath(icon: string | undefined, source: string): void {
   assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
 }
 
+function assertBuildablePortraitPath(icon: string | undefined, source: string): void {
+  if (!icon) {
+    return;
+  }
+
+  assert(icon.startsWith("/icons/buildables/"), `${source}: icon '${icon}' is not an approved buildable portrait path`);
+  assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
+}
+
 function collectRelatedIcons(detail: DetailEntry): Array<[string, string]> {
   const relationGroups: RelatedEntityGroupKey[] = ["repairRecipes", "relatedRecipes", "outputs", "requirements", "repairCosts", "spellJewels", "workstationOutputs", "inventoryPrefabs"];
 
@@ -549,6 +695,7 @@ async function main() {
   await validatePrefabCategoryParity(repoRoot, prefabReferenceEntries);
   await validateBloodHuntsMap(repoRoot);
   await validateNpcPortraitMaps(repoRoot);
+  await validateBuildablePortraitMaps(repoRoot);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();
@@ -599,6 +746,10 @@ async function main() {
         [detail.description, detail.summary, detail.tooltipTextEn, detail.localizedDescriptionTextEn],
         `${filePath}:${detail.slug}`
       );
+      if (section === "workstations" && detail.portraitAssetPath) {
+        assertBuildablePortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+        await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+      }
     }
   }
 

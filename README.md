@@ -59,10 +59,12 @@ The structured generators currently read from source material in:
 
 These markdown files are treated as extraction input, not as the public rendering model.
 
-Optional enrichment snapshots and curated ability icons live in:
+Optional enrichment snapshots and curated DB icons live in:
 
 - `data/enrichment/*.json`
 - `public/icons/abilities/*`
+- `public/icons/items/*`
+- `public/icons/buildables/*`
 
 `content/dev`, `content/user`, and `content/editing` remain out of the current app scope unless we explicitly revive authored guides later.
 
@@ -98,7 +100,7 @@ This starts from a clean generated-output root so stale legacy files under `publ
 npm run refresh:db-assets
 ```
 
-This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability and item icons into `public/icons/abilities/` and `public/icons/items/`.
+This is a manual refresh step for repo-owned enrichment inputs. It reads local Bloodcraft resources plus the local AssetRipper-style asset dump, writes deterministic snapshots under `data/enrichment/`, normalizes canonical join maps (abilities, items, recipes, NPC classification/display, workstation display, and remaining DB display maps), and copies curated ability, item, and buildable portrait icons into `public/icons/abilities/`, `public/icons/items/`, and `public/icons/buildables/`.
 
 The refresh output now includes per-entry provenance (`sourceKind`, `sourceRef`) in enrichment maps, emits `data/enrichment/npc-classification-map.json` for NPC browse slices, and emits `data/enrichment/item-icon-unresolved.json` for icon curation follow-up. When the unresolved item-icon queue only contains `catalog-seed` generic equip-buff placeholders, treat it as parked until a source-backed icon appears instead of generating or guessing substitute artwork.
 
@@ -106,7 +108,7 @@ Asset dump discovery:
 
 - `VRISING_ASSET_DUMP_DIR` selects a single dump root
 - `VRISING_ASSET_DUMP_DIRS` checks multiple dump roots (comma/semicolon/newline separated)
-- otherwise the scripts check known local defaults, including the moved `Documents/Unorganized/Assets` dump
+- otherwise the scripts check the local default `C:/Users/mitch/Local/Assets`
 - a usable dump must contain `Texture2D/` with `Stunlock_Icon_*.png` files
 
 Optional legacy source discovery:
@@ -159,6 +161,7 @@ When Codex needs native process spawning for this repo, use repo-owned npm scrip
 Approved spawn-enabled lanes:
 
 - `npm run qa:spawn-readiness`
+- `npm run dev:review`
 - `npm run build`
 - `npm run verify`
 - `npm run visual:compare`
@@ -168,6 +171,22 @@ Approved spawn-enabled lanes:
 - `npm run visual:compare:ci`
 
 If an exact-script approval is unavailable or inconvenient, use the GitHub Actions `Visual Review` artifact instead. Baseline refresh remains an explicit accepted-visual-change step even when the command is approved to spawn.
+
+Local browser review helper:
+
+```bash
+npm run dev:review -- --path /db/recipes/recipe-armor-boots-t01-bone
+```
+
+This helper starts one strict-port Vite server for the selected route, writes `.codex-tmp/dev-review/latest.json`, and prints the exact local URL plus a Codex Browser Use handoff line. It defaults to `127.0.0.1:5173` and does not silently hop to another port.
+
+If the port is occupied by a stale repo-local Vite server, retry with the explicit cleanup mode:
+
+```bash
+npm run dev:review -- --clean-stale --path /db/recipes/recipe-armor-boots-t01-bone
+```
+
+Cleanup is intentionally opt-in. Unknown port owners are reported but not killed. Use the printed `@browser-use open ...` line as a Codex instruction, not as text to paste into the browser address bar.
 
 ### Visual review screenshots
 
@@ -234,7 +253,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run generate:db` builds DB section indexes and detail files
 - `npm run generate:search` builds the lightweight unified search index
 - `npm run generate:data` runs the full generation pipeline
-- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability/item icon inputs from local external dumps
+- `npm run refresh:db-assets` refreshes canonical enrichment snapshots and curated ability/item/buildable icon inputs from local external dumps
 - `npm run validate:data` performs path/slug sanity checks plus enrichment threshold-floor validation
 - `npm run verify` runs the full pre-push verification path used locally and in CI
 - `npm run visual:baseline` refreshes accepted visual baselines for the fixed screenshot review pack
@@ -245,6 +264,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 - `npm run visual:compare:capture:ci` compares screenshots from an already-built `dist/` while allowing screenshot diffs
 - `npm run visual:feedback` writes a draft design-feedback packet from the latest visual-review `report.json`
 - `npm run visual:summary` writes visual-review counts and artifact instructions to the GitHub Actions step summary when available
+- `npm run dev:review` starts a strict local Vite server for an in-app browser review route and writes `.codex-tmp/dev-review/latest.json`
 - `npm run test:visual-review` exercises the idempotent visual-review engine helpers and config validation through `jiti`, without `tsx`, esbuild, or Node's `--test` runner
 - `npm run qa:accepted-broad-run` runs the accepted broad-run QA sequence for the Dual-Lane Review Loop
 - `npm run qa:ingestion-readiness` writes a core-domain ingestion readiness report under `.codex-tmp/ingestion-readiness/`
@@ -252,7 +272,7 @@ This helper is the non-mutating preflight companion to the accepted broad-run QA
 
 ## Contributor Notes
 
-- `public/data/` and `dist/` are build-generated. `public/icons/abilities/` is a repo-owned curated asset input preserved across generation.
+- `public/data/` and `dist/` are build-generated. `public/icons/abilities/`, `public/icons/items/`, and `public/icons/buildables/` are repo-owned curated asset inputs preserved across generation.
 - This project is an unofficial, non-commercial fan reference. V Rising names, art, and related assets remain the property of Stunlock Studios.
 - Keep game-derived assets scoped to approved pipeline inputs and honor rights-holder takedown requests promptly.
 - `src/config/sections.ts` is the app-level section contract for reference and DB routing.

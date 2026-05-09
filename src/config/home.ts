@@ -30,7 +30,7 @@ export const homeLandingBands: HomeLandingBand[] = [
       {
         id: "abilities",
         to: "/db/abilities",
-        eyebrow: "Gameplay Data",
+        eyebrow: "Combat",
         title: "Abilities",
         description: "Browse spell, weapon, and action records to understand mechanics, schools, and linked gameplay behavior.",
         actionLabel: "Open Abilities"
@@ -38,7 +38,7 @@ export const homeLandingBands: HomeLandingBand[] = [
       {
         id: "items",
         to: "/db/items",
-        eyebrow: "Gameplay Data",
+        eyebrow: "Inventory",
         title: "Items",
         description: "Inspect item definitions, resource records, and gameplay-facing inventory data across the generated data layer.",
         actionLabel: "Open Items"
@@ -46,7 +46,7 @@ export const homeLandingBands: HomeLandingBand[] = [
       {
         id: "npcs",
         to: "/db/npcs",
-        eyebrow: "Gameplay Data",
+        eyebrow: "World",
         title: "NPCs",
         description: "Trace enemy, unit, and world entity records to see how combatants and actors are represented.",
         actionLabel: "Open NPCs"
@@ -54,10 +54,18 @@ export const homeLandingBands: HomeLandingBand[] = [
       {
         id: "recipes",
         to: "/db/recipes",
-        eyebrow: "Gameplay Data",
+        eyebrow: "Crafting",
         title: "Recipes",
         description: "Follow crafting outputs, requirements, and workstation-linked production data without leaving the generated record layer.",
         actionLabel: "Open Recipes"
+      },
+      {
+        id: "workstations",
+        to: "/db/workstations",
+        eyebrow: "Stations",
+        title: "Workstations",
+        description: "Compare station roles, matching floors, servant bonuses, linked recipes, and production outputs from the generated station records.",
+        actionLabel: "Open Workstations"
       }
     ]
   }

@@ -110,6 +110,7 @@ export interface DbEntityDetail {
   localizedSummaryEn?: string;
   iconAssetName?: string;
   iconAssetPath?: string;
+  portraitAssetPath?: string;
   iconSourceKind?: string;
   iconSourceRef?: string;
   descriptionSourceKind?: string;

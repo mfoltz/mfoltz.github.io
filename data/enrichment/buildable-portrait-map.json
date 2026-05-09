@@ -1,0 +1,2499 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "provisional-buildable-portrait-map",
+  "sourceRef": "data/enrichment/buildable-portrait-candidates.json",
+  "totalCurrentBuildableRows": 3928,
+  "entriesByPrefab": {
+    "BP_Castle_Stairs_Double_Stone02": {
+      "prefab": "BP_Castle_Stairs_Double_Stone02",
+      "guid": -887317616,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Double_Stone02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Double_Stone02.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Double_Stone02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Double_Stone03": {
+      "prefab": "BP_Castle_Stairs_Double_Stone03",
+      "guid": -1186795702,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Double_Stone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Double_Stone03.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Double_Stone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_CCW_Stone02": {
+      "prefab": "BP_Castle_Stairs_Single_CCW_Stone02",
+      "guid": 171455823,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_CCW_Stone02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone02.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_CCW_Stone03": {
+      "prefab": "BP_Castle_Stairs_Single_CCW_Stone03",
+      "guid": 2042236287,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_CCW_Stone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone03.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_CW_Stone02": {
+      "prefab": "BP_Castle_Stairs_Single_CW_Stone02",
+      "guid": 891240110,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_CW_Stone02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CW_Stone02.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_CW_Stone02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_CW_Stone03": {
+      "prefab": "BP_Castle_Stairs_Single_CW_Stone03",
+      "guid": 1737385414,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_CW_Stone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CW_Stone03.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_CW_Stone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_Stone02": {
+      "prefab": "BP_Castle_Stairs_Single_Stone02",
+      "guid": 1267405974,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_Stone02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_Stone02.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_Stone02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Stairs_Single_Stone03": {
+      "prefab": "BP_Castle_Stairs_Single_Stone03",
+      "guid": 1019577856,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
+        "Sprite/Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Wall_Tier01_Wood_Entrance": {
+      "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
+      "guid": 106693260,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "BP_Castle_Wall_Tier02_Stone_Entrance": {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_Entrance",
+      "guid": -281098336,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_Iron01": {
+      "prefab": "TM_Castle_Fence_Iron01",
+      "guid": 44535007,
+      "portraitAssetName": "Stunlock_Icon_Structure_FenceIron01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FenceIron01.png",
+        "Sprite/Stunlock_Icon_Structure_FenceIron01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_Iron03": {
+      "prefab": "TM_Castle_Fence_Iron03",
+      "guid": 1316387312,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_Iron03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_Iron03.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_Iron03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_IronGate03": {
+      "prefab": "TM_Castle_Fence_IronGate03",
+      "guid": -663581951,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_IronGate03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_IronGate03.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_IronGate03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_Wood01": {
+      "prefab": "TM_Castle_Fence_Wood01",
+      "guid": 1268956656,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_Wood01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_Wood01.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_Wood01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_Wood02": {
+      "prefab": "TM_Castle_Fence_Wood02",
+      "guid": 1847178717,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_Wood02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_Wood02.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_Wood02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_WoodGate01": {
+      "prefab": "TM_Castle_Fence_WoodGate01",
+      "guid": 2114550113,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_WoodGate01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_WoodGate01.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_WoodGate01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Fence_WoodGate02": {
+      "prefab": "TM_Castle_Fence_WoodGate02",
+      "guid": -191378828,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fence_WoodGate02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fence_WoodGate02.png",
+        "Sprite/Stunlock_Icon_Structure_Fence_WoodGate02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_AlchemyLab01": {
+      "prefab": "TM_Castle_Floor_AlchemyLab01",
+      "guid": -1269191198,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_AlchemyLab01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_AlchemyLab01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_AlchemyLab02": {
+      "prefab": "TM_Castle_Floor_AlchemyLab02",
+      "guid": -1897961716,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_AlchemyLab02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab02.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_AlchemyLab02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_AlchemyLab03": {
+      "prefab": "TM_Castle_Floor_AlchemyLab03",
+      "guid": -1205461952,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_AlchemyLab03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_AlchemyLab03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Crypt01": {
+      "prefab": "TM_Castle_Floor_Crypt01",
+      "guid": -685318965,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Crypt01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Crypt01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Crypt01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Crypt02": {
+      "prefab": "TM_Castle_Floor_Crypt02",
+      "guid": 572228191,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Crypt02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Crypt02.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Crypt02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Crypt03": {
+      "prefab": "TM_Castle_Floor_Crypt03",
+      "guid": 304985570,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Crypt03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Crypt03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Crypt03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Forge01": {
+      "prefab": "TM_Castle_Floor_Forge01",
+      "guid": -420140629,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Forge01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Forge01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Forge01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Forge02": {
+      "prefab": "TM_Castle_Floor_Forge02",
+      "guid": 1695410320,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Forge02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Forge02.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Forge02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Forge03": {
+      "prefab": "TM_Castle_Floor_Forge03",
+      "guid": 63772249,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Forge03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Forge03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Forge03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Foundation_Stone03": {
+      "prefab": "TM_Castle_Floor_Foundation_Stone03",
+      "guid": 679413487,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_FoundationStone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_FoundationStone03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_FoundationStone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Foundation_Stone04": {
+      "prefab": "TM_Castle_Floor_Foundation_Stone04",
+      "guid": 2092503115,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Foundation_Stone04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Foundation_Stone04.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Foundation_Stone04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Jewelcrafting01": {
+      "prefab": "TM_Castle_Floor_Jewelcrafting01",
+      "guid": -1984599765,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Jewelcrafting02": {
+      "prefab": "TM_Castle_Floor_Jewelcrafting02",
+      "guid": -1838091713,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Jewelcrafting03": {
+      "prefab": "TM_Castle_Floor_Jewelcrafting03",
+      "guid": -4617437,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Jewelcrafting03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Jewelcrafting03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Jewelcrafting03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Library03": {
+      "prefab": "TM_Castle_Floor_Library03",
+      "guid": 483075292,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Library03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Library03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Library03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone01": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone01",
+      "guid": -1760943046,
+      "portraitAssetName": "Stunlock_Icon_Structure_OutdoorCobblestone01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_OutdoorCobblestone01.png",
+        "Sprite/Stunlock_Icon_Structure_OutdoorCobblestone01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone02": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone02",
+      "guid": 887146255,
+      "portraitAssetName": "Stunlock_Icon_Structure_OutdoorCobblestone02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_OutdoorCobblestone02.png",
+        "Sprite/Stunlock_Icon_Structure_OutdoorCobblestone02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone03": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone03",
+      "guid": 334719508,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone04": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone04",
+      "guid": -1385691355,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone04.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone05": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone05",
+      "guid": -923972985,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone05.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone05.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone05.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone06": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone06",
+      "guid": -1877354305,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_OutdoorCobblestone06.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorCobblestone06.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_OutdoorCobblestone06.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Cobblestone07": {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone07",
+      "guid": 241387358,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_OutdoorCobblestone07.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorCobblestone07.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_OutdoorCobblestone07.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Outdoor_Plain01": {
+      "prefab": "TM_Castle_Floor_Outdoor_Plain01",
+      "guid": 1356453147,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_OutdoorPlain01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorPlain01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_OutdoorPlain01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Prison03": {
+      "prefab": "TM_Castle_Floor_Prison03",
+      "guid": 1559900574,
+      "portraitAssetName": "Stunlock_Icon_Structure_floor_prison03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_floor_prison03.png",
+        "Sprite/Stunlock_Icon_Structure_floor_prison03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Tailor03": {
+      "prefab": "TM_Castle_Floor_Tailor03",
+      "guid": -1138152299,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Tailor03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Tailor03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Tailor03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Treasury01": {
+      "prefab": "TM_Castle_Floor_Treasury01",
+      "guid": -1887758253,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Treasury01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Treasury01.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Treasury01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Treasury02": {
+      "prefab": "TM_Castle_Floor_Treasury02",
+      "guid": -2097552164,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Treasury02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Treasury02.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Treasury02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Treasury03": {
+      "prefab": "TM_Castle_Floor_Treasury03",
+      "guid": 849335034,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Treasury03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Treasury03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Treasury03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Floor_Workshop03": {
+      "prefab": "TM_Castle_Floor_Workshop03",
+      "guid": -156221515,
+      "portraitAssetName": "Stunlock_Icon_Structure_Floor_Workshop03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Floor_Workshop03.png",
+        "Sprite/Stunlock_Icon_Structure_Floor_Workshop03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_FloorDecor_FurRug01": {
+      "prefab": "TM_Castle_FloorDecor_FurRug01",
+      "guid": 1899686895,
+      "portraitAssetName": "Stunlock_Icon_Structure_FurRug01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FurRug01.png",
+        "Sprite/Stunlock_Icon_Structure_FurRug01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_FloorDecor_FurRug02": {
+      "prefab": "TM_Castle_FloorDecor_FurRug02",
+      "guid": -1781488171,
+      "portraitAssetName": "Stunlock_Icon_Structure_FurRug02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FurRug02.png",
+        "Sprite/Stunlock_Icon_Structure_FurRug02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_House_Window_Metal": {
+      "prefab": "TM_Castle_House_Window_Metal",
+      "guid": 545291818,
+      "portraitAssetName": "StructureIcon_HouseWindowMetal_Normal.png",
+      "portraitAssetFamily": "structureicon-normal",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/StructureIcon_HouseWindowMetal_Normal.png",
+        "Sprite/StructureIcon_HouseWindowMetal_Normal.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_House_Window_Wood": {
+      "prefab": "TM_Castle_House_Window_Wood",
+      "guid": -1719836801,
+      "portraitAssetName": "StructureIcon_HouseWindowWood_Normal.png",
+      "portraitAssetFamily": "structureicon-normal",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/StructureIcon_HouseWindowWood_Normal.png",
+        "Sprite/StructureIcon_HouseWindowWood_Normal.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_InteriorRailing_Default01": {
+      "prefab": "TM_Castle_InteriorRailing_Default01",
+      "guid": 160153045,
+      "portraitAssetName": "Stunlock_Icon_Structure_InteriorRailing_Default01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_InteriorRailing_Default01.png",
+        "Sprite/Stunlock_Icon_Structure_InteriorRailing_Default01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_InteriorRailing_Default01_Pillar": {
+      "prefab": "TM_Castle_InteriorRailing_Default01_Pillar",
+      "guid": -1691093039,
+      "portraitAssetName": "Stunlock_Icon_Structure_InteriorRailing_Default01_Pillar.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_InteriorRailing_Default01_Pillar.png",
+        "Sprite/Stunlock_Icon_Structure_InteriorRailing_Default01_Pillar.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Noctem_Radar_Eye": {
+      "prefab": "TM_Castle_Noctem_Radar_Eye",
+      "guid": 1383395802,
+      "portraitAssetName": "Stunlock_Icon_Structure_NoctemRadarEye.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_NoctemRadarEye.png",
+        "Sprite/Stunlock_Icon_Structure_NoctemRadarEye.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Cabal_Vase01": {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase01",
+      "guid": 873503098,
+      "portraitAssetName": "Stunlock_Icon_Structure_CabalVase01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CabalVase01.png",
+        "Sprite/Stunlock_Icon_Structure_CabalVase01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Cabal_Vase02": {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase02",
+      "guid": 1864693233,
+      "portraitAssetName": "Stunlock_Icon_Structure_CabalVase02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CabalVase02.png",
+        "Sprite/Stunlock_Icon_Structure_CabalVase02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Cabal_Vase03": {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase03",
+      "guid": -761353546,
+      "portraitAssetName": "Stunlock_Icon_Structure_CabalVase03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CabalVase03.png",
+        "Sprite/Stunlock_Icon_Structure_CabalVase03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Cabal_Vase04": {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase04",
+      "guid": 1943013666,
+      "portraitAssetName": "Stunlock_Icon_Structure_CabalVase04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CabalVase04.png",
+        "Sprite/Stunlock_Icon_Structure_CabalVase04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Cabal_Vase06": {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase06",
+      "guid": 1512138920,
+      "portraitAssetName": "Stunlock_Icon_Structure_CabalVase06.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CabalVase06.png",
+        "Sprite/Stunlock_Icon_Structure_CabalVase06.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_CandleStand_Cabal": {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Cabal",
+      "guid": 1130658863,
+      "portraitAssetName": "Stunlock_Icon_Structure_CandlestandCabal.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CandlestandCabal.png",
+        "Sprite/Stunlock_Icon_Structure_CandlestandCabal.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_CandleStand_Gothic": {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Gothic",
+      "guid": 570436365,
+      "portraitAssetName": "Stunlock_Icon_Structure_CandlestandGothic.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CandlestandGothic.png",
+        "Sprite/Stunlock_Icon_Structure_CandlestandGothic.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_CandleStand_Lavish": {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Lavish",
+      "guid": 780798903,
+      "portraitAssetName": "Stunlock_Icon_Structure_CandlestandLavish.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CandlestandLavish.png",
+        "Sprite/Stunlock_Icon_Structure_CandlestandLavish.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_CandleStand02": {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand02",
+      "guid": -629121130,
+      "portraitAssetName": "Stunlock_Icon_Structure_CandleStand02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CandleStand02.png",
+        "Sprite/Stunlock_Icon_Structure_CandleStand02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_CandleStand03": {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand03",
+      "guid": -2022124892,
+      "portraitAssetName": "Stunlock_Icon_Structure_CandleStand03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CandleStand03.png",
+        "Sprite/Stunlock_Icon_Structure_CandleStand03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_ChessTable01": {
+      "prefab": "TM_Castle_ObjectDecor_ChessTable01",
+      "guid": 624218349,
+      "portraitAssetName": "Stunlock_Icon_Structure_ChessTable01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ChessTable01.png",
+        "Sprite/Stunlock_Icon_Structure_ChessTable01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Child_Vase_Plant07": {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant07",
+      "guid": 648206774,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant07.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant07.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant07.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Child_Vase_Plant08": {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant08",
+      "guid": -692880320,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant08.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant08.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant08.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Child_Vase_Plant09": {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant09",
+      "guid": -272063893,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant09.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant09.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant09.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Child_Vase_Plant10": {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant10",
+      "guid": -681023682,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant10.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant10.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant10.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Child_Vase_Plant11": {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant11",
+      "guid": 975438498,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant11.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant11.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Child_Vase_Plant11.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_FlyingChandelier_Bone01": {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Bone01",
+      "guid": 765052065,
+      "portraitAssetName": "Stunlock_Icon_Structure_FlyingChandelierBone01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FlyingChandelierBone01.png",
+        "Sprite/Stunlock_Icon_Structure_FlyingChandelierBone01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_FlyingChandelier_Gothic01": {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Gothic01",
+      "guid": 2070805994,
+      "portraitAssetName": "Stunlock_Icon_Structure_FlyingChandelierGothic01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FlyingChandelierGothic01.png",
+        "Sprite/Stunlock_Icon_Structure_FlyingChandelierGothic01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_FlyingChandelier_Halloween01": {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Halloween01",
+      "guid": -2113113839,
+      "portraitAssetName": "Stunlock_Icon_Structure_FlyingChandelierHalloween01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FlyingChandelierHalloween01.png",
+        "Sprite/Stunlock_Icon_Structure_FlyingChandelierHalloween01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_FlyingChandelier_Lavish01": {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Lavish01",
+      "guid": -1121102574,
+      "portraitAssetName": "Stunlock_Icon_Structure_FlyingChandelierLavish01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FlyingChandelierLavish01.png",
+        "Sprite/Stunlock_Icon_Structure_FlyingChandelierLavish01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_FlyingChandelier_Simple01": {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Simple01",
+      "guid": 2005837161,
+      "portraitAssetName": "Stunlock_Icon_Structure_FlyingChandelierSimple01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FlyingChandelierSimple01.png",
+        "Sprite/Stunlock_Icon_Structure_FlyingChandelierSimple01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01": {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01",
+      "guid": -1949816617,
+      "portraitAssetName": "Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse01.png",
+        "Sprite/Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02": {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02",
+      "guid": -761600498,
+      "portraitAssetName": "Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse02.png",
+        "Sprite/Stunlock_Icon_Structure_Garden_Hedgerow01_sculpture_horse02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GardenChair01": {
+      "prefab": "TM_Castle_ObjectDecor_GardenChair01",
+      "guid": -925263583,
+      "portraitAssetName": "Stunlock_Icon_Structure_GardenChair01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GardenChair01.png",
+        "Sprite/Stunlock_Icon_Structure_GardenChair01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GardenLampPost01_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost01_Orange",
+      "guid": -55079755,
+      "portraitAssetName": "Stunlock_Icon_Structure_GardenLampPost01_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GardenLampPost01_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GardenLampPost01_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GardenLampPost02_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost02_Orange",
+      "guid": 1758705562,
+      "portraitAssetName": "Stunlock_Icon_Structure_GardenLampPost02_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GardenLampPost02_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GardenLampPost02_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GardenLampPost03_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost03_Orange",
+      "guid": 656054963,
+      "portraitAssetName": "Stunlock_Icon_Structure_GardenLampPost03_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GardenLampPost03_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GardenLampPost03_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GardenLantern03_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_GardenLantern03_Orange",
+      "guid": -451545916,
+      "portraitAssetName": "Stunlock_Icon_Structure_GardenLantern03_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GardenLantern03_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GardenLantern03_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Brazier02_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier02_Orange",
+      "guid": 1965326190,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicBrazier02_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicBrazier02_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GothicBrazier02_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Brazier03_Orange": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier03_Orange",
+      "guid": 224878241,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicBrazier03_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicBrazier03_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GothicBrazier03_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Podium01": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Podium01",
+      "guid": -590609504,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicPodium01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicPodium01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicPodium01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Vase01": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase01",
+      "guid": -479280465,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicVase01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicVase01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicVase01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Vase02": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase02",
+      "guid": -1076384196,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicVase02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicVase02.png",
+        "Sprite/Stunlock_Icon_Structure_GothicVase02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Vase03": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase03",
+      "guid": -76851715,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicVase03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicVase03.png",
+        "Sprite/Stunlock_Icon_Structure_GothicVase03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Vase04": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase04",
+      "guid": 2030984728,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicVase04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicVase04.png",
+        "Sprite/Stunlock_Icon_Structure_GothicVase04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Gothic_Vase05": {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase05",
+      "guid": -1537403426,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicVase05.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicVase05.png",
+        "Sprite/Stunlock_Icon_Structure_GothicVase05.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GrandfatherClock_Cabal01": {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Cabal01",
+      "guid": -1623564712,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Cabal01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Cabal01.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Cabal01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GrandfatherClock_Gothic01": {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Gothic01",
+      "guid": -561639815,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Gothic01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Gothic01.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Gothic01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_GrandfatherClock_Lavish01": {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Lavish01",
+      "guid": 1136472160,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Lavish01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Lavish01.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_GrandfatherClock_Lavish01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase01": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase01",
+      "guid": -779774088,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase01.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase02": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase02",
+      "guid": -2087497758,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase02.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase03": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase03",
+      "guid": -1218974349,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase03.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase05": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase05",
+      "guid": -1312712675,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase05.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase05.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase05.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase06": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase06",
+      "guid": 851602346,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase06.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase06.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase06.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Lavish_Vase07": {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase07",
+      "guid": -595181570,
+      "portraitAssetName": "Stunlock_Icon_Structure_LavishVase07.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_LavishVase07.png",
+        "Sprite/Stunlock_Icon_Structure_LavishVase07.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_StandingBurnerPot01": {
+      "prefab": "TM_Castle_ObjectDecor_StandingBurnerPot01",
+      "guid": -202816279,
+      "portraitAssetName": "Stunlock_Icon_Structure_StandingBurnerPot01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_StandingBurnerPot01.png",
+        "Sprite/Stunlock_Icon_Structure_StandingBurnerPot01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Table_4x3_Cabal01": {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_Cabal01",
+      "guid": -742777303,
+      "portraitAssetName": "Stunlock_Icon_Structure_Table4x3Cabal01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Table4x3Cabal01.png",
+        "Sprite/Stunlock_Icon_Structure_Table4x3Cabal01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_TargetDummy_Basic01": {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Basic01",
+      "guid": 2101121636,
+      "portraitAssetName": "Stunlock_Icon_Structure_TargetDummy_Basic01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_TargetDummy_Basic01.png",
+        "Sprite/Stunlock_Icon_Structure_TargetDummy_Basic01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_TargetDummy_Soldier01": {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Soldier01",
+      "guid": 104465058,
+      "portraitAssetName": "Stunlock_Icon_Structure_TargetDummy_Soldier01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_TargetDummy_Soldier01.png",
+        "Sprite/Stunlock_Icon_Structure_TargetDummy_Soldier01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_TargetDummy_Vampire01": {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Vampire01",
+      "guid": 230163020,
+      "portraitAssetName": "Stunlock_Icon_Structure_TargetDummy_Vampire01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_TargetDummy_Vampire01.png",
+        "Sprite/Stunlock_Icon_Structure_TargetDummy_Vampire01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_TargetDummy_Villager01": {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Villager01",
+      "guid": 1098118571,
+      "portraitAssetName": "Stunlock_Icon_Structure_TargetDummy_Villager01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_TargetDummy_Villager01.png",
+        "Sprite/Stunlock_Icon_Structure_TargetDummy_Villager01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_Terrarium01": {
+      "prefab": "TM_Castle_ObjectDecor_Terrarium01",
+      "guid": -1558674217,
+      "portraitAssetName": "Stunlock_Icon_Structure_ObjectDecor_Terrarium01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ObjectDecor_Terrarium01.png",
+        "Sprite/Stunlock_Icon_Structure_ObjectDecor_Terrarium01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_ObjectDecor_WashBasin01": {
+      "prefab": "TM_Castle_ObjectDecor_WashBasin01",
+      "guid": -3042048,
+      "portraitAssetName": "Stunlock_Icon_Structure_WashBasin01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WashBasin01.png",
+        "Sprite/Stunlock_Icon_Structure_WashBasin01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Banner01": {
+      "prefab": "TM_Castle_PillarDecor_Banner01",
+      "guid": -1117554565,
+      "portraitAssetName": "Stunlock_Icon_Structure_PillarDecorBanner01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_PillarDecorBanner01.png",
+        "Sprite/Stunlock_Icon_Structure_PillarDecorBanner01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Banner03": {
+      "prefab": "TM_Castle_PillarDecor_Banner03",
+      "guid": 1652335816,
+      "portraitAssetName": "Stunlock_Icon_Structure_PillarDecorBanner03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_PillarDecorBanner03.png",
+        "Sprite/Stunlock_Icon_Structure_PillarDecorBanner03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_BatWing01": {
+      "prefab": "TM_Castle_PillarDecor_BatWing01",
+      "guid": -1727572164,
+      "portraitAssetName": "Stunlock_Icon_Structure_BatWing01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_BatWing01.png",
+        "Sprite/Stunlock_Icon_Structure_BatWing01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_CoafOfArms01_Banner01": {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner01",
+      "guid": -760358969,
+      "portraitAssetName": "Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner01.png",
+        "Sprite/Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_CoafOfArms01_Banner02": {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner02",
+      "guid": 1027890023,
+      "portraitAssetName": "Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner02.png",
+        "Sprite/Stunlock_Icon_Structure_PillarDecor_CoafOfArms01_Banner02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_CrowWing01": {
+      "prefab": "TM_Castle_PillarDecor_CrowWing01",
+      "guid": 1713970619,
+      "portraitAssetName": "Stunlock_Icon_Structure_CrowWing01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CrowWing01.png",
+        "Sprite/Stunlock_Icon_Structure_CrowWing01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gargoyle01": {
+      "prefab": "TM_Castle_PillarDecor_Gargoyle01",
+      "guid": 328148479,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gargoyle01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gargoyle01.png",
+        "Sprite/Stunlock_Icon_Structure_Gargoyle01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange",
+      "guid": -721714254,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicHalloweenLantern01_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicHalloweenLantern01_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GothicHalloweenLantern01_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange",
+      "guid": 514660688,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicHangingLantern01_Orange.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicHangingLantern01_Orange.png",
+        "Sprite/Stunlock_Icon_Structure_GothicHangingLantern01_Orange.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HangingLantern02": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern02",
+      "guid": 1039319072,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gothic_HangingLantern02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gothic_HangingLantern02.png",
+        "Sprite/Stunlock_Icon_Structure_Gothic_HangingLantern02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HangingLantern03": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern03",
+      "guid": 222452688,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gothic_HangingLantern03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gothic_HangingLantern03.png",
+        "Sprite/Stunlock_Icon_Structure_Gothic_HangingLantern03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HangingLantern04": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern04",
+      "guid": -1938248109,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gothic_HangingLantern04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gothic_HangingLantern04.png",
+        "Sprite/Stunlock_Icon_Structure_Gothic_HangingLantern04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_HangingLantern05": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern05",
+      "guid": 1990191735,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gothic_HangingLantern05.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gothic_HangingLantern05.png",
+        "Sprite/Stunlock_Icon_Structure_Gothic_HangingLantern05.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Gothic_Torch02": {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Torch02",
+      "guid": -962887562,
+      "portraitAssetName": "Stunlock_Icon_Structure_Gothic_Torch02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Gothic_Torch02.png",
+        "Sprite/Stunlock_Icon_Structure_Gothic_Torch02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_PillarDecor_Halloween01": {
+      "prefab": "TM_Castle_PillarDecor_Halloween01",
+      "guid": 229389372,
+      "portraitAssetName": "Stunlock_Icon_Structure_PillarDecorHalloween01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_PillarDecorHalloween01.png",
+        "Sprite/Stunlock_Icon_Structure_PillarDecorHalloween01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier01_Wood": {
+      "prefab": "TM_Castle_Wall_Tier01_Wood",
+      "guid": 792289367,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier01Wood.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier01Wood.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier01Wood.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier01_Wood_Entrance": {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Entrance",
+      "guid": -1293632412,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier01_Wood_Pillar": {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Pillar",
+      "guid": 1639432090,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier02_Stone": {
+      "prefab": "TM_Castle_Wall_Tier02_Stone",
+      "guid": 1909288154,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier02Stone.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier02Stone.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier02Stone.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier02_Stone_Entrance": {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Entrance",
+      "guid": 728150320,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_Wall_Tier02_Stone_Pillar": {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Pillar",
+      "guid": 1506730526,
+      "portraitAssetName": "Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
+        "Sprite/Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Bars01": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Bars01",
+      "guid": 1169104268,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowBars01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowBars01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowBars01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Green01": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green01",
+      "guid": -659104170,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowGreen01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowGreen01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowGreen01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Green02": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green02",
+      "guid": -1204323601,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowGreen02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowGreen02.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowGreen02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Green03": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green03",
+      "guid": -795601069,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowGreen03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowGreen03.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowGreen03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Purple01": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple01",
+      "guid": -729261826,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowPurple01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowPurple01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowPurple01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Purple02": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple02",
+      "guid": 1066937682,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowPurple02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowPurple02.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowPurple02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Purple03": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple03",
+      "guid": -1252378669,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowPurple03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowPurple03.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowPurple03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Skyblue01": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue01",
+      "guid": -453210601,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowSkyblue01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowSkyblue01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowSkyblue01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Skyblue02": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue02",
+      "guid": -2028788906,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowSkyblue02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowSkyblue02.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowSkyblue02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window_Skyblue03": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue03",
+      "guid": -676131283,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindowSkyblue03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindowSkyblue03.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindowSkyblue03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Gothic_Window01_Halloween01": {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_Halloween01",
+      "guid": 1887813312,
+      "portraitAssetName": "Stunlock_Icon_Structure_GothicWindow01_Halloween01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_GothicWindow01_Halloween01.png",
+        "Sprite/Stunlock_Icon_Structure_GothicWindow01_Halloween01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Mirrors_Mirror01": {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror01",
+      "guid": 1178448608,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Mirrors_Mirror02": {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror02",
+      "guid": -1556169800,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror02.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Mirrors_Mirror03": {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror03",
+      "guid": -1193732670,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror03.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Mirrors_Mirror04": {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror04",
+      "guid": -1375980003,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror04.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Mirrors_Mirror04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01": {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01",
+      "guid": 1731550316,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Misc_CoatOfArms_WallBanner01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Misc_CoatOfArms_WallBanner01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Misc_CoatOfArms_WallBanner01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Misc_TrophySkull01": {
+      "prefab": "TM_Castle_WallDecor_Misc_TrophySkull01",
+      "guid": -509538861,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Misc_TrophySkull01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Misc_TrophySkull01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Misc_TrophySkull01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_01": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_01",
+      "guid": -265936608,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_02": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_02",
+      "guid": -457497939,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_02.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_03": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_03",
+      "guid": -877164120,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_03.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_04": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_04",
+      "guid": -1770486397,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_04.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_05": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_05",
+      "guid": 1104397231,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_05.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_05.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_05.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_06": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_06",
+      "guid": -637480316,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_06.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_06.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_06.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_07": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_07",
+      "guid": 621107396,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_07.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_07.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_07.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_08": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_08",
+      "guid": -80712975,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_08.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_08.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_08.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Oval_Painting_09": {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_09",
+      "guid": 790955618,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Oval_Painting_09.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Oval_Painting_09.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Oval_Painting_09.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_ProjectK_Painting_01": {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_01",
+      "guid": 1549709004,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_ProjectK_Painting_02": {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_02",
+      "guid": -1105873872,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_02.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_ProjectK_Painting_02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Shelves_Shelf01": {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf01",
+      "guid": -55125931,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Shelves_Shelf01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf01.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Shelves_Shelf02": {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf02",
+      "guid": -1759419888,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Shelves_Shelf02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf02.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Shelves_Shelf03": {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf03",
+      "guid": 1648986010,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Shelves_Shelf03.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf03.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf03.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_Shelves_Shelf04": {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf04",
+      "guid": -993266118,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallDecor_Shelves_Shelf04.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf04.png",
+        "Sprite/Stunlock_Icon_Structure_WallDecor_Shelves_Shelf04.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_WallCurtain_Black02": {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Black02",
+      "guid": -1501439420,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallCurtainBlack02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallCurtainBlack02.png",
+        "Sprite/Stunlock_Icon_Structure_WallCurtainBlack02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_WallCurtain_Green01": {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Green01",
+      "guid": 1864414502,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallCurtainGreen01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallCurtainGreen01.png",
+        "Sprite/Stunlock_Icon_Structure_WallCurtainGreen01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_WallCurtain_Green02": {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Green02",
+      "guid": 990866755,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallCurtainGreen02.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallCurtainGreen02.png",
+        "Sprite/Stunlock_Icon_Structure_WallCurtainGreen02.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_WallCurtain_Halloween01": {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Halloween01",
+      "guid": 271242862,
+      "portraitAssetName": "Stunlock_Icon_Structure_WallCurtainHalloween01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WallCurtainHalloween01.png",
+        "Sprite/Stunlock_Icon_Structure_WallCurtainHalloween01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_Castle_WallDecor_WindowCurtains_Halloween01": {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Halloween01",
+      "guid": -1073349521,
+      "portraitAssetName": "Stunlock_Icon_Structure_WindowCurtainsHalloween01.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_WindowCurtainsHalloween01.png",
+        "Sprite/Stunlock_Icon_Structure_WindowCurtainsHalloween01.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ]
+    },
+    "TM_CraftingStation_Anvil": {
+      "prefab": "TM_CraftingStation_Anvil",
+      "guid": -437790980,
+      "portraitAssetName": "Stunlock_Icon_Structure_Anvil.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Anvil.png",
+        "Sprite/Stunlock_Icon_Structure_Anvil.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Anvil.png"
+    },
+    "TM_CraftingStation_ArtisansCorner": {
+      "prefab": "TM_CraftingStation_ArtisansCorner",
+      "guid": 1121480632,
+      "portraitAssetName": "Stunlock_Icon_Structure_ArtisansCorner.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_ArtisansCorner.png",
+        "Sprite/Stunlock_Icon_Structure_ArtisansCorner.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_ArtisansCorner.png"
+    },
+    "TM_CraftingStation_BloodMixer": {
+      "prefab": "TM_CraftingStation_BloodMixer",
+      "guid": -969931747,
+      "portraitAssetName": "Stunlock_Icon_Structure_BloodMixer.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_BloodMixer.png",
+        "Sprite/Stunlock_Icon_Structure_BloodMixer.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_BloodMixer.png"
+    },
+    "TM_CraftingStation_FusionForge": {
+      "prefab": "TM_CraftingStation_FusionForge",
+      "guid": -1286344051,
+      "portraitAssetName": "Stunlock_Icon_Structure_FusionForge.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_FusionForge.png",
+        "Sprite/Stunlock_Icon_Structure_FusionForge.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_FusionForge.png"
+    },
+    "TM_CraftingStation_JewelcraftingTable": {
+      "prefab": "TM_CraftingStation_JewelcraftingTable",
+      "guid": 508953830,
+      "portraitAssetName": "Stunlock_Icon_Structure_JewelcraftingTable.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_JewelcraftingTable.png",
+        "Sprite/Stunlock_Icon_Structure_JewelcraftingTable.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_JewelcraftingTable.png"
+    },
+    "TM_CraftingStation_SimpleCraftingBench": {
+      "prefab": "TM_CraftingStation_SimpleCraftingBench",
+      "guid": -1107784271,
+      "portraitAssetName": "Stunlock_Icon_Structure_SimpleCraftingBench.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_SimpleCraftingBench.png",
+        "Sprite/Stunlock_Icon_Structure_SimpleCraftingBench.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_SimpleCraftingBench.png"
+    },
+    "TM_CraftingStation_Smithy": {
+      "prefab": "TM_CraftingStation_Smithy",
+      "guid": -1840926436,
+      "portraitAssetName": "Stunlock_Icon_Structure_Smithy.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Smithy.png",
+        "Sprite/Stunlock_Icon_Structure_Smithy.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Smithy.png"
+    },
+    "TM_CraftingStation_Stables": {
+      "prefab": "TM_CraftingStation_Stables",
+      "guid": 472278220,
+      "portraitAssetName": "Stunlock_Icon_Structure_Stables.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Stables.png",
+        "Sprite/Stunlock_Icon_Structure_Stables.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stables.png"
+    },
+    "TM_RefinementStation_Fabricator": {
+      "prefab": "TM_RefinementStation_Fabricator",
+      "guid": -465055967,
+      "portraitAssetName": "Stunlock_Icon_Structure_Fabricator.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Fabricator.png",
+        "Sprite/Stunlock_Icon_Structure_Fabricator.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Fabricator.png"
+    },
+    "TM_RefinementStation_Sawmill_Small": {
+      "prefab": "TM_RefinementStation_Sawmill_Small",
+      "guid": 1094077710,
+      "portraitAssetName": "StructureIcon_SawmillSmall_Normal.png",
+      "portraitAssetFamily": "structureicon-normal",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/StructureIcon_SawmillSmall_Normal.png",
+        "Sprite/StructureIcon_SawmillSmall_Normal.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/StructureIcon_SawmillSmall_Normal.png"
+    },
+    "TM_UnitStation_NetherGate": {
+      "prefab": "TM_UnitStation_NetherGate",
+      "guid": -218354895,
+      "portraitAssetName": "Stunlock_Icon_Structure_NetherGate.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_NetherGate.png",
+        "Sprite/Stunlock_Icon_Structure_NetherGate.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_NetherGate.png"
+    },
+    "TM_UnitStation_Tomb": {
+      "prefab": "TM_UnitStation_Tomb",
+      "guid": 1127059420,
+      "portraitAssetName": "Stunlock_Icon_Structure_Tomb.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_Tomb.png",
+        "Sprite/Stunlock_Icon_Structure_Tomb.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Tomb.png"
+    },
+    "TM_UnitStation_VerminNest": {
+      "prefab": "TM_UnitStation_VerminNest",
+      "guid": 150776081,
+      "portraitAssetName": "Stunlock_Icon_Structure_VerminNest.png",
+      "portraitAssetFamily": "stunlock-structure-icon",
+      "joinStatus": "source-backed",
+      "evidenceRefs": [
+        "Texture2D/Stunlock_Icon_Structure_VerminNest.png",
+        "Sprite/Stunlock_Icon_Structure_VerminNest.png",
+        "data/prefabs/All.json",
+        "data/enrichment/workstation-display-map.json",
+        "data/enrichment/blueprint-display-map.json"
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_VerminNest.png"
+    }
+  }
+}

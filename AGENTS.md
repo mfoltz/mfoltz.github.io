@@ -4,6 +4,7 @@
 - Binary changes are only allowed for:
   - repo-owned curated ability icons under `public/icons/abilities/` (typically via `npm run refresh:db-assets`)
   - repo-owned curated item icons under `public/icons/items/` (typically via `npm run refresh:db-assets`)
+  - repo-owned curated buildable portrait icons under `public/icons/buildables/` (typically via `npm run refresh:db-assets`)
   - approved Data Base branding assets under `static/database-assets/`, with provenance recorded in that folder
   - unchanged current-wiki branding and homepage artwork under `static/wiki-assets/`, sourced from `Odjit/VRising-Mod-Wiki` on branch `explore/theme-revamp`
   - accepted visual review baselines under `tests/visual/baselines/`

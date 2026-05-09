@@ -882,6 +882,10 @@ pre code {
   border-top: 1px solid var(--database-divider);
 }
 
+.database-summary-rows-soft > * + * {
+  border-top: 1px solid color-mix(in srgb, var(--database-divider) 55%, transparent);
+}
+
 .database-inline-fact {
   border: 1px solid var(--database-border);
   background: var(--database-panel);

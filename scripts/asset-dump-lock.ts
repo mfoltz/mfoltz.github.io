@@ -11,7 +11,8 @@ const sourceKind = "assetripper-style-dump";
 const expectedFolders = ["MonoBehaviour", "Sprite", "TextAsset", "Texture2D"];
 const publicIconDirs = [
   ["public/icons/abilities", "abilities"],
-  ["public/icons/items", "items"]
+  ["public/icons/items", "items"],
+  ["public/icons/buildables", "buildables"]
 ] as const;
 
 interface TextureRecord {
@@ -35,6 +36,12 @@ interface SyncIconDirectoryOptions {
   sourceDir: string;
   targetDir: string;
   fileNames: string[];
+}
+
+interface SyncAssetRefDirectoryOptions {
+  assetDumpDir: string;
+  targetDir: string;
+  files: Array<{ fileName: string; sourceRef: string }>;
 }
 
 export interface SyncIconDirectoryResult {
@@ -125,7 +132,17 @@ function aggregateTextureRecords(records: TextureRecord[]): string {
   return sha256Text(records.map((record) => `${record.name}\t${record.sizeBytes}\t${record.sha256}`).join("\n"));
 }
 
-async function computeMaterializedIconEntries(repoRoot: string, iconSourceDir: string): Promise<Record<string, string>> {
+async function resolveMaterializedIconSource(assetDumpDir: string, fileName: string): Promise<string | undefined> {
+  for (const folderName of ["Texture2D", "Sprite"]) {
+    const filePath = path.join(assetDumpDir, folderName, fileName);
+    if (await pathExists(filePath)) {
+      return filePath;
+    }
+  }
+  return undefined;
+}
+
+async function computeMaterializedIconEntries(repoRoot: string, assetDumpDir: string): Promise<Record<string, string>> {
   const entries: Record<string, string> = {};
   for (const [relativeDir] of publicIconDirs) {
     const publicDir = path.join(repoRoot, ...relativeDir.split("/"));
@@ -136,8 +153,8 @@ async function computeMaterializedIconEntries(repoRoot: string, iconSourceDir: s
     const publicIconFiles = (await listDirectFiles(publicDir)).filter((fileName) => /\.png$/i.test(fileName));
     for (const fileName of publicIconFiles) {
       const publicFilePath = path.join(publicDir, fileName);
-      const sourceFilePath = path.join(iconSourceDir, fileName);
-      if (!(await pathExists(sourceFilePath))) {
+      const sourceFilePath = await resolveMaterializedIconSource(assetDumpDir, fileName);
+      if (!sourceFilePath) {
         throw new Error(`Materialized icon is missing from asset dump: ${toPosix(path.relative(repoRoot, publicFilePath))} -> ${fileName}`);
       }
 
@@ -159,7 +176,7 @@ export async function computeAssetDumpLockSnapshot(repoRoot: string, resolution:
   }
 
   const textureRecords = await computeTextureRecords(resolution.iconSourceDir);
-  const materializedIcons = await computeMaterializedIconEntries(repoRoot, resolution.iconSourceDir);
+  const materializedIcons = await computeMaterializedIconEntries(repoRoot, resolution.assetDumpDir);
   return {
     schemaVersion: lockSchemaVersion,
     sourceKind,
@@ -260,6 +277,45 @@ export async function syncIconDirectory({ sourceDir, targetDir, fileNames }: Syn
     const targetPath = path.join(targetDir, fileName);
     if (!(await pathExists(sourcePath))) {
       throw new Error(`Expected icon source not found: ${sourcePath}`);
+    }
+
+    if ((await pathExists(targetPath)) && (await sha256File(sourcePath)) === (await sha256File(targetPath))) {
+      unchanged += 1;
+      continue;
+    }
+
+    await copyFile(sourcePath, targetPath);
+    copied += 1;
+  }
+
+  return { copied, deleted, unchanged };
+}
+
+export async function syncAssetRefDirectory({ assetDumpDir, targetDir, files }: SyncAssetRefDirectoryOptions): Promise<SyncIconDirectoryResult> {
+  const expectedFiles = [...new Map(files.map((file) => [file.fileName, file])).values()].sort((left, right) => left.fileName.localeCompare(right.fileName));
+  const expectedSet = new Set(expectedFiles.map((file) => file.fileName));
+  let copied = 0;
+  let deleted = 0;
+  let unchanged = 0;
+
+  await mkdir(targetDir, { recursive: true });
+  const existingEntries = await readdir(targetDir, { withFileTypes: true });
+  for (const entry of existingEntries) {
+    const targetPath = path.join(targetDir, entry.name);
+    if (entry.isDirectory()) {
+      throw new Error(`Unexpected directory in icon output: ${targetPath}`);
+    }
+    if (entry.isFile() && !expectedSet.has(entry.name)) {
+      await rm(targetPath, { force: true });
+      deleted += 1;
+    }
+  }
+
+  for (const file of expectedFiles) {
+    const sourcePath = path.join(assetDumpDir, ...file.sourceRef.split("/"));
+    const targetPath = path.join(targetDir, file.fileName);
+    if (!(await pathExists(sourcePath))) {
+      throw new Error(`Expected buildable portrait source not found: ${sourcePath}`);
     }
 
     if ((await pathExists(targetPath)) && (await sha256File(sourcePath)) === (await sha256File(targetPath))) {

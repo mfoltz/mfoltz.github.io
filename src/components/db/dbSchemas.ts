@@ -122,7 +122,9 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "npcBloodType", label: "Blood Type" },
       { key: "npcFaction", label: "Faction" },
       { key: "npcUnitCategory", label: "Unit Category" },
-      { key: "essenceGain", label: "Essence", format: "number" },
+      { key: "essenceGain", label: "Essence", format: "number" }
+    ],
+    detailFields: [
       { key: "runSpeed", label: "Run Speed", format: "number" },
       { key: "aggroRadius", label: "Aggro Radius", format: "number" },
       { key: "leashDistance", label: "Leash Distance", format: "number" }

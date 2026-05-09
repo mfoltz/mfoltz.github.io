@@ -307,6 +307,8 @@ public/icons/*
 !public/icons/abilities/**
 !public/icons/items/
 !public/icons/items/**
+!public/icons/buildables/
+!public/icons/buildables/**
 # Ignore Python scripts
 /*.py
 
@@ -318,6 +320,7 @@ static/prefab-slices/
 
 # Local visual review artifacts
 .codex-tmp/visual-review/
+.codex-tmp/dev-review/
 .codex-tmp/ingestion-readiness/
 .codex-tmp/npc-display-source-audit/
 .codex-tmp/asset-probe/

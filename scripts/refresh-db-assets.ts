@@ -1,8 +1,9 @@
 import { mkdir, readFile, readdir, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { assertAssetDumpLock, syncIconDirectory } from "./asset-dump-lock";
+import { assertAssetDumpLock, syncAssetRefDirectory, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
+import { attachBuildablePortraitAssetPaths, buildBuildablePortraitSnapshots, selectBuildablePortraitPublicAssets } from "./buildable-portraits";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
 import { buildNpcPortraitSnapshots } from "./npc-portraits";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
@@ -2779,6 +2780,7 @@ async function main() {
   const vBloodNamesPath = path.join(repoRoot, "data", "prefabs", "VBloodNames.json");
   const publicAbilityIconsDir = path.join(repoRoot, "public", "icons", "abilities");
   const publicItemIconsDir = path.join(repoRoot, "public", "icons", "items");
+  const publicBuildableIconsDir = path.join(repoRoot, "public", "icons", "buildables");
   const bloodHuntsSourcePath = path.join(assetDumpDir, "MonoBehaviour", "BloodHuntsDataAuthoring.json");
 
   await Promise.all([
@@ -3462,6 +3464,25 @@ async function main() {
     bloodHuntsByGuid: stableBloodHuntsSnapshot.entriesByGuid,
     vbloodNamesRows: vBloodNamesRows
   });
+  const rawBuildablePortraitSnapshots = await buildBuildablePortraitSnapshots({
+    assetDumpDir,
+    allPrefabs,
+    workstationDisplayByPrefab: displaySnapshotsByDomain.get("workstation") ?? {},
+    blueprintDisplayByPrefab: displaySnapshotsByDomain.get("blueprint") ?? {}
+  });
+  const buildablePortraitPublicAssets = selectBuildablePortraitPublicAssets(rawBuildablePortraitSnapshots.portraitMap, {
+    workstationPrefabs: Object.keys(displaySnapshotsByDomain.get("workstation") ?? {}),
+    maxPublicAssets: 25
+  });
+  const buildablePortraitSync = await syncAssetRefDirectory({
+    assetDumpDir,
+    targetDir: publicBuildableIconsDir,
+    files: buildablePortraitPublicAssets
+  });
+  const stableBuildablePortraitSnapshots = {
+    candidates: rawBuildablePortraitSnapshots.candidates,
+    portraitMap: attachBuildablePortraitAssetPaths(rawBuildablePortraitSnapshots.portraitMap, buildablePortraitPublicAssets)
+  };
 
   const abilityTooltipEntries = stableCatalogSnapshot.entries
     .map((entry) => stableTooltipSnapshot[entry.prefab])
@@ -3500,10 +3521,25 @@ async function main() {
       entry.joinStatus === "circumstantial" && entry.candidatePrefab && !npcPortraitMappedPrefabs.has(entry.candidatePrefab) ? [entry.candidatePrefab] : []
     )
   ).size;
+  const buildablePortraitMappedPrefabs = new Set(Object.keys(stableBuildablePortraitSnapshots.portraitMap.entriesByPrefab));
+  const buildablePortraitLowSignalPrefabs = new Set(
+    Object.values(stableBuildablePortraitSnapshots.candidates.entriesByAssetName).flatMap((entry) =>
+      entry.joinStatus === "circumstantial"
+        ? (entry.candidatePrefabs ?? [])
+            .map((candidate) => candidate.prefab)
+            .filter((prefab) => !buildablePortraitMappedPrefabs.has(prefab))
+        : []
+    )
+  ).size;
 
   const coverage: Record<string, CoverageMetric> = {
     "ability-tooltip-map": toCoverage(stableCatalogSnapshot.entries.length, abilityTooltipMatched, abilityTooltipLowSignal),
     "blood-hunts-map": toCoverage(stableBloodHuntsSnapshot.sourceRowCount, Object.keys(stableBloodHuntsSnapshot.entriesByGuid).length),
+    "buildable-portrait-map": toCoverage(
+      stableBuildablePortraitSnapshots.portraitMap.totalCurrentBuildableRows,
+      Object.keys(stableBuildablePortraitSnapshots.portraitMap.entriesByPrefab).length,
+      buildablePortraitLowSignalPrefabs
+    ),
     "item-icon-map": toCoverage(Object.keys(stableItemIconSnapshot).length, itemIconMatched, itemIconLowSignal),
     "item-description-map": toCoverage(Object.keys(stableItemDescriptionSnapshot).length, itemDescriptionMatched, itemDescriptionLowSignal),
     "npc-classification-map": toCoverage(Object.keys(stableNpcClassificationSnapshot).length, npcClassificationMatched, npcClassificationLowSignal),
@@ -3530,6 +3566,8 @@ async function main() {
     { fileName: "ability-catalog.json", data: stableCatalogSnapshot },
     { fileName: "ability-icon-manifest.json", data: stableAbilityIconManifest },
     { fileName: "blood-hunts-map.json", data: stableBloodHuntsSnapshot },
+    { fileName: "buildable-portrait-candidates.json", data: stableBuildablePortraitSnapshots.candidates },
+    { fileName: "buildable-portrait-map.json", data: stableBuildablePortraitSnapshots.portraitMap },
     { fileName: "ability-tooltip-map.json", data: stableTooltipSnapshot },
     { fileName: "item-icon-map.json", data: stableItemIconSnapshot },
     { fileName: "item-icon-manifest.json", data: stableItemIconManifest },
@@ -3567,11 +3605,19 @@ async function main() {
   console.log(
     `Materialized ${repoOwnedItemIconNames.length} repo-owned item icon assets (${itemIconSync.copied} copied, ${itemIconSync.unchanged} unchanged, ${itemIconSync.deleted} deleted).`
   );
+  console.log(
+    `Materialized ${buildablePortraitPublicAssets.length} repo-owned buildable portrait assets (${buildablePortraitSync.copied} copied, ${buildablePortraitSync.unchanged} unchanged, ${buildablePortraitSync.deleted} deleted).`
+  );
   for (const domain of displayDomains) {
     console.log(`Imported ${importedLegacyDisplayRowsByDomain[domain.domainName] ?? 0} legacy ${domain.domainName} display rows.`);
   }
   console.log(`Imported ${importedNpcClassificationRows} NPC classification rows from extractor model source file(s).`);
   console.log(`Imported ${Object.keys(stableBloodHuntsSnapshot.entriesByGuid).length} Blood Hunts rows from ${stableBloodHuntsSnapshot.sourceRef}.`);
+  console.log(
+    `Mapped ${Object.keys(stableBuildablePortraitSnapshots.portraitMap.entriesByPrefab).length} buildable portrait rows from ${
+      stableBuildablePortraitSnapshots.candidates.totalAssets
+    } structure asset candidates.`
+  );
 
   const abilityCoverage = coverage["ability-tooltip-map"];
   const bloodHuntsCoverage = coverage["blood-hunts-map"];
