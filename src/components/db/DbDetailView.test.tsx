@@ -133,6 +133,9 @@ test("structured NPC detail keeps summary cues while consolidating duplicate rel
   assert.match(html, /⚑/);
   assert.match(html, /◇/);
   assert.match(html, /✧/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">NPC Archive<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
 
   assert.doesNotMatch(html, />NPC Summary</);
   assert.doesNotMatch(html, /preserved aggro, movement, and drop context/);

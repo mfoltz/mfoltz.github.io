@@ -1337,23 +1337,29 @@ function renderNpcSummaryRow(label: string, value: ReactNode) {
   );
 }
 
+function renderNpcSummaryRows(detail: DbEntityDetail) {
+  const unitCategory = typeof detail.npcUnitCategory === "string" && detail.npcUnitCategory !== "None" ? detail.npcUnitCategory : undefined;
+
+  return (
+    <dl className="database-summary-rows-soft">
+      {typeof detail.npcKind === "string" ? renderNpcSummaryRow("Kind", detail.npcKind) : null}
+      {typeof detail.npcLevel === "number" ? renderNpcSummaryRow("Level", formatNumber(detail.npcLevel)) : null}
+      {typeof detail.npcBloodType === "string" ? renderNpcSummaryRow("Blood", detail.npcBloodType) : null}
+      {typeof detail.npcFaction === "string" ? renderNpcSummaryRow("Faction", detail.npcFaction) : null}
+      {unitCategory ? renderNpcSummaryRow("Unit", unitCategory) : null}
+      {typeof detail.essenceGain === "number" ? renderNpcSummaryRow("Essence", formatNumber(detail.essenceGain)) : null}
+    </dl>
+  );
+}
+
 function renderNpcSummary(section: DbSection, detail: DbEntityDetail) {
   if (!hasNpcSummaryData(section, detail)) {
     return null;
   }
 
-  const unitCategory = typeof detail.npcUnitCategory === "string" && detail.npcUnitCategory !== "None" ? detail.npcUnitCategory : undefined;
-
   return (
     <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">
-      <dl className="database-summary-rows-soft">
-        {typeof detail.npcKind === "string" ? renderNpcSummaryRow("Kind", detail.npcKind) : null}
-        {typeof detail.npcLevel === "number" ? renderNpcSummaryRow("Level", formatNumber(detail.npcLevel)) : null}
-        {typeof detail.npcBloodType === "string" ? renderNpcSummaryRow("Blood", detail.npcBloodType) : null}
-        {typeof detail.npcFaction === "string" ? renderNpcSummaryRow("Faction", detail.npcFaction) : null}
-        {unitCategory ? renderNpcSummaryRow("Unit", unitCategory) : null}
-        {typeof detail.essenceGain === "number" ? renderNpcSummaryRow("Essence", formatNumber(detail.essenceGain)) : null}
-      </dl>
+      {renderNpcSummaryRows(detail)}
     </div>
   );
 }
@@ -1536,6 +1542,7 @@ function renderWorkstationLinkedRecordsSurface(detail: DbEntityDetail) {
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = getHeroCategories(section, detail);
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
+  const summaryRailLabel = section === "npcs" ? eyebrow : humanizeKey(section);
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy } = getHeroBodyCopy(section, detail);
   const recipeSummary = renderRecipeSummary(section, detail);
@@ -1543,12 +1550,16 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const itemSummary = renderItemSummary(section, detail);
   const npcSummary = renderNpcSummary(section, detail);
   const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary ?? npcSummary;
+  const placeStructuredSummaryInRail = section === "npcs" && Boolean(npcSummary);
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const showHeroBodyCopy = Boolean(bodyCopy && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
-  const showSummaryRail = summaryFactRows.length > 0;
+  const showSummaryRail = summaryFactRows.length > 0 || placeStructuredSummaryInRail;
+  const summaryRailClassName = placeStructuredSummaryInRail
+    ? "database-summary-capsule hidden rounded-[1.35rem] p-4 sm:p-5 xl:block"
+    : "database-summary-capsule rounded-[1.35rem] p-4 sm:p-5";
   const visibleCategories = categories.slice(0, 3);
   const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
 
@@ -1570,7 +1581,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
-              {structuredSummary}
+              {placeStructuredSummaryInRail ? <div className="xl:hidden">{structuredSummary}</div> : structuredSummary}
             </div>
             {detailIcon && !showSummaryRail && section !== "items" ? (
               <DbIconAvatar
@@ -1595,11 +1606,11 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
           {renderInlineFacts(inlineFactRows)}
         </div>
         {showSummaryRail ? (
-          <aside className="database-summary-capsule rounded-[1.35rem] p-4 sm:p-5">
+          <aside className={summaryRailClassName}>
             <div className="flex items-start justify-between gap-4">
               <div>
                 <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Quick Facts</div>
-                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{humanizeKey(section)}</div>
+                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{summaryRailLabel}</div>
               </div>
               {detailIcon ? (
                 <DbIconAvatar
@@ -1611,7 +1622,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
               ) : null}
             </div>
 
-            {renderSummaryRows(summaryFactRows)}
+            {placeStructuredSummaryInRail ? <div className="mt-4">{renderNpcSummaryRows(detail)}</div> : renderSummaryRows(summaryFactRows)}
           </aside>
         ) : null}
       </div>
