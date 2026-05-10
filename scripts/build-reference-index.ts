@@ -779,6 +779,7 @@ async function main() {
   }
 
   function registerPrefabReference(doc: SourceDocument, guid: number | null, categories: string[], components: ParsedPrefabComponent[]): void {
+    const componentDocCount = components.filter((component) => component.path).length;
     const componentRelations = components.map((component) => ({
       title: component.name,
       path: component.path,
@@ -837,6 +838,7 @@ async function main() {
         toRow("GUID", guid, { monospace: true }),
         toRow("Categories", categories.length),
         toRow("Components", components.length),
+        toRow("Component Docs", `${componentDocCount} / ${components.length}`),
         toRow("Nested Entry Blocks", components.filter((component) => component.entries.length > 0).length)
       ].filter((row): row is ReferenceFieldRow => Boolean(row)),
       detailSections,
