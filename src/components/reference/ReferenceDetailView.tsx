@@ -2,7 +2,7 @@ import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
 import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { headingId } from "../../lib/text";
-import { ReferenceDetail, ReferenceRelationGroup } from "../../types/reference";
+import { ReferenceDetail, ReferenceRelation, ReferenceRelationGroup } from "../../types/reference";
 import { ReferenceBadge, ReferenceFieldGrid, ReferenceRelationList, ReferenceSurface } from "./ReferenceUi";
 
 function getMonogram(value: string): string {
@@ -96,6 +96,42 @@ function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelati
   return items;
 }
 
+function isPrefabComponentsGroup(detail: ReferenceDetail, group: ReferenceRelationGroup): boolean {
+  return detail.section === "prefabs" && group.title === "Components";
+}
+
+function getRelationMeta(detail: ReferenceDetail, group: ReferenceRelationGroup): string {
+  const count = group.totalCount ?? group.items.length;
+  return isPrefabComponentsGroup(detail, group) ? `${count} components` : `${count} linked`;
+}
+
+function getRelationItems(detail: ReferenceDetail, group: ReferenceRelationGroup): ReferenceRelation[] {
+  if (!isPrefabComponentsGroup(detail, group)) {
+    return group.items;
+  }
+
+  return group.items.map((item) =>
+    item.path
+      ? item
+      : {
+          ...item,
+          badges: item.badges?.includes("No component doc") ? item.badges : [...(item.badges ?? []), "No component doc"]
+        }
+  );
+}
+
+function renderPrefabComponentNote(detail: ReferenceDetail, group: ReferenceRelationGroup) {
+  if (!isPrefabComponentsGroup(detail, group)) {
+    return null;
+  }
+
+  return (
+    <p className="database-panel-subtle rounded-[1rem] px-4 py-3 text-xs leading-6 text-[var(--database-muted)]">
+      Component rows come from an extracted prefab component snapshot. Linked rows open generated component docs; unlinked rows are still attached components without a matching component doc page.
+    </p>
+  );
+}
+
 function renderSummaryRows(detail: ReferenceDetail) {
   const stats = detail.stats ?? [];
   if (stats.length === 0) {
@@ -185,9 +221,12 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
             key={group.title}
             title={group.title}
             anchorId={`relation-${headingId(group.title)}`}
-            meta={`${group.totalCount ?? group.items.length} linked`}
+            meta={getRelationMeta(detail, group)}
           >
-            <ReferenceRelationList items={group.items} emptyLabel={group.emptyLabel} totalCount={group.totalCount} />
+            <div className="space-y-4">
+              {renderPrefabComponentNote(detail, group)}
+              <ReferenceRelationList items={getRelationItems(detail, group)} emptyLabel={group.emptyLabel} totalCount={group.totalCount} />
+            </div>
           </ReferenceSurface>
         ))}
 
