@@ -137,6 +137,7 @@ type NpcPortraitMapEntry = {
   displayNameEn: string;
   portraitAssetName: string;
   portraitAssetFamily: string;
+  portraitAssetPath?: string;
   joinStatus: string;
   approvalStatus?: string;
   approvalNote?: string;
@@ -480,6 +481,16 @@ async function validateNpcPortraitMaps(repoRoot: string): Promise<void> {
     assert(candidate?.candidateGuid === entry.guid, `${source}: candidate guid does not match promoted guid`);
     assert(candidate?.joinStatus === entry.joinStatus, `${source}: candidate joinStatus does not match promoted joinStatus`);
     assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
+    if (entry.portraitAssetPath) {
+      assert(entry.joinStatus === "source-backed" || entry.approvalStatus === "approved", `${source}: portraitAssetPath requires source-backed or approved user-attested evidence`);
+      assertNpcPortraitPath(entry.portraitAssetPath, source);
+      assert(path.posix.basename(entry.portraitAssetPath) === entry.portraitAssetName, `${source}: portraitAssetPath basename must match portraitAssetName`);
+      assert(
+        entry.evidenceRefs.includes(`Texture2D/${entry.portraitAssetName}`) || entry.evidenceRefs.includes(`Sprite/${entry.portraitAssetName}`),
+        `${source}: portraitAssetPath must be backed by a Texture2D or Sprite evidence ref`
+      );
+      await assertPublicIconExists(repoRoot, entry.portraitAssetPath, source);
+    }
   }
 }
 
@@ -650,6 +661,16 @@ function assertBuildablePortraitPath(icon: string | undefined, source: string): 
   assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
 }
 
+function assertNpcPortraitPath(icon: string | undefined, source: string): void {
+  if (!icon) {
+    return;
+  }
+
+  assert(icon.startsWith("/icons/npcs/"), `${source}: icon '${icon}' is not an approved NPC portrait path`);
+  assert(icon.endsWith(".png"), `${source}: icon '${icon}' must be a PNG asset`);
+  assert(!icon.includes(".."), `${source}: icon '${icon}' must not contain parent traversal`);
+}
+
 function collectRelatedIcons(detail: DetailEntry): Array<[string, string]> {
   const relationGroups: RelatedEntityGroupKey[] = ["repairRecipes", "relatedRecipes", "outputs", "requirements", "repairCosts", "spellJewels", "workstationOutputs", "inventoryPrefabs"];
 
@@ -748,6 +769,10 @@ async function main() {
       );
       if (section === "workstations" && detail.portraitAssetPath) {
         assertBuildablePortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+        await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+      }
+      if (section === "npcs" && detail.portraitAssetPath) {
+        assertNpcPortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
         await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
       }
     }

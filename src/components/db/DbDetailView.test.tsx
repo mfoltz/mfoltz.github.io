@@ -77,6 +77,9 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
   assert.match(html, /📦/);
   assert.match(html, /🧩/);
   assert.match(html, /🔧/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Recipe Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
 
   assert.doesNotMatch(html, />Recipe Summary</);
   assert.doesNotMatch(html, /Player Context/);
@@ -94,6 +97,12 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
   assert.equal(countMatches(html, /href="#relation-repair-costs"/g), 0);
 });
 
+test("structured recipe detail keeps non-summary fact rows visible on mobile and desktop", () => {
+  const html = renderDetail({ ...recipeDetailFixture, alwaysUnlocked: true, hideInStation: true, ignoreServerSettings: true }, "recipes");
+
+  assert.equal(countMatches(html, /Ignores Server Settings/g), 2);
+});
+
 test("structured item detail keeps localized copy while consolidating duplicate relation sections", () => {
   const html = renderItemDetail();
 
@@ -103,6 +112,9 @@ test("structured item detail keeps localized copy while consolidating duplicate 
   assert.match(html, /Durability/);
   assert.match(html, /Armor \/ Footgear/);
   assert.match(html, /Equippable/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Item Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
   assert.doesNotMatch(html, /Equippable \/ Footgear/);
   assert.doesNotMatch(html, />Item Summary</);
 
@@ -133,6 +145,9 @@ test("structured NPC detail keeps summary cues while consolidating duplicate rel
   assert.match(html, /⚑/);
   assert.match(html, /◇/);
   assert.match(html, /✧/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">NPC Archive<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
 
   assert.doesNotMatch(html, />NPC Summary</);
   assert.doesNotMatch(html, /preserved aggro, movement, and drop context/);
@@ -152,6 +167,25 @@ test("structured NPC detail keeps summary cues while consolidating duplicate rel
   assert.equal(countMatches(html, /href="#relation-essence-drops"/g), 0);
 });
 
+test("structured NPC detail renders a portrait only when a source-backed path exists", () => {
+  const html = renderDetail(
+    {
+      ...npcDetailFixture,
+      title: "Clive the Firestarter",
+      npcKind: "V Blood Boss",
+      isVBlood: true,
+      portraitAssetPath: "/icons/npcs/CHAR_Bandit_Bomber_VBlood_HeadPortrait.png"
+    },
+    "npcs"
+  );
+  const withoutPath = renderNpcDetail();
+
+  assert.match(html, /src="\/icons\/npcs\/CHAR_Bandit_Bomber_VBlood_HeadPortrait\.png"/);
+  assert.match(html, /alt="Clive the Firestarter NPC portrait"/);
+  assert.doesNotMatch(withoutPath, /NPC portrait/);
+  assert.doesNotMatch(withoutPath, /\/icons\/npcs\//);
+});
+
 test("structured workstation detail keeps summary cues while consolidating duplicate relation sections", () => {
   const html = renderWorkstationDetail();
 
@@ -167,6 +201,9 @@ test("structured workstation detail keeps summary cues while consolidating dupli
   assert.match(html, /✦/);
   assert.match(html, /📜/);
   assert.match(html, /📦/);
+  assert.match(html, /Quick Facts/);
+  assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Workstation Database<\/div>/);
+  assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
   assert.match(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_JewelcraftingTable\.png"/);
   assert.match(html, /alt="Jewelcrafting Table station portrait"/);
 
