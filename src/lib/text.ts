@@ -1,5 +1,9 @@
 import { slugFromRelativePath } from "./slug";
 
+export function hasUsefulDescription(value: string | undefined): boolean {
+  return Boolean(value?.trim() && !/^(?:(?:buff|item set|blueprint|journal or quest) record|buff buff)\.?$/i.test(value.trim()));
+}
+
 export function normalize(value: string): string {
   return value.toLowerCase();
 }

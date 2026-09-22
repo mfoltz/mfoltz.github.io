@@ -1,3 +1,4 @@
+import { hasUsefulDescription } from "../../lib/text";
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { VariableText } from "../common/VariableText";
@@ -190,6 +191,7 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
 }
 
 export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: string }) {
+  const description = entry.description ?? entry.excerpt;
   const chips = entry.categories.slice(0, 2);
   const extraCount = Math.max(0, entry.categories.length - chips.length);
   const eyebrow = entry.recordKind ?? (section === "items" ? "Item" : section === "recipes" ? "Recipe" : section);
@@ -198,7 +200,7 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-4 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
+        className="database-ledger-row block px-4 py-3.5"
       >
         <div className="flex min-w-0 items-start gap-3">
           {entry.icon ? (
@@ -222,14 +224,11 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
             </div>
             <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
             {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-            <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
-              <VariableText text={entry.description ?? entry.excerpt ?? "No summary available yet."} variableValues={entry.textVariableValues} />
-            </p>
-            <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
+            {hasUsefulDescription(description) ? <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+              <VariableText text={description} variableValues={entry.textVariableValues} />
+            </p> : null}
+
           </div>
-        </div>
-        <div className="database-row-action flex items-center text-[11px] font-semibold uppercase tracking-[0.18em]">
-          Open Record
         </div>
       </Link>
     </li>

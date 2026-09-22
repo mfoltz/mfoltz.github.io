@@ -9,6 +9,7 @@ import { NotFoundPage } from "./pages/NotFoundPage";
 import { ReferenceDetailPage } from "./pages/ReferenceDetailPage";
 import { ReferenceListPage } from "./pages/ReferenceListPage";
 import { SearchPage } from "./pages/SearchPage";
+import { DatabasePage } from "./pages/DatabasePage";
 
 const dbSectionRoutes = dbSections.flatMap((section) => [
   { path: `db/${section}`, element: <DbListPage section={section} /> },
@@ -30,6 +31,7 @@ export const router = createBrowserRouter([
       ...referenceRoutes,
       ...dbSectionRoutes,
       { path: "search", element: <SearchPage /> },
+      { path: "db", element: <DatabasePage /> },
       { path: "*", element: <NotFoundPage /> }
     ]
   }

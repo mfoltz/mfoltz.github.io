@@ -28,6 +28,7 @@ function FilterChip({ active, label, count, onClick }: { active: boolean; label:
   return (
     <button
       type="button"
+      aria-pressed={active}
       onClick={onClick}
       className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
@@ -151,7 +152,8 @@ function renderFacetFilterSet(
   onSelect: (value: string) => void
 ) {
   return (
-    <>
+    <fieldset className="flex w-full min-w-0 flex-wrap gap-2 border-0 pt-2">
+      <legend className="mb-1 text-xs font-medium text-[var(--database-muted)]">{allLabel.replace(/^All /, "")}</legend>
       <FilterChip active={activeValue === ALL_DB_BROWSE_VALUE} count={baseCount} label={allLabel} onClick={() => onSelect(ALL_DB_BROWSE_VALUE)} />
       {options.map((option) => (
         <FilterChip
@@ -162,7 +164,7 @@ function renderFacetFilterSet(
           onClick={() => onSelect(option.value)}
         />
       ))}
-    </>
+    </fieldset>
   );
 }
 
@@ -179,12 +181,13 @@ function DenseIndexRow({
 }) {
   const visibleBadges = badges.slice(0, 3);
   const extraBadgeCount = Math.max(0, badges.length - visibleBadges.length);
+  const hasMeta = Boolean(rightMeta?.length);
 
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
+        className={`database-ledger-row grid gap-x-6 gap-y-2.5 px-4 py-3.5 ${hasMeta ? "md:grid-cols-[minmax(0,1fr)_auto] md:items-center" : ""}`}
       >
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2">
@@ -200,22 +203,14 @@ function DenseIndexRow({
           <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
             <VariableText text={body} variableValues={entry.textVariableValues} />
           </p>
-          <div className="mt-3 truncate font-mono text-[11px] text-[var(--database-dim)]">{entry.slug}</div>
         </div>
-        <div className="flex items-center justify-between gap-4 lg:min-w-[9rem] lg:text-right">
-          {rightMeta && rightMeta.length > 0 ? (
-            <div className="space-y-1">
-              {rightMeta.map((label) => (
-                <div key={label} className="text-xs font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">
-                  {label}
-                </div>
-              ))}
-            </div>
-          ) : null}
-          <span className="database-row-action mt-2 block shrink-0 text-[11px] font-semibold uppercase tracking-[0.18em]">
-            Open Record
-          </span>
-        </div>
+        {hasMeta ? (
+          <ul className="m-0 flex list-none flex-wrap gap-x-4 gap-y-1 p-0 text-[11px] font-semibold uppercase leading-5 tracking-[0.12em] text-[var(--database-dim)] md:max-w-[14rem] md:flex-col md:items-end md:text-right">
+            {rightMeta?.map((label) => (
+              <li key={label} className="min-w-0 break-words">{label}</li>
+            ))}
+          </ul>
+        ) : null}
       </Link>
     </li>
   );
@@ -648,21 +643,8 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
     activeSchoolSlice && profile?.subsection
       ? profile.subsection.buildSectionSubtitle(activeSchoolSlice, abilityView)
       : activeItemSlice
-        ? "Direct-linked jewel item browse with tier, family, crafting, and prefab identity still visible."
+        ? "Jewels by tier and spell family, with crafting and prefab references."
       : profile?.sectionSubtitle ?? "Structured generated records from the database index.";
-  const helperText =
-    !loading && profile
-      ? activeSchoolSlice && profile.subsection
-        ? profile.subsection.buildHelperText(activeSchoolSlice, abilityView)
-        : activeItemSlice
-          ? "Direct-linked to jewel records so spell-modifying item review stays focused and shareable."
-        : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && filtered.length > visibleEntries.length
-          ? `Showing first ${visibleEntries.length}. Narrow with search or filters.`
-          : !isAbilitySection && !isItemSection && !isRecipeSection && !isWorkstationSection && !isNpcSection && entries.length > 0 && categoryOptions.length === 0
-            ? "No facet categories are available for this section yet."
-            : profile.helperText
-      : undefined;
-  const surfaceEyebrow = activeSchoolSlice && profile?.subsection ? profile.subsection.label : activeItemSlice ? "Item slice" : profile?.surfaceEyebrow ?? "Static Database View";
   const surfaceTitle =
     activeSchoolSlice && profile?.subsection ? profile.subsection.buildSurfaceTitle(activeSchoolSlice, abilityView) : activeItemSlice ? "Jewel Items" : profile?.surfaceTitle ?? "Database Records";
 
@@ -901,7 +883,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             placeholder={profile?.searchPlaceholder ?? `Search ${section}...`}
           />
         }
-        metrics={metrics}
+        metrics={metrics.slice(0, 1)}
         filterSlot={
           isAbilitySection ? (
             <>
@@ -1097,7 +1079,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
           ) : null
         }
         activeFilters={activeFilters}
-        helperText={helperText}
+        helperText={filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}. Narrow with search or filters.` : undefined}
         onClear={canClearFilters ? clearFilters : undefined}
       />
 
@@ -1109,7 +1091,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
         <section className="database-ledger-surface overflow-hidden rounded-[1.8rem]">
           <div className="flex flex-wrap items-end justify-between gap-4 border-b border-[var(--database-divider)] px-5 py-4">
             <div>
-              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">{surfaceEyebrow}</div>
+              <div className="text-[10px] font-semibold uppercase tracking-[0.26em] text-[var(--database-dim)]">Browse</div>
               <h2 className="mt-2 text-lg font-semibold text-[var(--database-ink)]">{surfaceTitle}</h2>
             </div>
             <div className="text-xs uppercase tracking-[0.18em] text-[var(--database-dim)]">

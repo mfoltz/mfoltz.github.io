@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import { ReactNode, useId, useState } from "react";
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
   return values.filter(Boolean).join(" ");
@@ -38,9 +38,11 @@ export function BrowseControlStrip({
   clearLabel?: string;
 }) {
   const hasFooter = activeFilters.length > 0 || Boolean(helperText);
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const filtersId = useId();
 
   return (
-    <section className="database-sticky-panel sticky top-[4.35rem] z-[12] mb-6 overflow-hidden rounded-[1.35rem] lg:top-[4.8rem]">
+    <section className="database-sticky-panel mb-6 min-w-0 rounded-xl">
       <div className="space-y-3.5 p-4">
         <div className={joinClasses("grid gap-3.5", searchSlot ? "xl:grid-cols-[minmax(0,1fr)_auto] xl:items-center" : undefined)}>
           {searchSlot ? <div className="min-w-0">{searchSlot}</div> : null}
@@ -53,8 +55,11 @@ export function BrowseControlStrip({
 
         {filterSlot ? (
           <div className="space-y-2 border-t border-[var(--database-divider)] pt-3">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">Filters</div>
-            <div className="flex flex-wrap gap-2">{filterSlot}</div>
+            <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className="database-action-quiet rounded-lg px-3 py-2 text-sm lg:hidden">
+              {filtersOpen ? "Hide filters" : "Show filters"}
+            </button>
+            <div className="hidden text-xs font-medium text-[var(--database-muted)] lg:block">Filters</div>
+            <div id={filtersId} className={joinClasses("flex-wrap gap-2", filtersOpen ? "flex" : "hidden lg:flex")}>{filterSlot}</div>
           </div>
         ) : null}
 

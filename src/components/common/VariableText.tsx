@@ -30,10 +30,11 @@ export function VariableText({
           <span
             key={`${segment.value}:${index}`}
             className={`${variableClassName}${segment.resolution ? " database-variable-token-resolved" : ""}`}
+            aria-label={!segment.resolution ? `${segment.value}: unresolved source parameter` : undefined}
             title={
               segment.resolution
                 ? `Source-backed parameter: ${segment.name} = ${segment.resolution.value} (${segment.resolution.sourceKind}: ${segment.resolution.sourceRef})`
-                : `Variable parameter: ${segment.name}`
+                : `Unresolved source parameter: ${segment.name}; value not available in this snapshot`
             }
           >
             {segment.resolution?.value ?? segment.value}
