@@ -162,6 +162,11 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       interactions: [
         {
           type: "click",
+          selector: "#source-provenance > summary",
+          expectVisible: "#source-provenance[open] .database-ledger-surface"
+        },
+        {
+          type: "click",
           selector: "nav[aria-label='Detail sections'] a[href='#source-provenance']",
           waitMs: 250
         }
@@ -181,14 +186,15 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       interactions: [
         {
           type: "click",
-          selector: "nav[aria-label='Detail sections'] a[href='#source-compatibility']",
+          selector: ".reader-toolbar a[href='#reader-source']",
+          expectVisible: "#reader-source[open] .reader-original",
           waitMs: 250
         }
       ],
       reviewFocus:
-        "Check that route compatibility, linked lanes, and source path truth are surfaced cleanly without becoming a noisy dump.",
+        "Check that the reader opens its preserved original snapshot, source path, and checksum without crowding the component reading view.",
       thoughtPrompt:
-        "Does this capture make contributor route continuity obvious enough that AI can do the hunting and a human only needs to judge clarity?"
+        "Does this capture make the displayed snapshot and its provenance clear enough to verify quickly?"
     },
     {
       id: "db-workstation-jewelcrafting-table-source-detail",
@@ -198,6 +204,11 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
       kind: "route",
       clip: developerDetailClip,
       interactions: [
+        {
+          type: "click",
+          selector: "#source-provenance > summary",
+          expectVisible: "#source-provenance[open] .database-ledger-surface"
+        },
         {
           type: "click",
           selector: "nav[aria-label='Detail sections'] a[href='#source-provenance']",

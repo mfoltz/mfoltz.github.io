@@ -109,6 +109,16 @@ Before committing, full `npm run verify` passed again on the final implementatio
 
 Logs: `.codex-tmp/dev-review/parking-point-tests.log`, `parking-point-verify.log`, and `parking-point-final-build.log`. Review captures use the `row-cleanup-` prefix in `implementation-review/`.
 
+## PR visual capture follow-up
+
+PR #144's Visual Review check stopped because the prefab source capture still targeted the previous template's `#source-compatibility` navigation link. The reader now uses its toolbar's Source details link to open `#reader-source`. The regular `npm run verify` command does not run the visual capture pack, so the earlier verification did not exercise this selector.
+
+The capture now uses the reader's current control. The item and workstation source captures explicitly open their Source & provenance disclosures before jumping to them. Each source interaction waits for the revealed content to be visible before taking a screenshot, preventing a closed disclosure from silently producing an unhelpful capture.
+
+Validation: all 11 visual-review self-tests passed; all six focused source captures completed across dark and light themes; and the complete 38-capture comparison finished successfully with no missing baselines. Full `npm run verify` then passed, including data generation, validation, production build, and Pages artifact checks. Existing enrichment-target and Browserslist warnings remain unchanged. The pack reports 38 visual differences and uses the existing CI `--allow-diffs` policy. These captures do not approve or replace baselines. The focused source screenshots were also inspected for visible source content.
+
+Local evidence: `.codex-tmp/visual-review/pr144-source-smoke/`, `.codex-tmp/visual-review/pr144-full/`, and `.codex-tmp/dev-review/pr144-source-captures.log`, `pr144-visual-full.log`, and `pr144-verify.log`.
+
 ## Review evidence
 
 Screenshots and the original review are local artifacts outside the repository:
