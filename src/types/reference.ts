@@ -46,6 +46,7 @@ export interface ReferenceIndexEntry {
 }
 
 export interface ReferenceDetail extends ReferenceIndexEntry {
+  readerSources?: import("../lib/prefabReader").PrefabReaderSource[];
   summary?: string;
   eyebrow?: string;
   sourcePath: string;

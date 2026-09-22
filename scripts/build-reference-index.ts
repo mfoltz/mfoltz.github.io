@@ -1,6 +1,9 @@
 
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { createHash } from "node:crypto";
+import { parsePrefabComponentHeading, parsePrefabReader, defaultCollapsedComponents } from "../src/lib/prefabReader";
+import { dbSections } from "../src/config/sections";
 import { fileURLToPath } from "node:url";
 import { slugFromRelativePath, slugifySegment } from "../src/lib/slug";
 import type {
@@ -28,6 +31,7 @@ interface SourceDocument {
   title: string;
   frontMatter: Record<string, string>;
   body: string;
+  sourceText?: string;
   legacyPaths: string[];
 }
 
@@ -209,7 +213,7 @@ function uniqueStrings(values: Array<string | undefined | null>): string[] {
   return [...new Set(values.filter((value): value is string => Boolean(value && value.trim())).map((value) => value.trim()))];
 }
 
-function formatCount(value: number, singular: string, plural = `${singular}s`): string {
+function formatCount(value: number, singular: string, plural = singular === "entry" ? "entries" : `${singular}s`): string {
   return `${value} ${value === 1 ? singular : plural}`;
 }
 
@@ -235,7 +239,7 @@ function toRow(label: string, value: string | number | boolean | undefined | nul
 function dedupeRelations(items: ReferenceRelation[]): ReferenceRelation[] {
   const seen = new Map<string, ReferenceRelation>();
   for (const item of items) {
-    const key = `${item.path ?? item.title}:${item.description ?? ""}`.toLowerCase();
+    const key = (item.path ?? item.title).toLowerCase();
     if (!seen.has(key)) {
       seen.set(key, item);
     }
@@ -291,27 +295,6 @@ function parseMarkdownLink(line: string): ReferenceRelation | null {
   return null;
 }
 
-function parseComponentHeading(line: string): { name: string; path?: string } | null {
-  const linkMatch = line.match(/^- \[(.+?)\]\(\{\{%\s*relref\s*"([^"]+)"\s*%\}\}\)/);
-  if (linkMatch) {
-    return {
-      name: linkMatch[1],
-      path: relrefTargetToPath(linkMatch[2]).path
-    };
-  }
-
-  const boldMatch = line.match(/^- \*\*(.+?)\*\*$/);
-  if (!boldMatch) {
-    return null;
-  }
-
-  const label = boldMatch[1];
-  if (/^\[\d+\]$/.test(label) || /^[01]+$/.test(label)) {
-    return null;
-  }
-
-  return { name: label };
-}
 
 function parseNestedKeyValue(line: string): { key: string; value: string } | null {
   const match = line.match(/^- `([^:]+):\s*(.*)`$/);
@@ -327,6 +310,7 @@ function parsePrefabComponents(body: string): ParsedPrefabComponent[] {
   const lines = body.split(/\r?\n/);
   let current: ParsedPrefabComponent | null = null;
   let currentEntry: Record<string, string> | null = null;
+  let lastField: { target: Record<string, string>; key: string } | null = null;
 
   for (const rawLine of lines) {
     const line = rawLine.trim();
@@ -334,7 +318,7 @@ function parsePrefabComponents(body: string): ParsedPrefabComponent[] {
       continue;
     }
 
-    const heading = parseComponentHeading(line);
+    const heading = parsePrefabComponentHeading(line);
     if (heading) {
       current = {
         name: heading.name,
@@ -343,6 +327,7 @@ function parsePrefabComponents(body: string): ParsedPrefabComponent[] {
         entries: []
       };
       currentEntry = null;
+      lastField = null;
       components.push(current);
       continue;
     }
@@ -353,7 +338,14 @@ function parsePrefabComponents(body: string): ParsedPrefabComponent[] {
 
     if (/^- \*\*\[\d+\]\*\*$/.test(line)) {
       currentEntry = {};
+      lastField = null;
       current.entries.push(currentEntry);
+      continue;
+    }
+
+    const continuation = line.match(/^- \*\*([01]+)\*\*$/);
+    if (continuation && lastField) {
+      lastField.target[lastField.key] += "\n" + continuation[1];
       continue;
     }
 
@@ -367,6 +359,7 @@ function parsePrefabComponents(body: string): ParsedPrefabComponent[] {
     } else {
       current.fields[field.key] = field.value;
     }
+    lastField = { target: currentEntry ?? current.fields, key: field.key };
   }
 
   return components;
@@ -553,6 +546,7 @@ async function loadDocuments(repoRoot: string, section: Exclude<ReferenceSection
       title,
       frontMatter: parsed.frontMatter,
       body: parsed.body,
+      sourceText: raw,
       legacyPaths: buildLegacyPaths(section, relativePath, canonicalPath)
     });
   }
@@ -644,7 +638,7 @@ async function loadPrefabDataMaps(repoRoot: string, collectionDocByKey: Map<stri
   return { allGuidByName, categoriesByPrefabName, collectionMaps };
 }
 
-async function loadDbLookup(repoRoot: string, section: "items" | "recipes"): Promise<Map<string, DbLookupEntry>> {
+async function loadDbLookup(repoRoot: string, section: (typeof dbSections)[number]): Promise<Map<string, DbLookupEntry>> {
   const filePath = path.join(repoRoot, "public", "data", "db", section, "index.json");
   const entries = await maybeReadJson<Array<{ title: string; path: string }>>(filePath);
   const lookup = new Map<string, DbLookupEntry>();
@@ -666,7 +660,7 @@ function slugifyDbPrefabName(prefabName: string): string {
     .replace(/(^-|-$)/g, "");
 }
 
-function relationFromDbLookup(section: "items" | "recipes", prefabName: string, lookup: Map<string, DbLookupEntry>): ReferenceRelation | null {
+function relationFromDbLookup(section: (typeof dbSections)[number], prefabName: string, lookup: Map<string, DbLookupEntry>): ReferenceRelation | null {
   const pathValue = `/db/${section}/${slugifyDbPrefabName(prefabName)}`;
   const match = lookup.get(pathValue);
   if (!match) {
@@ -676,7 +670,7 @@ function relationFromDbLookup(section: "items" | "recipes", prefabName: string, 
   return {
     title: match.title,
     path: match.path,
-    description: section === "items" ? "DB item" : "DB recipe"
+    description: section
   };
 }
 
@@ -699,7 +693,8 @@ function createReference(section: ReferenceSection, kind: string, slug: string, 
       stats: base.stats,
       detailSections: base.detailSections,
       relationGroups: base.relationGroups,
-      codeBlocks: base.codeBlocks
+      codeBlocks: base.codeBlocks,
+      readerSources: base.readerSources
     }
   };
 }
@@ -737,12 +732,12 @@ async function main() {
   await rm(outDir, { recursive: true, force: true });
   await mkdir(outDir, { recursive: true });
 
-  const [prefabDocs, componentDocs, systemDocs, itemLookup, recipeLookup] = await Promise.all([
+  const [prefabDocs, componentDocs, systemDocs, dbLookups, suppliedDump] = await Promise.all([
     loadDocuments(repoRoot, "prefabs"),
     loadDocuments(repoRoot, "components"),
     loadDocuments(repoRoot, "systems"),
-    loadDbLookup(repoRoot, "items"),
-    loadDbLookup(repoRoot, "recipes")
+    Promise.all(dbSections.map(async section => ({ section, lookup: await loadDbLookup(repoRoot, section) }))),
+    readFile(path.join(repoRoot, "data/reference-samples/ambient-lightning-light.txt"), "utf8")
   ]);
   const collectionDocByKey = new Map<string, SourceDocument>();
   for (const doc of prefabDocs) {
@@ -778,7 +773,32 @@ async function main() {
     return collectionPathByKey.get(normalizeKey(category)) ?? `/prefabs/${slugifySegment(category)}`;
   }
 
+  const readerCoverage = { snapshots: 0, components: 0, folded: 0, emptySnapshots: 0, identityOnly: 0, exportNotices: 0 };
+  const readerTypes = new Map<string, number>();
+  const foldedTypes = new Map<string, number>();
+
   function registerPrefabReference(doc: SourceDocument, guid: number | null, categories: string[], components: ParsedPrefabComponent[]): void {
+    const snapshotText = doc.body.includes("## Components") ? doc.sourceText : undefined;
+    if (snapshotText) {
+      const reading = parsePrefabReader(snapshotText, "markdown");
+      if (JSON.stringify(reading.map(component => component.name)) !== JSON.stringify(components.map(component => component.name))) {
+        throw new Error(`Prefab reader component order differs from structured source: ${doc.sourcePath}`);
+      }
+      const anchors = reading.map(component => headingId(component.name));
+      if (new Set(anchors).size !== anchors.length) throw new Error(`Duplicate prefab reader anchors: ${doc.sourcePath}`);
+      const folded = defaultCollapsedComponents(reading);
+      readerCoverage.snapshots += 1;
+      readerCoverage.components += reading.length;
+      readerCoverage.folded += folded.size;
+      readerCoverage.emptySnapshots += Number(reading.length === 0);
+      readerCoverage.exportNotices += reading.filter(component => /total elements but only showing/.test(component.text)).length;
+      reading.forEach((component, index) => {
+        readerTypes.set(component.name, (readerTypes.get(component.name) ?? 0) + 1);
+        if (folded.has(index)) foldedTypes.set(component.name, (foldedTypes.get(component.name) ?? 0) + 1);
+      });
+    } else {
+      readerCoverage.identityOnly += 1;
+    }
     const componentDocCount = components.filter((component) => component.path).length;
     const componentRelations = components.map((component) => ({
       title: component.name,
@@ -821,29 +841,43 @@ async function main() {
       path: pathForCategory(category),
       description: "Collection"
     }));
-    const dbRelations = [relationFromDbLookup("items", doc.title, itemLookup), relationFromDbLookup("recipes", doc.title, recipeLookup)].filter(
+    const dbRelations = dbLookups.map(({ section, lookup }) => relationFromDbLookup(section, doc.title, lookup)).filter(
       (value): value is ReferenceRelation => Boolean(value)
     );
-    const summaryBits = [guid !== null ? `GUID ${guid}` : undefined, formatCount(components.length, "component"), categories.length > 0 ? joinList(categories, 3) : undefined].filter(
+    const summaryBits = [guid !== null ? `GUID ${guid}` : undefined, snapshotText ? formatCount(components.length, "component") : "Component snapshot unavailable", categories.length > 0 ? joinList(categories, 3) : undefined].filter(
       (value): value is string => Boolean(value)
     );
 
     const detail = createReference("prefabs", "prefab", doc.slug, doc.title, doc.sourcePath, doc.legacyPaths, {
+      readerSources: snapshotText ? [
+        {
+          id: "repository", label: "Repository snapshot", format: "markdown", filename: path.basename(doc.sourcePath),
+          sourcePath: doc.sourcePath, text: snapshotText, sha256: createHash("sha256").update(snapshotText).digest("hex")
+        },
+        ...(doc.title === "AB_AmbientLightning_Light" ? [{
+          id: "supplied", label: "Supplied text dump", format: "dump" as const,
+          filename: "AB_AmbientLightning_Light PrefabGuid(589474506).txt",
+          sourcePath: "data/reference-samples/ambient-lightning-light.txt", text: suppliedDump,
+          sha256: createHash("sha256").update(suppliedDump).digest("hex")
+        }] : [])
+      ] : undefined,
       eyebrow: "Prefab Reference",
-      excerpt: excerpt(`${doc.title} is a prefab with ${formatCount(components.length, "component")}.`),
+      excerpt: excerpt(snapshotText ? `${doc.title} is a prefab with ${formatCount(components.length, "component")}.` : `${doc.title} has a recorded prefab identity, but no component snapshot is available.`),
       summary: summaryBits.join(" • "),
       badges: uniqueStrings([categories[0], guid !== null ? String(guid) : undefined]).slice(0, 3),
-      tags: uniqueStrings([doc.title, ...categories, ...components.map((component) => component.name)]),
+      tags: uniqueStrings([doc.title, guid !== null ? String(guid) : undefined, ...categories, ...components.map((component) => component.name)]),
       stats: [
         toRow("GUID", guid, { monospace: true }),
         toRow("Categories", categories.length),
-        toRow("Components", components.length),
-        toRow("Component Docs", `${componentDocCount} / ${components.length}`),
-        toRow("Nested Entry Blocks", components.filter((component) => component.entries.length > 0).length)
+        ...(snapshotText ? [
+          toRow("Components", components.length),
+          toRow("Component Docs", `${componentDocCount} / ${components.length}`),
+          toRow("Nested Entry Blocks", components.filter((component) => component.entries.length > 0).length)
+        ] : [toRow("Component Snapshot", "Unavailable")])
       ].filter((row): row is ReferenceFieldRow => Boolean(row)),
       detailSections,
       relationGroups: [
-        createRelationGroup("Components", componentRelations, "No linked components."),
+        ...(snapshotText ? [createRelationGroup("Components", componentRelations, "No linked components.")] : []),
         createRelationGroup("Collections", categoryRelations, "No collections."),
         createRelationGroup("DB Records", dbRelations, "No matching DB entries.")
       ],
@@ -886,6 +920,7 @@ async function main() {
     }
   }
   for (const doc of systemDocs) {
+    if (path.basename(doc.relativePath) === "_index.md") continue;
     const family = doc.relativePath.replace(/\\/g, "/").split("/")[0] || "system";
     const parsed = parseSystemBody(doc.body);
     const uniqueComponentMap = new Map<string, ReferenceRelation>();
@@ -1011,7 +1046,13 @@ async function main() {
       continue;
     }
 
-    const slug = slugifySegment(prefabName);
+    const baseSlug = slugifySegment(prefabName);
+    // Distinct prefab identities can differ only in case. Never let a GUID-only
+    // record overwrite an existing dump or steal its case-insensitive aliases.
+    const needsDistinctRoute = actualPrefabBySlug.has(baseSlug);
+    const slug = needsDistinctRoute ? `${baseSlug}--guid-${guid < 0 ? "n" : "p"}${Math.abs(guid)}` : baseSlug;
+    if (actualPrefabBySlug.has(slug)) throw new Error(`Prefab route collision: ${prefabName} (${guid})`);
+    if (needsDistinctRoute) console.log(`Distinct prefab identity route: ${prefabName} (${guid}) -> /prefabs/${slug}`);
     const syntheticDoc: SourceDocument = {
       section: "prefabs",
       relativePath: `${prefabName}.md`,
@@ -1020,7 +1061,7 @@ async function main() {
       title: prefabName,
       frontMatter: {},
       body: "",
-      legacyPaths: buildLegacyPaths("prefabs", `${prefabName}.md`, `/prefabs/${slug}`)
+      legacyPaths: needsDistinctRoute ? [] : buildLegacyPaths("prefabs", `${prefabName}.md`, `/prefabs/${slug}`)
     };
     registerPrefabReference(syntheticDoc, guid, categoriesForPrefab(prefabName, []), []);
   }
@@ -1058,7 +1099,7 @@ async function main() {
 
   for (const [componentKey, built] of componentByKey.entries()) {
     const prefabs = componentPrefabsByKey.get(componentKey) ?? [];
-    const systems = componentSystemsByKey.get(componentKey) ?? [];
+    const systems = dedupeRelations(componentSystemsByKey.get(componentKey) ?? []);
     const queries = componentQueriesByKey.get(componentKey) ?? [];
     const detail = built.detail;
 
@@ -1107,7 +1148,7 @@ async function main() {
   for (const section of referenceSections) {
     const sectionDir = path.join(outDir, section);
     await mkdir(path.join(sectionDir, "by-slug"), { recursive: true });
-    await writeFile(path.join(sectionDir, "index.json"), JSON.stringify(sectionEntries[section], null, 2));
+    await writeFile(path.join(sectionDir, "index.json"), JSON.stringify(sectionEntries[section].map(({ section, kind, slug, title, path, excerpt, tags, badges }) => ({ section, kind, slug, title, path, excerpt, tags, badges })), null, 2));
 
     const details =
       section === "prefabs"
@@ -1127,6 +1168,7 @@ async function main() {
   }
 
   await writeFile(path.join(outDir, "aliases.json"), JSON.stringify(aliasMap, null, 2));
+  console.log("Prefab reader coverage:", JSON.stringify({ ...readerCoverage, readerPages: [...prefabBySlug.values()].filter(entry => entry.detail.readerSources?.length).length, uniqueTypes: readerTypes.size, foldedTypes: Object.fromEntries([...foldedTypes].sort(([a], [b]) => a.localeCompare(b))) }));
 }
 
 main().catch((error) => {
