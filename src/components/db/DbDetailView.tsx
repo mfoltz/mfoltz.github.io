@@ -1,3 +1,5 @@
+import { hasUsefulDescription } from "../../lib/text";
+import { parseTextVariables } from "../../lib/textVariables";
 import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
@@ -439,11 +441,11 @@ function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail)
   }
 
   return (
-    <DbSurface title="Tooltip Capture" anchorId="tooltip-capture" meta={typeof detail.tooltipSourceKind === "string" ? detail.tooltipSourceKind : undefined}>
+    <DbSurface title="Tooltip source" anchorId="tooltip-capture" meta={typeof detail.tooltipSourceKind === "string" ? detail.tooltipSourceKind : undefined}>
       <div className="space-y-4">
-        {tooltipText ? (
+        {tooltipText && getHeroBodyCopy(section, detail).text !== tooltipText ? (
           <div className="database-panel-subtle rounded-[1.15rem] p-4">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Player-facing copy</div>
+            <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Tooltip text</div>
             <p className="mt-3 text-sm leading-6 text-[var(--database-ink)]">
               <VariableText text={tooltipText} variableValues={detail.textVariableValues} />
             </p>
@@ -1101,7 +1103,7 @@ function renderRecipeItemChip(item: DbRelatedEntityRef) {
     <>
       {item.icon ? <img src={item.icon} alt="" loading="lazy" className="h-6 w-6 rounded-[0.45rem] object-contain" /> : null}
       {typeof item.amount === "number" ? <span className="font-semibold text-[var(--database-accent-soft)]">{formatItemQuantity(item.amount)}</span> : null}
-      <span className="min-w-0 truncate">{item.title}</span>
+      <span className="min-w-0 whitespace-normal break-words">{item.title}</span>
     </>
   );
   const className = "database-chip inline-flex max-w-full items-center gap-2 rounded-full px-2.5 py-1.5 text-xs text-[var(--database-ink)]";
@@ -1504,11 +1506,11 @@ function renderNpcTitlePortrait(section: DbSection, detail: DbEntityDetail) {
   }
 
   return (
-    <span className="database-summary-capsule hidden h-14 w-14 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] sm:inline-flex">
+    <span className="database-summary-capsule inline-flex h-16 w-16 sm:h-24 sm:w-24 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] ">
       <img
         src={portraitAssetPath}
         alt={`${detail.title} NPC portrait`}
-        className="h-12 w-12 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
+        className="h-full w-full object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
         loading="lazy"
       />
     </span>
@@ -1611,7 +1613,7 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
   const placeStructuredSummaryInRail = Boolean(recipeSummary || workstationSummary || itemSummary || npcSummary);
   const summaryRailLabel = placeStructuredSummaryInRail ? eyebrow : humanizeKey(section);
   const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
-  const showHeroBodyCopy = Boolean(bodyCopy && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
+  const showHeroBodyCopy = Boolean(hasUsefulDescription(bodyCopy) && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
   const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
   const inlineFactRows = factRows.slice(0, 4);
   const summaryFactRows = factRows.slice(4);
@@ -1636,11 +1638,17 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
                 {renderItemTitleIcon(section, detail)}
               </div>
               {subtitle ? <p className="mt-2.5 break-all font-mono text-[10px] tracking-[0.04em] text-[var(--database-dim)] opacity-80 sm:text-[11px]">{subtitle}</p> : null}
+              <div className="mt-3 flex flex-wrap items-center gap-2">
+                {typeof detail.guid === "number" ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
+                {detail.prefab ? <CopyValueButton value={detail.prefab} label="Copy prefab name" /> : null}
+                {detail.prefabPath ? <Link to={detail.prefabPath} className="database-action-quiet rounded-full px-3 py-1 text-xs font-semibold">Open prefab ↗</Link> : null}
+              </div>
               {showHeroBodyCopy ? (
                 <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
                   <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
                 </p>
               ) : null}
+              {showHeroBodyCopy && parseTextVariables(String(bodyCopy), detail.textVariableValues).some(segment => segment.type === "variable" && !segment.resolution) ? <p className="mt-2 text-xs text-[var(--database-muted)]">Values in braces are unresolved source parameters.</p> : null}
               {placeStructuredSummaryInRail ? (
                 <div className="xl:hidden">
                   {structuredSummary}
@@ -1726,7 +1734,7 @@ function buildSchemaJumpItems(
   }
 
   if (hasTooltipSurface) {
-    items.push({ id: "tooltip-capture", label: "Tooltip Capture" });
+    items.push({ id: "tooltip-capture", label: "Tooltip source" });
   }
 
   if (hasRuntimeDamageEvidence) {
@@ -1758,10 +1766,10 @@ function buildSchemaJumpItems(
     items.push({ id: `section-${headingId(section.title)}`, label: section.title });
   }
   if (sourceRows.length > 0) {
-    items.push({ id: "source-provenance", label: "Developer Source" });
+    items.push({ id: "source-provenance", label: "Source" });
   }
   if (additionalRows.length > 0) {
-    items.push({ id: "additional-fields", label: "Developer Fields" });
+    items.push({ id: "additional-fields", label: "Additional fields" });
   }
   if (complexRows.length > 0) {
     items.push({ id: "raw-blocks", label: "Developer Raw", meta: `${complexRows.length}` });
@@ -1942,17 +1950,17 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
         ))}
 
         {sourceRows.length > 0 || provenanceGroups.length > 0 ? (
-          <DbSurface title={schema.provenanceSectionTitle ?? "Developer Source & Provenance"} anchorId="source-provenance" className="database-ledger-surface-secondary">
+          <details id="source-provenance" className="source-disclosure"><summary>Source & provenance</summary><DbSurface className="database-ledger-surface-secondary">
             <div className="space-y-5">
               {renderSourceActions(detail)}
               {renderProvenanceGroups(provenanceGroups)}
               {sourceRows.length > 0 ? <DbFieldGrid rows={sourceRows} /> : null}
             </div>
-          </DbSurface>
+          </DbSurface></details>
         ) : null}
 
         {genericRows.simpleRows.length > 0 ? (
-          <DbSurface title="Developer Additional Fields" anchorId="additional-fields">
+          <DbSurface title="Additional fields" anchorId="additional-fields">
             <DbFieldGrid rows={genericRows.simpleRows} />
           </DbSurface>
         ) : null}
@@ -1971,7 +1979,7 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
   const jumpItems: DetailJumpItem[] = [];
 
   if (fieldsRows.length > 0) {
-    jumpItems.push({ id: "details", label: "Developer Fields" });
+    jumpItems.push({ id: "details", label: "Additional fields" });
   }
   for (const entry of sections) {
     jumpItems.push({ id: `section-${headingId(entry.title)}`, label: entry.title });
@@ -1998,7 +2006,7 @@ function renderGenericDetail(detail: DbEntityDetail, section: DbSection) {
         </DbSurface>
       ))}
       {genericRows.simpleRows.length > 0 ? (
-        <DbSurface title="Developer Additional Fields" anchorId="additional-fields">
+        <DbSurface title="Additional fields" anchorId="additional-fields">
           <DbFieldGrid rows={genericRows.simpleRows} />
         </DbSurface>
       ) : null}

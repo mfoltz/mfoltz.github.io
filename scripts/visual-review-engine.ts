@@ -49,6 +49,8 @@ export interface VisualReadyRule {
 export interface VisualCaptureInteraction {
   type: VisualInteractionType;
   selector: string;
+  // Verify the revealed content before continuing to the screenshot.
+  expectVisible?: string;
   waitMs?: number;
 }
 
@@ -743,6 +745,13 @@ async function capturePage(
         await locator.hover();
       } else {
         await locator.click();
+      }
+
+      if (interaction.expectVisible) {
+        await page.locator(interaction.expectVisible).first().waitFor({
+          state: "visible",
+          timeout: readyRule.timeoutMs ?? 20000
+        });
       }
 
       if (interaction.waitMs) {

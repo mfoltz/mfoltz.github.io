@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
-import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
+import { EmptyState, ErrorState, LoadingState } from "../components/common/States";
 import { ReferenceDetailView } from "../components/reference/ReferenceDetailView";
-import { getReferenceSectionLabel, isReferenceSection } from "../config/sections";
+import { isReferenceSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { normalizeReferencePath, resolveReferenceAlias } from "../lib/reference";
 import { ReferenceDetail } from "../types/reference";
@@ -75,10 +75,6 @@ export function ReferenceDetailPage({ section: sectionProp }: { section?: string
 
   return (
     <div>
-      <SectionHeader
-        title={isReferenceSection(section) ? getReferenceSectionLabel(section) : section}
-        subtitle="Developer-first reference detail with source, routing, and linked-lane traceability."
-      />
       <ReferenceDetailView detail={detail} />
     </div>
   );

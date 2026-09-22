@@ -3,9 +3,10 @@ import { Link, useParams } from "react-router-dom";
 import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
-import { ReferenceBadge, ReferenceFilterButton, ReferenceIndexRow } from "../components/reference/ReferenceUi";
+import { ReferenceFilterButton, ReferenceIndexRow } from "../components/reference/ReferenceUi";
 import { getReferenceSectionLabel, isReferenceSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
+import { scoreSearchEntry } from "../lib/search";
 import { includesQuery } from "../lib/text";
 import { ReferenceIndexEntry } from "../types/reference";
 
@@ -94,7 +95,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
     () => (section === "prefabs" ? filtered.filter((entry) => entry.kind === "collection") : []),
     [filtered, section]
   );
-  const rows = useMemo(() => filtered.filter((entry) => entry.kind !== "collection"), [filtered]);
+  const rows = useMemo(() => filtered.filter((entry) => entry.kind !== "collection").sort((a, b) => scoreSearchEntry(b, query) - scoreSearchEntry(a, query) || a.title.localeCompare(b.title)), [filtered, query]);
   const visibleRows = rows.slice(0, visibleLimit);
   const hasActiveFilters = query.trim().length > 0 || kindFilter !== "all" || badgeFilter !== "all";
   const activeFilters = [
@@ -133,7 +134,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
 
   return (
     <div>
-      <SectionHeader title={sectionLabel} subtitle="Structured reference browse for generated records." />
+      <SectionHeader title={sectionLabel} subtitle="Search names and identifiers, then follow their definitions." />
 
       <BrowseControlStrip
         searchSlot={<SearchInput value={query} onChange={setQuery} placeholder={`Search ${section}...`} />}
@@ -168,15 +169,9 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
       />
 
       {section === "prefabs" && collections.length > 0 ? (
-        <section className="database-panel-subtle mb-6 rounded-[1.8rem] p-5">
-          <div className="mb-4 flex items-end justify-between gap-3">
-            <div>
-              <h2 className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">Collections</h2>
-              <p className="mt-2 text-sm leading-6 text-[var(--database-muted)]">Curated category and utility entry points carried over from the source corpus.</p>
-            </div>
-            <ReferenceBadge tone="accent">Prefab Collections</ReferenceBadge>
-          </div>
-          <div className="flex flex-wrap gap-3">
+        <details className="source-disclosure mb-5">
+          <summary>Collections ({collections.length})</summary>
+          <div className="flex flex-wrap gap-3 p-4 pt-0">
             {collections.map((entry) => (
               <Link key={entry.slug} to={entry.path} className="database-action-quiet rounded-full px-4 py-2 text-sm">
                 {entry.title}
@@ -184,7 +179,7 @@ export function ReferenceListPage({ section: sectionProp }: { section?: string }
               </Link>
             ))}
           </div>
-        </section>
+        </details>
       ) : null}
 
       {loading ? <LoadingState label="Loading reference index..." /> : null}

@@ -139,8 +139,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   items: {
     searchParam: "q",
     searchPlaceholder: "Search by item name, family, prefab, or category...",
-    sectionSubtitle: "Dense item browse with group, family, and tier filters.",
-    surfaceEyebrow: "Desktop Browse",
+    sectionSubtitle: "Equipment, resources, and consumables by group, family, and tier.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Item Records",
     helperText: "Filter items by group, family, and tier while keeping prefab identity visible.",
     facets: [
@@ -160,8 +160,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   recipes: {
     searchParam: "q",
     searchPlaceholder: "Search by output item, prefab, ingredient, or category...",
-    sectionSubtitle: "Output-first recipe browse with ingredient and timing context.",
-    surfaceEyebrow: "Desktop Browse",
+    sectionSubtitle: "Crafting outputs, ingredients, and timing.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Recipe Records",
     helperText: "Browse recipes by output, family, and tier with counts and craft time on the row.",
     facets: [
@@ -173,8 +173,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   workstations: {
     searchParam: "q",
     searchPlaceholder: "Search by station name, prefab, role, floor, or region...",
-    sectionSubtitle: "Player-facing stations and traders with prefab traceability.",
-    surfaceEyebrow: "Desktop Browse",
+    sectionSubtitle: "Stations and traders, with recipes, bonuses, and prefab references.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Workstation Records",
     helperText: "Browse normalized player-facing stations while keeping technical source identity intact.",
     facets: [
@@ -185,8 +185,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   blueprints: {
     searchParam: "q",
     searchPlaceholder: "Search blueprints...",
-    sectionSubtitle: "Structured generated records from the database index.",
-    surfaceEyebrow: "Static Database View",
+    sectionSubtitle: "Browse names and identifiers; open a record for details and source links.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Database Records",
     helperText: "Use facet filters to narrow this generated archive.",
     facets: [{ key: "facet", param: "facet", label: "Facet", allLabel: "All Facets", limit: 10 }]
@@ -194,8 +194,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   buffs: {
     searchParam: "q",
     searchPlaceholder: "Search buffs...",
-    sectionSubtitle: "Structured generated records from the database index.",
-    surfaceEyebrow: "Static Database View",
+    sectionSubtitle: "Browse names and identifiers; open a record for details and source links.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Database Records",
     helperText: "Use facet filters to narrow this generated archive.",
     facets: [{ key: "facet", param: "facet", label: "Facet", allLabel: "All Facets", limit: 10 }]
@@ -203,8 +203,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   itemsets: {
     searchParam: "q",
     searchPlaceholder: "Search item sets...",
-    sectionSubtitle: "Structured generated records from the database index.",
-    surfaceEyebrow: "Static Database View",
+    sectionSubtitle: "Browse names and identifiers; open a record for details and source links.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Database Records",
     helperText: "Use facet filters to narrow this generated archive.",
     facets: [{ key: "facet", param: "facet", label: "Facet", allLabel: "All Facets", limit: 10 }]
@@ -212,8 +212,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   npcs: {
     searchParam: "q",
     searchPlaceholder: "Search by NPC name, boss, blood type, faction, prefab, or category...",
-    sectionSubtitle: "NPC browse with boss ladder and blood carrier slices.",
-    surfaceEyebrow: "Desktop Browse",
+    sectionSubtitle: "Units, V Blood bosses, and blood carriers.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "NPC Records",
     helperText: "Browse all NPC records, focus the V Blood boss ladder, or filter blood carriers by blood type.",
     facets: [{ key: "blood", param: "blood", label: "Blood Type", allLabel: "All Blood Types", sortMode: "alphabetical" }],
@@ -230,8 +230,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   quests: {
     searchParam: "q",
     searchPlaceholder: "Search quests...",
-    sectionSubtitle: "Structured generated records from the database index.",
-    surfaceEyebrow: "Static Database View",
+    sectionSubtitle: "Browse names and identifiers; open a record for details and source links.",
+    surfaceEyebrow: "Browse",
     surfaceTitle: "Database Records",
     helperText: "Use facet filters to narrow this generated archive.",
     facets: [{ key: "facet", param: "facet", label: "Facet", allLabel: "All Facets", limit: 10 }]

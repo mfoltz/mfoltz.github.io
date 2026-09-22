@@ -1,53 +1,16 @@
-import { Link } from "react-router-dom";
-import { homeHeroSummary, homeLandingBands } from "../config/home";
-import { shellUtilityLinks } from "../config/shell";
+import { DatabaseDirectory, ReferenceDirectory } from "../components/common/DatabaseDirectory";
+import { RecordSearchForm } from "../components/common/RecordSearchForm";
 import databaseSplashMark from "../../static/database-assets/vrdb.png";
 
 export function HomePage() {
-  const gameplayBand = homeLandingBands[0];
-  const communityWikiLink = shellUtilityLinks.find((link) => link.id === "wiki");
-
-  return (
-    <div className="pb-6">
-      <section className="mx-auto max-w-5xl px-2 pt-4 sm:px-4 sm:pt-8">
-        <div className="text-center">
-          <img src={databaseSplashMark} alt="V Rising Data Base" className="mx-auto aspect-[1280/674] w-full max-w-[42rem] object-contain drop-shadow-[0_18px_36px_rgba(0,0,0,0.24)] sm:max-w-[48rem]" />
-
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-[var(--wiki-muted)] sm:mt-8">{homeHeroSummary}</p>
-          {communityWikiLink ? (
-            <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-[var(--wiki-dim)]">
-              Looking for guides or community documentation?{" "}
-              <a href={communityWikiLink.href} target="_blank" rel="noreferrer" className="font-semibold text-[var(--wiki-brand-cool)] underline-offset-4 hover:underline">
-                Visit the {communityWikiLink.label}
-              </a>
-              .
-            </p>
-          ) : null}
-        </div>
-
-        <section className="mt-12 space-y-4">
-          <header className="max-w-3xl text-left">
-            <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">Data Companion</div>
-            <h2 className="mt-3 text-[1.6rem] font-semibold leading-tight text-[var(--wiki-ink)] sm:text-[1.8rem]">{gameplayBand.title}</h2>
-            <p className="mt-2 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{gameplayBand.description}</p>
-            {gameplayBand.helperText ? <p className="mt-3 text-sm leading-6 text-[var(--wiki-dim)]">{gameplayBand.helperText}</p> : null}
-          </header>
-
-          <div className="grid gap-4 md:grid-cols-2">
-            {gameplayBand.items.map((item) => (
-              <Link key={item.id} to={item.to} className="wiki-home-card flex h-full flex-col rounded-2xl px-6 py-6 text-left">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--wiki-brand-warm)]">{item.eyebrow}</div>
-                <h3 className="mt-3 text-[1.42rem] font-semibold leading-tight text-[var(--wiki-ink)]">{item.title}</h3>
-                <p className="mt-3 flex-1 text-[0.98rem] leading-7 text-[var(--wiki-muted)]">{item.description}</p>
-                <div className="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--wiki-brand-cool)]">
-                  <span>{item.actionLabel}</span>
-                  <span aria-hidden="true">/</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </section>
-      </section>
-    </div>
-  );
+  return <div className="mx-auto max-w-6xl pb-8">
+    <header className="mx-auto max-w-2xl text-center">
+      <h1><img src={databaseSplashMark} alt="V Rising Data Base" className="mx-auto aspect-[1280/674] w-full max-w-[24rem] object-contain" /></h1>
+      <p className="mt-2 text-base text-[var(--database-muted)]">Gameplay data and technical references for V Rising.</p>
+    </header>
+    <div className="mx-auto mb-8 max-w-2xl"><RecordSearchForm /></div>
+    <DatabaseDirectory />
+    <ReferenceDirectory />
+    <p className="mt-8 text-sm text-[var(--database-muted)]">For guides and community documentation, visit the <a href="https://wiki.vrisingmods.com/" className="text-[var(--database-accent-soft)] underline underline-offset-4">Community Wiki</a>.</p>
+  </div>;
 }

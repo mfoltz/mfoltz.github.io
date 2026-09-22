@@ -1,18 +1,10 @@
+import { PrefabReader } from "./PrefabReader";
 import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
 import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { headingId } from "../../lib/text";
 import { ReferenceDetail, ReferenceRelation, ReferenceRelationGroup } from "../../types/reference";
-import { ReferenceBadge, ReferenceFieldGrid, ReferenceRelationList, ReferenceSurface } from "./ReferenceUi";
-
-function getMonogram(value: string): string {
-  return value
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? "")
-    .join("") || "RF";
-}
+import { ReferenceFieldGrid, ReferenceRelationList, ReferenceSurface } from "./ReferenceUi";
 
 function getRelationPriority(title: string): number {
   const normalized = title.trim().toLowerCase();
@@ -42,26 +34,6 @@ function sortRelationGroups(groups: ReferenceRelationGroup[]): ReferenceRelation
   });
 }
 
-function getLaneBadgeTone(title: string): "accent" | "muted" {
-  return /(db records|queries|components)/i.test(title) ? "accent" : "muted";
-}
-
-function buildLaneBadges(relationGroups: ReferenceRelationGroup[], legacyPaths: string[]): Array<{ label: string; tone: "accent" | "muted" }> {
-  const badges = relationGroups.slice(0, 4).map((group) => ({
-    label: `${group.title} ${group.totalCount ?? group.items.length}`,
-    tone: getLaneBadgeTone(group.title)
-  }));
-
-  if (legacyPaths.length > 0) {
-    badges.push({
-      label: `Aliases ${legacyPaths.length}`,
-      tone: "muted"
-    });
-  }
-
-  return badges;
-}
-
 function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelationGroup[]): DetailJumpItem[] {
   const items: DetailJumpItem[] = [];
 
@@ -82,13 +54,13 @@ function buildJumpItems(detail: ReferenceDetail, relationGroups: ReferenceRelati
 
   items.push({
     id: "source-compatibility",
-    label: "Developer Source"
+    label: "Source"
   });
 
   if ((detail.codeBlocks ?? []).length > 0) {
     items.push({
       id: "raw-and-code",
-      label: "Developer Raw & Code",
+      label: "Raw data & code",
       meta: `${detail.codeBlocks?.length ?? 0}`
     });
   }
@@ -132,86 +104,23 @@ function renderPrefabComponentNote(detail: ReferenceDetail, group: ReferenceRela
   );
 }
 
-function renderSummaryRows(detail: ReferenceDetail) {
-  const stats = detail.stats ?? [];
-  if (stats.length === 0) {
-    return null;
-  }
-
-  return (
-    <dl className="database-summary-list mt-5">
-      {stats.map((row) => (
-        <div key={row.label} className="space-y-2 py-3 first:pt-0 last:pb-0">
-          <div className="flex items-start justify-between gap-3">
-            <dt className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">{row.label}</dt>
-            {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
-          </div>
-          <dd className={row.monospace ? "break-all font-mono text-xs text-[var(--database-accent-soft)]" : "text-sm leading-6 text-[var(--database-ink)]"}>{row.value}</dd>
-        </div>
-      ))}
-    </dl>
-  );
-}
-
 export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
+  if (detail.kind === "prefab" && detail.readerSources?.length) return <PrefabReader detail={detail} />;
   const detailSections = detail.detailSections ?? [];
   const relationGroups = sortRelationGroups(detail.relationGroups ?? []);
   const codeBlocks = detail.codeBlocks ?? [];
   const legacyPaths = detail.legacyPaths ?? [];
   const jumpItems = buildJumpItems(detail, relationGroups);
-  const laneBadges = buildLaneBadges(relationGroups, legacyPaths);
 
   return (
     <div className="space-y-6">
-      <section className="database-panel overflow-hidden rounded-[1.5rem] p-5 sm:p-6">
-        <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_minmax(18rem,22rem)] lg:items-start">
-          <div className="max-w-4xl">
-            {detail.eyebrow ? <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}
-            <h1 className="mt-4 text-3xl font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.8rem]">{detail.title}</h1>
-            <p className="mt-2 break-all font-mono text-[11px] text-[var(--database-dim)] sm:text-xs">{detail.path}</p>
-            {detail.summary ? <p className="mt-4 text-sm leading-7 text-[var(--database-muted)] sm:text-base">{detail.summary}</p> : null}
-            <div className="mt-5 flex flex-wrap gap-2">
-              <ReferenceBadge tone="accent">{detail.kind}</ReferenceBadge>
-              {(detail.badges ?? []).map((badge) => (
-                <ReferenceBadge key={badge} tone="muted">
-                  {badge}
-                </ReferenceBadge>
-              ))}
-            </div>
-          </div>
-          <aside className="database-summary-capsule rounded-[1.6rem] p-5">
-            <div className="flex items-start justify-between gap-4">
-              <div className="database-avatar-well flex h-20 w-20 items-center justify-center rounded-[1.6rem] text-xl font-semibold tracking-[0.2em] text-[var(--database-accent-soft)]">
-                {getMonogram(detail.title)}
-              </div>
-              <div className="text-right">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.24em] text-[var(--database-dim)]">Developer Summary</div>
-                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{detail.kind}</div>
-              </div>
-            </div>
-
-            <div className="mt-5 flex flex-wrap gap-2">
-              <CopyValueButton value={detail.path} label="Copy route" />
-              <CopyValueButton value={detail.sourcePath} label="Copy source" />
-            </div>
-
-            {laneBadges.length > 0 ? (
-              <div className="mt-5 space-y-3">
-                <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Linked Lanes</div>
-                <div className="flex flex-wrap gap-2">
-                  {laneBadges.map((badge) => (
-                    <ReferenceBadge key={badge.label} tone={badge.tone}>
-                      {badge.label}
-                    </ReferenceBadge>
-                  ))}
-                </div>
-              </div>
-            ) : null}
-
-            {renderSummaryRows(detail)}
-          </aside>
-        </div>
-      </section>
+      <header className="reference-header">
+        {detail.eyebrow ? <p className="text-sm text-[var(--database-accent-soft)]">{detail.eyebrow}</p> : null}
+        <h1 className="mt-2 text-2xl font-semibold leading-tight sm:text-3xl">{detail.title}</h1>
+        {detail.summary ? <p className="mt-3 max-w-4xl text-sm leading-6 text-[var(--database-muted)]">{detail.summary}</p> : null}
+        <dl>{(detail.stats ?? []).map(row => <div key={row.label}><dt>{row.label}</dt><dd>{row.value}</dd></div>)}</dl>
+        <div className="mt-3 flex flex-wrap gap-2"><CopyValueButton value={detail.title} label="Copy name" /><CopyValueButton value={detail.path} label="Copy route" /></div>
+      </header>
 
       <DetailJumpStrip items={jumpItems} />
 
@@ -236,7 +145,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
           </ReferenceSurface>
         ))}
 
-        <ReferenceSurface title="Developer Source & Routing" anchorId="source-compatibility">
+        <ReferenceSurface title="Source & routes" anchorId="source-compatibility">
           <div className="space-y-4">
             <ReferenceFieldGrid
               rows={[
@@ -261,7 +170,7 @@ export function ReferenceDetailView({ detail }: { detail: ReferenceDetail }) {
         </ReferenceSurface>
 
         {codeBlocks.length > 0 ? (
-          <ReferenceSurface title="Developer Raw & Code" anchorId="raw-and-code" meta={`${codeBlocks.length} blocks`}>
+          <ReferenceSurface title="Raw data & code" anchorId="raw-and-code" meta={`${codeBlocks.length} blocks`}>
             <div className="space-y-5">
               {codeBlocks.map((block) => (
                 <CollapsibleTextBlock key={block.title} title={block.title} value={block.value} language={block.language} copyValue={block.value} />

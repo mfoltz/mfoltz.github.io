@@ -11,6 +11,8 @@ function joinClasses(...values: Array<string | false | null | undefined>): strin
 }
 
 function breadcrumbLabel(part: string): string {
+  if (part === "npcs") return "NPCs";
+  if (part === "itemsets") return "Item sets";
   if (part === "db") {
     return "Database";
   }
@@ -124,7 +126,11 @@ export function SiteShell() {
     function handleKeyDown(event: KeyboardEvent) {
       if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === "k" && !isEditableTarget(event.target)) {
         event.preventDefault();
-        navigate(shellSearchPath);
+        if (location.pathname === shellSearchPath) {
+          document.getElementById("global-search")?.focus();
+        } else {
+          navigate(shellSearchPath);
+        }
       }
     }
 
@@ -132,7 +138,7 @@ export function SiteShell() {
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, [navigate]);
+  }, [navigate, location.pathname]);
 
   useLayoutEffect(() => {
     applyTheme(theme);

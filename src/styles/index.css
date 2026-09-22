@@ -632,6 +632,7 @@ pre code {
 }
 
 .database-sticky-panel {
+  overflow-wrap: anywhere;
   border: 1px solid var(--database-border);
   background: linear-gradient(180deg, var(--database-panel), var(--database-panel-flat));
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.14);
@@ -830,7 +831,7 @@ pre code {
 }
 
 .database-ledger-row {
-  display: block;
+  overflow-wrap: anywhere;
   transition:
     background-color 140ms ease,
     color 140ms ease;
@@ -840,13 +841,10 @@ pre code {
   background: var(--tool-hover);
 }
 
-.database-row-action {
-  color: var(--database-dim);
-  transition: color 140ms ease;
-}
-
-.group:hover .database-row-action {
-  color: var(--database-ink);
+.database-ledger-row:focus-visible {
+  outline: 2px solid var(--database-accent-soft);
+  outline-offset: -3px;
+  background: var(--tool-hover);
 }
 
 .database-variable-token {
@@ -1010,4 +1008,75 @@ pre code {
 .wiki-home-icon {
   color: var(--brand-cool);
   filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.14));
+}
+
+/* Reading surfaces: keep identifiers inside their workspace at every width. */
+main { min-width: 0; }
+main h1, main h2, main h3 { overflow-wrap: anywhere; }
+.directory-link { transition: color 140ms ease, border-color 140ms ease; }
+.directory-link:hover { border-color: var(--database-accent-soft); }
+.directory-link:focus-visible, .reader-button:focus-visible,
+.reader-outline a:focus-visible, .reader-component summary:focus-visible, .reader-tag:focus-visible,
+.reader-secondary summary:focus-visible {
+  outline: 2px solid var(--database-accent-soft);
+  outline-offset: 4px;
+}
+.prefab-reader { min-width: 0; color: var(--database-ink); }
+.reader-heading { padding-bottom: 1rem; }
+.reader-toolbar { padding: 1rem 0; border-block: 1px solid var(--database-divider); }
+.reader-button {
+  border: 1px solid var(--database-border); border-radius: .5rem;
+  background: var(--database-surface); color: var(--database-ink);
+  padding: .45rem .65rem; font-size: .8125rem; line-height: 1.5;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+.reader-button:hover, .reader-button[aria-pressed="true"] { border-color: var(--database-accent-soft); }
+.reader-button:disabled { opacity: .45; cursor: default; }
+.reader-layout { display: grid; min-width: 0; margin-top: 1rem; }
+.reader-outline { display: none; }
+.reader-document { min-width: 0; border-block: 1px solid var(--database-divider); }
+.reader-component { min-width: 0; border-bottom: 1px solid var(--database-divider); scroll-margin-top: 6rem; }
+.reader-component:last-child { border-bottom: 0; }
+.reader-component > summary {
+  display: flex; align-items: baseline; gap: .6rem; cursor: pointer;
+  padding: .8rem .6rem .5rem; list-style: none;
+}
+.reader-component > summary::-webkit-details-marker { display: none; }
+.reader-component > summary::before { content: "+"; color: var(--database-accent-soft); flex: 0 0 .8rem; font-family: monospace; }
+.reader-component[open] > summary::before { content: "−"; }
+.reader-component h2 { min-width: 0; font: 600 .875rem/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.reader-component-kind { margin-left: auto; flex-shrink: 0; color: var(--database-muted); font-size: .7rem; }
+.reader-component-actions { display: flex; align-items: center; flex-wrap: wrap; gap: .8rem; padding: 0 .6rem .2rem 2rem; color: var(--database-accent-soft); font-size: .75rem; }
+.reader-values {
+  margin: 0; min-width: 0; max-width: 100%; overflow-x: auto;
+  padding: .3rem .6rem 1rem 1rem; font: .875rem/1.75 ui-monospace, SFMono-Regular, Consolas, monospace;
+  color: var(--database-ink); tab-size: 2;
+}
+.reader-wrap { white-space: pre-wrap; overflow-wrap: anywhere; }
+.reader-tag { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: .4rem .75rem; padding: .65rem .6rem .65rem 2rem; }
+.reader-tag .reader-component-actions { grid-column: 1 / -1; padding: 0; }
+@media (min-width: 640px) {
+  .reader-tag { grid-template-columns: minmax(0, 1fr) auto auto; }
+  .reader-tag .reader-component-actions { grid-column: auto; }
+}
+.prefab-reader mark { background: rgba(196, 146, 71, .3); color: inherit; outline: 1px solid rgba(196, 146, 71, .45); border-radius: 2px; }
+.reader-secondary { margin-top: 2rem; border-top: 1px solid var(--database-divider); }
+.reader-secondary > details { padding-block: .8rem; border-bottom: 1px solid var(--database-divider); scroll-margin-top: 6rem; }
+.reader-secondary summary { cursor: pointer; font-weight: 600; margin-bottom: .5rem; }
+.reader-original { max-width: 100%; max-height: 36rem; overflow: auto; padding: 1rem; background: var(--tool-code-bg); color: var(--tool-code-ink); font: .8125rem/1.65 ui-monospace, Consolas, monospace; }
+.reference-header { border-bottom: 1px solid var(--database-divider); padding-bottom: 1.2rem; }
+.reference-header dl { display: flex; flex-wrap: wrap; gap: .6rem 1.5rem; margin-top: 1rem; font-size: .8125rem; }
+.reference-header dl > div { display: flex; flex-wrap: wrap; gap: .4rem; }
+.reference-header dt { color: var(--database-muted); }
+.reference-header dd { color: var(--database-ink); overflow-wrap: anywhere; }
+.source-disclosure > summary { cursor: pointer; padding: 1rem; font-weight: 600; }
+.source-disclosure { scroll-margin-top: 6rem; border: 1px solid var(--database-border); border-radius: .8rem; }
+@media (min-width: 1024px) {
+  .reader-layout { grid-template-columns: 14rem minmax(0, 1fr); gap: 1.5rem; }
+  .reader-outline { display: block; position: sticky; top: 6rem; max-height: calc(100dvh - 7rem); overflow-y: auto; align-self: start; }
+  .reader-outline a { display: block; padding: .35rem .4rem; font: .75rem/1.55 ui-monospace, Consolas, monospace; color: var(--database-muted); overflow-wrap: anywhere; border-left: 1px solid var(--database-divider); }
+  .reader-outline a:hover { border-color: var(--database-accent-soft); color: var(--database-ink); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .directory-link, .reader-button { transition: none; }
 }

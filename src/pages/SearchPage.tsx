@@ -9,6 +9,7 @@ import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
+import { scoreSearchEntry } from "../lib/search";
 
 const sectionOrder: string[] = [...referenceSections, ...dbSections];
 const perSectionLimit = 24;
@@ -37,39 +38,8 @@ function getSectionFamily(section: string): string {
   return "Section";
 }
 
-function normalizeSearchValue(value: string): string {
-  return value.toLowerCase().trim();
-}
-
 function isVisibleBadge(value: string): boolean {
   return value.length > 0 && !/^-?\d+$/.test(value) && !/^\d+\s+(prefabs?|components?|systems?|queries?)$/i.test(value);
-}
-
-function scoreEntry(entry: SearchEntry, query: string): number {
-  const normalizedQuery = normalizeSearchValue(query);
-  if (!normalizedQuery) {
-    return 0;
-  }
-
-  const title = normalizeSearchValue(entry.title);
-  const slug = normalizeSearchValue(entry.slug);
-  const excerpt = normalizeSearchValue(entry.excerpt);
-  const tags = (entry.tags ?? []).map(normalizeSearchValue);
-
-  let score = 0;
-
-  if (title === normalizedQuery) score += 220;
-  if (slug === normalizedQuery) score += 200;
-  if (title.startsWith(normalizedQuery)) score += 160;
-  if (slug.startsWith(normalizedQuery)) score += 145;
-  if (title.includes(normalizedQuery)) score += 120;
-  if (slug.includes(normalizedQuery)) score += 110;
-  if (tags.some((tag) => tag === normalizedQuery)) score += 105;
-  if (tags.some((tag) => tag.startsWith(normalizedQuery))) score += 85;
-  if (tags.some((tag) => tag.includes(normalizedQuery))) score += 60;
-  if (excerpt.includes(normalizedQuery)) score += 30;
-
-  return score;
 }
 
 function matchesScope(entry: SearchEntry, scope: string): boolean {
@@ -92,6 +62,7 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
   return (
     <button
       type="button"
+      aria-pressed={active}
       onClick={onClick}
       className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
@@ -107,7 +78,7 @@ function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_minmax(12rem,0.4fr)] lg:items-start"
+        className="database-ledger-row grid gap-x-6 gap-y-2 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_minmax(0,16rem)] lg:items-center"
       >
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2">
@@ -127,12 +98,7 @@ function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }
             <VariableText text={entry.excerpt} query={query} variableValues={entry.textVariableValues} />
           </p>
         </div>
-        <div className="flex items-center justify-between gap-3 lg:block lg:text-right">
-          <div className="break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
-          <div className="database-row-action mt-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
-            Open Record
-          </div>
-        </div>
+        <div className="min-w-0 break-all font-mono text-[11px] text-[var(--database-dim)] lg:text-right">{entry.path}</div>
       </Link>
     </li>
   );
@@ -177,7 +143,7 @@ export function SearchPage() {
     }
 
     return entries
-      .map((entry) => ({ entry, score: scoreEntry(entry, query) }))
+      .map((entry) => ({ entry, score: scoreSearchEntry(entry, query) }))
       .filter(({ score }) => score > 0)
       .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title));
   }, [entries, hasQuery, query]);
@@ -218,7 +184,7 @@ export function SearchPage() {
       return acc;
     }, {});
 
-    const orderedKeys = [...sectionOrder.filter((section) => section in bySection), ...Object.keys(bySection).filter((section) => !sectionOrder.includes(section))];
+    const orderedKeys = [...new Set(scored.map(({ entry }) => entry.section))];
     return orderedKeys.map((section) => ({ section, items: bySection[section].items, total: bySection[section].total }));
   }, [scored]);
 
@@ -293,6 +259,9 @@ export function SearchPage() {
       <BrowseControlStrip
         searchSlot={
           <SearchInput
+            id="global-search"
+            autoFocus
+            label="Search all records"
             value={query}
             onChange={(value) => updateSearchParams(value, scope)}
             placeholder="Search by title, GUID, component, system, or summary..."

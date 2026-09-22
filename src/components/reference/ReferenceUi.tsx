@@ -40,6 +40,7 @@ export function ReferenceFilterButton({
   return (
     <button
       type="button"
+      aria-pressed={active}
       onClick={onClick}
       className={joinClasses(
         "rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition",
@@ -74,7 +75,7 @@ export function ReferenceSurface({
     >
       {title ? (
         <div className="flex flex-wrap items-center justify-between gap-3 border-b border-[var(--database-divider)] px-5 py-4">
-          <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--database-muted)]">{title}</h2>
+          <h2 className="min-w-0 text-sm font-semibold text-[var(--database-muted)]">{title}</h2>
           {meta ? <div className="text-[11px] uppercase tracking-[0.16em] text-[var(--database-dim)]">{meta}</div> : null}
         </div>
       ) : null}
@@ -89,7 +90,7 @@ export function ReferenceStatGrid({ rows }: { rows: ReferenceFieldRow[] }) {
       {rows.map((row) => (
         <div key={row.label} className="database-panel-subtle rounded-2xl p-3">
           <div className="flex items-start justify-between gap-3">
-            <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
+            <dt className="text-sm font-medium text-[var(--database-muted)]">{row.label}</dt>
             {row.copyValue ? <CopyValueButton value={row.copyValue} className="shrink-0" /> : null}
           </div>
           <dd className={joinClasses("mt-2 text-sm text-[var(--database-ink)]", row.monospace && "font-mono text-xs text-[var(--database-accent-soft)]")}>
@@ -106,8 +107,8 @@ export function ReferenceFieldGrid({ rows }: { rows: ReferenceFieldRow[] }) {
     <dl className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.2rem]">
       {rows.map((row) => (
         <div key={`${row.label}:${row.value}`} className="grid gap-2 px-4 py-3 sm:grid-cols-[minmax(9rem,0.7fr)_minmax(0,1fr)_auto] sm:items-start sm:gap-4">
-          <dt className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--database-dim)]">{row.label}</dt>
-          <dd className={joinClasses("min-w-0 text-sm leading-6 text-[var(--database-ink)]", row.monospace && "break-all font-mono text-xs text-[var(--database-accent-soft)]")}>
+          <dt className="text-sm font-medium text-[var(--database-muted)]">{row.label}</dt>
+          <dd className={joinClasses("min-w-0 text-sm leading-6 text-[var(--database-ink)]", row.monospace && "whitespace-pre-wrap break-words font-mono text-sm text-[var(--database-accent-soft)]")}>
             {renderFieldValue(row)}
           </dd>
           {row.copyValue ? <CopyValueButton value={row.copyValue} className="justify-self-start sm:justify-self-end" /> : null}
@@ -130,9 +131,9 @@ export function ReferenceRelationList({ items, emptyLabel, totalCount }: { items
           const content = (
             <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)]">
               <div className="min-w-0">
-                <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
+                <div className="break-words font-medium text-[var(--database-ink)]">{item.title}</div>
                 {item.description ? <div className="mt-1 text-xs leading-5 text-[var(--database-dim)]">{item.description}</div> : null}
-                {item.path ? <div className="mt-1.5 break-all font-mono text-[11px] text-[var(--database-accent-soft)]">{item.path}</div> : null}
+
               </div>
               {item.badges && item.badges.length > 0 ? (
                 <div className="flex shrink-0 flex-wrap justify-end gap-2">
@@ -159,7 +160,7 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row group grid gap-3.5 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_auto] lg:items-start"
+        className="database-ledger-row block px-4 py-3.5"
       >
         <div className="min-w-0">
           <div className="flex flex-wrap gap-2">
@@ -173,9 +174,6 @@ export function ReferenceIndexRow({ entry }: { entry: ReferenceIndexEntry }) {
           <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">{entry.excerpt || "No summary available yet."}</p>
           <div className="mt-3 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.path}</div>
-        </div>
-        <div className="database-row-action flex items-center text-[11px] font-medium uppercase tracking-[0.18em]">
-          Open Record
         </div>
       </Link>
     </li>
