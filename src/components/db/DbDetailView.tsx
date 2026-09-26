@@ -1585,13 +1585,13 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
     : "database-summary-capsule rounded-[1.35rem] p-4 sm:p-5";
 
   return (
-    <section className="database-panel overflow-hidden rounded-[1.35rem] p-5 sm:p-6">
+    <section className="database-panel overflow-hidden rounded-[1.35rem] p-4 sm:p-6">
       <div className={`grid gap-5 ${showSummaryRail ? "xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start" : ""}`}>
         <div className="min-w-0">
-          <header className="flex items-center justify-between gap-4">
+          <header className="flex items-center justify-between gap-2 sm:gap-4">
             <div className="min-w-0 flex-1">
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
-              <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
+              <h1 className="mt-3 text-[1.75rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
             </div>
             <DbArtwork icon={detail.icon} portraitAssetPath={detail.portraitAssetPath} size="detail" />
           </header>

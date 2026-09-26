@@ -1128,7 +1128,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
           ) : null
         }
         activeFilters={activeFilters}
-        helperText={filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}. Narrow with search or filters.` : undefined}
+        helperText={filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}. Narrow with ${hasDetailedFilters ? "search or filters" : "search"}.` : undefined}
         onClear={canClearFilters ? clearFilters : undefined}
       />
 

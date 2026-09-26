@@ -128,3 +128,15 @@ test("facets retain narrowing choices and active selections, including useful si
   assert.equal(hasUsefulDbFacet("all", 0, [{ count: 0 }]), false);
   assert.equal(hasUsefulDbFacet("Journal", 0, []), true);
 });
+
+test("compact search controls retain Clear without a repeated active-query chip", () => {
+  for (const compact of [false, true]) {
+    const html = renderToStaticMarkup(<BrowseControlStrip compact={compact} discloseOnDesktop metrics={[{ label: "456 results · 1 section" }]} onClear={() => {}} clearLabel="Clear search" filterSlot={<button>Items</button>} />);
+    assert.match(html, />Clear search</);
+    assert.match(html, /456 results · 1 section/);
+    assert.equal((html.match(/>Show filters</g) ?? []).length, 1);
+    assert.doesNotMatch(html, />Active</);
+  }
+  const idle = renderToStaticMarkup(<BrowseControlStrip compact discloseOnDesktop metrics={[]} />);
+  assert.doesNotMatch(idle, /Clear filters|Show filters/);
+});

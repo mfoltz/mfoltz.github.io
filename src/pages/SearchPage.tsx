@@ -60,15 +60,15 @@ function matchesScope(entry: SearchEntry, scope: string): boolean {
   return entry.section === scope;
 }
 
-function ScopeChip({ active, label, count, onClick }: { active: boolean; label: string; count?: number; onClick: () => void }) {
+function ScopeChip({ active, label, count, onClick, primary = false }: { active: boolean; label: string; count?: number; onClick: () => void; primary?: boolean }) {
   return (
     <button
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
+      className={`${primary ? "min-w-0 rounded-xl px-2 py-2 text-[13px] leading-5 sm:rounded-full sm:px-3 sm:py-1.5 sm:text-xs sm:uppercase sm:tracking-[0.16em]" : "rounded-full px-3 py-1.5 text-xs uppercase tracking-[0.16em]"} font-semibold transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
-      {count !== undefined ? `${label} (${count})` : label}
+      {primary ? <>{label}{count !== undefined ? <span className="block text-xs sm:inline"> {`(${count})`}</span> : null}</> : count !== undefined ? `${label} (${count})` : label}
     </button>
   );
 }
@@ -229,26 +229,13 @@ export function SearchPage() {
     setSearchParams(new URLSearchParams(), { replace: true });
   }
 
-  const activeFilters = [trimmedQuery ? `Query: ${trimmedQuery}` : null, scope !== "all" ? `Scope: ${getSectionLabel(scope)}` : null].filter(
-    (value): value is string => Boolean(value)
-  );
+  const activeFilters = scope !== "all" ? [`Scope: ${scopeOptions.find((option) => option.value === scope)?.label ?? scope}`] : [];
 
   const metrics: BrowseMetric[] = loading
     ? [{ label: "Loading search index", tone: "muted" }]
     : hasQuery
-      ? [
-          { label: `${scored.length} ranked results` },
-          { label: `${grouped.length} populated sections`, tone: "muted" }
-      ]
+      ? [{ label: `${scored.length} result${scored.length === 1 ? "" : "s"} · ${grouped.length} section${grouped.length === 1 ? "" : "s"}` }]
       : [{ label: `${entries.length} indexed entries`, tone: "muted" }];
-
-  const hasCappedSections = grouped.some(({ items, total }) => total > items.length);
-  const helperText =
-    !loading && hasQuery && scored.length > 0
-      ? `${scored.length} result${scored.length === 1 ? "" : "s"} for "${trimmedQuery}" across ${grouped.length} section${grouped.length === 1 ? "" : "s"}${
-          hasCappedSections ? `. Showing up to ${perSectionLimit} per section.` : "."
-        }`
-      : undefined;
 
   let emptyLabel: string | null = null;
   if (!loading && !error) {
@@ -269,6 +256,7 @@ export function SearchPage() {
 
       <BrowseControlStrip
         discloseOnDesktop
+        compact
         searchSlot={
           <SearchInput
             id="global-search"
@@ -281,15 +269,16 @@ export function SearchPage() {
           />
         }
         metrics={metrics}
-        primaryControls={scopeOptions.slice(0, 3).map((option) => (
+        primaryControls={<div className="grid w-full grid-cols-3 gap-2 sm:flex sm:w-auto sm:flex-wrap">{scopeOptions.slice(0, 3).map((option) => (
           <ScopeChip
             key={option.value}
+            primary
             active={scope === option.value}
             label={option.label}
             count={!loading && hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
             onClick={() => updateSearchParams(query, option.value)}
           />
-        ))}
+        ))}</div>}
         filterSlot={
           <>
             {scopeOptions.slice(3).map((option) => (
@@ -304,8 +293,7 @@ export function SearchPage() {
           </>
         }
         activeFilters={activeFilters}
-        helperText={helperText}
-        onClear={activeFilters.length > 0 ? clearSearch : undefined}
+        onClear={hasQuery || scope !== "all" ? clearSearch : undefined}
         clearLabel="Clear search"
       />
 
