@@ -193,9 +193,12 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
 
 export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: string }) {
   const description = entry.description ?? entry.excerpt;
-  const chips = entry.categories.slice(0, 2);
-  const extraCount = Math.max(0, entry.categories.length - chips.length);
-  const eyebrow = entry.recordKind ?? (section === "items" ? "Item" : section === "recipes" ? "Recipe" : section);
+  const kind = entry.recordKind ?? (section === "items" ? "Item" : section === "recipes" ? "Recipe" : undefined);
+  const badges = [...new Set([entry.tier, kind, ...entry.categories].filter(
+    (value): value is string => Boolean(value?.trim()) && value!.toLowerCase().replace(/\s/g, "") !== section.toLowerCase()
+  ))];
+  const chips = badges.slice(0, 3);
+  const extraCount = Math.max(0, badges.length - chips.length);
 
   return (
     <li className="list-none">
@@ -206,15 +209,14 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
         <div className="flex min-w-0 items-start gap-3">
           <div className="min-w-0 flex-1">
             <h2 className="text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
-            <div className="mt-2 flex flex-wrap gap-2">
-              <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
-              {chips.map((category) => (
-                <DbBadge key={category} tone="muted">
+            {chips.length > 0 ? <div className="mt-2 flex flex-wrap gap-2">
+              {chips.map((category, index) => (
+                <DbBadge key={category} tone={index === 0 ? "accent" : "muted"}>
                   {category}
                 </DbBadge>
               ))}
               {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
-            </div>
+            </div> : null}
             {entry.subtitle ? <p className="mt-2 break-all font-mono text-xs text-[var(--database-muted)]">{entry.subtitle}</p> : null}
             {hasUsefulDescription(description) ? <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
               <VariableText text={description} variableValues={entry.textVariableValues} />

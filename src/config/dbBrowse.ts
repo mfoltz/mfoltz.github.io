@@ -3,6 +3,10 @@ import type { DbSection } from "./sections";
 
 export const ALL_DB_BROWSE_VALUE = "all";
 
+export function hasUsefulDbFacet(activeValue: string, inputCount: number, options: Array<{ count: number }>): boolean {
+  return activeValue !== ALL_DB_BROWSE_VALUE || options.some(({ count }) => count > 0 && count < inputCount);
+}
+
 export interface DbBrowseOption {
   value: string;
   slug: string;

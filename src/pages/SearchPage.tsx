@@ -11,6 +11,7 @@ import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, i
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
 import { scoreSearchEntry } from "../lib/search";
+import { itemRowSummary } from "../lib/dbPresentation";
 
 const sectionOrder: string[] = [...referenceSections, ...dbSections];
 const perSectionLimit = 24;
@@ -74,6 +75,7 @@ function ScopeChip({ active, label, count, onClick }: { active: boolean; label: 
 
 export function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
   const isDatabase = isDbSection(entry.section);
+  const excerpt = entry.section === "items" ? itemRowSummary(entry.excerpt) : entry.excerpt;
   const redundantBadges = new Set(["database", entry.section.toLowerCase(), entry.kind?.toLowerCase()]);
   const visibleBadges = [...new Set((entry.badges ?? []).filter(isVisibleBadge))]
     .filter((badge) => !isDatabase || !redundantBadges.has(badge.toLowerCase()))
@@ -89,7 +91,7 @@ export function SearchResultRow({ entry, query }: { entry: SearchEntry; query: s
           <div className="text-base font-semibold text-[var(--database-ink)]">
             <HighlightedText text={entry.title} query={query} />
           </div>
-          <div className="mt-2 flex flex-wrap gap-2">
+          {!isDatabase || visibleBadges.length > 0 ? <div className="mt-2 flex flex-wrap gap-2">
             {!isDatabase ? <>
             <ReferenceBadge tone="accent">{getSectionFamily(entry.section)}</ReferenceBadge>
             <ReferenceBadge tone="muted">{getSectionLabel(entry.section)}</ReferenceBadge>
@@ -100,10 +102,10 @@ export function SearchResultRow({ entry, query }: { entry: SearchEntry; query: s
                 {badge}
               </ReferenceBadge>
             ))}
-          </div>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
-            <VariableText text={entry.excerpt} query={query} variableValues={entry.textVariableValues} />
-          </p>
+          </div> : null}
+          {excerpt?.trim() ? <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+            <VariableText text={excerpt} query={query} variableValues={entry.textVariableValues} />
+          </p> : null}
         </div>
         {isDatabase
           ? <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} />
