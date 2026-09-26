@@ -8,13 +8,13 @@ export function DbArtwork({
 }: {
   icon?: string;
   portraitAssetPath?: string;
-  size?: "row" | "detail";
+  size?: "row" | "detail" | "ingredient";
 }) {
   const src = portraitAssetPath || icon;
   const [failedSrc, setFailedSrc] = useState<string>();
   if (!src || src === failedSrc) return null;
 
-  const dimensions = size === "row"
+  const dimensions = size === "ingredient" ? "h-6 w-6" : size === "row"
     ? "h-12 w-12 sm:h-16 sm:w-16"
     : portraitAssetPath
       ? "h-16 w-auto max-w-24 md:h-24 md:max-w-36 xl:h-32 xl:max-w-48"

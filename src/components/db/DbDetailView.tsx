@@ -4,12 +4,14 @@ import { ReactNode } from "react";
 import { Link } from "react-router-dom";
 import { DetailJumpItem, DetailJumpStrip } from "../common/DetailJumpStrip";
 import { CollapsibleTextBlock } from "../common/CollapsibleTextBlock";
+import { AnchoredDisclosure } from "../common/AnchoredDisclosure";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { VariableText } from "../common/VariableText";
 import { headingId } from "../../lib/text";
 import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef, DbRuntimeDamageEvidence } from "../../types/db";
-import { DbBadge, DbDisplayRow, DbFieldGrid, DbIconAvatar, DbReferenceList, DbSurface } from "./DbCards";
+import { DbBadge, DbDisplayRow, DbFieldGrid, DbReferenceList, DbSurface } from "./DbCards";
+import { DbArtwork } from "./DbArtwork";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 
 const hiddenKeys = new Set([
@@ -320,7 +322,13 @@ function getHeroCategories(section: DbSection, detail: DbEntityDetail): string[]
           ? uniqueStrings([detail.school, catalogTier, ...rawCategories])
           : uniqueStrings(rawCategories);
 
-  return prioritized.filter((value) => !isLowSignalCategory(detail, section, value));
+  const seen = new Set(detail.tier ? [normalizeLooseToken(detail.tier)] : []);
+  return prioritized.filter((value) => {
+    const key = normalizeLooseToken(value);
+    if (isLowSignalCategory(detail, section, value) || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  }).map((value) => normalizeLooseToken(value) === "vblood" ? "V Blood" : value);
 }
 
 function buildRowsFromSpecs(detail: DbEntityDetail, specs: DbFieldSpec[]): DbDisplayRow[] {
@@ -441,7 +449,8 @@ function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail)
   }
 
   return (
-    <DbSurface title="Tooltip source" anchorId="tooltip-capture" meta={typeof detail.tooltipSourceKind === "string" ? detail.tooltipSourceKind : undefined}>
+    <AnchoredDisclosure id="tooltip-capture" title="Tooltip source">
+    <DbSurface title="Captured tooltip" meta={typeof detail.tooltipSourceKind === "string" ? detail.tooltipSourceKind : undefined}>
       <div className="space-y-4">
         {tooltipText && getHeroBodyCopy(section, detail).text !== tooltipText ? (
           <div className="database-panel-subtle rounded-[1.15rem] p-4">
@@ -454,6 +463,7 @@ function renderAbilityTooltipSurface(section: DbSection, detail: DbEntityDetail)
         {tooltipRows.length > 0 ? <DbFieldGrid rows={tooltipRows} /> : null}
       </div>
     </DbSurface>
+    </AnchoredDisclosure>
   );
 }
 
@@ -1101,9 +1111,9 @@ function hasRecipeSummaryData(section: DbSection, detail: DbEntityDetail): boole
 function renderRecipeItemChip(item: DbRelatedEntityRef) {
   const chipContent = (
     <>
-      {item.icon ? <img src={item.icon} alt="" loading="lazy" className="h-6 w-6 rounded-[0.45rem] object-contain" /> : null}
-      {typeof item.amount === "number" ? <span className="font-semibold text-[var(--database-accent-soft)]">{formatItemQuantity(item.amount)}</span> : null}
-      <span className="min-w-0 whitespace-normal break-words">{item.title}</span>
+      <DbArtwork icon={item.icon} size="ingredient" />
+      {typeof item.amount === "number" ? <span className="shrink-0 font-semibold text-[var(--database-accent-soft)]">{formatItemQuantity(item.amount)}</span> : null}
+      <span className="min-w-0 whitespace-normal">{item.title}</span>
     </>
   );
   const className = "database-chip inline-flex max-w-full items-center gap-2 rounded-full px-2.5 py-1.5 text-xs text-[var(--database-ink)]";
@@ -1131,7 +1141,7 @@ function renderRecipeSummaryRow(label: string, value: ReactNode) {
   const cue = recipeDetailPresentation.summaryLabelCues[label];
 
   return (
-    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0 sm:grid-cols-[7.5rem_minmax(0,1fr)] sm:items-center">
+    <div className="grid gap-2 py-2.5 first:pt-0 last:pb-0">
       <dt className="inline-flex items-center gap-1.5 text-[10px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">
         {cue ? (
           <span aria-hidden="true" className="text-[0.72rem] leading-none">
@@ -1481,59 +1491,6 @@ function renderWorkstationSummary(section: DbSection, detail: DbEntityDetail) {
   );
 }
 
-function renderWorkstationTitlePortrait(section: DbSection, detail: DbEntityDetail) {
-  const portraitAssetPath = typeof detail.portraitAssetPath === "string" ? detail.portraitAssetPath : undefined;
-  if (section !== "workstations" || !portraitAssetPath) {
-    return null;
-  }
-
-  return (
-    <span className="database-summary-capsule hidden h-14 w-14 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] sm:inline-flex">
-      <img
-        src={portraitAssetPath}
-        alt={`${detail.title} station portrait`}
-        className="h-12 w-12 object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
-        loading="lazy"
-      />
-    </span>
-  );
-}
-
-function renderNpcTitlePortrait(section: DbSection, detail: DbEntityDetail) {
-  const portraitAssetPath = typeof detail.portraitAssetPath === "string" ? detail.portraitAssetPath : undefined;
-  if (section !== "npcs" || !portraitAssetPath) {
-    return null;
-  }
-
-  return (
-    <span className="database-summary-capsule inline-flex h-16 w-16 sm:h-24 sm:w-24 shrink-0 items-center justify-center rounded-[0.9rem] p-1.5 shadow-[0_0_18px_rgba(212,160,83,0.08)] ring-1 ring-[rgba(212,160,83,0.12)] ">
-      <img
-        src={portraitAssetPath}
-        alt={`${detail.title} NPC portrait`}
-        className="h-full w-full object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
-        loading="lazy"
-      />
-    </span>
-  );
-}
-
-function renderItemTitleIcon(section: DbSection, detail: DbEntityDetail) {
-  const icon = typeof detail.icon === "string" ? detail.icon : undefined;
-  if (section !== "items" || !icon) {
-    return null;
-  }
-
-  return (
-    <DbIconAvatar
-      title={detail.title}
-      icon={icon}
-      className="database-summary-capsule hidden h-14 w-14 rounded-[0.9rem] p-1 sm:flex"
-      imageClassName="object-contain drop-shadow-[0_8px_16px_rgba(0,0,0,0.32)]"
-      monogramClassName="text-xs"
-    />
-  );
-}
-
 function renderWorkstationHeroSummary(section: DbSection, detail: DbEntityDetail) {
   const summary = renderWorkstationSummary(section, detail);
   if (!summary) {
@@ -1602,109 +1559,81 @@ function renderStructuredSummaryRows(section: DbSection, detail: DbEntityDetail)
 
 function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisplayRow[]) {
   const categories = getHeroCategories(section, detail);
+  const visibleCategories = categories.slice(0, 3);
+  const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
+  const visibleBadgeKeys = new Set([detail.tier, ...visibleCategories].filter((value): value is string => Boolean(value)).map(normalizeLooseToken));
+  const visibleFacts = factRows.filter((row) => {
+    if (section !== "recipes" || !row.key || !["recipeGroup", "recipeFamily"].includes(row.key)) return true;
+    const value = detail[row.key];
+    return typeof value !== "string" || !visibleBadgeKeys.has(normalizeLooseToken(value));
+  });
   const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
-  const { text: bodyCopy } = getHeroBodyCopy(section, detail);
-  const recipeSummary = renderRecipeSummary(section, detail);
-  const workstationSummary = renderWorkstationHeroSummary(section, detail);
-  const itemSummary = renderItemSummary(section, detail);
-  const npcSummary = renderNpcSummary(section, detail);
-  const structuredSummary = recipeSummary ?? workstationSummary ?? itemSummary ?? npcSummary;
-  const placeStructuredSummaryInRail = Boolean(recipeSummary || workstationSummary || itemSummary || npcSummary);
+  const { text: bodyCopy, key: heroBodyKey } = getHeroBodyCopy(section, detail);
+  const structuredSummary = renderRecipeSummary(section, detail)
+    ?? renderWorkstationHeroSummary(section, detail)
+    ?? renderItemSummary(section, detail)
+    ?? renderNpcSummary(section, detail);
+  const placeStructuredSummaryInRail = Boolean(structuredSummary);
   const summaryRailLabel = placeStructuredSummaryInRail ? eyebrow : humanizeKey(section);
-  const { key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const showHeroBodyCopy = Boolean(hasUsefulDescription(bodyCopy) && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
-  const detailIcon = typeof detail.icon === "string" ? detail.icon : undefined;
-  const inlineFactRows = factRows.slice(0, 4);
-  const summaryFactRows = factRows.slice(4);
+  const inlineFactRows = visibleFacts.slice(0, 4);
+  const summaryFactRows = visibleFacts.slice(4);
   const showSummaryRail = summaryFactRows.length > 0 || placeStructuredSummaryInRail;
   const summaryRailClassName = placeStructuredSummaryInRail
     ? "database-summary-capsule hidden rounded-[1.35rem] p-4 sm:p-5 xl:block"
     : "database-summary-capsule rounded-[1.35rem] p-4 sm:p-5";
-  const visibleCategories = categories.slice(0, 3);
-  const extraCategoryCount = Math.max(0, categories.length - visibleCategories.length);
 
   return (
     <section className="database-panel overflow-hidden rounded-[1.35rem] p-5 sm:p-6">
       <div className={`grid gap-5 ${showSummaryRail ? "xl:grid-cols-[minmax(0,1fr)_minmax(17rem,19rem)] xl:items-start" : ""}`}>
         <div className="min-w-0">
-          <div className="flex items-start justify-between gap-4">
-            <div className="min-w-0 flex-1 max-w-4xl">
+          <header className="flex items-center justify-between gap-4">
+            <div className="min-w-0 flex-1">
               <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-[var(--database-ember)]">{eyebrow}</p>
-              <div className="mt-3 inline-flex max-w-full items-center gap-3">
-                <h1 className="min-w-0 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
-                {renderWorkstationTitlePortrait(section, detail)}
-                {renderNpcTitlePortrait(section, detail)}
-                {renderItemTitleIcon(section, detail)}
-              </div>
-              {subtitle ? <p className="mt-2.5 break-all font-mono text-[10px] tracking-[0.04em] text-[var(--database-dim)] opacity-80 sm:text-[11px]">{subtitle}</p> : null}
-              <div className="mt-3 flex flex-wrap items-center gap-2">
-                {typeof detail.guid === "number" ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
-                {detail.prefab ? <CopyValueButton value={detail.prefab} label="Copy prefab name" /> : null}
-                {detail.prefabPath ? <Link to={detail.prefabPath} className="database-action-quiet rounded-full px-3 py-1 text-xs font-semibold">Open prefab ↗</Link> : null}
-              </div>
-              {showHeroBodyCopy ? (
-                <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
-                  <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
-                </p>
-              ) : null}
-              {showHeroBodyCopy && parseTextVariables(String(bodyCopy), detail.textVariableValues).some(segment => segment.type === "variable" && !segment.resolution) ? <p className="mt-2 text-xs text-[var(--database-muted)]">Values in braces are unresolved source parameters.</p> : null}
-              {placeStructuredSummaryInRail ? (
-                <div className="xl:hidden">
-                  {structuredSummary}
-                  {summaryFactRows.length > 0 ? <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">{renderSummaryRows(summaryFactRows)}</div> : null}
-                </div>
-              ) : (
-                structuredSummary
-              )}
+              <h1 className="mt-3 text-[2rem] font-semibold leading-tight text-[var(--database-ink)] sm:text-[2.45rem]">{detail.title}</h1>
             </div>
-            {detailIcon && !showSummaryRail && section !== "items" ? (
-              <DbIconAvatar
-                title={detail.title}
-                icon={detailIcon}
-                className="hidden h-16 w-16 rounded-[1.15rem] xl:flex"
-                monogramClassName="text-base"
-              />
-            ) : null}
+            <DbArtwork icon={detail.icon} portraitAssetPath={detail.portraitAssetPath} size="detail" />
+          </header>
+          {subtitle ? <p className="mt-2.5 break-all font-mono text-xs tracking-[0.04em] text-[var(--database-muted)]">{subtitle}</p> : null}
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            {typeof detail.guid === "number" ? <CopyValueButton value={String(detail.guid)} label="Copy GUID" /> : null}
+            {detail.prefab ? <CopyValueButton value={detail.prefab} label="Copy prefab name" /> : null}
+            {detail.prefabPath ? <Link to={detail.prefabPath} className="database-action-quiet rounded-full px-3 py-1 text-xs font-semibold">Open prefab ↗</Link> : null}
           </div>
+          {showHeroBodyCopy ? (
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-[var(--database-muted)] sm:text-[0.98rem]">
+              <VariableText text={String(bodyCopy)} variableValues={detail.textVariableValues} />
+            </p>
+          ) : null}
+          {showHeroBodyCopy && parseTextVariables(String(bodyCopy), detail.textVariableValues).some(segment => segment.type === "variable" && !segment.resolution)
+            ? <p className="mt-2 text-xs text-[var(--database-muted)]">Values in braces are unresolved source parameters.</p> : null}
+          {placeStructuredSummaryInRail ? (
+            <div className="xl:hidden">
+              {structuredSummary}
+              {summaryFactRows.length > 0 ? <div className="database-summary-capsule mt-4 rounded-[1.15rem] p-4">{renderSummaryRows(summaryFactRows)}</div> : null}
+            </div>
+          ) : null}
 
           <div className="mt-4 flex flex-wrap gap-2">
             {detail.tier ? <DbBadge tone="accent">{detail.tier}</DbBadge> : null}
             {visibleCategories.map((category) => (
-              <DbBadge key={category} tone={getHeroCategoryBadgeTone(section, category, categories)}>
-                {category}
-              </DbBadge>
+              <DbBadge key={category} tone={getHeroCategoryBadgeTone(section, category, categories)}>{category}</DbBadge>
             ))}
             {extraCategoryCount > 0 ? <DbBadge tone="muted">{`+${extraCategoryCount}`}</DbBadge> : null}
           </div>
-
           {renderInlineFacts(inlineFactRows)}
         </div>
         {showSummaryRail ? (
           <aside className={summaryRailClassName}>
-            <div className="flex items-start justify-between gap-4">
-              <div>
-                <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Quick Facts</div>
-                <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{summaryRailLabel}</div>
-              </div>
-              {detailIcon ? (
-                <DbIconAvatar
-                  title={detail.title}
-                  icon={detailIcon}
-                  className="h-14 w-14 rounded-[1rem]"
-                  monogramClassName="text-sm"
-                />
-              ) : null}
-            </div>
-
+            <div className="text-[10px] font-semibold uppercase tracking-[0.22em] text-[var(--database-dim)]">Quick Facts</div>
+            <div className="mt-2 text-xs uppercase tracking-[0.18em] text-[var(--database-accent-soft)]">{summaryRailLabel}</div>
             {placeStructuredSummaryInRail ? (
               <div className="mt-4 space-y-4">
                 {renderStructuredSummaryRows(section, detail)}
                 {renderSummaryRows(summaryFactRows)}
               </div>
-            ) : (
-              renderSummaryRows(summaryFactRows)
-            )}
+            ) : renderSummaryRows(summaryFactRows)}
           </aside>
         ) : null}
       </div>

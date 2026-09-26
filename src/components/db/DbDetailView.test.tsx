@@ -98,7 +98,7 @@ test("structured recipe detail keeps summary cues while consolidating duplicate 
 });
 
 test("structured recipe detail keeps non-summary fact rows visible on mobile and desktop", () => {
-  const html = renderDetail({ ...recipeDetailFixture, alwaysUnlocked: true, hideInStation: true, ignoreServerSettings: true }, "recipes");
+  const html = renderDetail({ ...recipeDetailFixture, recipeGroup: "None", recipeFamily: "Default", alwaysUnlocked: true, hideInStation: true, ignoreServerSettings: true }, "recipes");
 
   assert.equal(countMatches(html, /Ignores Server Settings/g), 2);
 });
@@ -181,7 +181,7 @@ test("structured NPC detail renders a portrait only when a source-backed path ex
   const withoutPath = renderNpcDetail();
 
   assert.match(html, /src="\/icons\/npcs\/CHAR_Bandit_Bomber_VBlood_HeadPortrait\.png"/);
-  assert.match(html, /alt="Clive the Firestarter NPC portrait"/);
+  assert.equal(countMatches(html, /src="\/icons\/npcs\/CHAR_Bandit_Bomber_VBlood_HeadPortrait\.png"/g), 1);
   assert.doesNotMatch(withoutPath, /NPC portrait/);
   assert.doesNotMatch(withoutPath, /\/icons\/npcs\//);
 });
@@ -205,7 +205,7 @@ test("structured workstation detail keeps summary cues while consolidating dupli
   assert.match(html, /Quick Facts<\/div><div class="mt-2 text-xs uppercase tracking-\[0\.18em\] text-\[var\(--database-accent-soft\)\]">Workstation Database<\/div>/);
   assert.match(html, /<aside class="database-summary-capsule hidden rounded-\[1\.35rem\] p-4 sm:p-5 xl:block">/);
   assert.match(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_JewelcraftingTable\.png"/);
-  assert.match(html, /alt="Jewelcrafting Table station portrait"/);
+  assert.equal(countMatches(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_JewelcraftingTable\.png"/g), 1);
 
   assert.doesNotMatch(html, />Station Summary</);
   assert.doesNotMatch(html, /Station workstation record with player-facing naming and technical prefab context/);
@@ -235,4 +235,43 @@ test("structured workstation linked records surface includes inventory group whe
   assert.match(html, /Recipe output records/);
   assert.match(html, /Station recipe records/);
   assert.match(html, /Inventory records/);
+});
+
+test("detail badges deduplicate tier and V Blood spelling variants", () => {
+  const html = renderDetail({ slug: "example", title: "Example", tier: "Tier 1", categories: ["Tier 1", "Tier1", "VBlood", "V Blood"] }, "abilities");
+  assert.equal(countMatches(html, />Tier 1</g), 1);
+  assert.equal(countMatches(html, />V Blood</g), 1);
+  assert.doesNotMatch(html, />VBlood<|>Tier1</);
+});
+
+test("recipe Group and Family facts disappear only when their matching badges are visible", () => {
+  const html = renderRecipeDetail();
+  assert.doesNotMatch(html, /<dt[^>]*>Group<|<dt[^>]*>Family</);
+  const hiddenBadges = renderDetail({ ...recipeDetailFixture, recipeGroup: "None", recipeFamily: "Default" }, "recipes");
+  assert.match(hiddenBadges, /<dt[^>]*>Group</);
+  assert.match(hiddenBadges, /<dt[^>]*>Family</);
+  assert.match(hiddenBadges, />None</);
+  assert.match(hiddenBadges, />Default</);
+});
+
+test("recipe summaries preserve zero quantities, zero duration and recorded absence", () => {
+  const html = renderDetail({ ...recipeDetailFixture, craftDuration: 0, outputs: [{ title: "Unknown output", prefab: "Unknown", guid: null, amount: 0 }], repairCosts: [], repairCostCount: 0 }, "recipes");
+  assert.match(html, />0s</);
+  assert.match(html, />0x</);
+  assert.match(html, /Unknown output/);
+  assert.match(html, /None recorded/);
+});
+
+test("detail artwork appears once by the title and is absent without either asset field", () => {
+  const html = renderDetail({ ...itemDetailFixture, icon: "/item.png" }, "items");
+  assert.equal(countMatches(html, /src="\/item.png"/g), 1);
+  assert.match(html, /<header[^>]*>.*<h1[^>]*>Boneguard Boots<\/h1>.*src="\/item.png".*<\/header>/);
+  assert.doesNotMatch(html.match(/<aside.*?<\/aside>/)?.[0] ?? "", /database-record-artwork/);
+  assert.doesNotMatch(renderDetail({ slug: "plain", title: "Plain" }, "items"), /database-record-artwork|database-avatar-well/);
+});
+
+test("Tooltip source is initially collapsed and retains its deep-link target", () => {
+  const html = renderDetail({ slug: "aftershock", title: "Aftershock", tooltipTextEn: "Launch a shockwave", tooltipSourceKind: "tooltip" }, "abilities");
+  assert.match(html, /<details id="tooltip-capture" class="source-disclosure"><summary>Tooltip source<\/summary>/);
+  assert.match(html, /href="#tooltip-capture"/);
 });

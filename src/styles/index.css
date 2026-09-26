@@ -1071,6 +1071,10 @@ main h1, main h2, main h3 { overflow-wrap: anywhere; }
 .reference-header dd { color: var(--database-ink); overflow-wrap: anywhere; }
 .source-disclosure > summary { cursor: pointer; padding: 1rem; font-weight: 600; }
 .source-disclosure { scroll-margin-top: 6rem; border: 1px solid var(--database-border); border-radius: .8rem; }
+.source-disclosure#tooltip-capture { scroll-margin-top: 11rem; }
+@media (min-width: 1024px) {
+  .source-disclosure#tooltip-capture { scroll-margin-top: 9rem; }
+}
 @media (min-width: 1024px) {
   .reader-layout { grid-template-columns: 14rem minmax(0, 1fr); gap: 1.5rem; }
   .reader-outline { display: block; position: sticky; top: 6rem; max-height: calc(100dvh - 7rem); overflow-y: auto; align-self: start; }

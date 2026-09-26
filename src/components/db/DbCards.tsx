@@ -165,12 +165,12 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
               {item.icon ? <DbIconAvatar title={item.title} icon={item.icon} className="h-11 w-11 rounded-[0.85rem]" monogramClassName="text-xs" /> : null}
               <div className="min-w-0">
                 <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
-                <div className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{item.prefab}</div>
+                <div className="mt-1 break-all font-mono text-xs text-[var(--database-muted)]">{item.prefab}</div>
               </div>
             </div>
             <div className="shrink-0 text-right">
               {typeof item.amount === "number" ? <DbBadge tone="accent">{`${item.amount}x`}</DbBadge> : null}
-              {item.guid !== null ? <div className="mt-2 text-[11px] text-[var(--database-dim)]">{item.guid}</div> : null}
+              {item.guid !== null ? <div className="mt-2 text-xs text-[var(--database-muted)]">{item.guid}</div> : null}
             </div>
           </div>
         );

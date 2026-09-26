@@ -1,25 +1,14 @@
 import { useEffect, useLayoutEffect, useState } from "react";
-import { Link, NavLink, Outlet, useLocation, useNavigate } from "react-router-dom";
+import { Link, NavLink, Outlet, matchPath, useLocation, useNavigate } from "react-router-dom";
 import { shellPrimaryNav, shellSearchPath, type ShellLinkItem } from "../../config/shell";
 import { applyTheme, getInitialTheme, persistTheme, type ThemeMode } from "../../lib/theme";
+import { Breadcrumbs } from "./Breadcrumbs";
 import { PageContainer } from "../common/States";
 import { ShellMobileUtilityPanel, ShellSearchTrigger, ShellUtilityRail } from "./ShellUtilityRail";
 import logoMark from "../../../static/wiki-assets/VRisingModdingLogoNew.png";
 
 function joinClasses(...values: Array<string | false | null | undefined>): string {
   return values.filter(Boolean).join(" ");
-}
-
-function breadcrumbLabel(part: string): string {
-  if (part === "npcs") return "NPCs";
-  if (part === "itemsets") return "Item sets";
-  if (part === "db") {
-    return "Database";
-  }
-
-  return part
-    .replace(/[-_]+/g, " ")
-    .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
 function isEditableTarget(target: EventTarget | null) {
@@ -62,50 +51,11 @@ function mobileLinkClass(item: ShellLinkItem, pathname: string) {
   return joinClasses("shell-mobile-link flex items-center justify-between rounded-2xl px-4 py-3 text-sm font-semibold transition", isLinkActive(item, pathname) && "shell-mobile-link-active");
 }
 
-function Breadcrumbs() {
-  const location = useLocation();
-  const parts = location.pathname.split("/").filter(Boolean);
-
-  if (parts.length === 0) {
-    return null;
-  }
-
-  return (
-    <nav className="brand-breadcrumbs mb-6 overflow-x-auto text-sm" aria-label="Breadcrumbs">
-      <ol className="flex min-w-max items-center gap-2 whitespace-nowrap">
-        <li>
-          <Link to="/" className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
-            Home
-          </Link>
-        </li>
-        {parts.map((part, index) => {
-          const path = `/${parts.slice(0, index + 1).join("/")}`;
-          const isLast = index === parts.length - 1;
-
-          return (
-            <li key={path} className="flex items-center gap-2">
-              <span>/</span>
-              {isLast ? (
-                <span aria-current="page" className="brand-breadcrumb-current rounded-md px-2 py-1">
-                  {breadcrumbLabel(part)}
-                </span>
-              ) : (
-                <Link to={path} className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
-                  {breadcrumbLabel(part)}
-                </Link>
-              )}
-            </li>
-          );
-        })}
-      </ol>
-    </nav>
-  );
-}
-
 function SiteShellBody({ isHome }: { isHome: boolean }) {
+  const isDbDetail = Boolean(matchPath("/db/:section/:slug", useLocation().pathname));
   return (
     <PageContainer>
-      {!isHome ? <Breadcrumbs /> : null}
+      {!isHome && !isDbDetail ? <Breadcrumbs /> : null}
       <Outlet />
     </PageContainer>
   );

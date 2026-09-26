@@ -23,6 +23,10 @@ export function DetailJumpStrip({ items }: { items: DetailJumpItem[] }) {
           <a
             key={item.id}
             href={`#${item.id}`}
+            onClick={() => {
+              const target = document.getElementById(item.id);
+              if (target instanceof HTMLDetailsElement) target.open = true;
+            }}
             className={joinClasses("database-segment inline-flex items-center gap-2 rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em]")}
           >
             <span>{item.label}</span>
