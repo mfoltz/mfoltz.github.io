@@ -5,6 +5,7 @@ export interface DbIndexEntry {
   title: string;
   categories: string[];
   icon?: string;
+  portraitAssetPath?: string;
   tier?: string;
   subtitle?: string;
   description?: string;

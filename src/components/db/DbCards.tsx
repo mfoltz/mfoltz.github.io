@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { VariableText } from "../common/VariableText";
 import { CopyValueButton } from "../common/CopyValueButton";
 import { DbIndexEntry, DbRelatedEntityRef } from "../../types/db";
+import { DbArtwork } from "./DbArtwork";
 
 export interface DbDisplayRow {
   key?: string;
@@ -203,17 +204,9 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
         className="database-ledger-row block px-4 py-3.5"
       >
         <div className="flex min-w-0 items-start gap-3">
-          {entry.icon ? (
-            <DbIconAvatar
-              title={entry.title}
-              icon={entry.icon}
-              className="mt-0.5 h-12 w-12 rounded-[0.9rem]"
-              imageClassName="p-1"
-              monogramClassName="text-xs"
-            />
-          ) : null}
-          <div className="min-w-0">
-            <div className="flex flex-wrap gap-2">
+          <div className="min-w-0 flex-1">
+            <h2 className="text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
+            <div className="mt-2 flex flex-wrap gap-2">
               <DbBadge tone="accent">{entry.tier ?? eyebrow}</DbBadge>
               {chips.map((category) => (
                 <DbBadge key={category} tone="muted">
@@ -222,13 +215,13 @@ export function DbIndexCard({ entry, section }: { entry: DbIndexEntry; section: 
               ))}
               {extraCount > 0 ? <DbBadge tone="muted">{`+${extraCount}`}</DbBadge> : null}
             </div>
-            <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
-            {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
+            {entry.subtitle ? <p className="mt-2 break-all font-mono text-xs text-[var(--database-muted)]">{entry.subtitle}</p> : null}
             {hasUsefulDescription(description) ? <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
               <VariableText text={description} variableValues={entry.textVariableValues} />
             </p> : null}
 
           </div>
+          <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} />
         </div>
       </Link>
     </li>

@@ -23,7 +23,9 @@ function BrowseMetricPill({ label, tone = "default" }: BrowseMetric) {
 export function BrowseControlStrip({
   searchSlot,
   metrics,
+  primaryControls,
   filterSlot,
+  discloseOnDesktop = false,
   activeFilters = [],
   helperText,
   onClear,
@@ -31,7 +33,9 @@ export function BrowseControlStrip({
 }: {
   searchSlot?: ReactNode;
   metrics: BrowseMetric[];
+  primaryControls?: ReactNode;
   filterSlot?: ReactNode;
+  discloseOnDesktop?: boolean;
   activeFilters?: string[];
   helperText?: string;
   onClear?: () => void;
@@ -53,13 +57,15 @@ export function BrowseControlStrip({
           </div>
         </div>
 
+        {primaryControls ? <div className="flex flex-wrap gap-2">{primaryControls}</div> : null}
+
         {filterSlot ? (
           <div className="space-y-2 border-t border-[var(--database-divider)] pt-3">
-            <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className="database-action-quiet rounded-lg px-3 py-2 text-sm lg:hidden">
+            <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className={joinClasses("database-action-quiet rounded-lg px-3 py-2 text-sm", !discloseOnDesktop && "lg:hidden")}>
               {filtersOpen ? "Hide filters" : "Show filters"}
             </button>
-            <div className="hidden text-xs font-medium text-[var(--database-muted)] lg:block">Filters</div>
-            <div id={filtersId} className={joinClasses("flex-wrap gap-2", filtersOpen ? "flex" : "hidden lg:flex")}>{filterSlot}</div>
+            {!discloseOnDesktop ? <div className="hidden text-xs font-medium text-[var(--database-muted)] lg:block">Filters</div> : null}
+            <div id={filtersId} className={joinClasses("flex-wrap gap-2", filtersOpen ? "flex" : discloseOnDesktop ? "hidden" : "hidden lg:flex")}>{filterSlot}</div>
           </div>
         ) : null}
 

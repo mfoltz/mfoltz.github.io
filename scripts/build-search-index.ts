@@ -15,6 +15,8 @@ interface SearchEntry {
   excerpt: string;
   path: string;
   badges?: string[];
+  icon?: string;
+  portraitAssetPath?: string;
   textVariableValues?: TextVariableResolutionMap;
 }
 
@@ -95,6 +97,8 @@ async function main() {
         path: string;
         categories?: string[];
         tier?: string;
+        icon?: string;
+        portraitAssetPath?: string;
         textVariableValues?: TextVariableResolutionMap;
       }>
     >(indexPath);
@@ -112,6 +116,8 @@ async function main() {
         excerpt: entry.excerpt,
         path: entry.path,
         badges: uniqueStrings([entry.tier, ...(entry.categories ?? []).slice(0, 2)]),
+        ...(entry.icon ? { icon: entry.icon } : {}),
+        ...(entry.portraitAssetPath ? { portraitAssetPath: entry.portraitAssetPath } : {}),
         ...(entry.textVariableValues ? { textVariableValues: entry.textVariableValues } : {})
       });
     }
