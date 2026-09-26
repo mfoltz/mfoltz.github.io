@@ -57,13 +57,22 @@ export function BrowseControlStrip({
           </div>
         </div>
 
-        {primaryControls ? <div className="flex flex-wrap gap-2">{primaryControls}</div> : null}
+        {discloseOnDesktop && (primaryControls || filterSlot) ? (
+          <div className="flex flex-wrap items-center gap-2">
+            {primaryControls}
+            {filterSlot ? (
+              <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className="database-action-quiet rounded-lg px-3 py-2 text-sm sm:ml-auto">
+                {filtersOpen ? "Hide filters" : "Show filters"}
+              </button>
+            ) : null}
+          </div>
+        ) : primaryControls ? <div className="flex flex-wrap gap-2">{primaryControls}</div> : null}
 
         {filterSlot ? (
-          <div className="space-y-2 border-t border-[var(--database-divider)] pt-3">
-            <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className={joinClasses("database-action-quiet rounded-lg px-3 py-2 text-sm", !discloseOnDesktop && "lg:hidden")}>
+          <div hidden={discloseOnDesktop && !filtersOpen} className="space-y-2 border-t border-[var(--database-divider)] pt-3">
+            {!discloseOnDesktop ? <button type="button" aria-expanded={filtersOpen} aria-controls={filtersId} onClick={() => setFiltersOpen(!filtersOpen)} className="database-action-quiet rounded-lg px-3 py-2 text-sm lg:hidden">
               {filtersOpen ? "Hide filters" : "Show filters"}
-            </button>
+            </button> : null}
             {!discloseOnDesktop ? <div className="hidden text-xs font-medium text-[var(--database-muted)] lg:block">Filters</div> : null}
             <div id={filtersId} className={joinClasses("flex-wrap gap-2", filtersOpen ? "flex" : discloseOnDesktop ? "hidden" : "hidden lg:flex")}>{filterSlot}</div>
           </div>
