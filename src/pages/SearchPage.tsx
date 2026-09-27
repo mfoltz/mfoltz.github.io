@@ -6,10 +6,12 @@ import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { VariableText } from "../components/common/VariableText";
 import { ReferenceBadge } from "../components/reference/ReferenceUi";
+import { DbArtwork } from "../components/db/DbArtwork";
 import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
 import { scoreSearchEntry } from "../lib/search";
+import { itemRowSummary } from "../lib/dbPresentation";
 
 const sectionOrder: string[] = [...referenceSections, ...dbSections];
 const perSectionLimit = 24;
@@ -58,47 +60,56 @@ function matchesScope(entry: SearchEntry, scope: string): boolean {
   return entry.section === scope;
 }
 
-function ScopeChip({ active, label, count, onClick }: { active: boolean; label: string; count?: number; onClick: () => void }) {
+function ScopeChip({ active, label, count, onClick, primary = false }: { active: boolean; label: string; count?: number; onClick: () => void; primary?: boolean }) {
   return (
     <button
       type="button"
       aria-pressed={active}
       onClick={onClick}
-      className={`rounded-full px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
+      className={`${primary ? "min-w-0 rounded-xl px-2 py-2 text-[13px] leading-5 sm:rounded-full sm:px-3 sm:py-1.5 sm:text-xs sm:uppercase sm:tracking-[0.16em]" : "rounded-full px-3 py-1.5 text-xs uppercase tracking-[0.16em]"} font-semibold transition ${active ? "database-segment database-segment-active" : "database-segment"}`}
     >
-      {count !== undefined ? `${label} (${count})` : label}
+      {primary ? <>{label}{count !== undefined ? <span className="block text-xs sm:inline"> {`(${count})`}</span> : null}</> : count !== undefined ? `${label} (${count})` : label}
     </button>
   );
 }
 
-function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
-  const visibleBadges = (entry.badges ?? []).filter(isVisibleBadge).slice(0, 1);
+export function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
+  const isDatabase = isDbSection(entry.section);
+  const excerpt = entry.section === "items" ? itemRowSummary(entry.excerpt) : entry.excerpt;
+  const redundantBadges = new Set(["database", entry.section.toLowerCase(), entry.kind?.toLowerCase()]);
+  const visibleBadges = [...new Set((entry.badges ?? []).filter(isVisibleBadge))]
+    .filter((badge) => !isDatabase || !redundantBadges.has(badge.toLowerCase()))
+    .slice(0, isDatabase ? 3 : 1);
 
   return (
     <li className="list-none">
       <Link
         to={entry.path}
-        className="database-ledger-row grid gap-x-6 gap-y-2 px-4 py-3.5 lg:grid-cols-[minmax(0,1fr)_minmax(0,16rem)] lg:items-center"
+        className={`database-ledger-row gap-x-6 gap-y-2 px-4 py-3.5 ${isDatabase ? "flex items-start" : "grid lg:grid-cols-[minmax(0,1fr)_minmax(0,16rem)] lg:items-center"}`}
       >
-        <div className="min-w-0">
-          <div className="flex flex-wrap gap-2">
+        <div className="min-w-0 flex-1">
+          <div className="text-base font-semibold text-[var(--database-ink)]">
+            <HighlightedText text={entry.title} query={query} />
+          </div>
+          {!isDatabase || visibleBadges.length > 0 ? <div className="mt-2 flex flex-wrap gap-2">
+            {!isDatabase ? <>
             <ReferenceBadge tone="accent">{getSectionFamily(entry.section)}</ReferenceBadge>
             <ReferenceBadge tone="muted">{getSectionLabel(entry.section)}</ReferenceBadge>
             {entry.kind ? <ReferenceBadge tone="muted">{entry.kind}</ReferenceBadge> : null}
+            </> : null}
             {visibleBadges.map((badge) => (
               <ReferenceBadge key={badge} tone="muted">
                 {badge}
               </ReferenceBadge>
             ))}
-          </div>
-          <div className="mt-2.5 text-base font-semibold text-[var(--database-ink)]">
-            <HighlightedText text={entry.title} query={query} />
-          </div>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
-            <VariableText text={entry.excerpt} query={query} variableValues={entry.textVariableValues} />
-          </p>
+          </div> : null}
+          {excerpt?.trim() ? <p className="mt-2 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+            <VariableText text={excerpt} query={query} variableValues={entry.textVariableValues} />
+          </p> : null}
         </div>
-        <div className="min-w-0 break-all font-mono text-[11px] text-[var(--database-dim)] lg:text-right">{entry.path}</div>
+        {isDatabase
+          ? <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} />
+          : <div className="min-w-0 break-all font-mono text-[11px] text-[var(--database-dim)] lg:text-right">{entry.path}</div>}
       </Link>
     </li>
   );
@@ -218,26 +229,13 @@ export function SearchPage() {
     setSearchParams(new URLSearchParams(), { replace: true });
   }
 
-  const activeFilters = [trimmedQuery ? `Query: ${trimmedQuery}` : null, scope !== "all" ? `Scope: ${getSectionLabel(scope)}` : null].filter(
-    (value): value is string => Boolean(value)
-  );
+  const activeFilters = scope !== "all" ? [`Scope: ${scopeOptions.find((option) => option.value === scope)?.label ?? scope}`] : [];
 
   const metrics: BrowseMetric[] = loading
     ? [{ label: "Loading search index", tone: "muted" }]
     : hasQuery
-      ? [
-          { label: `${scored.length} ranked results` },
-          { label: `${grouped.length} populated sections`, tone: "muted" }
-      ]
+      ? [{ label: `${scored.length} result${scored.length === 1 ? "" : "s"} · ${grouped.length} section${grouped.length === 1 ? "" : "s"}` }]
       : [{ label: `${entries.length} indexed entries`, tone: "muted" }];
-
-  const hasCappedSections = grouped.some(({ items, total }) => total > items.length);
-  const helperText =
-    !loading && hasQuery && scored.length > 0
-      ? `${scored.length} result${scored.length === 1 ? "" : "s"} for "${trimmedQuery}" across ${grouped.length} section${grouped.length === 1 ? "" : "s"}${
-          hasCappedSections ? `. Showing up to ${perSectionLimit} per section.` : "."
-        }`
-      : undefined;
 
   let emptyLabel: string | null = null;
   if (!loading && !error) {
@@ -257,6 +255,8 @@ export function SearchPage() {
       <SectionHeader title="Search" subtitle="Search across generated data and reference records." />
 
       <BrowseControlStrip
+        discloseOnDesktop
+        compact
         searchSlot={
           <SearchInput
             id="global-search"
@@ -269,9 +269,19 @@ export function SearchPage() {
           />
         }
         metrics={metrics}
+        primaryControls={<div className="grid w-full grid-cols-3 gap-2 sm:flex sm:w-auto sm:flex-wrap">{scopeOptions.slice(0, 3).map((option) => (
+          <ScopeChip
+            key={option.value}
+            primary
+            active={scope === option.value}
+            label={option.label}
+            count={!loading && hasQuery ? scopeCounts.get(option.value) ?? 0 : undefined}
+            onClick={() => updateSearchParams(query, option.value)}
+          />
+        ))}</div>}
         filterSlot={
           <>
-            {scopeOptions.map((option) => (
+            {scopeOptions.slice(3).map((option) => (
               <ScopeChip
                 key={option.value}
                 active={scope === option.value}
@@ -283,8 +293,7 @@ export function SearchPage() {
           </>
         }
         activeFilters={activeFilters}
-        helperText={helperText}
-        onClear={activeFilters.length > 0 ? clearSearch : undefined}
+        onClear={hasQuery || scope !== "all" ? clearSearch : undefined}
         clearLabel="Clear search"
       />
 

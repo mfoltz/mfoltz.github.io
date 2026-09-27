@@ -5,10 +5,12 @@ import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
 import { VariableText } from "../components/common/VariableText";
 import { DbBadge, DbIndexCard } from "../components/db/DbCards";
+import { DbArtwork } from "../components/db/DbArtwork";
 import {
   ALL_DB_BROWSE_VALUE,
   buildDbBrowseOptions,
   getDbBrowseProfile,
+  hasUsefulDbFacet,
   resolveDbBrowseSelection,
   resolveDbBrowseView,
   slugifyDbBrowseValue
@@ -16,6 +18,7 @@ import {
 import { getDbSectionLabel, isDbSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { includesQuery } from "../lib/text";
+import { itemRowSummary } from "../lib/dbPresentation";
 import { DbIndexEntry } from "../types/db";
 
 const visibleLimit = 144;
@@ -105,6 +108,7 @@ function formatNpcBloodTypeBadge(entry: DbIndexEntry): string | undefined {
     return undefined;
   }
 
+  if (/^v\s*blood$/i.test(entry.npcBloodType.trim())) return "V Blood";
   return /\bblood\b/i.test(entry.npcBloodType) ? entry.npcBloodType : `${entry.npcBloodType} Blood`;
 }
 
@@ -151,6 +155,7 @@ function renderFacetFilterSet(
   options: Array<{ value: string; count: number }>,
   onSelect: (value: string) => void
 ) {
+  if (!hasUsefulDbFacet(activeValue, baseCount, options)) return null;
   return (
     <fieldset className="flex w-full min-w-0 flex-wrap gap-2 border-0 pt-2">
       <legend className="mb-1 text-xs font-medium text-[var(--database-muted)]">{allLabel.replace(/^All /, "")}</legend>
@@ -176,7 +181,7 @@ function DenseIndexRow({
 }: {
   entry: DbIndexEntry;
   badges: Array<{ label: string; tone?: "accent" | "muted" | "default" }>;
-  body: string;
+  body?: string;
   rightMeta?: string[];
 }) {
   const visibleBadges = badges.slice(0, 3);
@@ -187,22 +192,23 @@ function DenseIndexRow({
     <li className="list-none">
       <Link
         to={entry.path}
-        className={`database-ledger-row grid gap-x-6 gap-y-2.5 px-4 py-3.5 ${hasMeta ? "md:grid-cols-[minmax(0,1fr)_auto] md:items-center" : ""}`}
+        className="database-ledger-row flex items-start gap-4 px-4 py-3.5"
       >
+        <div className={`grid min-w-0 flex-1 gap-x-6 gap-y-2.5 ${hasMeta ? "md:grid-cols-[minmax(0,1fr)_auto] md:items-center" : ""}`}>
         <div className="min-w-0">
-          <div className="flex flex-wrap gap-2">
+          <h2 className="text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
+          {visibleBadges.length > 0 ? <div className="mt-2 flex flex-wrap gap-2">
             {visibleBadges.map((badge, index) => (
               <DbBadge key={`${badge.label}:${index}`} tone={badge.tone ?? (index === 0 ? "accent" : "muted")}>
                 {badge.label}
               </DbBadge>
             ))}
             {extraBadgeCount > 0 ? <DbBadge tone="muted">{`+${extraBadgeCount}`}</DbBadge> : null}
-          </div>
-          <h2 className="mt-2.5 text-base font-semibold leading-tight text-[var(--database-ink)] sm:text-[1.05rem]">{entry.title}</h2>
-          {entry.subtitle ? <p className="mt-1 break-all font-mono text-[11px] text-[var(--database-dim)]">{entry.subtitle}</p> : null}
-          <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
+          </div> : null}
+          {entry.subtitle ? <p className="mt-2 break-all font-mono text-xs text-[var(--database-muted)]">{entry.subtitle}</p> : null}
+          {body?.trim() ? <p className="mt-2.5 max-w-3xl text-sm leading-6 text-[var(--database-muted)]">
             <VariableText text={body} variableValues={entry.textVariableValues} />
-          </p>
+          </p> : null}
         </div>
         {hasMeta ? (
           <ul className="m-0 flex list-none flex-wrap gap-x-4 gap-y-1 p-0 text-[11px] font-semibold uppercase leading-5 tracking-[0.12em] text-[var(--database-dim)] md:max-w-[14rem] md:flex-col md:items-end md:text-right">
@@ -211,6 +217,8 @@ function DenseIndexRow({
             ))}
           </ul>
         ) : null}
+        </div>
+        <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} />
       </Link>
     </li>
   );
@@ -235,7 +243,7 @@ function AbilityIndexRow({ entry }: { entry: DbIndexEntry }) {
   return <DenseIndexRow entry={entry} badges={badges} body={entry.description ?? entry.excerpt ?? "No summary available yet."} rightMeta={timing} />;
 }
 
-function ItemIndexRow({ entry }: { entry: DbIndexEntry }) {
+export function ItemIndexRow({ entry }: { entry: DbIndexEntry }) {
   const badges = dedupeBadges([
     entry.recordKind && entry.recordKind !== "Player Usable" ? entry.recordKind : undefined,
     entry.itemGroup,
@@ -248,13 +256,16 @@ function ItemIndexRow({ entry }: { entry: DbIndexEntry }) {
   }));
   const levelLabel = formatNumericValue(entry.level);
   const stackLabel = formatNumericValue(entry.maxAmount);
+  const body = entry.excerpt ?? entry.description ?? "No summary available yet.";
+  const summaryWords = ` ${body.toLowerCase().replace(/[^a-z0-9]+/g, " ")} `;
+  const inSummary = (value: string) => summaryWords.includes(` ${value.toLowerCase().replace(/[^a-z0-9]+/g, " ")} `);
   const rightMeta = [
     levelLabel ? `Level ${levelLabel}` : null,
-    stackLabel ? `Stack ${stackLabel}` : null,
-    entry.itemType && entry.itemType !== "Equippable" ? entry.itemType : null
+    stackLabel && !inSummary(`stack ${entry.maxAmount}`) ? `Stack ${stackLabel}` : null,
+    entry.itemType && entry.itemType !== "Equippable" && !inSummary(entry.itemType) ? entry.itemType : null
   ].filter((value): value is string => Boolean(value));
 
-  return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
+  return <DenseIndexRow entry={entry} badges={badges} body={itemRowSummary(body)} rightMeta={rightMeta} />;
 }
 
 function RecipeIndexRow({ entry }: { entry: DbIndexEntry }) {
@@ -282,13 +293,20 @@ function WorkstationIndexRow({ entry }: { entry: DbIndexEntry }) {
   return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
 }
 
-function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
-  const badges = dedupeBadges([entry.npcKind, formatNpcBloodTypeBadge(entry), getNpcSecondaryGroup(entry)]).map((label) => ({
+export function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
+  const bloodKey = (label: string | undefined) => label?.replace(/\s/g, "").toLowerCase();
+  const bloodBadge = formatNpcBloodTypeBadge(entry);
+  const badges = dedupeBadges([
+    bloodKey(entry.npcKind) === "vblood" ? "V Blood" : entry.npcKind,
+    bloodKey(entry.npcKind) === "vbloodboss" && bloodKey(bloodBadge) === "vblood" ? undefined : bloodBadge,
+    getNpcSecondaryGroup(entry)
+  ]).map((label) => ({
     label
   }));
+  const hasVisibleVBlood = badges.slice(0, 3).some(({ label }) => ["vblood", "vbloodboss"].includes(bloodKey(label) ?? ""));
   const rightMeta = [
     typeof entry.npcLevel === "number" ? `Level ${formatNumericValue(entry.npcLevel)}` : null,
-    entry.isVBlood ? "V Blood" : null,
+    entry.isVBlood && !hasVisibleVBlood ? "V Blood" : null,
     entry.isServant ? "Servant" : null
   ].filter((value): value is string => Boolean(value));
 
@@ -864,10 +882,31 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
             ? hasNpcFilters
             : hasGenericFilters;
 
+  // Use the same predicate as the fieldsets, so an empty fragment cannot leave a disclosure.
+  const hasDetailedFilters = (isAbilitySection ? [
+    abilitySchoolConfig && hasUsefulDbFacet(schoolFilter, abilityViewFiltered.length, abilitySchoolOptions),
+    abilityTierConfig && hasUsefulDbFacet(tierFilter, abilitySchoolFiltered.length, abilityTierOptions)
+  ] : isItemSection ? [
+    itemGroupConfig && hasUsefulDbFacet(itemGroupFilter, itemViewFiltered.length, itemGroupOptions),
+    itemFamilyConfig && hasUsefulDbFacet(itemFamilyFilter, itemGroupFiltered.length, itemFamilyOptions),
+    itemTierConfig && hasUsefulDbFacet(itemTierFilter, itemFamilyFiltered.length, itemTierOptions)
+  ] : isRecipeSection ? [
+    recipeGroupConfig && hasUsefulDbFacet(recipeGroupFilter, queryFiltered.length, recipeGroupOptions),
+    recipeFamilyConfig && hasUsefulDbFacet(recipeFamilyFilter, recipeGroupFiltered.length, recipeFamilyOptions),
+    recipeTierConfig && hasUsefulDbFacet(recipeTierFilter, recipeFamilyFiltered.length, recipeTierOptions)
+  ] : isWorkstationSection ? [
+    workstationRoleConfig && hasUsefulDbFacet(workstationRoleFilter, queryFiltered.length, workstationRoleOptions),
+    workstationAreaConfig && hasUsefulDbFacet(workstationAreaFilter, workstationRoleFiltered.length, workstationAreaOptions)
+  ] : isNpcSection ? [
+    npcBloodConfig && npcView === "blood-carriers" && hasUsefulDbFacet(npcBloodFilter, npcViewFiltered.length, npcBloodOptions)
+  ] : [profileFacet && hasUsefulDbFacet(categoryFilter, queryFiltered.length, categoryOptions)]).some(Boolean);
+
   return (
     <div>
       <SectionHeader title={title} subtitle={subtitle} />
       <BrowseControlStrip
+        key={section}
+        discloseOnDesktop
         searchSlot={
           <SearchInput
             value={query}
@@ -884,7 +923,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
           />
         }
         metrics={metrics.slice(0, 1)}
-        filterSlot={
+        primaryControls={
           isAbilitySection ? (
             <>
               {abilityViewConfig?.options.map((option) => (
@@ -904,23 +943,6 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                   }
                 />
               ))}
-              {abilitySchoolConfig
-                ? renderFacetFilterSet(abilitySchoolConfig.allLabel, schoolFilter, abilityViewFiltered.length, abilitySchoolOptions, (value) =>
-                    updateParams((nextParams) => {
-                      setSearchParamValue(nextParams, abilitySchoolConfig.param, value);
-                      if (abilityTierConfig) {
-                        nextParams.delete(abilityTierConfig.param);
-                      }
-                    })
-                  )
-                : null}
-              {abilityTierConfig
-                ? renderFacetFilterSet(abilityTierConfig.allLabel, tierFilter, abilitySchoolFiltered.length, abilityTierOptions, (value) =>
-                    updateParams((nextParams) => {
-                      setSearchParamValue(nextParams, abilityTierConfig.param, value);
-                    })
-                  )
-                : null}
             </>
           ) : isItemSection ? (
             <>
@@ -950,6 +972,61 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                   }
                 />
               ))}
+            </>
+          ) : isNpcSection ? (
+            <>
+              {npcViewConfig?.options.map((option) => (
+                <FilterChip
+                  key={option.value}
+                  active={npcView === option.value}
+                  count={
+                    option.value === "bosses"
+                      ? queryFiltered.filter((entry) => entry.isVBlood === true).length
+                      : option.value === "blood-carriers"
+                        ? queryFiltered.filter((entry) => Boolean(entry.npcBloodType)).length
+                        : queryFiltered.length
+                  }
+                  label={option.label}
+                  onClick={() =>
+                    updateParams((nextParams) => {
+                      if (!npcViewConfig) {
+                        return;
+                      }
+
+                      setSearchParamValue(nextParams, npcViewConfig.param, option.value, npcViewConfig.defaultValue);
+                      if (npcBloodConfig) {
+                        nextParams.delete(npcBloodConfig.param);
+                      }
+                    })
+                  }
+                />
+              ))}
+            </>
+          ) : null
+        }
+        filterSlot={
+          !hasDetailedFilters ? undefined : isAbilitySection ? (
+            <>
+              {abilitySchoolConfig
+                ? renderFacetFilterSet(abilitySchoolConfig.allLabel, schoolFilter, abilityViewFiltered.length, abilitySchoolOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, abilitySchoolConfig.param, value);
+                      if (abilityTierConfig) {
+                        nextParams.delete(abilityTierConfig.param);
+                      }
+                    })
+                  )
+                : null}
+              {abilityTierConfig
+                ? renderFacetFilterSet(abilityTierConfig.allLabel, tierFilter, abilitySchoolFiltered.length, abilityTierOptions, (value) =>
+                    updateParams((nextParams) => {
+                      setSearchParamValue(nextParams, abilityTierConfig.param, value);
+                    })
+                  )
+                : null}
+            </>
+          ) : isItemSection ? (
+            <>
               {itemGroupConfig
                 ? renderFacetFilterSet(itemGroupConfig.allLabel, itemGroupFilter, itemViewFiltered.length, itemGroupOptions, (value) =>
                     updateParams((nextParams) => {
@@ -1035,41 +1112,13 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
                 : null}
             </>
           ) : isNpcSection ? (
-            <>
-              {npcViewConfig?.options.map((option) => (
-                <FilterChip
-                  key={option.value}
-                  active={npcView === option.value}
-                  count={
-                    option.value === "bosses"
-                      ? queryFiltered.filter((entry) => entry.isVBlood === true).length
-                      : option.value === "blood-carriers"
-                        ? queryFiltered.filter((entry) => Boolean(entry.npcBloodType)).length
-                        : queryFiltered.length
-                  }
-                  label={option.label}
-                  onClick={() =>
-                    updateParams((nextParams) => {
-                      if (!npcViewConfig) {
-                        return;
-                      }
-
-                      setSearchParamValue(nextParams, npcViewConfig.param, option.value, npcViewConfig.defaultValue);
-                      if (npcBloodConfig) {
-                        nextParams.delete(npcBloodConfig.param);
-                      }
-                    })
-                  }
-                />
-              ))}
-              {npcBloodConfig && npcView === "blood-carriers"
+            npcBloodConfig && npcView === "blood-carriers"
                 ? renderFacetFilterSet(npcBloodConfig.allLabel, npcBloodFilter, npcViewFiltered.length, npcBloodOptions, (value) =>
                     updateParams((nextParams) => {
                       setSearchParamValue(nextParams, npcBloodConfig.param, value);
                     })
                   )
-                : null}
-            </>
+                : null
           ) : profileFacet ? (
             renderFacetFilterSet(profileFacet.allLabel, categoryFilter, queryFiltered.length, categoryOptions, (value) =>
               updateParams((nextParams) => {
@@ -1079,7 +1128,7 @@ export function DbListPage({ section: sectionProp }: { section?: string }) {
           ) : null
         }
         activeFilters={activeFilters}
-        helperText={filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}. Narrow with search or filters.` : undefined}
+        helperText={filteredRowCount > visibleRows.length ? `Showing ${visibleRows.length} of ${filteredRowCount}. Narrow with ${hasDetailedFilters ? "search or filters" : "search"}.` : undefined}
         onClear={canClearFilters ? clearFilters : undefined}
       />
 

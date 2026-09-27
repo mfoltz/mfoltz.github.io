@@ -9,5 +9,7 @@ export interface SearchEntry {
   excerpt: string;
   path: string;
   badges?: string[];
+  icon?: string;
+  portraitAssetPath?: string;
   textVariableValues?: TextVariableResolutionMap;
 }

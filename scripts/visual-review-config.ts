@@ -136,6 +136,44 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
     },
     { id: "db-abilities-list", title: "Database Abilities", path: "/db/abilities", pack: "player-first", kind: "route" },
     {
+      id: "db-items-list", title: "Items: Collapsed Filters and Artwork",
+      path: "/db/items", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 }
+    },
+    {
+      id: "db-items-list-filters", title: "Items: Expanded Filters",
+      path: "/db/items", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 },
+      interactions: [{ type: "click", selector: "main button[aria-expanded='false'][aria-controls]", expectVisible: "main fieldset" }]
+    },
+    {
+      id: "db-abilities-list-filters", title: "Abilities: Expanded Filters",
+      path: "/db/abilities", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 },
+      interactions: [{ type: "click", selector: "main button[aria-expanded='false'][aria-controls]", expectVisible: "main fieldset" }]
+    },
+    {
+      id: "search-blood-items", title: "Item Search: Collapsed Sections and Artwork",
+      path: "/search?q=blood&scope=items", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 }
+    },
+    {
+      id: "search-blood-items-filters", title: "Item Search: Expanded Sections",
+      path: "/search?q=blood&scope=items", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 },
+      interactions: [{ type: "click", selector: "main button[aria-expanded='false'][aria-controls]", expectVisible: "main .database-sticky-panel div[id] > button" }]
+    },
+    {
+      id: "db-aftershock-detail", title: "Aftershock: Title Artwork and Collapsed Tooltip",
+      path: "/db/abilities/ab-chaos-aftershock-group", pack: "player-first", kind: "route",
+      ready: { selector: "#tooltip-capture", timeoutMs: 20000 }
+    },
+    {
+      id: "db-aftershock-tooltip-source", title: "Aftershock: Tooltip Deep Link",
+      path: "/db/abilities/ab-chaos-aftershock-group#tooltip-capture", pack: "developer-sanity", kind: "route", clip: developerDetailClip,
+      ready: { selector: "#tooltip-capture[open] .database-ledger-surface", timeoutMs: 20000 }
+    },
+    {
       id: "db-abilities-list-blood-school",
       title: "Database Abilities: Blood School",
       path: "/db/abilities?view=catalog&school=blood",

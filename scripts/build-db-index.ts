@@ -105,6 +105,7 @@ interface IndexEntry {
   title: string;
   categories: string[];
   icon?: string;
+  portraitAssetPath?: string;
   tier?: string;
   subtitle?: string;
   description?: string;
@@ -1256,6 +1257,7 @@ function normalizeEntity(section: Section, raw: RawEntity): { index: IndexEntry;
       title,
       categories,
       icon: raw.icon ? String(raw.icon) : undefined,
+      portraitAssetPath: raw.portraitAssetPath ? String(raw.portraitAssetPath) : undefined,
       tier: raw.tier ? String(raw.tier) : raw.rarity ? String(raw.rarity) : undefined,
       subtitle: raw.subtitle ? String(raw.subtitle) : undefined,
       description: raw.description ? String(raw.description) : undefined,
@@ -2015,6 +2017,7 @@ function buildRecipeEntity(
     categories,
     tier,
     craftDuration: typeof craftDuration === "number" ? craftDuration : undefined,
+    icon: primaryOutput?.icon,
     outputCount,
     requirementCount,
     repairCostCount,
@@ -2061,6 +2064,7 @@ function buildRecipeEntity(
       hideInStation,
       ignoreServerSettings,
       crafts: summarizeRefs(outputs, "unknown output"),
+      icon: primaryOutput?.icon,
       requires: summarizeRefs(requirements, "unknown requirements"),
       repairsWith: repairCosts.length > 0 ? summarizeRefs(repairCosts, "n/a") : undefined,
       normalizedOutputs: recipeLinkEntry ? summarizeRecipeLinkRefs(recipeLinkEntry.outputs, "n/a") : undefined,
@@ -2173,6 +2177,7 @@ function buildNpcEntity(doc: PrefabDocument, components: Map<string, ParsedCompo
     tags: [essenceItem?.prefab, convertToUnit?.prefab, classificationEntry?.bloodType, classificationEntry?.faction, classificationEntry?.unitCategory],
     indexFields: {
       npcLevel: classificationEntry?.level,
+      portraitAssetPath: portraitEntry?.portraitAssetPath,
       npcKind,
       npcBloodType: classificationEntry?.bloodType,
       npcFaction: classificationEntry?.faction,
@@ -2388,6 +2393,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
     tags: [matchingFloorType, bonusServantType, status, inventoryPrefab?.prefab, respawnPointType, merchantRegion, merchantInventory],
     indexFields: {
       workstationRole,
+      portraitAssetPath: portraitEntry?.portraitAssetPath,
       stationKind,
       matchingFloorType,
       bonusServantType,
