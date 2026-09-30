@@ -2,6 +2,11 @@
 
 Last reviewed: April 30, 2026
 
+Historical snapshot. Status reviewed 2026-09-30: the observations, shipped claims,
+and follow-on cues below retain their April scope. They are not the current
+backlog. Use the [active roadmap](source-backed-next-thread-roadmap.md) and later
+[checkpoint receipts](checkpoints/README.md) for current integration status.
+
 Scope:
 
 - compare the original database site at [vrising.gaming.tools](https://vrising.gaming.tools/) against the current generated DB experience

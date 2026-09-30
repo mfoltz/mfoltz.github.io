@@ -1,5 +1,9 @@
 # V Rising Mod Database Phase 1
 
+Historical snapshot: 2026-03-23 (last original update). Status reviewed 2026-09-30.
+The coverage and comparisons below describe Phase 1, not today's work queue.
+Use the [active roadmap](source-backed-next-thread-roadmap.md) for current status.
+
 ## Good Enough Parity
 
 - Keep the structured React/Vite/Pages architecture and generated JSON contracts intact.
@@ -38,8 +42,10 @@
 - Tooltip entries include provenance (`sourceKind`, `sourceRef`) so fallback/generated rows are distinguishable from extractor-derived rows.
 - Coverage is now measured as high-signal tooltip enrichment, with low-signal fallback rows excluded from matched totals.
 
-## Known Missing Catalog Icons
+## Missing Catalog Icons: corrected 2026-09-30
+
+The current tracked ability-icon manifest lists the two misses below. Wisp Dance
+is resolved and has been removed from the old three-entry list.
 
 - `AB_Blood_BloodRite_AbilityGroup`
-- `AB_Illusion_WispDance_AbilityGroup`
 - `AB_Storm_LightningTyphoon_AbilityGroup`

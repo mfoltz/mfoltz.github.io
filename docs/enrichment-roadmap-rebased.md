@@ -1,11 +1,18 @@
-# Rebased Enrichment Roadmap
+# Historical Enrichment Sequencing
+
+Retired as an active roadmap: 2026-09-30.
+
+Use the [active source-backed roadmap](source-backed-next-thread-roadmap.md) for
+delivered work, current priorities, verification, parked lanes, and stop gates.
+The phases below preserve the earlier sequencing; they do not queue follow-on
+work.
 
 ## Why this order
 
 The current local inputs (`VRising.DataExtractor`, `VRising.GameData`, Bloodcraft resources, and asset dump files) are not a single stable prebuilt dataset.  
 That makes source certainty the first bottleneck, so the roadmap is sequenced source-risk-first, then broader catalog enrichment.
 
-## Order of operations
+## Historical order of operations
 
 1. **Phase 0: Source contract reset**
    - lock canonical map contracts under `data/enrichment/*-map.json`
@@ -33,16 +40,30 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
    - keep below-target warnings for incomplete domains
    - `npm run verify` remains the release-safe final gate
 
-## Current baseline outputs
+## Evidence pointers retained from the sequencing plan
 
 - `data/enrichment/enrichment-coverage.json` tracks high-signal matched counts and low-signal exclusions per domain.
 - `data/enrichment/blood-hunts-map.json` records the current source-backed Blood Hunts MonoBehaviour join.
 - `data/enrichment/npc-classification-map.json` records server-first NPC level, boss, blood type, faction, servant, and unit-category metadata for browse slices.
-- `data/enrichment/npc-portrait-map.json` records V Blood-scoped portrait evidence, but public NPC portrait binaries are not approved in this checkout until the policy and materialization lane land.
+- `data/enrichment/npc-portrait-map.json` records V Blood-scoped portrait evidence and existing materialized paths. Approved delivery now covers 50/69 rows; the earlier binary-policy/materialization blocker is resolved. Remaining and broader portrait lanes stay parked.
 - `data/enrichment/buildable-portrait-map.json` records source-backed buildable portrait evidence and approved materialized paths.
 - `data/enrichment/item-icon-manifest.json` records the currently materialized repo-backed item icon paths.
 - `data/enrichment/item-icon-unresolved.json` is the manual icon curation work queue.
 
-## Current follow-up roadmap
+## State at retirement
 
-Use `docs/source-backed-next-thread-roadmap.md` for the next source-backed thread order, blockers, and stop gates. The near-term sequence is to close the V Blood portrait lane first, then tighten harness confidence, then reopen only one evidence lane at a time.
+- Source contracts, deterministic output, provenance, and high-signal coverage
+  remain operating constraints.
+- Ability tooltip coverage is 54/54; the item-icon pipeline is delivered with
+  1128/1130 matched rows and a bounded unresolved queue.
+- Recipes, workstation display, NPC classification, approved portrait delivery,
+  and browse/search/detail refinements are delivered. Catalog expansion is no
+  longer a blanket task queue.
+- Blueprint source/book linkage and UI integration is verified locally;
+  publication requires separate authority.
+- Threshold floors, honest incomplete-domain warnings, and `npm run verify`
+  remain required before authorized commits.
+
+The original “finish V Blood portraits first” direction is superseded. The
+[active roadmap](source-backed-next-thread-roadmap.md) owns current priorities,
+including the later item-description audit candidate and its authorization gate.
