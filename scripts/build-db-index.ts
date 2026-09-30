@@ -151,6 +151,7 @@ interface IndexEntry {
   unlockSourceTypeLabels?: string[];
   linkedBookCount?: number;
   isStartBlueprint?: boolean;
+  blueprintSearchTerms?: string[];
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -2499,9 +2500,6 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const summary = uniqueStrings([
     components.has("ProjectM.CastleWorkstation") || components.has("ProjectM.Refinementstation") ? "Workstation blueprint" : "Buildable blueprint",
     isStartBlueprint ? "starter build" : undefined,
-    unlockSources.length > 0
-      ? `${unlockSources.length} unlock source${unlockSources.length === 1 ? "" : "s"}${unlockSourceTypeSummary ? ` (${unlockSourceTypeSummary})` : ""}`
-      : undefined,
     requiresLineOfSight ? "line of sight required" : undefined,
     requiresPathfinding ? "pathfinding required" : undefined,
     fullDismantleTime !== undefined ? `dismantle ${formatNumber(fullDismantleTime)}s` : undefined
@@ -2513,14 +2511,16 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     categories: uniqueStrings([...docCategories, "Blueprint"]),
     summary,
     icon: displayEntry?.iconAssetPath,
-    tags: [placeSequence, editSequence, buildingSequence, ...unlockSourceTypeLabels, ...linkedBooks.flatMap((book) => [book.title, book.prefab])],
+    tags: [placeSequence, editSequence, buildingSequence],
     indexFields: {
       unlockSourceCount: unlockSources.length,
       unlockSourceTypeSummary,
       unlockSourceTypes: unlockMapEntry?.unlockSourceTypes ?? [],
       unlockSourceTypeLabels,
       linkedBookCount,
-      isStartBlueprint
+      isStartBlueprint,
+      // These terms belong to Blueprint browsing; global search keeps its existing tags and excerpt.
+      blueprintSearchTerms: uniqueStrings([...unlockSourceTypeLabels, ...linkedBooks.flatMap((book) => [book.title, book.prefab])])
     },
     detail: {
       fullDismantleTime,

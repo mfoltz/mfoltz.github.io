@@ -7,7 +7,7 @@ const descriptions: Record<string, string> = {
   npcs: "Units, V Blood bosses, drops, and blood types.",
   abilities: "Spells, weapon skills, schools, and mechanics.",
   workstations: "Station roles, matching floors, servant bonuses, recipes, and outputs.",
-  blueprints: "Building records and their prefab references.",
+  blueprints: "Build rules, recorded unlock sources, and linked book requirements. Source coverage is partial.",
   quests: "Journal entries, requirements, and rewards.",
   buffs: "Buff records and component references.",
   itemsets: "Item set records and source definitions."

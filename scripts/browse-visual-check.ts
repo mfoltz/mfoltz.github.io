@@ -218,6 +218,7 @@ try {
     await page.locator("a[href='#tooltip-capture']").press("Enter");
     await page.locator("#tooltip-capture[open]").waitFor();
     await page.locator("#tooltip-capture > summary").press("Space");
+    await page.waitForFunction(() => !document.querySelector("#tooltip-capture")?.hasAttribute("open"));
     assert.equal(await page.locator("#tooltip-capture").getAttribute("open"), null);
     await page.locator("a[href='#tooltip-capture']").click();
     await page.locator("#tooltip-capture[open]").waitFor();

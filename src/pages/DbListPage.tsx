@@ -20,6 +20,7 @@ import { fetchJson } from "../lib/fetch";
 import { includesQuery } from "../lib/text";
 import { itemRowSummary } from "../lib/dbPresentation";
 import { DbIndexEntry } from "../types/db";
+import { BlueprintListPage } from "./BlueprintListPage";
 
 const visibleLimit = 144;
 const denseVisibleLimit = 120;
@@ -314,6 +315,12 @@ export function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
 }
 
 export function DbListPage({ section: sectionProp }: { section?: string }) {
+  const params = useParams();
+  const section = sectionProp ?? params.section ?? "";
+  return section === "blueprints" ? <BlueprintListPage /> : <GeneralDbListPage section={section} />;
+}
+
+function GeneralDbListPage({ section: sectionProp }: { section?: string }) {
   const params = useParams();
   const section = sectionProp ?? params.section ?? "";
   const validSection = isDbSection(section) ? section : null;

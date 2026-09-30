@@ -55,6 +55,17 @@ const sawmillInventory: DbRelatedEntityRef = {
   path: "/prefabs/inventory-sawmill"
 };
 
+const bloodAltarUnlockSource: DbRelatedEntityRef = {
+  title: "Journal Reward Tech Blood Altar",
+  prefab: "Journal_Reward_Tech_BloodAltar",
+  guid: -1471814629,
+  path: "/prefabs/journal-reward-tech-bloodaltar",
+  sourceComponent: "ProjectM.ProgressionBookBlueprintElement",
+  sourceType: "journalReward",
+  sourceTypeLabel: "Journal reward",
+  sourcePath: "content/prefabs/Journal_Reward_Tech_BloodAltar.md"
+};
+
 export const recipeDetailFixture: DbEntityDetail = {
   slug: "recipe-armor-boots-t01-bone",
   title: "Boneguard Boots Recipe",
@@ -150,4 +161,31 @@ export const workstationWithInventoryDetailFixture: DbEntityDetail = {
   title: "Sawmill",
   subtitle: "TM_RefinementStation_Sawmill_Large",
   inventoryPrefabs: [sawmillInventory]
+};
+
+export const blueprintDetailFixture: DbEntityDetail = {
+  slug: "tm-blood-altar-t01",
+  title: "Blood Altar",
+  subtitle: "TM_BloodAltar_T01",
+  summary: "Buildable blueprint • 1 unlock source",
+  categories: ["TM", "Blueprint"],
+  prefab: "TM_BloodAltar_T01",
+  guid: 1819321433,
+  sourcePath: "content/prefabs/TM_BloodAltar_T01.md",
+  fullDismantleTime: 2,
+  isStartBlueprint: false,
+  isInventoryItemBuilding: false,
+  exitBuildModeWhenBuilt: true,
+  requiresLineOfSight: true,
+  requiresSuccessfullPathfinding: false,
+  unlockSourceKind: "prefab-blueprint-unlock-map",
+  unlockSourceRef: "data/enrichment/blueprint-unlock-map.json",
+  unlockSourceCount: 1,
+  unlockSourceTypeSummary: "Journal reward",
+  unlockSourceTypes: ["journalReward"],
+  unlockSourceTypeLabels: ["Journal reward"],
+  unlockSourceTypeCounts: {
+    journalReward: 1
+  },
+  unlockSources: [bloodAltarUnlockSource]
 };

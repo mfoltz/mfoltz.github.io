@@ -226,6 +226,8 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     eyebrow: "Blueprint Archive",
     factFields: [
       { key: "fullDismantleTime", label: "Dismantle Time", format: "duration" },
+      { key: "unlockSourceCount", label: "Unlock Sources", format: "number" },
+      { key: "linkedBookCount", label: "Linked Books", format: "number" },
       { key: "isStartBlueprint", label: "Starter Build", format: "boolean" },
       { key: "isInventoryItemBuilding", label: "Inventory Build", format: "boolean" },
       { key: "exitBuildModeWhenBuilt", label: "Exit Build Mode", format: "boolean" }
@@ -233,6 +235,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     detailFields: [
       { key: "requiresLineOfSight", label: "Needs Line Of Sight", format: "boolean" },
       { key: "requiresSuccessfullPathfinding", label: "Needs Pathfinding", format: "boolean" },
+      { key: "unlockSourceTypeSummary", label: "Unlock Types" },
       { key: "placeSequence", label: "Place Sequence", format: "code" },
       { key: "editSequence", label: "Edit Sequence", format: "code" },
       { key: "localizedDisplayNameEn", label: "Localized Display Name" },
@@ -244,7 +247,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "guid", label: "GUID", format: "number" },
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
-    relationSections: [],
+    relationSections: [{ key: "unlockSources", title: "Unlock source records", emptyLabel: "No source-backed unlock record linked." }],
     detailSectionTitle: "Build Rules"
   },
   quests: {

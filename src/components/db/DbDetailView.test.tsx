@@ -7,6 +7,7 @@ import { DbSection } from "../../config/sections";
 import { DbEntityDetail } from "../../types/db";
 import { DbDetailView } from "./DbDetailView";
 import {
+  blueprintDetailFixture,
   itemDetailFixture,
   npcDetailFixture,
   recipeDetailFixture,
@@ -274,4 +275,35 @@ test("Tooltip source is initially collapsed and retains its deep-link target", (
   const html = renderDetail({ slug: "aftershock", title: "Aftershock", tooltipTextEn: "Launch a shockwave", tooltipSourceKind: "tooltip" }, "abilities");
   assert.match(html, /<details id="tooltip-capture" class="source-disclosure"><summary>Tooltip source<\/summary>/);
   assert.match(html, /href="#tooltip-capture"/);
+});
+
+test("blueprint detail retains build rules and canonical source destinations", () => {
+  const html = renderDetail(blueprintDetailFixture, "blueprints");
+  assert.match(html, /Build Rules/);
+  assert.match(html, /Unlock Sources/);
+  assert.match(html, /Journal reward/);
+  assert.match(html, /href="\/prefabs\/journal-reward-tech-bloodaltar"/);
+  assert.equal(countMatches(html, /href="#relation-unlock-source-records"/g), 1);
+});
+
+test("blueprint book requirements remain grouped under the declaring source", () => {
+  const html = renderDetail({ ...blueprintDetailFixture, linkedBookCount: 1, unlockSources: [
+    { title: "Tech Floor Alchemy Lab", prefab: "Tech_Floor_AlchemyLab", guid: -55882446,
+      path: "/prefabs/tech-floor-alchemylab", sourceComponent: "ProjectM.TechUnlockBlueprintBuffer", sourceTypeLabel: "Technology",
+      requiredBooks: [{ title: "Alchemy Lab Flooring", prefab: "Item_Ingredient_Book_Floor_AlchemyLab", guid: 978074988,
+        path: "/db/items/item-ingredient-book-floor-alchemy-lab", amount: 1, icon: "/icons/items/Poneti_Icon_Book_v2_01.png" }] },
+    { title: "Tech Collection", prefab: "Tech_Collection_Test", guid: 1, path: "/prefabs/tech-collection-test", sourceTypeLabel: "Tech collection" }
+  ] }, "blueprints");
+  assert.match(html, /href="\/db\/items\/item-ingredient-book-floor-alchemy-lab"/);
+  assert.match(html, /x1/);
+  assert.match(html, /Acquisition routes are not established/);
+  assert.equal(countMatches(html, /<h3[^>]*>Book requirements<\/h3>/g), 1);
+  assert.doesNotMatch(html, /Purchase|Drops from|Guaranteed/);
+});
+
+test("unlinked blueprints retain explicit uncertainty", () => {
+  const html = renderDetail({ ...blueprintDetailFixture, unlockSourceCount: 0, unlockSources: [], linkedBookCount: 0 }, "blueprints");
+  assert.match(html, /No unlock source is linked in this snapshot/);
+  assert.match(html, /Availability is not established/);
+  assert.doesNotMatch(html, /Unavailable|Cannot be obtained|Book requirements/);
 });

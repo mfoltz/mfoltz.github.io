@@ -1,5 +1,8 @@
 import { themeStorageKey } from "../src/lib/theme";
 import type { VisualReviewConfig } from "./visual-review-engine";
+import { getBlueprintVisualFixtures } from "./blueprint-visual-fixtures";
+
+const blueprintFixtures = getBlueprintVisualFixtures();
 
 const viewport = {
   width: 1440,
@@ -95,6 +98,28 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
   },
   captures: [
     { id: "home", title: "Home", path: "/", pack: "player-first", kind: "route" },
+    {
+      id: "db-blueprints-list", title: "Blueprints: Recorded Source Coverage",
+      path: "/db/blueprints", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 }
+    },
+    {
+      id: "db-blueprints-filtered", title: "Blueprints: Linked Books and Expanded Filters",
+      path: "/db/blueprints?books=linked&sort=sources", pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: ".database-ledger-row", timeoutMs: 20000 },
+      interactions: [{ type: "click", selector: "main button[aria-expanded='false'][aria-controls]", expectVisible: "#blueprint-book-linkage" }]
+    },
+    {
+      id: "db-blueprint-books-detail", title: "Blueprint: Books Grouped Under Their Source",
+      path: blueprintFixtures.linkedBooks.path, pack: "developer-sanity", kind: "route", clip: developerDetailClip,
+      ready: { selector: "#relation-unlock-source-records", timeoutMs: 20000 },
+      interactions: [{ type: "click", selector: "nav[aria-label='Detail sections'] a[href='#relation-unlock-source-records']", expectVisible: "#relation-unlock-source-records h3", waitMs: 250 }]
+    },
+    {
+      id: "db-blueprint-unlinked-detail", title: "Blueprint: Unlinked Source Remains Unknown",
+      path: blueprintFixtures.unlinked.path, pack: "player-first", kind: "route", clip: developerDetailClip,
+      ready: { selector: "#relation-unlock-source-records", timeoutMs: 20000 }
+    },
     {
       id: "db-item-blood-essence-detail",
       title: "Blood Essence Item Detail",

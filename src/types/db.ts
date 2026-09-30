@@ -51,6 +51,7 @@ export interface DbIndexEntry {
   unlockSourceTypeLabels?: string[];
   linkedBookCount?: number;
   isStartBlueprint?: boolean;
+  blueprintSearchTerms?: string[];
   excerpt: string;
   path: string;
   tags?: string[];

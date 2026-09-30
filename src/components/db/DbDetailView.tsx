@@ -13,6 +13,7 @@ import { DbEntityDetail, DbRelatedEntityRef, DbRuntimeDamageEvidence } from "../
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbReferenceList, DbSurface } from "./DbCards";
 import { DbArtwork } from "./DbArtwork";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
+import { BlueprintUnlockSources } from "./BlueprintUnlockSources";
 
 const hiddenKeys = new Set([
   "slug",
@@ -1849,6 +1850,9 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
             : renderNpcLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {
               const value = detail[relation.key];
+              if (section === "blueprints" && relation.key === "unlockSources") {
+                return <BlueprintUnlockSources key={relation.key} items={isRelatedEntityList(value) ? value : []} />;
+              }
               if (!isRelatedEntityList(value) || value.length === 0) {
                 return null;
               }
