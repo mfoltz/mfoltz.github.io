@@ -21,6 +21,7 @@
     "preview": "vite preview",
     "verify": "npx tsc --noEmit && node scripts/check_shortcode_syntax.js content && npm run build && npm run verify:artifact",
     "test": "npm run test:visual-review && npm run test:ability-damage-evidence && tsx scripts/dev-review.test.ts && tsx scripts/asset-dump-resolver.test.ts && tsx scripts/blood-hunts.test.ts && tsx scripts/npc-portraits.test.ts && tsx scripts/buildable-portraits.test.ts && tsx --test src/pages/HomePage.test.tsx && tsx --test src/components/layout/SiteShell.test.tsx && tsx --test src/components/db/DbDetailView.test.tsx && tsx --test src/components/reference/ReferenceDetailView.test.tsx && tsx --test src/lib/prefabReader.test.ts src/lib/search.test.ts && tsx --test src/pages/BrowseRows.test.tsx src/components/layout/Breadcrumbs.test.tsx",
+    "test:blueprint-unlocks": "tsx scripts/blueprint-unlocks.test.ts && tsx scripts/blueprint-unlock-validation.test.ts",
     "test:db-artwork": "tsx --test scripts/db-artwork.test.ts",
     "test:browse-visual": "tsx scripts/browse-visual-check.ts",
     "visual:baseline": "npm run build && npm run visual:baseline:capture",

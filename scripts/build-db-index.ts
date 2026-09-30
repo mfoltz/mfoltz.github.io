@@ -11,6 +11,13 @@ import {
   type RuntimeDamageEvidence,
   type ServerDamageEvidence
 } from "./ability-damage-evidence";
+import {
+  buildBlueprintUnlockMapSnapshot,
+  blueprintUnlockSourcePath,
+  type BlueprintUnlockMapEntry,
+  type BlueprintUnlockSource,
+  type BlueprintUnlockSourceType
+} from "./blueprint-unlocks";
 import { slugFromRelativePath } from "../src/lib/slug";
 import {
   filterTextVariableResolutionsForText,
@@ -138,6 +145,12 @@ interface IndexEntry {
   merchantInventory?: string;
   workstationRecipeCount?: number;
   workstationOutputCount?: number;
+  unlockSourceCount?: number;
+  unlockSourceTypeSummary?: string;
+  unlockSourceTypes?: BlueprintUnlockSourceType[];
+  unlockSourceTypeLabels?: string[];
+  linkedBookCount?: number;
+  isStartBlueprint?: boolean;
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -192,6 +205,11 @@ interface RawEntity {
   merchantInventory?: string;
   workstationRecipeCount?: number;
   workstationOutputCount?: number;
+  unlockSourceCount?: number;
+  unlockSourceTypeSummary?: string;
+  unlockSourceTypes?: BlueprintUnlockSourceType[];
+  unlockSourceTypeLabels?: string[];
+  unlockSourceTypeCounts?: Partial<Record<BlueprintUnlockSourceType, number>>;
   npcLevel?: number;
   npcKind?: string;
   npcBloodType?: string;
@@ -236,6 +254,11 @@ interface RelatedEntityRef {
   slug?: string;
   path?: string;
   icon?: string;
+  sourceComponent?: string;
+  sourcePath?: string;
+  sourceType?: string;
+  sourceTypeLabel?: string;
+  requiredBooks?: RelatedEntityRef[];
 }
 
 interface EntityBundle {
@@ -417,6 +440,7 @@ interface BuildContext {
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buildablePortraitByPrefab: Map<string, BuildablePortraitMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
+  blueprintUnlockByPrefab: Map<string, BlueprintUnlockMapEntry>;
   questDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buffDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   itemsetDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1159,6 +1183,24 @@ function toPrefabEntityRef(ref: PrefabReference | null, amount?: number): Relate
   };
 }
 
+function toBlueprintUnlockSourceRef(source: BlueprintUnlockSource, itemLookup: Map<string, EntityBundle>): RelatedEntityRef {
+  return {
+    title: humanizeWords(source.sourcePrefab),
+    prefab: source.sourcePrefab,
+    guid: source.sourceGuid,
+    path: blueprintUnlockSourcePath(source.sourcePath),
+    sourceComponent: source.sourceComponent,
+    sourcePath: source.sourcePath,
+    sourceType: source.sourceType,
+    sourceTypeLabel: source.sourceTypeLabel,
+    ...(source.requiredBooks?.length ? { requiredBooks: source.requiredBooks.map((book) => {
+      const item = itemLookup.get(book.prefab);
+      if (item?.detail.guid !== book.guid) throw new Error(`Blueprint book GUID join failed: ${book.prefab}`);
+      return { ...toRelatedEntityRef(book, itemLookup, book.amount)!, sourceComponent: book.sourceComponent, sourcePath: source.sourcePath };
+    }) } : {})
+  };
+}
+
 function getFirstField(component: ParsedComponent | undefined, keys: string[]): string | undefined {
   if (!component) {
     return undefined;
@@ -1811,6 +1853,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     workstationDisplayByPrefab: parsePrefabDisplayMap(workstationDisplaySnapshot),
     buildablePortraitByPrefab: parseBuildablePortraitMap(buildablePortraitSnapshot),
     blueprintDisplayByPrefab: parsePrefabDisplayMap(blueprintDisplaySnapshot),
+    blueprintUnlockByPrefab: new Map(),
     questDisplayByPrefab: parsePrefabDisplayMap(questDisplaySnapshot),
     buffDisplayByPrefab: parsePrefabDisplayMap(buffDisplaySnapshot),
     itemsetDisplayByPrefab: parsePrefabDisplayMap(itemsetDisplaySnapshot)
@@ -2427,7 +2470,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
   };
 }
 
-function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext): EntityBundle | null {
+function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext, itemLookup: Map<string, EntityBundle>): EntityBundle | null {
   const blueprint = components.get("ProjectM.BlueprintData");
   if (!blueprint) {
     return null;
@@ -2445,11 +2488,20 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const buildingSequence = getFirstField(blueprint, ["BuildingSequence"]);
   const displayMapEntry = buildContext.blueprintDisplayByPrefab.get(doc.prefabName);
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
+  const unlockMapEntry = buildContext.blueprintUnlockByPrefab.get(doc.prefabName);
+  const unlockSources = unlockMapEntry?.unlockSources.map((source) => toBlueprintUnlockSourceRef(source, itemLookup)) ?? [];
+  const linkedBooks = unlockSources.flatMap((source) => source.requiredBooks ?? []);
+  const linkedBookCount = new Set(linkedBooks.map((book) => book.prefab)).size;
+  const unlockSourceTypeLabels = unlockMapEntry?.unlockSourceTypeLabels ?? [];
+  const unlockSourceTypeSummary = unlockSourceTypeLabels.join(", ");
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["TM", "BP"]);
   const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
   const summary = uniqueStrings([
     components.has("ProjectM.CastleWorkstation") || components.has("ProjectM.Refinementstation") ? "Workstation blueprint" : "Buildable blueprint",
     isStartBlueprint ? "starter build" : undefined,
+    unlockSources.length > 0
+      ? `${unlockSources.length} unlock source${unlockSources.length === 1 ? "" : "s"}${unlockSourceTypeSummary ? ` (${unlockSourceTypeSummary})` : ""}`
+      : undefined,
     requiresLineOfSight ? "line of sight required" : undefined,
     requiresPathfinding ? "pathfinding required" : undefined,
     fullDismantleTime !== undefined ? `dismantle ${formatNumber(fullDismantleTime)}s` : undefined
@@ -2461,7 +2513,15 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     categories: uniqueStrings([...docCategories, "Blueprint"]),
     summary,
     icon: displayEntry?.iconAssetPath,
-    tags: [placeSequence, editSequence, buildingSequence],
+    tags: [placeSequence, editSequence, buildingSequence, ...unlockSourceTypeLabels, ...linkedBooks.flatMap((book) => [book.title, book.prefab])],
+    indexFields: {
+      unlockSourceCount: unlockSources.length,
+      unlockSourceTypeSummary,
+      unlockSourceTypes: unlockMapEntry?.unlockSourceTypes ?? [],
+      unlockSourceTypeLabels,
+      linkedBookCount,
+      isStartBlueprint
+    },
     detail: {
       fullDismantleTime,
       isStartBlueprint,
@@ -2476,7 +2536,16 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
       localizedDisplayGuid: displayEntry?.displayLocalizationGuid,
       localizedSummaryEn: displayEntry?.summaryEn,
       iconAssetName: displayEntry?.iconAssetName,
-      iconAssetPath: displayEntry?.iconAssetPath
+      iconAssetPath: displayEntry?.iconAssetPath,
+      unlockSourceKind: unlockSources.length > 0 ? "prefab-blueprint-unlock-map" : undefined,
+      unlockSourceRef: unlockSources.length > 0 ? "data/enrichment/blueprint-unlock-map.json" : undefined,
+      unlockSourceCount: unlockSources.length,
+      unlockSourceTypeSummary,
+      unlockSourceTypes: unlockMapEntry?.unlockSourceTypes ?? [],
+      unlockSourceTypeLabels,
+      unlockSourceTypeCounts: unlockMapEntry?.unlockSourceTypeCounts ?? {},
+      linkedBookCount,
+      unlockSources
     }
   });
 }
@@ -2803,6 +2872,23 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
           maxNodes: 80
         })
       : undefined;
+  const blueprintPrefabs = new Map(
+    docs
+      .filter((doc) => typeof doc.guid === "number" && getComponents(doc).has("ProjectM.BlueprintData"))
+      .map((doc) => [doc.prefabName, doc.guid as number] as const)
+  );
+  const blueprintUnlockMap = buildBlueprintUnlockMapSnapshot({
+    docs: docs.map((doc) => ({
+      prefabName: doc.prefabName,
+      guid: doc.guid,
+      sourcePath: doc.sourcePath,
+      components: getComponents(doc)
+    })),
+    blueprintPrefabs
+  });
+  buildContext.blueprintUnlockByPrefab = new Map(Object.entries(blueprintUnlockMap.entriesByPrefab));
+  await mkdir(path.join(repoRoot, "data", "enrichment"), { recursive: true });
+  await writeFile(path.join(repoRoot, "data", "enrichment", "blueprint-unlock-map.json"), `${JSON.stringify(blueprintUnlockMap, null, 2)}\n`);
 
   const itemDocs = docs.filter(
     (doc) => doc.prefabName.startsWith("Item_") || doc.prefabName.startsWith("FakeItem_") || doc.prefabName === "LegendaryItem_Template"
@@ -2864,7 +2950,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     const workstation = buildWorkstationEntity(doc, components, buildContext);
     if (workstation) builtWorkstations.push(workstation);
 
-    const blueprint = buildBlueprintEntity(doc, components, buildContext);
+    const blueprint = buildBlueprintEntity(doc, components, buildContext, itemLookup);
     if (blueprint) entities.blueprints.push(blueprint);
 
     const quest = buildQuestEntity(doc, components, buildContext);

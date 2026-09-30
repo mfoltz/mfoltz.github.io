@@ -2,6 +2,9 @@ import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind } from "./buildable-portraits";
+import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
+import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
+import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
 import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
 import { isSafeSlug } from "../src/lib/slug";
@@ -31,7 +34,15 @@ type IndexEntry = {
 };
 
 type RelatedEntityRef = {
+  title?: string;
+  prefab?: string;
+  guid?: number | null;
+  path?: string;
   icon?: string;
+  sourceComponent?: string;
+  sourcePath?: string;
+  sourceType?: string;
+  sourceTypeLabel?: string;
 };
 
 type DetailEntry = {
@@ -41,6 +52,13 @@ type DetailEntry = {
   portraitAssetPath?: string;
   description?: string;
   summary?: string;
+  prefab?: string;
+  guid?: number | null;
+  unlockSourceCount?: number;
+  unlockSourceTypeSummary?: string;
+  unlockSourceTypes?: string[];
+  unlockSourceTypeLabels?: string[];
+  unlockSourceTypeCounts?: Record<string, number>;
   tooltipTextEn?: string;
   localizedDescriptionTextEn?: string;
   textVariableValues?: TextVariableResolutionMap;
@@ -52,11 +70,20 @@ type DetailEntry = {
   spellJewels?: RelatedEntityRef[];
   workstationOutputs?: RelatedEntityRef[];
   inventoryPrefabs?: RelatedEntityRef[];
+  unlockSources?: RelatedEntityRef[];
 };
 
 type RelatedEntityGroupKey = keyof Pick<
   DetailEntry,
-  "repairRecipes" | "relatedRecipes" | "outputs" | "requirements" | "repairCosts" | "spellJewels" | "workstationOutputs" | "inventoryPrefabs"
+  | "repairRecipes"
+  | "relatedRecipes"
+  | "outputs"
+  | "requirements"
+  | "repairCosts"
+  | "spellJewels"
+  | "workstationOutputs"
+  | "inventoryPrefabs"
+  | "unlockSources"
 >;
 
 type EnrichmentTextEntry = {
@@ -578,6 +605,35 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
   );
 }
 
+async function validateBlueprintUnlockMap(repoRoot: string): Promise<void> {
+  const mapPath = path.join(repoRoot, "data", "enrichment", "blueprint-unlock-map.json");
+  const allPrefabsPath = path.join(repoRoot, "data", "prefabs", "All.json");
+  const blueprintIndexPath = path.join(repoRoot, "public", "data", "db", "blueprints", "index.json");
+  const blueprintDetailPath = path.join(repoRoot, "public", "data", "db", "blueprints", "by-slug");
+  const [snapshot, allPrefabs, blueprintIndex] = await Promise.all([
+    readJson<BlueprintUnlockMapSnapshot>(mapPath),
+    readJson<Record<string, number>>(allPrefabsPath),
+    readJson<DbIndexEntry[]>(blueprintIndexPath)
+  ]);
+  const details: DbEntityDetail[] = [];
+  for (const fileName of (await readdir(blueprintDetailPath)).filter((name) => name.endsWith(".json"))) {
+    details.push(await readJson<DbEntityDetail>(path.join(blueprintDetailPath, fileName)));
+  }
+  const sourcePaths = new Set(Object.values(snapshot.entriesByPrefab ?? {}).flatMap((entry) => entry.unlockSources.map((source) => source.sourcePath)));
+  const references: Array<{ title: string; path: string; sourcePath: string }> = [];
+  for (const sourcePath of sourcePaths) {
+    const slug = blueprintUnlockSourcePath(sourcePath).slice("/prefabs/".length);
+    references.push(await readJson(path.join(repoRoot, "public", "data", "reference", "prefabs", "by-slug", `${slug}.json`)));
+  }
+  const bookPrefabs = new Set(Object.values(snapshot.entriesByPrefab ?? {}).flatMap((entry) => entry.unlockSources.flatMap((source) => source.requiredBooks?.map((book) => book.prefab) ?? [])));
+  const itemIndex = await readJson<DbIndexEntry[]>(path.join(repoRoot, "public", "data", "db", "items", "index.json"));
+  const items: Array<DbEntityDetail & { path: string }> = [];
+  for (const item of itemIndex.filter((row) => row.subtitle && bookPrefabs.has(row.subtitle))) {
+    items.push({ ...await readJson<DbEntityDetail>(path.join(repoRoot, "public", "data", "db", "items", "by-slug", `${item.slug}.json`)), path: item.path });
+  }
+  validateBlueprintUnlockSnapshot({ snapshot, allPrefabs, index: blueprintIndex, details, references, items });
+}
+
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
   for (const value of values ?? []) {
     assert(!hasTextVariables(value), `${source}: ${field} '${value}' must not contain unresolved text-variable tokens`);
@@ -672,7 +728,17 @@ function assertNpcPortraitPath(icon: string | undefined, source: string): void {
 }
 
 function collectRelatedIcons(detail: DetailEntry): Array<[string, string]> {
-  const relationGroups: RelatedEntityGroupKey[] = ["repairRecipes", "relatedRecipes", "outputs", "requirements", "repairCosts", "spellJewels", "workstationOutputs", "inventoryPrefabs"];
+  const relationGroups: RelatedEntityGroupKey[] = [
+    "repairRecipes",
+    "relatedRecipes",
+    "outputs",
+    "requirements",
+    "repairCosts",
+    "spellJewels",
+    "workstationOutputs",
+    "inventoryPrefabs",
+    "unlockSources"
+  ];
 
   const icons: Array<[string, string]> = [];
   for (const key of relationGroups) {
@@ -717,6 +783,7 @@ async function main() {
   await validateBloodHuntsMap(repoRoot);
   await validateNpcPortraitMaps(repoRoot);
   await validateBuildablePortraitMaps(repoRoot);
+  await validateBlueprintUnlockMap(repoRoot);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();

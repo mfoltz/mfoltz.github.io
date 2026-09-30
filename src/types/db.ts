@@ -45,6 +45,12 @@ export interface DbIndexEntry {
   npcUnitCategory?: string;
   isVBlood?: boolean;
   isServant?: boolean;
+  unlockSourceCount?: number;
+  unlockSourceTypeSummary?: string;
+  unlockSourceTypes?: string[];
+  unlockSourceTypeLabels?: string[];
+  linkedBookCount?: number;
+  isStartBlueprint?: boolean;
   excerpt: string;
   path: string;
   tags?: string[];
@@ -59,6 +65,11 @@ export interface DbRelatedEntityRef {
   slug?: string;
   path?: string;
   icon?: string;
+  sourceComponent?: string;
+  sourcePath?: string;
+  sourceType?: string;
+  sourceTypeLabel?: string;
+  requiredBooks?: DbRelatedEntityRef[];
 }
 
 export interface DbRuntimeDamageEvidence {
@@ -112,6 +123,11 @@ export interface DbEntityDetail {
   iconAssetName?: string;
   iconAssetPath?: string;
   portraitAssetPath?: string;
+  unlockSourceCount?: number;
+  unlockSourceTypeSummary?: string;
+  unlockSourceTypes?: string[];
+  unlockSourceTypeLabels?: string[];
+  unlockSourceTypeCounts?: Record<string, number>;
   iconSourceKind?: string;
   iconSourceRef?: string;
   descriptionSourceKind?: string;

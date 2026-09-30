@@ -320,6 +320,9 @@ components.yml
 # Generated prefab slices
 static/prefab-slices/
 
+# Rebuilt by generate:db from tracked content/prefabs documents
+data/enrichment/blueprint-unlock-map.json
+
 # Local visual review artifacts
 .codex-tmp/visual-review/
 .codex-tmp/dev-review/
