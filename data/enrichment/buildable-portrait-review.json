@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "reviewed-buildable-portrait-assets",
+  "reviewNote": "Preserve 13 existing curated images. Add 41 visually reviewed castle stairs/floors/walls using unique canonical names and exact current prefab GUIDs. Original Texture2D PNGs are unchanged. Name matches are illustrative associations; runtime Sprite ownership is unproven. Two shared entrance filenames remain held. See docs/blueprint-artwork-review-20260930.md.",
+  "entries": [
+    {
+      "prefab": "BP_Castle_Stairs_Double_Stone02",
+      "guid": -887317616,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Double_Stone02.png",
+      "sha256": "d463ac294c04eca56f0f0ce6edb3f0b7e60f40a8cf863deb483ab22c2dde0331",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Double_Stone03",
+      "guid": -1186795702,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Double_Stone03.png",
+      "sha256": "f4f2fb7c07f812e8ff7eaa71f2ab41f4e52b74a8affccc92ad14f311a06b36e7",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_CCW_Stone02",
+      "guid": 171455823,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone02.png",
+      "sha256": "13ffc35cad3f723215f118f9660813c4cbc95c395b8e64fca44ec51c1e933c8c",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_CCW_Stone03",
+      "guid": 2042236287,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone03.png",
+      "sha256": "25c55ef892d35e2bfac3764628747c77c5f2fa5f646cc29a10d6baf6d569a8d9",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_CW_Stone02",
+      "guid": 891240110,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CW_Stone02.png",
+      "sha256": "e26a6c05fc667f524c364e56147e8ca3967f85c6f042e3ef2d01075973930533",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_CW_Stone03",
+      "guid": 1737385414,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_CW_Stone03.png",
+      "sha256": "b57707f8f05ea52f88ea10f634f4a79992e5bacf427099e6270963a5d3f05df4",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_Stone02",
+      "guid": 1267405974,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_Stone02.png",
+      "sha256": "5e819abd0b63704978b88c4fd04a520e76d5f2a08e381045ed3f66ef4e46c0a8",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Single_Stone03",
+      "guid": 1019577856,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
+      "sha256": "f955de6abd283d9e2a1c24a11b19809f56d4b8a10946ed081d98c5672a0a7886",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_AlchemyLab01",
+      "guid": -1269191198,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab01.png",
+      "sha256": "16c36422d33505f953a060bf145f67e93768ca1fb306a4cd3cf9af9ecbc2e28b",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_AlchemyLab02",
+      "guid": -1897961716,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab02.png",
+      "sha256": "4cbc2bb8ed5beb0b2690d1208415b5b74b2aa3d77af458d4056c54b05c31410a",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_AlchemyLab03",
+      "guid": -1205461952,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_AlchemyLab03.png",
+      "sha256": "59e694108af35a90e023d217cf6647ca70bd04f2459a03d0dedc370b24b569d6",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Crypt01",
+      "guid": -685318965,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Crypt01.png",
+      "sha256": "eae950538b470cda3b433655e639d17d9f66347744e419f75a53138f66b3f16a",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Crypt02",
+      "guid": 572228191,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Crypt02.png",
+      "sha256": "d573b270067c66aa95af4af4c9ff53020f813077278b2d0d0a3832b46e38dd93",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Crypt03",
+      "guid": 304985570,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Crypt03.png",
+      "sha256": "2cd613bc2ac9eab46b2fce927549cc8feb61457b880d091c5c10a8ed9c07622c",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Forge01",
+      "guid": -420140629,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Forge01.png",
+      "sha256": "7f36202abc1a830a6af3bcfd3d666be8fcf27f19b1b43cbbf265a939dc0ed9bf",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Forge02",
+      "guid": 1695410320,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Forge02.png",
+      "sha256": "b5ed15d3a3cc33414c36af27ddbeda2c7294f6551908277edd5c163a4618f9fa",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Forge03",
+      "guid": 63772249,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Forge03.png",
+      "sha256": "10a94499da58796ae0dac744940e957ea15b57406005f6c588cbe8f3f9114e8e",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Foundation_Stone03",
+      "guid": 679413487,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_FoundationStone03.png",
+      "sha256": "23fcaffdaf8a7e006e16d1b2d6f0c85ff402074c9a0fb977813de1fe1e285242",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Foundation_Stone04",
+      "guid": 2092503115,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Foundation_Stone04.png",
+      "sha256": "e5918e4e52c9001626027f5591b40490f7ff593cc54f875d0bb9f328345df793",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Jewelcrafting01",
+      "guid": -1984599765,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+      "sha256": "bcdb95d9550a902d39c25a3a0006535352d1169ac273fb66ea07bb46ae8361cc",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Jewelcrafting02",
+      "guid": -1838091713,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+      "sha256": "24b58c2d14086de7b982af54312d6045ed8cf5fe117eeadedf383b79376a1a36",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Jewelcrafting03",
+      "guid": -4617437,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Jewelcrafting03.png",
+      "sha256": "f06731102404a9f2a1e998c7f3f57b1723de5028d80a6916a08aa04bb137fcf5",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Library03",
+      "guid": 483075292,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Library03.png",
+      "sha256": "c188f83d51a8c08f0e4439a0b528ccc762f1a03337365d5ccc619e7eb05b50e2",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone01",
+      "guid": -1760943046,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_OutdoorCobblestone01.png",
+      "sha256": "7b4f25cb63d3cfa8e0acd93565bb4d68e4b7c7977c3e6083b86678b212b9fed6",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone02",
+      "guid": 887146255,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_OutdoorCobblestone02.png",
+      "sha256": "5815d019d0cd6d520053e118f6da9d42b6ecbeb08e87c83754cabb3ebe57765f",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone03",
+      "guid": 334719508,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone03.png",
+      "sha256": "26ab33245c9ce07d4c62634025770b7d02c20346e045642d0d9dbc10240211c7",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone04",
+      "guid": -1385691355,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone04.png",
+      "sha256": "b040981b49d78bd5e48e5508d2cc0c4fe53f0cf8e6148f9f426825cd0a3c996a",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone05",
+      "guid": -923972985,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone05.png",
+      "sha256": "34a24c1e3395dce55a0dd63e1c22364a1c1343488f06110f2092ad96006805a1",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone06",
+      "guid": -1877354305,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorCobblestone06.png",
+      "sha256": "536c66ad0a0081de2b8dec5f9ec9b465f5d4fa350326980dfc9cc798bd5bbd02",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Cobblestone07",
+      "guid": 241387358,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorCobblestone07.png",
+      "sha256": "046539e21faf5f11b0c2d78f8c7ef0bf5c687d6284884ed9957934974002731f",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Outdoor_Plain01",
+      "guid": 1356453147,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_OutdoorPlain01.png",
+      "sha256": "249819f30cbfc73641f7cef2be3063c5c39667e029fe3b9f3db601f45076a118",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Prison03",
+      "guid": 1559900574,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_floor_prison03.png",
+      "sha256": "02eac20243a6fb1f5fb3c7401e95f32ff84bbb9cc87cb1383af5efe54e63d4a4",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Tailor03",
+      "guid": -1138152299,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Tailor03.png",
+      "sha256": "0d903da9a65f773b9f528bec1af62b1b92ac1bbaa472823ce44f6c1f910e1047",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Treasury01",
+      "guid": -1887758253,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Treasury01.png",
+      "sha256": "880ef2b39981ba89042a796b7c2d4e9a514b0025db0c380b14daabe2e5b685ec",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Treasury02",
+      "guid": -2097552164,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Treasury02.png",
+      "sha256": "f62c1321fe74baeb31694e955fae7494608bfd90992a037344cb6a6a82daec4d",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Treasury03",
+      "guid": 849335034,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Treasury03.png",
+      "sha256": "0b0a745f28c451b59d310a27e6e93500d504fe55ca7a71aa927d17e1c8bbed6c",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Floor_Workshop03",
+      "guid": -156221515,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_Workshop03.png",
+      "sha256": "b76440d35b4806791d82c85b47ce5f4351cdcb1e4b9d5f0ea22e2fc02b32fc88",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier01_Wood",
+      "guid": 792289367,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier01Wood.png",
+      "sha256": "c349fac155f44cb2b4f3b8ce5d3f5fbcff54543ece1c33e75b48087230f55efe",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Pillar",
+      "guid": 1639432090,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
+      "sha256": "9040c722a8c21784198594e624cec21e0edc2758df7d81084f5c3e4e0329170d",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone",
+      "guid": 1909288154,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier02Stone.png",
+      "sha256": "644a191de67b6a10af52cd539611ed8a89288fa76bb6ed833a0ffcc5a17882af",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Pillar",
+      "guid": 1506730526,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
+      "sha256": "f31d42890365ac1afbb2d9f63c7e1b8182e83361aa107cf65451069f458ed7ec",
+      "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "TM_CraftingStation_Anvil",
+      "guid": -437790980,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Anvil.png",
+      "sha256": "c7ad789315c962381b3d29890af951ffeb5c5889d95a95ebe843eb57a60b808e",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_ArtisansCorner",
+      "guid": 1121480632,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_ArtisansCorner.png",
+      "sha256": "78a1166a6a1820d9798d205951b2c4f7d8d851b6aa8721b2d218f29718ff0b7a",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_BloodMixer",
+      "guid": -969931747,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_BloodMixer.png",
+      "sha256": "c3b62dc61fb263367aebe194cc9841650f540bc15bbe7743e8d872d2cb3b166d",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_FusionForge",
+      "guid": -1286344051,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_FusionForge.png",
+      "sha256": "72ad66636a8ba1848d96d74e956bdb114ddd03c065054a3cef0a2270129a6b5e",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_JewelcraftingTable",
+      "guid": 508953830,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_JewelcraftingTable.png",
+      "sha256": "1221e32bdd4b54cd9cb066bb7a844074fd1c4a319738cf47ce957ff7580d5777",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_SimpleCraftingBench",
+      "guid": -1107784271,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_SimpleCraftingBench.png",
+      "sha256": "9badb6102e15c59b86f0bcffd4dc687ecac6ebf721b9605b61d2840ea13eebdd",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_Smithy",
+      "guid": -1840926436,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Smithy.png",
+      "sha256": "960862365a1ea00cfaedb645b37333e493c4f8a3d6787e22d4e70bd33e6cc78b",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_CraftingStation_Stables",
+      "guid": 472278220,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stables.png",
+      "sha256": "56eb989f27dd90d1cb1b1d3b4c7c51093c62a01667eab24afd7a5a2266fe53d7",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_RefinementStation_Fabricator",
+      "guid": -465055967,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Fabricator.png",
+      "sha256": "76fa9547e31a4da74b3ca79a039ccb329bbe0743e747d517e2813477b572fd08",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_RefinementStation_Sawmill_Small",
+      "guid": 1094077710,
+      "sourceRef": "Texture2D/StructureIcon_SawmillSmall_Normal.png",
+      "sha256": "bee03860a3515b3aec9d5878166fe8301ce899c82b4cdb5d6133c0c8921d5c0e",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_UnitStation_NetherGate",
+      "guid": -218354895,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_NetherGate.png",
+      "sha256": "1d7caa6441b89120187000072a1c4c3a2944f40be9c0a9d324743bee34529a4b",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_UnitStation_Tomb",
+      "guid": 1127059420,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Tomb.png",
+      "sha256": "bd0b78b82f233db67dcff1d4c4bdeb1ec1d903830eb9eb6f0685c36cc626b921",
+      "evidenceKind": "existing-curated"
+    },
+    {
+      "prefab": "TM_UnitStation_VerminNest",
+      "guid": 150776081,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_VerminNest.png",
+      "sha256": "76e6a23882ab17dca92b73ca33ec0160b95614c7a541d5a6d482d0daf53035b6",
+      "evidenceKind": "existing-curated"
+    }
+  ]
+}
