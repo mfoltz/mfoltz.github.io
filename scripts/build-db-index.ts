@@ -19,6 +19,7 @@ import {
   type BlueprintUnlockSourceType
 } from "./blueprint-unlocks";
 import { slugFromRelativePath } from "../src/lib/slug";
+import { buildBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import {
   filterTextVariableResolutionsForText,
   isTextVariableSourceKind,
@@ -2471,7 +2472,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
   };
 }
 
-function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext, itemLookup: Map<string, EntityBundle>): EntityBundle | null {
+function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, ParsedComponent>, buildContext: BuildContext, itemLookup: Map<string, EntityBundle>, materialItems: Map<string, BlueprintMaterialItem>): EntityBundle | null {
   const blueprint = components.get("ProjectM.BlueprintData");
   if (!blueprint) {
     return null;
@@ -2490,6 +2491,10 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const displayMapEntry = buildContext.blueprintDisplayByPrefab.get(doc.prefabName);
   const displayEntry = displayMapEntry && (doc.guid === null || displayMapEntry.guid === doc.guid) ? displayMapEntry : undefined;
   const unlockMapEntry = buildContext.blueprintUnlockByPrefab.get(doc.prefabName);
+  const portraitMapEntry = buildContext.buildablePortraitByPrefab.get(doc.prefabName);
+  const portraitAssetPath = portraitMapEntry?.joinStatus === "source-backed" && portraitMapEntry.guid === doc.guid
+    ? portraitMapEntry.portraitAssetPath : undefined;
+  const materials = buildBlueprintMaterials({ prefabName: doc.prefabName, sourcePath: doc.sourcePath, components }, materialItems);
   const unlockSources = unlockMapEntry?.unlockSources.map((source) => toBlueprintUnlockSourceRef(source, itemLookup)) ?? [];
   const linkedBooks = unlockSources.flatMap((source) => source.requiredBooks ?? []);
   const linkedBookCount = new Set(linkedBooks.map((book) => book.prefab)).size;
@@ -2513,6 +2518,7 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     icon: displayEntry?.iconAssetPath,
     tags: [placeSequence, editSequence, buildingSequence],
     indexFields: {
+      portraitAssetPath,
       unlockSourceCount: unlockSources.length,
       unlockSourceTypeSummary,
       unlockSourceTypes: unlockMapEntry?.unlockSourceTypes ?? [],
@@ -2523,6 +2529,8 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
       blueprintSearchTerms: uniqueStrings([...unlockSourceTypeLabels, ...linkedBooks.flatMap((book) => [book.title, book.prefab])])
     },
     detail: {
+      portraitAssetPath,
+      ...materials,
       fullDismantleTime,
       isStartBlueprint,
       isInventoryItemBuilding,
@@ -2895,6 +2903,9 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
   );
   const builtItems = itemDocs.map((doc) => buildItemEntity(doc, getComponents(doc), buildContext));
   const itemLookup = new Map(builtItems.map((item) => [item.prefabName, { index: item.index, detail: item.detail } satisfies EntityBundle]));
+  const materialItems = new Map<string, BlueprintMaterialItem>(builtItems.map((item) => [item.prefabName, {
+    prefab: item.prefabName, guid: item.detail.guid as number | null, title: item.index.title, path: item.index.path, icon: item.index.icon
+  }]));
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_"));
   const builtRecipes = recipeDocs.map((doc) => buildRecipeEntity(doc, getComponents(doc), itemLookup, buildContext));
   const enrichedItems = enrichItemsWithRecipes(builtItems, builtRecipes);
@@ -2950,7 +2961,7 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     const workstation = buildWorkstationEntity(doc, components, buildContext);
     if (workstation) builtWorkstations.push(workstation);
 
-    const blueprint = buildBlueprintEntity(doc, components, buildContext, itemLookup);
+    const blueprint = buildBlueprintEntity(doc, components, buildContext, itemLookup, materialItems);
     if (blueprint) entities.blueprints.push(blueprint);
 
     const quest = buildQuestEntity(doc, components, buildContext);

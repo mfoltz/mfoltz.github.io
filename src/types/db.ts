@@ -73,6 +73,8 @@ export interface DbRelatedEntityRef {
   requiredBooks?: DbRelatedEntityRef[];
 }
 
+export type DbBlueprintBuildMaterialStatus = "recorded" | "empty" | "missing" | "zero-valued";
+
 export interface DbRuntimeDamageEvidence {
   sourceKind: "server-damage-evidence";
   sourceRef: string;
@@ -124,6 +126,9 @@ export interface DbEntityDetail {
   iconAssetName?: string;
   iconAssetPath?: string;
   portraitAssetPath?: string;
+  buildMaterialStatus?: DbBlueprintBuildMaterialStatus;
+  buildMaterials?: DbRelatedEntityRef[];
+  heldBuildMaterialRows?: DbRelatedEntityRef[];
   unlockSourceCount?: number;
   unlockSourceTypeSummary?: string;
   unlockSourceTypes?: string[];

@@ -11,7 +11,7 @@ const byPath = new Map(search.map((entry) => [entry.path, entry]));
 
 test("database artwork reaches global search unchanged, including absent artwork", async () => {
   let sprites = 0, portraits = 0, absent = 0;
-  for (const section of ["items", "abilities", "npcs", "workstations", "recipes"]) {
+  for (const section of ["items", "abilities", "npcs", "workstations", "recipes", "blueprints"]) {
     for (const entry of await read<DbIndexEntry[]>(`db/${section}/index.json`)) {
       const result = byPath.get(entry.path);
       assert.ok(result, entry.path);
@@ -39,7 +39,7 @@ test("recipe artwork uses precisely the existing first output, even when it has 
 });
 
 test("approved portrait paths agree between detail, browsing, and search", async () => {
-  for (const section of ["npcs", "workstations"]) {
+  for (const section of ["npcs", "workstations", "blueprints"]) {
     const entries = await read<DbIndexEntry[]>(`db/${section}/index.json`);
     const portraits = entries.filter((entry) => entry.portraitAssetPath);
     assert.ok(portraits.length > 0, section);

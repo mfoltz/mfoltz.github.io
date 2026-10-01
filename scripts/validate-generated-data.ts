@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind } from "./buildable-portraits";
 import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
+import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
 import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
@@ -632,6 +633,25 @@ async function validateBlueprintUnlockMap(repoRoot: string): Promise<void> {
     items.push({ ...await readJson<DbEntityDetail>(path.join(repoRoot, "public", "data", "db", "items", "by-slug", `${item.slug}.json`)), path: item.path });
   }
   validateBlueprintUnlockSnapshot({ snapshot, allPrefabs, index: blueprintIndex, details, references, items });
+  const materialItems = new Map<string, BlueprintMaterialItem>();
+  const portraitMap = await readJson<{ entriesByPrefab: Record<string, BuildablePortraitMapEntry> }>(path.join(repoRoot, "data/enrichment/buildable-portrait-map.json"));
+  for (const row of itemIndex) {
+    const item = await readJson<DbEntityDetail>(path.join(repoRoot, "public", "data", "db", "items", "by-slug", `${row.slug}.json`));
+    if (item.prefab) materialItems.set(item.prefab, { prefab: item.prefab, guid: item.guid ?? null, title: item.title, path: row.path, icon: row.icon });
+  }
+  for (const detail of details) {
+    const sourcePath = detail.sourcePath!;
+    assert(sourcePath === `content/prefabs/${detail.prefab}.md`, `${detail.prefab}: unexpected material source path`);
+    const doc = readBlueprintMaterialDocument(detail.prefab!, sourcePath, await readFile(path.join(repoRoot, sourcePath), "utf8"));
+    validateBlueprintMaterials(detail, buildBlueprintMaterials(doc, materialItems), materialItems, allPrefabs);
+    const row = blueprintIndex.find((entry) => entry.slug === detail.slug);
+    assert(row?.portraitAssetPath === detail.portraitAssetPath, `${detail.prefab}: Blueprint artwork differs between index and detail`);
+    if (detail.portraitAssetPath) {
+      const portrait = portraitMap.entriesByPrefab[detail.prefab!];
+      assert(portrait?.joinStatus === "source-backed" && portrait.guid === detail.guid && portrait.portraitAssetPath === detail.portraitAssetPath,
+        `${detail.prefab}: Blueprint artwork lacks the approved identity/path`);
+    }
+  }
 }
 
 function assertNoTextVariables(values: string[] | undefined, source: string, field: string): void {
@@ -834,7 +854,7 @@ async function main() {
         [detail.description, detail.summary, detail.tooltipTextEn, detail.localizedDescriptionTextEn],
         `${filePath}:${detail.slug}`
       );
-      if (section === "workstations" && detail.portraitAssetPath) {
+      if ((section === "workstations" || section === "blueprints") && detail.portraitAssetPath) {
         assertBuildablePortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
         await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
       }
@@ -877,7 +897,7 @@ async function main() {
     }
   }
 
-  for (const section of ["abilities", "recipes", "workstations"]) {
+  for (const section of ["abilities", "recipes", "workstations", "blueprints"]) {
     const detailPath = path.join(repoRoot, "public", "data", "db", section, "by-slug");
     const detailFiles = (await readdir(detailPath)).filter((fileName) => fileName.endsWith(".json"));
     for (const fileName of detailFiles) {
