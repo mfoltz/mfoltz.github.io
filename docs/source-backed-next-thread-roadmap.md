@@ -57,22 +57,48 @@ behavior from `8760571f25` and `9d877f4dd1` onto the main base above. See the
 - Recorded links do not establish drops, vendors, guaranteed acquisition, or
   live-game availability. Blueprint display coverage remains only 8/1198;
   source-link coverage is a separate measure.
-- Global search and the eight other database indexes retain their previous
-  generated hashes. Blueprint-only search terms do not widen global search.
+- Integration-only verification preserved global search and the eight other
+  database index hashes. Blueprint-only search terms do not widen global search.
 
-Outstanding: these three verified commits are local. Landing or publishing them
-requires a separate instruction. Review the receipt and local diff before that
-decision; this pass authorizes no push, PR, merge, or deployment.
+Those three integration commits have since been merged into local main by a
+separate instruction. Remote publication remains pending. The dated receipt
+preserves its original checkout, hashes, and delivery claims.
+
+## Blueprint materials and existing artwork: complete locally
+
+The user approved recorded build-material requirements, reuse of existing curated
+images, and a retained-source castle sprite ownership scout. The verified local
+commits are on `codex/blueprint-materials-artwork`, based on local main
+`970eef1af8480456dea9c24c6f8658330f23b9c2`. See the
+[materials/artwork receipt](checkpoints/2026-09-30-blueprint-materials-artwork.md).
+
+- Exact source buffers support 1,080 Blueprint material lists with 1,470 positive
+  rows linked to current item routes. Empty buffers remain unknown (117 records).
+- One Blueprint, `TM_Castle_Wall_Tier02_Stone_EntranceWide`, records two zero-valued
+  rows. Preserve them separately; they do not establish a free build.
+- Reuse the 13 already-vendored, GUID-matched buildable images in Blueprint
+  browse/detail/search. No curated asset or portrait-map changes are needed.
+- Material links retain quantities, source components/paths, and current item
+  destinations. Preserve existing source/book links, browse state, facts, and
+  uncertainty wording. Blueprint display-text coverage remains 8/1198.
+- The [castle sprite scout](blueprint-castle-sprite-scout-20260930.md) stops at the
+  missing sprite identity hop. The 255 named sprite candidates are not ownership
+  evidence. Castle artwork and localized text remain unpromoted until the complete
+  identity chain is proven; new extraction is outside this pass.
+
+This pass ends at verified local commits and retained review evidence. No push,
+PR, merge, deployment, or adjacent enrichment task is authorized here.
 
 ## Later candidate, requiring a new instruction
 
-The best currently identified enrichment candidate is a bounded item-description
-audit of the 246 misses (1130 minus 884). Begin read-only and distinguish blank
+After the completed Blueprint pass, a later candidate is a bounded item-description
+audit of the 246 misses (1130 minus 884). All misses lack a description key; the
+recorded item snapshot has 198 blank records and omits 48. Begin read-only and distinguish blank
 upstream records from ingest gaps. A useful result is a classified evidence
 sheet, an exact source contract, and a stop gate; it is not automatic permission
 to extract, promote text, change assets, or implement the follow-up.
 
-There is no authorized next enrichment task in this integration pass.
+The item-description audit requires a separate instruction.
 
 ## Parked lanes
 

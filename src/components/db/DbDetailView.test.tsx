@@ -307,3 +307,34 @@ test("unlinked blueprints retain explicit uncertainty", () => {
   assert.match(html, /Availability is not established/);
   assert.doesNotMatch(html, /Unavailable|Cannot be obtained|Book requirements/);
 });
+
+test("Blueprint materials retain quantities and item routes alongside existing facts and source links", () => {
+  const html = renderDetail({ ...blueprintDetailFixture, buildMaterialStatus: "recorded", buildMaterials: [
+    { title: "Stone Brick", prefab: "Item_Ingredient_StoneBrick", guid: 1788016417, amount: 10,
+      path: "/db/items/item-ingredient-stone-brick", icon: "/icons/items/stone-brick.png" },
+    { title: "Plank", prefab: "Item_Ingredient_Plank", guid: -1017402979, amount: 6, path: "/db/items/item-ingredient-plank" }
+  ], portraitAssetPath: "/icons/buildables/Stunlock_Icon_Structure_Anvil.png" }, "blueprints");
+  assert.match(html, /Recorded material requirements from the source snapshot/);
+  assert.match(html, />10x</);
+  assert.match(html, />6x</);
+  assert.match(html, /href="\/db\/items\/item-ingredient-stone-brick"/);
+  assert.match(html, /href="\/db\/items\/item-ingredient-plank"/);
+  assert.equal(countMatches(html, /href="#relation-build-materials"/g), 1);
+  assert.match(html, /Build Rules|Dismantle Time/);
+  assert.match(html, /href="\/prefabs\/journal-reward-tech-bloodaltar"/);
+  assert.match(html, /<details id="source-provenance"/);
+  assert.equal(countMatches(html, /src="\/icons\/buildables\/Stunlock_Icon_Structure_Anvil.png"/g), 1);
+});
+
+test("empty, missing and held zero-valued Blueprint requirements do not imply a free build", () => {
+  for (const buildMaterialStatus of ["empty", "missing", "zero-valued"] as const) {
+    const html = renderDetail({ ...blueprintDetailFixture, buildMaterialStatus, buildMaterials: [],
+      ...(buildMaterialStatus === "zero-valued" ? { heldBuildMaterialRows: [
+        { title: "Plank", prefab: "Item_Ingredient_Plank", guid: -1017402979, amount: 0,
+          sourceComponent: "ProjectM.BlueprintRequirementBuffer", sourcePath: "content/prefabs/BP_Example.md" }
+      ] } : {}) }, "blueprints");
+    assert.match(html, /Build cost is unknown/);
+    assert.doesNotMatch(html, />0x<|Free build|No cost|href="#relation-build-materials"/);
+    if (buildMaterialStatus === "zero-valued") assert.match(html, /zero-valued material rows|Held Build Material Rows/);
+  }
+});

@@ -46,7 +46,11 @@ try {
         { id: "filtered", path: "/db/blueprints?books=linked&sort=sources", list: true },
         { id: "books", path: fixtures.linkedBooks.path },
         { id: "no-books", path: fixtures.linkedNoBooks.path },
-        { id: "unlinked", path: fixtures.unlinked.path }
+        { id: "unlinked", path: fixtures.unlinked.path },
+        { id: "materials", path: fixtures.materials.path },
+        { id: "artwork", path: fixtures.artwork.path },
+        { id: "empty-materials", path: fixtures.emptyMaterials.path },
+        { id: "held-materials", path: fixtures.heldMaterials.path }
       ];
       for (const route of routes) {
         await ready(page, route.path, route.list);
@@ -60,6 +64,20 @@ try {
         if (route.id === "unlinked") {
           assert.match(await page.locator("#relation-unlock-source-records").innerText(), /Availability is not established/);
           assert.equal(await page.getByRole("heading", { name: "Book requirements" }).count(), 0);
+        }
+        if (route.id === "materials" || route.id === "artwork") {
+          assert.match(await page.locator("#relation-build-materials").innerText(), /Recorded material requirements/);
+          assert((await page.locator("#relation-build-materials a[href^='/db/items/']").count()) > 0);
+        }
+        if (route.id === "artwork") {
+          const art = page.locator("main header .database-record-artwork");
+          assert.equal(await art.getAttribute("src"), fixtures.artwork.portraitAssetPath);
+          await page.waitForFunction(() => [...document.querySelectorAll<HTMLImageElement>("main header img")].every((img) => img.complete && img.naturalWidth > 0));
+        }
+        if (route.id === "empty-materials" || route.id === "held-materials") {
+          assert.match(await page.locator("#relation-build-materials").innerText(), /Build cost is unknown/);
+          assert.equal(await page.locator("#relation-build-materials a").count(), 0);
+          if (route.id === "held-materials") assert.match(await page.locator("#relation-build-materials").innerText(), /zero-valued/);
         }
         const overflow = await page.evaluate(() => document.documentElement.scrollWidth - innerWidth);
         assert(overflow <= 0, `${theme}/${viewport.width}/${route.id}: overflow ${overflow}`);

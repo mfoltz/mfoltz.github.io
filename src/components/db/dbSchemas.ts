@@ -247,7 +247,10 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "guid", label: "GUID", format: "number" },
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
-    relationSections: [{ key: "unlockSources", title: "Unlock source records", emptyLabel: "No source-backed unlock record linked." }],
+    relationSections: [
+      { key: "buildMaterials", title: "Build materials", emptyLabel: "Build cost is unknown." },
+      { key: "unlockSources", title: "Unlock source records", emptyLabel: "No source-backed unlock record linked." }
+    ],
     detailSectionTitle: "Build Rules"
   },
   quests: {

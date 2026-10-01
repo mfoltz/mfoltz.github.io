@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
-import type { DbIndexEntry } from "../src/types/db";
+import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 
 /** Pick representative records by source identity, independent of browse sorting. */
 export function getBlueprintVisualFixtures() {
@@ -11,5 +11,13 @@ export function getBlueprintVisualFixtures() {
   const unlinked = sorted.find((entry) => !entry.unlockSourceCount);
   const starter = sorted.find((entry) => entry.isStartBlueprint);
   assert(linkedBooks && linkedNoBooks && unlinked && starter, "Missing Blueprint review fixture");
-  return { entries, linkedBooks, linkedNoBooks, unlinked, starter };
+  const details = new Map(sorted.map((entry) => [entry.slug,
+    JSON.parse(readFileSync(`public/data/db/blueprints/by-slug/${entry.slug}.json`, "utf8")) as DbEntityDetail]));
+  const materials = sorted.find((entry) => entry.tags?.[0].startsWith("BP_Castle_Wall_Tier02_") &&
+    details.get(entry.slug)?.buildMaterialStatus === "recorded" && (details.get(entry.slug)?.buildMaterials?.length ?? 0) >= 2);
+  const artwork = sorted.find((entry) => entry.portraitAssetPath);
+  const emptyMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "empty");
+  const heldMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "zero-valued");
+  assert(materials && artwork && emptyMaterials && heldMaterials, "Missing Blueprint material/artwork review fixture");
+  return { entries, linkedBooks, linkedNoBooks, unlinked, starter, materials, artwork, emptyMaterials, heldMaterials };
 }

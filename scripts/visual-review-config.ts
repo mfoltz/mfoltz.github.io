@@ -98,6 +98,13 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
   },
   captures: [
     { id: "home", title: "Home", path: "/", pack: "player-first", kind: "route" },
+    ...[
+      { id: "db-blueprint-materials-detail", title: "Blueprint: Recorded Build Materials", entry: blueprintFixtures.materials },
+      { id: "db-blueprint-artwork-detail", title: "Blueprint: Existing Curated Artwork", entry: blueprintFixtures.artwork },
+      { id: "db-blueprint-empty-materials-detail", title: "Blueprint: Empty Material Buffer", entry: blueprintFixtures.emptyMaterials },
+      { id: "db-blueprint-held-materials-detail", title: "Blueprint: Held Zero-valued Materials", entry: blueprintFixtures.heldMaterials }
+    ].map(({ id, title, entry }) => ({ id, title, path: entry.path, pack: "player-first", kind: "route" as const,
+      clip: developerDetailClip, ready: { selector: "#relation-build-materials", timeoutMs: 20000 } })),
     {
       id: "db-blueprints-list", title: "Blueprints: Recorded Source Coverage",
       path: "/db/blueprints", pack: "player-first", kind: "route", clip: developerDetailClip,

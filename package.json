@@ -24,6 +24,7 @@
     "test:blueprint-unlocks": "tsx scripts/blueprint-unlocks.test.ts && tsx scripts/blueprint-unlock-validation.test.ts && tsx --test src/lib/blueprintBrowse.test.ts",
     "test:blueprint-materials": "tsx --test scripts/blueprint-materials.test.ts scripts/blueprint-materials-generated.test.ts",
     "test:blueprint-visual": "tsx scripts/blueprint-visual-check.ts",
+    "test:blueprint-materials-visual": "tsx scripts/blueprint-materials-visual-check.ts",
     "test:db-artwork": "tsx --test scripts/db-artwork.test.ts",
     "test:browse-visual": "tsx scripts/browse-visual-check.ts",
     "visual:baseline": "npm run build && npm run visual:baseline:capture",
