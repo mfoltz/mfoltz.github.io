@@ -1,6 +1,6 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-09-30. This is the single active roadmap for this repository.
+Reviewed: 2026-10-01. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
@@ -81,13 +81,32 @@ commits are on `codex/blueprint-materials-artwork`, based on local main
 - Material links retain quantities, source components/paths, and current item
   destinations. Preserve existing source/book links, browse state, facts, and
   uncertainty wording. Blueprint display-text coverage remains 8/1198.
-- The [castle sprite scout](blueprint-castle-sprite-scout-20260930.md) stops at the
-  missing sprite identity hop. The 255 named sprite candidates are not ownership
-  evidence. Castle artwork and localized text remain unpromoted until the complete
-  identity chain is proven; new extraction is outside this pass.
+- The historical [castle sprite scout](blueprint-castle-sprite-scout-20260930.md)
+  stopped at the missing sprite identity hop. Its 255 named candidates do not
+  establish ownership. No new extraction occurred during the materials pass.
 
 This pass ends at verified local commits and retained review evidence. No push,
 PR, merge, deployment, or adjacent enrichment task is authorized here.
+
+## Reviewed castle artwork and targeted capture preparation
+
+A subsequent instruction approved the image-limit change and narrow capture
+preparation. See the [artwork review](blueprint-artwork-review-20260930.md) and
+[current checkpoint](checkpoints/2026-10-01-blueprint-artwork-capture.md).
+
+- Replace the workstation-only 25-image cap with a reviewed manifest of 54
+  images: the existing 13 plus 41 castle stairs/floors/walls. Materialize original
+  Texture2D bytes and pin exact prefab GUIDs, filenames, and source hashes.
+- Label the new associations `curated-unique-name-match`. These are illustrative
+  icons, not proven runtime assignments. The four ambiguous entrance records
+  remain held. Blueprint text/material/unlock/book coverage stays unchanged.
+- Prepare a 58-identity capture of managed icon GUIDs and cached Sprite names,
+  with explicit unknown states, no asset-load requests, and no automatic retry.
+  The prepared mode uses the retained UI asset resolver APIs; a live run remains
+  held because the isolated client is 1.1.10 and the server is 1.1.13.
+- No game install update, live extraction, or publication follows implicitly.
+  Localized text, broader portraits, and the later item-description audit remain
+  outside this pass.
 
 ## Later candidate, requiring a new instruction
 

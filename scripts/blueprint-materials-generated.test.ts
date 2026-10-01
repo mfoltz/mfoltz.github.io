@@ -30,5 +30,5 @@ test("generated Blueprint materials reproduce the source census and existing cur
     if (row.portraitAssetPath) counts.portraits++;
   }
   assert.equal(index.length, 1198);
-  assert.deepEqual(counts, { recorded: 1080, empty: 117, missing: 0, "zero-valued": 1, materials: 1470, held: 2, portraits: 13 });
+  assert.deepEqual(counts, { recorded: 1080, empty: 117, missing: 0, "zero-valued": 1, materials: 1470, held: 2, portraits: 54 });
 });

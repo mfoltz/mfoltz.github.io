@@ -1,5 +1,6 @@
 import { readdir } from "node:fs/promises";
 import path from "node:path";
+import { selectReviewedBuildableAssets, type BuildablePortraitReviewSnapshot, type BuildablePortraitEvidenceKind, type ReviewedBuildablePortraitPublicAsset } from "./buildable-portrait-review";
 
 export const buildablePortraitCandidatesSourceKind = "provisional-buildable-portrait-candidates" as const;
 export const buildablePortraitMapSourceKind = "provisional-buildable-portrait-map" as const;
@@ -44,6 +45,7 @@ export interface BuildablePortraitMapEntry {
   portraitAssetName: string;
   portraitAssetFamily: string;
   portraitAssetPath?: string;
+  portraitEvidenceKind?: BuildablePortraitEvidenceKind;
   joinStatus: Extract<BuildablePortraitJoinStatus, "source-backed" | "user-attested">;
   approvalStatus?: Extract<BuildablePortraitApprovalStatus, "approved">;
   approvalNote?: string;
@@ -71,12 +73,12 @@ export interface BuildablePortraitPublicAsset {
   fileName: string;
   sourceRef: string;
   publicPath: string;
+  evidenceKind?: BuildablePortraitEvidenceKind;
 }
 
 export interface SelectBuildablePortraitPublicAssetOptions {
-  workstationPrefabs: Iterable<string>;
-  maxPublicAssets?: number;
-  availableSourceRefs?: Iterable<string>;
+  review: BuildablePortraitReviewSnapshot;
+  allPrefabs: Record<string, number>;
 }
 
 interface BuildableDisplayEntry {
@@ -122,78 +124,32 @@ function sortSourceRefs(sourceRefs: string[]): string[] {
   return [...sourceRefs].sort((left, right) => rank(left) - rank(right) || left.localeCompare(right));
 }
 
-function preferredPublicSourceRef(entry: BuildablePortraitMapEntry, availableSourceRefs?: Set<string>): string | undefined {
-  const textureRef = `Texture2D/${entry.portraitAssetName}`;
-  const spriteRef = `Sprite/${entry.portraitAssetName}`;
-  const candidates = [textureRef, spriteRef];
-
-  for (const sourceRef of candidates) {
-    if (!entry.evidenceRefs.includes(sourceRef)) {
-      continue;
-    }
-    if (availableSourceRefs && !availableSourceRefs.has(sourceRef)) {
-      continue;
-    }
-    return sourceRef;
-  }
-
-  return undefined;
-}
-
 export function selectBuildablePortraitPublicAssets(
   portraitMap: BuildablePortraitMapSnapshot,
   options: SelectBuildablePortraitPublicAssetOptions
-): BuildablePortraitPublicAsset[] {
-  const workstationPrefabs = new Set(options.workstationPrefabs);
-  const availableSourceRefs = options.availableSourceRefs ? new Set(options.availableSourceRefs) : undefined;
-  const maxPublicAssets = options.maxPublicAssets ?? 25;
-  const assets: BuildablePortraitPublicAsset[] = [];
-
-  for (const entry of Object.values(portraitMap.entriesByPrefab)) {
-    if (!workstationPrefabs.has(entry.prefab) || entry.joinStatus !== "source-backed") {
-      continue;
-    }
-
-    const sourceRef = preferredPublicSourceRef(entry, availableSourceRefs);
-    if (!sourceRef) {
-      continue;
-    }
-
-    assets.push({
-      prefab: entry.prefab,
-      fileName: entry.portraitAssetName,
-      sourceRef,
-      publicPath: `/icons/buildables/${entry.portraitAssetName}`
-    });
-  }
-
-  const uniqueAssets = new Map<string, BuildablePortraitPublicAsset>();
-  for (const asset of assets.sort((left, right) => left.prefab.localeCompare(right.prefab) || left.fileName.localeCompare(right.fileName))) {
-    uniqueAssets.set(asset.prefab, asset);
-  }
-
-  if (uniqueAssets.size > maxPublicAssets) {
-    throw new Error(`Refusing to materialize ${uniqueAssets.size} buildable portrait assets; expected at most ${maxPublicAssets}.`);
-  }
-
-  return [...uniqueAssets.values()];
+): ReviewedBuildablePortraitPublicAsset[] {
+  return selectReviewedBuildableAssets(options.review, portraitMap, options.allPrefabs);
 }
 
 export function attachBuildablePortraitAssetPaths(
   portraitMap: BuildablePortraitMapSnapshot,
   publicAssets: BuildablePortraitPublicAsset[]
 ): BuildablePortraitMapSnapshot {
-  const publicPathByPrefab = new Map(publicAssets.map((asset) => [asset.prefab, asset.publicPath]));
+  const assetsByPrefab = new Map(publicAssets.map((asset) => [asset.prefab, asset]));
   return {
     ...portraitMap,
     entriesByPrefab: Object.fromEntries(
-      Object.entries(portraitMap.entriesByPrefab).map(([prefab, entry]) => [
-        prefab,
-        {
-          ...entry,
-          ...(publicPathByPrefab.has(prefab) ? { portraitAssetPath: publicPathByPrefab.get(prefab) } : {})
-        }
-      ])
+      Object.entries(portraitMap.entriesByPrefab).map(([prefab, entry]) => {
+        const { portraitAssetPath: _oldPath, portraitEvidenceKind: _oldEvidence, ...base } = entry;
+        const asset = assetsByPrefab.get(prefab);
+        return [prefab, {
+          ...base,
+          ...(asset ? {
+            portraitAssetPath: asset.publicPath,
+            ...(asset.evidenceKind === "curated-unique-name-match" ? { portraitEvidenceKind: asset.evidenceKind } : {})
+          } : {})
+        }];
+      })
     )
   };
 }

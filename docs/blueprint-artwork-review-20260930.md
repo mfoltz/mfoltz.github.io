@@ -26,8 +26,8 @@ The historical scout remains a dated account of the missing explicit link.
 
 The first target list contains 58 exact prefab/GUID identities: the 13 existing
 images and all 45 structural records, including the four held entrance records.
-Capture only those identities, `ManagedBlueprintData.Icon.name`, and explicit
-missing states. Do not enumerate unrelated entities, export localized strings,
+Capture only those identities, the managed icon asset GUID, the cached Sprite
+name, and explicit missing states. Do not enumerate unrelated entities, export localized strings,
 or run the full snapshot extractor. A missing icon remains unknown.
 
 The initial read-only extractor inspection found the isolated client/server
@@ -37,6 +37,17 @@ connection retry is justified by that inspection alone. Prepare the narrow
 capture implementation and retain its contract; hold execution until the
 version prerequisite passes. This does not reopen the parked tooltip lane.
 
+The retained 1.1.12 reference assembly exposes `ManagedBlueprintData.Icon` as
+`AssetGuid`. Both `UIAssetSubSceneLoader_ClientWorld` and
+`UIAssetSubSceneLoader_DefaultWorld` expose `TryGetAsset<Sprite>`. The prepared
+mode reads those caches without requesting loads, records unloaded assets as
+unknown, and rejects conflicting names. It disables automatic catalog output,
+character creation, tooltip collection, server dumps, and repeat connection or
+capture attempts. The isolated source patch compiles and its target parser
+passes nine contract checks. These checks do not establish runtime ownership.
+
+The [October 1 checkpoint](checkpoints/2026-10-01-blueprint-artwork-capture.md)
+records the completed local image delivery and held capture execution.
 Review evidence and execution receipts live outside the checkout under
 `C:\Users\mitch\.codex\visualizations\2026\09\30\01a0f347-a14d-77f1-9cf0-5f6b3fd2d4af\blueprint-icons-capture`.
 

@@ -391,6 +391,7 @@ interface BuildablePortraitMapEntry {
   guid: number;
   portraitAssetName: string;
   portraitAssetPath?: string;
+  portraitEvidenceKind?: string;
   joinStatus?: string;
 }
 
@@ -1576,6 +1577,7 @@ function parseBuildablePortraitMap(snapshot: BuildablePortraitMapSnapshot | null
         const guid = toUnknownNumber(entry.guid);
         const portraitAssetName = toUnknownString(entry.portraitAssetName);
         const portraitAssetPath = toUnknownString(entry.portraitAssetPath);
+        const portraitEvidenceKind = toUnknownString(entry.portraitEvidenceKind);
         const joinStatus = toUnknownString(entry.joinStatus);
         if (!prefab || guid === undefined || !portraitAssetName) {
           return null;
@@ -1588,6 +1590,7 @@ function parseBuildablePortraitMap(snapshot: BuildablePortraitMapSnapshot | null
             guid,
             portraitAssetName,
             ...(portraitAssetPath ? { portraitAssetPath } : {}),
+            ...(portraitEvidenceKind ? { portraitEvidenceKind } : {}),
             ...(joinStatus ? { joinStatus } : {})
           }
         ] as const;
@@ -2531,6 +2534,8 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     detail: {
       portraitAssetPath,
       ...materials,
+      portraitSourceKind: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind === "curated-unique-name-match" ? "curated-unique-name-match" : undefined,
+      portraitSourceRef: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind === "curated-unique-name-match" ? `data/enrichment/buildable-portrait-review.json:${doc.prefabName}` : undefined,
       fullDismantleTime,
       isStartBlueprint,
       isInventoryItemBuilding,

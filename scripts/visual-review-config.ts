@@ -98,6 +98,11 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
   },
   captures: [
     { id: "home", title: "Home", path: "/", pack: "player-first", kind: "route" },
+    ...blueprintFixtures.castleArtwork.map(({ category, entry }) => ({
+      id: `db-blueprint-castle-${category.toLowerCase()}-detail`, title: `Blueprint: Reviewed Castle ${category} Artwork`,
+      path: entry.path, pack: "player-first", kind: "route" as const, clip: developerDetailClip,
+      ready: { selector: "#relation-build-materials", timeoutMs: 20000 }
+    })),
     ...[
       { id: "db-blueprint-materials-detail", title: "Blueprint: Recorded Build Materials", entry: blueprintFixtures.materials },
       { id: "db-blueprint-artwork-detail", title: "Blueprint: Existing Curated Artwork", entry: blueprintFixtures.artwork },

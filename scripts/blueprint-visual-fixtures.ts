@@ -15,9 +15,15 @@ export function getBlueprintVisualFixtures() {
     JSON.parse(readFileSync(`public/data/db/blueprints/by-slug/${entry.slug}.json`, "utf8")) as DbEntityDetail]));
   const materials = sorted.find((entry) => entry.tags?.[0].startsWith("BP_Castle_Wall_Tier02_") &&
     details.get(entry.slug)?.buildMaterialStatus === "recorded" && (details.get(entry.slug)?.buildMaterials?.length ?? 0) >= 2);
-  const artwork = sorted.find((entry) => entry.portraitAssetPath);
+  const artwork = sorted.find((entry) => entry.portraitAssetPath && !details.get(entry.slug)?.portraitSourceKind);
   const emptyMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "empty");
   const heldMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "zero-valued");
   assert(materials && artwork && emptyMaterials && heldMaterials, "Missing Blueprint material/artwork review fixture");
-  return { entries, linkedBooks, linkedNoBooks, unlinked, starter, materials, artwork, emptyMaterials, heldMaterials };
+  const castleArtwork = ["Stairs", "Floor", "Wall"].map(category => {
+    const entry = sorted.find(row => row.tags?.[0].includes(`_Castle_${category}_`) &&
+      details.get(row.slug)?.portraitSourceKind === "curated-unique-name-match");
+    assert(entry, `Missing reviewed castle ${category} fixture`);
+    return { category, entry };
+  });
+  return { entries, linkedBooks, linkedNoBooks, unlinked, starter, materials, artwork, emptyMaterials, heldMaterials, castleArtwork };
 }

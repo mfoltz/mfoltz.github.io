@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { assertAssetDumpLock, syncAssetRefDirectory, syncIconDirectory } from "./asset-dump-lock";
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { attachBuildablePortraitAssetPaths, buildBuildablePortraitSnapshots, selectBuildablePortraitPublicAssets } from "./buildable-portraits";
+import { assertReviewedBuildableSourceHashes, buildablePortraitReviewPath, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
 import { attachNpcPortraitAssetPaths, buildNpcPortraitSnapshots, selectNpcPortraitPublicAssets } from "./npc-portraits";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
@@ -3482,9 +3483,10 @@ async function main() {
     blueprintDisplayByPrefab: displaySnapshotsByDomain.get("blueprint") ?? {}
   });
   const buildablePortraitPublicAssets = selectBuildablePortraitPublicAssets(rawBuildablePortraitSnapshots.portraitMap, {
-    workstationPrefabs: Object.keys(displaySnapshotsByDomain.get("workstation") ?? {}),
-    maxPublicAssets: 25
+    review: JSON.parse(await readFile(path.join(repoRoot, buildablePortraitReviewPath), "utf8")) as BuildablePortraitReviewSnapshot,
+    allPrefabs
   });
+  await assertReviewedBuildableSourceHashes(assetDumpDir, buildablePortraitPublicAssets);
   const buildablePortraitSync = await syncAssetRefDirectory({
     assetDumpDir,
     targetDir: publicBuildableIconsDir,

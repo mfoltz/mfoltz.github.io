@@ -16,7 +16,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Double_Stone02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Double_Stone03": {
       "prefab": "BP_Castle_Stairs_Double_Stone03",
@@ -30,7 +32,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Double_Stone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_CCW_Stone02": {
       "prefab": "BP_Castle_Stairs_Single_CCW_Stone02",
@@ -44,7 +48,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_CCW_Stone03": {
       "prefab": "BP_Castle_Stairs_Single_CCW_Stone03",
@@ -58,7 +64,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_CCW_Stone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_CW_Stone02": {
       "prefab": "BP_Castle_Stairs_Single_CW_Stone02",
@@ -72,7 +80,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_CW_Stone02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_CW_Stone03": {
       "prefab": "BP_Castle_Stairs_Single_CW_Stone03",
@@ -86,7 +96,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_CW_Stone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_Stone02": {
       "prefab": "BP_Castle_Stairs_Single_Stone02",
@@ -100,7 +112,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_Stone02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Stairs_Single_Stone03": {
       "prefab": "BP_Castle_Stairs_Single_Stone03",
@@ -114,7 +128,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "BP_Castle_Wall_Tier01_Wood_Entrance": {
       "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
@@ -254,7 +270,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_AlchemyLab01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_AlchemyLab02": {
       "prefab": "TM_Castle_Floor_AlchemyLab02",
@@ -268,7 +286,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_AlchemyLab02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_AlchemyLab03": {
       "prefab": "TM_Castle_Floor_AlchemyLab03",
@@ -282,7 +302,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_AlchemyLab03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Crypt01": {
       "prefab": "TM_Castle_Floor_Crypt01",
@@ -296,7 +318,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Crypt01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Crypt02": {
       "prefab": "TM_Castle_Floor_Crypt02",
@@ -310,7 +334,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Crypt02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Crypt03": {
       "prefab": "TM_Castle_Floor_Crypt03",
@@ -324,7 +350,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Crypt03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Forge01": {
       "prefab": "TM_Castle_Floor_Forge01",
@@ -338,7 +366,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Forge01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Forge02": {
       "prefab": "TM_Castle_Floor_Forge02",
@@ -352,7 +382,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Forge02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Forge03": {
       "prefab": "TM_Castle_Floor_Forge03",
@@ -366,7 +398,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Forge03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Foundation_Stone03": {
       "prefab": "TM_Castle_Floor_Foundation_Stone03",
@@ -380,7 +414,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_FoundationStone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Foundation_Stone04": {
       "prefab": "TM_Castle_Floor_Foundation_Stone04",
@@ -394,7 +430,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Foundation_Stone04.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Jewelcrafting01": {
       "prefab": "TM_Castle_Floor_Jewelcrafting01",
@@ -408,7 +446,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Jewelcrafting02": {
       "prefab": "TM_Castle_Floor_Jewelcrafting02",
@@ -422,7 +462,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Jewelcrafting03": {
       "prefab": "TM_Castle_Floor_Jewelcrafting03",
@@ -436,7 +478,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Jewelcrafting03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Library03": {
       "prefab": "TM_Castle_Floor_Library03",
@@ -450,7 +494,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Library03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone01": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone01",
@@ -464,7 +510,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_OutdoorCobblestone01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone02": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone02",
@@ -478,7 +526,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_OutdoorCobblestone02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone03": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone03",
@@ -492,7 +542,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone04": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone04",
@@ -506,7 +558,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone04.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone05": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone05",
@@ -520,7 +574,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Outdoor_Cobblestone05.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone06": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone06",
@@ -534,7 +590,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_OutdoorCobblestone06.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Cobblestone07": {
       "prefab": "TM_Castle_Floor_Outdoor_Cobblestone07",
@@ -548,7 +606,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_OutdoorCobblestone07.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Outdoor_Plain01": {
       "prefab": "TM_Castle_Floor_Outdoor_Plain01",
@@ -562,7 +622,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_OutdoorPlain01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Prison03": {
       "prefab": "TM_Castle_Floor_Prison03",
@@ -576,7 +638,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_floor_prison03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Tailor03": {
       "prefab": "TM_Castle_Floor_Tailor03",
@@ -590,7 +654,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Tailor03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Treasury01": {
       "prefab": "TM_Castle_Floor_Treasury01",
@@ -604,7 +670,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Treasury01.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Treasury02": {
       "prefab": "TM_Castle_Floor_Treasury02",
@@ -618,7 +686,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Treasury02.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Treasury03": {
       "prefab": "TM_Castle_Floor_Treasury03",
@@ -632,7 +702,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Treasury03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Floor_Workshop03": {
       "prefab": "TM_Castle_Floor_Workshop03",
@@ -646,7 +718,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_Floor_Workshop03.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_FloorDecor_FurRug01": {
       "prefab": "TM_Castle_FloorDecor_FurRug01",
@@ -1710,7 +1784,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_CastleWallTier01Wood.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Wall_Tier01_Wood_Entrance": {
       "prefab": "TM_Castle_Wall_Tier01_Wood_Entrance",
@@ -1738,7 +1814,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Wall_Tier02_Stone": {
       "prefab": "TM_Castle_Wall_Tier02_Stone",
@@ -1752,7 +1830,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_CastleWallTier02Stone.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_Wall_Tier02_Stone_Entrance": {
       "prefab": "TM_Castle_Wall_Tier02_Stone_Entrance",
@@ -1780,7 +1860,9 @@
         "data/prefabs/All.json",
         "data/enrichment/workstation-display-map.json",
         "data/enrichment/blueprint-display-map.json"
-      ]
+      ],
+      "portraitAssetPath": "/icons/buildables/Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
+      "portraitEvidenceKind": "curated-unique-name-match"
     },
     "TM_Castle_WallDecor_Gothic_Window_Bars01": {
       "prefab": "TM_Castle_WallDecor_Gothic_Window_Bars01",

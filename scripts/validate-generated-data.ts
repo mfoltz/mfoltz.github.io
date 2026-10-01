@@ -1,7 +1,9 @@
 import { access, readFile, readdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind } from "./buildable-portraits";
+import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind, type BuildablePortraitMapSnapshot, type BuildablePortraitMapEntry } from "./buildable-portraits";
+import { buildablePortraitReviewPath, selectReviewedBuildableAssets, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
 import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
@@ -208,27 +210,6 @@ type BuildablePortraitCandidatesSnapshot = {
   totalAssets: number;
   currentBuildableRows: number;
   entriesByAssetName: Record<string, BuildablePortraitCandidateEntry>;
-};
-
-type BuildablePortraitMapEntry = {
-  prefab: string;
-  guid: number;
-  displayNameEn?: string;
-  portraitAssetName: string;
-  portraitAssetFamily: string;
-  portraitAssetPath?: string;
-  joinStatus: string;
-  approvalStatus?: string;
-  approvalNote?: string;
-  evidenceRefs: string[];
-};
-
-type BuildablePortraitMapSnapshot = {
-  schemaVersion: number;
-  sourceKind: string;
-  sourceRef: string;
-  totalCurrentBuildableRows: number;
-  entriesByPrefab: Record<string, BuildablePortraitMapEntry>;
 };
 
 const prefabCategoryParityTargets = [
@@ -587,7 +568,6 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     }
 
     if (entry.portraitAssetPath) {
-      assert(Boolean(workstationDisplay[prefab]), `${source}: portraitAssetPath is only approved for workstation rows`);
       assert(entry.joinStatus === "source-backed", `${source}: portraitAssetPath requires a source-backed join`);
       assertBuildablePortraitPath(entry.portraitAssetPath, source);
       assert(
@@ -598,8 +578,21 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     }
   }
 
-  const publicPortraitPaths = Object.values(portraitMap.entriesByPrefab ?? {}).filter((entry) => entry.portraitAssetPath).map((entry) => entry.portraitAssetPath as string);
-  assert(publicPortraitPaths.length <= 25, `${portraitMapPath}: expected at most 25 materialized buildable portrait paths, found ${publicPortraitPaths.length}`);
+  const review = await readJson<BuildablePortraitReviewSnapshot>(path.join(repoRoot, buildablePortraitReviewPath));
+  const approvedAssets = selectReviewedBuildableAssets(review, portraitMap, allPrefabs);
+  const approvedByPrefab = new Map(approvedAssets.map(asset => [asset.prefab, asset]));
+  for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab)) {
+    const approved = approvedByPrefab.get(prefab);
+    assert(entry.portraitAssetPath === approved?.publicPath, `${prefab}: materialized artwork must match the reviewed manifest`);
+    assert(entry.portraitEvidenceKind === (approved?.evidenceKind === "curated-unique-name-match" ? approved.evidenceKind : undefined), `${prefab}: artwork evidence kind differs from review`);
+    if (approved) {
+      const bytes = await readFile(path.join(repoRoot, "public", approved.publicPath));
+      assert(createHash("sha256").update(bytes).digest("hex") === approved.sha256, `${prefab}: public artwork bytes differ from review`);
+    }
+  }
+  const expectedFiles = new Set(approvedAssets.map(asset => asset.fileName));
+  const actualFiles = await readdir(path.join(repoRoot, "public/icons/buildables"));
+  assert(actualFiles.length === expectedFiles.size && actualFiles.every(file => expectedFiles.has(file)), "Public buildable files must match the reviewed manifest exactly");
   assert(
     portraitMap.entriesByPrefab.TM_CraftingStation_JewelcraftingTable?.portraitAssetPath === "/icons/buildables/Stunlock_Icon_Structure_JewelcraftingTable.png",
     `${portraitMapPath}: Jewelcrafting Table must keep the approved source-backed portrait path`
@@ -650,6 +643,9 @@ async function validateBlueprintUnlockMap(repoRoot: string): Promise<void> {
       const portrait = portraitMap.entriesByPrefab[detail.prefab!];
       assert(portrait?.joinStatus === "source-backed" && portrait.guid === detail.guid && portrait.portraitAssetPath === detail.portraitAssetPath,
         `${detail.prefab}: Blueprint artwork lacks the approved identity/path`);
+      const curated = portrait.portraitEvidenceKind === "curated-unique-name-match";
+      assert(detail.portraitSourceKind === (curated ? "curated-unique-name-match" : undefined), `${detail.prefab}: artwork evidence kind was lost`);
+      assert(detail.portraitSourceRef === (curated ? `${buildablePortraitReviewPath}:${detail.prefab}` : undefined), `${detail.prefab}: artwork review reference was lost`);
     }
   }
 }

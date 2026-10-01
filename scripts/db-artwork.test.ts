@@ -49,3 +49,21 @@ test("approved portrait paths agree between detail, browsing, and search", async
     }
   }
 });
+
+test("new castle artwork retains curated name-match provenance and held entrances stay absent", async () => {
+  const entries = await read<DbIndexEntry[]>("db/blueprints/index.json");
+  let curated = 0;
+  for (const entry of entries) {
+    const detail = await read<DbEntityDetail>(`db/blueprints/by-slug/${entry.slug}.json`);
+    if (detail.portraitSourceKind === "curated-unique-name-match") {
+      curated++;
+      assert.ok(entry.portraitAssetPath);
+      assert.equal(detail.portraitSourceRef, `data/enrichment/buildable-portrait-review.json:${detail.prefab}`);
+    }
+    if (/^(BP|TM)_Castle_Wall_Tier0[12]_(Wood|Stone)_Entrance$/.test(detail.prefab ?? "")) {
+      assert.equal(entry.portraitAssetPath, undefined);
+      assert.equal(detail.portraitSourceKind, undefined);
+    }
+  }
+  assert.equal(curated, 41);
+});
