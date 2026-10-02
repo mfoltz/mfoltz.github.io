@@ -5,6 +5,7 @@ import { assertAssetDumpLock, syncAssetRefDirectory, syncIconDirectory } from ".
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { attachBuildablePortraitAssetPaths, buildBuildablePortraitSnapshots, selectBuildablePortraitPublicAssets } from "./buildable-portraits";
 import { assertReviewedBuildableSourceHashes, buildablePortraitReviewPath, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
+import { applyRuntimeBlueprintArtwork } from "./blueprint-runtime-artwork";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
 import { attachNpcPortraitAssetPaths, buildNpcPortraitSnapshots, selectNpcPortraitPublicAssets } from "./npc-portraits";
 import { isNpcDisplayCandidateDoc } from "./npc-display-classification";
@@ -3482,8 +3483,10 @@ async function main() {
     workstationDisplayByPrefab: displaySnapshotsByDomain.get("workstation") ?? {},
     blueprintDisplayByPrefab: displaySnapshotsByDomain.get("blueprint") ?? {}
   });
-  const buildablePortraitPublicAssets = selectBuildablePortraitPublicAssets(rawBuildablePortraitSnapshots.portraitMap, {
-    review: JSON.parse(await readFile(path.join(repoRoot, buildablePortraitReviewPath), "utf8")) as BuildablePortraitReviewSnapshot,
+  const buildableReview = JSON.parse(await readFile(path.join(repoRoot, buildablePortraitReviewPath), "utf8")) as BuildablePortraitReviewSnapshot;
+  const reviewedBuildablePortraitMap = applyRuntimeBlueprintArtwork(buildableReview, rawBuildablePortraitSnapshots.portraitMap, allPrefabs);
+  const buildablePortraitPublicAssets = selectBuildablePortraitPublicAssets(reviewedBuildablePortraitMap, {
+    review: buildableReview,
     allPrefabs
   });
   await assertReviewedBuildableSourceHashes(assetDumpDir, buildablePortraitPublicAssets);
@@ -3494,7 +3497,7 @@ async function main() {
   });
   const stableBuildablePortraitSnapshots = {
     candidates: rawBuildablePortraitSnapshots.candidates,
-    portraitMap: attachBuildablePortraitAssetPaths(rawBuildablePortraitSnapshots.portraitMap, buildablePortraitPublicAssets)
+    portraitMap: attachBuildablePortraitAssetPaths(reviewedBuildablePortraitMap, buildablePortraitPublicAssets)
   };
 
   const abilityTooltipEntries = stableCatalogSnapshot.entries

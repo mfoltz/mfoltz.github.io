@@ -2534,8 +2534,8 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     detail: {
       portraitAssetPath,
       ...materials,
-      portraitSourceKind: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind === "curated-unique-name-match" ? "curated-unique-name-match" : undefined,
-      portraitSourceRef: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind === "curated-unique-name-match" ? `data/enrichment/buildable-portrait-review.json:${doc.prefabName}` : undefined,
+      portraitSourceKind: portraitAssetPath ? portraitMapEntry?.portraitEvidenceKind : undefined,
+      portraitSourceRef: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind ? `data/enrichment/buildable-portrait-review.json:${doc.prefabName}` : undefined,
       fullDismantleTime,
       isStartBlueprint,
       isInventoryItemBuilding,

@@ -584,7 +584,7 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
   for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab)) {
     const approved = approvedByPrefab.get(prefab);
     assert(entry.portraitAssetPath === approved?.publicPath, `${prefab}: materialized artwork must match the reviewed manifest`);
-    assert(entry.portraitEvidenceKind === (approved?.evidenceKind === "curated-unique-name-match" ? approved.evidenceKind : undefined), `${prefab}: artwork evidence kind differs from review`);
+    assert(entry.portraitEvidenceKind === (approved?.evidenceKind !== "existing-curated" ? approved?.evidenceKind : undefined), `${prefab}: artwork evidence kind differs from review`);
     if (approved) {
       const bytes = await readFile(path.join(repoRoot, "public", approved.publicPath));
       assert(createHash("sha256").update(bytes).digest("hex") === approved.sha256, `${prefab}: public artwork bytes differ from review`);
@@ -643,9 +643,8 @@ async function validateBlueprintUnlockMap(repoRoot: string): Promise<void> {
       const portrait = portraitMap.entriesByPrefab[detail.prefab!];
       assert(portrait?.joinStatus === "source-backed" && portrait.guid === detail.guid && portrait.portraitAssetPath === detail.portraitAssetPath,
         `${detail.prefab}: Blueprint artwork lacks the approved identity/path`);
-      const curated = portrait.portraitEvidenceKind === "curated-unique-name-match";
-      assert(detail.portraitSourceKind === (curated ? "curated-unique-name-match" : undefined), `${detail.prefab}: artwork evidence kind was lost`);
-      assert(detail.portraitSourceRef === (curated ? `${buildablePortraitReviewPath}:${detail.prefab}` : undefined), `${detail.prefab}: artwork review reference was lost`);
+      assert(detail.portraitSourceKind === portrait.portraitEvidenceKind, `${detail.prefab}: artwork evidence kind was lost`);
+      assert(detail.portraitSourceRef === (portrait.portraitEvidenceKind ? `${buildablePortraitReviewPath}:${detail.prefab}` : undefined), `${detail.prefab}: artwork review reference was lost`);
     }
   }
 }

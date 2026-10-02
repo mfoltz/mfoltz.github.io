@@ -146,7 +146,7 @@ export function attachBuildablePortraitAssetPaths(
           ...base,
           ...(asset ? {
             portraitAssetPath: asset.publicPath,
-            ...(asset.evidenceKind === "curated-unique-name-match" ? { portraitEvidenceKind: asset.evidenceKind } : {})
+            ...(asset.evidenceKind && asset.evidenceKind !== "existing-curated" ? { portraitEvidenceKind: asset.evidenceKind } : {})
           } : {})
         }];
       })

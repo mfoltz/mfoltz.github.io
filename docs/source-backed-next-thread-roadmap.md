@@ -1,6 +1,6 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-01. This is the single active roadmap for this repository.
+Reviewed: 2026-10-02. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
@@ -91,8 +91,9 @@ PR, merge, deployment, or adjacent enrichment task is authorized here.
 ## Reviewed castle artwork and targeted capture preparation
 
 A subsequent instruction approved the image-limit change and narrow capture
-preparation. See the [artwork review](blueprint-artwork-review-20260930.md) and
-[current checkpoint](checkpoints/2026-10-01-blueprint-artwork-capture.md).
+preparation. See the [artwork review](blueprint-artwork-review-20260930.md), the
+[October 1 snapshot](checkpoints/2026-10-01-blueprint-artwork-capture.md), and the
+[October 2 native capture](checkpoints/2026-10-02-blueprint-native-sprite-capture.md).
 
 - Replace the workstation-only 25-image cap with a reviewed manifest of 54
   images: the existing 13 plus 41 castle stairs/floors/walls. Materialize original
@@ -100,13 +101,26 @@ preparation. See the [artwork review](blueprint-artwork-review-20260930.md) and
 - Label the new associations `curated-unique-name-match`. These are illustrative
   icons, not proven runtime assignments. The four ambiguous entrance records
   remain held. Blueprint text/material/unlock/book coverage stays unchanged.
-- Prepare a 58-identity capture of managed icon GUIDs and cached Sprite names,
-  with explicit unknown states, no asset-load requests, and no automatic retry.
-  The prepared mode uses the retained UI asset resolver APIs; a live run remains
-  held because the isolated client is 1.1.10 and the server is 1.1.13.
-- No game install update, live extraction, or publication follows implicitly.
-  Localized text, broader portraits, and the later item-description audit remain
-  outside this pass.
+- The separately authorized repair established a matching isolated 1.1.13 pair.
+  The October 1 version-mismatch hold remains a historical claim. A first native
+  capture proved all 58 prefab/GUID and icon-GUID joins but could not bind the UI
+  loader wrappers; those unknowns did not establish absent icons.
+- The approved manual cache lookup now resolves 58/58 Sprite names across 57
+  distinct icon GUIDs and 57 distinct Sprite names. The operator completed
+  journal quests in a copied test save, opened the normal build menu, and issued
+  one `extract_dump`. Automatic connection/dumping and explicit asset-load
+  requests remained disabled. Original checkouts, saved state, and test plugins
+  were preserved; preparation and native logs are retained with the new receipt.
+- Runtime names agree with 49/54 current curated associations. Five differ:
+  the two Jewelcrafting floor variants, stone pillar, simple bench, and small
+  sawmill. The four held entrances now have exact Sprite identities, including
+  different Sprite names for the stone BP/TM pair. Existing dump filenames and
+  hashes are recorded separately from runtime Sprite identity.
+- A later bounded artwork reconciliation could review those five differences
+  and four entrances, pin source PNGs, and verify scoped captures. It requires a
+  new instruction. This capture pass changes no artwork map, public asset, or
+  acquisition claim. Localized text, broader portraits, and the later
+  item-description audit remain outside this pass; publication stays separate.
 
 ## Later candidate, requiring a new instruction
 

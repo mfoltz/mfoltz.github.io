@@ -1,3 +1,6 @@
 # Preserve the supplied dump bytes, including its original line endings.
 # Keep the normal whitespace checks while allowing the original CRLF endings.
 data/reference-samples/*.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# Pin the exact native capture bytes across checkouts.
+data/enrichment/blueprint-icon-capture.json -text whitespace=cr-at-eol
