@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "sourceKind": "reviewed-buildable-portrait-assets",
-  "reviewNote": "Preserve 13 existing curated images. Add 41 visually reviewed castle stairs/floors/walls using unique canonical names and exact current prefab GUIDs. Original Texture2D PNGs are unchanged. Name matches are illustrative associations; runtime Sprite ownership is unproven. Two shared entrance filenames remain held. See docs/blueprint-artwork-review-20260930.md.",
+  "reviewNote": "Preserve 49 existing associations and their original evidence kinds. Reconcile five differing associations and four held entrances against the pinned 58-target native Sprite capture. Nine records use runtime-sprite-name evidence; the wood entrance pair shares one captured icon GUID and byte-pinned image. Each Sprite export is a unique exact visible RGBA crop of the unchanged original Texture2D PNG. This does not establish acquisition or availability. See docs/checkpoints/2026-10-02-blueprint-artwork-reconciliation.md.",
   "entries": [
     {
       "prefab": "BP_Castle_Stairs_Double_Stone02",
@@ -58,6 +58,24 @@
       "sourceRef": "Texture2D/Stunlock_Icon_Structure_Stairs_Single_Stone03.png",
       "sha256": "f955de6abd283d9e2a1c24a11b19809f56d4b8a10946ed081d98c5672a0a7886",
       "evidenceKind": "curated-unique-name-match"
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
+      "guid": 106693260,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+      "sha256": "d45db34a120874cf3f0d071668fadc6631846bedc169626be7245c6b9f212db7",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "5078ad2c129697e44bf70cac0695ae73",
+      "spriteSha256": "6f9cc1a1d93f2da458af19ca0eb58843bf75626614ba7948e46a724a67750cbd"
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_Entrance",
+      "guid": -281098336,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleGate01.png",
+      "sha256": "a6e725ea699439004f9e5de872bc7a269616e3b18f7b6b73124e3eef07a180d4",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "13ae31187ac6d0843b2447d882c752f0",
+      "spriteSha256": "081de6f071a0c860edf99370add9d2ae18feafd9b91688a8442b631a899cb01a"
     },
     {
       "prefab": "TM_Castle_Floor_AlchemyLab01",
@@ -139,16 +157,20 @@
     {
       "prefab": "TM_Castle_Floor_Jewelcrafting01",
       "guid": -1984599765,
-      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
-      "sha256": "bcdb95d9550a902d39c25a3a0006535352d1169ac273fb66ea07bb46ae8361cc",
-      "evidenceKind": "curated-unique-name-match"
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
+      "sha256": "24b58c2d14086de7b982af54312d6045ed8cf5fe117eeadedf383b79376a1a36",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "8d012d8ba676cb24fb26859b8b9466e2",
+      "spriteSha256": "d9a8f47fbbcaa0f57977d9f65d63f1ef518858aa18801841846f70e0bc4848be"
     },
     {
       "prefab": "TM_Castle_Floor_Jewelcrafting02",
       "guid": -1838091713,
-      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting02.png",
-      "sha256": "24b58c2d14086de7b982af54312d6045ed8cf5fe117eeadedf383b79376a1a36",
-      "evidenceKind": "curated-unique-name-match"
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Floor_JewelCrafting01.png",
+      "sha256": "bcdb95d9550a902d39c25a3a0006535352d1169ac273fb66ea07bb46ae8361cc",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "897f8ae760671d44e81bad84b1daa09c",
+      "spriteSha256": "fb6639f7ff1df1acb50ea0329055a2a6d632aaf56f95cb603e745a1d354b57bf"
     },
     {
       "prefab": "TM_Castle_Floor_Jewelcrafting03",
@@ -270,6 +292,15 @@
       "evidenceKind": "curated-unique-name-match"
     },
     {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Entrance",
+      "guid": -1293632412,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
+      "sha256": "d45db34a120874cf3f0d071668fadc6631846bedc169626be7245c6b9f212db7",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "5078ad2c129697e44bf70cac0695ae73",
+      "spriteSha256": "6f9cc1a1d93f2da458af19ca0eb58843bf75626614ba7948e46a724a67750cbd"
+    },
+    {
       "prefab": "TM_Castle_Wall_Tier01_Wood_Pillar",
       "guid": 1639432090,
       "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier01WoodPillar.png",
@@ -284,11 +315,22 @@
       "evidenceKind": "curated-unique-name-match"
     },
     {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Entrance",
+      "guid": 728150320,
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
+      "sha256": "e1b5f9612ede6d5773ac335adf2b35a1df77ae44217b25b883acb7988922832e",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "3830a3cffa142a74fa03f06ab2764e1f",
+      "spriteSha256": "27570ded8850e99bacd59cf4f44b47d2cf16609075b60c789b3a7b14d602dacb"
+    },
+    {
       "prefab": "TM_Castle_Wall_Tier02_Stone_Pillar",
       "guid": 1506730526,
-      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastleWallTier02StonePillar.png",
-      "sha256": "f31d42890365ac1afbb2d9f63c7e1b8182e83361aa107cf65451069f458ed7ec",
-      "evidenceKind": "curated-unique-name-match"
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_CastlePillar01.png",
+      "sha256": "11c2289e9b27305521e84911f8e2821126c650d1ee94e62281ef6a5e60acdaca",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "5f5808ecf277f384b870bdd10e7eb787",
+      "spriteSha256": "4d061426749dd86f4066e16b4e59bb46e32a36285f31df03a7cbe6ce61d2f113"
     },
     {
       "prefab": "TM_CraftingStation_Anvil",
@@ -328,9 +370,11 @@
     {
       "prefab": "TM_CraftingStation_SimpleCraftingBench",
       "guid": -1107784271,
-      "sourceRef": "Texture2D/Stunlock_Icon_Structure_SimpleCraftingBench.png",
-      "sha256": "9badb6102e15c59b86f0bcffd4dc687ecac6ebf721b9605b61d2840ea13eebdd",
-      "evidenceKind": "existing-curated"
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_SimpleWorkbench.png",
+      "sha256": "5ad89111f97a86f2f5f7e84ff9f95e3cbb0d5244a0ffe7816e2880f0ca129adf",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "873bcdff7e4e8f641bd3792ca7e0be64",
+      "spriteSha256": "18444299bca2c79ec2d392a0f4ddf4541643da90e850aa36d4a252df31f29d88"
     },
     {
       "prefab": "TM_CraftingStation_Smithy",
@@ -356,9 +400,11 @@
     {
       "prefab": "TM_RefinementStation_Sawmill_Small",
       "guid": 1094077710,
-      "sourceRef": "Texture2D/StructureIcon_SawmillSmall_Normal.png",
-      "sha256": "bee03860a3515b3aec9d5878166fe8301ce899c82b4cdb5d6133c0c8921d5c0e",
-      "evidenceKind": "existing-curated"
+      "sourceRef": "Texture2D/Stunlock_Icon_Structure_Sawmill.png",
+      "sha256": "880e32725b4d1d83fc3f41f085672a625c9bff6e700eb4ef8cbbe13b489e8607",
+      "evidenceKind": "runtime-sprite-name",
+      "runtimeIconAssetGuid": "204198642919b9e4994fda7908b24fcc",
+      "spriteSha256": "59bbda3fec62eff805f4485a4aee18670a3ef8f1cd03644162bca2e30a6c50df"
     },
     {
       "prefab": "TM_UnitStation_NetherGate",

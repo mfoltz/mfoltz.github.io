@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
+import { runtimeBlueprintArtworkPrefabs } from "./blueprint-runtime-artwork";
 
 /** Pick representative records by source identity, independent of browse sorting. */
 export function getBlueprintVisualFixtures() {
@@ -25,5 +26,10 @@ export function getBlueprintVisualFixtures() {
     assert(entry, `Missing reviewed castle ${category} fixture`);
     return { category, entry };
   });
-  return { entries, linkedBooks, linkedNoBooks, unlinked, starter, materials, artwork, emptyMaterials, heldMaterials, castleArtwork };
+  const nativeArtwork = runtimeBlueprintArtworkPrefabs.map(prefab => {
+    const entry = sorted.find(row => row.tags?.[0] === prefab);
+    assert(entry?.portraitAssetPath && details.get(entry.slug)?.portraitSourceKind === "runtime-sprite-name", `Missing native artwork fixture: ${prefab}`);
+    return entry;
+  });
+  return { entries, linkedBooks, linkedNoBooks, unlinked, starter, materials, artwork, emptyMaterials, heldMaterials, castleArtwork, nativeArtwork };
 }

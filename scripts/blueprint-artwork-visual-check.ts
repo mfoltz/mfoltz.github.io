@@ -5,6 +5,7 @@ import path from "node:path";
 import { chromium, type Page } from "playwright";
 import type { BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 import type { DbIndexEntry } from "../src/types/db";
+import { runtimeBlueprintArtworkPrefabs } from "./blueprint-runtime-artwork";
 
 const baseUrl = process.env.BROWSE_REVIEW_URL ?? "http://127.0.0.1:5174";
 assert(["localhost", "127.0.0.1"].includes(new URL(baseUrl).hostname), "Local preview required");
@@ -18,6 +19,14 @@ const fixtures = ["Stairs", "Floor", "Wall"].map(category => {
   assert(approved && entry?.portraitAssetPath, `Missing ${category} artwork fixture`);
   return { category, approved, entry };
 });
+const native = runtimeBlueprintArtworkPrefabs.map(prefab => {
+  const approved = review.entries.find(row => row.prefab === prefab);
+  const entry = entries.find(row => row.tags?.[0] === prefab);
+  assert(approved?.evidenceKind === "runtime-sprite-name" && entry?.portraitAssetPath, `Missing native fixture: ${prefab}`);
+  return { approved, entry };
+}).sort((a, b) => a.approved.prefab.localeCompare(b.approved.prefab));
+const workstations = JSON.parse(await readFile("public/data/db/workstations/index.json", "utf8")) as DbIndexEntry[];
+let captureCount = 0;
 const checks: Record<string, unknown>[] = [];
 await mkdir(output, { recursive: true });
 const browser = await chromium.launch({ headless: true });
@@ -39,6 +48,7 @@ async function imageLoaded(page: Page, selector: string, expected: string) {
 async function capture(page: Page, id: string, theme: string, width: number) {
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth - innerWidth), 0, `${id}: horizontal overflow`);
   await page.screenshot({ path: path.join(output, `${id}-${theme}-${width}.png`) });
+  captureCount++;
 }
 
 try {
@@ -73,21 +83,50 @@ try {
       await imageLoaded(page, `main a[href='${fixture.entry.path}'] .database-record-artwork`, fixture.entry.portraitAssetPath!);
       if (viewport.width === 320) await page.locator(`main a[href='${fixture.entry.path}']`).scrollIntoViewIfNeeded();
       await capture(page, "search-stairs", theme, viewport.width);
+      for (const fixture of native) {
+        await ready(page, fixture.entry.path);
+        await imageLoaded(page, "main header .database-record-artwork", fixture.entry.portraitAssetPath!);
+        assert.equal(await page.locator("main h1").innerText(), fixture.entry.title);
+        assert.equal(await page.locator("nav[aria-label='Breadcrumbs'] a[href='/db/blueprints']").count(), 1);
+        await capture(page, `native-detail-${fixture.entry.slug}`, theme, viewport.width);
+        await page.locator("#source-provenance summary").click();
+        assert.match(await page.locator("#source-provenance").innerText(), /runtime-sprite-name/i);
+        assert.match(await page.locator("#source-provenance").innerText(), /buildable-portrait-review\.json/);
+        if (fixture.approved.prefab === "BP_Castle_Wall_Tier01_Wood_Entrance" || fixture.approved.prefab === "TM_Castle_Wall_Tier02_Stone_Entrance") {
+          const query = encodeURIComponent(fixture.approved.prefab);
+          await ready(page, `/db/blueprints?q=${query}`);
+          const target = `main a[href='${fixture.entry.path}']`;
+          assert.equal(await page.locator(target).count(), 1);
+          await imageLoaded(page, `${target} .database-record-artwork`, fixture.entry.portraitAssetPath!);
+          if (viewport.width === 320) await page.locator(target).scrollIntoViewIfNeeded();
+          await capture(page, `native-browse-${fixture.entry.slug}`, theme, viewport.width);
+          await ready(page, `/search?q=${query}&scope=blueprints`);
+          await imageLoaded(page, `main a[href='${fixture.entry.path}'] .database-record-artwork`, fixture.entry.portraitAssetPath!);
+          if (viewport.width === 320) await page.locator(`main a[href='${fixture.entry.path}']`).scrollIntoViewIfNeeded();
+          await capture(page, `native-search-${fixture.entry.slug}`, theme, viewport.width);
+        }
+        const workstation = workstations.find(row => row.tags?.[0] === fixture.approved.prefab);
+        if (workstation) {
+          await ready(page, workstation.path);
+          await imageLoaded(page, "main header .database-record-artwork", fixture.entry.portraitAssetPath!);
+          await capture(page, `workstation-${workstation.slug}`, theme, viewport.width);
+        }
+      }
       assert.deepEqual(errors, []);
-      checks.push({ theme, width: viewport.width, fixtures: fixtures.map(row => row.approved.prefab), detail: "loaded", browse: "loaded", search: "loaded", curatedProvenance: "visible", breadcrumbs: "passed", overflow: 0 });
+      checks.push({ theme, width: viewport.width, fixtures: fixtures.map(row => row.approved.prefab), nativeFixtures: native.map(row => row.approved.prefab), detail: "loaded", browse: "loaded", search: "loaded", curatedProvenance: "visible", nativeProvenance: "visible", breadcrumbs: "passed", overflow: 0 });
       await context.close();
     }
   }
   const request = await browser.newContext();
-  for (const approved of curated) {
+  for (const approved of review.entries) {
     const fileName = path.posix.basename(approved.sourceRef);
     const response = await request.request.get(baseUrl + `/icons/buildables/${fileName}`);
     assert.equal(response.status(), 200, approved.prefab);
     assert.equal(createHash("sha256").update(await response.body()).digest("hex"), approved.sha256, approved.prefab);
   }
   await request.close();
-  await writeFile(path.join(output, "checks.json"), JSON.stringify({ runs: checks, servedOriginalImages: curated.length }, null, 2) + "\n");
-  console.log("Blueprint artwork checks passed: four theme/viewport runs, 20 captures, 41 original images served.");
+  await writeFile(path.join(output, "checks.json"), JSON.stringify({ runs: checks, captures: captureCount, servedReviewedRecords: review.entries.length, servedOriginalImages: new Set(review.entries.map(row => row.sourceRef)).size }, null, 2) + "\n");
+  console.log(`Blueprint artwork checks passed: four theme/viewport runs, ${captureCount} captures, 57 original images served.`);
 } finally {
   await browser.close();
 }

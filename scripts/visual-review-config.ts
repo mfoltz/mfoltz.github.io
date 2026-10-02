@@ -98,6 +98,11 @@ export const vrisingVisualReviewConfig: VisualReviewConfig = {
   },
   captures: [
     { id: "home", title: "Home", path: "/", pack: "player-first", kind: "route" },
+    ...blueprintFixtures.nativeArtwork.map(entry => ({
+      id: `db-blueprint-native-${entry.slug}`, title: `Blueprint: Native Artwork ${entry.title}`,
+      path: entry.path, pack: "player-first", kind: "route" as const, clip: developerDetailClip,
+      ready: { selector: "#relation-build-materials", timeoutMs: 20000 }
+    })),
     ...blueprintFixtures.castleArtwork.map(({ category, entry }) => ({
       id: `db-blueprint-castle-${category.toLowerCase()}-detail`, title: `Blueprint: Reviewed Castle ${category} Artwork`,
       path: entry.path, pack: "player-first", kind: "route" as const, clip: developerDetailClip,

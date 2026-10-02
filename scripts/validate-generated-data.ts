@@ -546,6 +546,11 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     }
   }
 
+  // Native overrides are validated against the pinned capture before choosing
+  // their authority; every other row still requires its original scout join.
+  const review = await readJson<BuildablePortraitReviewSnapshot>(path.join(repoRoot, buildablePortraitReviewPath));
+  const approvedAssets = selectReviewedBuildableAssets(review, portraitMap, allPrefabs);
+  const approvedByPrefab = new Map(approvedAssets.map(asset => [asset.prefab, asset]));
   for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab ?? {})) {
     const source = `${portraitMapPath}:${prefab}`;
     assert(entry.prefab === prefab, `${source}: prefab must match map key`);
@@ -554,14 +559,16 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     assert(entry.joinStatus !== "user-attested" || entry.approvalStatus === "approved", `${source}: user-attested row must be approved before promotion`);
     assert(allPrefabs[prefab] === entry.guid, `${source}: prefab '${prefab}' does not join through ${allPrefabsPath}`);
 
-    const candidate = candidates.entriesByAssetName?.[entry.portraitAssetName];
-    assert(Boolean(candidate), `${source}: portraitAssetName '${entry.portraitAssetName}' missing from ${candidatesPath}`);
-    assert(candidate?.joinStatus === entry.joinStatus, `${source}: candidate joinStatus does not match promoted joinStatus`);
-    assert(candidate?.assetFamily === entry.portraitAssetFamily, `${source}: candidate assetFamily does not match promoted portraitAssetFamily`);
+    if (approvedByPrefab.get(prefab)?.evidenceKind === "runtime-sprite-name") {
+      assert(entry.portraitEvidenceKind === "runtime-sprite-name" && entry.portraitAssetFamily === "stunlock-structure-icon", `${source}: native artwork evidence differs from review`);
+    } else {
+      const candidate = candidates.entriesByAssetName?.[entry.portraitAssetName];
+      assert(Boolean(candidate), `${source}: portraitAssetName '${entry.portraitAssetName}' missing from ${candidatesPath}`);
+      assert(candidate?.joinStatus === entry.joinStatus, `${source}: candidate joinStatus does not match promoted joinStatus`);
+      assert(candidate?.assetFamily === entry.portraitAssetFamily, `${source}: candidate assetFamily does not match promoted portraitAssetFamily`);
+      assert((candidate?.candidatePrefabs ?? []).some(row => row.prefab === prefab && row.guid === entry.guid), `${source}: promoted prefab is missing from candidatePrefabs`);
+    }
     assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
-
-    const candidateRows = candidate?.candidatePrefabs ?? [];
-    assert(candidateRows.some((row) => row.prefab === prefab && row.guid === entry.guid), `${source}: promoted prefab is missing from candidatePrefabs`);
     const displayEntry = workstationDisplay[prefab] ?? blueprintDisplay[prefab];
     if (displayEntry?.displayNameEn) {
       assert(entry.displayNameEn === displayEntry.displayNameEn, `${source}: displayNameEn does not match display map`);
@@ -578,9 +585,6 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     }
   }
 
-  const review = await readJson<BuildablePortraitReviewSnapshot>(path.join(repoRoot, buildablePortraitReviewPath));
-  const approvedAssets = selectReviewedBuildableAssets(review, portraitMap, allPrefabs);
-  const approvedByPrefab = new Map(approvedAssets.map(asset => [asset.prefab, asset]));
   for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab)) {
     const approved = approvedByPrefab.get(prefab);
     assert(entry.portraitAssetPath === approved?.publicPath, `${prefab}: materialized artwork must match the reviewed manifest`);

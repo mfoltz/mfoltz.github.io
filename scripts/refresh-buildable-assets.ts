@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -6,6 +7,7 @@ import { assertAssetDumpLock, syncAssetRefDirectory, writeAssetDumpLock } from "
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { attachBuildablePortraitAssetPaths, type BuildablePortraitMapSnapshot } from "./buildable-portraits";
 import { applyRuntimeBlueprintArtwork } from "./blueprint-runtime-artwork";
+import { assertBuildableFileRetirement } from "./buildable-sprite-proof";
 import { assertReviewedBuildableSourceHashes, buildablePortraitReviewPath, selectReviewedBuildableAssets, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -24,10 +26,15 @@ async function main() {
   await assertReviewedBuildableSourceHashes(resolution.assetDumpDir, assets);
   const expected = new Set(assets.map(asset => asset.fileName));
   const targetDir = path.join(repoRoot, "public/icons/buildables");
-  // This bounded command may add reviewed files, but never quietly remove old ones.
-  for (const file of await readdir(targetDir)) assert(expected.has(file), `Unreviewed existing buildable file: ${file}`);
+  let retired = 0;
+  for (const file of await readdir(targetDir)) {
+    if (expected.has(file)) continue;
+    const bytes = await readFile(path.join(targetDir, file));
+    assertBuildableFileRetirement(file, createHash("sha256").update(bytes).digest("hex"), assets);
+    retired++;
+  }
   const result = await syncAssetRefDirectory({ assetDumpDir: resolution.assetDumpDir, targetDir, files: assets });
-  assert.equal(result.deleted, 0);
+  assert.equal(result.deleted, retired);
   await writeFile(path.join(repoRoot, "data/enrichment/buildable-portrait-map.json"), JSON.stringify(attachBuildablePortraitAssetPaths(reviewedMap, assets), null, 2) + "\n");
   await writeAssetDumpLock(repoRoot, resolution);
   console.log(JSON.stringify({ reviewedAssets: assets.length, ...result }));

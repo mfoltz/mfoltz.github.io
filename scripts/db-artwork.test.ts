@@ -50,9 +50,9 @@ test("approved portrait paths agree between detail, browsing, and search", async
   }
 });
 
-test("new castle artwork retains curated name-match provenance and held entrances stay absent", async () => {
+test("reconciled Blueprints retain native provenance while other curated associations keep their evidence", async () => {
   const entries = await read<DbIndexEntry[]>("db/blueprints/index.json");
-  let curated = 0;
+  let curated = 0, native = 0, entrances = 0;
   for (const entry of entries) {
     const detail = await read<DbEntityDetail>(`db/blueprints/by-slug/${entry.slug}.json`);
     if (detail.portraitSourceKind === "curated-unique-name-match") {
@@ -61,9 +61,23 @@ test("new castle artwork retains curated name-match provenance and held entrance
       assert.equal(detail.portraitSourceRef, `data/enrichment/buildable-portrait-review.json:${detail.prefab}`);
     }
     if (/^(BP|TM)_Castle_Wall_Tier0[12]_(Wood|Stone)_Entrance$/.test(detail.prefab ?? "")) {
-      assert.equal(entry.portraitAssetPath, undefined);
-      assert.equal(detail.portraitSourceKind, undefined);
+      entrances++;
+      assert.ok(entry.portraitAssetPath);
+      assert.equal(detail.portraitSourceKind, "runtime-sprite-name");
+    }
+    if (detail.portraitSourceKind === "runtime-sprite-name") {
+      native++;
+      assert.equal(detail.portraitSourceRef, `data/enrichment/buildable-portrait-review.json:${detail.prefab}`);
     }
   }
-  assert.equal(curated, 41);
+  assert.equal(curated, 38); assert.equal(native, 9); assert.equal(entrances, 4);
+  for (const [prefab, file] of Object.entries({
+    TM_Castle_Floor_Jewelcrafting01: "Floor_JewelCrafting02", TM_Castle_Floor_Jewelcrafting02: "Floor_JewelCrafting01",
+    TM_Castle_Wall_Tier02_Stone_Pillar: "CastlePillar01", TM_CraftingStation_SimpleCraftingBench: "SimpleWorkbench",
+    TM_RefinementStation_Sawmill_Small: "Sawmill", BP_Castle_Wall_Tier01_Wood_Entrance: "CastleWallTier01WoodEntrance",
+    TM_Castle_Wall_Tier01_Wood_Entrance: "CastleWallTier01WoodEntrance", BP_Castle_Wall_Tier02_Stone_Entrance: "CastleGate01",
+    TM_Castle_Wall_Tier02_Stone_Entrance: "CastleWallTier02StoneEntrance"
+  })) {
+    assert.equal(entries.find(entry => entry.tags?.[0] === prefab)?.portraitAssetPath, `/icons/buildables/Stunlock_Icon_Structure_${file}.png`, prefab);
+  }
 });

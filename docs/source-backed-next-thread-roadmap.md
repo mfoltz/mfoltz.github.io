@@ -88,19 +88,19 @@ commits are on `codex/blueprint-materials-artwork`, based on local main
 This pass ends at verified local commits and retained review evidence. No push,
 PR, merge, deployment, or adjacent enrichment task is authorized here.
 
-## Reviewed castle artwork and targeted capture preparation
+## Reviewed castle artwork and native capture: completed snapshots
 
 A subsequent instruction approved the image-limit change and narrow capture
 preparation. See the [artwork review](blueprint-artwork-review-20260930.md), the
 [October 1 snapshot](checkpoints/2026-10-01-blueprint-artwork-capture.md), and the
 [October 2 native capture](checkpoints/2026-10-02-blueprint-native-sprite-capture.md).
 
-- Replace the workstation-only 25-image cap with a reviewed manifest of 54
+- The initial review replaced the workstation-only 25-image cap with 54
   images: the existing 13 plus 41 castle stairs/floors/walls. Materialize original
   Texture2D bytes and pin exact prefab GUIDs, filenames, and source hashes.
-- Label the new associations `curated-unique-name-match`. These are illustrative
-  icons, not proven runtime assignments. The four ambiguous entrance records
-  remain held. Blueprint text/material/unlock/book coverage stays unchanged.
+- That review labeled 41 associations `curated-unique-name-match`: illustrative
+  icons with runtime ownership unproven at that checkpoint. Four ambiguous
+  entrance records were held. The reconciliation below updates current status.
 - The separately authorized repair established a matching isolated 1.1.13 pair.
   The October 1 version-mismatch hold remains a historical claim. A first native
   capture proved all 58 prefab/GUID and icon-GUID joins but could not bind the UI
@@ -111,16 +111,39 @@ preparation. See the [artwork review](blueprint-artwork-review-20260930.md), the
   one `extract_dump`. Automatic connection/dumping and explicit asset-load
   requests remained disabled. Original checkouts, saved state, and test plugins
   were preserved; preparation and native logs are retained with the new receipt.
-- Runtime names agree with 49/54 current curated associations. Five differ:
+- Runtime names agreed with 49/54 then-current curated associations. Five differed:
   the two Jewelcrafting floor variants, stone pillar, simple bench, and small
   sawmill. The four held entrances now have exact Sprite identities, including
   different Sprite names for the stone BP/TM pair. Existing dump filenames and
   hashes are recorded separately from runtime Sprite identity.
-- A later bounded artwork reconciliation could review those five differences
-  and four entrances, pin source PNGs, and verify scoped captures. It requires a
-  new instruction. This capture pass changes no artwork map, public asset, or
-  acquisition claim. Localized text, broader portraits, and the later
-  item-description audit remain outside this pass; publication stays separate.
+- The capture pass changed no artwork map, public asset, or acquisition claim.
+  Its dated receipt preserves that boundary and the original restoration claims.
+
+## Blueprint artwork reconciliation: complete locally
+
+The user separately approved reconciliation of five differing associations and
+four held entrances. See the
+[reconciliation receipt](checkpoints/2026-10-02-blueprint-artwork-reconciliation.md).
+
+- Pin the complete native capture unchanged and require exact current GUIDs,
+  captured icon GUIDs and Sprite names for these nine records only. Each pinned
+  Sprite export must match one exact visible RGBA crop of its unchanged texture.
+- Correct the Jewelcrafting floor swap, stone pillar, simple bench and small
+  sawmill. Add four entrance records. The wood BP/TM pair shares one proven icon
+  GUID and image; the stone BP/TM pair uses distinct captured Sprite names.
+- The reviewed manifest now covers 58 records and 57 files: nine
+  `runtime-sprite-name`, 38 `curated-unique-name-match`, and 11 `existing-curated`
+  records. Preserve all 49 unaffected associations and their evidence kinds.
+- Materialization adds six unchanged source PNGs, retires only three pinned
+  superseded files, and preserves 51 public image hashes. Repeat generation must
+  produce identical map, review, lock and image hashes.
+- Blueprint text/material/unlock/book coverage and acquisition wording stay
+  unchanged. Localized text, broader portraits and the item-description audit
+  remain parked. End at verified local commits; publication stays separate.
+- Native browser review passes all 92 baselines after accepting only 18 new
+  native Blueprint captures and the two intentional stone-entrance materials
+  captures. All 80 targeted artwork captures were inspected in both themes,
+  including 320px width; existing interaction, responsive and zoom checks pass.
 
 ## Later candidate, requiring a new instruction
 

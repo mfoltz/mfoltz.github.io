@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { BuildablePortraitMapSnapshot, BuildablePortraitPublicAsset } from "./buildable-portraits";
 import { assertCapturedBlueprintArtwork, blueprintIconCapturePath, readBlueprintIconCapture } from "./blueprint-runtime-artwork";
+import { findSpriteTextureCrop } from "./buildable-sprite-proof";
 
 export const buildablePortraitReviewPath = "data/enrichment/buildable-portrait-review.json";
 export type BuildablePortraitEvidenceKind = "existing-curated" | "curated-unique-name-match" | "runtime-sprite-name";
@@ -85,5 +86,10 @@ export async function assertReviewedBuildableSourceHashes(assetDumpDir: string, 
   for (const asset of assets) {
     const bytes = await readFile(path.join(assetDumpDir, ...asset.sourceRef.split("/")));
     assert.equal(createHash("sha256").update(bytes).digest("hex"), asset.sha256, `${asset.prefab}: reviewed source bytes changed`);
+    if (asset.evidenceKind === "runtime-sprite-name") {
+      const sprite = await readFile(path.join(assetDumpDir, "Sprite", asset.fileName));
+      assert.equal(createHash("sha256").update(sprite).digest("hex"), asset.spriteSha256, `${asset.prefab}: reviewed Sprite bytes changed`);
+      findSpriteTextureCrop(sprite, bytes);
+    }
   }
 }
