@@ -4,10 +4,12 @@ Checkpoint notes capture one accepted visual-review pass at a time.
 
 Older notes in this folder predate the polish overlay and should be read as valid history, not as incomplete failures.
 
-Current delivery status is recorded in the
-[September 30 Blueprint integration receipt](2026-09-30-blueprint-integration.md).
-Use the [active roadmap](../source-backed-next-thread-roadmap.md) for priorities;
-historical receipts keep their original claims.
+Use the [active roadmap](../source-backed-next-thread-roadmap.md) for current
+delivery status and priorities. The latest local implementation receipts are
+[jewel-to-ability navigation](2026-10-02-jewel-ability-navigation.md) and its
+[copy refinement](2026-10-02-jewel-ability-copy-refinement.md). The
+[September 30 Blueprint integration receipt](2026-09-30-blueprint-integration.md)
+and other historical receipts keep their original claims.
 
 ## Default Structure
 

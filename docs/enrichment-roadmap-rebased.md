@@ -66,4 +66,5 @@ That makes source certainty the first bottleneck, so the roadmap is sequenced so
 
 The original “finish V Blood portraits first” direction is superseded. The
 [active roadmap](source-backed-next-thread-roadmap.md) owns current priorities,
-including the later item-description audit candidate and its authorization gate.
+including the completed item-description audit, local jewel-navigation delivery,
+and proposed mobile linked-record review. Its authorization gates still apply.

@@ -5,6 +5,18 @@ Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
+## Current delivery state
+
+The reviewed implementation/evidence stack ends at `e19d632d2a` on
+`codex/jewel-ability-navigation`. Local main is `1f39c82fa2`, with nine Blueprint
+commits above the published base; the jewel branch adds implementation
+`861d98ed1b` and copy refinement `e19d632d2a`. Those 11 reviewed local commits
+remain unpublished. Roadmap-only maintenance follows that reviewed stack.
+
+A read-only remote check still resolves published main to
+`6226c16382173aa34160bdf27894cad6cb22f177`. Local completion and publication are
+separate states; the delivered foundation below includes both.
+
 ## Delivered foundation
 
 - Canonical enrichment contracts keep exact prefab/GUID joins, per-entry source
@@ -23,7 +35,7 @@ extraction authority.
   The approved V Blood portrait lane is delivered for 50/69 rows. Buildable
   portrait evidence covers 177/3928. Existing portrait delivery is no longer the
   first unfinished task; unresolved rows and broader portrait lanes stay parked.
-- Main at `6226c16382173aa34160bdf27894cad6cb22f177` includes the prefab-reader
+- Published main at `6226c16382173aa34160bdf27894cad6cb22f177` includes the prefab-reader
   work (PR 144) and browse/search/detail refinements (PR 145). Those changes are
   merged and published. Preserve current compact rows, useful artwork and facts,
   filter disclosure, active summaries, source access, and breadcrumb continuity.
@@ -138,8 +150,9 @@ four held entrances. See the
   superseded files, and preserves 51 public image hashes. Repeat generation must
   produce identical map, review, lock and image hashes.
 - Blueprint text/material/unlock/book coverage and acquisition wording stay
-  unchanged. Localized text, broader portraits and the item-description audit
-  remain parked. End at verified local commits; publication stays separate.
+  unchanged. Localized text and broader portraits remain parked. The later
+  item-description audit is complete as recorded below. End at verified local
+  commits; publication stays separate.
 - Native browser review passes all 92 baselines after accepting only 18 new
   native Blueprint captures and the two intentional stone-entrance materials
   captures. All 80 targeted artwork captures were inspected in both themes,
@@ -153,7 +166,8 @@ technical records remain distinct. No description ingestion is justified by that
 record; fresh extraction and description ownership work stay parked.
 
 A subsequent instruction authorized jewel-to-ability navigation. See the
-[local implementation checkpoint](checkpoints/2026-10-02-jewel-ability-navigation.md).
+[local implementation checkpoint](checkpoints/2026-10-02-jewel-ability-navigation.md)
+and [copy-refinement checkpoint](checkpoints/2026-10-02-jewel-ability-copy-refinement.md).
 All 154 jewel details now expose association state: 129 recorded links across 43
 current ability routes, with 25 explicitly unrecorded. Generation and validation
 require exact source-component prefab/GUID joins, unique ability destinations,
@@ -164,8 +178,34 @@ unchanged. This is recorded navigation, without roll or acquisition claims.
 Local Chromium checks cover both themes, mobile and desktop, keyboard navigation,
 history/reload, image fallback and native 200% zoom. The 92 baseline comparisons
 pass the existing comparator; they are not a claim of byte-identical screenshots.
-The change ends at one local commit. Publication and further enrichment remain
-separate instructions.
+The implementation is committed as `861d98ed1b`. The separate `e19d632d2a`
+refinement removes redundant recorded-association copy while retaining the link,
+source disclosure and explicit unrecorded message. Its required verification,
+20 detail tests and 38 focused captures pass; all 16,501 checked data, map,
+artwork, branding and baseline files remain identical. Both commits are local.
+Publication and further enrichment remain separate instructions.
+
+## Next menu: proposed, not started
+
+1. **Mobile linked-record cards: recommended next implementation.** The latest
+   320px jewel capture shows recipe GUIDs crowding titles and prefab identifiers
+   wrapping into short fragments. Inspect the shared `DbReferenceList` layout
+   across representative item, recipe, ability and workstation relations, then
+   adjust mobile placement and wrapping. Preserve complete titles, identifiers,
+   quantities, artwork and whole-card navigation. Accept only after both-theme
+   320/390px, desktop, keyboard, artwork-fallback and 200% zoom checks. Do not
+   change association data, source wording or unrelated page layouts.
+2. **Publication preparation: separate delivery option.** Inventory the reviewed
+   stack, reconcile local main and the jewel branch, and prepare a concrete
+   review description with the retained checks and remaining limits. Any push,
+   PR, merge or deployment needs a separate instruction. Native capture history
+   and weaker curated artwork evidence must remain distinguishable in the
+   delivery description.
+
+The first candidate comes from the current copy-refinement capture
+`targeted-captures/ability-focus-dark-320.png`, not an older task queue. It is a
+readability issue in existing related-record cards; the new Associated ability
+chip remains clear. Broader enrichment lanes below are still parked.
 
 ## Parked lanes
 
