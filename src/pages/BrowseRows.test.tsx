@@ -5,11 +5,11 @@ import { MemoryRouter } from "react-router-dom";
 import { DbArtwork } from "../components/db/DbArtwork";
 import { BrowseControlStrip } from "../components/common/BrowseControlStrip";
 import { ItemIndexRow, NpcIndexRow } from "./DbListPage";
-import { DbIndexCard } from "../components/db/DbCards";
+import { DbIndexCard, DbReferenceList } from "../components/db/DbCards";
 import { hasUsefulDbFacet } from "../config/dbBrowse";
 import { itemRowSummary } from "../lib/dbPresentation";
 import { SearchResultRow } from "./SearchPage";
-import type { DbIndexEntry } from "../types/db";
+import type { DbIndexEntry, DbRelatedEntityRef } from "../types/db";
 
 const item: DbIndexEntry = {
   title: "Blood Essence", slug: "blood-essence", path: "/db/items/blood-essence",
@@ -26,6 +26,39 @@ function render(element: React.ReactElement) {
     console.error = originalError;
   }
 }
+
+test("related cards preserve complete names, identifiers, zero values and exact destinations in order", () => {
+  const refs: DbRelatedEntityRef[] = [
+    { title: "A Very Long UnbrokenReferenceTitle", prefab: "Item_Long_Unbroken_Prefab_Identifier", guid: 0,
+      amount: 0, path: "/db/items/exact-zero", icon: "/existing.png" },
+    { title: "Negative GUID", prefab: "Recipe_Negative", guid: -2125962345, path: "/db/recipes/exact-negative" }
+  ];
+  const html = render(<DbReferenceList items={refs} emptyLabel="No records" />);
+  for (const ref of refs) {
+    assert.ok(html.includes(ref.title));
+    assert.ok(html.includes(ref.prefab));
+    assert.ok(html.includes(`href="${ref.path}"`));
+  }
+  assert.match(html, /data-db-reference-amount=""><span[^>]*>0x<\/span>/);
+  assert.match(html, /data-db-reference-guid=""[^>]*>0<\/div>/);
+  assert.match(html, /data-db-reference-guid=""[^>]*>-2125962345<\/div>/);
+  assert.ok(html.indexOf(refs[0].title) < html.indexOf(refs[1].title));
+  assert.equal((html.match(/data-db-reference-amount=/g) ?? []).length, 1);
+  assert.equal((html.match(/<img /g) ?? []).length, 1);
+});
+
+test("related cards omit absent metadata and artwork without inventing links", () => {
+  const html = render(<DbReferenceList items={[{ title: "Unknown record", prefab: "Unknown_Prefab", guid: null }]} emptyLabel="No records" />);
+  assert.match(html, /Unknown record/);
+  assert.match(html, /Unknown_Prefab/);
+  assert.doesNotMatch(html, /<a |<img |data-db-reference-metadata|data-db-reference-guid|data-db-reference-amount/);
+  const quantityOnly = render(<DbReferenceList items={[{ title: "Quantity only", prefab: "Only_Quantity", guid: null, amount: 2 }]} emptyLabel="No records" />);
+  assert.match(quantityOnly, />2x<\/span>/);
+  assert.doesNotMatch(quantityOnly, /data-db-reference-guid/);
+  const empty = render(<DbReferenceList items={[]} emptyLabel="No recorded relation" />);
+  assert.match(empty, /No recorded relation/);
+  assert.doesNotMatch(empty, /<ul|<a |data-db-reference/);
+});
 
 test("artwork is optional and portraits take precedence over an existing sprite", () => {
   assert.equal(renderToStaticMarkup(<DbArtwork />), "");

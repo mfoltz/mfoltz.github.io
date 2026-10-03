@@ -159,19 +159,22 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
   return (
     <ul className="database-list-surface divide-y divide-[var(--database-divider)] rounded-[1.15rem]">
       {items.map((item) => {
+        const hasMetadata = typeof item.amount === "number" || item.guid !== null;
         const content = (
-          <div className="flex items-start justify-between gap-4 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)]">
+          <div data-db-reference={item.prefab} className="flex flex-col gap-2 px-4 py-3 transition group-hover:bg-[rgba(168,121,230,0.06)] sm:flex-row sm:items-start sm:justify-between sm:gap-4">
             <div className="flex min-w-0 items-start gap-3">
               {item.icon ? <DbIconAvatar title={item.title} icon={item.icon} className="h-11 w-11 rounded-[0.85rem]" monogramClassName="text-xs" /> : null}
               <div className="min-w-0">
-                <div className="font-medium text-[var(--database-ink)]">{item.title}</div>
-                <div className="mt-1 break-all font-mono text-xs text-[var(--database-muted)]">{item.prefab}</div>
+                <div data-db-reference-title="" className="break-words font-medium text-[var(--database-ink)] sm:break-normal">{item.title}</div>
+                <div data-db-reference-prefab="" className="mt-1 break-words font-mono text-xs text-[var(--database-muted)] sm:break-all">{item.prefab}</div>
               </div>
             </div>
-            <div className="shrink-0 text-right">
-              {typeof item.amount === "number" ? <DbBadge tone="accent">{`${item.amount}x`}</DbBadge> : null}
-              {item.guid !== null ? <div className="mt-2 text-xs text-[var(--database-muted)]">{item.guid}</div> : null}
-            </div>
+            {hasMetadata ? (
+              <div data-db-reference-metadata="" className={joinClasses("flex min-w-0 flex-wrap items-center gap-x-3 gap-y-2 sm:block sm:shrink-0 sm:text-right", item.icon && "pl-14 sm:pl-0")}>
+                {typeof item.amount === "number" ? <span data-db-reference-amount=""><DbBadge tone="accent">{`${item.amount}x`}</DbBadge></span> : null}
+                {item.guid !== null ? <div data-db-reference-guid="" className="text-xs text-[var(--database-muted)] sm:mt-2">{item.guid}</div> : null}
+              </div>
+            ) : null}
           </div>
         );
 

@@ -6,6 +6,7 @@ Older notes in this folder predate the polish overlay and should be read as vali
 
 Use the [active roadmap](../source-backed-next-thread-roadmap.md) for current
 delivery status and priorities. The latest local implementation receipts are
+[mobile linked-record cards](2026-10-02-mobile-linked-record-cards.md),
 [jewel-to-ability navigation](2026-10-02-jewel-ability-navigation.md) and its
 [copy refinement](2026-10-02-jewel-ability-copy-refinement.md). The
 [September 30 Blueprint integration receipt](2026-09-30-blueprint-integration.md)

@@ -7,13 +7,13 @@ extraction authority.
 
 ## Current delivery state
 
-The reviewed implementation/evidence stack ends at `e19d632d2a` on
-`codex/jewel-ability-navigation`. Local main is `1f39c82fa2`, with nine Blueprint
-commits above the published base; the jewel branch adds implementation
-`861d98ed1b` and copy refinement `e19d632d2a`. Those 11 reviewed local commits
-remain unpublished. Roadmap-only maintenance follows that reviewed stack.
+Local main is `1f39c82fa2`, with nine Blueprint commits above the published base.
+The `codex/jewel-ability-navigation` branch adds implementation `861d98ed1b`,
+copy refinement `e19d632d2a`, roadmap maintenance `6cdff3dde3`, and the verified
+mobile-card pass recorded below. This stack remains unpublished; the mobile
+receipt retains its exact commit identity outside the committed checkpoint.
 
-A read-only remote check still resolves published main to
+The last recorded read-only remote check resolves published main to
 `6226c16382173aa34160bdf27894cad6cb22f177`. Local completion and publication are
 separate states; the delivered foundation below includes both.
 
@@ -185,27 +185,38 @@ source disclosure and explicit unrecorded message. Its required verification,
 artwork, branding and baseline files remain identical. Both commits are local.
 Publication and further enrichment remain separate instructions.
 
-## Next menu: proposed, not started
+## Mobile linked-record cards: complete locally
 
-1. **Mobile linked-record cards: recommended next implementation.** The latest
-   320px jewel capture shows recipe GUIDs crowding titles and prefab identifiers
-   wrapping into short fragments. Inspect the shared `DbReferenceList` layout
-   across representative item, recipe, ability and workstation relations, then
-   adjust mobile placement and wrapping. Preserve complete titles, identifiers,
-   quantities, artwork and whole-card navigation. Accept only after both-theme
-   320/390px, desktop, keyboard, artwork-fallback and 200% zoom checks. Do not
-   change association data, source wording or unrelated page layouts.
-2. **Publication preparation: separate delivery option.** Inventory the reviewed
-   stack, reconcile local main and the jewel branch, and prepare a concrete
-   review description with the retained checks and remaining limits. Any push,
-   PR, merge or deployment needs a separate instruction. Native capture history
-   and weaker curated artwork evidence must remain distinguishable in the
-   delivery description.
+The approved shared-card refinement moves quantity/GUID metadata below full
+names at widths below 640px. The existing icon and whole-card navigation remain;
+metadata aligns with the text, including icon-free rows. At 640px and above,
+the current horizontal layout and right-aligned metadata are preserved. See the
+[mobile-card checkpoint](checkpoints/2026-10-02-mobile-linked-record-cards.md).
 
-The first candidate comes from the current copy-refinement capture
-`targeted-captures/ability-focus-dark-320.png`, not an older task queue. It is a
-readability issue in existing related-record cards; the new Associated ability
-chip remains clear. Broader enrichment lanes below are still parked.
+All 36 changed mobile captures were inspected across six detail fixtures, both
+themes and 320/390/639px. The 24 desktop captures at 640/1280px match their before
+images byte for byte. The focused checks cover full text, zero/negative/null
+values, exact destinations, keyboard/back navigation, artwork failure and native
+200% zoom. Inter and Cinzel loaded for acceptance. Required verification, unit,
+artwork, jewel, responsive browse, Blueprint and baseline checks pass; all 16,501
+checked data, map, artwork, branding and baseline hashes remain unchanged.
+
+## Next menu: local review preparation authorized, publication separate
+
+Prepare two local Markdown review units without changing existing history:
+
+1. **Blueprint:** recorded remote base `6226c16382173aa34160bdf27894cad6cb22f177`
+   through local main `1f39c82fa2`, including source/book/material navigation and
+   the bounded native artwork reconciliation.
+2. **Jewel/mobile:** `1f39c82fa2` through the verified mobile implementation,
+   including recorded ability navigation, copy refinement and shared cards.
+
+Refresh remote main read-only before drafting; stop preparation if it differs
+from the recorded base. Include dependency order, exact commits, diff statistics,
+validation receipts, preservation and limits. Keep native Sprite identity and
+the nine proven artwork joins distinct from weaker curated associations. Any
+push, PR, merge, rebase or deployment remains a separate instruction. Broader
+enrichment lanes below remain parked.
 
 ## Parked lanes
 
