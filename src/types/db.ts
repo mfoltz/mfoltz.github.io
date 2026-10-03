@@ -143,6 +143,11 @@ export interface DbEntityDetail {
   tags?: string[];
   textVariableValues?: TextVariableResolutionMap;
   runtimeDamageEvidence?: DbRuntimeDamageEvidence[];
+  jewelAbilityStatus?: "recorded" | "unrecorded";
+  associatedAbilities?: DbRelatedEntityRef[];
+  jewelAbilitySourceKind?: "prefab-component";
+  jewelAbilitySourceComponent?: string;
+  jewelAbilitySourceRef?: string;
   [key: string]: unknown;
 }
 
@@ -159,6 +164,8 @@ export interface DbItemDetail extends DbEntityDetail {
   repairRecipePrefab?: string;
   salvageRecipePrefab?: string;
   consumeAbility?: string;
+  overrideAbilityPrefab?: string;
+  jewelTierIndex?: number;
   localizedDescriptionGuid?: string;
   localizedDescriptionTextEn?: string;
   repairRecipes?: DbRelatedEntityRef[];

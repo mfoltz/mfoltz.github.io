@@ -7,6 +7,7 @@ import { buildablePortraitReviewPath, selectReviewedBuildableAssets, type Builda
 import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
 import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
+import { indexJewelAbilityDestinations, readJewelAbilityDocument, validateJewelAbility, type JewelAbilityDestination } from "./jewel-abilities";
 import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
 import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
@@ -806,6 +807,10 @@ async function main() {
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();
+  const abilityIndexBySlug = new Map<string, IndexEntry>();
+  const jewelDetails: DbEntityDetail[] = [];
+  const abilityDestinations: JewelAbilityDestination[] = [];
+  const abilityDetailsByPath = new Map<string, DbEntityDetail>();
   const itemIconSources = new Map<string, string>();
 
   const abilityTooltipMapPath = path.join(repoRoot, "data", "enrichment", "ability-tooltip-map.json");
@@ -839,6 +844,7 @@ async function main() {
     }
     if (section === "abilities") {
       validateAbilityCatalog(entries, filePath);
+      for (const entry of entries) abilityIndexBySlug.set(entry.slug, entry);
     }
   }
 
@@ -847,7 +853,15 @@ async function main() {
     const detailFiles = (await readdir(detailPath)).filter((fileName) => fileName.endsWith(".json"));
     for (const fileName of detailFiles) {
       const filePath = path.join(detailPath, fileName);
-      const detail = await readJson<DetailEntry>(filePath);
+      const detail = await readJson<DetailEntry & DbEntityDetail>(filePath);
+      if (section === "items" && (detail.itemType === "Jewel" || detail.categories?.includes("Jewel"))) jewelDetails.push(detail);
+      if (section === "abilities") {
+        const index = abilityIndexBySlug.get(detail.slug);
+        if (!index || !detail.prefab) throw new Error(`${filePath}: missing ability index or prefab`);
+        abilityDestinations.push({ title: detail.title, prefab: detail.prefab, guid: detail.guid ?? null,
+          slug: detail.slug, path: index.path, icon: index.icon });
+        abilityDetailsByPath.set(index.path, detail);
+      }
       assertTextVariableValues(
         detail.textVariableValues,
         [detail.description, detail.summary, detail.tooltipTextEn, detail.localizedDescriptionTextEn],
@@ -860,6 +874,24 @@ async function main() {
       if (section === "npcs" && detail.portraitAssetPath) {
         assertNpcPortraitPath(detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
         await assertPublicIconExists(repoRoot, detail.portraitAssetPath, `${filePath}:${detail.slug}.portraitAssetPath`);
+      }
+    }
+  }
+
+  const allPrefabs = await readJson<Record<string, number>>(path.join(repoRoot, "data", "prefabs", "All.json"));
+  const abilityLookup = indexJewelAbilityDestinations(abilityDestinations);
+  for (const detail of jewelDetails) {
+    if (typeof detail.sourcePath !== "string") throw new Error(`${detail.slug}: missing jewel source path`);
+    const doc = readJewelAbilityDocument(detail.sourcePath, await readFile(path.join(repoRoot, detail.sourcePath), "utf8"));
+    validateJewelAbility(detail, doc, abilityLookup, allPrefabs);
+    for (const ability of detail.associatedAbilities!) {
+      const reverse = abilityDetailsByPath.get(ability.path!)?.spellJewels as RelatedEntityRef[] | undefined;
+      const itemPath = itemIndexBySlug.get(detail.slug)?.path;
+      assert(reverse?.filter((jewel) => jewel.prefab === detail.prefab && jewel.guid === detail.guid && jewel.path === itemPath).length === 1,
+        `${detail.prefab}: missing or duplicate reverse Spell Jewels link`);
+      if (ability.icon) {
+        assert(ability.icon.startsWith("/icons/abilities/") && !ability.icon.includes(".."), `${detail.prefab}: invalid associated ability icon`);
+        await assertPublicIconExists(repoRoot, ability.icon, `${detail.prefab}: associated ability`);
       }
     }
   }

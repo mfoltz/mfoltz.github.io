@@ -20,6 +20,7 @@ import {
 } from "./blueprint-unlocks";
 import { slugFromRelativePath } from "../src/lib/slug";
 import { buildBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
+import { buildJewelAbility, indexJewelAbilityDestinations } from "./jewel-abilities";
 import {
   filterTextVariableResolutionsForText,
   isTextVariableSourceKind,
@@ -2980,6 +2981,20 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
   }
 
   entities.workstations = enrichWorkstationsWithRecipes(builtWorkstations, builtRecipes).map(({ index, detail }) => ({ index, detail }));
+  const abilityDestinations = indexJewelAbilityDestinations(entities.abilities.map(({ index, detail }) => ({
+    title: index.title, prefab: detail.prefab as string, guid: detail.guid as number | null,
+    slug: index.slug, path: index.path, icon: index.icon
+  })));
+  const allPrefabs = JSON.parse(await readFile(path.join(repoRoot, "data", "prefabs", "All.json"), "utf8")) as Record<string, number>;
+  const itemDocsByPrefab = new Map(itemDocs.map((doc) => [doc.prefabName, doc]));
+  entities.items = enrichedItems.map((item) => {
+    if (item.detail.itemType !== "Jewel" && !item.index.categories.includes("Jewel")) return { index: item.index, detail: item.detail };
+    const doc = itemDocsByPrefab.get(item.prefabName)!;
+    const association = buildJewelAbility({ prefabName: doc.prefabName, guid: doc.guid, sourcePath: doc.sourcePath,
+      overrideAbilityType: getFirstField(getComponents(doc).get("ProjectM.Shared.JewelInstance"), ["OverrideAbilityType"]) },
+      abilityDestinations, allPrefabs);
+    return { index: item.index, detail: { ...item.detail, ...association } };
+  });
   entities.abilities = enrichAbilitiesWithSpellJewels(entities.abilities, enrichedItems);
 
   return entities;

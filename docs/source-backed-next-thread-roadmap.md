@@ -145,16 +145,27 @@ four held entrances. See the
   captures. All 80 targeted artwork captures were inspected in both themes,
   including 320px width; existing interaction, responsive and zoom checks pass.
 
-## Later candidate, requiring a new instruction
+## Item-description audit and jewel navigation: complete locally
 
-After the completed Blueprint pass, a later candidate is a bounded item-description
-audit of the 246 misses (1130 minus 884). All misses lack a description key; the
-recorded item snapshot has 198 blank records and omits 48. Begin read-only and distinguish blank
-upstream records from ingest gaps. A useful result is a classified evidence
-sheet, an exact source contract, and a stop gate; it is not automatic permission
-to extract, promote text, change assets, or implement the follow-up.
+The separately authorized description audit found no recoverable item-owned text
+for the 246 misses in retained snapshots. The 198 recorded blanks and 48 omitted
+technical records remain distinct. No description ingestion is justified by that
+record; fresh extraction and description ownership work stay parked.
 
-The item-description audit requires a separate instruction.
+A subsequent instruction authorized jewel-to-ability navigation. See the
+[local implementation checkpoint](checkpoints/2026-10-02-jewel-ability-navigation.md).
+All 154 jewel details now expose association state: 129 recorded links across 43
+current ability routes, with 25 explicitly unrecorded. Generation and validation
+require exact source-component prefab/GUID joins, unique ability destinations,
+source provenance, and existing reverse Spell Jewels links. Ordinary items,
+description text, indexes, other database sections, artwork and baselines are
+unchanged. This is recorded navigation, without roll or acquisition claims.
+
+Local Chromium checks cover both themes, mobile and desktop, keyboard navigation,
+history/reload, image fallback and native 200% zoom. The 92 baseline comparisons
+pass the existing comparator; they are not a claim of byte-identical screenshots.
+The change ends at one local commit. Publication and further enrichment remain
+separate instructions.
 
 ## Parked lanes
 

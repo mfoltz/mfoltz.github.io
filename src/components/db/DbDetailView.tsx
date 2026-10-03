@@ -63,6 +63,7 @@ const itemDetailPresentation = {
     "Use effect": "⚡"
   } as Record<string, string>,
   relationGroups: [
+    { key: "associatedAbilities", title: "Associated ability", emptyLabel: "No ability association is recorded in this snapshot." },
     { key: "relatedRecipes", title: "Crafting records", emptyLabel: "No crafting recipe linked." },
     { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." }
   ] as const
@@ -1310,9 +1311,13 @@ function getItemLinkedRecordCount(detail: DbEntityDetail): number {
   return itemDetailPresentation.relationGroups.reduce((count, relation) => count + getRelatedEntityList(detail, relation.key).length, 0);
 }
 
+function hasJewelAbilityAssociation(detail: DbEntityDetail): boolean {
+  return detail.jewelAbilityStatus === "recorded" || detail.jewelAbilityStatus === "unrecorded";
+}
+
 function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
   const linkedCount = getItemLinkedRecordCount(detail);
-  if (linkedCount === 0) {
+  if (linkedCount === 0 && !hasJewelAbilityAssociation(detail)) {
     return null;
   }
 
@@ -1321,6 +1326,29 @@ function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
       <div className="space-y-5">
         {itemDetailPresentation.relationGroups.map((relation) => {
           const items = getRelatedEntityList(detail, relation.key);
+          if (relation.key === "associatedAbilities" && hasJewelAbilityAssociation(detail)) {
+            return (
+              <div key={relation.key} id="jewel-associated-ability" className="space-y-2.5">
+                <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
+                <p className="text-sm leading-6 text-[var(--database-muted)]">
+                  {detail.jewelAbilityStatus === "recorded" ? "Recorded ability association from the source snapshot." : relation.emptyLabel}
+                </p>
+                {items.length > 0 ? (
+                  <ul className="flex min-w-0 flex-wrap gap-2">
+                    {items.map((ability) => (
+                      <li key={`${ability.prefab}:${ability.guid}`} className="min-w-0 max-w-full">
+                        <Link to={ability.path!} className="database-chip inline-flex max-w-full items-center gap-2 rounded-full px-3 py-2 text-sm text-[var(--database-ink)]">
+                          <DbArtwork icon={ability.icon} size="ingredient" />
+                          <span className="min-w-0 whitespace-normal">{ability.title}</span>
+                          <span aria-hidden="true" className="shrink-0 text-[var(--database-accent-soft)]">→</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </div>
+            );
+          }
           if (items.length === 0) {
             return null;
           }
@@ -1725,7 +1753,7 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
   const workstationLinkedRecordCount = hasStructuredWorkstationSummary ? getWorkstationLinkedRecordCount(detail) : 0;
   const npcLinkedRecordCount = hasStructuredNpcSummary ? getNpcLinkedRecordCount(detail) : 0;
   const consolidatedItemRelationItem =
-    section === "items" && hasStructuredItemSummary && itemLinkedRecordCount > 0
+    section === "items" && hasStructuredItemSummary && (itemLinkedRecordCount > 0 || hasJewelAbilityAssociation(detail))
       ? {
           id: itemDetailPresentation.linkedRecordsAnchorId,
           label: itemDetailPresentation.linkedRecordsTitle,
@@ -1786,6 +1814,11 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
     (row) => !hasStructuredItemSummary || !row.key || !itemDetailPresentation.summaryFieldKeys.has(row.key)
   );
   const provenanceRows = buildRowsFromSpecs(detail, schema.provenanceFields ?? []);
+  const associatedAbility = section === "items" ? getRelatedEntityList(detail, "associatedAbilities")[0] : undefined;
+  if (typeof associatedAbility?.guid === "number") {
+    provenanceRows.push({ key: "associatedAbilityGuid", label: "Associated Ability GUID",
+      value: formatNumber(associatedAbility.guid), copyValue: String(associatedAbility.guid) });
+  }
   const technicalRows = buildRowsFromSpecs(detail, schema.technicalFields);
   const usedKeys = new Set<string>([
     ...hiddenKeys,

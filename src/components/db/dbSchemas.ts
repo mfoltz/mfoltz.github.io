@@ -52,6 +52,12 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "localizedDescriptionGuid", label: "Localized Description GUID", format: "code" },
       { key: "repairRecipePrefab", label: "Repair Recipe Prefab", format: "code" },
       { key: "salvageRecipePrefab", label: "Salvage Recipe Prefab", format: "code" },
+      { key: "overrideAbilityPrefab", label: "Associated Ability Prefab", format: "code" },
+      { key: "jewelTierIndex", label: "Recorded Jewel Tier Index", format: "number" },
+      { key: "jewelAbilityStatus", label: "Ability Association Status" },
+      { key: "jewelAbilitySourceComponent", label: "Ability Association Component", format: "code" },
+      { key: "jewelAbilitySourceKind", label: "Ability Association Source" },
+      { key: "jewelAbilitySourceRef", label: "Ability Association Source Ref", format: "code" },
       { key: "iconAssetPath", label: "Icon Asset Path", format: "code" },
       { key: "iconAssetName", label: "Icon Asset Name", format: "code" },
       { key: "iconSourceKind", label: "Icon Source" },
@@ -65,6 +71,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "sourcePath", label: "Source Markdown", format: "code" }
     ],
     relationSections: [
+      { key: "associatedAbilities", title: "Associated ability", emptyLabel: "No ability association is recorded in this snapshot." },
       { key: "relatedRecipes", title: "Crafted From", emptyLabel: "No crafting recipe linked." },
       { key: "repairRecipes", title: "Repair And Salvage", emptyLabel: "No repair or salvage recipes linked." }
     ],

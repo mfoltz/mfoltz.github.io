@@ -67,6 +67,34 @@ function countMatches(value: string, pattern: RegExp): number {
   return value.match(pattern)?.length ?? 0;
 }
 
+test("jewel details expose one associated ability with source provenance and retain recipe groups", () => {
+  const detail: DbEntityDetail = { ...itemDetailFixture, title: "Aftershock Jewel", itemType: "Jewel", itemGroup: "Jewels",
+    jewelAbilityStatus: "recorded", overrideAbilityPrefab: "AB_Chaos_Aftershock_Group",
+    jewelAbilitySourceKind: "prefab-component", jewelAbilitySourceComponent: "ProjectM.Shared.JewelInstance.OverrideAbilityType",
+    jewelAbilitySourceRef: "content/prefabs/Item_Jewel_Chaos_T02_Aftershock.md",
+    associatedAbilities: [{ title: "Aftershock", prefab: "AB_Chaos_Aftershock_Group", guid: 1575317901,
+      path: "/db/abilities/ab-chaos-aftershock-group" }] };
+  const html = renderDetail(detail, "items");
+  assert.equal(countMatches(html, /id="jewel-associated-ability"/g), 1);
+  assert.match(html, /Recorded ability association from the source snapshot/);
+  assert.match(html, /href="\/db\/abilities\/ab-chaos-aftershock-group"/);
+  assert.match(html, /ProjectM\.Shared\.JewelInstance\.OverrideAbilityType/);
+  assert.match(html, /Ability Association Source Ref/);
+  assert.match(html, /Crafting records/);
+  assert.match(html, /Repair records/);
+  assert.doesNotMatch(html, /No ability association is recorded/);
+});
+
+test("an unlinked jewel with no recipes still exposes its explicit unrecorded state", () => {
+  const html = renderDetail({ slug: "unlinked-jewel", title: "Unlinked Jewel", itemType: "Jewel", maxAmount: 1,
+    jewelAbilityStatus: "unrecorded", associatedAbilities: [] }, "items");
+  assert.match(html, /href="#linked-records"/);
+  assert.match(html, /id="jewel-associated-ability"/);
+  assert.match(html, /No ability association is recorded in this snapshot/);
+  assert.doesNotMatch(html, /href="\/db\/abilities\//);
+  assert.doesNotMatch(renderItemDetail(), /Associated ability|jewel-associated-ability/);
+});
+
 test("structured recipe detail keeps summary cues while consolidating duplicate relation sections", () => {
   const html = renderRecipeDetail();
 
