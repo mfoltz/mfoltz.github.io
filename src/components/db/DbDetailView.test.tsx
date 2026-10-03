@@ -76,7 +76,7 @@ test("jewel details expose one associated ability with source provenance and ret
       path: "/db/abilities/ab-chaos-aftershock-group" }] };
   const html = renderDetail(detail, "items");
   assert.equal(countMatches(html, /id="jewel-associated-ability"/g), 1);
-  assert.match(html, /Recorded ability association from the source snapshot/);
+  assert.doesNotMatch(html, /Recorded ability association from the source snapshot/);
   assert.match(html, /href="\/db\/abilities\/ab-chaos-aftershock-group"/);
   assert.match(html, /ProjectM\.Shared\.JewelInstance\.OverrideAbilityType/);
   assert.match(html, /Ability Association Source Ref/);

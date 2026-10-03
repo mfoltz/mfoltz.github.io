@@ -1330,9 +1330,9 @@ function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
             return (
               <div key={relation.key} id="jewel-associated-ability" className="space-y-2.5">
                 <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
-                <p className="text-sm leading-6 text-[var(--database-muted)]">
-                  {detail.jewelAbilityStatus === "recorded" ? "Recorded ability association from the source snapshot." : relation.emptyLabel}
-                </p>
+                {detail.jewelAbilityStatus === "unrecorded" ? (
+                  <p className="text-sm leading-6 text-[var(--database-muted)]">{relation.emptyLabel}</p>
+                ) : null}
                 {items.length > 0 ? (
                   <ul className="flex min-w-0 flex-wrap gap-2">
                     {items.map((ability) => (
