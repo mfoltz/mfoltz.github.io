@@ -151,7 +151,9 @@ export function DbFieldGrid({
   );
 }
 
-export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityRef[]; emptyLabel: string }) {
+export function DbReferenceList({ items, emptyLabel, formatAmount = amount => `${amount}x` }: {
+  items: DbRelatedEntityRef[]; emptyLabel: string; formatAmount?: (amount: number) => string;
+}) {
   if (items.length === 0) {
     return <p className="text-sm text-[var(--database-muted)]">{emptyLabel}</p>;
   }
@@ -171,7 +173,7 @@ export function DbReferenceList({ items, emptyLabel }: { items: DbRelatedEntityR
             </div>
             {hasMetadata ? (
               <div data-db-reference-metadata="" className={joinClasses("flex min-w-0 flex-wrap items-center gap-x-3 gap-y-2 sm:block sm:shrink-0 sm:text-right", item.icon && "pl-14 sm:pl-0")}>
-                {typeof item.amount === "number" ? <span data-db-reference-amount=""><DbBadge tone="accent">{`${item.amount}x`}</DbBadge></span> : null}
+                {typeof item.amount === "number" ? <span data-db-reference-amount=""><DbBadge tone="accent">{formatAmount(item.amount)}</DbBadge></span> : null}
                 {item.guid !== null ? <div data-db-reference-guid="" className="text-xs text-[var(--database-muted)] sm:mt-2">{item.guid}</div> : null}
               </div>
             ) : null}

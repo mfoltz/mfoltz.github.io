@@ -33,10 +33,10 @@ function renderWithoutLayoutWarning(render: () => string) {
   }
 }
 
-function renderDetail(detail: DbEntityDetail, section: DbSection) {
+function renderDetail(detail: DbEntityDetail, section: DbSection, entry = "/") {
   return renderWithoutLayoutWarning(() =>
     renderToStaticMarkup(
-      <MemoryRouter>
+      <MemoryRouter initialEntries={[entry]}>
         <DbDetailView detail={detail} section={section} />
       </MemoryRouter>
     )
@@ -66,6 +66,51 @@ function renderWorkstationWithInventoryDetail() {
 function countMatches(value: string, pattern: RegExp): number {
   return value.match(pattern)?.length ?? 0;
 }
+
+const ingredientRecipeFixture = Array.from({ length: 13 }, (_, i) => ({
+  title: `Complete Recipe Name ${i}`, prefab: `Recipe_Test_${i}`, guid: i === 0 ? 0 : -i, amount: i + 1,
+  slug: `recipe-test-${i}`, path: `/db/recipes/recipe-test-${i}`,
+  ...(i === 0 ? { icon: "/icons/items/test.png" } : {}),
+  sourceComponent: "ProjectM.RecipeRequirementBuffer", sourcePath: `content/prefabs/Recipe_Test_${i}.md`
+}));
+
+test("ingredient recipes follow existing item groups, retain full identifiers and paginate", () => {
+  const html = renderDetail({ ...itemDetailFixture, ingredientRecipes: ingredientRecipeFixture }, "items");
+  assert(html.indexOf("Used in recipes") > html.indexOf("Repair records"));
+  assert.equal(countMatches(html, /data-db-reference="Recipe_Test_\d+"/g), 12);
+  assert.match(html, /Showing 12 of 13 recorded recipes/);
+  assert.match(html, /Complete Recipe Name 11/);
+  assert.match(html, /Recipe_Test_11/);
+  assert.match(html, /href="\/db\/recipes\/recipe-test-11"/);
+  assert.match(html, />12 required</);
+  assert.match(html, />0<\/div>/);
+  assert.match(html, />-11<\/div>/);
+  assert.match(html, /src="\/icons\/items\/test.png"/);
+  assert.match(html, /Show more/);
+  assert.doesNotMatch(html, /Ingredient Recipes|Developer Raw/);
+});
+
+test("ingredient-use fallback layout and shared URLs restore search and expansion", () => {
+  const detail = { slug: "plain", title: "Plain", ingredientRecipes: ingredientRecipeFixture };
+  const expanded = renderDetail(detail, "items", "/db/items/plain?usesShown=24");
+  assert.equal(countMatches(expanded, /data-db-reference="Recipe_Test_\d+"/g), 13);
+  assert.match(expanded, /href="#relation-used-in-recipes"/);
+  assert.doesNotMatch(expanded, /Show more|Developer Raw/);
+  const filtered = renderDetail(detail, "items", "/db/items/plain?usesQ=recipe_test_12+-12");
+  assert.equal(countMatches(filtered, /data-db-reference="Recipe_Test_\d+"/g), 1);
+  assert.match(filtered, />13 required</);
+  assert.match(filtered, /Clear search/);
+  const empty = renderDetail(detail, "items", "/db/items/plain?usesQ=absent");
+  assert.match(empty, /No recorded recipes match this search/);
+  assert.equal(countMatches(empty, /data-db-reference="Recipe_Test_\d+"/g), 0);
+});
+
+test("absent ingredient uses leave items unchanged and do not assert that an item has no uses", () => {
+  for (const ingredientRecipes of [undefined, []]) {
+    const html = renderDetail({ ...itemDetailFixture, ingredientRecipes }, "items");
+    assert.doesNotMatch(html, /Used in recipes|item-recipe-uses|No uses|No recorded recipes/);
+  }
+});
 
 test("jewel details expose one associated ability with source provenance and retain recipe groups", () => {
   const detail: DbEntityDetail = { ...itemDetailFixture, title: "Aftershock Jewel", itemType: "Jewel", itemGroup: "Jewels",

@@ -15,6 +15,7 @@ import { DbArtwork } from "./DbArtwork";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 import { BlueprintUnlockSources } from "./BlueprintUnlockSources";
 import { BlueprintBuildMaterials } from "./BlueprintBuildMaterials";
+import { IngredientRecipeUses } from "./IngredientRecipeUses";
 
 const hiddenKeys = new Set([
   "slug",
@@ -65,7 +66,8 @@ const itemDetailPresentation = {
   relationGroups: [
     { key: "associatedAbilities", title: "Associated ability", emptyLabel: "No ability association is recorded in this snapshot." },
     { key: "relatedRecipes", title: "Crafting records", emptyLabel: "No crafting recipe linked." },
-    { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." }
+    { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." },
+    { key: "ingredientRecipes", title: "Used in recipes", emptyLabel: "No recorded recipes match this search." }
   ] as const
 };
 const npcDetailPresentation = {
@@ -1356,7 +1358,7 @@ function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
           return (
             <div key={relation.key} className="space-y-2.5">
               <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
-              <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />
+              {relation.key === "ingredientRecipes" ? <IngredientRecipeUses items={items} /> : <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />}
             </div>
           );
         })}
@@ -1885,6 +1887,13 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
             : renderNpcLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {
               const value = detail[relation.key];
+              if (section === "items" && relation.key === "ingredientRecipes") {
+                return isRelatedEntityList(value) && value.length > 0 ? (
+                  <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>
+                    <IngredientRecipeUses items={value} />
+                  </DbSurface>
+                ) : null;
+              }
               if (section === "blueprints" && relation.key === "buildMaterials") {
                 return <BlueprintBuildMaterials key={relation.key} status={detail.buildMaterialStatus} items={isRelatedEntityList(value) ? value : []} />;
               }

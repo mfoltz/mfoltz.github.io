@@ -73,7 +73,8 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     relationSections: [
       { key: "associatedAbilities", title: "Associated ability", emptyLabel: "No ability association is recorded in this snapshot." },
       { key: "relatedRecipes", title: "Crafted From", emptyLabel: "No crafting recipe linked." },
-      { key: "repairRecipes", title: "Repair And Salvage", emptyLabel: "No repair or salvage recipes linked." }
+      { key: "repairRecipes", title: "Repair And Salvage", emptyLabel: "No repair or salvage recipes linked." },
+      { key: "ingredientRecipes", title: "Used in recipes", emptyLabel: "No recorded recipes match this search." }
     ],
     playerSectionTitle: "Player Context",
     usageSectionTitle: "Usage & Links",

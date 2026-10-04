@@ -7,6 +7,24 @@ extraction authority.
 
 ## Current delivery state
 
+Ingredient-to-recipe navigation is complete locally on branch
+`codex/ingredient-recipe-navigation`, starting from main `d8206b489c`.
+Data commit `029160b3c1` adds 1,385 independently validated backlinks across
+221 items and 664 recipes. The separate UI/acceptance commit adds searchable,
+paged cards and a focused browser harness. Automation passes 80 captures, including search, expansion,
+history, source access, artwork fallback and native zoom; jewel/shared-card
+regressions pass. `npm run verify`, `npm test` and artwork tests pass.
+
+The first responsive browse run stopped at the Aftershock tooltip reload check.
+After separately authorized diagnosis/retry, the isolated check and full suite
+pass without product changes or weakened assertions; the initial cause remains
+unestablished. Changed captures were inspected with loaded Inter/Cinzel fonts.
+Only the four permitted Blood Essence detail/source baselines were accepted;
+all 92 final comparisons pass. Existing item fields, maps, other generated data,
+artwork and unaffected baselines remain unchanged. Main is unchanged and the
+owned preview is stopped. These are two local commits; publication is separate.
+See [the ingredient checkpoint](checkpoints/2026-10-04-ingredient-recipe-navigation.md).
+
 The reviewed application/evidence stack through `4eb8e790c6` is consolidated on
 local `main`: nine Blueprint commits followed by four jewel/mobile commits.
 The October 4 fast-forward created no new commit and retained the verified tree.
@@ -231,12 +249,13 @@ Drafts are retained under:
 Reviewing these completed units for delivery remains a high-value option. No
 push, PR or deployment is authorized by this roadmap update.
 
-## Next menu: source-backed navigation candidates, not started
+## Next menu: source-backed follow-ons or publication review
 
 The October 4 read-only census checks current generated prefab/GUID identities
-and exact item destinations. Item details currently expose recipes that produce
-the item and explicit repair links; reverse ingredient, Blueprint material and
-book-requirement navigation are absent.
+and exact item destinations. At main `d8206b489c`, item details expose recipes
+that produce the item and explicit repair links. Ingredient backlinks are now
+implemented and accepted on the local branch above.
+Blueprint material and book-requirement navigation remain absent.
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
@@ -244,7 +263,7 @@ book-requirement navigation are absent.
 | Book to declaring Blueprint requirements | 401 | 72 | 396 Blueprints | 49 |
 | Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-1. **Ingredient-to-recipe navigation: recommended next implementation.** Let a
+1. **Ingredient-to-recipe navigation: complete locally.** Let a
    reader open Iron Ingot, Bone or Leather and inspect recipes recording that
    item as an ingredient. Use only existing `ProjectM.RecipeRequirementBuffer`
    rows, exact recipe/item identities and current destinations. All 1,385 rows
@@ -261,11 +280,14 @@ book-requirement navigation are absent.
    sparse Blueprint display text make scanability a greater constraint. Keep
    empty and held zero-valued buffers outside the positive-use interpretation.
 
-Before starting the first candidate, plan the presentation of large lists
-(Iron Ingot has 88 recipe uses), quantities, ordering, source access and empty
-states. Preserve output/repair groups, current browse state and complete names.
-Require independent source/destination validation, deterministic generation,
-rendering tests and focused mobile/desktop keyboard, history and visual checks.
+The approved ingredient plan uses 12 cards initially, title A-Z ordering,
+complete identifiers, recorded requirement quantities, full-list search and
+URL-preserved expansion. Source access follows recipe details. Independent
+source/destination validation, deterministic generation and browser acceptance
+pass. The next bounded enrichment candidate is book-to-Blueprint reverse
+navigation; the existing publication drafts remain a ready review option.
+Reconcile the separately completed ingredient branch before starting follow-on
+implementation from main. Neither action is authorized by this roadmap.
 Recorded recipe requirements do not establish crafting access or acquisition;
 absent reverse rows do not establish that an item has no use.
 
