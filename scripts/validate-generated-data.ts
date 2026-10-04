@@ -8,6 +8,8 @@ import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./bl
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
 import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import { indexJewelAbilityDestinations, readJewelAbilityDocument, validateJewelAbility, type JewelAbilityDestination } from "./jewel-abilities";
+import { buildIngredientRecipes, indexIngredientDestinations, readIngredientRecipeDocument, validateIngredientRecipes,
+  type IngredientDestination, type IngredientRecipeDocument } from "./ingredient-recipes";
 import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 import { bloodHuntsSourceKind, nameKeyToLocalizationGuid } from "./blood-hunts";
 import { npcPortraitCandidatesSourceKind, npcPortraitMapSourceKind, unsafeNpcPortraitPrefabPattern } from "./npc-portraits";
@@ -68,6 +70,7 @@ type DetailEntry = {
   textVariableValues?: TextVariableResolutionMap;
   repairRecipes?: RelatedEntityRef[];
   relatedRecipes?: RelatedEntityRef[];
+  ingredientRecipes?: RelatedEntityRef[];
   outputs?: RelatedEntityRef[];
   requirements?: RelatedEntityRef[];
   repairCosts?: RelatedEntityRef[];
@@ -81,6 +84,7 @@ type RelatedEntityGroupKey = keyof Pick<
   DetailEntry,
   | "repairRecipes"
   | "relatedRecipes"
+  | "ingredientRecipes"
   | "outputs"
   | "requirements"
   | "repairCosts"
@@ -751,6 +755,7 @@ function collectRelatedIcons(detail: DetailEntry): Array<[string, string]> {
   const relationGroups: RelatedEntityGroupKey[] = [
     "repairRecipes",
     "relatedRecipes",
+    "ingredientRecipes",
     "outputs",
     "requirements",
     "repairCosts",
@@ -879,6 +884,29 @@ async function main() {
   }
 
   const allPrefabs = await readJson<Record<string, number>>(path.join(repoRoot, "data", "prefabs", "All.json"));
+  const ingredientDetails: DbEntityDetail[] = [];
+  const ingredientItems: IngredientDestination[] = [];
+  const ingredientDestinations: IngredientDestination[] = [];
+  const ingredientDocs: IngredientRecipeDocument[] = [];
+  for (const section of ["items", "recipes"]) {
+    const index = await readJson<DbIndexEntry[]>(path.join(repoRoot, "public", "data", "db", section, "index.json"));
+    for (const entry of index) {
+      const detail = await readJson<DbEntityDetail>(path.join(repoRoot, "public", "data", "db", section, "by-slug", `${entry.slug}.json`));
+      if (typeof detail.prefab !== "string" || detail.slug !== entry.slug) throw new Error(`${entry.path}: missing ingredient identity`);
+      const target = { title: entry.title, prefab: detail.prefab, guid: detail.guid ?? null, slug: entry.slug, path: entry.path, icon: entry.icon };
+      if (section === "items") {
+        ingredientDetails.push(detail);
+        ingredientItems.push(target);
+      } else {
+        ingredientDestinations.push(target);
+        assert(detail.sourcePath === `content/prefabs/${detail.prefab}.md`, `${entry.path}: unexpected recipe source`);
+        ingredientDocs.push(readIngredientRecipeDocument(detail.sourcePath as string,
+          await readFile(path.join(repoRoot, detail.sourcePath as string), "utf8")));
+      }
+    }
+  }
+  validateIngredientRecipes(ingredientDetails, buildIngredientRecipes(ingredientDocs,
+    indexIngredientDestinations(ingredientItems), indexIngredientDestinations(ingredientDestinations), allPrefabs));
   const abilityLookup = indexJewelAbilityDestinations(abilityDestinations);
   for (const detail of jewelDetails) {
     if (typeof detail.sourcePath !== "string") throw new Error(`${detail.slug}: missing jewel source path`);

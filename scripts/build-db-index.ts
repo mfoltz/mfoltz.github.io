@@ -21,6 +21,7 @@ import {
 import { slugFromRelativePath } from "../src/lib/slug";
 import { buildBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import { buildJewelAbility, indexJewelAbilityDestinations } from "./jewel-abilities";
+import { buildIngredientRecipes, indexIngredientDestinations, ingredientRecipeComponent } from "./ingredient-recipes";
 import {
   filterTextVariableResolutionsForText,
   isTextVariableSourceKind,
@@ -2915,6 +2916,19 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
   const recipeDocs = docs.filter((doc) => doc.prefabName.startsWith("Recipe_"));
   const builtRecipes = recipeDocs.map((doc) => buildRecipeEntity(doc, getComponents(doc), itemLookup, buildContext));
   const enrichedItems = enrichItemsWithRecipes(builtItems, builtRecipes);
+  const allPrefabs = JSON.parse(await readFile(path.join(repoRoot, "data", "prefabs", "All.json"), "utf8")) as Record<string, number>;
+  const ingredientItems = indexIngredientDestinations(builtItems.map(item => ({ title: item.index.title,
+    prefab: item.prefabName, guid: item.detail.guid as number | null, slug: item.index.slug, path: item.index.path })));
+  const ingredientDestinations = indexIngredientDestinations(builtRecipes.map(recipe => ({ title: recipe.index.title,
+    prefab: recipe.prefabName, guid: recipe.detail.guid as number | null, slug: recipe.index.slug, path: recipe.index.path,
+    icon: recipe.outputs[0]?.icon })));
+  const ingredientRecipes = buildIngredientRecipes(recipeDocs.map(doc => ({ prefabName: doc.prefabName,
+    guid: doc.guid, sourcePath: doc.sourcePath, entries: getComponents(doc).get(ingredientRecipeComponent)?.entries ?? [] })),
+    ingredientItems, ingredientDestinations, allPrefabs);
+  for (const item of enrichedItems) {
+    const uses = ingredientRecipes.get(item.prefabName);
+    if (uses) item.detail.ingredientRecipes = uses;
+  }
   const builtWorkstations: BuiltWorkstationEntity[] = [];
 
   const entities: Record<Section, EntityBundle[]> = {
@@ -2985,7 +2999,6 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     title: index.title, prefab: detail.prefab as string, guid: detail.guid as number | null,
     slug: index.slug, path: index.path, icon: index.icon
   })));
-  const allPrefabs = JSON.parse(await readFile(path.join(repoRoot, "data", "prefabs", "All.json"), "utf8")) as Record<string, number>;
   const itemDocsByPrefab = new Map(itemDocs.map((doc) => [doc.prefabName, doc]));
   entities.items = enrichedItems.map((item) => {
     if (item.detail.itemType !== "Jewel" && !item.index.categories.includes("Jewel")) return { index: item.index, detail: item.detail };

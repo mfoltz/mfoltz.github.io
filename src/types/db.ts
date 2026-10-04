@@ -170,6 +170,7 @@ export interface DbItemDetail extends DbEntityDetail {
   localizedDescriptionTextEn?: string;
   repairRecipes?: DbRelatedEntityRef[];
   relatedRecipes?: DbRelatedEntityRef[];
+  ingredientRecipes?: DbRelatedEntityRef[];
 }
 
 export interface DbRecipeDetail extends DbEntityDetail {
