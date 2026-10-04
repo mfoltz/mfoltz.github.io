@@ -1,19 +1,25 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-02. This is the single active roadmap for this repository.
+Reviewed: 2026-10-04. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
 
-Local main is `1f39c82fa2`, with nine Blueprint commits above the published base.
-The `codex/jewel-ability-navigation` branch adds implementation `861d98ed1b`,
-copy refinement `e19d632d2a`, roadmap maintenance `6cdff3dde3`, and the verified
-mobile-card pass recorded below. This stack remains unpublished; the mobile
-receipt retains its exact commit identity outside the committed checkpoint.
+The reviewed application/evidence stack through `4eb8e790c6` is consolidated on
+local `main`: nine Blueprint commits followed by four jewel/mobile commits.
+The October 4 fast-forward created no new commit and retained the verified tree.
+The fully merged jewel branch was deleted. Roadmap-only maintenance follows the
+accepted application tip; it is separate from the fixed review ranges below.
 
-The last recorded read-only remote check resolves published main to
+The older `codex/dev-prefab-clarity` branch was reconciled and deleted locally.
+Its original `8760571f25` and `9d877f4dd1` commits remain reachable through local
+tag `archive/dev-prefab-clarity-2026-10-04`. Their source/book behavior, UI and
+historical documents were recovered by `1137203f2a`, `657bcf22ae` and `970eef1af8`.
+The detached browse-review worktree remains intact. No remote refs were changed.
+
+An October 4 read-only remote check still resolves published main to
 `6226c16382173aa34160bdf27894cad6cb22f177`. Local completion and publication are
 separate states; the delivered foundation below includes both.
 
@@ -42,8 +48,8 @@ separate states; the delivered foundation below includes both.
 
 ## Blueprint integration: complete locally, publication pending
 
-The isolated `codex/integrate-blueprint-links` branch recovers only the Blueprint
-behavior from `8760571f25` and `9d877f4dd1` onto the main base above. See the
+The September 30 integration recovered only the Blueprint behavior from
+`8760571f25` and `9d877f4dd1` onto the main base above. See the
 [current integration receipt](checkpoints/2026-09-30-blueprint-integration.md).
 
 | Verified source measure | Count |
@@ -80,7 +86,7 @@ preserves its original checkout, hashes, and delivery claims.
 
 The user approved recorded build-material requirements, reuse of existing curated
 images, and a retained-source castle sprite ownership scout. The verified local
-commits are on `codex/blueprint-materials-artwork`, based on local main
+commits were produced on `codex/blueprint-materials-artwork`, based on local main
 `970eef1af8480456dea9c24c6f8658330f23b9c2`. See the
 [materials/artwork receipt](checkpoints/2026-09-30-blueprint-materials-artwork.md).
 
@@ -201,22 +207,72 @@ values, exact destinations, keyboard/back navigation, artwork failure and native
 artwork, jewel, responsive browse, Blueprint and baseline checks pass; all 16,501
 checked data, map, artwork, branding and baseline hashes remain unchanged.
 
-## Next menu: local review preparation authorized, publication separate
+## Publication review: two drafts ready locally
 
-Prepare two local Markdown review units without changing existing history:
+Dependency-ordered local Markdown review drafts are complete. Their fixed ranges
+preserve the reviewed application stack:
 
 1. **Blueprint:** recorded remote base `6226c16382173aa34160bdf27894cad6cb22f177`
-   through local main `1f39c82fa2`, including source/book/material navigation and
+   through the Blueprint tip `1f39c82fa2`, including source/book/material navigation and
    the bounded native artwork reconciliation.
-2. **Jewel/mobile:** `1f39c82fa2` through the verified mobile implementation,
+2. **Jewel/mobile:** `1f39c82fa2` through verified mobile implementation `4eb8e790c6`,
    including recorded ability navigation, copy refinement and shared cards.
 
-Refresh remote main read-only before drafting; stop preparation if it differs
-from the recorded base. Include dependency order, exact commits, diff statistics,
-validation receipts, preservation and limits. Keep native Sprite identity and
-the nine proven artwork joins distinct from weaker curated associations. Any
-push, PR, merge, rebase or deployment remains a separate instruction. Broader
-enrichment lanes below remain parked.
+Both drafts include full commit inventories, diff statistics, validation receipts,
+preservation and remaining limits. Later roadmap-only maintenance is outside
+those fixed ranges. Refresh remote main and the intended local tip before any
+separately authorized publication. Keep native Sprite identity and the nine
+proven artwork joins distinct from weaker curated associations.
+
+Drafts are retained under:
+
+`C:/Users/mitch/.codex/visualizations/2026/10/03/01a0ff3e-1b3d-7433-baac-02af7b8b154d/publication-preparation/`
+
+Reviewing these completed units for delivery remains a high-value option. No
+push, PR or deployment is authorized by this roadmap update.
+
+## Next menu: source-backed navigation candidates, not started
+
+The October 4 read-only census checks current generated prefab/GUID identities
+and exact item destinations. Item details currently expose recipes that produce
+the item and explicit repair links; reverse ingredient, Blueprint material and
+book-requirement navigation are absent.
+
+| Candidate | Recorded links | Items | Target records | Largest item list |
+| --- | ---: | ---: | ---: | ---: |
+| Ingredient to recipe uses | 1,385 | 221 | 664 recipes | 88 |
+| Book to declaring Blueprint requirements | 401 | 72 | 396 Blueprints | 49 |
+| Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
+
+1. **Ingredient-to-recipe navigation: recommended next implementation.** Let a
+   reader open Iron Ingot, Bone or Leather and inspect recipes recording that
+   item as an ingredient. Use only existing `ProjectM.RecipeRequirementBuffer`
+   rows, exact recipe/item identities and current destinations. All 1,385 rows
+   have positive recorded quantities; no destination/GUID mismatch was found.
+   The legacy canonical map contains the same ingredient values, although 198
+   recipe lists have a different order. Preserve those existing representations
+   and document source ordering rather than rewriting the map.
+2. **Book-to-Blueprint reverse navigation: smaller follow-on.** Surface the
+   recorded book requirements under their declaring sources, with source
+   provenance. The 401 book/Blueprint pairs span 396 Blueprints; these links do
+   not prove guaranteed unlocks, acquisition routes or live availability.
+3. **Material-to-Blueprint reverse navigation: later follow-on.** Reuse only
+   positive, independently validated material buffers. The larger lists and
+   sparse Blueprint display text make scanability a greater constraint. Keep
+   empty and held zero-valued buffers outside the positive-use interpretation.
+
+Before starting the first candidate, plan the presentation of large lists
+(Iron Ingot has 88 recipe uses), quantities, ordering, source access and empty
+states. Preserve output/repair groups, current browse state and complete names.
+Require independent source/destination validation, deterministic generation,
+rendering tests and focused mobile/desktop keyboard, history and visual checks.
+Recorded recipe requirements do not establish crafting access or acquisition;
+absent reverse rows do not establish that an item has no use.
+
+This census selects a candidate; it authorizes no implementation, extraction,
+artwork changes or source promotion. Detailed counts, remote refresh, merge and
+archive receipts are retained under the current local review artifact root.
+Broader enrichment lanes below remain parked.
 
 ## Parked lanes
 
