@@ -1,17 +1,24 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-04. This is the single active roadmap for this repository.
+Reviewed: 2026-10-05. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
 
-Ingredient-to-recipe navigation is complete locally on branch
-`codex/ingredient-recipe-navigation`, starting from main `d8206b489c`.
-Data commit `029160b3c1` adds 1,385 independently validated backlinks across
-221 items and 664 recipes. The separate UI/acceptance commit adds searchable,
-paged cards and a focused browser harness. Automation passes 80 captures, including search, expansion,
+The reviewed application stack is published on remote main at
+`660e88efaeb5eb1511bca9520721b61acb472d17`. An October 5 read-only remote check
+confirms that tip. The separately approved consolidation fast-forwarded local
+main from `d8206b489c` without changing the accepted tree, deleted only the fully
+merged ingredient branch, and published all 16 reviewed commits with one normal
+push. Pages build/deploy succeeded for that exact commit. Roadmap-only maintenance
+after this release remains local until separately authorized for publication.
+
+Ingredient-to-recipe navigation is delivered. Data commit `029160b3c1` adds
+1,385 independently validated backlinks across 221 items and 664 recipes.
+UI/acceptance commit `660e88efae` adds searchable, paged cards and a focused
+browser harness. Automation passes 80 captures, including search, expansion,
 history, source access, artwork fallback and native zoom; jewel/shared-card
 regressions pass. `npm run verify`, `npm test` and artwork tests pass.
 
@@ -21,25 +28,30 @@ pass without product changes or weakened assertions; the initial cause remains
 unestablished. Changed captures were inspected with loaded Inter/Cinzel fonts.
 Only the four permitted Blood Essence detail/source baselines were accepted;
 all 92 final comparisons pass. Existing item fields, maps, other generated data,
-artwork and unaffected baselines remain unchanged. Main is unchanged and the
-owned preview is stopped. These are two local commits; publication is separate.
+artwork and unaffected baselines remain unchanged. The owned preview is stopped.
 See [the ingredient checkpoint](checkpoints/2026-10-04-ingredient-recipe-navigation.md).
 
-The reviewed application/evidence stack through `4eb8e790c6` is consolidated on
-local `main`: nine Blueprint commits followed by four jewel/mobile commits.
-The October 4 fast-forward created no new commit and retained the verified tree.
-The fully merged jewel branch was deleted. Roadmap-only maintenance follows the
-accepted application tip; it is separate from the fixed review ranges below.
+Fresh publication checks passed `npm run verify`, `npm test`, all four artwork
+tests and all 92 baseline comparisons (zero changed/missing). The 72,477-file
+preservation audit found exactly the 221 accepted ingredient-detail additions
+and four approved Blood Essence baseline changes relative to the retained
+pre-ingredient snapshot, with no original-field drift or unexpected changes.
+Eleven live smoke checks passed; four captures were inspected with loaded
+Inter/Cinzel fonts. Live checks supplement the full local acceptance, rather
+than establishing exhaustive live-route or cross-browser coverage.
+
+The published stack includes nine Blueprint commits, four jewel/mobile commits,
+one roadmap maintenance commit and two ingredient-navigation commits. The
+October 4 jewel fast-forward and October 5 ingredient fast-forward preserved
+their accepted trees; both fully merged task branches were deleted.
 
 The older `codex/dev-prefab-clarity` branch was reconciled and deleted locally.
 Its original `8760571f25` and `9d877f4dd1` commits remain reachable through local
 tag `archive/dev-prefab-clarity-2026-10-04`. Their source/book behavior, UI and
 historical documents were recovered by `1137203f2a`, `657bcf22ae` and `970eef1af8`.
-The detached browse-review worktree remains intact. No remote refs were changed.
-
-An October 4 read-only remote check still resolves published main to
-`6226c16382173aa34160bdf27894cad6cb22f177`. Local completion and publication are
-separate states; the delivered foundation below includes both.
+The detached browse-review worktree remains intact. The historical remote base
+`6226c16382173aa34160bdf27894cad6cb22f177` was refreshed and confirmed before the
+approved push. No rebase, force push, PR or unrelated branch deletion occurred.
 
 ## Delivered foundation
 
@@ -59,15 +71,15 @@ separate states; the delivered foundation below includes both.
   The approved V Blood portrait lane is delivered for 50/69 rows. Buildable
   portrait evidence covers 177/3928. Existing portrait delivery is no longer the
   first unfinished task; unresolved rows and broader portrait lanes stay parked.
-- Published main at `6226c16382173aa34160bdf27894cad6cb22f177` includes the prefab-reader
+- The historical published base `6226c16382173aa34160bdf27894cad6cb22f177` includes the prefab-reader
   work (PR 144) and browse/search/detail refinements (PR 145). Those changes are
   merged and published. Preserve current compact rows, useful artwork and facts,
   filter disclosure, active summaries, source access, and breadcrumb continuity.
 
-## Blueprint integration: complete locally, publication pending
+## Blueprint integration: published
 
 The September 30 integration recovered only the Blueprint behavior from
-`8760571f25` and `9d877f4dd1` onto the main base above. See the
+`8760571f25` and `9d877f4dd1` onto historical main `6226c16382`. See the
 [current integration receipt](checkpoints/2026-09-30-blueprint-integration.md).
 
 | Verified source measure | Count |
@@ -96,11 +108,11 @@ The September 30 integration recovered only the Blueprint behavior from
 - Integration-only verification preserved global search and the eight other
   database index hashes. Blueprint-only search terms do not widen global search.
 
-Those three integration commits have since been merged into local main by a
-separate instruction. Remote publication remains pending. The dated receipt
+Those three integration commits were merged into local main and published in
+the October 5 stack by separate instructions. The dated receipt
 preserves its original checkout, hashes, and delivery claims.
 
-## Blueprint materials and existing artwork: complete locally
+## Blueprint materials and existing artwork: published
 
 The user approved recorded build-material requirements, reuse of existing curated
 images, and a retained-source castle sprite ownership scout. The verified local
@@ -121,8 +133,9 @@ commits were produced on `codex/blueprint-materials-artwork`, based on local mai
   stopped at the missing sprite identity hop. Its 255 named candidates do not
   establish ownership. No new extraction occurred during the materials pass.
 
-This pass ends at verified local commits and retained review evidence. No push,
-PR, merge, deployment, or adjacent enrichment task is authorized here.
+That dated pass ended at verified local commits and retained review evidence.
+Its work is now published in the separately approved October 5 stack; its
+original receipt does not authorize adjacent enrichment.
 
 ## Reviewed castle artwork and native capture: completed snapshots
 
@@ -155,7 +168,7 @@ preparation. See the [artwork review](blueprint-artwork-review-20260930.md), the
 - The capture pass changed no artwork map, public asset, or acquisition claim.
   Its dated receipt preserves that boundary and the original restoration claims.
 
-## Blueprint artwork reconciliation: complete locally
+## Blueprint artwork reconciliation: published
 
 The user separately approved reconciliation of five differing associations and
 four held entrances. See the
@@ -175,14 +188,14 @@ four held entrances. See the
   produce identical map, review, lock and image hashes.
 - Blueprint text/material/unlock/book coverage and acquisition wording stay
   unchanged. Localized text and broader portraits remain parked. The later
-  item-description audit is complete as recorded below. End at verified local
-  commits; publication stays separate.
+  item-description audit is complete as recorded below. The reconciliation
+  ended locally before the separately approved October 5 publication.
 - Native browser review passes all 92 baselines after accepting only 18 new
   native Blueprint captures and the two intentional stone-entrance materials
   captures. All 80 targeted artwork captures were inspected in both themes,
   including 320px width; existing interaction, responsive and zoom checks pass.
 
-## Item-description audit and jewel navigation: complete locally
+## Item-description audit and jewel navigation: delivered
 
 The separately authorized description audit found no recoverable item-owned text
 for the 246 misses in retained snapshots. The 198 recorded blanks and 48 omitted
@@ -206,10 +219,10 @@ The implementation is committed as `861d98ed1b`. The separate `e19d632d2a`
 refinement removes redundant recorded-association copy while retaining the link,
 source disclosure and explicit unrecorded message. Its required verification,
 20 detail tests and 38 focused captures pass; all 16,501 checked data, map,
-artwork, branding and baseline files remain identical. Both commits are local.
-Publication and further enrichment remain separate instructions.
+artwork, branding and baseline files remained identical at that checkpoint.
+Both commits are now published; further enrichment requires a separate instruction.
 
-## Mobile linked-record cards: complete locally
+## Mobile linked-record cards: published
 
 The approved shared-card refinement moves quantity/GUID metadata below full
 names at widths below 640px. The existing icon and whole-card navigation remain;
@@ -225,7 +238,7 @@ values, exact destinations, keyboard/back navigation, artwork failure and native
 artwork, jewel, responsive browse, Blueprint and baseline checks pass; all 16,501
 checked data, map, artwork, branding and baseline hashes remain unchanged.
 
-## Publication review: two drafts ready locally
+## Publication: complete; review drafts retained
 
 Dependency-ordered local Markdown review drafts are complete. Their fixed ranges
 preserve the reviewed application stack:
@@ -237,63 +250,72 @@ preserve the reviewed application stack:
    including recorded ability navigation, copy refinement and shared cards.
 
 Both drafts include full commit inventories, diff statistics, validation receipts,
-preservation and remaining limits. Later roadmap-only maintenance is outside
-those fixed ranges. Refresh remote main and the intended local tip before any
-separately authorized publication. Keep native Sprite identity and the nine
-proven artwork joins distinct from weaker curated associations.
+preservation and remaining limits. These are historical review ranges, not
+pending delivery units. The October 5 release also includes roadmap maintenance
+and the two ingredient commits through `660e88efae`. Keep native Sprite identity
+and the nine proven artwork joins distinct from weaker curated associations.
 
 Drafts are retained under:
 
 `C:/Users/mitch/.codex/visualizations/2026/10/03/01a0ff3e-1b3d-7433-baac-02af7b8b154d/publication-preparation/`
 
-Reviewing these completed units for delivery remains a high-value option. No
-push, PR or deployment is authorized by this roadmap update.
+Publication and live acceptance evidence are retained under:
 
-## Next menu: source-backed follow-ons or publication review
+`C:/Users/mitch/.codex/visualizations/2026/10/03/01a0ff3e-1b3d-7433-baac-02af7b8b154d/local-main-publication-20261005/`
 
-The October 4 read-only census checks current generated prefab/GUID identities
-and exact item destinations. At main `d8206b489c`, item details expose recipes
-that produce the item and explicit repair links. Ingredient backlinks are now
-implemented and accepted on the local branch above.
-Blueprint material and book-requirement navigation remain absent.
+See `receipt.md`, `publication-receipt.json`, the validation/preservation logs
+and live smoke captures. [Deploy Pages run 37345738832](https://github.com/mfoltz/mfoltz.github.io/actions/runs/37345738832)
+completed build and deployment successfully for the published tip. Publication
+is no longer an unfinished menu item. This roadmap update authorizes no new
+push, PR or deployment.
+
+## Next menu: book navigation first, material navigation later
+
+The October 5 read-only census at published tip `660e88efae` independently
+rereads retained Blueprint/technology Markdown buffers and checks exact generated
+identities and destinations. All earlier link counts reproduce. Item details
+now expose output, repair and ingredient-recipe navigation. Blueprint details already expose
+forward book/material links; reverse navigation from item details is absent.
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
-| Ingredient to recipe uses | 1,385 | 221 | 664 recipes | 88 |
 | Book to declaring Blueprint requirements | 401 | 72 | 396 Blueprints | 49 |
 | Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-1. **Ingredient-to-recipe navigation: complete locally.** Let a
-   reader open Iron Ingot, Bone or Leather and inspect recipes recording that
-   item as an ingredient. Use only existing `ProjectM.RecipeRequirementBuffer`
-   rows, exact recipe/item identities and current destinations. All 1,385 rows
-   have positive recorded quantities; no destination/GUID mismatch was found.
-   The legacy canonical map contains the same ingredient values, although 198
-   recipe lists have a different order. Preserve those existing representations
-   and document source ordering rather than rewriting the map.
-2. **Book-to-Blueprint reverse navigation: smaller follow-on.** Surface the
-   recorded book requirements under their declaring sources, with source
-   provenance. The 401 book/Blueprint pairs span 396 Blueprints; these links do
-   not prove guaranteed unlocks, acquisition routes or live availability.
-3. **Material-to-Blueprint reverse navigation: later follow-on.** Reuse only
+1. **Book-to-Blueprint reverse navigation: recommended next pass.** Let a reader
+   open a book and inspect Blueprint targets linked by the declaring technology.
+   The 401 unique book/Blueprint pairs derive from 74 distinct book/source
+   requirements across 72 books, all recording quantity 1. A requirement can
+   fan out to many targets: Assortment of fine Paintings has 49 targets from one
+   declaring source. Preserve both the Blueprint destination and source
+   prefab/GUID, component and reference route. The source owns the quantity;
+   repeated cards must not imply separate book consumption for each Blueprint.
+   These links do not prove guaranteed unlocks, acquisition or live availability.
+2. **Material-to-Blueprint reverse navigation: later follow-on.** Reuse only
    positive, independently validated material buffers. The larger lists and
    sparse Blueprint display text make scanability a greater constraint. Keep
    empty and held zero-valued buffers outside the positive-use interpretation.
 
-The approved ingredient plan uses 12 cards initially, title A-Z ordering,
-complete identifiers, recorded requirement quantities, full-list search and
-URL-preserved expansion. Source access follows recipe details. Independent
-source/destination validation, deterministic generation and browser acceptance
-pass. The next bounded enrichment candidate is book-to-Blueprint reverse
-navigation; the existing publication drafts remain a ready review option.
-Reconcile the separately completed ingredient branch before starting follow-on
-implementation from main. Neither action is authorized by this roadmap.
-Recorded recipe requirements do not establish crafting access or acquisition;
-absent reverse rows do not establish that an item has no use.
+The delivered ingredient group covers 1,385 requirements across 221 items and
+664 recipes, with a largest list of 88. Its 12-card increments, full-list search,
+complete identifiers, title ordering and URL-preserved return state are useful
+behavior to reuse in the book pass. Keep book state independent of recipe state
+when both groups occur. The next plan should settle group wording, source-owned
+quantity display, duplicate/multiple-source handling and source inspection before
+implementation. Include the 49-target paintings book, Simple Carpets with its
+three declaring sources, multiple-book Blueprints, long names, missing artwork
+and an unlinked item in focused browser acceptance. Preserve forward source ordering, canonical maps,
+artwork evidence strength, global search and unrelated generated data.
+
+No new extraction is needed to assess this candidate. Sparse Blueprint display
+text (8/1198) remains a limitation; source titles and identifiers must stay
+complete. Absent reverse rows do not establish that a book or material has no
+use. Recipe requirements do not establish crafting access or acquisition.
 
 This census selects a candidate; it authorizes no implementation, extraction,
-artwork changes or source promotion. Detailed counts, remote refresh, merge and
-archive receipts are retained under the current local review artifact root.
+artwork changes or source promotion. Detailed source/destination census evidence
+is retained under `roadmap-next-pass-20261005/census.json` in the current local
+review artifact root; publication, merge and archive receipts remain separate.
 Broader enrichment lanes below remain parked.
 
 ## Parked lanes
