@@ -82,7 +82,7 @@ The September 30 integration recovered only the Blueprint behavior from
 `8760571f25` and `9d877f4dd1` onto historical main `6226c16382`. See the
 [current integration receipt](checkpoints/2026-09-30-blueprint-integration.md).
 
-| Verified source measure | Count |
+| Published source measure (before local hyphen recovery) | Count |
 | --- | ---: |
 | Blueprint records | 1,198 |
 | Linked / unlinked records | 895 / 303 |
@@ -291,33 +291,48 @@ Both owned previews are stopped after acceptance.
 Local main and published application main remain unchanged. This pass authorizes
 no merge, push, PR, deployment, map widening, new artwork or extraction.
 
-## Next menu: held forward-map audit, then material navigation
+## Hyphenated Blueprint forward-map recovery: complete locally
+
+The separately approved audit repairs complete `Cross-Section` and `T-Section`
+identifiers in the existing prefab-reference parser. The initial 28 book-linked
+pairs comprise 24 carpets and four cobblestone paths. The same repair finds ten
+additional DLC/framework carpet edges without recorded books; work stopped at
+the census gate, and the user explicitly approved all 38 forward additions.
+
+The local map now covers 933 linked and 265 unlinked Blueprints, with 970 edges
+across the same 174 sources. Book navigation now covers 429 pairs across 72
+books and 424 Blueprint targets. All 932 earlier edges, 74 source-owned book
+requirements, source ordering and original unrelated fields are preserved.
+The three affected book lists grow from 18/18/6 to 30/30/10. Ten source-only
+edges receive no invented book requirements. These counts are local, not live.
+
+See the [hyphen recovery checkpoint](checkpoints/2026-10-05-blueprint-hyphen-link-recovery.md).
+Independent retained-source proof, required verification, unit/artwork tests,
+130 focused browser checks and existing Blueprint/book regressions pass.
+All 60 changed captures are inspected with loaded Inter/Cinzel fonts. Four
+inspected Blueprint browse counter baselines are accepted; the final 92
+comparisons pass. Repeated generation and the 101,410-file audit permit exactly
+43 generated changes plus those four baselines, with no unrelated drift.
+The owned preview is stopped. Local main and published main remain unchanged.
+
+## Next menu: material navigation
 
 The October 5 read-only census at published tip `660e88efae` independently
 rereads retained Blueprint/technology Markdown buffers and checks exact generated
 identities and destinations. All earlier link counts reproduce. Item details
 expose output, repair and ingredient-recipe navigation. The approved local book
-pass adds reverse navigation within the existing forward-map scope. Material
-reverse navigation remains absent.
+pass adds reverse navigation, and the separately approved hyphen recovery
+completes its held forward-map audit. Material reverse navigation remains absent.
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
-| Book to declaring Blueprint requirements (implemented locally) | 401 | 72 | 396 Blueprints | 49 |
+| Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
 | Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-1. **Audit the 28 held carpet source pairs before widening the forward map.**
-   The book implementation found 429 raw-source pairs, including 28 absent from
-   the existing map. Its older parser excludes/truncates hyphenated Blueprint
-   names such as `Cross-Section` and `T-Section`. This pass freezes the approved
-   401 mapped pairs and preserves the map. A separate bounded audit should check
-   exact identities, destinations, parser behavior and all affected forward and
-   reverse counts before proposing a repair. `held-source-edges.json` in the
-   book acceptance evidence preserves these candidates; source presence alone
-   does not authorize promotion or guaranteed-unlock claims.
-2. **Material-to-Blueprint reverse navigation: later follow-on.** Reuse only
-   positive, independently validated material buffers. The larger lists and
-   sparse Blueprint display text make scanability a greater constraint. Keep
-   empty and held zero-valued buffers outside the positive-use interpretation.
+**Material-to-Blueprint reverse navigation** is the next bounded candidate.
+Reuse only positive, independently validated material buffers. The larger lists
+and sparse Blueprint display text make scanability a greater constraint. Keep
+empty and held zero-valued buffers outside the positive-use interpretation.
 
 The delivered ingredient group covers 1,385 requirements across 221 items and
 664 recipes, with a largest list of 88. Its 12-card increments, full-list search,

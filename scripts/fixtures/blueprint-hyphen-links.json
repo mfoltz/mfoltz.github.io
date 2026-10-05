@@ -1,0 +1,268 @@
+[
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy",
+    "guid": -461103186,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Cobalt",
+    "guid": -1169847941,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Dyable",
+    "guid": 2012245119,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Green",
+    "guid": -1123494393,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Ivory",
+    "guid": -227538458,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Purple",
+    "guid": -1538523312,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Burgundy",
+    "guid": 818030323,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Cobalt",
+    "guid": 692406210,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Dyable",
+    "guid": -1058099541,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Green",
+    "guid": 1249427094,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Ivory",
+    "guid": 1442410065,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T02",
+    "sourceGuid": -59044434,
+    "target": "TM_Castle_FloorDecor_Carpet01_T-Section_Purple",
+    "guid": -678125428,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T02_Dux"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Burgundy",
+    "guid": 512681452,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Cobalt",
+    "guid": 1130659161,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Dyable",
+    "guid": -922187970,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Green",
+    "guid": 103048648,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Ivory",
+    "guid": 991498568,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Purple",
+    "guid": 1919893824,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Burgundy",
+    "guid": 1955810365,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Cobalt",
+    "guid": 553792296,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Dyable",
+    "guid": 1006618280,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Green",
+    "guid": -1932733299,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Ivory",
+    "guid": 526993414,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Carpet_T03",
+    "sourceGuid": -166104992,
+    "target": "TM_Castle_FloorDecor_Carpet02_T-Section_Purple",
+    "guid": 1820953353,
+    "book": "Item_Ingredient_Book_Structure_Carpets_T03_Distinguished"
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Dracula",
+    "sourceGuid": -447888984,
+    "target": "TM_Castle_FloorDecor_CarpetDLC01_Cross-Section",
+    "guid": -181524704,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Dracula",
+    "sourceGuid": -447888984,
+    "target": "TM_Castle_FloorDecor_CarpetDLC01_T-Section",
+    "guid": -1664644149,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Gloomrot",
+    "sourceGuid": -1485413430,
+    "target": "TM_Castle_FloorDecor_CarpetGloomrot01_Cross-Section",
+    "guid": 1416970934,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Gloomrot",
+    "sourceGuid": -1485413430,
+    "target": "TM_Castle_FloorDecor_CarpetGloomrot01_T-Section",
+    "guid": 1037297955,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_Halloween2022",
+    "sourceGuid": -729522822,
+    "target": "TM_Castle_FloorDecor_CarpetHalloween01_Cross-Section",
+    "guid": -1588047588,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_Halloween2022",
+    "sourceGuid": -729522822,
+    "target": "TM_Castle_FloorDecor_CarpetHalloween01_T-Section",
+    "guid": -633127683,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_ProjectK",
+    "sourceGuid": 763319653,
+    "target": "TM_Castle_FloorDecor_CarpetProjectK01_Cross-Section",
+    "guid": -24431530,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_ProjectK",
+    "sourceGuid": 763319653,
+    "target": "TM_Castle_FloorDecor_CarpetProjectK01_T-Section",
+    "guid": 1128182070,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Strongblade",
+    "sourceGuid": -2146477131,
+    "target": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Cross-Section",
+    "guid": -787655845,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Framework_T02_Stone_DLC_Strongblade",
+    "sourceGuid": -2146477131,
+    "target": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_T-Section",
+    "guid": -2084701667,
+    "book": null
+  },
+  {
+    "source": "Tech_Collection_Pavement_Cobblestone",
+    "sourceGuid": 1029462093,
+    "target": "TM_Castle_Pavement_Cobblestone02_Cross-Section",
+    "guid": -133073227,
+    "book": "Item_Ingredient_Book_Structure_Path_Cobblestone_T02"
+  },
+  {
+    "source": "Tech_Collection_Pavement_Cobblestone",
+    "sourceGuid": 1029462093,
+    "target": "TM_Castle_Pavement_Cobblestone02_T-Section",
+    "guid": -1604165419,
+    "book": "Item_Ingredient_Book_Structure_Path_Cobblestone_T02"
+  },
+  {
+    "source": "Tech_Collection_Pavement_Cobblestone",
+    "sourceGuid": 1029462093,
+    "target": "TM_Castle_Pavement_StoneTiles_Cross-Section",
+    "guid": -2068184188,
+    "book": "Item_Ingredient_Book_Structure_Path_Cobblestone_T02"
+  },
+  {
+    "source": "Tech_Collection_Pavement_Cobblestone",
+    "sourceGuid": 1029462093,
+    "target": "TM_Castle_Pavement_StoneTiles_T-Section",
+    "guid": -1834344633,
+    "book": "Item_Ingredient_Book_Structure_Path_Cobblestone_T02"
+  }
+]

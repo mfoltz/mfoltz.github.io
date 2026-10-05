@@ -215,6 +215,24 @@ async function main() {
   assert.equal(buildBlueprintUnlockMapSnapshot({ docs: [progression], blueprintPrefabs }).entriesByPrefab.TM_Unknown_01.unlockSources[0].sourceType, "unknownSourceShape", "not every progression buffer is a journal reward");
 
   console.log("ok - blueprint unlock map");
+
+  // Full hyphenated identities must survive; a matching suffix is insufficient.
+  const hyphenPrefab = "TM_Carpet_Cross-Section";
+  const hyphenTargets = new Map([[hyphenPrefab, -7], ["Section", -7], ["TM_Zero_T-Section", 0]]);
+  for (const sourceComponent of ["ProjectM.TechUnlockBlueprintBuffer", "ProjectM.ProgressionBookBlueprintElement"] as const) {
+    const field = sourceComponent === "ProjectM.TechUnlockBlueprintBuffer" ? "Guid" : "Blueprint";
+    const source = { ...tech, components: new Map([[sourceComponent, component([
+      { [field]: `  ${hyphenPrefab} PrefabGuid(-7)  ` }, { [field]: "TM_Zero_T-Section PrefabGuid(0)" },
+      { [field]: `${hyphenPrefab} PrefabGuid(999)` }, { [field]: "Section PrefabGuid(9007199254740992)" },
+      { [field]: "!Section PrefabGuid(-7)" }, { [field]: "Section PrefabGuid(-7) trailing" },
+      { [field]: "prefix Section PrefabGuid(-7)" }, { [field]: "Section PrefabGuid(NaN)" }
+    ])]]) };
+    const recovered = buildBlueprintUnlockMapSnapshot({ docs: [source], blueprintPrefabs: hyphenTargets });
+    assert.deepEqual(Object.keys(recovered.entriesByPrefab).sort(), [hyphenPrefab, "TM_Zero_T-Section"].sort());
+    assert.equal(recovered.entriesByPrefab[hyphenPrefab].unlockSources[0].targetBlueprintGuid, -7);
+    assert.equal(recovered.entriesByPrefab["TM_Zero_T-Section"].unlockSources[0].targetBlueprintGuid, 0);
+  }
+  console.log("ok - complete hyphenated unlock identities and malformed-reference rejection");
 }
 
 main().catch((error) => {

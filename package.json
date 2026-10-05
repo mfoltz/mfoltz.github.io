@@ -32,6 +32,7 @@
     "test:linked-records-visual": "tsx scripts/linked-records-visual-check.ts",
     "test:blueprint-materials": "tsx --test scripts/blueprint-materials.test.ts scripts/blueprint-materials-generated.test.ts scripts/blueprint-runtime-artwork.test.ts scripts/buildable-sprite-proof.test.ts",
     "test:blueprint-visual": "tsx scripts/blueprint-visual-check.ts",
+    "test:blueprint-hyphen-visual": "tsx scripts/blueprint-hyphen-visual-check.ts",
     "test:blueprint-materials-visual": "tsx scripts/blueprint-materials-visual-check.ts",
     "test:blueprint-artwork-visual": "tsx scripts/blueprint-artwork-visual-check.ts",
     "test:db-artwork": "tsx --test scripts/db-artwork.test.ts",

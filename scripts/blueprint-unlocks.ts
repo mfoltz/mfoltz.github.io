@@ -96,8 +96,8 @@ function parsePrefabReference(value: string | undefined): { prefab: string; guid
     return null;
   }
 
-  const match = value.match(/([A-Za-z0-9_]+)\s+PrefabGuid\((-?\d+)\)/);
-  if (!match) {
+  const match = value.trim().match(/^([A-Za-z0-9_-]+)\s+PrefabGuid\((-?\d+)\)$/);
+  if (!match || !Number.isSafeInteger(Number(match[2]))) {
     return null;
   }
 
