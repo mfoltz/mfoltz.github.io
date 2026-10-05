@@ -16,6 +16,8 @@ import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas
 import { BlueprintUnlockSources } from "./BlueprintUnlockSources";
 import { BlueprintBuildMaterials } from "./BlueprintBuildMaterials";
 import { IngredientRecipeUses } from "./IngredientRecipeUses";
+import { BookBlueprintLinks } from "./BookBlueprintLinks";
+import type { DbBookBlueprintRef } from "../../types/db";
 
 const hiddenKeys = new Set([
   "slug",
@@ -67,7 +69,8 @@ const itemDetailPresentation = {
     { key: "associatedAbilities", title: "Associated ability", emptyLabel: "No ability association is recorded in this snapshot." },
     { key: "relatedRecipes", title: "Crafting records", emptyLabel: "No crafting recipe linked." },
     { key: "repairRecipes", title: "Repair records", emptyLabel: "No repair or salvage recipes linked." },
-    { key: "ingredientRecipes", title: "Used in recipes", emptyLabel: "No recorded recipes match this search." }
+    { key: "ingredientRecipes", title: "Used in recipes", emptyLabel: "No recorded recipes match this search." },
+    { key: "bookBlueprints", title: "Linked Blueprints", emptyLabel: "No recorded Blueprint links match this search." }
   ] as const
 };
 const npcDetailPresentation = {
@@ -1358,7 +1361,8 @@ function renderItemLinkedRecordsSurface(detail: DbEntityDetail) {
           return (
             <div key={relation.key} className="space-y-2.5">
               <h3 className="text-[11px] font-semibold uppercase tracking-[0.2em] text-[var(--database-dim)]">{relation.title}</h3>
-              {relation.key === "ingredientRecipes" ? <IngredientRecipeUses items={items} /> : <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />}
+              {relation.key === "ingredientRecipes" ? <IngredientRecipeUses items={items} /> : relation.key === "bookBlueprints"
+                ? <BookBlueprintLinks items={items as DbBookBlueprintRef[]} /> : <DbReferenceList items={items} emptyLabel={relation.emptyLabel} />}
             </div>
           );
         })}
@@ -1887,6 +1891,13 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
             : renderNpcLinkedRecordsSurface(detail)
           : schema.relationSections.map((relation) => {
               const value = detail[relation.key];
+              if (section === "items" && relation.key === "bookBlueprints") {
+                return isRelatedEntityList(value) && value.length > 0 ? (
+                  <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>
+                    <BookBlueprintLinks items={value as DbBookBlueprintRef[]} />
+                  </DbSurface>
+                ) : null;
+              }
               if (section === "items" && relation.key === "ingredientRecipes") {
                 return isRelatedEntityList(value) && value.length > 0 ? (
                   <DbSurface key={relation.key} title={relation.title} anchorId={`relation-${headingId(relation.title)}`} meta={`${value.length} linked`}>

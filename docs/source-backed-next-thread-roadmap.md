@@ -269,28 +269,51 @@ completed build and deployment successfully for the published tip. Publication
 is no longer an unfinished menu item. This roadmap update authorizes no new
 push, PR or deployment.
 
-## Next menu: book navigation first, material navigation later
+## Book-to-Blueprint navigation: complete locally
+
+The approved reverse-navigation pass is on `codex/book-blueprint-navigation`,
+based on clean local main `3917522d940ecbac7b457f63111c2817ef1ca098`.
+Data commit `458112c86b` adds 401 mapped pairs across 72 books and 396
+Blueprints, independently checked against retained Markdown and exact routes.
+The UI/acceptance commit adds Linked Blueprints, full-list target/technology
+search, 12-card expansion with focus, and independent `bookQ`/`bookShown`
+return state. The 74 book/source requirements own their quantities; Blueprint
+cards have no amount. Simple Carpets retains all three declaring sources.
+
+Acceptance is recorded in the [book navigation checkpoint](checkpoints/2026-10-05-book-blueprint-navigation.md).
+Final verification, production browser acceptance and all 92 baseline comparisons
+pass. Loaded-font captures are inspected; all 50 default production captures
+match the inspected development captures pixel-for-pixel. Repeat generation
+preserves all accepted hashes across 101,410 protected files, with exactly 72
+item-detail additions and no original-field drift. Ingredient, jewel, shared-card,
+responsive browse and Blueprint regressions pass; no baseline update is needed.
+Both owned previews are stopped after acceptance.
+Local main and published application main remain unchanged. This pass authorizes
+no merge, push, PR, deployment, map widening, new artwork or extraction.
+
+## Next menu: held forward-map audit, then material navigation
 
 The October 5 read-only census at published tip `660e88efae` independently
 rereads retained Blueprint/technology Markdown buffers and checks exact generated
 identities and destinations. All earlier link counts reproduce. Item details
-now expose output, repair and ingredient-recipe navigation. Blueprint details already expose
-forward book/material links; reverse navigation from item details is absent.
+expose output, repair and ingredient-recipe navigation. The approved local book
+pass adds reverse navigation within the existing forward-map scope. Material
+reverse navigation remains absent.
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
-| Book to declaring Blueprint requirements | 401 | 72 | 396 Blueprints | 49 |
+| Book to declaring Blueprint requirements (implemented locally) | 401 | 72 | 396 Blueprints | 49 |
 | Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-1. **Book-to-Blueprint reverse navigation: recommended next pass.** Let a reader
-   open a book and inspect Blueprint targets linked by the declaring technology.
-   The 401 unique book/Blueprint pairs derive from 74 distinct book/source
-   requirements across 72 books, all recording quantity 1. A requirement can
-   fan out to many targets: Assortment of fine Paintings has 49 targets from one
-   declaring source. Preserve both the Blueprint destination and source
-   prefab/GUID, component and reference route. The source owns the quantity;
-   repeated cards must not imply separate book consumption for each Blueprint.
-   These links do not prove guaranteed unlocks, acquisition or live availability.
+1. **Audit the 28 held carpet source pairs before widening the forward map.**
+   The book implementation found 429 raw-source pairs, including 28 absent from
+   the existing map. Its older parser excludes/truncates hyphenated Blueprint
+   names such as `Cross-Section` and `T-Section`. This pass freezes the approved
+   401 mapped pairs and preserves the map. A separate bounded audit should check
+   exact identities, destinations, parser behavior and all affected forward and
+   reverse counts before proposing a repair. `held-source-edges.json` in the
+   book acceptance evidence preserves these candidates; source presence alone
+   does not authorize promotion or guaranteed-unlock claims.
 2. **Material-to-Blueprint reverse navigation: later follow-on.** Reuse only
    positive, independently validated material buffers. The larger lists and
    sparse Blueprint display text make scanability a greater constraint. Keep
@@ -299,21 +322,19 @@ forward book/material links; reverse navigation from item details is absent.
 The delivered ingredient group covers 1,385 requirements across 221 items and
 664 recipes, with a largest list of 88. Its 12-card increments, full-list search,
 complete identifiers, title ordering and URL-preserved return state are useful
-behavior to reuse in the book pass. Keep book state independent of recipe state
-when both groups occur. The next plan should settle group wording, source-owned
-quantity display, duplicate/multiple-source handling and source inspection before
-implementation. Include the 49-target paintings book, Simple Carpets with its
-three declaring sources, multiple-book Blueprints, long names, missing artwork
-and an unlinked item in focused browser acceptance. Preserve forward source ordering, canonical maps,
-artwork evidence strength, global search and unrelated generated data.
+behavior now reused in the local book pass. Book and recipe URL state remain
+independent. The material follow-on should separately settle quantities, source
+access, duplicate handling and its 147-target largest list before implementation.
+Preserve forward source ordering, canonical maps, artwork evidence strength,
+global search and unrelated generated data.
 
 No new extraction is needed to assess this candidate. Sparse Blueprint display
 text (8/1198) remains a limitation; source titles and identifiers must stay
 complete. Absent reverse rows do not establish that a book or material has no
 use. Recipe requirements do not establish crafting access or acquisition.
 
-This census selects a candidate; it authorizes no implementation, extraction,
-artwork changes or source promotion. Detailed source/destination census evidence
+These follow-on candidates authorize no implementation, extraction, artwork
+changes or source promotion. Detailed source/destination census evidence
 is retained under `roadmap-next-pass-20261005/census.json` in the current local
 review artifact root; publication, merge and archive receipts remain separate.
 Broader enrichment lanes below remain parked.

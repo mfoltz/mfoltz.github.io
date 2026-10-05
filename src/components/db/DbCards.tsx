@@ -151,8 +151,9 @@ export function DbFieldGrid({
   );
 }
 
-export function DbReferenceList({ items, emptyLabel, formatAmount = amount => `${amount}x` }: {
+export function DbReferenceList({ items, emptyLabel, formatAmount = amount => `${amount}x`, renderAfterCard }: {
   items: DbRelatedEntityRef[]; emptyLabel: string; formatAmount?: (amount: number) => string;
+  renderAfterCard?: (item: DbRelatedEntityRef) => ReactNode;
 }) {
   if (items.length === 0) {
     return <p className="text-sm text-[var(--database-muted)]">{emptyLabel}</p>;
@@ -189,6 +190,7 @@ export function DbReferenceList({ items, emptyLabel, formatAmount = amount => `$
             ) : (
               content
             )}
+            {renderAfterCard?.(item)}
           </li>
         );
       })}
