@@ -75,6 +75,17 @@ export interface DbRelatedEntityRef {
 
 export type DbBlueprintBuildMaterialStatus = "recorded" | "empty" | "missing" | "zero-valued";
 
+export interface DbBookBlueprintSource extends DbRelatedEntityRef {
+  path: string;
+  sourcePath: string;
+  sourceComponent: "ProjectM.TechItemRequirementBuffer";
+  unlockSourceComponent: "ProjectM.TechUnlockBlueprintBuffer";
+}
+
+export interface DbBookBlueprintRef extends Omit<DbRelatedEntityRef, "amount"> {
+  declaringSources: DbBookBlueprintSource[];
+}
+
 export interface DbRuntimeDamageEvidence {
   sourceKind: "server-damage-evidence";
   sourceRef: string;
@@ -171,6 +182,7 @@ export interface DbItemDetail extends DbEntityDetail {
   repairRecipes?: DbRelatedEntityRef[];
   relatedRecipes?: DbRelatedEntityRef[];
   ingredientRecipes?: DbRelatedEntityRef[];
+  bookBlueprints?: DbBookBlueprintRef[];
 }
 
 export interface DbRecipeDetail extends DbEntityDetail {

@@ -22,6 +22,7 @@ import { slugFromRelativePath } from "../src/lib/slug";
 import { buildBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import { buildJewelAbility, indexJewelAbilityDestinations } from "./jewel-abilities";
 import { buildIngredientRecipes, indexIngredientDestinations, ingredientRecipeComponent } from "./ingredient-recipes";
+import { buildBookBlueprints, indexBookBlueprintDestinations, recordedBookBlueprintEdges } from "./book-blueprints";
 import {
   filterTextVariableResolutionsForText,
   isTextVariableSourceKind,
@@ -3009,6 +3010,19 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     return { index: item.index, detail: { ...item.detail, ...association } };
   });
   entities.abilities = enrichAbilitiesWithSpellJewels(entities.abilities, enrichedItems);
+
+  const bookSourcePaths = new Set(Object.values(blueprintUnlockMap.entriesByPrefab).flatMap(entry => entry.unlockSources.map(source => source.sourcePath)));
+  const bookBlueprints = buildBookBlueprints(docs.filter(doc => bookSourcePaths.has(doc.sourcePath) || ingredientItems.has(doc.prefabName))
+    .map(doc => ({ prefabName: doc.prefabName, guid: doc.guid, sourcePath: doc.sourcePath, components: getComponents(doc) })),
+    indexBookBlueprintDestinations(enrichedItems.map(item => ({ title: item.index.title, prefab: item.prefabName,
+      guid: item.detail.guid as number | null, slug: item.index.slug, path: item.index.path }))),
+    indexBookBlueprintDestinations(entities.blueprints.map(({ index, detail }) => ({ title: index.title, prefab: detail.prefab as string,
+      guid: detail.guid as number | null, slug: index.slug, path: index.path, icon: index.portraitAssetPath }))), allPrefabs,
+    recordedBookBlueprintEdges(blueprintUnlockMap));
+  for (const item of entities.items) {
+    const links = bookBlueprints.get(item.detail.prefab as string);
+    if (links) item.detail.bookBlueprints = links;
+  }
 
   return entities;
 }

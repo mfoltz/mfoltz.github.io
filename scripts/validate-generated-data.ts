@@ -6,6 +6,8 @@ import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind, 
 import { buildablePortraitReviewPath, selectReviewedBuildableAssets, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
+import { readGeneratedBookBlueprints } from "./book-blueprints-generated";
+import { validateBookBlueprints } from "./book-blueprints";
 import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import { indexJewelAbilityDestinations, readJewelAbilityDocument, validateJewelAbility, type JewelAbilityDestination } from "./jewel-abilities";
 import { buildIngredientRecipes, indexIngredientDestinations, readIngredientRecipeDocument, validateIngredientRecipes,
@@ -907,6 +909,8 @@ async function main() {
   }
   validateIngredientRecipes(ingredientDetails, buildIngredientRecipes(ingredientDocs,
     indexIngredientDestinations(ingredientItems), indexIngredientDestinations(ingredientDestinations), allPrefabs));
+  const bookBlueprints = await readGeneratedBookBlueprints(repoRoot);
+  validateBookBlueprints(bookBlueprints.details, bookBlueprints.expected);
   const abilityLookup = indexJewelAbilityDestinations(abilityDestinations);
   for (const detail of jewelDetails) {
     if (typeof detail.sourcePath !== "string") throw new Error(`${detail.slug}: missing jewel source path`);
