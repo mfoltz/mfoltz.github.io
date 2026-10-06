@@ -75,6 +75,7 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
       { key: "relatedRecipes", title: "Crafted From", emptyLabel: "No crafting recipe linked." },
       { key: "repairRecipes", title: "Repair And Salvage", emptyLabel: "No repair or salvage recipes linked." },
       { key: "ingredientRecipes", title: "Used in recipes", emptyLabel: "No recorded recipes match this search." },
+      { key: "materialBlueprints", title: "Used in Blueprints", emptyLabel: "No recorded Blueprints match this search." },
       { key: "bookBlueprints", title: "Linked Blueprints", emptyLabel: "No recorded Blueprint links match this search." }
     ],
     playerSectionTitle: "Player Context",

@@ -1,11 +1,19 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-05. This is the single active roadmap for this repository.
+Reviewed: 2026-10-06. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
+
+Material-to-Blueprint navigation is accepted locally on
+`codex/material-blueprint-navigation`, starting at `464af995ad`. It adds 1,470
+positive requirements across 96 materials and 1,080 Blueprints, with searchable
+12-card expansion, recorded quantities and independent `buildQ`/`buildShown`
+return state. The book/hyphen stack remains an ancestor; local main stays at
+`3917522d94`. See the [material checkpoint](checkpoints/2026-10-06-material-blueprint-navigation.md).
+Integration and publication require separate authorization.
 
 The reviewed application stack is published on remote main at
 `660e88efaeb5eb1511bca9520721b61acb472d17`. An October 5 read-only remote check
@@ -315,44 +323,64 @@ comparisons pass. Repeated generation and the 101,410-file audit permit exactly
 43 generated changes plus those four baselines, with no unrelated drift.
 The owned preview is stopped. Local main and published main remain unchanged.
 
-## Next menu: material navigation
+## Material-to-Blueprint navigation: complete locally
 
-The October 5 read-only census at published tip `660e88efae` independently
-rereads retained Blueprint/technology Markdown buffers and checks exact generated
-identities and destinations. All earlier link counts reproduce. Item details
-expose output, repair and ingredient-recipe navigation. The approved local book
-pass adds reverse navigation, and the separately approved hyphen recovery
-completes its held forward-map audit. Material reverse navigation remains absent.
+Data commit `7fa74ca4c7` adds the approved 1,470 requirements across 96 material
+items and 1,080 Blueprint destinations. Generation inverts validated positive
+forward rows; independent retained-Markdown validation compares every identity,
+quantity, destination and provenance field. The 117 empty buffers and both held
+zero-valued rows remain excluded. Original item fields and forward source
+ordering, maps, browse/global-search indexes and artwork are preserved.
+
+The UI adds Used in Blueprints after Used in recipes and before Linked Blueprints
+in both item layouts. Complete names, prefabs, GUIDs and recorded quantities
+remain visible in responsive whole-card links. Search covers the full list;
+12-card expansion, focus, clear search and URL-preserved return state reuse the
+accepted navigation behavior. Recipe, book and material parameters are independent.
+Unused items receive no group or absence claim. Existing portrait associations
+retain their evidence strength; recorded technical targets imply no live access.
+
+The [material checkpoint](checkpoints/2026-10-06-material-blueprint-navigation.md)
+records 70 focused browser checks, 60 before and 90 after captures with loaded
+Inter/Cinzel fonts, all 147 Stone Brick uses, keyboard/source navigation, artwork
+fallback and native 200% zoom. All changed captures are inspected. Existing
+ingredient/book/hyphen/jewel/shared-card/browse/Blueprint regressions pass.
+Only the four inspected Blood Essence detail/source baselines are updated. All 92
+final comparisons pass; repeat generation reproduces every generated hash.
+The 101,410-file preservation proof permits exactly 96 item-detail additions and
+those four baselines, with no original-field drift or unexpected changes.
+
+The ingredient harness repair was separately approved after its page-wide
+Show more locator became ambiguous. Scoped recipe controls preserve all assertions
+and pass. The unchanged book suite passes an isolated retry after a zoom worker
+startup timeout; that initial cause remains unestablished. Failed runs remain
+separate from acceptance evidence. The owned preview is stopped for local delivery.
+
+## Next menu: local review and delivery
+
+The approved reverse-navigation candidates are now implemented. Their local
+counts reflect the retained source and current exact routes:
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
 | Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
-| Material to Blueprint uses | 1,470 | 96 | 1,080 Blueprints | 147 |
+| Material to Blueprint uses (implemented locally) | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-**Material-to-Blueprint reverse navigation** is the next bounded candidate.
-Reuse only positive, independently validated material buffers. The larger lists
-and sparse Blueprint display text make scanability a greater constraint. Keep
-empty and held zero-valued buffers outside the positive-use interpretation.
+The ready high-value action is review of the local book, hyphen recovery and
+material stack before a separately authorized consolidation/publication pass.
+Preserve dependency order and refresh remote authority at that point. This
+checkpoint does not authorize merge, push, PR, deployment or branch cleanup.
 
-The delivered ingredient group covers 1,385 requirements across 221 items and
-664 recipes, with a largest list of 88. Its 12-card increments, full-list search,
-complete identifiers, title ordering and URL-preserved return state are useful
-behavior now reused in the local book pass. Book and recipe URL state remain
-independent. The material follow-on should separately settle quantities, source
-access, duplicate handling and its 147-target largest list before implementation.
-Preserve forward source ordering, canonical maps, artwork evidence strength,
-global search and unrelated generated data.
+The delivered ingredient group still covers 1,385 requirements across 221 items
+and 664 recipes, with a largest list of 88. Sparse Blueprint display text (8/1198)
+remains a limitation; complete source titles and identifiers are retained. Absent
+reverse rows do not establish absence of uses, and recorded requirements do not
+establish crafting access, acquisition or availability.
 
-No new extraction is needed to assess this candidate. Sparse Blueprint display
-text (8/1198) remains a limitation; source titles and identifiers must stay
-complete. Absent reverse rows do not establish that a book or material has no
-use. Recipe requirements do not establish crafting access or acquisition.
-
-These follow-on candidates authorize no implementation, extraction, artwork
-changes or source promotion. Detailed source/destination census evidence
-is retained under `roadmap-next-pass-20261005/census.json` in the current local
-review artifact root; publication, merge and archive receipts remain separate.
-Broader enrichment lanes below remain parked.
+Further enrichment needs its own bounded source audit and plan. No new extraction,
+artwork widening or source promotion is queued here. The October 5 census remains
+historical evidence under `roadmap-next-pass-20261005/census.json` in the local
+artifact root. Broader enrichment lanes below remain parked.
 
 ## Parked lanes
 

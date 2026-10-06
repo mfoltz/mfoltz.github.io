@@ -97,7 +97,8 @@ async function focusByKeyboard(page: Page, link: Locator) {
 async function interactionChecks(page: Page, fixture: typeof cases[number], key: string) {
   const search = page.getByRole("searchbox", { name: "Search used-in recipes", exact: true });
   const cards = page.locator("#item-recipe-uses [data-db-reference]");
-  const more = page.getByRole("button", { name: "Show more", exact: true });
+  const group = page.locator("#item-recipe-uses");
+  const more = group.getByRole("button", { name: "Show more", exact: true });
   let count = 12;
   while (count < fixture.refs.length) {
     await more.click();
@@ -126,7 +127,7 @@ async function interactionChecks(page: Page, fixture: typeof cases[number], key:
   await page.getByText("No recorded recipes match this search.", { exact: true }).waitFor();
   await measure(page, []);
   await capture(page, `${key}-unmatched`, true);
-  await page.getByRole("button", { name: "Clear search", exact: true }).click();
+  await group.getByRole("button", { name: "Clear search", exact: true }).click();
   await measure(page, fixture.refs.slice(0, 12));
   await search.fill("Recipe");
   await more.click();
