@@ -23,6 +23,7 @@ import { buildBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint
 import { buildJewelAbility, indexJewelAbilityDestinations } from "./jewel-abilities";
 import { buildIngredientRecipes, indexIngredientDestinations, ingredientRecipeComponent } from "./ingredient-recipes";
 import { buildBookBlueprints, indexBookBlueprintDestinations, recordedBookBlueprintEdges } from "./book-blueprints";
+import { buildMaterialBlueprints, indexMaterialDestinations } from "./material-blueprints";
 import {
   filterTextVariableResolutionsForText,
   isTextVariableSourceKind,
@@ -3024,6 +3025,17 @@ async function loadRealEntities(repoRoot: string): Promise<Record<Section, Entit
     if (links) item.detail.bookBlueprints = links;
   }
 
+  const materialBlueprints = buildMaterialBlueprints(entities.blueprints.map(({ detail }) => ({
+    prefab: detail.prefab as string, guid: detail.guid as number | null, sourcePath: detail.sourcePath as string,
+    status: detail.buildMaterialStatus as string, materials: detail.buildMaterials as import("../src/types/db").DbRelatedEntityRef[]
+  })), indexMaterialDestinations(entities.items.map(({ index, detail }) => ({ title: index.title,
+    prefab: detail.prefab as string, guid: detail.guid as number | null, slug: index.slug, path: index.path, icon: index.icon }))),
+    indexMaterialDestinations(entities.blueprints.map(({ index, detail }) => ({ title: index.title,
+      prefab: detail.prefab as string, guid: detail.guid as number | null, slug: index.slug, path: index.path, icon: index.portraitAssetPath }))), allPrefabs);
+  for (const item of entities.items) {
+    const uses = materialBlueprints.get(item.detail.prefab as string);
+    if (uses) item.detail.materialBlueprints = uses;
+  }
   return entities;
 }
 

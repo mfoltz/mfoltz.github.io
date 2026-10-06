@@ -182,6 +182,7 @@ export interface DbItemDetail extends DbEntityDetail {
   repairRecipes?: DbRelatedEntityRef[];
   relatedRecipes?: DbRelatedEntityRef[];
   ingredientRecipes?: DbRelatedEntityRef[];
+  materialBlueprints?: DbRelatedEntityRef[];
   bookBlueprints?: DbBookBlueprintRef[];
 }
 

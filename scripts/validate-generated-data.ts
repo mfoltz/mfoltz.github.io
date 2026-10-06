@@ -8,6 +8,8 @@ import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./bl
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
 import { readGeneratedBookBlueprints } from "./book-blueprints-generated";
 import { validateBookBlueprints } from "./book-blueprints";
+import { readGeneratedMaterialBlueprints } from "./material-blueprints-generated";
+import { validateMaterialBlueprints } from "./material-blueprints";
 import { buildBlueprintMaterials, readBlueprintMaterialDocument, validateBlueprintMaterials, type BlueprintMaterialItem } from "./blueprint-materials";
 import { indexJewelAbilityDestinations, readJewelAbilityDocument, validateJewelAbility, type JewelAbilityDestination } from "./jewel-abilities";
 import { buildIngredientRecipes, indexIngredientDestinations, readIngredientRecipeDocument, validateIngredientRecipes,
@@ -73,6 +75,7 @@ type DetailEntry = {
   repairRecipes?: RelatedEntityRef[];
   relatedRecipes?: RelatedEntityRef[];
   ingredientRecipes?: RelatedEntityRef[];
+  materialBlueprints?: RelatedEntityRef[];
   outputs?: RelatedEntityRef[];
   requirements?: RelatedEntityRef[];
   repairCosts?: RelatedEntityRef[];
@@ -911,6 +914,8 @@ async function main() {
     indexIngredientDestinations(ingredientItems), indexIngredientDestinations(ingredientDestinations), allPrefabs));
   const bookBlueprints = await readGeneratedBookBlueprints(repoRoot);
   validateBookBlueprints(bookBlueprints.details, bookBlueprints.expected);
+  const materialBlueprints = await readGeneratedMaterialBlueprints(repoRoot);
+  validateMaterialBlueprints(materialBlueprints.details, materialBlueprints.expected);
   const abilityLookup = indexJewelAbilityDestinations(abilityDestinations);
   for (const detail of jewelDetails) {
     if (typeof detail.sourcePath !== "string") throw new Error(`${detail.slug}: missing jewel source path`);
