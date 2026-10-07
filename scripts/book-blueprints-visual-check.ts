@@ -4,6 +4,7 @@ import path from "node:path";
 import { chromium, type Page, type Locator } from "playwright";
 import type { DbItemDetail, DbBookBlueprintRef } from "../src/types/db";
 import { filterBookBlueprints, bookDeclaringSources } from "../src/lib/bookBlueprintBrowse";
+import { assertFocusedReferenceVisible } from "./reference-focus";
 
 const baseUrl = process.env.BOOK_BLUEPRINTS_REVIEW_URL ?? "http://127.0.0.1:5191";
 assert(["localhost", "127.0.0.1"].includes(new URL(baseUrl).hostname));
@@ -91,8 +92,7 @@ async function keyboardFocus(page: Page, link: Locator) {
   for (let i = 0; i < 220; i++) {
     await page.keyboard.press("Tab");
     if (await link.evaluate(element => element === document.activeElement)) {
-      assert(parseFloat(await link.evaluate(element => getComputedStyle(element).outlineWidth)) > 0);
-      await link.evaluate(element => element.scrollIntoView({ block: "center", behavior: "instant" }));
+      measurements.push({ focus: await assertFocusedReferenceVisible(page, link) });
       return;
     }
   }
@@ -105,10 +105,12 @@ async function interactions(page: Page, key: string) {
   assert.equal(fixture.refs.length, 49);
   let shown = 12;
   while (shown < 49) {
+    const previous = shown;
     const first = fixture.refs[shown];
     await more.click(); shown = Math.min(shown + 12, 49);
     await page.waitForFunction(count => document.querySelectorAll("#book-blueprint-targets [data-db-reference]").length === count, shown);
     assert.equal(await page.evaluate(() => document.activeElement?.querySelector<HTMLElement>("[data-db-reference]")?.dataset.dbReference), first.prefab);
+    measurements.push({ expansionFocus: await assertFocusedReferenceVisible(page, page.locator(targetSelector).nth(previous).locator("xpath=.."), false) });
   }
   await measure(page, fixture, fixture.refs); await capture(page, `${key}-all49`);
   await ready(page, fixture, "?keep=review&usesQ=iron&usesShown=36&bookShown=24#linked-records");

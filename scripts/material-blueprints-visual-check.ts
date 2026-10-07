@@ -3,6 +3,7 @@ import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium, type Page, type Locator } from "playwright";
 import type { DbEntityDetail, DbRelatedEntityRef } from "../src/types/db";
+import { assertFocusedReferenceVisible } from "./reference-focus";
 
 const baseUrl = process.env.MATERIAL_BLUEPRINTS_REVIEW_URL ?? "http://127.0.0.1:5193";
 assert(["localhost", "127.0.0.1"].includes(new URL(baseUrl).hostname), "Local preview required");
@@ -84,11 +85,7 @@ async function focusByKeyboard(page: Page, link: Locator) {
   for (let count = 0; count < 150; count++) {
     await page.keyboard.press("Tab");
     if (await link.evaluate(element => element === document.activeElement)) {
-      assert(parseFloat(await link.evaluate(element => getComputedStyle(element).outlineWidth)) > 0, "Visible keyboard focus");
-      await link.evaluate(element => element.scrollIntoView({ block: "center", behavior: "instant" }));
-      const box = await link.boundingBox();
-      const height = await page.evaluate(() => innerHeight);
-      assert(box && box.y >= 0 && box.y + box.height <= height, "Focused Blueprint visible in the capture");
+      measurements.push({ focus: await assertFocusedReferenceVisible(page, link) });
       return;
     }
   }
@@ -107,6 +104,7 @@ async function interactionChecks(page: Page, fixture: typeof cases[number], key:
     count = Math.min(count + 12, fixture.refs.length);
     await page.waitForFunction(expected => document.querySelectorAll("#item-blueprint-uses [data-db-reference]").length === expected, count);
     assert.equal(await page.evaluate(() => document.activeElement?.querySelector<HTMLElement>("[data-db-reference]")?.dataset.dbReference), fixture.refs[previous].prefab, "Expansion focus");
+    measurements.push({ expansionFocus: await assertFocusedReferenceVisible(page, cards.nth(previous).locator("xpath=.."), false) });
   }
   await measure(page, fixture.refs);
   assert.equal(await more.count(), 0);
