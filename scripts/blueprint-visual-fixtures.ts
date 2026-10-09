@@ -16,7 +16,14 @@ export function getBlueprintVisualFixtures() {
     JSON.parse(readFileSync(`public/data/db/blueprints/by-slug/${entry.slug}.json`, "utf8")) as DbEntityDetail]));
   const materials = sorted.find((entry) => entry.tags?.[0].startsWith("BP_Castle_Wall_Tier02_") &&
     details.get(entry.slug)?.buildMaterialStatus === "recorded" && (details.get(entry.slug)?.buildMaterials?.length ?? 0) >= 2);
-  const artwork = sorted.find((entry) => entry.portraitAssetPath && !details.get(entry.slug)?.portraitSourceKind);
+  // Keep the accepted existing-curated fixture independent of localized subtitles.
+  const artworkRows = sorted.filter(entry => entry.tags?.[0] === "TM_CraftingStation_Anvil");
+  assert.equal(artworkRows.length, 1, "Original Anvil artwork fixture must be unique");
+  const artwork = artworkRows[0];
+  const artworkDetail = details.get(artwork.slug);
+  assert(artwork.path === "/db/blueprints/tm-crafting-station-anvil" && artwork.tags?.includes("-437790980") &&
+    artworkDetail?.prefab === "TM_CraftingStation_Anvil" && artworkDetail.guid === -437790980 &&
+    artwork.portraitAssetPath && !artworkDetail.portraitSourceKind, "Original Anvil artwork identity/evidence must survive");
   const emptyMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "empty");
   const heldMaterials = sorted.find((entry) => details.get(entry.slug)?.buildMaterialStatus === "zero-valued");
   assert(materials && artwork && emptyMaterials && heldMaterials, "Missing Blueprint material/artwork review fixture");

@@ -3,16 +3,21 @@ import type { Locator, Page } from "playwright";
 
 // Observe the browser's focus scroll; a second scroll can interrupt its smooth
 // animation and leave the link under sticky navigation after the capture check.
+// Stationary offscreen geometry may precede scroll start; it is not settlement.
 export async function assertFocusedReferenceVisible(page: Page, link: Locator, requireOutline = true) {
   let previous = "", stableSince = Date.now();
   const deadline = Date.now() + 5000;
   while (true) {
-    const geometry = await link.evaluate(element => {
+    const observation = await link.evaluate(element => {
       const box = element.getBoundingClientRect();
-      return JSON.stringify([scrollX, scrollY, box.x, box.y, box.width, box.height]);
+      return {
+        geometry: JSON.stringify([scrollX, scrollY, box.x, box.y, box.width, box.height]),
+        contained: box.width > 0 && box.height > 0 && box.x >= 0 && box.y >= 0
+          && box.right <= innerWidth && box.bottom <= innerHeight
+      };
     });
-    if (geometry !== previous) { previous = geometry; stableSince = Date.now(); }
-    if (Date.now() - stableSince >= 250) break;
+    if (observation.geometry !== previous) { previous = observation.geometry; stableSince = Date.now(); }
+    if (Date.now() - stableSince >= 250 && (observation.contained || Date.now() >= deadline)) break;
     assert(Date.now() < deadline, "Focused reference scroll did not settle");
     await page.waitForTimeout(50);
   }

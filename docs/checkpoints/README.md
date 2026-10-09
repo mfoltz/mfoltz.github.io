@@ -5,7 +5,8 @@ Checkpoint notes capture one accepted visual-review pass at a time.
 Older notes in this folder predate the polish overlay and should be read as valid history, not as incomplete failures.
 
 Use the [active roadmap](../source-backed-next-thread-roadmap.md) for current
-delivery status and priorities. The latest local implementation receipts are
+delivery status and priorities. The latest local implementation receipt is the
+[ten-record Blueprint text pilot](2026-10-09-blueprint-text-pilot.md). Earlier receipts include
 [mobile linked-record cards](2026-10-02-mobile-linked-record-cards.md),
 [jewel-to-ability navigation](2026-10-02-jewel-ability-navigation.md) and its
 [copy refinement](2026-10-02-jewel-ability-copy-refinement.md). The

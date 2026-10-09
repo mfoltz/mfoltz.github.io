@@ -1,15 +1,20 @@
 import assert from "node:assert/strict";
 import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { tmpdir } from "node:os";
+import { generateKeyPairSync } from "node:crypto";
 import { chromium, type Page } from "playwright";
 import type { DbEntityDetail, DbIndexEntry, DbRelatedEntityRef } from "../src/types/db";
 import { blueprintTextFields, readBlueprintText } from "./blueprint-text";
 import { assertFocusedReferenceVisible } from "./reference-focus";
+import { blueprintZoomExtensionId, blueprintZoomStage } from "./blueprint-text-zoom";
 
 const base = process.env.BLUEPRINT_TEXT_REVIEW_URL ?? "http://127.0.0.1:5194";
 assert(["localhost", "127.0.0.1"].includes(new URL(base).hostname));
 const output = path.resolve(process.env.BLUEPRINT_TEXT_REVIEW_OUTPUT ?? ".codex-tmp/visual-review/blueprint-text");
 const before = process.argv.includes("--before");
+const zoomProbe = process.argv.includes("--native-zoom-probe");
+assert(!(before && zoomProbe));
 const phase = before ? "before" : "after";
 const directory = path.join(output, phase);
 await mkdir(directory, { recursive: true });
@@ -130,27 +135,55 @@ async function relatedNavigation(page: Page, fixture: Fixture, book = false) {
   receipts.push({ related: fixture.id, target: target.prefab, keyboard: true, source: true, backReload: true });
 }
 async function nativeZoom() {
-  const extension = path.join(output, "zoom-extension");
+  const stages: unknown[] = [];
+  const record = async (event: unknown) => {
+    stages.push({ timestamp: new Date().toISOString(), event });
+    await writeFile(path.join(output, "native-zoom-stages.json"), JSON.stringify(stages, null, 2));
+    console.log("Native zoom:", JSON.stringify(event));
+  };
+  // Chromium creates additional nested database paths inside its profile.
+  // Keep those paths short independently of the retained artifact directory.
+  const runtime = await mkdtemp(path.join(tmpdir(), "blueprint-zoom-"));
+  try {
+  const extension = path.join(runtime, "extension");
   await mkdir(extension, { recursive: true });
+  const key = generateKeyPairSync("rsa", { modulusLength: 2048 }).publicKey.export({ type: "spki", format: "der" });
+  const extensionId = blueprintZoomExtensionId(key);
   await writeFile(path.join(extension, "manifest.json"), JSON.stringify({ manifest_version: 3, name: "Blueprint pilot local zoom", version: "1.0",
-    host_permissions: [new URL(base).origin + "/*"], background: { service_worker: "worker.js" } }));
-  await writeFile(path.join(extension, "worker.js"), "chrome.runtime.onInstalled.addListener(() => {});\n");
+    key: key.toString("base64"), host_permissions: [new URL(base).origin + "/*"] }));
+  await writeFile(path.join(extension, "zoom.html"), "<!doctype html><title>Owned native zoom controller</title>");
   for (const theme of ["dark", "light"] as const) {
-    const profile = await mkdtemp(path.join(output, "zoom-profile-"));
+    const profile = await mkdtemp(path.join(runtime, "profile-"));
     const context = await chromium.launchPersistentContext(profile, { channel: "chromium", headless: true,
       viewport: { width: 1280, height: 960 }, colorScheme: theme,
       args: [`--disable-extensions-except=${extension}`, `--load-extension=${extension}`] });
     try {
       await context.addInitScript(value => localStorage.setItem("vrising-theme", value), theme);
-      const worker = context.serviceWorkers()[0] ?? await context.waitForEvent("serviceworker");
       const page = context.pages()[0] ?? await context.newPage();
+      const controller = await context.newPage();
+      await blueprintZoomStage(`${theme}: extension controller readiness`, () =>
+        controller.goto(`chrome-extension://${extensionId}/zoom.html`, { timeout: 15_000 }), record);
+      assert.equal(new URL(controller.url()).hostname, extensionId);
+      assert.equal(await blueprintZoomStage(`${theme}: extension identity`, () => controller.evaluate(() =>
+        (globalThis as unknown as { chrome: { runtime: { id: string } } }).chrome.runtime.id), record), extensionId);
       for (const fixture of [fixtures[7], fixtures[9], fixtures[14]]) {
         await ready(page, fixture.route);
-        assert.equal(await worker.evaluate(async url => {
-          const api = (globalThis as unknown as { chrome: { tabs: { query(input: { url: string }): Promise<{ id: number }[]>;
-            setZoom(id: number, factor: number): Promise<void>; getZoom(id: number): Promise<number> } } }).chrome;
-          const [tab] = await api.tabs.query({ url }); await api.tabs.setZoom(tab.id, 2); return api.tabs.getZoom(tab.id);
-        }, new URL(base).origin + "/*"), 2);
+        const stage = `${theme}: ${fixture.id}`;
+        const tabs = await blueprintZoomStage(`${stage}: tabs.query`, () => controller.evaluate(async url => {
+          const api = (globalThis as unknown as { chrome: { tabs: { query(input: { url: string }): Promise<{ id: number }[]> } } }).chrome;
+          return api.tabs.query({ url });
+        }, new URL(base).origin + "/*"), record);
+        assert.equal(tabs.length, 1, "Exactly one owned preview tab required");
+        const tabId = tabs[0].id;
+        assert(Number.isSafeInteger(tabId));
+        await blueprintZoomStage(`${stage}: tabs.setZoom`, () => controller.evaluate(async id => {
+          const api = (globalThis as unknown as { chrome: { tabs: { setZoom(id: number, factor: number): Promise<void> } } }).chrome;
+          await api.tabs.setZoom(id, 2);
+        }, tabId), record);
+        assert.equal(await blueprintZoomStage(`${stage}: tabs.getZoom`, () => controller.evaluate(async id => {
+          const api = (globalThis as unknown as { chrome: { tabs: { getZoom(id: number): Promise<number> } } }).chrome;
+          return api.tabs.getZoom(id);
+        }, tabId), record), 2);
         await page.waitForFunction(() => devicePixelRatio === 2 && innerWidth === 640);
         await checkFixture(page, fixture);
         const session = await context.newCDPSession(page);
@@ -161,12 +194,22 @@ async function nativeZoom() {
         receipts.push({ nativeZoom: 2, fixture: fixture.id, theme });
       }
     } finally {
-      await context.close(); assert.equal(path.dirname(profile), output);
+      await context.close(); assert.equal(path.dirname(profile), runtime);
       await rm(profile, { recursive: true, force: true, maxRetries: 3, retryDelay: 100 });
     }
   }
+  } finally {
+    assert.equal(path.dirname(runtime), path.resolve(tmpdir()));
+    assert(path.basename(runtime).startsWith("blueprint-zoom-"));
+    await rm(runtime, { recursive: true, force: true, maxRetries: 3, retryDelay: 100 });
+  }
 }
 try {
+  if (zoomProbe) {
+    await nativeZoom();
+    await writeFile(path.join(output, "native-zoom-probe-receipt.json"), JSON.stringify({ status: "DIAGNOSTIC_PASSED", receipts, measurements }, null, 2));
+    console.log("Native zoom diagnostic passed; full suite acceptance still required.");
+  } else {
   for (const theme of ["dark", "light"] as const) for (const width of [320, 390, 639, 640, 1280]) {
     const context = await browser.newContext({ viewport: { width, height: 960 }, colorScheme: theme });
     await context.addInitScript(value => localStorage.setItem("vrising-theme", value), theme);
@@ -192,6 +235,7 @@ try {
   if (!before) await nativeZoom();
   await writeFile(path.join(output, `${phase}-receipt.json`), JSON.stringify({ status: "PASSED", phase, receipts, measurements }, null, 2));
   console.log(`Blueprint text ${phase}: ${receipts.length} checks passed.`);
+  }
 } catch (error) {
   await writeFile(path.join(output, `${phase}-failure.json`), JSON.stringify({ phase, error: String(error), stack: (error as Error).stack, receipts, measurements }, null, 2));
   throw error;

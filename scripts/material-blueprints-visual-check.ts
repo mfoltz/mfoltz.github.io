@@ -1,13 +1,16 @@
 import assert from "node:assert/strict";
-import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium, type Page, type Locator } from "playwright";
 import type { DbEntityDetail, DbRelatedEntityRef } from "../src/types/db";
 import { assertFocusedReferenceVisible } from "./reference-focus";
+import { nativeZoomRecorder, openNativeZoomController } from "./blueprint-text-zoom";
 
 const baseUrl = process.env.MATERIAL_BLUEPRINTS_REVIEW_URL ?? "http://127.0.0.1:5193";
 assert(["localhost", "127.0.0.1"].includes(new URL(baseUrl).hostname), "Local preview required");
 const before = process.argv.includes("--before");
+const zoomProbe = process.argv.includes("--native-zoom-probe");
+assert(!(before && zoomProbe), "Zoom diagnostics require current data");
 const output = path.resolve(process.env.MATERIAL_BLUEPRINTS_REVIEW_OUTPUT ?? ".codex-tmp/visual-review/material-blueprints");
 const captureDir = path.join(output, before ? "before" : "after");
 const fixtures = [
@@ -191,29 +194,14 @@ async function interactionChecks(page: Page, fixture: typeof cases[number], key:
 }
 
 async function nativeZoomChecks() {
-  const extension = path.join(output, "local-zoom-extension");
-  await mkdir(extension, { recursive: true });
-  await writeFile(path.join(extension, "manifest.json"), JSON.stringify({ manifest_version: 3, name: "Local ingredient recipe zoom check", version: "1.0",
-    host_permissions: [`${new URL(baseUrl).origin}/*`], background: { service_worker: "worker.js" } }));
-  await writeFile(path.join(extension, "worker.js"), "chrome.runtime.onInstalled.addListener(() => {});\n");
+  const record = nativeZoomRecorder(output);
   for (const theme of ["dark", "light"] as const) {
-    const profile = await mkdtemp(path.join(output, "zoom-profile-"));
-    const context = await chromium.launchPersistentContext(profile, { channel: "chromium", headless: true,
-      viewport: { width: 1280, height: 960 }, colorScheme: theme,
-      args: [`--disable-extensions-except=${extension}`, `--load-extension=${extension}`] });
+    const controller = await openNativeZoomController(baseUrl, theme, record);
+    const { context, page } = controller;
     try {
-      await context.addInitScript(value => localStorage.setItem("vrising-theme", value), theme);
-      const worker = context.serviceWorkers()[0] ?? await context.waitForEvent("serviceworker");
-      const page = context.pages()[0] ?? await context.newPage();
       for (const fixture of [cases[0], cases[3]]) {
         await ready(page, fixture);
-        const factor = await worker.evaluate(async url => {
-          const api = (globalThis as unknown as { chrome: { tabs: { query(input: { url: string }): Promise<Array<{ id: number }>>;
-            setZoom(id: number, factor: number): Promise<void>; getZoom(id: number): Promise<number> } } }).chrome;
-          const [tab] = await api.tabs.query({ url });
-          await api.tabs.setZoom(tab.id, 2);
-          return api.tabs.getZoom(tab.id);
-        }, `${new URL(baseUrl).origin}/*`);
+        const factor = await controller.setZoom();
         assert.equal(factor, 2);
         await page.waitForFunction(() => devicePixelRatio === 2 && innerWidth === 640 && innerHeight === 480);
         await measure(page, fixture.refs.slice(0, 12));
@@ -228,13 +216,12 @@ async function nativeZoomChecks() {
         receipts.push({ key: `zoom200-${fixture.id}-${theme}`, nativeZoom: factor, effectiveCssViewport: "640x480", keyboard: "passed" });
       }
     } finally {
-      await context.close();
-      assert.equal(path.dirname(path.resolve(profile)), output);
-      await rm(profile, { recursive: true, force: true, maxRetries: 3, retryDelay: 100 });
+      await controller.close();
     }
   }
 }
 try {
+  if (!zoomProbe) {
   for (const theme of ["dark", "light"] as const) {
     for (const width of [320, 390, 639, 640, 1280]) {
       const context = await browser.newContext({ viewport: { width, height: 960 }, colorScheme: theme });
@@ -277,8 +264,9 @@ try {
       } finally { await context.close(); }
     }
   }
+  }
 } finally { await browser.close(); }
 if (!before) await nativeZoomChecks();
 if (!before) await writeFile(path.join(output, "measurements.json"), JSON.stringify(measurements, null, 2));
-await writeFile(path.join(output, before ? "before-receipt.json" : "receipt.json"), JSON.stringify(receipts, null, 2));
-console.log(`Material Blueprint ${before ? "before" : "acceptance"} review: ${receipts.length} checks, fonts loaded`);
+await writeFile(path.join(output, zoomProbe ? "native-zoom-probe-receipt.json" : before ? "before-receipt.json" : "receipt.json"), JSON.stringify(receipts, null, 2));
+console.log(`Material Blueprint ${zoomProbe ? "native zoom diagnostic" : before ? "before" : "acceptance"} review: ${receipts.length} checks, fonts loaded`);

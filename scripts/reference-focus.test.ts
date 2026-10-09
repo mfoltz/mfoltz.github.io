@@ -41,3 +41,30 @@ test("focus acceptance waits for native scroll and rejects hidden identifiers", 
     await assert.rejects(assertFocusedReferenceVisible(page, link), /Focused reference outside viewport/);
   } finally { await browser.close(); }
 });
+
+test("focus acceptance waits for a delayed native scroll start", async () => {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage({ viewport: { width: 640, height: 480 } });
+  try {
+    await page.setContent(`<style>
+      html { scroll-behavior: smooth } body { margin: 0; height: 2500px }
+      a { display: block; position: absolute; top: 1100px; left: 40px; width: 550px; height: 72px }
+      a:focus-visible { outline: 2px solid purple }
+      [data-db-reference-title], [data-db-reference-prefab] { display: block; height: 24px }
+    </style><a href="#destination"><span data-db-reference-title>Complete recipe name</span>
+    <span data-db-reference-prefab>Recipe_Complete_Identifier</span></a>`);
+    // Model a scroll that begins after the former 250ms settlement window.
+    // Only one native scroll runs; the visibility helper must not initiate one.
+    await page.evaluate(() => document.addEventListener("keydown", event => {
+      if (event.key !== "Tab") return;
+      event.preventDefault();
+      document.querySelector<HTMLAnchorElement>("a")!.focus({ preventScroll: true });
+      setTimeout(() => document.querySelector("a")!.scrollIntoView({ block: "center", behavior: "smooth" }), 800);
+    }, { once: true }));
+    await page.keyboard.press("Tab");
+    assert.equal(await page.evaluate(() => scrollY), 0);
+    const result = await assertFocusedReferenceVisible(page, page.locator("a"));
+    assert(result.contained && result.unobscured);
+    assert.equal(result.contents[1].text, "Recipe_Complete_Identifier");
+  } finally { await browser.close(); }
+});

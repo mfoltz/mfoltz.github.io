@@ -1,21 +1,49 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-06. This is the single active roadmap for this repository.
+Reviewed: 2026-10-09. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
 
-Material-to-Blueprint navigation is accepted locally on
-`codex/material-blueprint-navigation`, starting at `464af995ad`. It adds 1,470
+The ten-record Blueprint text pilot is accepted locally on
+`codex/blueprint-text-pilot`, based on `7ff6162e3a`. It promotes ten owned English
+names and ten descriptions from the accepted managed-data capture and native
+carpet comparison. High-signal display coverage is 18/1198: ten text-owned rows
+plus eight existing icon-bearing rows. It does not imply eighteen localized
+names. See the [pilot checkpoint](checkpoints/2026-10-09-blueprint-text-pilot.md).
+
+The repository witness and bounded importer reproduce the approved plain text,
+including the carpet's observed native 15%, without a general numeric formatter.
+Titles propagate to browse/search, nineteen material references, one book
+reference and ten source backlinks. Exact identities, routes, quantities,
+membership, source ownership and artwork evidence remain intact. Plant and Debug
+Room remain evidence-only and unchanged.
+
+Focused acceptance passes 182 checks with loaded Inter/Cinzel fonts and inspected
+captures. Existing navigation, responsive browse, Blueprint and artwork checks
+pass. All 92 final baseline comparisons pass after sixteen inspected, approved
+updates; the original Anvil artwork fixture and all unaffected baselines remain
+unchanged. Separately approved focus/zoom harness repairs preserve assertions.
+
+Local main remains `7ff6162e3a`; the book/hyphen/material stack is already its
+ancestor. The original checkout, index and two pending focus-repair files are
+preserved. This pass does not refresh remote authority or authorize consolidation,
+publication, extraction or cleanup. The next delivery action is review of this
+bounded pilot stack before a separate consolidation/publication decision.
+
+## Historical delivery state through October 6
+
+Material-to-Blueprint navigation was accepted locally on
+`codex/material-blueprint-navigation`, starting at `464af995ad`. It added 1,470
 positive requirements across 96 materials and 1,080 Blueprints, with searchable
 12-card expansion, recorded quantities and independent `buildQ`/`buildShown`
-return state. The book/hyphen stack remains an ancestor; local main stays at
+return state. The book/hyphen stack was an ancestor; local main then stayed at
 `3917522d94`. See the [material checkpoint](checkpoints/2026-10-06-material-blueprint-navigation.md).
 Integration and publication require separate authorization.
 
-The reviewed application stack is published on remote main at
+The last publication recorded in that dated review was remote main at
 `660e88efaeb5eb1511bca9520721b61acb472d17`. An October 5 read-only remote check
 confirms that tip. The separately approved consolidation fast-forwarded local
 main from `d8206b489c` without changing the accepted tree, deleted only the fully
@@ -111,7 +139,7 @@ The September 30 integration recovered only the Blueprint behavior from
   recorded unlock sources, and linked book requirements. Source coverage is
   partial.”
 - Recorded links do not establish drops, vendors, guaranteed acquisition, or
-  live-game availability. Blueprint display coverage remains only 8/1198;
+  live-game availability. Blueprint display coverage at that checkpoint was 8/1198;
   source-link coverage is a separate measure.
 - Integration-only verification preserved global search and the eight other
   database index hashes. Blueprint-only search terms do not widen global search.
@@ -136,7 +164,8 @@ commits were produced on `codex/blueprint-materials-artwork`, based on local mai
   browse/detail/search. No curated asset or portrait-map changes are needed.
 - Material links retain quantities, source components/paths, and current item
   destinations. Preserve existing source/book links, browse state, facts, and
-  uncertainty wording. Blueprint display-text coverage remains 8/1198.
+  uncertainty wording. That checkpoint's display coverage was 8/1198, representing
+  icon-bearing rows rather than owned localized names or descriptions.
 - The historical [castle sprite scout](blueprint-castle-sprite-scout-20260930.md)
   stopped at the missing sprite identity hop. Its 255 named candidates do not
   establish ownership. No new extraction occurred during the materials pass.
@@ -194,8 +223,9 @@ four held entrances. See the
 - Materialization adds six unchanged source PNGs, retires only three pinned
   superseded files, and preserves 51 public image hashes. Repeat generation must
   produce identical map, review, lock and image hashes.
-- Blueprint text/material/unlock/book coverage and acquisition wording stay
-  unchanged. Localized text and broader portraits remain parked. The later
+- Blueprint text/material/unlock/book coverage and acquisition wording stayed
+  unchanged during that reconciliation. Broader text and portraits remain parked;
+  the ten-record October 9 text pilot is separately authorized. The later
   item-description audit is complete as recorded below. The reconciliation
   ended locally before the separately approved October 5 publication.
 - Native browser review passes all 92 baselines after accepting only 18 new
@@ -366,14 +396,15 @@ counts reflect the retained source and current exact routes:
 | Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
 | Material to Blueprint uses (implemented locally) | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-The ready high-value action is review of the local book, hyphen recovery and
-material stack before a separately authorized consolidation/publication pass.
+The ready high-value action is review of the local ten-record Blueprint text
+pilot before a separately authorized consolidation/publication pass.
 Preserve dependency order and refresh remote authority at that point. This
 checkpoint does not authorize merge, push, PR, deployment or branch cleanup.
 
 The delivered ingredient group still covers 1,385 requirements across 221 items
-and 664 recipes, with a largest list of 88. Sparse Blueprint display text (8/1198)
-remains a limitation; complete source titles and identifiers are retained. Absent
+and 664 recipes, with a largest list of 88. Sparse owned Blueprint text (10/1198
+names and descriptions; 18/1198 high-signal display rows) remains a limitation;
+complete source identifiers are retained. Absent
 reverse rows do not establish absence of uses, and recorded requirements do not
 establish crafting access, acquisition or availability.
 

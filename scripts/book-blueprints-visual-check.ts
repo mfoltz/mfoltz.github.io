@@ -1,14 +1,16 @@
 import assert from "node:assert/strict";
-import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { chromium, type Page, type Locator } from "playwright";
 import type { DbItemDetail, DbBookBlueprintRef } from "../src/types/db";
 import { filterBookBlueprints, bookDeclaringSources } from "../src/lib/bookBlueprintBrowse";
 import { assertFocusedReferenceVisible } from "./reference-focus";
+import { nativeZoomRecorder, openNativeZoomController } from "./blueprint-text-zoom";
 
 const baseUrl = process.env.BOOK_BLUEPRINTS_REVIEW_URL ?? "http://127.0.0.1:5191";
 assert(["localhost", "127.0.0.1"].includes(new URL(baseUrl).hostname));
 const output = path.resolve(process.env.BOOK_BLUEPRINTS_REVIEW_OUTPUT ?? ".codex-tmp/visual-review/book-blueprints");
+const zoomProbe = process.argv.includes("--native-zoom-probe");
 const captures = path.join(output, "after");
 const slugs = ["item-ingredient-book-structure-paintings-t01", "item-ingredient-book-structure-carpets-t01",
   "item-ingredient-book-structure-storage-armor-t02", "item-ingredient-book-structure-storage-blood-case-t02", "item-vampire-coating-blood"];
@@ -168,23 +170,14 @@ async function interactions(page: Page, key: string) {
   receipts.push({ key, all49: "passed", search: "target/source/combined terms", returnState: "passed", sourceBuffers: "passed", keyboard: "passed" });
 }
 async function zoom() {
-  const extension = path.join(output, "local-zoom-extension"); await mkdir(extension, {recursive:true});
-  await writeFile(path.join(extension,"manifest.json"), JSON.stringify({manifest_version:3,name:"Local book Blueprint zoom check",version:"1.0",
-    host_permissions:[`${new URL(baseUrl).origin}/*`],background:{service_worker:"worker.js"}}));
-  await writeFile(path.join(extension,"worker.js"),"chrome.runtime.onInstalled.addListener(() => {});\n");
+  const record = nativeZoomRecorder(output);
   for(const theme of ["dark","light"] as const){
-    const profile=await mkdtemp(path.join(output,"zoom-profile-"));
-    const context=await chromium.launchPersistentContext(profile,{channel:"chromium",headless:true,viewport:{width:1280,height:960},
-      args:[`--disable-extensions-except=${extension}`,`--load-extension=${extension}`]});
+    const controller = await openNativeZoomController(baseUrl, theme, record);
+    const { context, page } = controller;
     try{
-      await context.addInitScript(value=>localStorage.setItem("vrising-theme",value),theme);
-      const worker=context.serviceWorkers()[0]??await context.waitForEvent("serviceworker"),page=context.pages()[0]??await context.newPage();
       for(const fixture of cases.slice(0,2)){
         await ready(page,fixture);
-        const factor=await worker.evaluate(async url=>{
-          const api=(globalThis as unknown as {chrome:{tabs:{query(input:{url:string}):Promise<Array<{id:number}>>;setZoom(id:number,factor:number):Promise<void>;getZoom(id:number):Promise<number>}}}).chrome;
-          const [tab]=await api.tabs.query({url});await api.tabs.setZoom(tab.id,2);return api.tabs.getZoom(tab.id);
-        },`${new URL(baseUrl).origin}/*`);
+        const factor=await controller.setZoom();
         assert.equal(factor,2);await page.waitForFunction(()=>devicePixelRatio===2&&innerWidth===640&&innerHeight===480);
         await measure(page,fixture,fixture.refs.slice(0,12));
         await keyboardFocus(page,page.locator(targetSelector).first().locator("xpath=.."));
@@ -195,10 +188,11 @@ async function zoom() {
         await page.keyboard.press("Enter");await page.waitForURL(baseUrl+fixture.refs[0].path);
         receipts.push({theme,fixture:fixture.slug,nativeZoom:factor,keyboard:"passed"});
       }
-    }finally{await context.close();assert.equal(path.dirname(path.resolve(profile)),output);await rm(profile,{recursive:true,force:true,maxRetries:3,retryDelay:100})}
+    }finally{await controller.close()}
   }
 }
 try{
+  if (!zoomProbe) {
   for(const theme of ["dark","light"] as const) for(const width of [320,390,639,640,1280]){
     const context=await browser.newContext({viewport:{width,height:960},colorScheme:theme});
     await context.addInitScript(value=>localStorage.setItem("vrising-theme",value),theme);
@@ -225,8 +219,9 @@ try{
       assert.deepEqual(errors,[]);
     }finally{await context.close()}
   }
+  }
 }finally{await browser.close()}
 await zoom();
 await writeFile(path.join(output,"measurements.json"),JSON.stringify(measurements,null,2));
-await writeFile(path.join(output,"receipt.json"),JSON.stringify(receipts,null,2));
-console.log(`Book Blueprint acceptance: ${receipts.length} checks, fonts loaded`);
+await writeFile(path.join(output,zoomProbe ? "native-zoom-probe-receipt.json" : "receipt.json"),JSON.stringify(receipts,null,2));
+console.log(`Book Blueprint ${zoomProbe ? "native zoom diagnostic" : "acceptance"}: ${receipts.length} checks, fonts loaded`);
