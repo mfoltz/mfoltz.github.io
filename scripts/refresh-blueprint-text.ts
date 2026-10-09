@@ -1,0 +1,15 @@
+import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { blueprintTextCoverage, overlayBlueprintText, readBlueprintText, type BlueprintTextDisplay } from "./blueprint-text";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const mapPath = path.join(root, "data/enrichment/blueprint-display-map.json");
+const coveragePath = path.join(root, "data/enrichment/enrichment-coverage.json");
+const capture = await readBlueprintText(root);
+const original = JSON.parse(await readFile(mapPath, "utf8")) as Record<string, BlueprintTextDisplay>;
+const updated = overlayBlueprintText(original, capture);
+const coverage = JSON.parse(await readFile(coveragePath, "utf8")) as Record<string, unknown>;
+coverage["blueprint-display-map"] = blueprintTextCoverage(updated);
+await writeFile(mapPath, JSON.stringify(updated, null, 2) + "\n");
+await writeFile(coveragePath, JSON.stringify(coverage, null, 2) + "\n");
+console.log("Ten owned Blueprint names/descriptions imported; display coverage 18/1198.");

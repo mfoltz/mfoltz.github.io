@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "managed-blueprint-text-pilot",
+  "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+  "batch": {
+    "captureSha256": "26dc64f20c7e1657fedd062e990bf29628f97181b74244448b3b7154c702b79d",
+    "capturedUtc": "2026-10-08T22:09:01.489245Z",
+    "world": "Client_0",
+    "targetManifestSha256": "5c6381356e4a3f084c87bde26beac1cc229b4c2482959c1f03349b1cace3dbc0",
+    "captureAssemblySha256": "b3af165bcb661b86871246313a00b53de438958bc4d99921402688a2f019ca70",
+    "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+    "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+    "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+    "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)"
+  },
+  "nativeComparison": {
+    "captureSha256": "56e08fdb2e03e045acc02a2a4450570021f4ea6483bf41c25d7a987ed16bf5ca",
+    "capturedUtc": "2026-10-09T14:31:04.3050418Z",
+    "world": "Client_0",
+    "targetManifestSha256": "5190de70c3c533454cb59639c2f11ebbf58f6155bdf4fb76ea23414d9054c3b4",
+    "captureAssemblySha256": "32074bcfbdddab944261ce16681add58ba11dd45f677916c625e175d76a9557c",
+    "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+    "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+    "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+    "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+    "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+    "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+    "locale": {
+      "initialized": true,
+      "language": "english",
+      "version": 5
+    }
+  },
+  "uiEquivalenceEstablished": false,
+  "generalNumericRuleEstablished": false,
+  "rows": [
+    {
+      "prefab": "TM_UnitStation_NetherGate",
+      "guid": -218354895,
+      "sourcePath": "content/prefabs/TM_UnitStation_NetherGate.md",
+      "sourceSha256": "03074e725f60ceacb4981e5b4379ad1ea00d11400745ebd93fc4c815b1700f95",
+      "nameKey": "2222808f-b335-4277-9dd8-b41d896f6696",
+      "nameRaw": "Stygian Summoning Circle",
+      "descriptionKey": "88aa48b1-4694-41f5-8068-d1b193be4838",
+      "descriptionRaw": "A portal between worlds, used to summon Blood Souls from the Shadow Realm.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_BloodFountain_CastleHeart",
+      "guid": -485210554,
+      "sourcePath": "content/prefabs/TM_BloodFountain_CastleHeart.md",
+      "sourceSha256": "f0511811a8bbe710c48a9adb6ab9c8a8f0a40fd48ad08aef5d66eb34234883a5",
+      "nameKey": "531e1fb9-a11a-41cd-9149-3b292c6361db",
+      "nameRaw": "Castle Heart",
+      "descriptionKey": "e74e5a6b-8e26-4f07-99c6-269a084b41cd",
+      "descriptionRaw": "The heart of your domain. As long as it contains blood essence it will <teal1>power</c> your castle and keep it from <teal1>decaying</c>. You can expand your territory with foundations and floors originating from the heart. If the heart is destroyed your entire castle crumbles.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_RefinementStation_Furnace_Small",
+      "guid": -1150411622,
+      "sourcePath": "content/prefabs/TM_RefinementStation_Furnace_Small.md",
+      "sourceSha256": "afe717afbf221306d842409638b8ce56bf193a5fdd894b00deee3589ad747d74",
+      "nameKey": "80482750-5fae-476c-8a53-995c2f441079",
+      "nameRaw": "Furnace",
+      "descriptionKey": "49bcd550-ce3d-4cd6-96f5-ad291f625a1b",
+      "descriptionRaw": "A workstation used for refinement of ores.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_RefinementStation_Sawmill_Small",
+      "guid": 1094077710,
+      "sourcePath": "content/prefabs/TM_RefinementStation_Sawmill_Small.md",
+      "sourceSha256": "320f3ffb93e579d3aafdc5854253c152f1ffcc4a8c0e2be6577ddfe5d4a4a122",
+      "nameKey": "a5597738-8a46-4a12-b8ed-e4e6c47765d6",
+      "nameRaw": "Sawmill",
+      "descriptionKey": "ca5889b8-2494-4e71-9a7f-576612acae1b",
+      "descriptionRaw": "A workstation used for refinement of wooden materials.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_SpecialStation_ServantCoffin",
+      "guid": 723455393,
+      "sourcePath": "content/prefabs/TM_SpecialStation_ServantCoffin.md",
+      "sourceSha256": "27cc88c7e7003ce2acf3934c945033b38efbcfba39f8dc939db5e9e33e0a27d1",
+      "nameKey": "c304f227-4d40-4d70-8391-c36b5d857a09",
+      "nameRaw": "Servant Coffin",
+      "descriptionKey": "7b1483d8-3109-403e-977c-6bc3c573e9eb",
+      "descriptionRaw": "Used to convert a human into a vampire",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_SpecialStation_PrisonCell",
+      "guid": -1253061408,
+      "sourcePath": "content/prefabs/TM_SpecialStation_PrisonCell.md",
+      "sourceSha256": "541b42a2b99907ee9c53ae7212e0486719171e14729d597fbe00c33699c09423",
+      "nameKey": "11e16d33-2b96-4f3e-a111-c8470b611aba",
+      "nameRaw": "Prison Cell",
+      "descriptionKey": "1f3c78dc-0592-46d6-bd83-b83fd73ac632",
+      "descriptionRaw": "Bring a charmed human to the Prison Cell to imprison them. Allows you to craft <teal1>blood potions</c> by tapping prisoners on blood.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_Castle_Floor_AlchemyLab01",
+      "guid": -1269191198,
+      "sourcePath": "content/prefabs/TM_Castle_Floor_AlchemyLab01.md",
+      "sourceSha256": "3d37acc8205730252ae7d6b0b88eb4a5d8aa715cd84fdc0b17c312bf8817d129",
+      "nameKey": "5324d5c8-7fa3-4561-95c9-b398bdfdf184",
+      "nameRaw": "'Exemplar' Pattern",
+      "descriptionKey": "df435758-47fe-4ad3-9256-03bdbf71d07a",
+      "descriptionRaw": "Alchemy Lab Floor - Applies bonuses to Alchemy Lab structures.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "BP_Castle_Stairs_Double_Stone01",
+      "guid": 77571580,
+      "sourcePath": "content/prefabs/BP_Castle_Stairs_Double_Stone01.md",
+      "sourceSha256": "6a4dcfeb46851a43cf73fb14beb7ec83742694b2cfc7dd4e406c651229e7c9a9",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f",
+      "nameRaw": "Stone Stairs",
+      "descriptionKey": "b75a1596-5a4a-42df-a994-71806be1f93a",
+      "descriptionRaw": "Using stairs, you can construct a <teal3>multi-level castle</c>. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using <teal3>foundations</c>.\\n\\nStairs can also be built on top of terrain slopes.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_Castle_Gate_Wall_Door_01",
+      "guid": -1110124667,
+      "sourcePath": "content/prefabs/TM_Castle_Gate_Wall_Door_01.md",
+      "sourceSha256": "59f28e98472f338746796df65cb67f8d4aaeaa75724145b6c4a68c1aa01771a3",
+      "nameKey": "ffd7b483-ca0b-4bc4-86f8-67a59ad6afc6",
+      "nameRaw": "Iron Gate",
+      "descriptionKey": "a57b5917-3fad-48d2-8c78-6bd70d45efcb",
+      "descriptionRaw": "Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      }
+    },
+    {
+      "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black",
+      "guid": 2126004642,
+      "sourcePath": "content/prefabs/TM_Castle_FloorDecor_Carpet01_Cross-Section_Black.md",
+      "sourceSha256": "c4ee2b933dfd3daec3d98e0e6f0e42a04aef925602a8501a5a43a55f4f414d8f",
+      "nameKey": "70c60e49-3080-4730-801c-27851e1e2382",
+      "nameRaw": "'Dux' Black Carpet X-Section",
+      "descriptionKey": "37c05cb6-124e-4e88-9f8f-fef730db76bd",
+      "descriptionRaw": "A splendid carpet that increases your movement speed by <teal2>{movefactor}</c>. There is no better way to hide all the dust!",
+      "parameters": {
+        "State": "recorded-owned-range",
+        "Index": 0,
+        "Count": 1,
+        "BufferLength": 1,
+        "ErrorType": null,
+        "Rows": [
+          {
+            "bufferIndex": 0,
+            "key": "movefactor",
+            "value": "15",
+            "numericFormat": "Percent100",
+            "numericFormatValue": 2
+          }
+        ]
+      },
+      "nativeDescription": {
+        "text": "A splendid carpet that increases your movement speed by <color=#6B9EB2>15%</color>. There is no better way to hide all the dust!",
+        "toString": "A splendid carpet that increases your movement speed by <color=#6B9EB2>15%</color>. There is no better way to hide all the dust!",
+        "resultKey": "37c05cb6-124e-4e88-9f8f-fef730db76bd",
+        "buildInvocations": 1
+      }
+    }
+  ]
+}
