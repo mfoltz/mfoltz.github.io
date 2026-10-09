@@ -117,6 +117,29 @@ export function overlayBlueprintText<T extends BlueprintTextDisplay>(map: Record
   }
   return result;
 }
+export function assertBlueprintTextDisplay(map: Record<string, BlueprintTextDisplay>, capture: BlueprintTextCapture): void {
+  const expected = overlayBlueprintText(map, capture);
+  for (const row of capture.rows) assert.deepEqual(map[row.prefab], expected[row.prefab], `${row.prefab}: canonical text differs from accepted evidence`);
+}
+/** Artwork labels are historical metadata; owned localized text is validated independently. */
+export function assertBuildablePortraitDisplayName(
+  portrait: { prefab: string; guid: number; displayNameEn?: string },
+  display: BlueprintTextDisplay | undefined, capture?: BlueprintTextCapture
+): void {
+  const owned = capture?.rows.find(row => row.prefab === portrait.prefab);
+  if (owned) {
+    validateBlueprintTextCapture(capture!);
+    assert.equal(portrait.guid, owned.guid, `${portrait.prefab}: owned text/artwork GUID mismatch`);
+    assert(display && display.prefab === owned.prefab && display.guid === owned.guid, `${portrait.prefab}: owned display join mismatch`);
+    const expected = blueprintTextFields(owned);
+    for (const key of Object.keys(expected) as (keyof typeof expected)[])
+      assert.equal(display[key], expected[key], `${portrait.prefab}: owned display ${key} differs from witness`);
+    if (portrait.displayNameEn !== undefined)
+      assert.equal(portrait.displayNameEn, expected.displayNameEn, `${portrait.prefab}: conflicting artwork label`);
+  } else if (display?.displayNameEn) {
+    assert.equal(portrait.displayNameEn, display.displayNameEn, `${portrait.prefab}: displayNameEn does not match display map`);
+  }
+}
 export function blueprintTextCoverage(map: Record<string, BlueprintTextDisplay>) {
   assert.equal(Object.keys(map).length, 1198, "Blueprint census divergence");
   const matched = Object.values(map).filter(row => !["catalog-seed", "generated-fallback", "alias-match"].includes(row.sourceKind ?? "")

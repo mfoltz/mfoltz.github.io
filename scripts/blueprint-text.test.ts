@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { blueprintPlainText, blueprintTextFields, blueprintTextTargets, overlayBlueprintText, readBlueprintText,
-  validateBlueprintTextCapture, blueprintTextCoverage, type BlueprintTextDisplay } from "./blueprint-text";
+  validateBlueprintTextCapture, blueprintTextCoverage, assertBuildablePortraitDisplayName, type BlueprintTextDisplay } from "./blueprint-text";
 const capture = await readBlueprintText(process.cwd());
 const original = JSON.parse(await readFile("data/enrichment/blueprint-display-map.json", "utf8")) as Record<string, BlueprintTextDisplay>;
 
@@ -66,4 +66,26 @@ test("missing artwork is supported; missing or conflicting joins are rejected", 
     if (change === "summary") bad[first].summaryEn = "Conflicting";
     assert.throws(() => overlayBlueprintText(bad, capture));
   }
+});
+
+test("owned floor text coexists with an absent historical artwork label without accepting conflicts", () => {
+  const row = capture.rows.find(row => row.prefab === "TM_Castle_Floor_AlchemyLab01")!;
+  const portrait = { prefab: row.prefab, guid: row.guid };
+  const display = { ...portrait, ...blueprintTextFields(row) };
+  assert.doesNotThrow(() => assertBuildablePortraitDisplayName(portrait, display, capture));
+  assert.throws(() => assertBuildablePortraitDisplayName({ ...portrait, guid: 0 }, display, capture));
+  assert.throws(() => assertBuildablePortraitDisplayName({ ...portrait, displayNameEn: "Substituted" }, display, capture));
+  for (const field of ["displayNameEn", "displayLocalizationGuid", "summaryEn", "sourceKind", "sourceRef"] as const) {
+    assert.throws(() => assertBuildablePortraitDisplayName(portrait, { ...display, [field]: "Wrong" }, capture));
+  }
+  assert.throws(() => assertBuildablePortraitDisplayName(portrait, undefined, capture));
+});
+test("non-pilot and workstation artwork labels retain the original consistency check", () => {
+  const portrait = { prefab: "TM_Other", guid: 1, displayNameEn: "Original" };
+  const display = { ...portrait, displayNameEn: "Changed" };
+  assert.throws(() => assertBuildablePortraitDisplayName(portrait, display, capture));
+  assert.doesNotThrow(() => assertBuildablePortraitDisplayName(portrait, { ...display, displayNameEn: "Original" }, capture));
+  const owned = capture.rows[0];
+  assert.throws(() => assertBuildablePortraitDisplayName({ prefab: owned.prefab, guid: owned.guid },
+    { prefab: owned.prefab, guid: owned.guid, displayNameEn: "Workstation name" }));
 });

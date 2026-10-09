@@ -1,6 +1,7 @@
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { assertBlueprintTextDisplay, blueprintTextFields, readBlueprintText, type BlueprintTextRow } from "./blueprint-text";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import {
   buildAbilityDamageEvidence,
@@ -447,6 +448,7 @@ interface BuildContext {
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buildablePortraitByPrefab: Map<string, BuildablePortraitMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
+  blueprintTextByPrefab: Map<string, BlueprintTextRow>;
   blueprintUnlockByPrefab: Map<string, BlueprintUnlockMapEntry>;
   questDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buffDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1686,6 +1688,7 @@ function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Ma
 
 async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
+  const blueprintTextCapture = await readBlueprintText(repoRoot);
   const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, serverDamageEvidenceSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, npcPortraitSnapshot, workstationDisplaySnapshot, buildablePortraitSnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
     await Promise.all([
       readJsonIfExists<LocalizedNameSnapshot>(path.join(enrichmentDir, "prefab-localization.json")),
@@ -1848,6 +1851,8 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
       .filter((entry): entry is readonly [string, RecipeLinkMapEntry] => Boolean(entry))
   );
 
+  const blueprintDisplayByPrefab = parsePrefabDisplayMap(blueprintDisplaySnapshot);
+  assertBlueprintTextDisplay(Object.fromEntries(blueprintDisplayByPrefab), blueprintTextCapture);
   return {
     localizedNamesByGuid,
     abilityCatalogByPrefab,
@@ -1861,7 +1866,8 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     npcPortraitByPrefab: parseNpcPortraitMap(npcPortraitSnapshot),
     workstationDisplayByPrefab: parsePrefabDisplayMap(workstationDisplaySnapshot),
     buildablePortraitByPrefab: parseBuildablePortraitMap(buildablePortraitSnapshot),
-    blueprintDisplayByPrefab: parsePrefabDisplayMap(blueprintDisplaySnapshot),
+    blueprintDisplayByPrefab,
+    blueprintTextByPrefab: new Map(blueprintTextCapture.rows.map(row => [row.prefab, row])),
     blueprintUnlockByPrefab: new Map(),
     questDisplayByPrefab: parsePrefabDisplayMap(questDisplaySnapshot),
     buffDisplayByPrefab: parsePrefabDisplayMap(buffDisplaySnapshot),
@@ -2508,7 +2514,11 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const unlockSourceTypeLabels = unlockMapEntry?.unlockSourceTypeLabels ?? [];
   const unlockSourceTypeSummary = unlockSourceTypeLabels.join(", ");
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["TM", "BP"]);
-  const { title, subtitle } = resolveTitle(buildContext, doc, fallbackTitle);
+  const resolved = resolveTitle(buildContext, doc, fallbackTitle);
+  const owned = buildContext.blueprintTextByPrefab.get(doc.prefabName);
+  const text = owned ? blueprintTextFields(owned) : undefined;
+  const title = text?.displayNameEn ?? resolved.title;
+  const subtitle = text ? doc.prefabName : resolved.subtitle;
   const summary = uniqueStrings([
     components.has("ProjectM.CastleWorkstation") || components.has("ProjectM.Refinementstation") ? "Workstation blueprint" : "Buildable blueprint",
     isStartBlueprint ? "starter build" : undefined,
@@ -2520,6 +2530,7 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   return createGenericEntity("blueprints", doc, {
     title,
     subtitle,
+    description: text?.summaryEn,
     categories: uniqueStrings([...docCategories, "Blueprint"]),
     summary,
     icon: displayEntry?.iconAssetPath,
@@ -2538,6 +2549,8 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     detail: {
       portraitAssetPath,
       ...materials,
+      descriptionSourceKind: text?.sourceKind,
+      descriptionSourceRef: text?.sourceRef,
       portraitSourceKind: portraitAssetPath ? portraitMapEntry?.portraitEvidenceKind : undefined,
       portraitSourceRef: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind ? `data/enrichment/buildable-portrait-review.json:${doc.prefabName}` : undefined,
       fullDismantleTime,

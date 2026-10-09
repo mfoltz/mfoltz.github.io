@@ -359,6 +359,23 @@ test("blueprint detail retains build rules and canonical source destinations", (
   assert.equal(countMatches(html, /href="#relation-unlock-source-records"/g), 1);
 });
 
+test("owned Blueprint text appears once while structural facts and complete identifiers remain", () => {
+  const description = "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!";
+  const prefab = "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black";
+  const html = renderDetail({ ...blueprintDetailFixture, title: "Black Carpet", subtitle: prefab,
+    prefab, guid: 2126004642, description, localizedSummaryEn: description,
+    localizedDisplayNameEn: "Black Carpet", descriptionSourceKind: "extractor-raw",
+    descriptionSourceRef: `data/enrichment/blueprint-text-capture.json#${prefab}` }, "blueprints");
+  assert.equal(html.split(description).length - 1, 1);
+  assert.equal(countMatches(html, />Black Carpet</g), 1);
+  assert(html.includes(prefab));
+  assert(html.includes("2126004642"));
+  assert.match(html, /Build Rules|Dismantle Time/);
+  assert.match(html, /href="\/prefabs\/journal-reward-tech-bloodaltar"/);
+  assert(html.includes(`data/enrichment/blueprint-text-capture.json#${prefab}`));
+  assert.doesNotMatch(html, /&lt;teal|&lt;color|\{movefactor\}/);
+});
+
 test("blueprint book requirements remain grouped under the declaring source", () => {
   const html = renderDetail({ ...blueprintDetailFixture, linkedBookCount: 1, unlockSources: [
     { title: "Tech Floor Alchemy Lab", prefab: "Tech_Floor_AlchemyLab", guid: -55882446,

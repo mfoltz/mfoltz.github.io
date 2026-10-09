@@ -6,6 +6,8 @@ import { buildablePortraitCandidatesSourceKind, buildablePortraitMapSourceKind, 
 import { buildablePortraitReviewPath, selectReviewedBuildableAssets, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
 import { blueprintUnlockSourcePath, type BlueprintUnlockMapSnapshot } from "./blueprint-unlocks";
 import { validateBlueprintUnlockSnapshot } from "./blueprint-unlock-validation";
+import { assertBuildablePortraitDisplayName, readBlueprintText, type BlueprintTextDisplay } from "./blueprint-text";
+import { validateGeneratedBlueprintText } from "./blueprint-text-generated";
 import { readGeneratedBookBlueprints } from "./book-blueprints-generated";
 import { validateBookBlueprints } from "./book-blueprints";
 import { readGeneratedMaterialBlueprints } from "./material-blueprints-generated";
@@ -524,8 +526,8 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     readJson<BuildablePortraitCandidatesSnapshot>(candidatesPath),
     readJson<BuildablePortraitMapSnapshot>(portraitMapPath),
     readJson<Record<string, number>>(allPrefabsPath),
-    readJson<Record<string, PrefabDisplayMapEntry>>(workstationDisplayPath),
-    readJson<Record<string, PrefabDisplayMapEntry>>(blueprintDisplayPath)
+    readJson<Record<string, BlueprintTextDisplay>>(workstationDisplayPath),
+    readJson<Record<string, BlueprintTextDisplay>>(blueprintDisplayPath)
   ]);
   const currentBuildableRows = Object.keys(allPrefabs).filter((prefab) => /^(TM|BP)_/i.test(prefab)).length;
 
@@ -560,6 +562,7 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
   // their authority; every other row still requires its original scout join.
   const review = await readJson<BuildablePortraitReviewSnapshot>(path.join(repoRoot, buildablePortraitReviewPath));
   const approvedAssets = selectReviewedBuildableAssets(review, portraitMap, allPrefabs);
+  const ownedBlueprintText = await readBlueprintText(repoRoot);
   const approvedByPrefab = new Map(approvedAssets.map(asset => [asset.prefab, asset]));
   for (const [prefab, entry] of Object.entries(portraitMap.entriesByPrefab ?? {})) {
     const source = `${portraitMapPath}:${prefab}`;
@@ -580,9 +583,7 @@ async function validateBuildablePortraitMaps(repoRoot: string): Promise<void> {
     }
     assert(Array.isArray(entry.evidenceRefs) && entry.evidenceRefs.length > 0, `${source}: missing evidenceRefs`);
     const displayEntry = workstationDisplay[prefab] ?? blueprintDisplay[prefab];
-    if (displayEntry?.displayNameEn) {
-      assert(entry.displayNameEn === displayEntry.displayNameEn, `${source}: displayNameEn does not match display map`);
-    }
+    assertBuildablePortraitDisplayName(entry, displayEntry, workstationDisplay[prefab] ? undefined : ownedBlueprintText);
 
     if (entry.portraitAssetPath) {
       assert(entry.joinStatus === "source-backed", `${source}: portraitAssetPath requires a source-backed join`);
@@ -814,6 +815,7 @@ async function main() {
   await validateNpcPortraitMaps(repoRoot);
   await validateBuildablePortraitMaps(repoRoot);
   await validateBlueprintUnlockMap(repoRoot);
+  await validateGeneratedBlueprintText(repoRoot);
 
   const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
   const itemIndexBySlug = new Map<string, IndexEntry>();

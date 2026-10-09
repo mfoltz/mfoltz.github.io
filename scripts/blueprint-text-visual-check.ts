@@ -113,6 +113,7 @@ async function relatedNavigation(page: Page, fixture: Fixture, book = false) {
   await page.getByRole("heading", { level: 1, name: target.title, exact: true }).waitFor();
   const owned = witness.rows.find(row => row.prefab === target.prefab)!;
   await page.getByText(blueprintTextFields(owned).summaryEn, { exact: true }).waitFor();
+  await page.locator("#source-provenance > summary").click();
   const source = page.getByRole("link", { name: "Open Prefab Reference", exact: true });
   assert.equal(await source.getAttribute("href"), fixture.detail ? (await json<DbEntityDetail>(`public/data/db/blueprints/by-slug/${target.slug}.json`)).prefabPath : "");
   await source.click();

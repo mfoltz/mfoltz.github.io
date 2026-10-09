@@ -283,6 +283,10 @@ function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value:
     return false;
   }
 
+  if (spec.key === "localizedSummaryEn" && normalized === detail.description &&
+      typeof detail.descriptionSourceRef === "string" && detail.descriptionSourceRef.startsWith("data/enrichment/blueprint-text-capture.json#")) {
+    return true;
+  }
   if (spec.key === "localizedDisplayNameEn" && normalized === detail.title) {
     return true;
   }

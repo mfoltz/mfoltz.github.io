@@ -240,9 +240,11 @@
   "BP_Castle_Stairs_Double_Stone01": {
     "prefab": "BP_Castle_Stairs_Double_Stone01",
     "guid": 77571580,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#BP_Castle_Stairs_Double_Stone01",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "BP_Castle_Stairs_Double_Stone02": {
     "prefab": "BP_Castle_Stairs_Double_Stone02",
@@ -1033,9 +1035,11 @@
   "TM_BloodFountain_CastleHeart": {
     "prefab": "TM_BloodFountain_CastleHeart",
     "guid": -485210554,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "The heart of your domain. As long as it contains blood essence it will power your castle and keep it from decaying. You can expand your territory with foundations and floors originating from the heart. If the heart is destroyed your entire castle crumbles.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_BloodFountain_CastleHeart",
+    "displayNameEn": "Castle Heart",
+    "displayLocalizationGuid": "531e1fb9-a11a-41cd-9149-3b292c6361db"
   },
   "TM_BloodFountain_CastleHeart_Rebuilding": {
     "prefab": "TM_BloodFountain_CastleHeart_Rebuilding",
@@ -1432,9 +1436,11 @@
   "TM_Castle_Floor_AlchemyLab01": {
     "prefab": "TM_Castle_Floor_AlchemyLab01",
     "guid": -1269191198,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Alchemy Lab Floor - Applies bonuses to Alchemy Lab structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_Castle_Floor_AlchemyLab01",
+    "displayNameEn": "'Exemplar' Pattern",
+    "displayLocalizationGuid": "5324d5c8-7fa3-4561-95c9-b398bdfdf184"
   },
   "TM_Castle_Floor_AlchemyLab02": {
     "prefab": "TM_Castle_Floor_AlchemyLab02",
@@ -1922,9 +1928,11 @@
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black",
     "guid": 2126004642,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Black",
+    "displayNameEn": "'Dux' Black Carpet X-Section",
+    "displayLocalizationGuid": "70c60e49-3080-4730-801c-27851e1e2382"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy",
@@ -3000,9 +3008,11 @@
   "TM_Castle_Gate_Wall_Door_01": {
     "prefab": "TM_Castle_Gate_Wall_Door_01",
     "guid": -1110124667,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_Castle_Gate_Wall_Door_01",
+    "displayNameEn": "Iron Gate",
+    "displayLocalizationGuid": "ffd7b483-ca0b-4bc4-86f8-67a59ad6afc6"
   },
   "TM_Castle_Gate_Wall_Door_02": {
     "prefab": "TM_Castle_Gate_Wall_Door_02",
@@ -7983,9 +7993,11 @@
   "TM_RefinementStation_Furnace_Small": {
     "prefab": "TM_RefinementStation_Furnace_Small",
     "guid": -1150411622,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A workstation used for refinement of ores.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_RefinementStation_Furnace_Small",
+    "displayNameEn": "Furnace",
+    "displayLocalizationGuid": "80482750-5fae-476c-8a53-995c2f441079"
   },
   "TM_RefinementStation_GemCutting": {
     "prefab": "TM_RefinementStation_GemCutting",
@@ -8025,9 +8037,11 @@
   "TM_RefinementStation_Sawmill_Small": {
     "prefab": "TM_RefinementStation_Sawmill_Small",
     "guid": 1094077710,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A workstation used for refinement of wooden materials.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_RefinementStation_Sawmill_Small",
+    "displayNameEn": "Sawmill",
+    "displayLocalizationGuid": "a5597738-8a46-4a12-b8ed-e4e6c47765d6"
   },
   "TM_RefinementStation_StonecuttingTable_Large": {
     "prefab": "TM_RefinementStation_StonecuttingTable_Large",
@@ -8214,9 +8228,11 @@
   "TM_SpecialStation_PrisonCell": {
     "prefab": "TM_SpecialStation_PrisonCell",
     "guid": -1253061408,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Bring a charmed human to the Prison Cell to imprison them. Allows you to craft blood potions by tapping prisoners on blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_SpecialStation_PrisonCell",
+    "displayNameEn": "Prison Cell",
+    "displayLocalizationGuid": "11e16d33-2b96-4f3e-a111-c8470b611aba"
   },
   "TM_SpecialStation_PrisonCell_StrongbladeDLC": {
     "prefab": "TM_SpecialStation_PrisonCell_StrongbladeDLC",
@@ -8228,9 +8244,11 @@
   "TM_SpecialStation_ServantCoffin": {
     "prefab": "TM_SpecialStation_ServantCoffin",
     "guid": 723455393,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to convert a human into a vampire",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_SpecialStation_ServantCoffin",
+    "displayNameEn": "Servant Coffin",
+    "displayLocalizationGuid": "c304f227-4d40-4d70-8391-c36b5d857a09"
   },
   "TM_SpecialStation_ServantCoffin_StrongbladeDLC": {
     "prefab": "TM_SpecialStation_ServantCoffin_StrongbladeDLC",
@@ -8361,9 +8379,11 @@
   "TM_UnitStation_NetherGate": {
     "prefab": "TM_UnitStation_NetherGate",
     "guid": -218354895,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A portal between worlds, used to summon Blood Souls from the Shadow Realm.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-capture.json#TM_UnitStation_NetherGate",
+    "displayNameEn": "Stygian Summoning Circle",
+    "displayLocalizationGuid": "2222808f-b335-4277-9dd8-b41d896f6696"
   },
   "TM_UnitStation_Tomb": {
     "prefab": "TM_UnitStation_Tomb",
