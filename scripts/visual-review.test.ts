@@ -104,7 +104,7 @@ function createCaptureRecord(overrides: Partial<VisualReviewCaptureRecord>): Vis
 }
 
 test("resolveVisualReviewPaths uses a stable default compare directory", () => {
-  const repoRoot = "C:\\repo";
+  const repoRoot = join(tmpdir(), "repo");
   const paths = resolveVisualReviewPaths(createConfig(), {
     repoRoot,
     mode: "compare",
@@ -117,7 +117,7 @@ test("resolveVisualReviewPaths uses a stable default compare directory", () => {
 });
 
 test("resolveVisualReviewPaths honors VISUAL_ARTIFACTS_DIR overrides", () => {
-  const repoRoot = "C:\\repo";
+  const repoRoot = join(tmpdir(), "repo");
   const paths = resolveVisualReviewPaths(createConfig(), {
     repoRoot,
     mode: "compare",
