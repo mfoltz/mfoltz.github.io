@@ -2,219 +2,281 @@
   "BP_Castle_Chain_Plant_BleedingHeart": {
     "prefab": "BP_Castle_Chain_Plant_BleedingHeart",
     "guid": -1473915226,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_BleedingHeart",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_BloodRose": {
     "prefab": "BP_Castle_Chain_Plant_BloodRose",
     "guid": -591319789,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_BloodRose",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_CorruptedFlower": {
     "prefab": "BP_Castle_Chain_Plant_CorruptedFlower",
     "guid": 1655131947,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_CorruptedFlower",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_Cotton": {
     "prefab": "BP_Castle_Chain_Plant_Cotton",
     "guid": 1171326100,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_Cotton",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_FireBlossom": {
     "prefab": "BP_Castle_Chain_Plant_FireBlossom",
     "guid": 1141816596,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_FireBlossom",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_GhostShroom": {
     "prefab": "BP_Castle_Chain_Plant_GhostShroom",
     "guid": -947749857,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_GhostShroom",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_Grapes": {
     "prefab": "BP_Castle_Chain_Plant_Grapes",
     "guid": -486047789,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_Grapes",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_HellsClarion": {
     "prefab": "BP_Castle_Chain_Plant_HellsClarion",
     "guid": -1946047422,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_HellsClarion",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_Lotus": {
     "prefab": "BP_Castle_Chain_Plant_Lotus",
     "guid": 1230409568,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_Lotus",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_MourningLily": {
     "prefab": "BP_Castle_Chain_Plant_MourningLily",
     "guid": -1057579736,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_MourningLily",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_SnowFlower": {
     "prefab": "BP_Castle_Chain_Plant_SnowFlower",
     "guid": -1475317620,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_SnowFlower",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_Sunflower": {
     "prefab": "BP_Castle_Chain_Plant_Sunflower",
     "guid": 1659865297,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_Sunflower",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_Thistle": {
     "prefab": "BP_Castle_Chain_Plant_Thistle",
     "guid": -437194426,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_Thistle",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Plant_TrippyShroom": {
     "prefab": "BP_Castle_Chain_Plant_TrippyShroom",
     "guid": 1228922848,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a plant, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Plant_TrippyShroom",
+    "displayNameEn": "Plant",
+    "displayLocalizationGuid": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979"
   },
   "BP_Castle_Chain_Tree_AppleCursed_01": {
     "prefab": "BP_Castle_Chain_Tree_AppleCursed_01",
     "guid": -315187808,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_AppleCursed_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_AppleTree_01": {
     "prefab": "BP_Castle_Chain_Tree_AppleTree_01",
     "guid": -1362642773,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_AppleTree_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_Aspen_01": {
     "prefab": "BP_Castle_Chain_Tree_Aspen_01",
     "guid": -683262945,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_Aspen_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_AspenAutum_01": {
     "prefab": "BP_Castle_Chain_Tree_AspenAutum_01",
     "guid": 1072528933,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_AspenAutum_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_Birch_01": {
     "prefab": "BP_Castle_Chain_Tree_Birch_01",
     "guid": -355620152,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_Birch_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_BirchAutum_01": {
     "prefab": "BP_Castle_Chain_Tree_BirchAutum_01",
     "guid": 500254158,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_BirchAutum_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_CherryBlossom_01": {
     "prefab": "BP_Castle_Chain_Tree_CherryBlossom_01",
     "guid": 1646702119,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_CherryBlossom_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_CherryBlossomWhite_01": {
     "prefab": "BP_Castle_Chain_Tree_CherryBlossomWhite_01",
     "guid": 148077443,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_CherryBlossomWhite_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_Cypress_01": {
     "prefab": "BP_Castle_Chain_Tree_Cypress_01",
     "guid": 308236778,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_Cypress_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_GloomTree_01": {
     "prefab": "BP_Castle_Chain_Tree_GloomTree_01",
     "guid": -1523660086,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_GloomTree_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_Oak_01": {
     "prefab": "BP_Castle_Chain_Tree_Oak_01",
     "guid": 75711340,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_Oak_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_Spruce_01": {
     "prefab": "BP_Castle_Chain_Tree_Spruce_01",
     "guid": 1218240817,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_Spruce_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Chain_Tree_WeepingWillow_01": {
     "prefab": "BP_Castle_Chain_Tree_WeepingWillow_01",
     "guid": 851064037,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Plant a tree, make a difference, it's good for the environment!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Chain_Tree_WeepingWillow_01",
+    "displayNameEn": "Tree",
+    "displayLocalizationGuid": "252be001-34c5-4a24-a038-93d62e817704"
   },
   "BP_Castle_Debug_ArtQualityBenchmarkRoom": {
     "prefab": "BP_Castle_Debug_ArtQualityBenchmarkRoom",
     "guid": -1222017586,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Art Quality Standard Examples",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Debug_ArtQualityBenchmarkRoom",
+    "displayNameEn": "Castle Art Benchmark Room",
+    "displayLocalizationGuid": "b66e6121-6e3c-49a8-8f04-8901a8c864fa"
   },
   "BP_Castle_Debug_Room": {
     "prefab": "BP_Castle_Debug_Room",
     "guid": -1773550381,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "It's a room!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Debug_Room",
+    "displayNameEn": "Debug - Room Blueprint",
+    "displayLocalizationGuid": "90792d85-4d52-4aad-8048-63a94597a7d1"
   },
   "BP_Castle_Debug_RoomBig": {
     "prefab": "BP_Castle_Debug_RoomBig",
     "guid": 1156555349,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "It's a room!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Debug_RoomBig",
+    "displayNameEn": "Debug - Room Blueprint",
+    "displayLocalizationGuid": "90792d85-4d52-4aad-8048-63a94597a7d1"
   },
   "BP_Castle_Debug_RoomMega": {
     "prefab": "BP_Castle_Debug_RoomMega",
     "guid": -1787902947,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "It's a room!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Debug_RoomMega",
+    "displayNameEn": "Debug - Room Blueprint",
+    "displayLocalizationGuid": "90792d85-4d52-4aad-8048-63a94597a7d1"
   },
   "BP_Castle_Stairs_Double_DLC_Gloomrot01": {
     "prefab": "BP_Castle_Stairs_Double_DLC_Gloomrot01",
@@ -389,235 +451,301 @@
   "BP_Castle_Wall_Tier01_Wood_Entrance": {
     "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
     "guid": 106693260,
-    "summaryEn": "Blueprint record.",
+    "summaryEn": "A wooden wall with an entrance. Doors can be placed in the entrance.",
     "iconAssetName": "Stunlock_Icon_Structure_CastleWallTier01WoodEntrance.png",
-    "sourceKind": "localized-resource",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier01_Wood_Entrance",
+    "displayNameEn": "Palisade Entrance",
+    "displayLocalizationGuid": "d8012a54-bcab-42f9-b661-b76d96865c1e"
   },
   "BP_Castle_Wall_Tier01_Wood_Plain": {
     "prefab": "BP_Castle_Wall_Tier01_Wood_Plain",
     "guid": -1571980899,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Build wooden walls to keep enemies out.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier01_Wood_Plain",
+    "displayNameEn": "Palisade",
+    "displayLocalizationGuid": "2cc9511b-ad4a-4b7d-a354-6b7947a4f702"
   },
   "BP_Castle_Wall_Tier02_Stone_Entrance": {
     "prefab": "BP_Castle_Wall_Tier02_Stone_Entrance",
     "guid": -281098336,
-    "summaryEn": "Blueprint record.",
+    "summaryEn": "A wall with an archway entrance. Castle doors can be placed in the entrance.",
     "iconAssetName": "Stunlock_Icon_Structure_CastleWallTier02StoneEntrance.png",
-    "sourceKind": "localized-resource",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier02_Stone_Entrance",
+    "displayNameEn": "Castle Entrance",
+    "displayLocalizationGuid": "bbd49f77-71ef-4e50-be13-ac1c9c302d19"
   },
   "BP_Castle_Wall_Tier02_Stone_EntranceWide": {
     "prefab": "BP_Castle_Wall_Tier02_Stone_EntranceWide",
     "guid": 1361610591,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wall with an archway entrance. Castle gates can be placed in the entrance.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier02_Stone_EntranceWide",
+    "displayNameEn": "Wide Castle Entrance",
+    "displayLocalizationGuid": "4d759947-97b2-46eb-9d4f-588603b18b56"
   },
   "BP_Castle_Wall_Tier02_Stone_Plain": {
     "prefab": "BP_Castle_Wall_Tier02_Stone_Plain",
     "guid": 1388232656,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier02_Stone_Plain",
+    "displayNameEn": "Castle Wall",
+    "displayLocalizationGuid": "0187a1c2-3c06-4676-82bb-50643e0609fe"
   },
   "BP_Castle_Wall_Tier02_Stone_Window": {
     "prefab": "BP_Castle_Wall_Tier02_Stone_Window",
     "guid": 244714081,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Castle_Wall_Tier02_Stone_Window",
+    "displayNameEn": "Castle Window Wall",
+    "displayLocalizationGuid": "6cd074eb-b946-4c7d-990c-4c49fd44ebc1"
   },
   "BP_Tier02_WallpaperSet_Arena01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Arena01_Base",
     "guid": -383968909,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Arena01_Base",
+    "displayNameEn": "Arena Wall",
+    "displayLocalizationGuid": "6e330697-6828-4555-a240-08510ac50926"
   },
   "BP_Tier02_WallpaperSet_Arena01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Arena01_Pillar",
     "guid": 133356148,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Arena01_Pillar",
+    "displayNameEn": "Arena Wall",
+    "displayLocalizationGuid": "6e330697-6828-4555-a240-08510ac50926"
   },
   "BP_Tier02_WallpaperSet_Arena01_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall01",
     "guid": 717524512,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Arena01_Wall01",
+    "displayNameEn": "Arena Wall",
+    "displayLocalizationGuid": "6e330697-6828-4555-a240-08510ac50926"
   },
   "BP_Tier02_WallpaperSet_Arena01_Wall02": {
     "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall02",
     "guid": 777443944,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Arena01_Wall02",
+    "displayNameEn": "Arena Wall",
+    "displayLocalizationGuid": "6e330697-6828-4555-a240-08510ac50926"
   },
   "BP_Tier02_WallpaperSet_Arena01_Wall03": {
     "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall03",
     "guid": -1288113966,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Arena01_Wall03",
+    "displayNameEn": "Arena Wall",
+    "displayLocalizationGuid": "6e330697-6828-4555-a240-08510ac50926"
   },
   "BP_Tier02_WallpaperSet_CastleStone01": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone01",
     "guid": -332335770,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone01",
+    "displayNameEn": "'Plain' Stone",
+    "displayLocalizationGuid": "c5b79075-f54e-4f47-a861-ab5c60eabc0d"
   },
   "BP_Tier02_WallpaperSet_CastleStone01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone01_Base",
     "guid": 41087088,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone01_Base",
+    "displayNameEn": "Default Stone",
+    "displayLocalizationGuid": "255722ad-8e0e-4000-be76-85dba4c89158"
   },
   "BP_Tier02_WallpaperSet_CastleStone01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone01_Pillar",
     "guid": 1941863906,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone01_Pillar",
+    "displayNameEn": "'Plain' Stone",
+    "displayLocalizationGuid": "c5b79075-f54e-4f47-a861-ab5c60eabc0d"
   },
   "BP_Tier02_WallpaperSet_CastleStone02": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone02",
     "guid": -1154737300,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone02",
+    "displayNameEn": "'Elegance' Stone",
+    "displayLocalizationGuid": "53d36c7d-0651-47d2-a444-6898d42283ea"
   },
   "BP_Tier02_WallpaperSet_CastleStone02_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone02_Pillar",
     "guid": 1993653084,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone02_Pillar",
+    "displayNameEn": "'Elegance' Stone",
+    "displayLocalizationGuid": "53d36c7d-0651-47d2-a444-6898d42283ea"
   },
   "BP_Tier02_WallpaperSet_CastleStone03": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone03",
     "guid": -1387492893,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone03",
+    "displayNameEn": "'Ebonite' Stone",
+    "displayLocalizationGuid": "9fd4dd4a-cfe0-4f50-86b2-d6af46f8f507"
   },
   "BP_Tier02_WallpaperSet_CastleStone03_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_CastleStone03_Pillar",
     "guid": -266828070,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_CastleStone03_Pillar",
+    "displayNameEn": "'Plain' Stone",
+    "displayLocalizationGuid": "c5b79075-f54e-4f47-a861-ab5c60eabc0d"
   },
   "BP_Tier02_WallpaperSet_Classical01_Clean01": {
     "prefab": "BP_Tier02_WallpaperSet_Classical01_Clean01",
     "guid": -176364362,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical01_Clean01",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical01_Clean02": {
     "prefab": "BP_Tier02_WallpaperSet_Classical01_Clean02",
     "guid": 489743200,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical01_Clean02",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Classical01_Pillar",
     "guid": -1170288721,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical01_Pillar",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical02_Clean01": {
     "prefab": "BP_Tier02_WallpaperSet_Classical02_Clean01",
     "guid": 1148782162,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical02_Clean01",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical02_Clean02": {
     "prefab": "BP_Tier02_WallpaperSet_Classical02_Clean02",
     "guid": 1618613889,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical02_Clean02",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical02_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Classical02_Pillar",
     "guid": 1194814288,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical02_Pillar",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical03_Clean01": {
     "prefab": "BP_Tier02_WallpaperSet_Classical03_Clean01",
     "guid": 1409791469,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical03_Clean01",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical03_Clean02": {
     "prefab": "BP_Tier02_WallpaperSet_Classical03_Clean02",
     "guid": 1397392538,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical03_Clean02",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Classical03_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Classical03_Pillar",
     "guid": 46931570,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Classical03_Pillar",
+    "displayNameEn": "'Stately' Stone",
+    "displayLocalizationGuid": "702dab2e-a546-483d-a4c9-dfb81c7d77c7"
   },
   "BP_Tier02_WallpaperSet_Cordial01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Cordial01_Base",
     "guid": 1899348267,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Cordial01_Base",
+    "displayNameEn": "'Cordial' Wall Panels",
+    "displayLocalizationGuid": "5a5de7cb-b773-474e-bdc9-630d6ba6e08a"
   },
   "BP_Tier02_WallpaperSet_Cordial01_Clean": {
     "prefab": "BP_Tier02_WallpaperSet_Cordial01_Clean",
     "guid": -1833888637,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Cordial01_Clean",
+    "displayNameEn": "Panels",
+    "displayLocalizationGuid": "55897081-5913-4779-b6aa-2be697adff16"
   },
   "BP_Tier02_WallpaperSet_Cordial01_Flourish": {
     "prefab": "BP_Tier02_WallpaperSet_Cordial01_Flourish",
     "guid": 1461020066,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Cordial01_Flourish",
+    "displayNameEn": "Panels with Decorative Pattern",
+    "displayLocalizationGuid": "a5add428-78be-46c8-91d9-f02197f6823d"
   },
   "BP_Tier02_WallpaperSet_Cordial01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Cordial01_Pillar",
     "guid": -429864038,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Cordial01_Pillar",
+    "displayNameEn": "'Cordial' Wall Panels",
+    "displayLocalizationGuid": "5a5de7cb-b773-474e-bdc9-630d6ba6e08a"
   },
   "BP_Tier02_WallpaperSet_Cordial01_Wallpaper": {
     "prefab": "BP_Tier02_WallpaperSet_Cordial01_Wallpaper",
     "guid": 1946862360,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Cordial01_Wallpaper",
+    "displayNameEn": "Emerald",
+    "displayLocalizationGuid": "c3c07735-35fa-489e-ade7-3c7fd08fa333"
   },
   "BP_Tier02_WallpaperSet_Damaged": {
     "prefab": "BP_Tier02_WallpaperSet_Damaged",
     "guid": -1727028370,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Walls",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Damaged",
+    "displayNameEn": "Stone Coffin",
+    "displayLocalizationGuid": "4a519e2f-4667-4921-8959-f73af3cbe9fa"
   },
   "BP_Tier02_WallpaperSet_Damaged_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Damaged_Pillar",
@@ -629,9 +757,11 @@
   "BP_Tier02_WallpaperSet_Default": {
     "prefab": "BP_Tier02_WallpaperSet_Default",
     "guid": 2077581638,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Walls",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Default",
+    "displayNameEn": "Default Stone",
+    "displayLocalizationGuid": "255722ad-8e0e-4000-be76-85dba4c89158"
   },
   "BP_Tier02_WallpaperSet_Default_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Default_Pillar",
@@ -643,9 +773,11 @@
   "BP_Tier02_WallpaperSet_Disabled": {
     "prefab": "BP_Tier02_WallpaperSet_Disabled",
     "guid": 1415207415,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Walls",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Disabled",
+    "displayNameEn": "Stone Coffin",
+    "displayLocalizationGuid": "4a519e2f-4667-4921-8959-f73af3cbe9fa"
   },
   "BP_Tier02_WallpaperSet_Disabled_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Disabled_Pillar",
@@ -657,128 +789,164 @@
   "BP_Tier02_WallpaperSet_DLCGloomrot_01": {
     "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_01",
     "guid": -1119089472,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCGloomrot_01",
+    "displayNameEn": "Inner Sanctum Walls",
+    "displayLocalizationGuid": "8f576a52-fdf7-47ff-984a-2f8d9eb39a1a"
   },
   "BP_Tier02_WallpaperSet_DLCGloomrot_02": {
     "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_02",
     "guid": -534388394,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCGloomrot_02",
+    "displayNameEn": "Exterior Sanctum Walls",
+    "displayLocalizationGuid": "fca74417-c1f2-4b7b-bbb1-92a86226fce6"
   },
   "BP_Tier02_WallpaperSet_DLCGloomrot_Base": {
     "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_Base",
     "guid": 1690544659,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCGloomrot_Base",
+    "displayNameEn": "Exterior Royal Walls",
+    "displayLocalizationGuid": "7c522152-cf17-4718-a346-673b3005860f"
   },
   "BP_Tier02_WallpaperSet_DLCGloomrot_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_Pillar",
     "guid": -1601728225,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCGloomrot_Pillar",
+    "displayNameEn": "Interior Royal Walls",
+    "displayLocalizationGuid": "026ee6c5-8227-490d-9358-e51c4f6b80f2"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Base",
     "guid": 1340269648,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal01_Base",
+    "displayNameEn": "Interior Royal Walls",
+    "displayLocalizationGuid": "026ee6c5-8227-490d-9358-e51c4f6b80f2"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Pillar",
     "guid": 223872087,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal01_Pillar",
+    "displayNameEn": "Interior Royal Walls",
+    "displayLocalizationGuid": "026ee6c5-8227-490d-9358-e51c4f6b80f2"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal01_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Wall01",
     "guid": -1148467159,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal01_Wall01",
+    "displayNameEn": "Interior Royal Walls",
+    "displayLocalizationGuid": "026ee6c5-8227-490d-9358-e51c4f6b80f2"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal02_Base": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Base",
     "guid": -277386175,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal02_Base",
+    "displayNameEn": "Exterior Royal Walls",
+    "displayLocalizationGuid": "7c522152-cf17-4718-a346-673b3005860f"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal02_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Pillar",
     "guid": 2027991438,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal02_Pillar",
+    "displayNameEn": "Interior Royal Walls",
+    "displayLocalizationGuid": "026ee6c5-8227-490d-9358-e51c4f6b80f2"
   },
   "BP_Tier02_WallpaperSet_DLCRoyal02_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Wall01",
     "guid": -1375591798,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_DLCRoyal02_Wall01",
+    "displayNameEn": "Exterior Royal Walls",
+    "displayLocalizationGuid": "7c522152-cf17-4718-a346-673b3005860f"
   },
   "BP_Tier02_WallpaperSet_Halloween01_01": {
     "prefab": "BP_Tier02_WallpaperSet_Halloween01_01",
     "guid": -971200685,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Halloween01_01",
+    "displayNameEn": "Haunted Nights Wall Decor",
+    "displayLocalizationGuid": "9c775b94-4f1c-4ff1-acf4-c6f4ef19f38d"
   },
   "BP_Tier02_WallpaperSet_Halloween01_02": {
     "prefab": "BP_Tier02_WallpaperSet_Halloween01_02",
     "guid": 1031586093,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Halloween01_02",
+    "displayNameEn": "Haunted Nights Wall Decor",
+    "displayLocalizationGuid": "9c775b94-4f1c-4ff1-acf4-c6f4ef19f38d"
   },
   "BP_Tier02_WallpaperSet_Imperious01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Imperious01_Base",
     "guid": 2097261851,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Imperious01_Base",
+    "displayNameEn": "'Imperious' Wall Panels",
+    "displayLocalizationGuid": "3fd78b96-bb2c-4ce1-b0f4-2d5779841277"
   },
   "BP_Tier02_WallpaperSet_Imperious01_Clean": {
     "prefab": "BP_Tier02_WallpaperSet_Imperious01_Clean",
     "guid": 1407127248,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Imperious01_Clean",
+    "displayNameEn": "Panels",
+    "displayLocalizationGuid": "55897081-5913-4779-b6aa-2be697adff16"
   },
   "BP_Tier02_WallpaperSet_Imperious01_FullWallpaper01": {
     "prefab": "BP_Tier02_WallpaperSet_Imperious01_FullWallpaper01",
     "guid": -1053577725,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Imperious01_FullWallpaper01",
+    "displayNameEn": "Emerald",
+    "displayLocalizationGuid": "c3c07735-35fa-489e-ade7-3c7fd08fa333"
   },
   "BP_Tier02_WallpaperSet_Imperious01_HalfWallpaper01": {
     "prefab": "BP_Tier02_WallpaperSet_Imperious01_HalfWallpaper01",
     "guid": -1035617074,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Imperious01_HalfWallpaper01",
+    "displayNameEn": "Emerald with Panels",
+    "displayLocalizationGuid": "97f16a78-b614-4287-8c05-44f2eae44886"
   },
   "BP_Tier02_WallpaperSet_Imperious01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Imperious01_Pillar",
     "guid": -1880912080,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Imperious01_Pillar",
+    "displayNameEn": "'Imperious' Wall Panels",
+    "displayLocalizationGuid": "3fd78b96-bb2c-4ce1-b0f4-2d5779841277"
   },
   "BP_Tier02_WallpaperSet_Phased": {
     "prefab": "BP_Tier02_WallpaperSet_Phased",
     "guid": 1132666075,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Walls",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Phased",
+    "displayNameEn": "Stone Coffin",
+    "displayLocalizationGuid": "4a519e2f-4667-4921-8959-f73af3cbe9fa"
   },
   "BP_Tier02_WallpaperSet_Phased_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Phased_Pillar",
@@ -790,247 +958,317 @@
   "BP_Tier02_WallpaperSet_Prison01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_Base",
     "guid": -1490769381,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Prison01_Base",
+    "displayNameEn": "Prison Walls",
+    "displayLocalizationGuid": "83fe9df5-d932-4b42-bfc2-b46bdba1f0c5"
   },
   "BP_Tier02_WallpaperSet_Prison01_BedAndBall": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_BedAndBall",
     "guid": -973740076,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Prison01_BedAndBall",
+    "displayNameEn": "Stone with Attached Bed",
+    "displayLocalizationGuid": "16eb74fd-00bd-493f-be41-c7d495303f1e"
   },
   "BP_Tier02_WallpaperSet_Prison01_Clean": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_Clean",
     "guid": -1951528690,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Prison01_Clean",
+    "displayNameEn": "Stone",
+    "displayLocalizationGuid": "e654c275-9946-4e58-808e-f2418e447674"
   },
   "BP_Tier02_WallpaperSet_Prison01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_Pillar",
     "guid": 761818190,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Prison01_Pillar",
+    "displayNameEn": "Prison Walls",
+    "displayLocalizationGuid": "83fe9df5-d932-4b42-bfc2-b46bdba1f0c5"
   },
   "BP_Tier02_WallpaperSet_Prison01_Restraints": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_Restraints",
     "guid": 227796889,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Prison01_Restraints",
+    "displayNameEn": "Stone with Attached Restraints",
+    "displayLocalizationGuid": "7d05414b-99ca-4e99-b46c-e30ab939072b"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Clean": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Clean",
     "guid": -1268733747,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Clean",
+    "displayNameEn": "Ancient Symphony Walls - Clean",
+    "displayLocalizationGuid": "4a9dde4e-5c63-40d9-8200-b1b8953f0758"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Clean_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Clean_Pillar",
     "guid": 1363241567,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Clean_Pillar",
+    "displayNameEn": "Ancient Symphony Walls",
+    "displayLocalizationGuid": "2a02ddbc-45cf-442c-a38b-3aba8d51cda3"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Corners": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Corners",
     "guid": 1327946026,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Corners",
+    "displayNameEn": "Ancient Symphony Walls - Sides",
+    "displayLocalizationGuid": "9a08286d-1cbc-4a4d-8164-ee9d6aa0ee31"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Expansion": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Expansion",
     "guid": -739519538,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Expansion",
+    "displayNameEn": "Ancient Symphony Walls",
+    "displayLocalizationGuid": "2a02ddbc-45cf-442c-a38b-3aba8d51cda3"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Expansion_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Expansion_Pillar",
     "guid": 1259530332,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Expansion_Pillar",
+    "displayNameEn": "Ancient Symphony Walls",
+    "displayLocalizationGuid": "2a02ddbc-45cf-442c-a38b-3aba8d51cda3"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Left": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Left",
     "guid": 1199070093,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Left",
+    "displayNameEn": "Ancient Symphony Walls - Left",
+    "displayLocalizationGuid": "a1055b8c-f751-4838-8318-91bda1bfea82"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Middle": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Middle",
     "guid": 1105868982,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Middle",
+    "displayNameEn": "Ancient Symphony Walls - Middle",
+    "displayLocalizationGuid": "453ed6a4-41a5-4708-a809-7d971e860758"
   },
   "BP_Tier02_WallpaperSet_ProjectK_Right": {
     "prefab": "BP_Tier02_WallpaperSet_ProjectK_Right",
     "guid": 523616828,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_ProjectK_Right",
+    "displayNameEn": "Ancient Symphony Walls - Right",
+    "displayLocalizationGuid": "63389b98-62eb-44cc-a07e-10406b97ded7"
   },
   "BP_Tier02_WallpaperSet_Stable01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Stable01_Base",
     "guid": -2080336936,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable01_Base",
+    "displayNameEn": "Stables Brick Wall",
+    "displayLocalizationGuid": "3a193038-11a9-4e15-952c-f8b9791d5881"
   },
   "BP_Tier02_WallpaperSet_Stable01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Stable01_Pillar",
     "guid": 2118134686,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable01_Pillar",
+    "displayNameEn": "'Plain' Stone",
+    "displayLocalizationGuid": "c5b79075-f54e-4f47-a861-ab5c60eabc0d"
   },
   "BP_Tier02_WallpaperSet_Stable01_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_Stable01_Wall01",
     "guid": 628257701,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable01_Wall01",
+    "displayNameEn": "Stables Brick Wall",
+    "displayLocalizationGuid": "3a193038-11a9-4e15-952c-f8b9791d5881"
   },
   "BP_Tier02_WallpaperSet_Stable01_Wall02": {
     "prefab": "BP_Tier02_WallpaperSet_Stable01_Wall02",
     "guid": 1742424551,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable01_Wall02",
+    "displayNameEn": "Stables Brick Wall",
+    "displayLocalizationGuid": "3a193038-11a9-4e15-952c-f8b9791d5881"
   },
   "BP_Tier02_WallpaperSet_Stable02_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Stable02_Base",
     "guid": 986381883,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable02_Base",
+    "displayNameEn": "Stables Wooden Wall",
+    "displayLocalizationGuid": "bd977bf3-d82f-40c6-93c0-368bb6bca8a5"
   },
   "BP_Tier02_WallpaperSet_Stable02_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Stable02_Pillar",
     "guid": 2071956520,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable02_Pillar",
+    "displayNameEn": "'Plain' Stone",
+    "displayLocalizationGuid": "c5b79075-f54e-4f47-a861-ab5c60eabc0d"
   },
   "BP_Tier02_WallpaperSet_Stable02_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_Stable02_Wall01",
     "guid": 1940345151,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable02_Wall01",
+    "displayNameEn": "Stables Wooden Wall",
+    "displayLocalizationGuid": "bd977bf3-d82f-40c6-93c0-368bb6bca8a5"
   },
   "BP_Tier02_WallpaperSet_Stable02_Wall02": {
     "prefab": "BP_Tier02_WallpaperSet_Stable02_Wall02",
     "guid": 1122908926,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Stable02_Wall02",
+    "displayNameEn": "Stables Wooden Wall",
+    "displayLocalizationGuid": "bd977bf3-d82f-40c6-93c0-368bb6bca8a5"
   },
   "BP_Tier02_WallpaperSet_StrongbladeDLC01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_StrongbladeDLC01_Base",
     "guid": -2037530823,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_StrongbladeDLC01_Base",
+    "displayNameEn": "Nocturnal Opulence Wall",
+    "displayLocalizationGuid": "9365e342-01e6-42a1-8438-b203c41bb80b"
   },
   "BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar",
     "guid": -1860752815,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar",
+    "displayNameEn": "Nocturnal Opulence Wall",
+    "displayLocalizationGuid": "9365e342-01e6-42a1-8438-b203c41bb80b"
   },
   "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall01": {
     "prefab": "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall01",
     "guid": -1813563573,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall01",
+    "displayNameEn": "Nocturnal Opulence Wall",
+    "displayLocalizationGuid": "9365e342-01e6-42a1-8438-b203c41bb80b"
   },
   "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall02": {
     "prefab": "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall02",
     "guid": 880930151,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall02",
+    "displayNameEn": "Nocturnal Opulence Wall",
+    "displayLocalizationGuid": "9365e342-01e6-42a1-8438-b203c41bb80b"
   },
   "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03": {
     "prefab": "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03",
     "guid": 961341537,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Stone for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03",
+    "displayNameEn": "Nocturnal Opulence Wall",
+    "displayLocalizationGuid": "9365e342-01e6-42a1-8438-b203c41bb80b"
   },
   "BP_Tier02_WallpaperSet_WoodPanel01_01": {
     "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_01",
     "guid": 1927754471,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_WoodPanel01_01",
+    "displayNameEn": "Panels",
+    "displayLocalizationGuid": "55897081-5913-4779-b6aa-2be697adff16"
   },
   "BP_Tier02_WallpaperSet_WoodPanel01_02": {
     "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_02",
     "guid": -792881390,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_WoodPanel01_02",
+    "displayNameEn": "Panels with Plaster Top",
+    "displayLocalizationGuid": "65fd4c78-8192-432d-84c9-5870d58a3fb0"
   },
   "BP_Tier02_WallpaperSet_WoodPanel01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_Base",
     "guid": 1177172454,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_WoodPanel01_Base",
+    "displayNameEn": "'Hearth' Wall Panels",
+    "displayLocalizationGuid": "526ccf3b-12d8-47bc-acca-33eb917db786"
   },
   "BP_Tier02_WallpaperSet_WoodPanel01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_Pillar",
     "guid": 70614813,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_WoodPanel01_Pillar",
+    "displayNameEn": "'Hearth' Wall Panels",
+    "displayLocalizationGuid": "526ccf3b-12d8-47bc-acca-33eb917db786"
   },
   "BP_Tier02_WallpaperSet_Workshop01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Workshop01_Base",
     "guid": -2053707412,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Workshop01_Base",
+    "displayNameEn": "Workshop Walls",
+    "displayLocalizationGuid": "4e3b806b-5b68-4bfb-8751-9bed51574572"
   },
   "BP_Tier02_WallpaperSet_Workshop01_Clean": {
     "prefab": "BP_Tier02_WallpaperSet_Workshop01_Clean",
     "guid": -809474821,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Workshop01_Clean",
+    "displayNameEn": "Panels",
+    "displayLocalizationGuid": "55897081-5913-4779-b6aa-2be697adff16"
   },
   "BP_Tier02_WallpaperSet_Workshop01_Pillar": {
     "prefab": "BP_Tier02_WallpaperSet_Workshop01_Pillar",
     "guid": -1932179375,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A place to recover when defeated",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Workshop01_Pillar",
+    "displayNameEn": "Workshop Walls",
+    "displayLocalizationGuid": "4e3b806b-5b68-4bfb-8751-9bed51574572"
   },
   "BP_Tier02_WallpaperSet_Workshop01_ToolStorage": {
     "prefab": "BP_Tier02_WallpaperSet_Workshop01_ToolStorage",
     "guid": -1993386353,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative Wood Panels for your Castle Walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#BP_Tier02_WallpaperSet_Workshop01_ToolStorage",
+    "displayNameEn": "Panels with Inset Tool Storage",
+    "displayLocalizationGuid": "6be0d49f-484d-4596-b9fe-7e933d4f23aa"
   },
   "TM_BloodAltar_T01": {
     "prefab": "TM_BloodAltar_T01",
     "guid": 1819321433,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "At the Altar of Recollection you may reset your spellbook choices.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_BloodAltar_T01",
+    "displayNameEn": "Altar of Recollection",
+    "displayLocalizationGuid": "ee2b6a64-6c77-4f8a-906b-246d926b9c0a"
   },
   "TM_BloodFountain_CastleHeart": {
     "prefab": "TM_BloodFountain_CastleHeart",
@@ -1044,9 +1282,11 @@
   "TM_BloodFountain_CastleHeart_Rebuilding": {
     "prefab": "TM_BloodFountain_CastleHeart_Rebuilding",
     "guid": -600018251,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Construct this Castle Heart within an unoccupied territory to relocate all structures and items from an existing castle to a new location.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_BloodFountain_CastleHeart_Rebuilding",
+    "displayNameEn": "Castle Relocation Heart",
+    "displayLocalizationGuid": "0b95cadf-8bb6-409c-ba2f-14a5e2b380dc"
   },
   "TM_Castle_Container_Bookshelf_3x2_Blood01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Blood01",
@@ -1338,16 +1578,20 @@
   "TM_Castle_Fence_Iron01": {
     "prefab": "TM_Castle_Fence_Iron01",
     "guid": 44535007,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_Castle_Fence_Iron01",
+    "displayNameEn": "'Nocturne' Garden Fence",
+    "displayLocalizationGuid": "d8a76eda-6db0-4cd2-bc67-d5b69f2afff1"
   },
   "TM_Castle_Fence_Iron02": {
     "prefab": "TM_Castle_Fence_Iron02",
     "guid": -682177661,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_Castle_Fence_Iron02",
+    "displayNameEn": "'Noble' Garden Fence",
+    "displayLocalizationGuid": "041b4032-80a6-4489-bfe7-07b06b1e6500"
   },
   "TM_Castle_Fence_Iron03": {
     "prefab": "TM_Castle_Fence_Iron03",
@@ -7699,37 +7943,47 @@
   "TM_CastleOuterWalls_Gate01": {
     "prefab": "TM_CastleOuterWalls_Gate01",
     "guid": -826211390,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Gate01",
+    "displayNameEn": "Fortified Archway",
+    "displayLocalizationGuid": "7892a353-4cc6-4284-ae6b-2245a6b8d30f"
   },
   "TM_CastleOuterWalls_Ruins_Gate01": {
     "prefab": "TM_CastleOuterWalls_Ruins_Gate01",
     "guid": 1455390331,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Ruins_Gate01",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_CastleOuterWalls_Ruins01": {
     "prefab": "TM_CastleOuterWalls_Ruins01",
     "guid": -1236321910,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Ruins01",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_CastleOuterWalls_Ruins02": {
     "prefab": "TM_CastleOuterWalls_Ruins02",
     "guid": -1788250707,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Ruins02",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_CastleOuterWalls_Ruins03": {
     "prefab": "TM_CastleOuterWalls_Ruins03",
     "guid": 979674153,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Ruins03",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_CastleOuterWalls_Towerl01": {
     "prefab": "TM_CastleOuterWalls_Towerl01",
@@ -7741,9 +7995,11 @@
   "TM_CastleOuterWalls_Wall01": {
     "prefab": "TM_CastleOuterWalls_Wall01",
     "guid": 776261229,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-expansion-128.json#TM_CastleOuterWalls_Wall01",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_CraftingStation_AlchemyLab_Small": {
     "prefab": "TM_CraftingStation_AlchemyLab_Small",

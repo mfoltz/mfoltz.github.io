@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { assertBlueprintTextDisplay, blueprintTextFields, readBlueprintText, type BlueprintTextRow } from "./blueprint-text";
+import { assertApprovedBlueprintTextDisplay, readApprovedBlueprintText, type ApprovedBlueprintTextRow } from "./approved-blueprint-text";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import {
   buildAbilityDamageEvidence,
@@ -448,7 +448,7 @@ interface BuildContext {
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buildablePortraitByPrefab: Map<string, BuildablePortraitMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
-  blueprintTextByPrefab: Map<string, BlueprintTextRow>;
+  blueprintTextByPrefab: Map<string, ApprovedBlueprintTextRow>;
   blueprintUnlockByPrefab: Map<string, BlueprintUnlockMapEntry>;
   questDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buffDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1688,7 +1688,7 @@ function parseNpcClassificationMap(snapshot: Record<string, unknown> | null): Ma
 
 async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   const enrichmentDir = path.join(repoRoot, "data", "enrichment");
-  const blueprintTextCapture = await readBlueprintText(repoRoot);
+  const blueprintTextCapture = await readApprovedBlueprintText(repoRoot);
   const [localizedSnapshot, abilityCatalogSnapshot, abilityTooltipSnapshot, serverDamageEvidenceSnapshot, itemIconSnapshot, itemDescriptionSnapshot, recipeLinkSnapshot, npcClassificationSnapshot, npcDisplaySnapshot, npcPortraitSnapshot, workstationDisplaySnapshot, buildablePortraitSnapshot, blueprintDisplaySnapshot, questDisplaySnapshot, buffDisplaySnapshot, itemsetDisplaySnapshot] =
     await Promise.all([
       readJsonIfExists<LocalizedNameSnapshot>(path.join(enrichmentDir, "prefab-localization.json")),
@@ -1852,7 +1852,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
   );
 
   const blueprintDisplayByPrefab = parsePrefabDisplayMap(blueprintDisplaySnapshot);
-  assertBlueprintTextDisplay(Object.fromEntries(blueprintDisplayByPrefab), blueprintTextCapture);
+  assertApprovedBlueprintTextDisplay(Object.fromEntries(blueprintDisplayByPrefab), blueprintTextCapture);
   return {
     localizedNamesByGuid,
     abilityCatalogByPrefab,
@@ -2516,7 +2516,7 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const fallbackTitle = formatPrefabDisplayName(doc.prefabName, ["TM", "BP"]);
   const resolved = resolveTitle(buildContext, doc, fallbackTitle);
   const owned = buildContext.blueprintTextByPrefab.get(doc.prefabName);
-  const text = owned ? blueprintTextFields(owned) : undefined;
+  const text = owned?.fields;
   const title = text?.displayNameEn ?? resolved.title;
   const subtitle = text ? doc.prefabName : resolved.subtitle;
   const summary = uniqueStrings([
