@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "prefab": "BP_Castle_Chain_Tree_AspenAutum_01",
+      "guid": 1072528933,
+      "path": "/db/blueprints/bp-castle-chain-tree-aspen-autum-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_AspenAutum_01.md",
+      "sourceSha256": "8841ce96b33113f6f6975bb7ece777a7138148f9df10f24c153ad5515c588a21",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_Aspen_01",
+      "guid": -683262945,
+      "path": "/db/blueprints/bp-castle-chain-tree-aspen-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_Aspen_01.md",
+      "sourceSha256": "2679f422d281fcbfaac81001e83412975e8fa6fe275e62258ed1cbd5d13ee64d",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_BirchAutum_01",
+      "guid": 500254158,
+      "path": "/db/blueprints/bp-castle-chain-tree-birch-autum-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_BirchAutum_01.md",
+      "sourceSha256": "cb713e05dc6033ad14d87440622577596dca12e1dcf5b00e2b9af1aa3efa16b4",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_Birch_01",
+      "guid": -355620152,
+      "path": "/db/blueprints/bp-castle-chain-tree-birch-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_Birch_01.md",
+      "sourceSha256": "d47dda613fa23f34c440963d66cac92d2059aaea4fc3432ee32ae957d58e4636",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_CherryBlossomWhite_01",
+      "guid": 148077443,
+      "path": "/db/blueprints/bp-castle-chain-tree-cherry-blossom-white-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_CherryBlossomWhite_01.md",
+      "sourceSha256": "d1b676b775147bb0f4a296b3a8a7e4925d811272fb23455140864577382c554a",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_CherryBlossom_01",
+      "guid": 1646702119,
+      "path": "/db/blueprints/bp-castle-chain-tree-cherry-blossom-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_CherryBlossom_01.md",
+      "sourceSha256": "28eae1d0bd445cc7423f9e3c88d43f1e5979a0b0066dc0f445652b5290c3c652",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_Cypress_01",
+      "guid": 308236778,
+      "path": "/db/blueprints/bp-castle-chain-tree-cypress-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_Cypress_01.md",
+      "sourceSha256": "3cfed0c4113df7c1c2255fc5987b845e56a40fcaea5c5c741d6f07857f4a04db",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_GloomTree_01",
+      "guid": -1523660086,
+      "path": "/db/blueprints/bp-castle-chain-tree-gloom-tree-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_GloomTree_01.md",
+      "sourceSha256": "7cf9ca9436d5f80d6ec43e2128e0ac6d4d746b4c345ee6b62ec9c83c0c6d1d59",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_Oak_01",
+      "guid": 75711340,
+      "path": "/db/blueprints/bp-castle-chain-tree-oak-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_Oak_01.md",
+      "sourceSha256": "029f262c3e76066dee69cf6d9808fd2ec1ad59663cba5428b62ea67d63a486af",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_Spruce_01",
+      "guid": 1218240817,
+      "path": "/db/blueprints/bp-castle-chain-tree-spruce-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_Spruce_01.md",
+      "sourceSha256": "044eacd51785f7b6133b1020bb0f01aa878c29216586587c4af1efd2906eeec4",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_WeepingWillow_01",
+      "guid": 851064037,
+      "path": "/db/blueprints/bp-castle-chain-tree-weeping-willow-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_WeepingWillow_01.md",
+      "sourceSha256": "42ef1d54d5d7f6261944ec391b2c370f64a9ede992017ce541c360d6de9024de",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Debug_ArtQualityBenchmarkRoom",
+      "guid": -1222017586,
+      "path": "/db/blueprints/bp-castle-debug-art-quality-benchmark-room",
+      "sourcePath": "content/prefabs/BP_Castle_Debug_ArtQualityBenchmarkRoom.md",
+      "sourceSha256": "092519387345f5fbaa08c12fc82d155c1339e9e4769602e82db347b15e346a69",
+      "captureId": "blueprints-02",
+      "nameKey": "b66e6121-6e3c-49a8-8f04-8901a8c864fa",
+      "nameRaw": "Castle Art Benchmark Room",
+      "descriptionKey": "3b83143b-bcda-467e-9471-26d9399b0b6d",
+      "descriptionRaw": "Castle Art Quality Standard Examples",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Castle Art Quality Standard Examples",
+        "toString": "Castle Art Quality Standard Examples",
+        "resultKey": "3b83143b-bcda-467e-9471-26d9399b0b6d",
+        "nameLookup": "Castle Art Benchmark Room",
+        "templateLookup": "Castle Art Quality Standard Examples"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Debug_Room",
+      "guid": -1773550381,
+      "path": "/db/blueprints/bp-castle-debug-room",
+      "sourcePath": "content/prefabs/BP_Castle_Debug_Room.md",
+      "sourceSha256": "0643706adf526b9fb4e78c9ec7cad58e78a9c9fbdbe33e0c035776c8a8ed6f89",
+      "captureId": "blueprints-01",
+      "nameKey": "90792d85-4d52-4aad-8048-63a94597a7d1",
+      "nameRaw": "Debug - Room Blueprint",
+      "descriptionKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+      "descriptionRaw": "It's a room!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "It's a room!",
+        "toString": "It's a room!",
+        "resultKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+        "nameLookup": "Debug - Room Blueprint",
+        "templateLookup": "It's a room!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Debug_RoomBig",
+      "guid": 1156555349,
+      "path": "/db/blueprints/bp-castle-debug-room-big",
+      "sourcePath": "content/prefabs/BP_Castle_Debug_RoomBig.md",
+      "sourceSha256": "ed158270cd85640715633bb2bc73489ea569f659d7185776741a92eecf6c8cba",
+      "captureId": "blueprints-02",
+      "nameKey": "90792d85-4d52-4aad-8048-63a94597a7d1",
+      "nameRaw": "Debug - Room Blueprint",
+      "descriptionKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+      "descriptionRaw": "It's a room!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "It's a room!",
+        "toString": "It's a room!",
+        "resultKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+        "nameLookup": "Debug - Room Blueprint",
+        "templateLookup": "It's a room!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Debug_RoomMega",
+      "guid": -1787902947,
+      "path": "/db/blueprints/bp-castle-debug-room-mega",
+      "sourcePath": "content/prefabs/BP_Castle_Debug_RoomMega.md",
+      "sourceSha256": "523c6446496163bc1d9d51857d14a4174117aa3f2327b6240f8bcaf0e5c857af",
+      "captureId": "blueprints-02",
+      "nameKey": "90792d85-4d52-4aad-8048-63a94597a7d1",
+      "nameRaw": "Debug - Room Blueprint",
+      "descriptionKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+      "descriptionRaw": "It's a room!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "It's a room!",
+        "toString": "It's a room!",
+        "resultKey": "ad4e22fc-d5be-4508-95b5-b82e734a2426",
+        "nameLookup": "Debug - Room Blueprint",
+        "templateLookup": "It's a room!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
+      "guid": 106693260,
+      "path": "/db/blueprints/bp-castle-wall-tier01-wood-entrance",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier01_Wood_Entrance.md",
+      "sourceSha256": "fbbbe6fcad62f7fa86efb3c3a8c809d84588d551150dd97e0a24baf344e55d67",
+      "captureId": "blueprints-02",
+      "nameKey": "d8012a54-bcab-42f9-b661-b76d96865c1e",
+      "nameRaw": "Palisade Entrance",
+      "descriptionKey": "52c15c68-394e-4f74-a9df-0c5b8baa9c3b",
+      "descriptionRaw": "A wooden wall with an entrance. Doors can be placed in the entrance.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A wooden wall with an entrance. Doors can be placed in the entrance.",
+        "toString": "A wooden wall with an entrance. Doors can be placed in the entrance.",
+        "resultKey": "52c15c68-394e-4f74-a9df-0c5b8baa9c3b",
+        "nameLookup": "Palisade Entrance",
+        "templateLookup": "A wooden wall with an entrance. Doors can be placed in the entrance."
+      }
+    }
+  ]
+}

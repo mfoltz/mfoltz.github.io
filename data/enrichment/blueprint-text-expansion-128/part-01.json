@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "prefab": "BP_Castle_Chain_Plant_BleedingHeart",
+      "guid": -1473915226,
+      "path": "/db/blueprints/bp-castle-chain-plant-bleeding-heart",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_BleedingHeart.md",
+      "sourceSha256": "8833823ee5c9f9ce765d181c8e2663bb72459608192549c278d716a49d74d16c",
+      "captureId": "blueprints-01",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_BloodRose",
+      "guid": -591319789,
+      "path": "/db/blueprints/bp-castle-chain-plant-blood-rose",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_BloodRose.md",
+      "sourceSha256": "2fbd875b380da67155e4b2e7019c2c015c4c4c58d7773b82799acd461d24f702",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_CorruptedFlower",
+      "guid": 1655131947,
+      "path": "/db/blueprints/bp-castle-chain-plant-corrupted-flower",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_CorruptedFlower.md",
+      "sourceSha256": "99650f09088676b84ddba574ebe9b15fe365c93ee74bdb3979cceae1dff13684",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_Cotton",
+      "guid": 1171326100,
+      "path": "/db/blueprints/bp-castle-chain-plant-cotton",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_Cotton.md",
+      "sourceSha256": "a3d417a09a5063fbd8b069fcdd79f306088d5c419e44b0c3b330b7d0c7cb20f4",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_FireBlossom",
+      "guid": 1141816596,
+      "path": "/db/blueprints/bp-castle-chain-plant-fire-blossom",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_FireBlossom.md",
+      "sourceSha256": "e96efd6e3fe44bf2278c9e4dca0413729498e7540d4c2790a11194e0cf8ef3a7",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_GhostShroom",
+      "guid": -947749857,
+      "path": "/db/blueprints/bp-castle-chain-plant-ghost-shroom",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_GhostShroom.md",
+      "sourceSha256": "e7346175ade945e41ec796f31b4e6f31df50b0dae3b9c199b842f11ed670ce3a",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_Grapes",
+      "guid": -486047789,
+      "path": "/db/blueprints/bp-castle-chain-plant-grapes",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_Grapes.md",
+      "sourceSha256": "05e4b6653da60caf41bc17b60db76ac4ebe387b4ff6ff2731efe586769172800",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_HellsClarion",
+      "guid": -1946047422,
+      "path": "/db/blueprints/bp-castle-chain-plant-hells-clarion",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_HellsClarion.md",
+      "sourceSha256": "1729f3d533e928b38dc21ea77a33f984a02530ab53c8e01ffbef89a00f0c9988",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_Lotus",
+      "guid": 1230409568,
+      "path": "/db/blueprints/bp-castle-chain-plant-lotus",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_Lotus.md",
+      "sourceSha256": "6d1f2de810462d454806267e098850d56b8160286294e7b31019feb6f33b538b",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_MourningLily",
+      "guid": -1057579736,
+      "path": "/db/blueprints/bp-castle-chain-plant-mourning-lily",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_MourningLily.md",
+      "sourceSha256": "145e36f79ed750b8f89d881da15b403737ae1d63098a32c352c9973109ee0789",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_SnowFlower",
+      "guid": -1475317620,
+      "path": "/db/blueprints/bp-castle-chain-plant-snow-flower",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_SnowFlower.md",
+      "sourceSha256": "019bf14c32e2baf8cda79567297b366255d094dcc94be39fcdcadc74eadca41f",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_Sunflower",
+      "guid": 1659865297,
+      "path": "/db/blueprints/bp-castle-chain-plant-sunflower",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_Sunflower.md",
+      "sourceSha256": "a4557343d0224744cae2f0fef01f751fd9e11132b9ccd5b2d180e9da6ac68526",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_Thistle",
+      "guid": -437194426,
+      "path": "/db/blueprints/bp-castle-chain-plant-thistle",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_Thistle.md",
+      "sourceSha256": "6080b43cc3332ebccf4982bc220b8d924b9097905a277b37c0ddbbcb7cd04931",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Plant_TrippyShroom",
+      "guid": 1228922848,
+      "path": "/db/blueprints/bp-castle-chain-plant-trippy-shroom",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Plant_TrippyShroom.md",
+      "sourceSha256": "680cad82f6b635de81c07e58deea15c3c0eece1afabebde160e9619925594726",
+      "captureId": "blueprints-02",
+      "nameKey": "4304bf2e-dfcb-4a8f-80b5-782dc3a66979",
+      "nameRaw": "Plant",
+      "descriptionKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+      "descriptionRaw": "Plant a plant, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a plant, make a difference, it's good for the environment!",
+        "toString": "Plant a plant, make a difference, it's good for the environment!",
+        "resultKey": "6a9c8e90-5a22-4986-821f-f85ce6baf698",
+        "nameLookup": "Plant",
+        "templateLookup": "Plant a plant, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_AppleCursed_01",
+      "guid": -315187808,
+      "path": "/db/blueprints/bp-castle-chain-tree-apple-cursed-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_AppleCursed_01.md",
+      "sourceSha256": "e7d710f364fb03554c59a44c4462c5205431c2b74f43b2e730afed5eab060762",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    },
+    {
+      "prefab": "BP_Castle_Chain_Tree_AppleTree_01",
+      "guid": -1362642773,
+      "path": "/db/blueprints/bp-castle-chain-tree-apple-tree-01",
+      "sourcePath": "content/prefabs/BP_Castle_Chain_Tree_AppleTree_01.md",
+      "sourceSha256": "413a55edaf6103bf20e719abaae59df7f67122c68b00e0450b6eb7d84cfb673d",
+      "captureId": "blueprints-02",
+      "nameKey": "252be001-34c5-4a24-a038-93d62e817704",
+      "nameRaw": "Tree",
+      "descriptionKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+      "descriptionRaw": "Plant a tree, make a difference, it's good for the environment!",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Plant a tree, make a difference, it's good for the environment!",
+        "toString": "Plant a tree, make a difference, it's good for the environment!",
+        "resultKey": "56d802b6-fa7c-42c4-b60f-4404e4928ab7",
+        "nameLookup": "Tree",
+        "templateLookup": "Plant a tree, make a difference, it's good for the environment!"
+      }
+    }
+  ]
+}

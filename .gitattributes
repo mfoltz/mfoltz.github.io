@@ -4,3 +4,7 @@ data/reference-samples/*.txt -text whitespace=blank-at-eol,blank-at-eof,space-be
 
 # Pin the exact native capture bytes across checkouts.
 data/enrichment/blueprint-icon-capture.json -text whitespace=cr-at-eol
+
+# Preserve exact bytes of the additive literal-text witness.
+data/enrichment/blueprint-text-expansion-128.json -text
+data/enrichment/blueprint-text-expansion-128/*.json -text
