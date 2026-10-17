@@ -428,3 +428,41 @@ test("empty, missing and held zero-valued Blueprint requirements do not imply a 
     if (buildMaterialStatus === "zero-valued") assert.match(html, /zero-valued material rows|Held Build Material Rows/);
   }
 });
+
+
+const blueprintOwnedDescription = "An exact owned Blueprint description.";
+const approvedBlueprintTextWitnesses = [
+  "data/enrichment/blueprint-text-capture.json#",
+  "data/enrichment/blueprint-text-expansion-128.json#"
+];
+function ownedBlueprintRenderingFixture(witness: string, summary = blueprintOwnedDescription): DbEntityDetail {
+  const prefab = "BP_Castle_Chain_Plant_BleedingHeart";
+  return { ...blueprintDetailFixture, title: "Plant", subtitle: prefab, prefab, guid: -1473915226,
+    description: blueprintOwnedDescription, localizedSummaryEn: summary, localizedDisplayNameEn: "Plant",
+    descriptionSourceKind: "extractor-raw", descriptionSourceRef: witness + prefab };
+}
+for (const witness of approvedBlueprintTextWitnesses) {
+  test(`matching owned summary appears once for ${witness}`, () => {
+    const fixture = ownedBlueprintRenderingFixture(witness);
+    const html = renderDetail(fixture, "blueprints");
+    assert.equal(html.split(blueprintOwnedDescription).length - 1, 1);
+    assert(html.includes(fixture.prefab!)); assert(html.includes("-1473915226"));
+    assert(html.includes(fixture.descriptionSourceRef as string));
+    assert.match(html, /Build Rules|Dismantle Time/);
+    assert.match(html, /href="\/prefabs\/journal-reward-tech-bloodaltar"/);
+  });
+  test(`differing localized summary stays available for ${witness}`, () => {
+    const secondary = "A distinct recorded secondary summary.";
+    const html = renderDetail(ownedBlueprintRenderingFixture(witness, secondary), "blueprints");
+    assert.equal(html.split(blueprintOwnedDescription).length - 1, 1);
+    assert.equal(html.split(secondary).length - 1, 1);
+  });
+}
+for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/enrichment/blueprint-text-expansion-128.json.invalid#"]) {
+  test(`unknown witness does not suppress recorded summary: ${witness}`, () => {
+    const fixture = ownedBlueprintRenderingFixture(witness);
+    const html = renderDetail(fixture, "blueprints");
+    assert.equal(html.split(blueprintOwnedDescription).length - 1, 2);
+    assert(html.includes(fixture.descriptionSourceRef as string));
+  });
+}

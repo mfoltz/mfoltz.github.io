@@ -7,6 +7,7 @@ import { chromium, type Page } from "playwright";
 import type { DbEntityDetail, DbIndexEntry, DbRelatedEntityRef } from "../src/types/db";
 import { readExpansion, expansionTextFields, type ExpansionRow } from "./blueprint-text-expansion";
 import { assertFocusedReferenceVisible } from "./reference-focus";
+import { revealExpansionSourceBacklink } from "./blueprint-expansion-source-navigation";
 import { blueprintZoomExtensionId, blueprintZoomStage } from "./blueprint-text-zoom";
 import { clipboardMockSource, measureReferenceSource, type ExpansionPageMeasurement } from "./blueprint-expansion-browser-evaluation";
 
@@ -108,7 +109,7 @@ async function relatedNavigation(page: Page, fixture: Fixture, book = false) {
   const links = group.locator('a[href^="/db/blueprints/"]');
   let shown = await links.count(); assert.equal(shown, Math.min(12, refs.length));
   while (refs.indexOf(target) >= shown || (shown === 12 && refs.length > 12)) {
-    const previous = shown; await group.getByRole("button", { name: "Show more", exact: true }).click();
+    const previous = shown; await group.getByRole("button", { name: "Show more", exact: true }).press("Enter");
     shown = Math.min(refs.length, previous + 12);
     await links.nth(shown - 1).waitFor(); assert.equal(await links.count(), shown);
     await page.waitForFunction(href => document.activeElement instanceof HTMLAnchorElement
@@ -126,7 +127,9 @@ async function relatedNavigation(page: Page, fixture: Fixture, book = false) {
   await page.locator("#source-provenance > summary").click();
   const source = page.getByRole("link", { name: "Open Prefab Reference", exact: true });
   assert.equal(await source.getAttribute("href"), blueprint.prefabPath); await source.click();
-  await page.waitForURL(base + blueprint.prefabPath); await page.locator(`a[href="${target.path}"]`).first().waitFor();
+  await page.waitForURL(base + blueprint.prefabPath);
+  await revealExpansionSourceBacklink(page, target.path);
+  await page.locator(`a[href="${target.path}"]`).first().waitFor();
   assert((await page.locator(`a[href="${target.path}"]`).first().innerText()).includes(target.title));
   await page.goBack(); await page.goBack(); await group.getByRole("searchbox").waitFor();
   assert.equal(page.url(), expandedUrl); assert.equal(await links.count(), shown);
