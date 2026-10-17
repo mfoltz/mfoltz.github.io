@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03", "guid": 2032291686, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar02-decor03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03.md", "sourceSha256": "191898dba294ecb33761f36104f155f91941cae6cd638d0dbe538dde729c2ac3", "captureId": "blueprints-06",
+      "nameKey": "681c286a-fd6c-4ea8-a2bf-89cbed5818e8", "nameRaw": "Hedge - Tall Round Column w. Droplet",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Round Column w. Droplet","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Globe02", "guid": 1988389551, "path": "/db/blueprints/tm-castle-object-decor-globe02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Globe02.md", "sourceSha256": "9dc58881268a8fc12cef7007d57c3e7053abddfade1dfabc46dba59135693e07", "captureId": "blueprints-06",
+      "nameKey": "ef871279-ec66-4732-b524-6fd53824baa5", "nameRaw": "'Vardoran' Globe",
+      "descriptionKey": "1b4dc0d2-c9dd-47ef-979d-7b1a5340b57a", "descriptionRaw": "Vardoran-centric world globe.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Vardoran-centric world globe.","toString":"Vardoran-centric world globe.","resultKey":"1b4dc0d2-c9dd-47ef-979d-7b1a5340b57a","nameLookup":"'Vardoran' Globe","templateLookup":"Vardoran-centric world globe."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green", "guid": -618554922, "path": "/db/blueprints/tm-castle-object-decor-gloomrot01-brazier01-green",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green.md", "sourceSha256": "a8bdbeef19cf72295cfa8839a88f89b4f3a7c90f6679299e705870aef3a1bc43", "captureId": "blueprints-06",
+      "nameKey": "eacb2b67-cd4b-4c41-b59a-d9b783ab3f17", "nameRaw": "Chemical Light Podium",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Chemical Light Podium","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier01_Orange", "guid": -2093005534, "path": "/db/blueprints/tm-castle-object-decor-gothic-brazier01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Brazier01_Orange.md", "sourceSha256": "4bf4bbce3a2a652d3c3caa5d6b8a0de3e1a19b04bfe64d14f347bc60d18fe83f", "captureId": "blueprints-06",
+      "nameKey": "f0294c4b-2cb5-4fa9-9189-86d8c32785af", "nameRaw": "'Elegant' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Elegant' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier02_Orange", "guid": 1965326190, "path": "/db/blueprints/tm-castle-object-decor-gothic-brazier02-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Brazier02_Orange.md", "sourceSha256": "4a252d8e4b6503ba14f19bfdd17be497339b61f1912e05d1998edcd5999b434b", "captureId": "blueprints-06",
+      "nameKey": "d6ce9ffa-c250-4a8a-8280-a571afcd849b", "nameRaw": "'Gothica' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Gothica' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier03_Orange", "guid": 224878241, "path": "/db/blueprints/tm-castle-object-decor-gothic-brazier03-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Brazier03_Orange.md", "sourceSha256": "0eb4c803491ced57d0aed02c34614a5238917e1e47faf90ec542c5af9db0ce2c", "captureId": "blueprints-06",
+      "nameKey": "3ac4a98b-23be-460a-bd1d-0bd7e7c7eee5", "nameRaw": "'Cabal' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Cabal' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC", "guid": 1965581787, "path": "/db/blueprints/tm-castle-object-decor-gothic-brazier04-orange-dlc",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC.md", "sourceSha256": "c4f28fed099dff24ba4a633c409be3d647c20c3683becd7350407d035fdb25c8", "captureId": "blueprints-06",
+      "nameKey": "f8492fcd-621a-4b6f-976f-26217a6a1a25", "nameRaw": "Royal Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Royal Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier05_Orange", "guid": -887031154, "path": "/db/blueprints/tm-castle-object-decor-gothic-brazier05-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Brazier05_Orange.md", "sourceSha256": "0b001cf82c8190013588c6291af11de81a4169226f8f6b9728dfc504626b619d", "captureId": "blueprints-06",
+      "nameKey": "70f44964-1210-4f44-a9d3-7cba581de17f", "nameRaw": "'Balefire' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Balefire' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_BustStatue_Female01", "guid": 1005770867, "path": "/db/blueprints/tm-castle-object-decor-gothic-bust-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_BustStatue_Female01.md", "sourceSha256": "fd5941f8a9ec3aeecf9fc4ae9ac4809a84f416a952eb447dd4852c8499dc2487", "captureId": "blueprints-06",
+      "nameKey": "19e0c65e-528b-4408-bd76-982cc59e970e", "nameRaw": "Black Marble Bust - Female",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Black Marble Bust - Female","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_BustStatue_Male01", "guid": -1463516461, "path": "/db/blueprints/tm-castle-object-decor-gothic-bust-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_BustStatue_Male01.md", "sourceSha256": "c7582190bdfc8dba42c2ecd94a8c6301d2336c7b4ba7f783d95a16380449c899", "captureId": "blueprints-06",
+      "nameKey": "d5ec3671-82ed-4d7c-993d-19df16e84295", "nameRaw": "Black Marble Bust - Male",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Black Marble Bust - Male","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_CandleRack01_Orange", "guid": 656976091, "path": "/db/blueprints/tm-castle-object-decor-gothic-candle-rack01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_CandleRack01_Orange.md", "sourceSha256": "f979f560da0956f36eb70048145fc77e1d05d3528582bf37ec33ad29ac18a7d0", "captureId": "blueprints-06",
+      "nameKey": "6bfb9326-269f-4333-aa9d-5875184a61cf", "nameRaw": "'Invocation' Candle Rack",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Invocation' Candle Rack","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_CandleStand01", "guid": 709669487, "path": "/db/blueprints/tm-castle-object-decor-gothic-candle-stand01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_CandleStand01.md", "sourceSha256": "74caf2fa401b008f32f11a0dc935b72c91d017602be7c38120b3137483aec5f8", "captureId": "blueprints-06",
+      "nameKey": "37a7fed3-a644-409f-be5b-ade3613ced46", "nameRaw": "'Elegant' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Elegant' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Podium01", "guid": -590609504, "path": "/db/blueprints/tm-castle-object-decor-gothic-podium01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Podium01.md", "sourceSha256": "db35d2e39ed8a8421963ee6c3dfeff9eb6e2d543f9d9ef293f308e8b2d9522ea", "captureId": "blueprints-06",
+      "nameKey": "aa6c54fa-c48f-4db3-b5b5-07ce456ded51", "nameRaw": "'Dignity' Podium",
+      "descriptionKey": "0b4747ad-1f36-434f-917e-5a469ead2713", "descriptionRaw": "A simple podium.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A simple podium.","toString":"A simple podium.","resultKey":"0b4747ad-1f36-434f-917e-5a469ead2713","nameLookup":"'Dignity' Podium","templateLookup":"A simple podium."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01", "guid": -593905838, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-duo-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01.md", "sourceSha256": "96631d5bedab74aa3a2f5242683a762c2e0a4c963118b169aa125afd524e1162", "captureId": "blueprints-06",
+      "nameKey": "a5edb03e-6948-4bdf-9405-c69ad887c86d", "nameRaw": "'Eldest' Dueling Gargoyles",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Dueling Gargoyles","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle01", "guid": 1326445798, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle01.md", "sourceSha256": "2693cd3224e0d27bc1771760b3f501f4e040e32b2270bd0c4c3212e03f74bc5e", "captureId": "blueprints-06",
+      "nameKey": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6", "nameRaw": "'Eldest' Lurking Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Lurking Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle02", "guid": 2123129022, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle02.md", "sourceSha256": "a67450bc0762da602fd0e1e8e6c1ac28a7df2ba37d737bd6eefca0b7b89580fe", "captureId": "blueprints-06",
+      "nameKey": "05b850a4-e3d9-41d5-93f8-1f6d513286f6", "nameRaw": "'Eldest' Crouching Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Crouching Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle03", "guid": 725766266, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle03.md", "sourceSha256": "bdf08dcb839be92411a62816e143829c0e94537af1a74723c5d3821be2753fda", "captureId": "blueprints-06",
+      "nameKey": "69941111-c888-442e-938a-ccb15322940c", "nameRaw": "'Eldest' Pleading Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pleading Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle04", "guid": -1985503763, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle04.md", "sourceSha256": "32f0cd4a71f36fb6e784bc95ef0cb9ec6146312b50a87735e82189a048152a0f", "captureId": "blueprints-06",
+      "nameKey": "85091ca8-0ec7-4b62-ac30-9631d6df7321", "nameRaw": "'Eldest' Pondering Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pondering Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle05", "guid": -411374179, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle05.md", "sourceSha256": "721b53dc875abf3b4ce88f6e1c3e34b69981f2dffa7c138836eab83e274d6125", "captureId": "blueprints-06",
+      "nameKey": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4", "nameRaw": "'Eldest' Roaring Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Roaring Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle06", "guid": 581940747, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle06.md", "sourceSha256": "e50f411c81899c1f7eb44d06a3ba322bfce07bdef7b89c793dc21696f349549e", "captureId": "blueprints-06",
+      "nameKey": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5", "nameRaw": "'Eldest' Agonized Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Agonized Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle07", "guid": -1986302834, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle07",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle07.md", "sourceSha256": "1eb7ccd295d26eef7caedd309ba6bb5f5d409830377423a8f409276ed5c56deb", "captureId": "blueprints-06",
+      "nameKey": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b", "nameRaw": "'Eldest' Victorious Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Victorious Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08", "guid": 1245961354, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc01-gargoyle08",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08.md", "sourceSha256": "00a18a8582c13fbda49db41d7dee0fd022cb22cab8fd6ae25f784be44f35fef7", "captureId": "blueprints-06",
+      "nameKey": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7", "nameRaw": "'Eldest' Challenging Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Challenging Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Female", "guid": -1509963504, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc-gloomrot-female",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Female.md", "sourceSha256": "6778aae47238ef8832168972a634a985f92f79fc6f3494ab6dea75c3286aea06", "captureId": "blueprints-06",
+      "nameKey": "27d7c8d6-e618-4889-a9c9-e40e84ad4bd7", "nameRaw": "Female Plague Chemist’s Dedication",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Female Plague Chemist’s Dedication","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Male", "guid": 1853226864, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc-gloomrot-male",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Male.md", "sourceSha256": "e2eaa607bb7d210da329c9ce69f8c7a0972e7e7ec57001bb6b5140fd71b5d4ff", "captureId": "blueprints-06",
+      "nameKey": "7cd5d373-310c-49c9-9b2c-b2399e7e1579", "nameRaw": "Male Plague Chemist’s Dedication",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Male Plague Chemist’s Dedication","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat01", "guid": -154100892, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc-gloomrot-vat01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat01.md", "sourceSha256": "b80ad543b5b2d46e5e085fe41a3d3ed0e7c2063015350a44341d271fdcc95462", "captureId": "blueprints-06",
+      "nameKey": "2f5035cc-de8c-42af-87db-7c65a2043ce4", "nameRaw": "Plague Chemist’s Experiment",
+      "descriptionKey": "1afd3eba-57d3-4048-8a88-30bacd06b0d5", "descriptionRaw": "A decorative glass display.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative glass display.","toString":"A decorative glass display.","resultKey":"1afd3eba-57d3-4048-8a88-30bacd06b0d5","nameLookup":"Plague Chemist’s Experiment","templateLookup":"A decorative glass display."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat02", "guid": -567491057, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc-gloomrot-vat02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat02.md", "sourceSha256": "ed9fd0d767319c575e325a58b98661547b94a08bae1ca1c1444ff190fed4bec4", "captureId": "blueprints-06",
+      "nameKey": "c8ea0e49-87e3-4322-b07b-c744c1abd4cc", "nameRaw": "Plague Chemist’s Prototype",
+      "descriptionKey": "1afd3eba-57d3-4048-8a88-30bacd06b0d5", "descriptionRaw": "A decorative glass display.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative glass display.","toString":"A decorative glass display.","resultKey":"1afd3eba-57d3-4048-8a88-30bacd06b0d5","nameLookup":"Plague Chemist’s Prototype","templateLookup":"A decorative glass display."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03", "guid": -751931539, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-dlc-gloomrot-vat03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03.md", "sourceSha256": "2bbcf9d6aa2ceb55b80b3e6885dc0dceb11c2ab271ae63a5febe966e16ca57a6", "captureId": "blueprints-06",
+      "nameKey": "9617cb1c-70e1-4642-8d93-f1a86981b511", "nameRaw": "Plague Chemist’s Thesis",
+      "descriptionKey": "1afd3eba-57d3-4048-8a88-30bacd06b0d5", "descriptionRaw": "A decorative glass display.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative glass display.","toString":"A decorative glass display.","resultKey":"1afd3eba-57d3-4048-8a88-30bacd06b0d5","nameLookup":"Plague Chemist’s Thesis","templateLookup":"A decorative glass display."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Female01", "guid": -84369225, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_Female01.md", "sourceSha256": "43da93687f16acc96b4857c3c65ecc202bb5f2da253f635024977fa1ef70530b", "captureId": "blueprints-06",
+      "nameKey": "bf65578e-80c8-4f8f-a495-a2ba0427567d", "nameRaw": "Black Marble Statue - Female",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Black Marble Statue - Female","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Gargoyle01", "guid": -1870409563, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_Gargoyle01.md", "sourceSha256": "a535f4bb66bde33602348ae5a58f8c75f9c702742e4f92a24796990413b02bd4", "captureId": "blueprints-06",
+      "nameKey": "2328f26b-2956-4d5c-9342-03193c5bb301", "nameRaw": "Patient Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Patient Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Male01", "guid": -1198796948, "path": "/db/blueprints/tm-castle-object-decor-gothic-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Statue_Male01.md", "sourceSha256": "17a3531a254ea376815b2953454d4082a732e0dc959b769ae420dc33d4eb2b76", "captureId": "blueprints-06",
+      "nameKey": "92ff50d6-1635-4366-afaa-33505b81d998", "nameRaw": "Black Marble Statue - Male",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Black Marble Statue - Male","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase01", "guid": -479280465, "path": "/db/blueprints/tm-castle-object-decor-gothic-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Vase01.md", "sourceSha256": "9c29924e646d0c53387d0fb45e876ad4cbe1f8fc0e9e30213162286a8417f133", "captureId": "blueprints-06",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase02", "guid": -1076384196, "path": "/db/blueprints/tm-castle-object-decor-gothic-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Vase02.md", "sourceSha256": "df45e28a5017b9140104acfb17f14a2e74a51ee06e5e131b45558c0816e3e7e6", "captureId": "blueprints-06",
+      "nameKey": "ebd5145e-1e17-45a5-8576-b873793a0d63", "nameRaw": "'Augur' Series Vase w. Geranium Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase w. Geranium Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase03", "guid": -76851715, "path": "/db/blueprints/tm-castle-object-decor-gothic-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Vase03.md", "sourceSha256": "4cb70162df68e402e7b2de1888d7c22a0e20cfeef297ddc1ed5d0cb895dd3276", "captureId": "blueprints-06",
+      "nameKey": "2f42b89d-e77a-4219-a081-31cee1d4a2d7", "nameRaw": "'Augur' Series Vase w. Coleus Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase w. Coleus Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase04", "guid": 2030984728, "path": "/db/blueprints/tm-castle-object-decor-gothic-vase04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Vase04.md", "sourceSha256": "9daaa8c7a6b6bd67911fe25ffd87442e571a020f62517ecb36230d9aaa3e7935", "captureId": "blueprints-06",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Gothic_Vase05", "guid": -1537403426, "path": "/db/blueprints/tm-castle-object-decor-gothic-vase05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Gothic_Vase05.md", "sourceSha256": "dd8c84696939b3910672671ab88d2838d31649a0a9754e18c0cbf88380b468f3", "captureId": "blueprints-06",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Base", "guid": -6983693, "path": "/db/blueprints/tm-castle-object-decor-grandfather-clock-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GrandfatherClock_Base.md", "sourceSha256": "4f51cc2d8e59bb9932cdbb1ac587934dd3bc09d3e7634d038369be0d0d318128", "captureId": "blueprints-06",
+      "nameKey": "e36a4d18-f7f6-439b-86d3-389ea2db0c91", "nameRaw": "'Omen' Longcase Clock",
+      "descriptionKey": "e605a49b-5201-45b4-9d23-d8f07c860a9b", "descriptionRaw": "A large clock.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A large clock.","toString":"A large clock.","resultKey":"e605a49b-5201-45b4-9d23-d8f07c860a9b","nameLookup":"'Omen' Longcase Clock","templateLookup":"A large clock."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Cabal01", "guid": -1623564712, "path": "/db/blueprints/tm-castle-object-decor-grandfather-clock-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GrandfatherClock_Cabal01.md", "sourceSha256": "93831cca7cb99aa443fd09120da93c75c17c8a3c0b79b4fc45fa00134c27612b", "captureId": "blueprints-06",
+      "nameKey": "23468223-1b23-4120-af44-7c72e0d38ae0", "nameRaw": "'Cordial' Longcase Clock",
+      "descriptionKey": "e605a49b-5201-45b4-9d23-d8f07c860a9b", "descriptionRaw": "A large clock.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A large clock.","toString":"A large clock.","resultKey":"e605a49b-5201-45b4-9d23-d8f07c860a9b","nameLookup":"'Cordial' Longcase Clock","templateLookup":"A large clock."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Gothic01", "guid": -561639815, "path": "/db/blueprints/tm-castle-object-decor-grandfather-clock-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GrandfatherClock_Gothic01.md", "sourceSha256": "6da4f4bf42402f15ed0e639b4ccb053cf720f5f2942be58ce88d1891addcced1", "captureId": "blueprints-06",
+      "nameKey": "e36a4d18-f7f6-439b-86d3-389ea2db0c91", "nameRaw": "'Omen' Longcase Clock",
+      "descriptionKey": "e605a49b-5201-45b4-9d23-d8f07c860a9b", "descriptionRaw": "A large clock.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A large clock.","toString":"A large clock.","resultKey":"e605a49b-5201-45b4-9d23-d8f07c860a9b","nameLookup":"'Omen' Longcase Clock","templateLookup":"A large clock."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Lavish01", "guid": 1136472160, "path": "/db/blueprints/tm-castle-object-decor-grandfather-clock-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GrandfatherClock_Lavish01.md", "sourceSha256": "40ad523a68ad2e952ecdf7da6cdfe300fb6882926f1976c572091fd968e65c68", "captureId": "blueprints-06",
+      "nameKey": "5d9012d3-9f47-4356-94aa-83033e9c967e", "nameRaw": "'Distinguished' Longcase Clock",
+      "descriptionKey": "e605a49b-5201-45b4-9d23-d8f07c860a9b", "descriptionRaw": "A large clock.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A large clock.","toString":"A large clock.","resultKey":"e605a49b-5201-45b4-9d23-d8f07c860a9b","nameLookup":"'Distinguished' Longcase Clock","templateLookup":"A large clock."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier01_Orange", "guid": -1296321304, "path": "/db/blueprints/tm-castle-object-decor-halloween01-brazier01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Halloween01_Brazier01_Orange.md", "sourceSha256": "39d9179fcf2a53f58856784db0ab2feaa71357906e1d24f7b23a8ed08b33afb7", "captureId": "blueprints-06",
+      "nameKey": "28265fc9-acd4-485f-a897-bbe67547e15a", "nameRaw": "Haunted Nights Laughing Pumpkin",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Haunted Nights Laughing Pumpkin","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier02_Orange", "guid": 561843274, "path": "/db/blueprints/tm-castle-object-decor-halloween01-brazier02-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Halloween01_Brazier02_Orange.md", "sourceSha256": "b71999b073c719caa6ced9b816716a284c4dd7958d20725e866d254bc2aabf8b", "captureId": "blueprints-06",
+      "nameKey": "640b31a5-c097-4fa8-a548-f99f75ca06b2", "nameRaw": "Haunted Nights Grinning Pumpkin",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Haunted Nights Grinning Pumpkin","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange", "guid": -86884256, "path": "/db/blueprints/tm-castle-object-decor-halloween01-brazier03-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange.md", "sourceSha256": "410336b864fce09cc70aa715104b476f4f3b2183c15b3af2df37b9b64eacd7f9", "captureId": "blueprints-06",
+      "nameKey": "3e2f40f5-b2b3-4da4-8d7b-c89e17c70965", "nameRaw": "Haunted Nights Wailing Pumpkin",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Haunted Nights Wailing Pumpkin","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier04_Orange", "guid": 444000363, "path": "/db/blueprints/tm-castle-object-decor-halloween01-brazier04-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Halloween01_Brazier04_Orange.md", "sourceSha256": "e6bad41f61709395e04b9800b90e2600a1a40cffb848bbe3a187e012146e4d95", "captureId": "blueprints-06",
+      "nameKey": "2032a643-5172-4d7f-8e14-b0715ffba0ac", "nameRaw": "Haunted Nights Skull Candles",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"Haunted Nights Skull Candles","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_Base", "guid": -1848307090, "path": "/db/blueprints/tm-castle-object-decor-instrument-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_Base.md", "sourceSha256": "2e1f057a8e484433087bcf54f363a58f411f9f48367ba6faf359cc14f8b1edde", "captureId": "blueprints-06",
+      "nameKey": "a54c3066-9cab-4311-8dfb-8d901846890e", "nameRaw": "'Distinguished' Grand Piano",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Distinguished' Grand Piano","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_GrandPiano01", "guid": -409684408, "path": "/db/blueprints/tm-castle-object-decor-instrument-grand-piano01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_GrandPiano01.md", "sourceSha256": "7ca716af0adec455787359e1ae2be90f6cb22c95da4e3cdefc6cbd6c571b4985", "captureId": "blueprints-06",
+      "nameKey": "a54c3066-9cab-4311-8dfb-8d901846890e", "nameRaw": "'Distinguished' Grand Piano",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Distinguished' Grand Piano","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_GrandPiano02", "guid": -280549553, "path": "/db/blueprints/tm-castle-object-decor-instrument-grand-piano02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_GrandPiano02.md", "sourceSha256": "a129320fb52a1d2782541feeae1ce8d41ef720a3041e9c04d5e9694c627e6b1c", "captureId": "blueprints-06",
+      "nameKey": "daa6503c-2d92-44c9-93d1-c1be59580504", "nameRaw": "'Omen' Grand Piano",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Omen' Grand Piano","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_Harp01", "guid": 1246795581, "path": "/db/blueprints/tm-castle-object-decor-instrument-harp01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_Harp01.md", "sourceSha256": "76fb5ef56ccbc80709b2c39973c844b9e8c4f9cef5d016ceb16979d6740318a1", "captureId": "blueprints-06",
+      "nameKey": "5c490aa3-cb79-4b50-8555-0ee64a301a2a", "nameRaw": "'Distinguished' Harp",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Distinguished' Harp","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_Harp02", "guid": 591881817, "path": "/db/blueprints/tm-castle-object-decor-instrument-harp02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_Harp02.md", "sourceSha256": "ee8c407c659c6f85843570aa4c3034597032f9593f138e218f812b5cc9ec7fcf", "captureId": "blueprints-06",
+      "nameKey": "4179e764-63d2-4e00-8a1b-80ed064eb785", "nameRaw": "'Omen' Harp",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Omen' Harp","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_Organ01", "guid": -1894293910, "path": "/db/blueprints/tm-castle-object-decor-instrument-organ01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_Organ01.md", "sourceSha256": "df880d5798ca14f08002fc5399743493d2d8123158f76ffba428dbc6763ddb49", "captureId": "blueprints-06",
+      "nameKey": "8fd6afa4-7652-4edc-90af-7e488f01f3e5", "nameRaw": "'Omen' Organ",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Omen' Organ","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Instrument_Organ02", "guid": -544504736, "path": "/db/blueprints/tm-castle-object-decor-instrument-organ02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Instrument_Organ02.md", "sourceSha256": "67aa33bbbb4db375d2356d7989abc8c46d35f89477a41d8a61136c62154bc4b2", "captureId": "blueprints-06",
+      "nameKey": "c2a0b079-b7f5-4b12-ba70-a55f26aaeb4f", "nameRaw": "'Distinguished' Organ",
+      "descriptionKey": "088e76f3-4989-4c70-a308-0c1e0187ea74", "descriptionRaw": "A musical instrument.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A musical instrument.","toString":"A musical instrument.","resultKey":"088e76f3-4989-4c70-a308-0c1e0187ea74","nameLookup":"'Distinguished' Organ","templateLookup":"A musical instrument."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Brazier01_Orange", "guid": 521970438, "path": "/db/blueprints/tm-castle-object-decor-lavish-brazier01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Brazier01_Orange.md", "sourceSha256": "57984e5b7d01f065449bd9843ae06451dc929d021174b951dae8e1b03b981f3e", "captureId": "blueprints-06",
+      "nameKey": "b3bc9551-a772-4284-8ec7-c0eba42120c1", "nameRaw": "'Ardent' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Ardent' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_BustStatue_Female01", "guid": -420564298, "path": "/db/blueprints/tm-castle-object-decor-lavish-bust-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_BustStatue_Female01.md", "sourceSha256": "1a37de311e26151b78a948f5f18321c8cb9fe068d2f1c2b749683ebac3b65815", "captureId": "blueprints-06",
+      "nameKey": "92455726-a299-4681-8784-dd27a17e9427", "nameRaw": "Alabaster Bust - Female",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Alabaster Bust - Female","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_BustStatue_Male01", "guid": -1841799555, "path": "/db/blueprints/tm-castle-object-decor-lavish-bust-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_BustStatue_Male01.md", "sourceSha256": "be0bc30fa6d567a23444dc55884ae4f109a6a734d25ec488234d7401ffeded8f", "captureId": "blueprints-06",
+      "nameKey": "2a47df6e-c902-4e90-a800-d3437ee86127", "nameRaw": "Alabaster Bust - Male",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Alabaster Bust - Male","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_CandleStand01", "guid": 1080320533, "path": "/db/blueprints/tm-castle-object-decor-lavish-candle-stand01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_CandleStand01.md", "sourceSha256": "38f996d50f007efbb775feb01117d17736fd2833c62adc7a7f3eb36e4bfb7bc1", "captureId": "blueprints-06",
+      "nameKey": "d5051e1b-553a-460e-a5ac-75c3d2f918ed", "nameRaw": "'Ardent' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Ardent' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01DuoGargoyle01", "guid": -596981388, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-duo-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01DuoGargoyle01.md", "sourceSha256": "8ae9ac8c6d22f1edff391f62187221f325bc49cfd3a5c0c279a816898e062b31", "captureId": "blueprints-06",
+      "nameKey": "180be719-4217-43bd-a097-22a8c46ba514", "nameRaw": "'Eldest' Dueling Gargoyles",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Dueling Gargoyles","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle01", "guid": 34149911, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle01.md", "sourceSha256": "26e3861b6e77d118034618f4aa3734cb5c20388112170944b442082d585966da", "captureId": "blueprints-06",
+      "nameKey": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6", "nameRaw": "'Eldest' Lurking Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Lurking Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02", "guid": -444096842, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02.md", "sourceSha256": "e23cc8ab7ee48eeabad37e2efef8f5b5792784b72eef6e3690123b57f623de58", "captureId": "blueprints-06",
+      "nameKey": "05b850a4-e3d9-41d5-93f8-1f6d513286f6", "nameRaw": "'Eldest' Crouching Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Crouching Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle03", "guid": 22771948, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle03.md", "sourceSha256": "bf104343c3fc6c4e3f5e022e9da14bd87ef43d738cfddacf168df8cf247d3823", "captureId": "blueprints-06",
+      "nameKey": "69941111-c888-442e-938a-ccb15322940c", "nameRaw": "'Eldest' Pleading Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pleading Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle04", "guid": 210845918, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle04.md", "sourceSha256": "68b0e77f3fe4fbc955ad76160189037bd04058a79813d19829f5370692520cd3", "captureId": "blueprints-07",
+      "nameKey": "85091ca8-0ec7-4b62-ac30-9631d6df7321", "nameRaw": "'Eldest' Pondering Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pondering Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle05", "guid": 1065525459, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle05.md", "sourceSha256": "5f023391b9253153841e13bd4823d8cb4bc4bbcb005868cfbe542916a2c3255a", "captureId": "blueprints-07",
+      "nameKey": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4", "nameRaw": "'Eldest' Roaring Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Roaring Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle06", "guid": -374509611, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle06.md", "sourceSha256": "3af68d85e9525e8d10cf3340b621efe715d8f0fd32df304531d51c7851bebeae", "captureId": "blueprints-07",
+      "nameKey": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5", "nameRaw": "'Eldest' Agonized Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Agonized Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle07", "guid": -1086525411, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle07",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle07.md", "sourceSha256": "a3d1e3ce82a1017aa40629f8c091172b040746198992b28ea64d702985c34a90", "captureId": "blueprints-07",
+      "nameKey": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b", "nameRaw": "'Eldest' Victorious Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Victorious Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle08", "guid": -96779386, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-dlc01-gargoyle08",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle08.md", "sourceSha256": "3da1ae8dd8699227e500a256875a597745ba26e050acac4240152288fe7018d2", "captureId": "blueprints-07",
+      "nameKey": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7", "nameRaw": "'Eldest' Challenging Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Challenging Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Female01", "guid": 1302388238, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_Female01.md", "sourceSha256": "c8b9a60bd1973846e9d2c334ec5471902e5b2072defbced06277adf2ebbd8003", "captureId": "blueprints-07",
+      "nameKey": "f7e20019-c818-4494-ad6b-40fdc25b1a3f", "nameRaw": "Alabaster Statue - Female",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Alabaster Statue - Female","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Gargoyle01", "guid": 1902853849, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_Gargoyle01.md", "sourceSha256": "5fbfb679431078563f3dd1802b9ccf29b3655ec8e59e7216638a5f520ee8e7c4", "captureId": "blueprints-07",
+      "nameKey": "b2716016-5095-4fc5-8826-201281617ad3", "nameRaw": "Patient Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Patient Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Male01", "guid": -1248717894, "path": "/db/blueprints/tm-castle-object-decor-lavish-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Statue_Male01.md", "sourceSha256": "86594c7f0e260b58f2ce39cc67a3ebea7a1df31034174ab41f06659d8bddf78f", "captureId": "blueprints-07",
+      "nameKey": "bdac9fb5-3ced-4a0b-9344-f667f8f7a0a0", "nameRaw": "Alabaster Statue - Male",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Alabaster Statue - Male","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase01", "guid": -779774088, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase01.md", "sourceSha256": "f1b35236b93c2cccbffea9aa812b190a6c39ac7e879f8c5c611607ebd75f711f", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase02", "guid": -2087497758, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase02.md", "sourceSha256": "d1b83caab79abdc8c5b5e136f397425d7c508ef5eb5706416ac3842626c010a8", "captureId": "blueprints-07",
+      "nameKey": "c4c2ad86-13d2-412a-bdb9-c29295eb8e62", "nameRaw": "'Alabaster' Series Vase w. Geranium Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Alabaster' Series Vase w. Geranium Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase03", "guid": -1218974349, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase03.md", "sourceSha256": "76c54c0174e3f161ecb33ea889489634a024a8505de25210f91809d45e50d635", "captureId": "blueprints-07",
+      "nameKey": "e6ece542-9239-4e3e-9403-8bfd534c3d71", "nameRaw": "'Alabaster' Series Vase w. Coffee Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Alabaster' Series Vase w. Coffee Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase04_Unused", "guid": 1781510688, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase04-unused",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase04_Unused.md", "sourceSha256": "8b3e1fdc03c3d8ff6dd87c2636e2322955ce7214586faef7fc4a13a01c82e2e0", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase05", "guid": -1312712675, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase05.md", "sourceSha256": "754f3f75c0d3f18e51175d9312305121114f7ec5d255d41957074e025e0457d3", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase06", "guid": 851602346, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase06.md", "sourceSha256": "6b2a0234db83c3a4127b0d762e506f9acbcc0b1bb08dc1a66f771ce19fb82b37", "captureId": "blueprints-07",
+      "nameKey": "bcad404f-fb43-4c14-8b41-6e7adf7770b4", "nameRaw": "'Alabaster' Series Vase w. Coleus Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Alabaster' Series Vase w. Coleus Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Lavish_Vase07", "guid": -595181570, "path": "/db/blueprints/tm-castle-object-decor-lavish-vase07",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Lavish_Vase07.md", "sourceSha256": "fc4b2e9cac11b2df6f00c74a44a3e2af23acaaeee4fbf1b57e3d36d9244c2931", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_OutdoorDecoration_Base", "guid": 845709672, "path": "/db/blueprints/tm-castle-object-decor-outdoor-decoration-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_OutdoorDecoration_Base.md", "sourceSha256": "a9b8de7c853217bae538a886e373ad4960dd0c50df85b5add4ab093e23a1df9c", "captureId": "blueprints-07",
+      "nameKey": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9", "nameRaw": "'Cordial' Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Cordial' Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase01", "guid": 1958206979, "path": "/db/blueprints/tm-castle-object-decor-parent-cabal-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Cabal_Vase01.md", "sourceSha256": "f1e7df406b785e446b24b9b87e5e2413760332910bce2a06255436a0e43c34dd", "captureId": "blueprints-07",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase02", "guid": 144463441, "path": "/db/blueprints/tm-castle-object-decor-parent-cabal-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Cabal_Vase02.md", "sourceSha256": "dd0a74b4f30ae2dbacc83c6419e8ae8b7b7fb02ba4dfccf73da5a039a2bed352", "captureId": "blueprints-07",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase03", "guid": -209525166, "path": "/db/blueprints/tm-castle-object-decor-parent-cabal-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Cabal_Vase03.md", "sourceSha256": "0d8b896e80a9acead4dcd0163aedfc38fc7034198f19808fc62b91b44dba86ca", "captureId": "blueprints-07",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase01", "guid": -1346427067, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase01.md", "sourceSha256": "1427bf7d782cbcf9f779cc8e89a208ba6f9ccda7933f0a3fdc527cb40bf87622", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase02", "guid": 407233445, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase02.md", "sourceSha256": "253273078a37cb907ef68402230c734e1b62ae564bc2ed1c2fecb2cfc43c7aa3", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase03", "guid": -1275348909, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase03.md", "sourceSha256": "ca24df28f393978afc29e17b1499c6b159705135afe5b01972291ce95c99e85b", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase04", "guid": 133934624, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase04.md", "sourceSha256": "cfad8fcec4cc55019d960658f89dc4d37e92fcd2cd7803cac6a4c8af9d08c965", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase05", "guid": -118403276, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase05.md", "sourceSha256": "7df85b32b80d66d4153fc0411d30b79c05d1a0daa9a0a0fa04e5c46cdb0dd924", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase06", "guid": -1781755513, "path": "/db/blueprints/tm-castle-object-decor-parent-fancy-vase06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Fancy_Vase06.md", "sourceSha256": "f0ec453603e9603b4135541de5e50c647e36f340036a7197d3cb5a48e6f43b38", "captureId": "blueprints-07",
+      "nameKey": "bd9bfc0e-bccc-4332-977c-227935fff3ba", "nameRaw": "'Opulent' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Opulent' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase01", "guid": 64005732, "path": "/db/blueprints/tm-castle-object-decor-parent-marble-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Marble_Vase01.md", "sourceSha256": "c3eba6173febef85fdc3777eeb776e77bfab544dbb0be2070342256c6e36cc4d", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase02", "guid": -394501959, "path": "/db/blueprints/tm-castle-object-decor-parent-marble-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Marble_Vase02.md", "sourceSha256": "de806750ed490af0358e62de4a0f2589946bbe173ab1856b89be945a379adc67", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase03", "guid": 1650910016, "path": "/db/blueprints/tm-castle-object-decor-parent-marble-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Marble_Vase03.md", "sourceSha256": "6fd2d4d88abdeee95b426fa7aa858a925d7a222140b1865eea39ddd71855a8c7", "captureId": "blueprints-07",
+      "nameKey": "203d58b8-1137-4c6e-9e0e-70a6fcc38582", "nameRaw": "'Noble' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Noble' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase01", "guid": -1359956150, "path": "/db/blueprints/tm-castle-object-decor-parent-metal-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Metal_Vase01.md", "sourceSha256": "ab5df394baa236a9f5177a5b7be5e2fa79cd828d45c9275c4d7e1c99480d0ea2", "captureId": "blueprints-07",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase02", "guid": 814967763, "path": "/db/blueprints/tm-castle-object-decor-parent-metal-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Metal_Vase02.md", "sourceSha256": "9eec4c436c4144ee501435606279aebd209efb90879443e319007bd0e3a847fc", "captureId": "blueprints-07",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase03", "guid": -1227210056, "path": "/db/blueprints/tm-castle-object-decor-parent-metal-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Metal_Vase03.md", "sourceSha256": "83e0ec444b4900b85921f77a0357f3fa46b9ad4f5e26869036cf5ae78ec39bfe", "captureId": "blueprints-07",
+      "nameKey": "4e5359df-92be-4736-91c0-7cc613d0655d", "nameRaw": "'Augur' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Augur' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Parent_Stable_BarrelVase01", "guid": 1310922184, "path": "/db/blueprints/tm-castle-object-decor-parent-stable-barrel-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Parent_Stable_BarrelVase01.md", "sourceSha256": "9c1527e5d3460adb818e9b3d23be240879b4e2fa2b974a9dc34838135ad23e3b", "captureId": "blueprints-07",
+      "nameKey": "319bcd5b-105c-4bc8-81a1-7c5bcf6a460d", "nameRaw": "Barrel Planter",
+      "descriptionKey": "79b2e43e-a8f8-4573-b523-0eedf9639bf3", "descriptionRaw": "A less fancy \"vase\" for your rustic castle?",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A less fancy \"vase\" for your rustic castle?","toString":"A less fancy \"vase\" for your rustic castle?","resultKey":"79b2e43e-a8f8-4573-b523-0eedf9639bf3","nameLookup":"Barrel Planter","templateLookup":"A less fancy \"vase\" for your rustic castle?"}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Pool_StrongbladeDLC01", "guid": 558668025, "path": "/db/blueprints/tm-castle-object-decor-pool-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Pool_StrongbladeDLC01.md", "sourceSha256": "afda889d9b7334499561d48b4b92587555ef8d5b48dac666e5fbdf1ab28cfb3d", "captureId": "blueprints-07",
+      "nameKey": "f1405cef-0101-4e87-8b01-12003f25d023", "nameRaw": "Nocturnal Opulence Square Pool",
+      "descriptionKey": "353e302d-2270-4c6d-90b9-fa286627f848", "descriptionRaw": "A pool for relaxation and cleanliness.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A pool for relaxation and cleanliness.","toString":"A pool for relaxation and cleanliness.","resultKey":"353e302d-2270-4c6d-90b9-fa286627f848","nameLookup":"Nocturnal Opulence Square Pool","templateLookup":"A pool for relaxation and cleanliness."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Pool_StrongbladeDLC02", "guid": -1963794511, "path": "/db/blueprints/tm-castle-object-decor-pool-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Pool_StrongbladeDLC02.md", "sourceSha256": "7922c9e951406ea70553a772737ac009463f5af6d65eb9a8455aa28be640cd4c", "captureId": "blueprints-07",
+      "nameKey": "177d9629-3982-401c-ab3f-689b3d6af9d0", "nameRaw": "Nocturnal Opulence Round Pool",
+      "descriptionKey": "353e302d-2270-4c6d-90b9-fa286627f848", "descriptionRaw": "A pool for relaxation and cleanliness.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A pool for relaxation and cleanliness.","toString":"A pool for relaxation and cleanliness.","resultKey":"353e302d-2270-4c6d-90b9-fa286627f848","nameLookup":"Nocturnal Opulence Round Pool","templateLookup":"A pool for relaxation and cleanliness."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Brazier_Orange", "guid": -899747642, "path": "/db/blueprints/tm-castle-object-decor-simple-brazier-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Brazier_Orange.md", "sourceSha256": "81f4c93485a413a968ff34fabdb8e4a389fb36558c818d72c62af1656bdd8485", "captureId": "blueprints-07",
+      "nameKey": "26bbf869-c76e-40f7-b4d1-12828dd470a5", "nameRaw": "'Modest' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Modest' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_BustStatue_Female01", "guid": 2003546745, "path": "/db/blueprints/tm-castle-object-decor-simple-bust-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_BustStatue_Female01.md", "sourceSha256": "4e81d39901feb6e78a04c1914637c1e2b4effd2594344ceb27c7f3d50d3d57b7", "captureId": "blueprints-07",
+      "nameKey": "026238ec-318a-4b87-8ced-55e97618c4ed", "nameRaw": "Granite Bust - Female",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Granite Bust - Female","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_BustStatue_Male01", "guid": -83822172, "path": "/db/blueprints/tm-castle-object-decor-simple-bust-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_BustStatue_Male01.md", "sourceSha256": "eb481dab9e98044c6d63091f511174e0f2ba403271e4388768d2bf733a2769fe", "captureId": "blueprints-07",
+      "nameKey": "48f9558e-c07f-41f7-a88e-1343d72a17c5", "nameRaw": "Granite Bust - Male",
+      "descriptionKey": "51ac81f3-ecc0-4fda-a26e-fecd09725826", "descriptionRaw": "A decorative sculpted bust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted bust.","toString":"A decorative sculpted bust.","resultKey":"51ac81f3-ecc0-4fda-a26e-fecd09725826","nameLookup":"Granite Bust - Male","templateLookup":"A decorative sculpted bust."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01", "guid": 2093267606, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-duo-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01.md", "sourceSha256": "fb3bfb2fe0686dea6791a89ee9f92992a77afe052f9f16b350e958cc38c8016c", "captureId": "blueprints-07",
+      "nameKey": "180be719-4217-43bd-a097-22a8c46ba514", "nameRaw": "'Eldest' Dueling Gargoyles",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Dueling Gargoyles","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle01", "guid": -1145446161, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle01.md", "sourceSha256": "e99576376ce30a09f4e0f0e5e9b31ae1419fcdc67e0bf6037fae84500ea43b85", "captureId": "blueprints-07",
+      "nameKey": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6", "nameRaw": "'Eldest' Lurking Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Lurking Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle02", "guid": -1017411502, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle02.md", "sourceSha256": "9f6ad647e4e899d5481f9965bcf5b4c0a1a626329e9bc42d7b16774f5d7c4c1a", "captureId": "blueprints-07",
+      "nameKey": "05b850a4-e3d9-41d5-93f8-1f6d513286f6", "nameRaw": "'Eldest' Crouching Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Crouching Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle03", "guid": 1951605041, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle03.md", "sourceSha256": "140af150836b0859eac498229d91266ac4a2d1921a95b98c932e5f6f5da9dbf6", "captureId": "blueprints-07",
+      "nameKey": "69941111-c888-442e-938a-ccb15322940c", "nameRaw": "'Eldest' Pleading Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pleading Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle04", "guid": 781996044, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle04.md", "sourceSha256": "b52012bec8530d153f85074282c330a67b614d883f193fa742ec59b6611d4a66", "captureId": "blueprints-07",
+      "nameKey": "85091ca8-0ec7-4b62-ac30-9631d6df7321", "nameRaw": "'Eldest' Pondering Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Pondering Gargoyle","templateLookup":"A decorative sculpted statue."}
+    }
+  ]
+}
