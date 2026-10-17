@@ -1,3 +1,4 @@
+import { requireReviewFonts } from "./review-fonts";
 import assert from "node:assert/strict";
 import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -18,6 +19,7 @@ async function ready(page: Page, route: string) {
   await page.goto(baseUrl + route);
   await page.locator("main h1").waitFor();
   await page.evaluate(() => document.fonts.ready);
+  await requireReviewFonts(page);
 }
 async function tabTo(page: Page, selector: string) {
   for (let count = 0; count < 80; count++) {

@@ -1,3 +1,4 @@
+import { requireReviewFonts } from "./review-fonts";
 import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
@@ -35,6 +36,7 @@ async function ready(page: Page, route: string) {
   await page.goto(baseUrl + route);
   await page.locator("main h1").waitFor();
   await page.evaluate(() => document.fonts.ready);
+  await requireReviewFonts(page);
 }
 async function imageLoaded(page: Page, selector: string, expected: string) {
   const image = page.locator(selector);

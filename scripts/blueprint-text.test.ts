@@ -4,6 +4,7 @@ import test from "node:test";
 import { blueprintPlainText, blueprintTextFields, blueprintTextTargets, overlayBlueprintText, readBlueprintText,
   validateBlueprintTextCapture, blueprintTextCoverage, assertBuildablePortraitDisplayName, type BlueprintTextDisplay } from "./blueprint-text";
 const capture = await readBlueprintText(process.cwd());
+const expansion = await import("./blueprint-text-expansion").then(module => module.readExpansion(process.cwd()));
 const original = JSON.parse(await readFile("data/enrichment/blueprint-display-map.json", "utf8")) as Record<string, BlueprintTextDisplay>;
 
 test("ten frozen signed identities reproduce retained Markdown and accepted witness", () => {
@@ -52,7 +53,13 @@ test("overlay is deterministic/idempotent and preserves all artwork and unrelate
     assert.equal(overlaid[prefab].iconAssetName, before.iconAssetName);
     assert.equal(overlaid[prefab].iconAssetPath, before.iconAssetPath);
   }
-  assert.deepEqual(blueprintTextCoverage(overlaid), { total: 1198, matched: 18, coveragePct: 0.015, signal: "high-signal", lowSignalExcluded: 1180 });
+  // Keep the standalone v1 coverage contract at its accepted pre-expansion state.
+  const pilotOnly = { ...overlaid };
+  const earlierIconSignals = new Set(["BP_Castle_Wall_Tier01_Wood_Entrance", "BP_Castle_Wall_Tier02_Stone_Entrance"]);
+  for (const row of expansion.rows) pilotOnly[row.prefab] = { ...pilotOnly[row.prefab], displayNameEn: undefined,
+    displayLocalizationGuid: undefined, summaryEn: "Blueprint record.",
+    sourceKind: earlierIconSignals.has(row.prefab) ? "localized-resource" : "generated-fallback", sourceRef: "content/prefabs" };
+  assert.deepEqual(blueprintTextCoverage(pilotOnly), { total: 1198, matched: 18, coveragePct: 0.015, signal: "high-signal", lowSignalExcluded: 1180 });
 });
 test("missing artwork is supported; missing or conflicting joins are rejected", () => {
   const map: Record<string, BlueprintTextDisplay> = Object.fromEntries(capture.rows.map(row => [row.prefab, { prefab: row.prefab, guid: row.guid }]));

@@ -5,7 +5,7 @@ import { assertAssetDumpLock, syncAssetRefDirectory, syncIconDirectory } from ".
 import { resolveAssetDumpDir } from "./asset-dump-resolver";
 import { attachBuildablePortraitAssetPaths, buildBuildablePortraitSnapshots, selectBuildablePortraitPublicAssets } from "./buildable-portraits";
 import { assertReviewedBuildableSourceHashes, buildablePortraitReviewPath, type BuildablePortraitReviewSnapshot } from "./buildable-portrait-review";
-import { overlayBlueprintText, readBlueprintText } from "./blueprint-text";
+import { overlayApprovedBlueprintText, readApprovedBlueprintText } from "./approved-blueprint-text";
 import { applyRuntimeBlueprintArtwork } from "./blueprint-runtime-artwork";
 import { buildBloodHuntsMapSnapshot, bloodHuntsSourceKind, type BloodHuntsMapSnapshot } from "./blood-hunts";
 import { attachNpcPortraitAssetPaths, buildNpcPortraitSnapshots, selectNpcPortraitPublicAssets } from "./npc-portraits";
@@ -3366,7 +3366,7 @@ async function main() {
     }
 
     if (domain.domainName === "blueprint") {
-      const owned = overlayBlueprintText(Object.fromEntries(map), await readBlueprintText(repoRoot));
+      const owned = overlayApprovedBlueprintText(Object.fromEntries(map), await readApprovedBlueprintText(repoRoot));
       for (const [prefab, entry] of Object.entries(owned)) map.set(prefab, entry);
     }
     importedLegacyDisplayRowsByDomain[domain.domainName] = importedRows;

@@ -1,3 +1,4 @@
+import { requireReviewFonts } from "./review-fonts";
 import assert from "node:assert/strict";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -23,6 +24,7 @@ async function ready(page: Page, route: string, list = false) {
   await page.goto(baseUrl + route);
   await page.locator(list ? "main .database-ledger-row" : "main .database-panel h1").first().waitFor();
   await page.evaluate(() => document.fonts.ready);
+  await requireReviewFonts(page);
 }
 
 async function checkRows(page: Page) {
