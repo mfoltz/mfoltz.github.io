@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_Base",
+      "guid": 1177172454,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-wood-panel01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_WoodPanel01_Base.md",
+      "sourceSha256": "fd578d4a19642ec39a7977d69f81752859db2801400377c3d7a6f6fc69dfe092",
+      "captureId": "blueprints-03",
+      "nameKey": "526ccf3b-12d8-47bc-acca-33eb917db786",
+      "nameRaw": "'Hearth' Wall Panels",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "'Hearth' Wall Panels",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_WoodPanel01_Pillar",
+      "guid": 70614813,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-wood-panel01-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_WoodPanel01_Pillar.md",
+      "sourceSha256": "3c19872ee50e6993eb1766153b0e7b8011867c996d9e9edbd82c1b9772c412e3",
+      "captureId": "blueprints-03",
+      "nameKey": "526ccf3b-12d8-47bc-acca-33eb917db786",
+      "nameRaw": "'Hearth' Wall Panels",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "'Hearth' Wall Panels",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Workshop01_Base",
+      "guid": -2053707412,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-workshop01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Workshop01_Base.md",
+      "sourceSha256": "1dc95e8515602b9fb5d9dd35190f64c48fa2c76caccc05e7f82459941a70e43d",
+      "captureId": "blueprints-03",
+      "nameKey": "4e3b806b-5b68-4bfb-8751-9bed51574572",
+      "nameRaw": "Workshop Walls",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Workshop Walls",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Workshop01_Clean",
+      "guid": -809474821,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-workshop01-clean",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Workshop01_Clean.md",
+      "sourceSha256": "bc9aa120c92acd96c52590109f525ec0f5bb8f49fdf83e97880f68cd13e90a31",
+      "captureId": "blueprints-03",
+      "nameKey": "55897081-5913-4779-b6aa-2be697adff16",
+      "nameRaw": "Panels",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Panels",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Workshop01_Pillar",
+      "guid": -1932179375,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-workshop01-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Workshop01_Pillar.md",
+      "sourceSha256": "aa60969e0b4b5d9481a3ef179ff42b21e65094f4cb6ea5b8cf39de2bf0d7d4d8",
+      "captureId": "blueprints-03",
+      "nameKey": "4e3b806b-5b68-4bfb-8751-9bed51574572",
+      "nameRaw": "Workshop Walls",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "Workshop Walls",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Workshop01_ToolStorage",
+      "guid": -1993386353,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-workshop01-tool-storage",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Workshop01_ToolStorage.md",
+      "sourceSha256": "0b8c9a5bb036d6419da7d537a8a28def4ad7727d29f4abcc1f29a03a9fe8e32f",
+      "captureId": "blueprints-03",
+      "nameKey": "6be0d49f-484d-4596-b9fe-7e933d4f23aa",
+      "nameRaw": "Panels with Inset Tool Storage",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Panels with Inset Tool Storage",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "TM_BloodAltar_T01",
+      "guid": 1819321433,
+      "path": "/db/blueprints/tm-blood-altar-t01",
+      "sourcePath": "content/prefabs/TM_BloodAltar_T01.md",
+      "sourceSha256": "4156d8adfb70c6fbb49742f4a3298f5c48bc799574b6bc62f413e729c74f0b2a",
+      "captureId": "blueprints-01",
+      "nameKey": "ee2b6a64-6c77-4f8a-906b-246d926b9c0a",
+      "nameRaw": "Altar of Recollection",
+      "descriptionKey": "23fb6249-772d-470a-a1ff-3fc2deae3175",
+      "descriptionRaw": "At the Altar of Recollection you may reset your spellbook choices.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "At the Altar of Recollection you may reset your spellbook choices.",
+        "toString": "At the Altar of Recollection you may reset your spellbook choices.",
+        "resultKey": "23fb6249-772d-470a-a1ff-3fc2deae3175",
+        "nameLookup": "Altar of Recollection",
+        "templateLookup": "At the Altar of Recollection you may reset your spellbook choices."
+      }
+    },
+    {
+      "prefab": "TM_BloodFountain_CastleHeart_Rebuilding",
+      "guid": -600018251,
+      "path": "/db/blueprints/tm-blood-fountain-castle-heart-rebuilding",
+      "sourcePath": "content/prefabs/TM_BloodFountain_CastleHeart_Rebuilding.md",
+      "sourceSha256": "0c60c8ffe146dc1bac4e90b8dcf05412abf13545b0b112267ee4734cff7314b1",
+      "captureId": "blueprints-03",
+      "nameKey": "0b95cadf-8bb6-409c-ba2f-14a5e2b380dc",
+      "nameRaw": "Castle Relocation Heart",
+      "descriptionKey": "dd93f41f-b5a6-4a32-9b84-d077940660b1",
+      "descriptionRaw": "Construct this Castle Heart within an unoccupied territory to relocate all structures and items from an existing castle to a new location.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Construct this Castle Heart within an unoccupied territory to relocate all structures and items from an existing castle to a new location.",
+        "toString": "Construct this Castle Heart within an unoccupied territory to relocate all structures and items from an existing castle to a new location.",
+        "resultKey": "dd93f41f-b5a6-4a32-9b84-d077940660b1",
+        "nameLookup": "Castle Relocation Heart",
+        "templateLookup": "Construct this Castle Heart within an unoccupied territory to relocate all structures and items from an existing castle to a new location."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Gate01",
+      "guid": -826211390,
+      "path": "/db/blueprints/tm-castle-outer-walls-gate01",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Gate01.md",
+      "sourceSha256": "0335e42d95682331f9f67e53ba8ae1b673e3417da8b12dc36ff4d4ff06b4231e",
+      "captureId": "blueprints-01",
+      "nameKey": "7892a353-4cc6-4284-ae6b-2245a6b8d30f",
+      "nameRaw": "Fortified Archway",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Archway",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Ruins01",
+      "guid": -1236321910,
+      "path": "/db/blueprints/tm-castle-outer-walls-ruins01",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Ruins01.md",
+      "sourceSha256": "aec78716e02e6acea4b6393a32fb6db3c348a6fe92cb8cc42de1e5bf33cb3bc7",
+      "captureId": "blueprints-01",
+      "nameKey": "f5b3c4bd-fb19-4acf-9542-da3e5932b880",
+      "nameRaw": "Fortified Wall",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Wall",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Ruins02",
+      "guid": -1788250707,
+      "path": "/db/blueprints/tm-castle-outer-walls-ruins02",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Ruins02.md",
+      "sourceSha256": "00b1b3b96fb999bafdc6952a2fa24ee6f8fa2a506e81f4b99db96ac004e8750e",
+      "captureId": "blueprints-01",
+      "nameKey": "f5b3c4bd-fb19-4acf-9542-da3e5932b880",
+      "nameRaw": "Fortified Wall",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Wall",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Ruins03",
+      "guid": 979674153,
+      "path": "/db/blueprints/tm-castle-outer-walls-ruins03",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Ruins03.md",
+      "sourceSha256": "a96b034684312c93688c43b85588d241b17a36d46f4517633039732c3545ec0e",
+      "captureId": "blueprints-01",
+      "nameKey": "f5b3c4bd-fb19-4acf-9542-da3e5932b880",
+      "nameRaw": "Fortified Wall",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Wall",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Ruins_Gate01",
+      "guid": 1455390331,
+      "path": "/db/blueprints/tm-castle-outer-walls-ruins-gate01",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Ruins_Gate01.md",
+      "sourceSha256": "4b3df683dc479565f3c556dba5d1e913ee858ad768a766ff4710618726ea7ae9",
+      "captureId": "blueprints-01",
+      "nameKey": "f5b3c4bd-fb19-4acf-9542-da3e5932b880",
+      "nameRaw": "Fortified Wall",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Wall",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_CastleOuterWalls_Wall01",
+      "guid": 776261229,
+      "path": "/db/blueprints/tm-castle-outer-walls-wall01",
+      "sourcePath": "content/prefabs/TM_CastleOuterWalls_Wall01.md",
+      "sourceSha256": "4edd8a93d0eb6c23321b53597096bfb5ce6e79a085b02355867e1d97120c5f93",
+      "captureId": "blueprints-01",
+      "nameKey": "f5b3c4bd-fb19-4acf-9542-da3e5932b880",
+      "nameRaw": "Fortified Wall",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+      "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "toString": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+        "resultKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599",
+        "nameLookup": "Fortified Wall",
+        "templateLookup": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."
+      }
+    },
+    {
+      "prefab": "TM_Castle_Fence_Iron01",
+      "guid": 44535007,
+      "path": "/db/blueprints/tm-castle-fence-iron01",
+      "sourcePath": "content/prefabs/TM_Castle_Fence_Iron01.md",
+      "sourceSha256": "bb7367a780ade20f1e11e0ab9b02928c1d1f87e508ed1cd2c33797b3f7788f61",
+      "captureId": "blueprints-01",
+      "nameKey": "d8a76eda-6db0-4cd2-bc67-d5b69f2afff1",
+      "nameRaw": "'Nocturne' Garden Fence",
+      "descriptionKey": "d4737d85-dd46-4860-b6a7-5b52f194bc81",
+      "descriptionRaw": "Fencing useful for elegantly structuring your gardens.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Fencing useful for elegantly structuring your gardens.",
+        "toString": "Fencing useful for elegantly structuring your gardens.",
+        "resultKey": "d4737d85-dd46-4860-b6a7-5b52f194bc81",
+        "nameLookup": "'Nocturne' Garden Fence",
+        "templateLookup": "Fencing useful for elegantly structuring your gardens."
+      }
+    },
+    {
+      "prefab": "TM_Castle_Fence_Iron02",
+      "guid": -682177661,
+      "path": "/db/blueprints/tm-castle-fence-iron02",
+      "sourcePath": "content/prefabs/TM_Castle_Fence_Iron02.md",
+      "sourceSha256": "6c1c0a9aaf0a500b92597e65367d5747a0d4c6248f048a67546342b15d8746ea",
+      "captureId": "blueprints-03",
+      "nameKey": "041b4032-80a6-4489-bfe7-07b06b1e6500",
+      "nameRaw": "'Noble' Garden Fence",
+      "descriptionKey": "d4737d85-dd46-4860-b6a7-5b52f194bc81",
+      "descriptionRaw": "Fencing useful for elegantly structuring your gardens.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Fencing useful for elegantly structuring your gardens.",
+        "toString": "Fencing useful for elegantly structuring your gardens.",
+        "resultKey": "d4737d85-dd46-4860-b6a7-5b52f194bc81",
+        "nameLookup": "'Noble' Garden Fence",
+        "templateLookup": "Fencing useful for elegantly structuring your gardens."
+      }
+    }
+  ]
+}
