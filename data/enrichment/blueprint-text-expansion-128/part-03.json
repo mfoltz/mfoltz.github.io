@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "prefab": "BP_Castle_Wall_Tier01_Wood_Plain",
+      "guid": -1571980899,
+      "path": "/db/blueprints/bp-castle-wall-tier01-wood-plain",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier01_Wood_Plain.md",
+      "sourceSha256": "813d92a20dd3d3b2cce2255b5ab5a569beab20a888858c1073658bca7f4add8e",
+      "captureId": "blueprints-02",
+      "nameKey": "2cc9511b-ad4a-4b7d-a354-6b7947a4f702",
+      "nameRaw": "Palisade",
+      "descriptionKey": "1d6e5c51-7da7-4636-97a2-cc605a856156",
+      "descriptionRaw": "Build wooden walls to keep enemies out.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Build wooden walls to keep enemies out.",
+        "toString": "Build wooden walls to keep enemies out.",
+        "resultKey": "1d6e5c51-7da7-4636-97a2-cc605a856156",
+        "nameLookup": "Palisade",
+        "templateLookup": "Build wooden walls to keep enemies out."
+      }
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_Entrance",
+      "guid": -281098336,
+      "path": "/db/blueprints/bp-castle-wall-tier02-stone-entrance",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier02_Stone_Entrance.md",
+      "sourceSha256": "ea140856a21972f8f4fbfcd65a661833e26d7278c041b5b05b8808787edb1f07",
+      "captureId": "blueprints-02",
+      "nameKey": "bbd49f77-71ef-4e50-be13-ac1c9c302d19",
+      "nameRaw": "Castle Entrance",
+      "descriptionKey": "3eb2d648-a4fe-4311-8459-8f703493a393",
+      "descriptionRaw": "A wall with an archway entrance. Castle doors can be placed in the entrance.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A wall with an archway entrance. Castle doors can be placed in the entrance.",
+        "toString": "A wall with an archway entrance. Castle doors can be placed in the entrance.",
+        "resultKey": "3eb2d648-a4fe-4311-8459-8f703493a393",
+        "nameLookup": "Castle Entrance",
+        "templateLookup": "A wall with an archway entrance. Castle doors can be placed in the entrance."
+      }
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_EntranceWide",
+      "guid": 1361610591,
+      "path": "/db/blueprints/bp-castle-wall-tier02-stone-entrance-wide",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier02_Stone_EntranceWide.md",
+      "sourceSha256": "6ef297f26cfe027af23e44cfd38ad92eead485b8e0d55dfba96c28c190d7ca20",
+      "captureId": "blueprints-01",
+      "nameKey": "4d759947-97b2-46eb-9d4f-588603b18b56",
+      "nameRaw": "Wide Castle Entrance",
+      "descriptionKey": "6f658e4a-8e10-4cd6-987a-bba070fa3ee8",
+      "descriptionRaw": "A wall with an archway entrance. Castle gates can be placed in the entrance.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A wall with an archway entrance. Castle gates can be placed in the entrance.",
+        "toString": "A wall with an archway entrance. Castle gates can be placed in the entrance.",
+        "resultKey": "6f658e4a-8e10-4cd6-987a-bba070fa3ee8",
+        "nameLookup": "Wide Castle Entrance",
+        "templateLookup": "A wall with an archway entrance. Castle gates can be placed in the entrance."
+      }
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_Plain",
+      "guid": 1388232656,
+      "path": "/db/blueprints/bp-castle-wall-tier02-stone-plain",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier02_Stone_Plain.md",
+      "sourceSha256": "9a44560665c0571f284c10ce459829760593cafeaa1cfe26d7e842c7ad294bdf",
+      "captureId": "blueprints-02",
+      "nameKey": "0187a1c2-3c06-4676-82bb-50643e0609fe",
+      "nameRaw": "Castle Wall",
+      "descriptionKey": "86d86955-7df8-4226-a863-8a00fbed8ab0",
+      "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+        "toString": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+        "resultKey": "86d86955-7df8-4226-a863-8a00fbed8ab0",
+        "nameLookup": "Castle Wall",
+        "templateLookup": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."
+      }
+    },
+    {
+      "prefab": "BP_Castle_Wall_Tier02_Stone_Window",
+      "guid": 244714081,
+      "path": "/db/blueprints/bp-castle-wall-tier02-stone-window",
+      "sourcePath": "content/prefabs/BP_Castle_Wall_Tier02_Stone_Window.md",
+      "sourceSha256": "cb8c9aab6ba3064de2b23ebfae6d426856b185c9a8b18be8f4c7f35d843e7ba0",
+      "captureId": "blueprints-02",
+      "nameKey": "6cd074eb-b946-4c7d-990c-4c49fd44ebc1",
+      "nameRaw": "Castle Window Wall",
+      "descriptionKey": "86d86955-7df8-4226-a863-8a00fbed8ab0",
+      "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+        "toString": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+        "resultKey": "86d86955-7df8-4226-a863-8a00fbed8ab0",
+        "nameLookup": "Castle Window Wall",
+        "templateLookup": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Arena01_Base",
+      "guid": -383968909,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-arena01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Arena01_Base.md",
+      "sourceSha256": "ca2206cb1659ea98ad3fe0ea95f9290f86cbdbb015fa338d032f0d4ca94213da",
+      "captureId": "blueprints-01",
+      "nameKey": "6e330697-6828-4555-a240-08510ac50926",
+      "nameRaw": "Arena Wall",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Arena Wall",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Arena01_Pillar",
+      "guid": 133356148,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-arena01-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Arena01_Pillar.md",
+      "sourceSha256": "6c71d7f06355e0cfd95dfb35318fef7f2b7c21e93f8fa1aeb85315ebd70fc8df",
+      "captureId": "blueprints-02",
+      "nameKey": "6e330697-6828-4555-a240-08510ac50926",
+      "nameRaw": "Arena Wall",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "Arena Wall",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall01",
+      "guid": 717524512,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-arena01-wall01",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Arena01_Wall01.md",
+      "sourceSha256": "0c0d5e9b08d945066fc851a38169c18c6c8d1985b7c656a5fbbe1be68db42c7c",
+      "captureId": "blueprints-02",
+      "nameKey": "6e330697-6828-4555-a240-08510ac50926",
+      "nameRaw": "Arena Wall",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Arena Wall",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall02",
+      "guid": 777443944,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-arena01-wall02",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Arena01_Wall02.md",
+      "sourceSha256": "de5e5046682b7ef6a3ef7aa0f411839a08aa0091107273ae3fca02aa45a65da7",
+      "captureId": "blueprints-02",
+      "nameKey": "6e330697-6828-4555-a240-08510ac50926",
+      "nameRaw": "Arena Wall",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Arena Wall",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Arena01_Wall03",
+      "guid": -1288113966,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-arena01-wall03",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Arena01_Wall03.md",
+      "sourceSha256": "2bccdcc2231c47ddaa487d55c6efad716da1ea17f2f0661cdea0909294f6e1d4",
+      "captureId": "blueprints-02",
+      "nameKey": "6e330697-6828-4555-a240-08510ac50926",
+      "nameRaw": "Arena Wall",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Arena Wall",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone01",
+      "guid": -332335770,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone01",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone01.md",
+      "sourceSha256": "e32b2f2c1aafece50063852692b047e3e42d80b48e9c4f7aa4f0082d2f3af742",
+      "captureId": "blueprints-02",
+      "nameKey": "c5b79075-f54e-4f47-a861-ab5c60eabc0d",
+      "nameRaw": "'Plain' Stone",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "'Plain' Stone",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone01_Base",
+      "guid": 41087088,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone01_Base.md",
+      "sourceSha256": "e2d610098aac447f72c9722aa1dbe001a8317c50909c7cea330868926b509fed",
+      "captureId": "blueprints-02",
+      "nameKey": "255722ad-8e0e-4000-be76-85dba4c89158",
+      "nameRaw": "Default Stone",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Default Stone",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone01_Pillar",
+      "guid": 1941863906,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone01-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone01_Pillar.md",
+      "sourceSha256": "a6dfe10d9599710b00af18c7b56b3cae95a70873d7b11ed140fd08547b95543a",
+      "captureId": "blueprints-02",
+      "nameKey": "c5b79075-f54e-4f47-a861-ab5c60eabc0d",
+      "nameRaw": "'Plain' Stone",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "'Plain' Stone",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone02",
+      "guid": -1154737300,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone02",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone02.md",
+      "sourceSha256": "db2c7252f82046fc9a0c9c95801c5caf3bb69eb3fab2ce3c0bff1d7edaa1f99d",
+      "captureId": "blueprints-02",
+      "nameKey": "53d36c7d-0651-47d2-a444-6898d42283ea",
+      "nameRaw": "'Elegance' Stone",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "'Elegance' Stone",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone02_Pillar",
+      "guid": 1993653084,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone02-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone02_Pillar.md",
+      "sourceSha256": "724fdca468e1eab8d4a5db404a06d154100e53c1932645bab12223e8e723354d",
+      "captureId": "blueprints-02",
+      "nameKey": "53d36c7d-0651-47d2-a444-6898d42283ea",
+      "nameRaw": "'Elegance' Stone",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "'Elegance' Stone",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_CastleStone03",
+      "guid": -1387492893,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-castle-stone03",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_CastleStone03.md",
+      "sourceSha256": "10a29ef4173f98ff49a2be234b021de7dd293966bfa4df44c4c011c58e2429d8",
+      "captureId": "blueprints-02",
+      "nameKey": "9fd4dd4a-cfe0-4f50-86b2-d6af46f8f507",
+      "nameRaw": "'Ebonite' Stone",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "'Ebonite' Stone",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    }
+  ]
+}
