@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_Garden_Child_Pergola_Metal_Ivy", "guid": -2117255138, "path": "/db/blueprints/tm-castle-garden-child-pergola-metal-ivy",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Pergola_Metal_Ivy.md", "sourceSha256": "c1e89e86893b8a81b685c5b6b2efa2ea7c4299aa6cb30ee7e33027719efaf811", "captureId": "blueprints-05",
+      "nameKey": "8c828eff-0ba5-4201-9d7f-33cada094803", "nameRaw": "Ivy",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Ivy","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Pergola_Wood_BloodRose", "guid": -348270745, "path": "/db/blueprints/tm-castle-garden-child-pergola-wood-blood-rose",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Pergola_Wood_BloodRose.md", "sourceSha256": "12bc1911df2db9f9a3436e86fa756e80e1e32d238137634bfca663e92e773ab7", "captureId": "blueprints-05",
+      "nameKey": "302e097b-c1ad-449f-bf81-7f89d138400b", "nameRaw": "Blood Rose",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Blood Rose","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Cursed", "guid": 126642331, "path": "/db/blueprints/tm-castle-garden-child-pergola-wood-cursed",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Pergola_Wood_Cursed.md", "sourceSha256": "4d94fc35a97c4912600bb7a75f7c067486b33da034cece324f0185de94b40ece", "captureId": "blueprints-05",
+      "nameKey": "9f9e6eba-8c43-466a-baaf-a45cc6624f7f", "nameRaw": "Morass",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Morass","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Ivy", "guid": -27002310, "path": "/db/blueprints/tm-castle-garden-child-pergola-wood-ivy",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Pergola_Wood_Ivy.md", "sourceSha256": "462f3c0fbb90405e6cd6392a7f2ae6552b7ca4225c5d7fa0cca5afac7681dba9", "captureId": "blueprints-05",
+      "nameKey": "8c828eff-0ba5-4201-9d7f-33cada094803", "nameRaw": "Ivy",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Ivy","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Wisteria", "guid": -1863662319, "path": "/db/blueprints/tm-castle-garden-child-pergola-wood-wisteria",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Pergola_Wood_Wisteria.md", "sourceSha256": "4eb171dd9b4e6c808bfeb70e6f0b39ed790ab7b6c7005c9784e843c90dddd0d9", "captureId": "blueprints-05",
+      "nameKey": "a97300d8-6567-44fa-a527-c36f060ded37", "nameRaw": "Wisteria",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Wisteria","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Large_BloodRose", "guid": 1831968277, "path": "/db/blueprints/tm-castle-garden-child-planter-large-blood-rose",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Large_BloodRose.md", "sourceSha256": "419cd2abe1a8e59827375c2d146732499afea365f68020077b4cc136d0f18106", "captureId": "blueprints-05",
+      "nameKey": "302e097b-c1ad-449f-bf81-7f89d138400b", "nameRaw": "Blood Rose",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Blood Rose","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Large_Cursed", "guid": 1372502590, "path": "/db/blueprints/tm-castle-garden-child-planter-large-cursed",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Large_Cursed.md", "sourceSha256": "acdd0726023a59f7d8d1f0d5b752452965c33d8ad06ff4e17f750d27ff5ef965", "captureId": "blueprints-05",
+      "nameKey": "a5061466-9472-49de-8932-8799fa3e76cc", "nameRaw": "Morass",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Morass","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Large_Ivy", "guid": 628431890, "path": "/db/blueprints/tm-castle-garden-child-planter-large-ivy",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Large_Ivy.md", "sourceSha256": "63d1fa19b22189b66d3449bbf9bbe7f2446104721227467f6ca1f8bc57941fe9", "captureId": "blueprints-05",
+      "nameKey": "8fe02c4f-20e6-4907-aaa3-2560bb713b2d", "nameRaw": "Ivy",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Ivy","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Large_Wisteria", "guid": 1992180217, "path": "/db/blueprints/tm-castle-garden-child-planter-large-wisteria",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Large_Wisteria.md", "sourceSha256": "cb0e8e9ca60265d821a6dc79ccc2d223052e628f53b93137d84f7462453fc4fa", "captureId": "blueprints-05",
+      "nameKey": "a97300d8-6567-44fa-a527-c36f060ded37", "nameRaw": "Wisteria",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Wisteria","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Small_BloodRose", "guid": 1936225910, "path": "/db/blueprints/tm-castle-garden-child-planter-small-blood-rose",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Small_BloodRose.md", "sourceSha256": "bff549df6799d3078ee1de85236ce302aa55492831bee05a4f5c6fed129ce3ee", "captureId": "blueprints-05",
+      "nameKey": "302e097b-c1ad-449f-bf81-7f89d138400b", "nameRaw": "Blood Rose",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Blood Rose","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Small_Cursed", "guid": -1013891900, "path": "/db/blueprints/tm-castle-garden-child-planter-small-cursed",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Small_Cursed.md", "sourceSha256": "68fd4e6e3dba005cf8aeb783bfded582e45b32b445498199c5503240c390325a", "captureId": "blueprints-05",
+      "nameKey": "a5061466-9472-49de-8932-8799fa3e76cc", "nameRaw": "Morass",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Morass","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Small_Ivy", "guid": 878769501, "path": "/db/blueprints/tm-castle-garden-child-planter-small-ivy",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Small_Ivy.md", "sourceSha256": "f7739fd97f8cc06a417e8e6ba994f67c0c07c1c3c04ac723b7b53821d3521e54", "captureId": "blueprints-05",
+      "nameKey": "8fe02c4f-20e6-4907-aaa3-2560bb713b2d", "nameRaw": "Ivy",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Ivy","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Child_Planter_Small_Wisteria", "guid": 25064448, "path": "/db/blueprints/tm-castle-garden-child-planter-small-wisteria",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Child_Planter_Small_Wisteria.md", "sourceSha256": "004e086416d615193bfb900a9029a3b257c097e832c60b31bc4dea3e513e8fab", "captureId": "blueprints-05",
+      "nameKey": "a97300d8-6567-44fa-a527-c36f060ded37", "nameRaw": "Wisteria",
+      "descriptionKey": "6aed4779-f23b-4464-aea8-68837d1e4c6d", "descriptionRaw": "A climbing plant for your ornamental structure.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A climbing plant for your ornamental structure.","toString":"A climbing plant for your ornamental structure.","resultKey":"6aed4779-f23b-4464-aea8-68837d1e4c6d","nameLookup":"Wisteria","templateLookup":"A climbing plant for your ornamental structure."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Arch_Large_Metal", "guid": 658148892, "path": "/db/blueprints/tm-castle-garden-parent-arch-large-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Arch_Large_Metal.md", "sourceSha256": "7df6efb23570a24ce8b224baa15a6d11fc0e2c8cad9d8df0e26fb969a6ec98db", "captureId": "blueprints-05",
+      "nameKey": "cf27856b-c5df-4b2d-a70c-762930e3f350", "nameRaw": "'Noble' Deep Trellis Archway",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Deep Trellis Archway","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Arch_Large_Wood", "guid": -114044430, "path": "/db/blueprints/tm-castle-garden-parent-arch-large-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Arch_Large_Wood.md", "sourceSha256": "8ecae986b6a27daf8f0db070445518a5cec14f98386439813f51b5530fabab07", "captureId": "blueprints-05",
+      "nameKey": "0a107096-440f-4faf-bce5-e7687ed1f9ee", "nameRaw": "'Rural' Deep Trellis Archway",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Deep Trellis Archway","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Arch_Small_Metal", "guid": 258921107, "path": "/db/blueprints/tm-castle-garden-parent-arch-small-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Arch_Small_Metal.md", "sourceSha256": "928a62872a91397706ede2ed5d85e0841bc6e6423be4253c63dbfc250627bf14", "captureId": "blueprints-05",
+      "nameKey": "342021ea-a0dd-4eed-bfd0-df5fe5902b41", "nameRaw": "'Noble' Trellis Archway",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Trellis Archway","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Arch_Small_Wood", "guid": 1892222213, "path": "/db/blueprints/tm-castle-garden-parent-arch-small-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Arch_Small_Wood.md", "sourceSha256": "16e6a6ba2b84785474494a527fae24492670a2b6588cda3407f8abc5b880faf6", "captureId": "blueprints-05",
+      "nameKey": "d6f4828d-4d7b-483e-a0cf-ee7a3770cc9d", "nameRaw": "'Rural' Trellis Archway",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Trellis Archway","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Obelisk_Metal", "guid": 709885056, "path": "/db/blueprints/tm-castle-garden-parent-obelisk-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Obelisk_Metal.md", "sourceSha256": "401a142754a2e5dd97448774265dc8b64555123bebf0e4c5b98f0cdba16f1986", "captureId": "blueprints-05",
+      "nameKey": "9ed2fd58-6aa5-4d13-8fde-e89a8bad5cf2", "nameRaw": "'Noble' Tower Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Tower Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Obelisk_Wood", "guid": -562981818, "path": "/db/blueprints/tm-castle-garden-parent-obelisk-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Obelisk_Wood.md", "sourceSha256": "9ca0808623fe498dde02beaeb0c61538730870d9173ef9607420e7dd88d8ba20", "captureId": "blueprints-05",
+      "nameKey": "a32a3be9-8237-44eb-ab27-4a514b315e6d", "nameRaw": "'Rural' Tower Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Tower Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Pergola_Metal", "guid": -1222590743, "path": "/db/blueprints/tm-castle-garden-parent-pergola-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Pergola_Metal.md", "sourceSha256": "581ac27fe2f5e645064bf304037150a28cacc8b05174993dfffd75af08149c4c", "captureId": "blueprints-05",
+      "nameKey": "f12d55d8-f995-4e74-bb89-ac6def1870d9", "nameRaw": "'Noble' Trellis Pergola",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Trellis Pergola","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Pergola_Wood", "guid": 1835696328, "path": "/db/blueprints/tm-castle-garden-parent-pergola-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Pergola_Wood.md", "sourceSha256": "947fd715297ac94bb9539b19bdd4b9c78d9a8184e7f3bb7e4e8c4e14dc928a56", "captureId": "blueprints-05",
+      "nameKey": "a5887616-0090-452d-9fba-0f5b7431e4dc", "nameRaw": "'Rural' Trellis Pergola",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Trellis Pergola","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Planter_Large_Metal", "guid": 1768521351, "path": "/db/blueprints/tm-castle-garden-parent-planter-large-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Planter_Large_Metal.md", "sourceSha256": "92e9eaa4dda66bdf74b1891b159ab9f336974591e6e33c64ef54655d493dfba9", "captureId": "blueprints-05",
+      "nameKey": "2e88f2f7-4526-4fc6-acc2-5a1cdcaafc25", "nameRaw": "'Noble' Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Planter_Large_Wood", "guid": -1132434077, "path": "/db/blueprints/tm-castle-garden-parent-planter-large-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Planter_Large_Wood.md", "sourceSha256": "a432f7b85a210c596c103cba07d4533225fceb17b24bcb6063db0e7c3d0ad79b", "captureId": "blueprints-05",
+      "nameKey": "2d441c05-f499-4210-be39-606fa66749f9", "nameRaw": "'Rural' Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Planter_Small_Metal", "guid": 1056819434, "path": "/db/blueprints/tm-castle-garden-parent-planter-small-metal",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Planter_Small_Metal.md", "sourceSha256": "37089f44487a2ef4be83e3866a591128cfc96360235d5aba86103118be120a3b", "captureId": "blueprints-05",
+      "nameKey": "2e88f2f7-4526-4fc6-acc2-5a1cdcaafc25", "nameRaw": "'Noble' Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Garden_Parent_Planter_Small_Wood", "guid": 167706466, "path": "/db/blueprints/tm-castle-garden-parent-planter-small-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Garden_Parent_Planter_Small_Wood.md", "sourceSha256": "4fe1c1236021916f02ad1cf70a07bd2cc9a69c70f6cbbe79e44efbec6225a5c4", "captureId": "blueprints-05",
+      "nameKey": "2d441c05-f499-4210-be39-606fa66749f9", "nameRaw": "'Rural' Trellis",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Rural' Trellis","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Gate_Wall_Door_02", "guid": -1388275148, "path": "/db/blueprints/tm-castle-gate-wall-door-02",
+      "sourcePath": "content/prefabs/TM_Castle_Gate_Wall_Door_02.md", "sourceSha256": "ca8df1993cffdf2844699b6419196b2829ac388859941daffad14ebcb6cdf72a", "captureId": "blueprints-05",
+      "nameKey": "cafd7f3b-8ffd-4a98-8fa5-962c5a1619de", "nameRaw": "Wooden Gate",
+      "descriptionKey": "a57b5917-3fad-48d2-8c78-6bd70d45efcb", "descriptionRaw": "Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.","toString":"Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.","resultKey":"a57b5917-3fad-48d2-8c78-6bd70d45efcb","nameLookup":"Wooden Gate","templateLookup":"Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_GeneratedRailing_Default01", "guid": 1196518637, "path": "/db/blueprints/tm-castle-generated-railing-default01",
+      "sourcePath": "content/prefabs/TM_Castle_GeneratedRailing_Default01.md", "sourceSha256": "a4f0ce56aa2b78c0eab139acbba278361f09247e4673eeba9da36f0f0e0dc6c6", "captureId": "blueprints-01",
+      "nameKey": "ef8e8328-0b42-43cb-9ebf-df19d71b3bf4", "nameRaw": "Railings",
+      "descriptionKey": "21575e71-a3aa-481e-8d26-f8cb409b0d6a", "descriptionRaw": "Standard Castle Railings",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Standard Castle Railings","toString":"Standard Castle Railings","resultKey":"21575e71-a3aa-481e-8d26-f8cb409b0d6a","nameLookup":"Railings","templateLookup":"Standard Castle Railings"}
+    },
+    {
+      "prefab": "TM_Castle_GeneratedRailing_Default01_Pillar", "guid": 2118711934, "path": "/db/blueprints/tm-castle-generated-railing-default01-pillar",
+      "sourcePath": "content/prefabs/TM_Castle_GeneratedRailing_Default01_Pillar.md", "sourceSha256": "4e3f68ddcbc8f60d06413858444077b34172ac2b942b28f3f6582a6b67fe5321", "captureId": "blueprints-05",
+      "nameKey": "ef8e8328-0b42-43cb-9ebf-df19d71b3bf4", "nameRaw": "Railings",
+      "descriptionKey": "21575e71-a3aa-481e-8d26-f8cb409b0d6a", "descriptionRaw": "Standard Castle Railings",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Standard Castle Railings","toString":"Standard Castle Railings","resultKey":"21575e71-a3aa-481e-8d26-f8cb409b0d6a","nameLookup":"Railings","templateLookup":"Standard Castle Railings"}
+    },
+    {
+      "prefab": "TM_Castle_InteriorRailing_Default01", "guid": 160153045, "path": "/db/blueprints/tm-castle-interior-railing-default01",
+      "sourcePath": "content/prefabs/TM_Castle_InteriorRailing_Default01.md", "sourceSha256": "6ca2ecec7387891201cd39204bcd2dcd347348cfc03c50080df18462d4e1c7c5", "captureId": "blueprints-01",
+      "nameKey": "21575e71-a3aa-481e-8d26-f8cb409b0d6a", "nameRaw": "Standard Castle Railings",
+      "descriptionKey": "b4b967e6-0e6e-4f0a-926b-e50bdddcfd7e", "descriptionRaw": "Railing useful for structuring your castle rooms and exteriors.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Railing useful for structuring your castle rooms and exteriors.","toString":"Railing useful for structuring your castle rooms and exteriors.","resultKey":"b4b967e6-0e6e-4f0a-926b-e50bdddcfd7e","nameLookup":"Standard Castle Railings","templateLookup":"Railing useful for structuring your castle rooms and exteriors."}
+    },
+    {
+      "prefab": "TM_Castle_InteriorRailing_Default01_Pillar", "guid": -1691093039, "path": "/db/blueprints/tm-castle-interior-railing-default01-pillar",
+      "sourcePath": "content/prefabs/TM_Castle_InteriorRailing_Default01_Pillar.md", "sourceSha256": "050716d18a787eb249d66819ffca597764ebccbaa2820800dd88a8c49ae97834", "captureId": "blueprints-05",
+      "nameKey": "9cc911e5-f74a-4d23-b67d-7a1c1acb8152", "nameRaw": "Standard Castle Railings - Pillar",
+      "descriptionKey": "b4b967e6-0e6e-4f0a-926b-e50bdddcfd7e", "descriptionRaw": "Railing useful for structuring your castle rooms and exteriors.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Railing useful for structuring your castle rooms and exteriors.","toString":"Railing useful for structuring your castle rooms and exteriors.","resultKey":"b4b967e6-0e6e-4f0a-926b-e50bdddcfd7e","nameLookup":"Standard Castle Railings - Pillar","templateLookup":"Railing useful for structuring your castle rooms and exteriors."}
+    },
+    {
+      "prefab": "TM_Castle_LocalTeleporter_Blue", "guid": 760696617, "path": "/db/blueprints/tm-castle-local-teleporter-blue",
+      "sourcePath": "content/prefabs/TM_Castle_LocalTeleporter_Blue.md", "sourceSha256": "997954b4c84961d1ebe4af0194ce81c61f481e0d0f0cc67fb217768349b2fd83", "captureId": "blueprints-01",
+      "nameKey": "80d65aad-acd0-447e-90cc-1239d4deb72a", "nameRaw": "Blue Castle Teleporter",
+      "descriptionKey": "79487758-3593-4f43-9ac6-a04a5f90fbf6", "descriptionRaw": "Pair with another teleporter to quickly warp between them.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pair with another teleporter to quickly warp between them.","toString":"Pair with another teleporter to quickly warp between them.","resultKey":"79487758-3593-4f43-9ac6-a04a5f90fbf6","nameLookup":"Blue Castle Teleporter","templateLookup":"Pair with another teleporter to quickly warp between them."}
+    },
+    {
+      "prefab": "TM_Castle_LocalTeleporter_Purple", "guid": 2027471241, "path": "/db/blueprints/tm-castle-local-teleporter-purple",
+      "sourcePath": "content/prefabs/TM_Castle_LocalTeleporter_Purple.md", "sourceSha256": "0affcb33413c99ba558c4f6bc85e1903bd8d7eac6d4156e41b0a635495748b89", "captureId": "blueprints-05",
+      "nameKey": "deec5d56-8841-4989-a754-7c70b8645166", "nameRaw": "Purple Castle Teleporter",
+      "descriptionKey": "79487758-3593-4f43-9ac6-a04a5f90fbf6", "descriptionRaw": "Pair with another teleporter to quickly warp between them.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pair with another teleporter to quickly warp between them.","toString":"Pair with another teleporter to quickly warp between them.","resultKey":"79487758-3593-4f43-9ac6-a04a5f90fbf6","nameLookup":"Purple Castle Teleporter","templateLookup":"Pair with another teleporter to quickly warp between them."}
+    },
+    {
+      "prefab": "TM_Castle_LocalTeleporter_Red", "guid": 1326023321, "path": "/db/blueprints/tm-castle-local-teleporter-red",
+      "sourcePath": "content/prefabs/TM_Castle_LocalTeleporter_Red.md", "sourceSha256": "9d8f521dec7ac8cc7e154416e372e7ee5d2b4ef50941a23bba683f3a8f7d3336", "captureId": "blueprints-05",
+      "nameKey": "0518b2be-a1e7-49eb-b47f-c9647f92bebe", "nameRaw": "Red Castle Teleporter",
+      "descriptionKey": "79487758-3593-4f43-9ac6-a04a5f90fbf6", "descriptionRaw": "Pair with another teleporter to quickly warp between them.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pair with another teleporter to quickly warp between them.","toString":"Pair with another teleporter to quickly warp between them.","resultKey":"79487758-3593-4f43-9ac6-a04a5f90fbf6","nameLookup":"Red Castle Teleporter","templateLookup":"Pair with another teleporter to quickly warp between them."}
+    },
+    {
+      "prefab": "TM_Castle_LocalTeleporter_Yellow", "guid": 1579702125, "path": "/db/blueprints/tm-castle-local-teleporter-yellow",
+      "sourcePath": "content/prefabs/TM_Castle_LocalTeleporter_Yellow.md", "sourceSha256": "29d9c267c38fe6a4e9b4bd3d057f33081ae5bf38a57df9296a954cd07c6aedd9", "captureId": "blueprints-05",
+      "nameKey": "6fe7a7e1-ac92-4442-a152-dabeaf4e15d5", "nameRaw": "Yellow Castle Teleporter",
+      "descriptionKey": "79487758-3593-4f43-9ac6-a04a5f90fbf6", "descriptionRaw": "Pair with another teleporter to quickly warp between them.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pair with another teleporter to quickly warp between them.","toString":"Pair with another teleporter to quickly warp between them.","resultKey":"79487758-3593-4f43-9ac6-a04a5f90fbf6","nameLookup":"Yellow Castle Teleporter","templateLookup":"Pair with another teleporter to quickly warp between them."}
+    },
+    {
+      "prefab": "TM_Castle_MistBrazier", "guid": 1756900697, "path": "/db/blueprints/tm-castle-mist-brazier",
+      "sourcePath": "content/prefabs/TM_Castle_MistBrazier.md", "sourceSha256": "7356726bd944e4794325e45ce2f7f3018ac77980eb9e824bd5bb445b52721dca", "captureId": "blueprints-01",
+      "nameKey": "86bc0d1b-f1f2-4c06-927a-4085904be54b", "nameRaw": "Mist Brazier",
+      "descriptionKey": "38b6417f-6ce5-43a5-918f-b6890b1262d5", "descriptionRaw": "Consumes bones to generate a dense mist that blocks out the sun in a small area.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Consumes bones to generate a dense mist that blocks out the sun in a small area.","toString":"Consumes bones to generate a dense mist that blocks out the sun in a small area.","resultKey":"38b6417f-6ce5-43a5-918f-b6890b1262d5","nameLookup":"Mist Brazier","templateLookup":"Consumes bones to generate a dense mist that blocks out the sun in a small area."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_Garden_Shape01", "guid": -823767297, "path": "/db/blueprints/tm-castle-module-child-garden-shape01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_Garden_Shape01.md", "sourceSha256": "ea95a181098c3cc2c9cacb73f2213ff1812dc874f93423101e67dd50afb8c3d6", "captureId": "blueprints-01",
+      "nameKey": "c278b96d-86e3-4dfd-8b19-34297283ae28", "nameRaw": "Spiral Bush",
+      "descriptionKey": "3859f033-be02-426c-a329-ca99dbad8bc3", "descriptionRaw": "A plant that can live in your Garden Planter.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your Garden Planter.","toString":"A plant that can live in your Garden Planter.","resultKey":"3859f033-be02-426c-a329-ca99dbad8bc3","nameLookup":"Spiral Bush","templateLookup":"A plant that can live in your Garden Planter."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_Garden_Shape02", "guid": -1376704997, "path": "/db/blueprints/tm-castle-module-child-garden-shape02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_Garden_Shape02.md", "sourceSha256": "b5a882809d42fd997590f5b98882048dad68a818118eb7b6ebddc7e5e7b19cab", "captureId": "blueprints-05",
+      "nameKey": "7ddfd4c7-ef31-4664-8d87-6827858d4985", "nameRaw": "Spherical Bush",
+      "descriptionKey": "3859f033-be02-426c-a329-ca99dbad8bc3", "descriptionRaw": "A plant that can live in your Garden Planter.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your Garden Planter.","toString":"A plant that can live in your Garden Planter.","resultKey":"3859f033-be02-426c-a329-ca99dbad8bc3","nameLookup":"Spherical Bush","templateLookup":"A plant that can live in your Garden Planter."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_Garden_Shape03", "guid": -2093139794, "path": "/db/blueprints/tm-castle-module-child-garden-shape03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_Garden_Shape03.md", "sourceSha256": "6cae19c43aa30b37007361d20ef660086f5b06f0d1de834c4520bd4a7b533662", "captureId": "blueprints-05",
+      "nameKey": "89a25cbe-b5b8-49ed-9358-b3430ac06162", "nameRaw": "Rose Bush",
+      "descriptionKey": "3859f033-be02-426c-a329-ca99dbad8bc3", "descriptionRaw": "A plant that can live in your Garden Planter.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your Garden Planter.","toString":"A plant that can live in your Garden Planter.","resultKey":"3859f033-be02-426c-a329-ca99dbad8bc3","nameLookup":"Rose Bush","templateLookup":"A plant that can live in your Garden Planter."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_Garden_Shape04", "guid": 1682197623, "path": "/db/blueprints/tm-castle-module-child-garden-shape04",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_Garden_Shape04.md", "sourceSha256": "47c0033ffc324222e2e6fad28a5d2f8f2ba349d7cb8c009ed426119177e691eb", "captureId": "blueprints-05",
+      "nameKey": "2be47440-4fce-416e-9861-da34c139976c", "nameRaw": "Droplet Bush",
+      "descriptionKey": "3859f033-be02-426c-a329-ca99dbad8bc3", "descriptionRaw": "A plant that can live in your Garden Planter.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your Garden Planter.","toString":"A plant that can live in your Garden Planter.","resultKey":"3859f033-be02-426c-a329-ca99dbad8bc3","nameLookup":"Droplet Bush","templateLookup":"A plant that can live in your Garden Planter."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC01", "guid": 1747478659, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC01.md", "sourceSha256": "ef3e8056139e2d5bb14d65bb843c8545756d9d6b66701b327d30ce2cfae59ac9", "captureId": "blueprints-05",
+      "nameKey": "394e911c-90fc-47e9-92d3-299c259779b9", "nameRaw": "Nocturnal Opulence Refreshments & Hookah",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Refreshments & Hookah","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC02", "guid": -982682474, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC02.md", "sourceSha256": "c9d675ec56419464472ec55e352a833b8f79eefb0249677b5e959ebcc0703096", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03", "guid": 1274339627, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03.md", "sourceSha256": "9e2dd172822a2e2a60c312d3eb6f971479ab3da95601490d77903e19599adb93", "captureId": "blueprints-05",
+      "nameKey": "4296b331-aa72-4bed-a86b-04535b5c0317", "nameRaw": "Nocturnal Opulence Feast & Refreshments",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast & Refreshments","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01", "guid": 609879909, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-table-setting01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01.md", "sourceSha256": "7eb9865c9e38234eaa4971bb15e40de6ae5ed0a3a8bcc8300121fb315727ab4d", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting02", "guid": -1814460463, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-table-setting02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_TableSetting02.md", "sourceSha256": "ee4bcaa5a72d0399a2ef9aa28a5f31f2c34f8f345f7e0b7d32b986fa36eca6b2", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting03", "guid": 1415708511, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-table-setting03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_TableSetting03.md", "sourceSha256": "82b95bfa3ed21ca32afd4b660d0bc15e515e10a25292a4ca25c78ce076ac6549", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting_Glass01", "guid": -1842123158, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-10x6-table-setting-glass01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_10x6_TableSetting_Glass01.md", "sourceSha256": "fc459be509a8f4284a55a5410dd1ac69fdb7cfe19d7a36495db653630ff77f29", "captureId": "blueprints-05",
+      "nameKey": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b", "nameRaw": "Candle Set & Glassware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle Set & Glassware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC01", "guid": 110079461, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC01.md", "sourceSha256": "151045b7b42b9b7eb988567eb06306abe0137d99be7481fe2fb5bb94e6d546a0", "captureId": "blueprints-05",
+      "nameKey": "00891cc4-f7ca-49ae-a25c-d267475ca80a", "nameRaw": "Nocturnal Opulence Hookah",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Hookah","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC02", "guid": 846591851, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC02.md", "sourceSha256": "a0da7e6b4436365e11443e501a3d59ebb51d1d318111492be1635a18a0d4bafc", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC03", "guid": -910610447, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC03.md", "sourceSha256": "89c6ace732961bb6dccadb9e2854421a6c610bd43b74ea50218809d9b603bad7", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting01", "guid": 366145820, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-table-setting01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_TableSetting01.md", "sourceSha256": "ed0bf9d38e42f0cf09512ca47f668af5c991f1e0e944413b486f7d3f8ba94ecf", "captureId": "blueprints-05",
+      "nameKey": "781253a8-9d35-40bd-8231-feec5faa98e9", "nameRaw": "Drinkware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Drinkware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting02", "guid": -1077386164, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-table-setting02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_TableSetting02.md", "sourceSha256": "ce109edb722e407f3d012d3b81e0b0b6eebd32f96a3539832e282b43f4025c73", "captureId": "blueprints-05",
+      "nameKey": "affb23f8-8b92-434c-ba4c-940b1013167a", "nameRaw": "Candle Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting03", "guid": -1142049453, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-table-setting03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_TableSetting03.md", "sourceSha256": "ff5d3b151483e8259fb9903d8c869255312e89e4f1f0315f2d55e5965ee94af5", "captureId": "blueprints-05",
+      "nameKey": "f63e3ada-5732-43ce-9e64-11e246c38181", "nameRaw": "Flower Display",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Flower Display","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01", "guid": 442815015, "path": "/db/blueprints/tm-castle-module-child-rectangular-table-3x6-table-setting-glass01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01.md", "sourceSha256": "11c4f42f30936e442e44998f96b4b79997e2fd1fe968c1fdb6c2093c895e136f", "captureId": "blueprints-05",
+      "nameKey": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b", "nameRaw": "Candle Set & Glassware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle Set & Glassware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01", "guid": -207510343, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01.md", "sourceSha256": "9a126bde56460b8b951052de4757a464c1a1c3a296a05892559907313c8cc7a4", "captureId": "blueprints-05",
+      "nameKey": "00891cc4-f7ca-49ae-a25c-d267475ca80a", "nameRaw": "Nocturnal Opulence Hookah",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Hookah","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC02", "guid": -70745613, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC02.md", "sourceSha256": "662139e9f837e269f018a427e06d614d8037c8641a08b93bcd792111fbbb1635", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC03", "guid": -784399817, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC03.md", "sourceSha256": "146bca2557c6a78d278f655e98bb8f7d368e19bc85b03101bab7c9fc2294e837", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC04", "guid": 965422057, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-strongblade-dlc04",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC04.md", "sourceSha256": "5d0f0af701477762cab1b6d1ee597f1dd59b914ebd2b43468b230f89fb591b9c", "captureId": "blueprints-05",
+      "nameKey": "27d61e19-6993-4718-9526-087dbf51fb2f", "nameRaw": "Nocturnal Opulence Flowers",
+      "descriptionKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "descriptionRaw": "Nocturnal Opulence Feast",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Nocturnal Opulence Feast","toString":"Nocturnal Opulence Feast","resultKey":"d4950bdc-f9ff-44ba-ad33-e88edb0b31ce","nameLookup":"Nocturnal Opulence Flowers","templateLookup":"Nocturnal Opulence Feast"}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC05", "guid": -1331727612, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-strongblade-dlc05",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC05.md", "sourceSha256": "d8df3c6084e31639b370a4c211e5ca8796a15a9b961e8ba0efb86c35246d7914", "captureId": "blueprints-05",
+      "nameKey": "59e8afe6-54f2-41b8-ba0a-de95e0e5c2ba", "nameRaw": "Nocturnal Opulence Refreshments",
+      "descriptionKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "descriptionRaw": "Nocturnal Opulence Feast",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Nocturnal Opulence Feast","toString":"Nocturnal Opulence Feast","resultKey":"d4950bdc-f9ff-44ba-ad33-e88edb0b31ce","nameLookup":"Nocturnal Opulence Refreshments","templateLookup":"Nocturnal Opulence Feast"}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting01", "guid": -280555422, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting01.md", "sourceSha256": "2089858a45e880a6d7d8eb22bb215ec7da2178a0e7e28954586cdac849007843", "captureId": "blueprints-05",
+      "nameKey": "781253a8-9d35-40bd-8231-feec5faa98e9", "nameRaw": "Drinkware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Drinkware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting02", "guid": 429599776, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting02.md", "sourceSha256": "9823c773094c09f6b2fc4571994edace5c3f6cfaf2231df89557fef9a1010297", "captureId": "blueprints-05",
+      "nameKey": "2dd0124d-7426-4851-ade2-17d9d9bd5a03", "nameRaw": "Candle",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting03", "guid": -2088437090, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting03.md", "sourceSha256": "be28108e051d81824415fc2122d054e27b43adef1ebf029b96fca6e4793b8e6b", "captureId": "blueprints-05",
+      "nameKey": "7b34a21e-6244-47b5-a23a-4035e65374e4", "nameRaw": "Candleabra",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candleabra","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting04", "guid": -745029889, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting04",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting04.md", "sourceSha256": "454136b9a9976e5a7a2631c22237602a6203214d57a06b1fab64ae60b8657148", "captureId": "blueprints-05",
+      "nameKey": "3ded2178-d27a-4066-bd92-c3dcf6ae6b9f", "nameRaw": "Flowers",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Flowers","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass01", "guid": -1484048118, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting-glass01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass01.md", "sourceSha256": "2c168d051f6fcdec5e6a5593baf15fc6bbae9699609a5ff7dc517687ff1ad9b1", "captureId": "blueprints-05",
+      "nameKey": "affb23f8-8b92-434c-ba4c-940b1013167a", "nameRaw": "Candle Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass02", "guid": 1389877877, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting-glass02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass02.md", "sourceSha256": "ffaac9a1042c4347cefbf0afc105ddd64ab3248109c82f66a5701d84fd5f59b7", "captureId": "blueprints-05",
+      "nameKey": "3408db57-1173-47b0-bf20-7b99fb0b7c12", "nameRaw": "Glassware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Glassware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass03", "guid": 1304353722, "path": "/db/blueprints/tm-castle-module-child-round-table-3x3-table-setting-glass03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass03.md", "sourceSha256": "68c531fdac15fe86a85799277caa2bbec6744c9ea89131b5f7a0cd8d53a5f74a", "captureId": "blueprints-05",
+      "nameKey": "3408db57-1173-47b0-bf20-7b99fb0b7c12", "nameRaw": "Glassware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Glassware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC01", "guid": -1595018806, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC01.md", "sourceSha256": "9835bf30252dfca2b62124bb22322191a6d151ea6856d31562f1e2237285652c", "captureId": "blueprints-05",
+      "nameKey": "00891cc4-f7ca-49ae-a25c-d267475ca80a", "nameRaw": "Nocturnal Opulence Hookah",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Hookah","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC02", "guid": -1525424692, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC02.md", "sourceSha256": "d54e10a4efa6c307d14b57ff48eac06dd19e077fc74f182b25e75c005b14eb36", "captureId": "blueprints-05",
+      "nameKey": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce", "nameRaw": "Nocturnal Opulence Feast",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC03", "guid": 1592427758, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC03.md", "sourceSha256": "5f3b6e1ff7e715cbd98332a01b741c48ba42d70803a39e8f0cd1e3dfa618ab89", "captureId": "blueprints-05",
+      "nameKey": "4296b331-aa72-4bed-a86b-04535b5c0317", "nameRaw": "Nocturnal Opulence Feast & Refreshments",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Nocturnal Opulence Feast & Refreshments","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting01", "guid": -812090150, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-table-setting01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_TableSetting01.md", "sourceSha256": "0d3597ffd53f8ab5df9093c15afc17ea54548468677602b4e0a5a63db1497d02", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting02", "guid": 1381090712, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-table-setting02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_TableSetting02.md", "sourceSha256": "aeb1d9bc0ac161ca1829dbb123fc79cb04b494715564e05ad8cfd92a9eeb12f6", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting03", "guid": -181453288, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-table-setting03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_TableSetting03.md", "sourceSha256": "cd87dcfd4d82b23cb821da04bc12f7a408f2dec7d868bd3efa9e40314662e523", "captureId": "blueprints-05",
+      "nameKey": "106779a1-2195-4bb2-861f-02826ffa4e61", "nameRaw": "Dinner Set",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Dinner Set","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01", "guid": -1495633537, "path": "/db/blueprints/tm-castle-module-child-round-table-6x6-table-setting-glass01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01.md", "sourceSha256": "cf3d54ae1118cc63f6232183be8e443c005ee2817fa1a5cc33c8da4e8ed58194", "captureId": "blueprints-05",
+      "nameKey": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b", "nameRaw": "Candle Set & Glassware",
+      "descriptionKey": "b737e291-c9d7-4a04-88da-111d64bcc1d6", "descriptionRaw": "An arrangement of decorative tableware for the tables in this group.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An arrangement of decorative tableware for the tables in this group.","toString":"An arrangement of decorative tableware for the tables in this group.","resultKey":"b737e291-c9d7-4a04-88da-111d64bcc1d6","nameLookup":"Candle Set & Glassware","templateLookup":"An arrangement of decorative tableware for the tables in this group."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_Garden_Urn01", "guid": 1871935324, "path": "/db/blueprints/tm-castle-module-parent-garden-urn01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_Garden_Urn01.md", "sourceSha256": "a83a4a3393e6179b28cd8fb8a106f2f9cd03953f41f8fb672ef79aed2dd74534", "captureId": "blueprints-05",
+      "nameKey": "0d363ca9-f742-48a9-a428-b781a9268a6d", "nameRaw": "'Noble' Planter",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Planter","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_Garden_Urn01_Original", "guid": 275489647, "path": "/db/blueprints/tm-castle-module-parent-garden-urn01-original",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_Garden_Urn01_Original.md", "sourceSha256": "dbcc1fbf25e7e613730aa72f1059b227e38ac94a09667c0bc4c4d58dc3d04c58", "captureId": "blueprints-05",
+      "nameKey": "0d363ca9-f742-48a9-a428-b781a9268a6d", "nameRaw": "'Noble' Planter",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Planter","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_Garden_Urn02", "guid": -1932051338, "path": "/db/blueprints/tm-castle-module-parent-garden-urn02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_Garden_Urn02.md", "sourceSha256": "78db4bdc7644fafdcac72dc164bdd24305bbdea959a278629dccb05999b302fe", "captureId": "blueprints-05",
+      "nameKey": "bedc9a09-1427-45f4-83a1-9f499e3824ac", "nameRaw": "'Hex' Planter",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Hex' Planter","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_Garden_Urn03", "guid": 1175078735, "path": "/db/blueprints/tm-castle-module-parent-garden-urn03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_Garden_Urn03.md", "sourceSha256": "75919b1637a9588569a361dde7e6f16750b50bbcdefd76eb5cfbda1a2b74f0f7", "captureId": "blueprints-05",
+      "nameKey": "08d21592-9f6f-4285-a0a1-21b0fab9b61c", "nameRaw": "'Noble' Planter w. Decorative Cage",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Planter w. Decorative Cage","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_Garden_Urn04", "guid": 1181034925, "path": "/db/blueprints/tm-castle-module-parent-garden-urn04",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_Garden_Urn04.md", "sourceSha256": "5a1ab96a8de784d0e3d6243a7431820562f6859d45a8d0ea891a508c2b8f30e1", "captureId": "blueprints-05",
+      "nameKey": "2db0a22a-a07d-43d7-8c0a-3685e6ecd363", "nameRaw": "'Noble' Tall Planter",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"'Noble' Tall Planter","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal01", "guid": 1369010712, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_Cabal01.md", "sourceSha256": "181ff7a2a334e138e89768149277f428cd50ac1f416fe404b78c69b606292536", "captureId": "blueprints-05",
+      "nameKey": "6824ae15-a52c-4be3-9d18-ca70c7c14187", "nameRaw": "'Distinguished' Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal02", "guid": 479941373, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-cabal02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_Cabal02.md", "sourceSha256": "55c438dabbd28b0304d7c7ceaea44b1bde74e3515539d353950b0b555ae6ae82", "captureId": "blueprints-05",
+      "nameKey": "26cfae75-5644-4f84-b732-e1095f9df6a4", "nameRaw": "'Gala' Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Gala' Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03", "guid": -2004716642, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-cabal03",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03.md", "sourceSha256": "627328fda2b1419e2518fa1ec3d61050e83a340b222aa24f7fa60c593b844dde", "captureId": "blueprints-05",
+      "nameKey": "105a8bc0-2fbe-491e-91a0-93c451dfbd54", "nameRaw": "'Banquet' Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Banquet' Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Gothic01", "guid": 1336447117, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_Gothic01.md", "sourceSha256": "ce2623c6138def8dc57b7df23b28eda771cdad7f4ab388563d0958bef0b85ccf", "captureId": "blueprints-05",
+      "nameKey": "27cbd1c8-ba83-44dc-ba15-8b0a90763617", "nameRaw": "'Implacable' Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Implacable' Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_01", "guid": 1119097203, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-strongblade-dlc-01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_01.md", "sourceSha256": "63128a94b13d6f69a95b6e3f64abbb56628a1c179fbaffbbd2a1170fa119521f", "captureId": "blueprints-05",
+      "nameKey": "35304f12-60f4-41c0-bc41-f17e6a1e49e6", "nameRaw": "Nocturnal Opulence Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02", "guid": -1097732927, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-10x6-strongblade-dlc-02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02.md", "sourceSha256": "b9bdbe3a85d0b4d8512ebda7aa6bdf8eb0d240d7ee63565e0bcaf9c386f8a3f9", "captureId": "blueprints-05",
+      "nameKey": "8f8099d9-990a-4f95-806e-c084188c127c", "nameRaw": "Nocturnal Opulence Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_Cabal01", "guid": 2020208400, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-3x6-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_3x6_Cabal01.md", "sourceSha256": "2a125f142195ef60993c4c3843b3e5d8068b5fcb34d074aeffe1041bec902d9d", "captureId": "blueprints-05",
+      "nameKey": "cd8761d7-7701-4f7b-82db-a07598e4c402", "nameRaw": "'Distinguished' Coffee Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Coffee Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01", "guid": -1579557858, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-3x6-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01.md", "sourceSha256": "ab126cba0d27594565998b7a7d245a260ba6d59004faefca8734ce4e1d6ce318", "captureId": "blueprints-05",
+      "nameKey": "845a39e8-f4a0-4ee0-90d4-5091882491f0", "nameRaw": "'Dignity' Coffee Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Dignity' Coffee Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_StrongbladeDLC_01", "guid": -1829611282, "path": "/db/blueprints/tm-castle-module-parent-rectangular-table-3x6-strongblade-dlc-01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RectangularTable_3x6_StrongbladeDLC_01.md", "sourceSha256": "bc6af2f678de52189e0a5353b1170417adad9bf0af9fc481bb6e2ff156e77706", "captureId": "blueprints-05",
+      "nameKey": "35304f12-60f4-41c0-bc41-f17e6a1e49e6", "nameRaw": "Nocturnal Opulence Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_Cabal01", "guid": -1666587665, "path": "/db/blueprints/tm-castle-module-parent-round-table-3x3-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RoundTable_3x3_Cabal01.md", "sourceSha256": "9c5039019637799c031be216eeb662a8950662db17162e6de1cd5d57f386678b", "captureId": "blueprints-05",
+      "nameKey": "dd216b3b-d20d-4c86-a188-0e65072e9d0d", "nameRaw": "'Distinguished' Sidetable",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Sidetable","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_Gothic01", "guid": -825041900, "path": "/db/blueprints/tm-castle-module-parent-round-table-3x3-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RoundTable_3x3_Gothic01.md", "sourceSha256": "f57bcdb587517d31e9343bdf45966a8d2aa07fd3a3b513c4e15a250b31d259ec", "captureId": "blueprints-05",
+      "nameKey": "e1ee2b17-3c9e-4613-89f6-37efdc870f36", "nameRaw": "'Dignity' Sidetable",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Dignity' Sidetable","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_StrongbladeDLC_01", "guid": 1068226341, "path": "/db/blueprints/tm-castle-module-parent-round-table-3x3-strongblade-dlc-01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RoundTable_3x3_StrongbladeDLC_01.md", "sourceSha256": "d9d7f7110ad88fbf6a4e719cfc96884f2ee725a072c71aafcde3863f278e030a", "captureId": "blueprints-05",
+      "nameKey": "433addd7-cb38-4be3-a98d-1acd321bcb54", "nameRaw": "Nocturnal Opulence Round Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Round Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RoundTable_6x6_Cabal02", "guid": -1587825473, "path": "/db/blueprints/tm-castle-module-parent-round-table-6x6-cabal02",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RoundTable_6x6_Cabal02.md", "sourceSha256": "3f3aeb2c01153c915373718384619f88bc23dcc62a1d6be8253bd7e7a381ee77", "captureId": "blueprints-05",
+      "nameKey": "67dc3c69-a689-43bd-9af5-16cc1a608054", "nameRaw": "'Gala' Round Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Gala' Round Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01", "guid": -46629157, "path": "/db/blueprints/tm-castle-module-parent-round-table-6x6-strongblade-dlc-01",
+      "sourcePath": "content/prefabs/TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01.md", "sourceSha256": "cc6043b0858c2cf358f1b16c3d5733077542ce8652f154b3cbaf589cf7e1f18a", "captureId": "blueprints-05",
+      "nameKey": "433addd7-cb38-4be3-a98d-1acd321bcb54", "nameRaw": "Nocturnal Opulence Round Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Round Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Anvil01", "guid": 1277831890, "path": "/db/blueprints/tm-castle-object-decor-anvil01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Anvil01.md", "sourceSha256": "5e3ca5828b26745c3b946bd47ab048f6b03b5832dd944a58ea30345cf543a04a", "captureId": "blueprints-05",
+      "nameKey": "274fb38c-033f-4cb9-a19a-badbc201fdab", "nameRaw": "Workshop Anvil",
+      "descriptionKey": "7af85de8-b400-43a0-bfb2-fd2d8fbae79a", "descriptionRaw": "A small anvil decoration for your metalworking.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A small anvil decoration for your metalworking.","toString":"A small anvil decoration for your metalworking.","resultKey":"7af85de8-b400-43a0-bfb2-fd2d8fbae79a","nameLookup":"Workshop Anvil","templateLookup":"A small anvil decoration for your metalworking."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Aquarium_Iron_Large", "guid": 198047828, "path": "/db/blueprints/tm-castle-object-decor-aquarium-iron-large",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Aquarium_Iron_Large.md", "sourceSha256": "862eb0463a8e02c1fba94759126e5928ec3ad542fab25ae1e76c9d3ff7fc9891", "captureId": "blueprints-01",
+      "nameKey": "dbf7d603-0efa-496a-9ca3-83a407083c23", "nameRaw": "Luminescent Mushroom Terrarium",
+      "descriptionKey": "ad46b4f9-0558-4661-8038-6be33896d07d", "descriptionRaw": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Bioluminescent mushrooms extracted from the Cursed Forest.","toString":"Bioluminescent mushrooms extracted from the Cursed Forest.","resultKey":"ad46b4f9-0558-4661-8038-6be33896d07d","nameLookup":"Luminescent Mushroom Terrarium","templateLookup":"Bioluminescent mushrooms extracted from the Cursed Forest."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Aquarium_Iron_Small", "guid": 2117907654, "path": "/db/blueprints/tm-castle-object-decor-aquarium-iron-small",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Aquarium_Iron_Small.md", "sourceSha256": "e246e7886148302125c38c5116b9755b9a15219817c5a0f4feb09393253e3886", "captureId": "blueprints-05",
+      "nameKey": "dbf7d603-0efa-496a-9ca3-83a407083c23", "nameRaw": "Luminescent Mushroom Terrarium",
+      "descriptionKey": "ad46b4f9-0558-4661-8038-6be33896d07d", "descriptionRaw": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Bioluminescent mushrooms extracted from the Cursed Forest.","toString":"Bioluminescent mushrooms extracted from the Cursed Forest.","resultKey":"ad46b4f9-0558-4661-8038-6be33896d07d","nameLookup":"Luminescent Mushroom Terrarium","templateLookup":"Bioluminescent mushrooms extracted from the Cursed Forest."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Bench_Gothic01", "guid": -569832943, "path": "/db/blueprints/tm-castle-object-decor-bench-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Bench_Gothic01.md", "sourceSha256": "8bc182d93fac9685fb524bf7357571441bf583a15665a9bf0dfa8c13fb679017", "captureId": "blueprints-05",
+      "nameKey": "f5b2efa5-cfd3-422f-8a32-864712261e90", "nameRaw": "'Dignity' Bench",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Dignity' Bench","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_BookPedestal01", "guid": 1579362204, "path": "/db/blueprints/tm-castle-object-decor-book-pedestal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_BookPedestal01.md", "sourceSha256": "3a0e0c403d3cba4507a971213bc076b3b7bfedfb430eb8c4fe76032826d7ec90", "captureId": "blueprints-05",
+      "nameKey": "44b2e56f-dc7f-4916-be18-10216e3e1b45", "nameRaw": "'Esoterica' Reading Lectern",
+      "descriptionKey": "abc21f31-a8a4-4781-87e4-b76efacf391a", "descriptionRaw": "The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.","toString":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.","resultKey":"abc21f31-a8a4-4781-87e4-b76efacf391a","nameLookup":"'Esoterica' Reading Lectern","templateLookup":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_BookPedestal02", "guid": -680809658, "path": "/db/blueprints/tm-castle-object-decor-book-pedestal02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_BookPedestal02.md", "sourceSha256": "dcacc1e2c99324ba048b0ab0b500a61ca862853702a9e3f875df465d82e6b00e", "captureId": "blueprints-05",
+      "nameKey": "e4d31cec-d53d-4c5a-8d08-e446e32b4cad", "nameRaw": "'Circa' Round Bookcase",
+      "descriptionKey": "abc21f31-a8a4-4781-87e4-b76efacf391a", "descriptionRaw": "The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.","toString":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.","resultKey":"abc21f31-a8a4-4781-87e4-b76efacf391a","nameLookup":"'Circa' Round Bookcase","templateLookup":"The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Brazier01_Orange", "guid": 1446953312, "path": "/db/blueprints/tm-castle-object-decor-cabal-brazier01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Brazier01_Orange.md", "sourceSha256": "4173d124670867162311676bb876b9d0ac639ca2089b332215b5e8ef81700809", "captureId": "blueprints-05",
+      "nameKey": "305601b3-bb48-4ead-97e1-94570ef063d5", "nameRaw": "'Cordial' Brazier",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Cordial' Brazier","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_CandleStand01", "guid": 797605882, "path": "/db/blueprints/tm-castle-object-decor-cabal-candle-stand01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_CandleStand01.md", "sourceSha256": "c1204ed16a136f06cbe5709f5f46e1c10614e131a6293ebb98787ce1167d6d77", "captureId": "blueprints-05",
+      "nameKey": "f57f175a-35d5-4843-8fe1-6b599375f781", "nameRaw": "'Cordial' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Cordial' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase01", "guid": 873503098, "path": "/db/blueprints/tm-castle-object-decor-cabal-vase01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Vase01.md", "sourceSha256": "cf7bbf9e9832a3badcb0799ec4a7a6362978f141093321ad0cedf6de873ecea0", "captureId": "blueprints-05",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    }
+  ]
+}
