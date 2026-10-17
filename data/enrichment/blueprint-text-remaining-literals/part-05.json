@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05", "guid": 1405941468, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05.md", "sourceSha256": "2291e6b49904ab9d04bbafea453d886aa93682de381bd52450c66b2f9a78e676", "captureId": "blueprints-07",
+      "nameKey": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4", "nameRaw": "'Eldest' Roaring Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Roaring Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle06", "guid": 518448448, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle06.md", "sourceSha256": "81ff2ed4510b11a0bc462497bd4c44b5fb75d15e1e7eeeaa6290e793ad5f58ea", "captureId": "blueprints-07",
+      "nameKey": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5", "nameRaw": "'Eldest' Agonized Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Agonized Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle07", "guid": -1141919540, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle07",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle07.md", "sourceSha256": "5bc9402f2e502123dc4f5e0f1eea3fd59b4100096fb6be411b07bf100e0196c0", "captureId": "blueprints-07",
+      "nameKey": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b", "nameRaw": "'Eldest' Victorious Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Victorious Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle08", "guid": 1663229398, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-dlc01-gargoyle08",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle08.md", "sourceSha256": "774ac4524d3795109ca20c16756033f6c903d30ef4bfd44c11cb974f608efb90", "captureId": "blueprints-07",
+      "nameKey": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7", "nameRaw": "'Eldest' Challenging Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"'Eldest' Challenging Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Female01", "guid": 2071819023, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_Female01.md", "sourceSha256": "8f3846ce10a1a0727df9f03f0ae47437c279676f9f3311f27c5aec1c8f8f1feb", "captureId": "blueprints-07",
+      "nameKey": "36f709d8-6935-418d-a6d5-9d84e7cd4d3a", "nameRaw": "Granite Statue - Female",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Granite Statue - Female","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01", "guid": -883197188, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01.md", "sourceSha256": "6002715403ffe7358cd78cbd6e75888fb616c1f4eb1833feaeba08cf2ace9cd9", "captureId": "blueprints-07",
+      "nameKey": "c5f4fcb8-b0ce-4182-9092-95c1f83d1e90", "nameRaw": "Patient Gargoyle",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Patient Gargoyle","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Male01", "guid": -1866338269, "path": "/db/blueprints/tm-castle-object-decor-simple-statue-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Simple_Statue_Male01.md", "sourceSha256": "2b9a17f4a358edfb5f7d67b3d6ef3f78c27b3fcdd0ee32544d295143413cafff", "captureId": "blueprints-07",
+      "nameKey": "fc2665be-1af2-4f03-a007-0315171e9942", "nameRaw": "Granite Statue - Male",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Granite Statue - Male","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_Base", "guid": 1752496674, "path": "/db/blueprints/tm-castle-object-decor-sofa-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_Base.md", "sourceSha256": "4dc5c525e781f4f3a653a7a9563bd196d3cfdea4a737e92676dd16edfb0800df", "captureId": "blueprints-07",
+      "nameKey": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9", "nameRaw": "'Cordial' Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Cordial' Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_Cabal01", "guid": 1991412107, "path": "/db/blueprints/tm-castle-object-decor-sofa-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_Cabal01.md", "sourceSha256": "694d04c131386beae90d4f355c983e115e8611f62de17f72594c2f1f2d5ebfb4", "captureId": "blueprints-07",
+      "nameKey": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9", "nameRaw": "'Cordial' Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Cordial' Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_Gothic01", "guid": 833803769, "path": "/db/blueprints/tm-castle-object-decor-sofa-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_Gothic01.md", "sourceSha256": "f7b4cfedc627d04a0703040ec3a5f09337cccf12c68a893adf493eb3e56461c8", "captureId": "blueprints-07",
+      "nameKey": "8c387de2-9705-480d-a7fe-91bb5d76fd41", "nameRaw": "'Omen' Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Omen' Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_Lavish01", "guid": -1613630707, "path": "/db/blueprints/tm-castle-object-decor-sofa-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_Lavish01.md", "sourceSha256": "804f84c511f55ccfae72a9819560692ae53d89f0d9d8f010063d7d82b14175d2", "captureId": "blueprints-07",
+      "nameKey": "49a02598-400d-4081-81f0-c6d0c9112ad0", "nameRaw": "'Distinguished' Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Distinguished' Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01", "guid": 397717192, "path": "/db/blueprints/tm-castle-object-decor-sofa-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01.md", "sourceSha256": "86924e626a0211b7f95e828fdcb461f462b0c2b1f30f27dea4a575d1a4e63869", "captureId": "blueprints-07",
+      "nameKey": "60fad773-7622-4fbf-aa44-1486f1440973", "nameRaw": "Nocturnal Opulence Divan",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"Nocturnal Opulence Divan","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC02", "guid": -269507805, "path": "/db/blueprints/tm-castle-object-decor-sofa-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Sofa_StrongbladeDLC02.md", "sourceSha256": "78f09323f2e1c9c9a82beb8ccb0cb2143f83dad458ec7ebddd14ada9f41aef0d", "captureId": "blueprints-07",
+      "nameKey": "9c85f520-7496-482e-bd9b-a77ec457fd9a", "nameRaw": "Nocturnal Opulence Sofa",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"Nocturnal Opulence Sofa","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableHay01", "guid": 1495755479, "path": "/db/blueprints/tm-castle-object-decor-stable-hay01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableHay01.md", "sourceSha256": "088b0d02d3915e11ee380ce48a62b2f4fd488fe788a1e650e161e8c6cf936af4", "captureId": "blueprints-07",
+      "nameKey": "1166b429-589d-4b7a-92a9-f794d2b60241", "nameRaw": "Hay Bale",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Hay Bale","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableHay02", "guid": 1925146830, "path": "/db/blueprints/tm-castle-object-decor-stable-hay02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableHay02.md", "sourceSha256": "e7db82895a83ae1e00a6c44fe8e19d07cd1cd897d475bebfc69d3490ae348c92", "captureId": "blueprints-07",
+      "nameKey": "1166b429-589d-4b7a-92a9-f794d2b60241", "nameRaw": "Hay Bale",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Hay Bale","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableHay03", "guid": -1990152390, "path": "/db/blueprints/tm-castle-object-decor-stable-hay03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableHay03.md", "sourceSha256": "4bbbaa857088f335fc428fdb9ac2cabec5012e8049afdc8c5e398a631b0b7492", "captureId": "blueprints-07",
+      "nameKey": "e5ba0087-6f6a-49ce-9311-92f4e4fd5212", "nameRaw": "Hay Pile",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Hay Pile","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableHitchingPost01", "guid": 194712289, "path": "/db/blueprints/tm-castle-object-decor-stable-hitching-post01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableHitchingPost01.md", "sourceSha256": "20bf7b9a2f48f0686cd11f651d109c9ce1cba0692531d6c69ccf358af138c03d", "captureId": "blueprints-07",
+      "nameKey": "3df6c7ee-167c-4170-a137-83f4d86c74ff", "nameRaw": "Hitching Post",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Hitching Post","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableHitchingPost02", "guid": -1543977056, "path": "/db/blueprints/tm-castle-object-decor-stable-hitching-post02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableHitchingPost02.md", "sourceSha256": "cd89765697b0a10d8a7f53a743b078f6032ceea745ad9d3de85657f5ffab70d5", "captureId": "blueprints-07",
+      "nameKey": "3df6c7ee-167c-4170-a137-83f4d86c74ff", "nameRaw": "Hitching Post",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Hitching Post","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableSign01", "guid": -726476711, "path": "/db/blueprints/tm-castle-object-decor-stable-sign01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableSign01.md", "sourceSha256": "2dbd995a1483e18a0155887fb75317397e87b9bf875c3b3fc8c20834cdad70ad", "captureId": "blueprints-07",
+      "nameKey": "493eaefa-ab22-4519-8d99-4db9fd8d591d", "nameRaw": "Stables Sign",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Stables Sign","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableSign02", "guid": 1395968105, "path": "/db/blueprints/tm-castle-object-decor-stable-sign02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableSign02.md", "sourceSha256": "0d2faa8d826db0f53b9d8c416b361f6927eb29ccb3b8bcbffaa010961be2e085", "captureId": "blueprints-07",
+      "nameKey": "493eaefa-ab22-4519-8d99-4db9fd8d591d", "nameRaw": "Stables Sign",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Stables Sign","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StableWaterTrough01", "guid": 1565409593, "path": "/db/blueprints/tm-castle-object-decor-stable-water-trough01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StableWaterTrough01.md", "sourceSha256": "61ad08e4f5b3520e3150639f62a6b33375138035cbc7b071efb886cbdf0da78f", "captureId": "blueprints-07",
+      "nameKey": "092943cb-e2ac-4097-b0ad-217a7e837c7e", "nameRaw": "Watering Trough",
+      "descriptionKey": "7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f", "descriptionRaw": "Decoration for your stables.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decoration for your stables.","toString":"Decoration for your stables.","resultKey":"7e8cc2c4-ddea-44dd-a70d-71b58c7f9d2f","nameLookup":"Watering Trough","templateLookup":"Decoration for your stables."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StandingBurnerPot01", "guid": -202816279, "path": "/db/blueprints/tm-castle-object-decor-standing-burner-pot01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StandingBurnerPot01.md", "sourceSha256": "49cc19076120201ca4a136c1058929c0cb45fb842406dc9dfe2b38f93f17b275", "captureId": "blueprints-07",
+      "nameKey": "f9df5ecd-4af4-4fa3-a523-1fb70d160884", "nameRaw": "Stand with Boiling Flask & Burner",
+      "descriptionKey": "5926e318-078e-4e5a-b713-186fea645c4d", "descriptionRaw": "A decoration for your alchemical laboratory.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your alchemical laboratory.","toString":"A decoration for your alchemical laboratory.","resultKey":"5926e318-078e-4e5a-b713-186fea645c4d","nameLookup":"Stand with Boiling Flask & Burner","templateLookup":"A decoration for your alchemical laboratory."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_AngelStatue01", "guid": -1777182058, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-angel-statue01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_AngelStatue01.md", "sourceSha256": "ee48a623ae10ee180ec174a5fcb28fb68ef86a8aa183b453e64b974f8a998ce9", "captureId": "blueprints-07",
+      "nameKey": "a5e2ccc6-f256-4118-93fd-2dd68722c0be", "nameRaw": "Ancient Symphony Angelic Statue",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Angelic Statue","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01", "guid": 858552228, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-bone-pillar-statue01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01.md", "sourceSha256": "dc8e516cbf9af48e0160c4056f389b52fb78c7301e9f79adab1b91ade28e7f7b", "captureId": "blueprints-07",
+      "nameKey": "55372b64-b80a-48d1-80af-ca86887e3a99", "nameRaw": "Ancient Symphony Bone Trophy",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Bone Trophy","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue01", "guid": 1924883160, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-female-statue01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue01.md", "sourceSha256": "0a7ed7377a57b9a2b4663c385d12ed5c6857e4a6e606cd1da6ac361f31318f23", "captureId": "blueprints-07",
+      "nameKey": "f95fa111-785d-41db-9e83-90fd094263a6", "nameRaw": "Ancient Symphony Statue of Maria",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Statue of Maria","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02", "guid": 57934274, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-female-statue02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02.md", "sourceSha256": "e41f74d5036a14719626ffbb7012d0cbd420d940d6a479c9526dd24a1397a48e", "captureId": "blueprints-07",
+      "nameKey": "f95fa111-785d-41db-9e83-90fd094263a6", "nameRaw": "Ancient Symphony Statue of Maria",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Statue of Maria","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue01", "guid": 1837038558, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-gargoyle-statue01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue01.md", "sourceSha256": "66e7bf7fb825b14a6f3f6efca6fab8dff327fb1a6fe80866b55508bcabc18b3c", "captureId": "blueprints-07",
+      "nameKey": "9cb7feec-3e95-4f76-bf39-c56a1db04376", "nameRaw": "Ancient Symphony Evolved Being",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Evolved Being","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue02", "guid": -1121713940, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-gargoyle-statue02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue02.md", "sourceSha256": "1533430b5aa98757e13361a3b06540139a0db324015b4897fc34b7721d184cd8", "captureId": "blueprints-07",
+      "nameKey": "9cb7feec-3e95-4f76-bf39-c56a1db04376", "nameRaw": "Ancient Symphony Evolved Being",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Evolved Being","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue01", "guid": 1735150840, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-male-statue01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue01.md", "sourceSha256": "8ad26eba502cd8e3de995804ee27b90554bc586ba469d8b47a6c9358a8c085de", "captureId": "blueprints-07",
+      "nameKey": "3641725f-078b-458f-929a-6201a07a2457", "nameRaw": "Ancient Symphony Statue of Alucard",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Statue of Alucard","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue02", "guid": -2122532810, "path": "/db/blueprints/tm-castle-object-decor-statue-project-k-male-statue02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue02.md", "sourceSha256": "cd13844c1b6b242877cd1eff58b510abca15bb9f0f3067966b0b97785b9d9c4d", "captureId": "blueprints-07",
+      "nameKey": "3641725f-078b-458f-929a-6201a07a2457", "nameRaw": "Ancient Symphony Statue of Alucard",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Ancient Symphony Statue of Alucard","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01", "guid": -1212536125, "path": "/db/blueprints/tm-castle-object-decor-statue-strongblade-dlc-female01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01.md", "sourceSha256": "0f4dabe7e6a609fc0d60f2020f8b8ae19d0549dfc0335be1e3615d68a8accb4e", "captureId": "blueprints-07",
+      "nameKey": "6b1525e9-1814-4234-bae8-943b8237a197", "nameRaw": "Nocturnal Opulence Female Statue",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Nocturnal Opulence Female Statue","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female02", "guid": -2006858566, "path": "/db/blueprints/tm-castle-object-decor-statue-strongblade-dlc-female02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female02.md", "sourceSha256": "aa95dd286fb8b19020c678d24a1a677d03dfc8ce5b5b27e143e8716dc39746a6", "captureId": "blueprints-07",
+      "nameKey": "6b1525e9-1814-4234-bae8-943b8237a197", "nameRaw": "Nocturnal Opulence Female Statue",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Nocturnal Opulence Female Statue","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Male01", "guid": -1071569211, "path": "/db/blueprints/tm-castle-object-decor-statue-strongblade-dlc-male01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Male01.md", "sourceSha256": "8cb9ba8b1cc33a0b02734c0e273bc83f6e85f8b55008dbc597c83439012f6262", "captureId": "blueprints-07",
+      "nameKey": "faf9babd-fb0c-4392-b210-6aaaeff46b13", "nameRaw": "Nocturnal Opulence Male Statue",
+      "descriptionKey": "59426b80-40e6-43c6-a55d-cd9c112765d6", "descriptionRaw": "A decorative sculpted statue.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative sculpted statue.","toString":"A decorative sculpted statue.","resultKey":"59426b80-40e6-43c6-a55d-cd9c112765d6","nameLookup":"Nocturnal Opulence Male Statue","templateLookup":"A decorative sculpted statue."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable", "guid": 606753096, "path": "/db/blueprints/tm-castle-object-decor-strongblade-dlc-standing-lamp01-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable.md", "sourceSha256": "75fb20c66c31328978b13630388087759d1603963d3bad2224c7a0cfcc74305a", "captureId": "blueprints-07",
+      "nameKey": "c9bc8fa3-19d9-421f-9984-bd51c5711b2c", "nameRaw": "Nocturnal Opulence Lamp Stand",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"Nocturnal Opulence Lamp Stand","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated", "guid": 733591670, "path": "/db/blueprints/tm-castle-object-decor-table-10x6-cabal01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated.md", "sourceSha256": "53ef2ea8ce2b1d2900f9dde9c88d164514ff065ac861c0691ffa591b0933e879", "captureId": "blueprints-07",
+      "nameKey": "6824ae15-a52c-4be3-9d18-ca70c7c14187", "nameRaw": "'Distinguished' Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_10x6_Gothic01_Deprecated", "guid": -2005881662, "path": "/db/blueprints/tm-castle-object-decor-table-10x6-gothic01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_10x6_Gothic01_Deprecated.md", "sourceSha256": "b643918a1bf0e88e346fae6bdda079f7a4ff7ee3e5e7d1880d6248e1987429c9", "captureId": "blueprints-07",
+      "nameKey": "27cbd1c8-ba83-44dc-ba15-8b0a90763617", "nameRaw": "'Implacable' Table",
+      "descriptionKey": "3be54d51-6e97-45df-aa18-f1d19b0778c7", "descriptionRaw": "A table made of stone.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A table made of stone.","toString":"A table made of stone.","resultKey":"3be54d51-6e97-45df-aa18-f1d19b0778c7","nameLookup":"'Implacable' Table","templateLookup":"A table made of stone."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated", "guid": -532692664, "path": "/db/blueprints/tm-castle-object-decor-table-3x3-cabal01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated.md", "sourceSha256": "af9f47a3db62040da5d7d7dadd6700978d412ee16ec2787794e1b5f1f57f3bad", "captureId": "blueprints-07",
+      "nameKey": "dd216b3b-d20d-4c86-a188-0e65072e9d0d", "nameRaw": "'Distinguished' Sidetable",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Sidetable","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_3x3_Gothic01_Deprecated", "guid": -1887056619, "path": "/db/blueprints/tm-castle-object-decor-table-3x3-gothic01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_3x3_Gothic01_Deprecated.md", "sourceSha256": "9876668e8756f51adddabb619aeab550c14e62476eae453b4923d90b15297311", "captureId": "blueprints-07",
+      "nameKey": "e1ee2b17-3c9e-4613-89f6-37efdc870f36", "nameRaw": "'Dignity' Sidetable",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Dignity' Sidetable","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated", "guid": -34752264, "path": "/db/blueprints/tm-castle-object-decor-table-3x6-cabal01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated.md", "sourceSha256": "b0be0f377ac577e1ddf915839cc09900b0f02c3f1c85f04ccbe4f4c0b9c825e3", "captureId": "blueprints-07",
+      "nameKey": "cd8761d7-7701-4f7b-82db-a07598e4c402", "nameRaw": "'Distinguished' Coffee Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Distinguished' Coffee Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated", "guid": 180499181, "path": "/db/blueprints/tm-castle-object-decor-table-3x6-gothic01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated.md", "sourceSha256": "4e475feca6ba101a8e0e7e52267d517905010fe501d162d945dcf98787b56235", "captureId": "blueprints-07",
+      "nameKey": "845a39e8-f4a0-4ee0-90d4-5091882491f0", "nameRaw": "'Dignity' Coffee Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Dignity' Coffee Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_Cabal01", "guid": -742777303, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_Cabal01.md", "sourceSha256": "96af2754f15ac9941e02b8b920eaf265c24c6596d56eeeafd355dfdbc56d5c16", "captureId": "blueprints-07",
+      "nameKey": "0a02da94-6147-44ad-9b23-bf777271611a", "nameRaw": "'Erudition' Study Table",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Erudition' Study Table","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_CabalDesk01", "guid": -521027642, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-cabal-desk01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_CabalDesk01.md", "sourceSha256": "e9211bd7c0b3ebe22a1338c8c8a53d5d0b4156218bdc1f3a310b6b2f28970c99", "captureId": "blueprints-07",
+      "nameKey": "cf7a2dea-3a14-4e28-8452-70804d984ebc", "nameRaw": "'Cordial' Secretary Desk",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Cordial' Secretary Desk","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_CabalVanity01", "guid": -544060510, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-cabal-vanity01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_CabalVanity01.md", "sourceSha256": "f6246aed471e297453df7f140fcb0901468ba707de36b9f3c420677971a4aae0", "captureId": "blueprints-07",
+      "nameKey": "af9b24bf-5a79-4c4a-b778-356b238356c1", "nameRaw": "'Cordial' Dressing Table",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Cordial' Dressing Table","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_GothicDesk01", "guid": -1583533114, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-gothic-desk01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_GothicDesk01.md", "sourceSha256": "8b96681321ebb3e616b9fe0dfd060d7610e985e85947749935bd424b2398c924", "captureId": "blueprints-07",
+      "nameKey": "d2035016-86bf-4e53-8a1c-02624a8939d3", "nameRaw": "'Omen' Secretary Desk",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Omen' Secretary Desk","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_GothicVanity01", "guid": -203928758, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-gothic-vanity01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_GothicVanity01.md", "sourceSha256": "3b3dbfe0e45f2e85e326f26454c7098a1478bd9f3816110a9a05b5756604f4c2", "captureId": "blueprints-07",
+      "nameKey": "a4abea11-13a9-49de-b772-e8335eb4a701", "nameRaw": "'Omen' Dressing Table",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Omen' Dressing Table","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_LavishDesk01", "guid": -1186490712, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-lavish-desk01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_LavishDesk01.md", "sourceSha256": "15814010b7357a8a49594a1effbc2bde77f9ffc5dd5821233f80db1c5e293ef5", "captureId": "blueprints-07",
+      "nameKey": "b13fdbf4-bd22-4423-b061-a37f28a3e5e6", "nameRaw": "'Distinguished' Secretary Desk",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Distinguished' Secretary Desk","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x3_LavishVanity01", "guid": 444727609, "path": "/db/blueprints/tm-castle-object-decor-table-4x3-lavish-vanity01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x3_LavishVanity01.md", "sourceSha256": "c6873126656b3912dd9510f6444cce6b9988389f71d162a53ed7e849e4a04f3c", "captureId": "blueprints-07",
+      "nameKey": "cbd80b61-66e6-4b45-bf99-28615e502aaa", "nameRaw": "'Distinguished' Dressing Table",
+      "descriptionKey": "b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9", "descriptionRaw": "A decorative desk.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative desk.","toString":"A decorative desk.","resultKey":"b3ca9faa-9d39-4a10-bfe8-61b8b456d9f9","nameLookup":"'Distinguished' Dressing Table","templateLookup":"A decorative desk."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x4_Garden01", "guid": 1338051453, "path": "/db/blueprints/tm-castle-object-decor-table-4x4-garden01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x4_Garden01.md", "sourceSha256": "aa63bcfe3cfb05b7029d7726a53d145269bbbbf593fd039d59c817576da2847a", "captureId": "blueprints-07",
+      "nameKey": "bb018a85-a32d-4b41-bd16-6f8d9af51dcb", "nameRaw": "'Noble' Garden Table",
+      "descriptionKey": "290fa8d5-0b2b-4517-8178-d8d385895e7a", "descriptionRaw": "A table made of metal.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A table made of metal.","toString":"A table made of metal.","resultKey":"290fa8d5-0b2b-4517-8178-d8d385895e7a","nameLookup":"'Noble' Garden Table","templateLookup":"A table made of metal."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_4x4_Garden02_Dyable", "guid": -649433906, "path": "/db/blueprints/tm-castle-object-decor-table-4x4-garden02-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_4x4_Garden02_Dyable.md", "sourceSha256": "77b91a210338351d34cb54320cafb4bb99a7387ed697f9bb511ed881497ad4a6", "captureId": "blueprints-07",
+      "nameKey": "40947989-af8a-4979-ad16-a25c15749472", "nameRaw": "'Rural' Garden Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"'Rural' Garden Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_6x4_Simple01", "guid": 2061278827, "path": "/db/blueprints/tm-castle-object-decor-table-6x4-simple01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_6x4_Simple01.md", "sourceSha256": "6e9e07d110788811a8f71e75da6562e9cb4d79052cbef0aeceedff27370971aa", "captureId": "blueprints-07",
+      "nameKey": "1547ac0b-2933-4560-95f3-ca45d34c17f7", "nameRaw": "Rustic Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Rustic Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated", "guid": 2012743857, "path": "/db/blueprints/tm-castle-object-decor-table-6x6-strongblade-dlc-01-deprecated",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated.md", "sourceSha256": "e6b1961e863e3c0dc6d8093c9b20f530c8beb1b42044890f0ae6f43c1f7cd074", "captureId": "blueprints-07",
+      "nameKey": "433addd7-cb38-4be3-a98d-1acd321bcb54", "nameRaw": "Nocturnal Opulence Round Table",
+      "descriptionKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "descriptionRaw": "A raised flat top supported by legs.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A raised flat top supported by legs.","toString":"A raised flat top supported by legs.","resultKey":"5c3276ac-a754-46c4-a949-930cbdbdfca0","nameLookup":"Nocturnal Opulence Round Table","templateLookup":"A raised flat top supported by legs."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Basic01", "guid": 2101121636, "path": "/db/blueprints/tm-castle-object-decor-target-dummy-basic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_TargetDummy_Basic01.md", "sourceSha256": "4991090272bae46b44d14011d25e914909d5ddd2e70b79c8ada2b98f45d03030", "captureId": "blueprints-07",
+      "nameKey": "c982c0d3-1eee-4ccb-9063-77a4f58d54e1", "nameRaw": "Basic Target Dummy",
+      "descriptionKey": "a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2", "descriptionRaw": "A hapless dummy to test your combat prowess on.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A hapless dummy to test your combat prowess on.","toString":"A hapless dummy to test your combat prowess on.","resultKey":"a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2","nameLookup":"Basic Target Dummy","templateLookup":"A hapless dummy to test your combat prowess on."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Soldier01", "guid": 104465058, "path": "/db/blueprints/tm-castle-object-decor-target-dummy-soldier01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_TargetDummy_Soldier01.md", "sourceSha256": "78bd5413c35c5c2b0ea66accd5bd574c92db02b1f3ad2e96c53d9c6a0605d65d", "captureId": "blueprints-07",
+      "nameKey": "b760bb29-f157-4cd4-b7e6-a6055dad1f82", "nameRaw": "Soldier Target Dummy",
+      "descriptionKey": "a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2", "descriptionRaw": "A hapless dummy to test your combat prowess on.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A hapless dummy to test your combat prowess on.","toString":"A hapless dummy to test your combat prowess on.","resultKey":"a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2","nameLookup":"Soldier Target Dummy","templateLookup":"A hapless dummy to test your combat prowess on."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Vampire01", "guid": 230163020, "path": "/db/blueprints/tm-castle-object-decor-target-dummy-vampire01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_TargetDummy_Vampire01.md", "sourceSha256": "012dbb3d09504b133c3907bc01fd292ca5f44b42225f701a459858755b31bf13", "captureId": "blueprints-07",
+      "nameKey": "0b6b2193-2ffe-464b-bf2a-174683477063", "nameRaw": "Vampire Target Dummy",
+      "descriptionKey": "a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2", "descriptionRaw": "A hapless dummy to test your combat prowess on.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A hapless dummy to test your combat prowess on.","toString":"A hapless dummy to test your combat prowess on.","resultKey":"a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2","nameLookup":"Vampire Target Dummy","templateLookup":"A hapless dummy to test your combat prowess on."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_TargetDummy_Villager01", "guid": 1098118571, "path": "/db/blueprints/tm-castle-object-decor-target-dummy-villager01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_TargetDummy_Villager01.md", "sourceSha256": "da75eb068dae201ec6575ee9eb327444e198a33a8ffbff717f1052d4bf53249a", "captureId": "blueprints-07",
+      "nameKey": "66eaa0c4-28ee-4fc7-aa1e-a22aee77f4cd", "nameRaw": "Villager Target Dummy",
+      "descriptionKey": "a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2", "descriptionRaw": "A hapless dummy to test your combat prowess on.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A hapless dummy to test your combat prowess on.","toString":"A hapless dummy to test your combat prowess on.","resultKey":"a72928c6-1f6f-45d6-9e01-2aef3dfe9ce2","nameLookup":"Villager Target Dummy","templateLookup":"A hapless dummy to test your combat prowess on."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Terrarium01", "guid": -1558674217, "path": "/db/blueprints/tm-castle-object-decor-terrarium01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Terrarium01.md", "sourceSha256": "2f9298dd0449b28d7f213364bc5ae1df756f51cfdaead70bf4d4aade595779e0", "captureId": "blueprints-07",
+      "nameKey": "dbf7d603-0efa-496a-9ca3-83a407083c23", "nameRaw": "Luminescent Mushroom Terrarium",
+      "descriptionKey": "ad46b4f9-0558-4661-8038-6be33896d07d", "descriptionRaw": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Bioluminescent mushrooms extracted from the Cursed Forest.","toString":"Bioluminescent mushrooms extracted from the Cursed Forest.","resultKey":"ad46b4f9-0558-4661-8038-6be33896d07d","nameLookup":"Luminescent Mushroom Terrarium","templateLookup":"Bioluminescent mushrooms extracted from the Cursed Forest."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01", "guid": 886692114, "path": "/db/blueprints/tm-castle-object-decor-walkable-furnishing-strongblade-dlc-pillows01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01.md", "sourceSha256": "e81474ef697c8ce1819adb927ef673c465dc631e6da39fcfee91d6a423eece11", "captureId": "blueprints-07",
+      "nameKey": "1a243c48-6d10-489f-9754-b3a952ab2ff1", "nameRaw": "Nocturnal Opulence Floor Cushions",
+      "descriptionKey": "f1622418-546e-4fa1-a50c-e38db361956c", "descriptionRaw": "Delightfully cushy!",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Delightfully cushy!","toString":"Delightfully cushy!","resultKey":"f1622418-546e-4fa1-a50c-e38db361956c","nameLookup":"Nocturnal Opulence Floor Cushions","templateLookup":"Delightfully cushy!"}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows02", "guid": 95608669, "path": "/db/blueprints/tm-castle-object-decor-walkable-furnishing-strongblade-dlc-pillows02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows02.md", "sourceSha256": "52364766f8b35cde14f4448513330fe4b9d8ae43134672f51788af9baa835735", "captureId": "blueprints-07",
+      "nameKey": "e2834efb-3e65-4a04-857f-53577d22af24", "nameRaw": "Nocturnal Opulence Floor Cushions",
+      "descriptionKey": "f1622418-546e-4fa1-a50c-e38db361956c", "descriptionRaw": "Delightfully cushy!",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Delightfully cushy!","toString":"Delightfully cushy!","resultKey":"f1622418-546e-4fa1-a50c-e38db361956c","nameLookup":"Nocturnal Opulence Floor Cushions","templateLookup":"Delightfully cushy!"}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows03", "guid": 1123292049, "path": "/db/blueprints/tm-castle-object-decor-walkable-furnishing-strongblade-dlc-pillows03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows03.md", "sourceSha256": "8c163bfea3b8633673f551745bcd8e66606490f0cd90a143235276e3268e8aee", "captureId": "blueprints-07",
+      "nameKey": "440b0d40-4d32-4c4f-a928-ffc3f986b06a", "nameRaw": "Nocturnal Opulence Floor Cushions",
+      "descriptionKey": "f1622418-546e-4fa1-a50c-e38db361956c", "descriptionRaw": "Delightfully cushy!",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Delightfully cushy!","toString":"Delightfully cushy!","resultKey":"f1622418-546e-4fa1-a50c-e38db361956c","nameLookup":"Nocturnal Opulence Floor Cushions","templateLookup":"Delightfully cushy!"}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_WashBasin01", "guid": -3042048, "path": "/db/blueprints/tm-castle-object-decor-wash-basin01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_WashBasin01.md", "sourceSha256": "0f79f6673e213de0501b622cf23501bee7c0bb5846911eb6fcad69b1a63daa40", "captureId": "blueprints-07",
+      "nameKey": "bd7db43a-73a7-4fe8-bd5b-cb134ab83be9", "nameRaw": "Wash Stand",
+      "descriptionKey": "23509e9d-a7fb-4678-a2a6-9724d17cc4e1", "descriptionRaw": "For the sanitary vampire.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"For the sanitary vampire.","toString":"For the sanitary vampire.","resultKey":"23509e9d-a7fb-4678-a2a6-9724d17cc4e1","nameLookup":"Wash Stand","templateLookup":"For the sanitary vampire."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner01", "guid": -1117554565, "path": "/db/blueprints/tm-castle-pillar-decor-banner01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner01.md", "sourceSha256": "ee9527e2581f5604c7c98493ca404ba776e8dfec6cf4e62c0b74070a40040492", "captureId": "blueprints-01",
+      "nameKey": "6cc66371-bcc3-4577-99d6-bb6183ad956e", "nameRaw": "'Nocturne' Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nocturne' Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner02", "guid": -1123773678, "path": "/db/blueprints/tm-castle-pillar-decor-banner02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner02.md", "sourceSha256": "524d524bf4dc1e9b40af5b1c476275424a27843f6d2ef8c26fd14f8106b78f11", "captureId": "blueprints-08",
+      "nameKey": "d9367c15-f0f1-4db4-96b5-b193c67e472c", "nameRaw": "'Cabal' Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Cabal' Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner03", "guid": 1652335816, "path": "/db/blueprints/tm-castle-pillar-decor-banner03",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner03.md", "sourceSha256": "270cc0a515d80f7fb0064c343dad837d0a583b5f154d23da7f87b32c23158f8b", "captureId": "blueprints-08",
+      "nameKey": "af771c31-d01c-411c-bd33-8cef10d6f63c", "nameRaw": "'Nocturne' Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nocturne' Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner04", "guid": -163088387, "path": "/db/blueprints/tm-castle-pillar-decor-banner04",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner04.md", "sourceSha256": "2e97f3d9041d7f6beb176c474d3cce9ced3d4366521c8d52bdaf7f7099bf29c8", "captureId": "blueprints-08",
+      "nameKey": "de470714-713f-482d-86fc-6ec6cdae8659", "nameRaw": "'Cabal' Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Cabal' Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner05", "guid": 1317859336, "path": "/db/blueprints/tm-castle-pillar-decor-banner05",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner05.md", "sourceSha256": "033f2d804914f9d34bf6d6e0eeb7903d25a9aa6e6e1904397d76548fb6dac78b", "captureId": "blueprints-08",
+      "nameKey": "1318fc45-7938-49c0-9a04-89baedea2e74", "nameRaw": "Frayed Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Frayed Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Banner06", "guid": -725227635, "path": "/db/blueprints/tm-castle-pillar-decor-banner06",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Banner06.md", "sourceSha256": "ae291df70f9b6d4984fbe2bd20927fceedaeea1f3dc7d51dd02eaf3bc249ddb9", "captureId": "blueprints-08",
+      "nameKey": "86cee154-f486-4fc4-becc-a4880d2f4ea1", "nameRaw": "Frayed Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Frayed Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_BatWing01", "guid": -1727572164, "path": "/db/blueprints/tm-castle-pillar-decor-bat-wing01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_BatWing01.md", "sourceSha256": "25d2886f872a759d7a3c93029f019dcd502e9b1f62a4970ba7ab209be42c1f95", "captureId": "blueprints-08",
+      "nameKey": "3e695ca7-c4b8-476b-97ec-6a9a9c8e7903", "nameRaw": "'Nocturne' Wing",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nocturne' Wing","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner01", "guid": -760358969, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms01-banner01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms01_Banner01.md", "sourceSha256": "a571aec6c69f8342aa6bf918d37bfdab0755d0022363ccdbe7da045a71515006", "captureId": "blueprints-08",
+      "nameKey": "733a413b-a9ee-408f-8360-2a5e8a7e2380", "nameRaw": "'Nightfall' Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner02", "guid": 1027890023, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms01-banner02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms01_Banner02.md", "sourceSha256": "1fa33f83bb111cd667ba685c4b8d98f77fc0c5ef7d2e46ae37d2fc6efda36fba", "captureId": "blueprints-08",
+      "nameKey": "6514ad25-e8e3-406b-ba4c-eb75427e30c1", "nameRaw": "'Nightfall' Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms02_Banner01", "guid": 87261865, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms02-banner01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms02_Banner01.md", "sourceSha256": "174fa08bfd46f3f7e7adb58c768b2dd30ae954f245905b99058429fbd3bab352", "captureId": "blueprints-08",
+      "nameKey": "733a413b-a9ee-408f-8360-2a5e8a7e2380", "nameRaw": "'Nightfall' Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms02_Banner02", "guid": 1615364717, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms02-banner02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms02_Banner02.md", "sourceSha256": "407e7850bebcd7e4577dc10297a8e0bdb621d027034c152e13904523b2a3d293", "captureId": "blueprints-08",
+      "nameKey": "6514ad25-e8e3-406b-ba4c-eb75427e30c1", "nameRaw": "'Nightfall' Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms03_Banner01", "guid": 955474763, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms03-banner01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms03_Banner01.md", "sourceSha256": "ae282e8991296cccd7af393dfb2c2c4c8ada7e57c535e2e4ff2206378ecab196", "captureId": "blueprints-08",
+      "nameKey": "733a413b-a9ee-408f-8360-2a5e8a7e2380", "nameRaw": "'Nightfall' Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CoafOfArms03_Banner02", "guid": -876427373, "path": "/db/blueprints/tm-castle-pillar-decor-coaf-of-arms03-banner02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CoafOfArms03_Banner02.md", "sourceSha256": "c75492eb7d04e20c20cb1a38f56946d83b4e7445bcc03dd74ca56814684df524", "captureId": "blueprints-08",
+      "nameKey": "6514ad25-e8e3-406b-ba4c-eb75427e30c1", "nameRaw": "'Nightfall' Flush Mounted Banner",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nightfall' Flush Mounted Banner","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CrowWing01", "guid": 1713970619, "path": "/db/blueprints/tm-castle-pillar-decor-crow-wing01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CrowWing01.md", "sourceSha256": "6fbad5cbd3148dc26ce56393364fa12d595655c66df046682d9d01f9947b080e", "captureId": "blueprints-08",
+      "nameKey": "8f69e2cb-70f1-489a-a0f1-56ff04413926", "nameRaw": "'Corax' Wing",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Corax' Wing","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01", "guid": 1870073967, "path": "/db/blueprints/tm-castle-pillar-decor-crystal-lamp-hanging-lanterns01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01.md", "sourceSha256": "774fcf8a301374e182a5a7a18e198638b279d0b9a3e236c9e27bb2c1b9c89f49", "captureId": "blueprints-08",
+      "nameKey": "231b6bb5-0d6c-4e4d-8928-65468e294320", "nameRaw": "'Clairvoyance' Hanging Lamp",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Clairvoyance' Hanging Lamp","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_CrystalLamp_Lantern01", "guid": -1996281667, "path": "/db/blueprints/tm-castle-pillar-decor-crystal-lamp-lantern01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_CrystalLamp_Lantern01.md", "sourceSha256": "2caaec4644280f61ba2068f785779b5d9c2edb18504aef5e10e7459effee37e8", "captureId": "blueprints-08",
+      "nameKey": "5ccc2118-c2c0-4c29-bfd1-6636e281ec31", "nameRaw": "'Clairvoyance' Lamp Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Clairvoyance' Lamp Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable", "guid": 1969574504, "path": "/db/blueprints/tm-castle-pillar-decor-dlc-project-k-torch01-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable.md", "sourceSha256": "91f88f99c0587d4ce046baa30176b8628d7a9ac25127e60fad74e43a46e2e904", "captureId": "blueprints-08",
+      "nameKey": "9262ffe9-3eb3-43f0-9822-332e18ea89ba", "nameRaw": "Ancient Symphony Candelabra",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Ancient Symphony Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange", "guid": 876159415, "path": "/db/blueprints/tm-castle-pillar-decor-dlc-project-k-torch01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange.md", "sourceSha256": "176c11e5c41aa105b15deb8884b25b43bf74540877a961d543e43da0dbf7eeac", "captureId": "blueprints-08",
+      "nameKey": "9262ffe9-3eb3-43f0-9822-332e18ea89ba", "nameRaw": "Ancient Symphony Candelabra",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Ancient Symphony Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic01", "guid": 743735705, "path": "/db/blueprints/tm-castle-pillar-decor-door-bell-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_DoorBell_Gothic01.md", "sourceSha256": "1447499e818375cf2578a4afea1b8b56f367595c5dee3b1a197672ca9b00bf83", "captureId": "blueprints-08",
+      "nameKey": "b94aad61-ed38-492a-9d60-b5b187c00b44", "nameRaw": "'Nocturne' Door Bell",
+      "descriptionKey": "adf0f726-c1ba-450c-a172-7d19fadab85b", "descriptionRaw": "A functional decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A functional decoration for your pillars.","toString":"A functional decoration for your pillars.","resultKey":"adf0f726-c1ba-450c-a172-7d19fadab85b","nameLookup":"'Nocturne' Door Bell","templateLookup":"A functional decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic02", "guid": -359707458, "path": "/db/blueprints/tm-castle-pillar-decor-door-bell-gothic02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_DoorBell_Gothic02.md", "sourceSha256": "506951ddc7a1c3a9d567ed7e6a57cbc596492a73fb5b0d8023c860ceb7b68b1f", "captureId": "blueprints-08",
+      "nameKey": "1841de7e-5bbc-4933-96d1-226f46fcad65", "nameRaw": "'Cordial' Door Bell",
+      "descriptionKey": "adf0f726-c1ba-450c-a172-7d19fadab85b", "descriptionRaw": "A functional decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A functional decoration for your pillars.","toString":"A functional decoration for your pillars.","resultKey":"adf0f726-c1ba-450c-a172-7d19fadab85b","nameLookup":"'Cordial' Door Bell","templateLookup":"A functional decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic03", "guid": -1037785378, "path": "/db/blueprints/tm-castle-pillar-decor-door-bell-gothic03",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_DoorBell_Gothic03.md", "sourceSha256": "4fb5fb8a5988783104744b6005280ad0751d77d871f501c4823fff0e643b810d", "captureId": "blueprints-08",
+      "nameKey": "eadb1493-2550-43f3-9b5d-2d557e3e87b1", "nameRaw": "'Distinguished' Door Bell",
+      "descriptionKey": "adf0f726-c1ba-450c-a172-7d19fadab85b", "descriptionRaw": "A functional decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A functional decoration for your pillars.","toString":"A functional decoration for your pillars.","resultKey":"adf0f726-c1ba-450c-a172-7d19fadab85b","nameLookup":"'Distinguished' Door Bell","templateLookup":"A functional decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Garden_BloodRose01", "guid": -328288413, "path": "/db/blueprints/tm-castle-pillar-decor-garden-blood-rose01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Garden_BloodRose01.md", "sourceSha256": "03e928f81375aac2a0e92b9aaee36e5c379630a8720fd59ca28721652574cb52", "captureId": "blueprints-08",
+      "nameKey": "17b0f7d9-0114-458d-a2b4-a386f2c7a52b", "nameRaw": "Wall Growth - Blood Rose",
+      "descriptionKey": "e5c6aabb-63c4-4292-aee0-75f7130c73a3", "descriptionRaw": "Decorative vegetation for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your pillars.","toString":"Decorative vegetation for your pillars.","resultKey":"e5c6aabb-63c4-4292-aee0-75f7130c73a3","nameLookup":"Wall Growth - Blood Rose","templateLookup":"Decorative vegetation for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Garden_Cursed01", "guid": 1932505670, "path": "/db/blueprints/tm-castle-pillar-decor-garden-cursed01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Garden_Cursed01.md", "sourceSha256": "dadf5015065fe524b859a5e2ea932c1d939169e523c2846e95714a512a350724", "captureId": "blueprints-08",
+      "nameKey": "a7ba83da-234e-4d68-aaa3-d66955d1fa1c", "nameRaw": "Wall Growth - Morass",
+      "descriptionKey": "e5c6aabb-63c4-4292-aee0-75f7130c73a3", "descriptionRaw": "Decorative vegetation for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your pillars.","toString":"Decorative vegetation for your pillars.","resultKey":"e5c6aabb-63c4-4292-aee0-75f7130c73a3","nameLookup":"Wall Growth - Morass","templateLookup":"Decorative vegetation for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Garden_Ivy01", "guid": 172664191, "path": "/db/blueprints/tm-castle-pillar-decor-garden-ivy01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Garden_Ivy01.md", "sourceSha256": "f17a188f3451fd281e6be3ac258a2068507d81cbbea0118766a58c35c2264c47", "captureId": "blueprints-08",
+      "nameKey": "eac37743-81b7-42da-8868-c7fae7cdbd45", "nameRaw": "Wall Growth - Ivy",
+      "descriptionKey": "e5c6aabb-63c4-4292-aee0-75f7130c73a3", "descriptionRaw": "Decorative vegetation for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your pillars.","toString":"Decorative vegetation for your pillars.","resultKey":"e5c6aabb-63c4-4292-aee0-75f7130c73a3","nameLookup":"Wall Growth - Ivy","templateLookup":"Decorative vegetation for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Garden_Wisteria01", "guid": -479059917, "path": "/db/blueprints/tm-castle-pillar-decor-garden-wisteria01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Garden_Wisteria01.md", "sourceSha256": "7f413cd2c21e33cf6d558bc27b1f3ed5881b67d59436861a7987c6ab8e711aa5", "captureId": "blueprints-08",
+      "nameKey": "359df15f-5d16-4e63-8ec9-b71e10ad5512", "nameRaw": "Wall Growth - Wisteria",
+      "descriptionKey": "e5c6aabb-63c4-4292-aee0-75f7130c73a3", "descriptionRaw": "Decorative vegetation for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your pillars.","toString":"Decorative vegetation for your pillars.","resultKey":"e5c6aabb-63c4-4292-aee0-75f7130c73a3","nameLookup":"Wall Growth - Wisteria","templateLookup":"Decorative vegetation for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gargoyle01", "guid": 328148479, "path": "/db/blueprints/tm-castle-pillar-decor-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gargoyle01.md", "sourceSha256": "cf8cd3c7d73e63bf8383b95dcc4e063d13c89f9f2a8dfad2bedbaf4cd20883cd", "captureId": "blueprints-08",
+      "nameKey": "8978021a-d3f2-4894-a3aa-b3dc767c37f3", "nameRaw": "'Nocturne' Gargoyle",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"'Nocturne' Gargoyle","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle01_Dyable", "guid": 1209886173, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle01-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle01_Dyable.md", "sourceSha256": "02cb8b4584e3a7d8fb10b9d6ec75a09129816465e686dcc279ed41393899ee29", "captureId": "blueprints-08",
+      "nameKey": "cd578430-b4e8-40d3-9a1f-4f9e24aa0a5b", "nameRaw": "'Ardent' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Ardent' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle02_Dyable", "guid": 1810336204, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle02-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle02_Dyable.md", "sourceSha256": "3023959a739d469afaf0073548119846f1f916548e7093403bdbd08ace6318c2", "captureId": "blueprints-08",
+      "nameKey": "72456486-ab90-4445-a745-bf061b5854e2", "nameRaw": "'Modest' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Modest' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle03_Dyable", "guid": -777269524, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle03-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle03_Dyable.md", "sourceSha256": "8d07c865614a59bc939f4988f6136218ce73690a1fa22c2483d76b542fdf2789", "captureId": "blueprints-08",
+      "nameKey": "53d73ef6-f806-484b-82d1-b49938134a8b", "nameRaw": "'Gothica' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Gothica' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Gold_Dyable", "guid": 1171228583, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle04-gold-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle04_Gold_Dyable.md", "sourceSha256": "744b94e11cff56a0afcfbcddd472d1b6966e2a72a9ec7122fdb7de0a29b54b0b", "captureId": "blueprints-08",
+      "nameKey": "a5b5fc90-cbef-4d24-bf21-36a421854cf6", "nameRaw": "'Verdant' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Verdant' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable", "guid": -42990661, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle04-silver-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable.md", "sourceSha256": "2358613ef5b42b923a20a3485d044abcc001e10f657f8448ee2cd0028f88b676", "captureId": "blueprints-08",
+      "nameKey": "a5b5fc90-cbef-4d24-bf21-36a421854cf6", "nameRaw": "'Verdant' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Verdant' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable", "guid": 1321004130, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-candle04-wood-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable.md", "sourceSha256": "be23e997762207fa2253b8af08fd062520e8ae4b538517c41b400e74ffb06349", "captureId": "blueprints-08",
+      "nameKey": "a5b5fc90-cbef-4d24-bf21-36a421854cf6", "nameRaw": "'Verdant' Candle Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Verdant' Candle Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green", "guid": -19009133, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-gloomrot-lantern01-green",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green.md", "sourceSha256": "b5749d64aeedef254527459b00392d43c58b11a2cd53f8253e18e954577a1432", "captureId": "blueprints-08",
+      "nameKey": "cf8e572b-51a3-47b3-8209-26dd8f8091be", "nameRaw": "Mounted Chemical Light",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Mounted Chemical Light","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange", "guid": -721714254, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-halloween-lantern01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange.md", "sourceSha256": "dffd988a882d8338c9e699294ef636110d9760014ddcd0441740805a99d52f06", "captureId": "blueprints-08",
+      "nameKey": "55e5a681-1261-4d9f-a051-5f9599b3f9c5", "nameRaw": "Haunted Nights Gourd Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Haunted Nights Gourd Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange", "guid": 514660688, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-hanging-lantern01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange.md", "sourceSha256": "752710f342d54ac8043e6e9bf725836060c00cd8b457bf98f0720bd559c2e265", "captureId": "blueprints-08",
+      "nameKey": "b72a901c-1998-4da8-b71b-41815681dd53", "nameRaw": "'Elegant' Hanging Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Elegant' Hanging Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern02", "guid": 1039319072, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-hanging-lantern02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HangingLantern02.md", "sourceSha256": "57aef4c4ec619545a8641ce520224472b1796b0c8cb3813f6d73ab10ee437208", "captureId": "blueprints-08",
+      "nameKey": "b9610f92-5515-42ed-a330-ac5eccf7a2fa", "nameRaw": "'Basilica' Hanging Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Basilica' Hanging Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern03", "guid": 222452688, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-hanging-lantern03",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HangingLantern03.md", "sourceSha256": "b07b893f68dfb85dbdccb385f8b18181fe378b57dc709e2d3feafb1ab845b8c8", "captureId": "blueprints-08",
+      "nameKey": "353ce81a-d441-48fa-8402-b7ffd38310db", "nameRaw": "'Balefire' Hanging Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Balefire' Hanging Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern04", "guid": -1938248109, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-hanging-lantern04",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HangingLantern04.md", "sourceSha256": "6440bd7cb756d619151969e2c956f67efc52dfd4bebeafde1dfb1f50e2d6cd37", "captureId": "blueprints-08",
+      "nameKey": "677ebefd-03b2-4d71-b084-1ae3d0b92f91", "nameRaw": "'Gothica' Hanging Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Gothica' Hanging Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern05", "guid": 1990191735, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-hanging-lantern05",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_HangingLantern05.md", "sourceSha256": "c1f1993eb016c88d6b16b9e852eaee1b3142b60afd6262f35723004fa47c1516", "captureId": "blueprints-08",
+      "nameKey": "14212a72-6833-4f9b-9cec-9f71ddb511ef", "nameRaw": "'Esoterica' Hanging Lantern",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Esoterica' Hanging Lantern","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Torch01_Orange", "guid": -1998196357, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-torch01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Torch01_Orange.md", "sourceSha256": "29d44f5c2e65ec27165efa348d3c4748e95130caf2c1801eb747629b1d870797", "captureId": "blueprints-08",
+      "nameKey": "d79e5faa-5593-4ae4-aa1b-d9048665f898", "nameRaw": "'Modest' Torch",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Modest' Torch","templateLookup":"Used to light up rooms."}
+    }
+  ]
+}
