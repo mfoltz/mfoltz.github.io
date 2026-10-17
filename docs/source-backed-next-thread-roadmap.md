@@ -1,11 +1,49 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-09. This is the single active roadmap for this repository.
+Reviewed: 2026-10-17. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
+
+The first 128-record literal Blueprint text expansion is accepted locally on
+`codex/blueprint-text-expansion-128`, based on the accepted ten-record pilot
+`a5042b567fbeebd8b4c7dd35566c6d8811a5a9c8`. It adds 128 owned English names
+and descriptions from exact managed-data, retained-source and native-text joins.
+The combined witnesses provide 138 owned names and 138 descriptions. High-signal
+display coverage is 144/1198, including six other icon-bearing rows; two new
+records already had icon signals. See the
+[expansion checkpoint](checkpoints/2026-10-17-blueprint-text-expansion-128.md).
+
+The portable witness pins eight 16-record parts. All new pairs are literal and
+zero-parameter; no formatter, markup widening or new extraction is involved.
+The original ten-record witness, including its exact native carpet result,
+stays unchanged. Plant and Debug Room are now included by this expansion's
+explicit allowance. Technical records and generic names retain their recorded
+text without implying live-game availability.
+
+Exactly 301 generated JSON files change from the accepted pilot: 128 Blueprint
+details, 43 item details, 128 source backlinks and two aggregate indexes. Only
+approved text fields and resulting existing ordering change. New related-label
+impact is 66 material and 32 book references; identities, routes, quantities,
+membership, forward materials and artwork evidence are preserved.
+
+The focused suite passes 654 responsive checks with 662 retained PNGs. All 648
+changed/additional frames were inspected with loaded Inter/Cinzel fonts. The
+ten-record pilot and existing navigation/browse/Blueprint/artwork regressions
+pass, including native 200% zoom. All 92 final baseline comparisons pass after
+20 inspected permitted updates; 72 baseline hashes remain identical. Required
+verification, unit/artwork tests and repeated field-level generation audits pass.
+
+The clean task branch contains verified local commits. Original local main
+remains `7ff6162e3a`; the original checkout/index/pending files, accepted pilot
+and 3,070 previously sealed evidence files are preserved. The owned preview is
+stopped. Next is review of the combined pilot/expansion stack before any
+separately authorized consolidation or publication. No remote authority was
+refreshed, and no merge, push, deployment or cleanup is authorized here.
+
+## Historical pilot state through October 9
 
 The ten-record Blueprint text pilot is accepted locally on
 `codex/blueprint-text-pilot`, based on `7ff6162e3a`. It promotes ten owned English
@@ -396,22 +434,25 @@ counts reflect the retained source and current exact routes:
 | Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
 | Material to Blueprint uses (implemented locally) | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-The ready high-value action is review of the local ten-record Blueprint text
-pilot before a separately authorized consolidation/publication pass.
-Preserve dependency order and refresh remote authority at that point. This
-checkpoint does not authorize merge, push, PR, deployment or branch cleanup.
+The ready high-value action is review of the combined local ten-record pilot
+and first 128-record expansion before a separately authorized consolidation or
+publication pass. Preserve dependency order and refresh remote authority at that
+point. This checkpoint does not authorize merge, push, PR, deployment or cleanup.
 
 The delivered ingredient group still covers 1,385 requirements across 221 items
-and 664 recipes, with a largest list of 88. Sparse owned Blueprint text (10/1198
-names and descriptions; 18/1198 high-signal display rows) remains a limitation;
-complete source identifiers are retained. Absent
-reverse rows do not establish absence of uses, and recorded requirements do not
-establish crafting access, acquisition or availability.
+and 664 recipes, with a largest list of 88. Blueprint text now covers 138/1198
+owned names and descriptions, with 144/1198 high-signal display rows. Complete
+source identifiers remain available. Absent reverse rows do not establish
+absence of uses; recorded requirements do not establish crafting access,
+acquisition or availability.
 
-Further enrichment needs its own bounded source audit and plan. No new extraction,
-artwork widening or source promotion is queued here. The October 5 census remains
-historical evidence under `roadmap-next-pass-20261005/census.json` in the local
-artifact root. Broader enrichment lanes below remain parked.
+The catalog ownership/formatting audit supports 918 new literal-only,
+zero-parameter pairs. This expansion imports 128, leaving 790 candidates for a
+separate bounded plan. Parameterized text, malformed markup and other held rows
+need their own explicit contracts. No additional import, extraction or artwork
+widening is queued. The October 5 census remains historical evidence under
+`roadmap-next-pass-20261005/census.json` in the local artifact root. Other
+enrichment lanes below remain parked.
 
 ## Parked lanes
 

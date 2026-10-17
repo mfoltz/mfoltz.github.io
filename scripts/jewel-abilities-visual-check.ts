@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
-import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { nativeZoomRecorder, openNativeZoomController } from "./blueprint-text-zoom";
 import { chromium, type Page } from "playwright";
 import type { DbEntityDetail, DbIndexEntry } from "../src/types/db";
 
@@ -129,30 +130,13 @@ try {
       } finally { await context.close(); }
     }
   }
-  const extension = path.join(output, "local-zoom-extension");
-  await mkdir(extension, { recursive: true });
-  await writeFile(path.join(extension, "manifest.json"), JSON.stringify({ manifest_version: 3, name: "Local jewel zoom check", version: "1.0",
-    host_permissions: [`${new URL(baseUrl).origin}/*`], background: { service_worker: "worker.js" } }));
-  await writeFile(path.join(extension, "worker.js"), "chrome.runtime.onInstalled.addListener(() => {});\n");
+  const recordZoom = nativeZoomRecorder(output);
   for (const theme of ["dark", "light"] as const) {
-    const profile = await mkdtemp(path.join(output, "zoom-profile-"));
-    const context = await chromium.launchPersistentContext(profile, { channel: "chromium", headless: true,
-      viewport: { width: 1280, height: 960 }, colorScheme: theme,
-      args: [`--disable-extensions-except=${extension}`, `--load-extension=${extension}`] });
+    const zoom = await openNativeZoomController(baseUrl, theme, recordZoom);
+    const { context, page } = zoom;
     try {
-      await context.addInitScript((value) => localStorage.setItem("vrising-theme", value), theme);
-      const worker = context.serviceWorkers()[0] ?? await context.waitForEvent("serviceworker");
-      const page = context.pages()[0] ?? await context.newPage();
       await ready(page, linked);
-      const factor = await worker.evaluate(async (url) => {
-        const api = (globalThis as unknown as { chrome: { tabs: {
-          query(input: { url: string }): Promise<Array<{ id: number }>>;
-          setZoom(id: number, factor: number): Promise<void>; getZoom(id: number): Promise<number>;
-        } } }).chrome;
-        const [tab] = await api.tabs.query({ url });
-        await api.tabs.setZoom(tab.id, 2);
-        return api.tabs.getZoom(tab.id);
-      }, `${new URL(baseUrl).origin}/*`);
+      const factor = await zoom.setZoom();
       assert.equal(factor, 2);
       await page.waitForFunction(() => devicePixelRatio === 2 && innerWidth === 640 && innerHeight === 480);
       const selector = `#jewel-associated-ability a[href='${ability.path}']`;
@@ -167,9 +151,7 @@ try {
       await page.waitForURL(baseUrl + ability.path);
       receipts.push({ theme, nativeZoom: factor, effectiveCssViewport: "640x480", keyboardAbilityLink: "passed", overflow: 0 });
     } finally {
-      await context.close();
-      if (path.dirname(path.resolve(profile)) !== output) throw new Error("Unexpected zoom profile path");
-      await rm(profile, { recursive: true, force: true, maxRetries: 3, retryDelay: 100 });
+      await zoom.close();
     }
   }
   await writeFile(path.join(output, "checks.json"), JSON.stringify(receipts, null, 2) + "\n");

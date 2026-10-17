@@ -163,7 +163,7 @@ try {
     await go(page, routes[2]);
     console.log(`[check] ${width}px search interactions`);
     assert.equal(await page.locator(".database-ledger-row").count(), 24);
-    assert.ok(await page.getByText("456 results Â· 1 section", { exact: true }).isVisible());
+    assert.ok(await page.getByText("456 results · 1 section", { exact: true }).isVisible());
     assert.ok(await page.getByText("Showing 24 of 456", { exact: true }).isVisible());
     for (const label of ["All Results", "Database", "Reference"]) {
       assert.ok(await page.getByRole("button", { name: new RegExp(`^${label} `) }).isVisible());
@@ -192,7 +192,7 @@ try {
     }
     await page.locator("main input").fill("no-such-record-zzzz");
     await page.getByText('No search results for "no-such-record-zzzz".', { exact: true }).waitFor();
-    assert.ok(await page.getByText("0 results Â· 0 sections", { exact: true }).isVisible());
+    assert.ok(await page.getByText("0 results · 0 sections", { exact: true }).isVisible());
     await page.locator("main input").fill("Unmatched long query ".repeat(30));
     await page.waitForURL(/Unmatched/);
     assert.ok(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth), "Long search query stays inside the page");
