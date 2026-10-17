@@ -1,0 +1,652 @@
+{
+  "schemaVersion": 2,
+  "sourceKind": "managed-blueprint-text-literal-expansion",
+  "selectionSha256": "cc5204af68cae017e3740deb5034b06584c2188ee120c765f4797e75ea88cb35",
+  "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+  "uiEquivalenceEstablished": false,
+  "generalNumericRuleEstablished": false,
+  "ownership": {
+    "name": "ManagedBlueprintData.Name.Key",
+    "description": "ManagedBlueprintData.Description.Key.Key"
+  },
+  "captures": {
+    "blueprints-01": {
+      "schemaVersion": 4,
+      "sourceKind": "client-owned-blueprint-text-catalog-batch",
+      "capturedUtc": "2026-10-10T21:36:16.8926608Z",
+      "captureStartedUtc": "2026-10-10T21:36:16.359534Z",
+      "manifestSha256": "2378042faeaabc0fbe74877a4e4f6dd3031fe91ee65285945bf6d9520147a954",
+      "batchId": "blueprints-01",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      },
+      "captureSha256": "27094a90d0394d333ef21f9021dd8cef6e7acd8a0b5f27129612140f017a07f3",
+      "artifactRef": "blueprint-text-attempt13-preparation-20261010/BlueprintTextCatalogBatch-blueprints-01.json"
+    },
+    "blueprints-02": {
+      "schemaVersion": 4,
+      "sourceKind": "client-owned-blueprint-text-catalog-batch",
+      "capturedUtc": "2026-10-11T17:47:35.9768803Z",
+      "captureStartedUtc": "2026-10-11T17:47:34.5721122Z",
+      "manifestSha256": "4e79ca2894081c64ed40e9ba6a2bda829f5558ecb8e06fc6e9cfbf6a441cf033",
+      "batchId": "blueprints-02",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      },
+      "captureSha256": "5aa180daf3e9af204be1c25a3d7810ed47ad00f9a90dda5403e89878c900a66e",
+      "artifactRef": "blueprint-text-attempt14-preparation-20261010/BlueprintTextCatalogBatch-blueprints-02.json"
+    },
+    "blueprints-03": {
+      "schemaVersion": 4,
+      "sourceKind": "client-owned-blueprint-text-catalog-batch",
+      "capturedUtc": "2026-10-11T18:23:38.7671253Z",
+      "captureStartedUtc": "2026-10-11T18:23:37.7770189Z",
+      "manifestSha256": "0768b7d89e5f08143ab6c7006579ed9f40b2abb9f302416af2c2835895fd2ff2",
+      "batchId": "blueprints-03",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      },
+      "captureSha256": "c7ba1424b307921b8f0ef4342edd932098a01b9de025ca919c9fdb8c5357f935",
+      "artifactRef": "blueprint-text-attempt15-preparation-20261011/BlueprintTextCatalogBatch-blueprints-03.json"
+    }
+  },
+  "rowsSemanticSha256": "6fc6757a402c9dc39739c738662752015de7048b79f4e17829b436efab1c4a95",
+  "parts": [
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-01.json",
+      "sha256": "a3b0fd50e7b1659fb85c8dfb570766b9c7a677a7f77186a7297bbe9a40c02dfd",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-02.json",
+      "sha256": "d07a38191ad5d6e9d24c0f8c6722ba72f44e7651e18880f9ceb2eb0a1185bbc2",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-03.json",
+      "sha256": "1e7932b828f1562b516d14ef7cba3c4c32480ffa1d05692ecfee4d88d42598f0",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-04.json",
+      "sha256": "280023edbf4d2f19ca2fae5a68ab6aacd0db4eb2208794264fa80c51d7785cc7",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-05.json",
+      "sha256": "02c0e13bf8484c803ca8a6cd8f4d6e3635f5a31e240512899a25a55ae3a18890",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-06.json",
+      "sha256": "234c0d50df45bbf47224ad9fffe93b1225901aa3b966f7ee2cd8ab43bc062a25",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-07.json",
+      "sha256": "6ac28ff1252f80559ccc17499053cb11e245a3dc79f6fa28fd1927a6a3bc81ba",
+      "rowCount": 16
+    },
+    {
+      "path": "data/enrichment/blueprint-text-expansion-128/part-08.json",
+      "sha256": "a7bb8e802588475744e89ac1358b433d0e26d5e2f8fa0f33cff00900eb8ce06c",
+      "rowCount": 16
+    }
+  ],
+  "targets": [
+    [
+      "BP_Castle_Chain_Plant_BleedingHeart",
+      -1473915226
+    ],
+    [
+      "BP_Castle_Chain_Plant_BloodRose",
+      -591319789
+    ],
+    [
+      "BP_Castle_Chain_Plant_CorruptedFlower",
+      1655131947
+    ],
+    [
+      "BP_Castle_Chain_Plant_Cotton",
+      1171326100
+    ],
+    [
+      "BP_Castle_Chain_Plant_FireBlossom",
+      1141816596
+    ],
+    [
+      "BP_Castle_Chain_Plant_GhostShroom",
+      -947749857
+    ],
+    [
+      "BP_Castle_Chain_Plant_Grapes",
+      -486047789
+    ],
+    [
+      "BP_Castle_Chain_Plant_HellsClarion",
+      -1946047422
+    ],
+    [
+      "BP_Castle_Chain_Plant_Lotus",
+      1230409568
+    ],
+    [
+      "BP_Castle_Chain_Plant_MourningLily",
+      -1057579736
+    ],
+    [
+      "BP_Castle_Chain_Plant_SnowFlower",
+      -1475317620
+    ],
+    [
+      "BP_Castle_Chain_Plant_Sunflower",
+      1659865297
+    ],
+    [
+      "BP_Castle_Chain_Plant_Thistle",
+      -437194426
+    ],
+    [
+      "BP_Castle_Chain_Plant_TrippyShroom",
+      1228922848
+    ],
+    [
+      "BP_Castle_Chain_Tree_AppleCursed_01",
+      -315187808
+    ],
+    [
+      "BP_Castle_Chain_Tree_AppleTree_01",
+      -1362642773
+    ],
+    [
+      "BP_Castle_Chain_Tree_AspenAutum_01",
+      1072528933
+    ],
+    [
+      "BP_Castle_Chain_Tree_Aspen_01",
+      -683262945
+    ],
+    [
+      "BP_Castle_Chain_Tree_BirchAutum_01",
+      500254158
+    ],
+    [
+      "BP_Castle_Chain_Tree_Birch_01",
+      -355620152
+    ],
+    [
+      "BP_Castle_Chain_Tree_CherryBlossomWhite_01",
+      148077443
+    ],
+    [
+      "BP_Castle_Chain_Tree_CherryBlossom_01",
+      1646702119
+    ],
+    [
+      "BP_Castle_Chain_Tree_Cypress_01",
+      308236778
+    ],
+    [
+      "BP_Castle_Chain_Tree_GloomTree_01",
+      -1523660086
+    ],
+    [
+      "BP_Castle_Chain_Tree_Oak_01",
+      75711340
+    ],
+    [
+      "BP_Castle_Chain_Tree_Spruce_01",
+      1218240817
+    ],
+    [
+      "BP_Castle_Chain_Tree_WeepingWillow_01",
+      851064037
+    ],
+    [
+      "BP_Castle_Debug_ArtQualityBenchmarkRoom",
+      -1222017586
+    ],
+    [
+      "BP_Castle_Debug_Room",
+      -1773550381
+    ],
+    [
+      "BP_Castle_Debug_RoomBig",
+      1156555349
+    ],
+    [
+      "BP_Castle_Debug_RoomMega",
+      -1787902947
+    ],
+    [
+      "BP_Castle_Wall_Tier01_Wood_Entrance",
+      106693260
+    ],
+    [
+      "BP_Castle_Wall_Tier01_Wood_Plain",
+      -1571980899
+    ],
+    [
+      "BP_Castle_Wall_Tier02_Stone_Entrance",
+      -281098336
+    ],
+    [
+      "BP_Castle_Wall_Tier02_Stone_EntranceWide",
+      1361610591
+    ],
+    [
+      "BP_Castle_Wall_Tier02_Stone_Plain",
+      1388232656
+    ],
+    [
+      "BP_Castle_Wall_Tier02_Stone_Window",
+      244714081
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Arena01_Base",
+      -383968909
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Arena01_Pillar",
+      133356148
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Arena01_Wall01",
+      717524512
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Arena01_Wall02",
+      777443944
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Arena01_Wall03",
+      -1288113966
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone01",
+      -332335770
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone01_Base",
+      41087088
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone01_Pillar",
+      1941863906
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone02",
+      -1154737300
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone02_Pillar",
+      1993653084
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone03",
+      -1387492893
+    ],
+    [
+      "BP_Tier02_WallpaperSet_CastleStone03_Pillar",
+      -266828070
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical01_Clean01",
+      -176364362
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical01_Clean02",
+      489743200
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical01_Pillar",
+      -1170288721
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical02_Clean01",
+      1148782162
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical02_Clean02",
+      1618613889
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical02_Pillar",
+      1194814288
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical03_Clean01",
+      1409791469
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical03_Clean02",
+      1397392538
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Classical03_Pillar",
+      46931570
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Cordial01_Base",
+      1899348267
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Cordial01_Clean",
+      -1833888637
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Cordial01_Flourish",
+      1461020066
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Cordial01_Pillar",
+      -429864038
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Cordial01_Wallpaper",
+      1946862360
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCGloomrot_01",
+      -1119089472
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCGloomrot_02",
+      -534388394
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCGloomrot_Base",
+      1690544659
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCGloomrot_Pillar",
+      -1601728225
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal01_Base",
+      1340269648
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal01_Pillar",
+      223872087
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal01_Wall01",
+      -1148467159
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal02_Base",
+      -277386175
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal02_Pillar",
+      2027991438
+    ],
+    [
+      "BP_Tier02_WallpaperSet_DLCRoyal02_Wall01",
+      -1375591798
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Damaged",
+      -1727028370
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Default",
+      2077581638
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Disabled",
+      1415207415
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Halloween01_01",
+      -971200685
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Halloween01_02",
+      1031586093
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Imperious01_Base",
+      2097261851
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Imperious01_Clean",
+      1407127248
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Imperious01_FullWallpaper01",
+      -1053577725
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Imperious01_HalfWallpaper01",
+      -1035617074
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Imperious01_Pillar",
+      -1880912080
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Phased",
+      1132666075
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Prison01_Base",
+      -1490769381
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Prison01_BedAndBall",
+      -973740076
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Prison01_Clean",
+      -1951528690
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Prison01_Pillar",
+      761818190
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Prison01_Restraints",
+      227796889
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Clean",
+      -1268733747
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Clean_Pillar",
+      1363241567
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Corners",
+      1327946026
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Expansion",
+      -739519538
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Expansion_Pillar",
+      1259530332
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Left",
+      1199070093
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Middle",
+      1105868982
+    ],
+    [
+      "BP_Tier02_WallpaperSet_ProjectK_Right",
+      523616828
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable01_Base",
+      -2080336936
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable01_Pillar",
+      2118134686
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable01_Wall01",
+      628257701
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable01_Wall02",
+      1742424551
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable02_Base",
+      986381883
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable02_Pillar",
+      2071956520
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable02_Wall01",
+      1940345151
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Stable02_Wall02",
+      1122908926
+    ],
+    [
+      "BP_Tier02_WallpaperSet_StrongbladeDLC01_Base",
+      -2037530823
+    ],
+    [
+      "BP_Tier02_WallpaperSet_StrongbladeDLC01_Pillar",
+      -1860752815
+    ],
+    [
+      "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall01",
+      -1813563573
+    ],
+    [
+      "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall02",
+      880930151
+    ],
+    [
+      "BP_Tier02_WallpaperSet_StrongbladeDLC01_Wall03",
+      961341537
+    ],
+    [
+      "BP_Tier02_WallpaperSet_WoodPanel01_01",
+      1927754471
+    ],
+    [
+      "BP_Tier02_WallpaperSet_WoodPanel01_02",
+      -792881390
+    ],
+    [
+      "BP_Tier02_WallpaperSet_WoodPanel01_Base",
+      1177172454
+    ],
+    [
+      "BP_Tier02_WallpaperSet_WoodPanel01_Pillar",
+      70614813
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Workshop01_Base",
+      -2053707412
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Workshop01_Clean",
+      -809474821
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Workshop01_Pillar",
+      -1932179375
+    ],
+    [
+      "BP_Tier02_WallpaperSet_Workshop01_ToolStorage",
+      -1993386353
+    ],
+    [
+      "TM_BloodAltar_T01",
+      1819321433
+    ],
+    [
+      "TM_BloodFountain_CastleHeart_Rebuilding",
+      -600018251
+    ],
+    [
+      "TM_CastleOuterWalls_Gate01",
+      -826211390
+    ],
+    [
+      "TM_CastleOuterWalls_Ruins01",
+      -1236321910
+    ],
+    [
+      "TM_CastleOuterWalls_Ruins02",
+      -1788250707
+    ],
+    [
+      "TM_CastleOuterWalls_Ruins03",
+      979674153
+    ],
+    [
+      "TM_CastleOuterWalls_Ruins_Gate01",
+      1455390331
+    ],
+    [
+      "TM_CastleOuterWalls_Wall01",
+      776261229
+    ],
+    [
+      "TM_Castle_Fence_Iron01",
+      44535007
+    ],
+    [
+      "TM_Castle_Fence_Iron02",
+      -682177661
+    ]
+  ]
+}
