@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase02", "guid": 1864693233, "path": "/db/blueprints/tm-castle-object-decor-cabal-vase02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Vase02.md", "sourceSha256": "78f35aa117e252f82ef2166a81e578089df4fcbd97b71c3d968e56ca41cbb5f5", "captureId": "blueprints-05",
+      "nameKey": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb", "nameRaw": "Coffee Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"Coffee Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase03", "guid": -761353546, "path": "/db/blueprints/tm-castle-object-decor-cabal-vase03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Vase03.md", "sourceSha256": "b2f32965a1bd4b5fe2c9ef359712f158dd9bb7d3f41ae4c2f41c8853fcddb104", "captureId": "blueprints-05",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase04", "guid": 1943013666, "path": "/db/blueprints/tm-castle-object-decor-cabal-vase04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Vase04.md", "sourceSha256": "fbd3f3c471317fa21e7d39c3f51199952331d80ce5b3d53b7520f1eff1a00cd8", "captureId": "blueprints-05",
+      "nameKey": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb", "nameRaw": "Coffee Plant",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"Coffee Plant","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Cabal_Vase06", "guid": 1512138920, "path": "/db/blueprints/tm-castle-object-decor-cabal-vase06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Cabal_Vase06.md", "sourceSha256": "015be394fe85e4a2740c0e03731a58d9ed468f0aa5ae38a4da91883a6066012d", "captureId": "blueprints-05",
+      "nameKey": "02974344-300b-4732-a8fe-b994e2ed63de", "nameRaw": "'Pelagic' Series Vase",
+      "descriptionKey": "8a2e467b-bbdb-4e03-a3eb-b54b645de4ce", "descriptionRaw": "A fancy vase for a fancy castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A fancy vase for a fancy castle.","toString":"A fancy vase for a fancy castle.","resultKey":"8a2e467b-bbdb-4e03-a3eb-b54b645de4ce","nameLookup":"'Pelagic' Series Vase","templateLookup":"A fancy vase for a fancy castle."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand01", "guid": -939151406, "path": "/db/blueprints/tm-castle-object-decor-candle-stand01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand01.md", "sourceSha256": "990e543be4b9d748fbc9e27ae12d6053f809d1df5230c94d94c0a48378f9d3c3", "captureId": "blueprints-05",
+      "nameKey": "35479a57-4a0d-4cb0-adb6-38b9a77e159e", "nameRaw": "'Modest' Candelabra",
+      "descriptionKey": "287946ad-acae-42b8-8589-165abd47770d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"287946ad-acae-42b8-8589-165abd47770d","nameLookup":"'Modest' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand02", "guid": -629121130, "path": "/db/blueprints/tm-castle-object-decor-candle-stand02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand02.md", "sourceSha256": "102e4d271cd8527bf3add3c6b15016d32f673c7b0cb1716a31c740dd18c486b1", "captureId": "blueprints-05",
+      "nameKey": "d2cae281-23a7-4691-98b6-d6603fbfcd5e", "nameRaw": "'Omen' Candle Stand",
+      "descriptionKey": "287946ad-acae-42b8-8589-165abd47770d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"287946ad-acae-42b8-8589-165abd47770d","nameLookup":"'Omen' Candle Stand","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand03", "guid": -2022124892, "path": "/db/blueprints/tm-castle-object-decor-candle-stand03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand03.md", "sourceSha256": "589429c307dd2daf39def650f4352bde083866644df15f1e1b21c046453267ea", "captureId": "blueprints-05",
+      "nameKey": "a775be83-4e17-4899-959c-73ae7b29af94", "nameRaw": "'Invocation' Candle Stand",
+      "descriptionKey": "287946ad-acae-42b8-8589-165abd47770d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"287946ad-acae-42b8-8589-165abd47770d","nameLookup":"'Invocation' Candle Stand","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Cabal", "guid": 1130658863, "path": "/db/blueprints/tm-castle-object-decor-candle-stand-cabal",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand_Cabal.md", "sourceSha256": "7e92d88844586e7158d5fb2be2b0f27124d2a20154a57d95038ab10cddc67000", "captureId": "blueprints-05",
+      "nameKey": "f57f175a-35d5-4843-8fe1-6b599375f781", "nameRaw": "'Cordial' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Cordial' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Gothic", "guid": 570436365, "path": "/db/blueprints/tm-castle-object-decor-candle-stand-gothic",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand_Gothic.md", "sourceSha256": "a19979d86346eea11669b16b51c888a597882c7a69127e7ec630fa2704f8182a", "captureId": "blueprints-05",
+      "nameKey": "37a7fed3-a644-409f-be5b-ade3613ced46", "nameRaw": "'Elegant' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Elegant' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CandleStand_Lavish", "guid": 780798903, "path": "/db/blueprints/tm-castle-object-decor-candle-stand-lavish",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CandleStand_Lavish.md", "sourceSha256": "3940408931c1e312cee8cf8eb1e41322fa7ac5918e64f02df98c08c71b9ecc70", "captureId": "blueprints-05",
+      "nameKey": "d5051e1b-553a-460e-a5ac-75c3d2f918ed", "nameRaw": "'Ardent' Candelabra",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Ardent' Candelabra","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Base", "guid": -1325342529, "path": "/db/blueprints/tm-castle-object-decor-chair-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Base.md", "sourceSha256": "3c24e7a2a18bd5fc67b8bdd382d492d08c63cc938d6939c67812eccb26309135", "captureId": "blueprints-05",
+      "nameKey": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2", "nameRaw": "'Omen' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Omen' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Cabal01", "guid": -1126014450, "path": "/db/blueprints/tm-castle-object-decor-chair-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Cabal01.md", "sourceSha256": "4ff19e4dfe760131cc2f1c7e0f4733b7926203db3fee4778500276ad09af598e", "captureId": "blueprints-05",
+      "nameKey": "f2fc862e-c1ec-440b-bd25-a8c891b51857", "nameRaw": "'Nocturne' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Nocturne' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_DeskCabal01", "guid": 465502058, "path": "/db/blueprints/tm-castle-object-decor-chair-desk-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_DeskCabal01.md", "sourceSha256": "0d594738a05c1a978831e42547f0f0b4a16abe9a55c24a061eb191127b720dd0", "captureId": "blueprints-05",
+      "nameKey": "c770c285-9a57-43f4-b337-1c9cc9625be4", "nameRaw": "'Cordial' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Cordial' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_DeskGothic01", "guid": 2096482330, "path": "/db/blueprints/tm-castle-object-decor-chair-desk-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_DeskGothic01.md", "sourceSha256": "41db8cf5c7036c43ffddb78ef3a6703b59eacf955044d0158dbd84cc95d43a7b", "captureId": "blueprints-05",
+      "nameKey": "77f75bd1-f4f7-469b-b006-1f47042a178d", "nameRaw": "'Erudition' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Erudition' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_DeskLavish01", "guid": -752836365, "path": "/db/blueprints/tm-castle-object-decor-chair-desk-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_DeskLavish01.md", "sourceSha256": "5a0c60aec276c1f5475dd5d702323f9bb109e7a2ef92abeea6b6ab3a39f6c703", "captureId": "blueprints-05",
+      "nameKey": "bf464c30-4318-48c7-9990-7bc2275bc6bc", "nameRaw": "'Elegance' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Elegance' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Gothic01", "guid": 1147414470, "path": "/db/blueprints/tm-castle-object-decor-chair-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Gothic01.md", "sourceSha256": "970454d7f16acface697728d778b234757cbb9e78b6f92bb8f0bccd4c1b00274", "captureId": "blueprints-05",
+      "nameKey": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2", "nameRaw": "'Omen' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Omen' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Lavish01", "guid": 1481841976, "path": "/db/blueprints/tm-castle-object-decor-chair-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Lavish01.md", "sourceSha256": "0f30d2d5068d40ae242cd1c60a572f9242d444dc1a4fc975133c80528b30aa5a", "captureId": "blueprints-05",
+      "nameKey": "823519a5-a350-4666-b552-e149ecb7588f", "nameRaw": "'Distinguished' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Distinguished' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Red_Base", "guid": -8015754, "path": "/db/blueprints/tm-castle-object-decor-chair-red-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Red_Base.md", "sourceSha256": "e1e7f18944634ac56e3fcf303c30930c6747dad5c1c5b320927b79c5be5aee33", "captureId": "blueprints-05",
+      "nameKey": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2", "nameRaw": "'Omen' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Omen' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_Simple01", "guid": 551046781, "path": "/db/blueprints/tm-castle-object-decor-chair-simple01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_Simple01.md", "sourceSha256": "4dbde2008f0ff5138e9fd4b11f908a25e013c6e42756000c8909352be1a2cb91", "captureId": "blueprints-05",
+      "nameKey": "d2ff043c-d111-4298-8b7a-95267d1581ba", "nameRaw": "Rustic Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"Rustic Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC01", "guid": 930898512, "path": "/db/blueprints/tm-castle-object-decor-chair-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_StrongbladeDLC01.md", "sourceSha256": "41f678182528f0d33274a3ee927940270066d700a1ae2c8ba98686ec3e2d1b6d", "captureId": "blueprints-05",
+      "nameKey": "52e70063-4062-48ee-811a-6c8710dc890b", "nameRaw": "Nocturnal Opulence Pouffe",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"Nocturnal Opulence Pouffe","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC02", "guid": -162599930, "path": "/db/blueprints/tm-castle-object-decor-chair-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_StrongbladeDLC02.md", "sourceSha256": "a692bb3caa31b55656e9e7bf61e483c8bb6ea7294c88007ac960513f8da2a8f4", "captureId": "blueprints-05",
+      "nameKey": "6dba7569-5f36-481c-beb0-32edc8c1af5d", "nameRaw": "Nocturnal Opulence Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"Nocturnal Opulence Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC03", "guid": 1865135472, "path": "/db/blueprints/tm-castle-object-decor-chair-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_StrongbladeDLC03.md", "sourceSha256": "5da2f6c4b2d081d0177110411fc409dd11f8552429ab78268571882bf947b7e3", "captureId": "blueprints-05",
+      "nameKey": "d91c8da2-ee59-4d59-b38a-ed84e2b72341", "nameRaw": "Nocturnal Opulence Seat",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"Nocturnal Opulence Seat","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC04", "guid": -706081177, "path": "/db/blueprints/tm-castle-object-decor-chair-strongblade-dlc04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Chair_StrongbladeDLC04.md", "sourceSha256": "bc1477a33ae123e21fb10351d372add92797c081f464bb92102fce40d9071100", "captureId": "blueprints-05",
+      "nameKey": "a711de7f-0883-48ba-9e58-62f59e6fc1f1", "nameRaw": "Nocturnal Opulence Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"Nocturnal Opulence Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_ChessTable01", "guid": 624218349, "path": "/db/blueprints/tm-castle-object-decor-chess-table01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_ChessTable01.md", "sourceSha256": "7b91b295e2aadef146d863a0aedac7a679db304ce2de523bb512e366c95bfd01", "captureId": "blueprints-05",
+      "nameKey": "9402f8f9-98f5-485e-b1f5-7ccebaa2b451", "nameRaw": "Chess Table",
+      "descriptionKey": "e29e47d1-d6a5-4774-9c5d-20a074c82e32", "descriptionRaw": "If only you knew how to play it.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"If only you knew how to play it.","toString":"If only you knew how to play it.","resultKey":"e29e47d1-d6a5-4774-9c5d-20a074c82e32","nameLookup":"Chess Table","templateLookup":"If only you knew how to play it."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant01", "guid": 27432785, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant01.md", "sourceSha256": "aa7f3e2c222e1f0374a37c2eb833c420afd42c4d415247e5c9628c2f4a588300", "captureId": "blueprints-05",
+      "nameKey": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb", "nameRaw": "Coffee Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Coffee Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant02", "guid": -259659131, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant02.md", "sourceSha256": "61850ee1ce0b1c334c98409bf2dd1200bddbb087798e7e0efdcb9cb791ff9d59", "captureId": "blueprints-05",
+      "nameKey": "36ba993a-12bb-4c91-af5a-8c3b586da25c", "nameRaw": "Coleus Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Coleus Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant03", "guid": -1503503213, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant03.md", "sourceSha256": "6a0dc5fbf044dfae7d3e05a146cb25ea9359ccc8f95f6397075c00441e6e3363", "captureId": "blueprints-05",
+      "nameKey": "8d90d8cf-86ed-40b6-b3d8-134008e3ed05", "nameRaw": "Red Cranesbill Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Red Cranesbill Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant04", "guid": 823459617, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant04",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant04.md", "sourceSha256": "cacf833056ec3cd3347e9d29fa6b564b0f920c5ce2b36c58de8fa2ed2331b3b0", "captureId": "blueprints-05",
+      "nameKey": "8676c0f1-1050-4bb0-a279-92f78d125212", "nameRaw": "White Cranesbill Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"White Cranesbill Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant05", "guid": -1877692880, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant05",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant05.md", "sourceSha256": "df896d3eb9789516d51ec5d69b6952d91bceb84c53e06287105361cc3bffa51b", "captureId": "blueprints-05",
+      "nameKey": "7e34342e-8738-48cb-af0e-81051670da6f", "nameRaw": "Begonia Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Begonia Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant06", "guid": -1971857623, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant06",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant06.md", "sourceSha256": "16607afe33162e62a06c7492bed6b31a2eaa77b5affa7dd95c27b814c40e9775", "captureId": "blueprints-05",
+      "nameKey": "4a438546-a2b7-41a6-adea-71a831014a00", "nameRaw": "Spider Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Spider Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant07", "guid": 648206774, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant07",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant07.md", "sourceSha256": "e940aa8f37d8d7f9d2b24284e205c13f4235e0bcf32b6bb6d1a954b29949af7b", "captureId": "blueprints-06",
+      "nameKey": "5333b8eb-0138-4b07-8fae-c44672afb852", "nameRaw": "Weeping Fig Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Weeping Fig Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant08", "guid": -692880320, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant08",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant08.md", "sourceSha256": "7914c23420d942da1bca7e046a74d6161633b059a572f102526c10780994ce4c", "captureId": "blueprints-06",
+      "nameKey": "5333b8eb-0138-4b07-8fae-c44672afb852", "nameRaw": "Weeping Fig Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Weeping Fig Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant09", "guid": -272063893, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant09",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant09.md", "sourceSha256": "27c783f339f271d8a5a4d3a308f63ae898fc58a559a6786de331d88e6da73e98", "captureId": "blueprints-06",
+      "nameKey": "258c6aa0-d782-4c55-87eb-9370f1cc6bc6", "nameRaw": "Monstera Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Monstera Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant10", "guid": -681023682, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant10",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant10.md", "sourceSha256": "c4846f0aa7a23d00e831d149543c55096ae584dc676e25013bcd6bc1cc898cc3", "captureId": "blueprints-06",
+      "nameKey": "ed24c444-a767-4db1-8288-4ec76708dbae", "nameRaw": "Dracaena Kedarnath Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Dracaena Kedarnath Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant11", "guid": 975438498, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant11",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant11.md", "sourceSha256": "ad7fe110ed00511cfb9e08c432421c074a1927b2f01782335e80f0e1c37344d5", "captureId": "blueprints-06",
+      "nameKey": "ed24c444-a767-4db1-8288-4ec76708dbae", "nameRaw": "Dracaena Kedarnath Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Dracaena Kedarnath Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant12", "guid": 575437684, "path": "/db/blueprints/tm-castle-object-decor-child-vase-plant12",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Child_Vase_Plant12.md", "sourceSha256": "7c0ec9876b3a8f53d5f7e62cd832d969252bdecf32b832e315c2144a253b981d", "captureId": "blueprints-06",
+      "nameKey": "8b284159-843f-4dfb-8609-e8cb767c3c32", "nameRaw": "Lavender Plant",
+      "descriptionKey": "c1bbfd96-1373-4e1c-b870-c80645baf14a", "descriptionRaw": "A plant that can live in your vase.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A plant that can live in your vase.","toString":"A plant that can live in your vase.","resultKey":"c1bbfd96-1373-4e1c-b870-c80645baf14a","nameLookup":"Lavender Plant","templateLookup":"A plant that can live in your vase."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_CrystalLamp_Brazier01", "guid": -1023837449, "path": "/db/blueprints/tm-castle-object-decor-crystal-lamp-brazier01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_CrystalLamp_Brazier01.md", "sourceSha256": "83ec3852b98fd39e10dd3daadbf34bd225cf7779d938f5785f53e6b24d3d7832", "captureId": "blueprints-06",
+      "nameKey": "ce0bca25-dba9-44ee-b993-456e814c98e9", "nameRaw": "'Clairvoyance' Lamp",
+      "descriptionKey": "1b71e892-8965-4a05-a30a-17b5bdb7ecbd", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"1b71e892-8965-4a05-a30a-17b5bdb7ecbd","nameLookup":"'Clairvoyance' Lamp","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Divan_Base", "guid": 2082207027, "path": "/db/blueprints/tm-castle-object-decor-divan-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Divan_Base.md", "sourceSha256": "9cd5cc72757c97c4ba775837bee161c92f41f4c928d981bd4facf9d683bf2ed0", "captureId": "blueprints-06",
+      "nameKey": "6c36d4e1-6cb0-4eca-8b56-9e3eff362690", "nameRaw": "'Distinguished' Divan",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Distinguished' Divan","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Divan_Lavish01", "guid": -398243796, "path": "/db/blueprints/tm-castle-object-decor-divan-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Divan_Lavish01.md", "sourceSha256": "81a5247859cf0efc21c1d7628bf99f6ef9ee9a8990472f0079e18a96e8908b53", "captureId": "blueprints-06",
+      "nameKey": "6c36d4e1-6cb0-4eca-8b56-9e3eff362690", "nameRaw": "'Distinguished' Divan",
+      "descriptionKey": "2ed99bfa-021f-45a3-af89-6005d5ccd562", "descriptionRaw": "A wider, less efficient seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A wider, less efficient seat for one.","toString":"A wider, less efficient seat for one.","resultKey":"2ed99bfa-021f-45a3-af89-6005d5ccd562","nameLookup":"'Distinguished' Divan","templateLookup":"A wider, less efficient seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Fireplace_Cabal01", "guid": 780398112, "path": "/db/blueprints/tm-castle-object-decor-fireplace-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Fireplace_Cabal01.md", "sourceSha256": "43a9467aeae144689acd9b682a2ccf1432f53cc2be6d1f7033ffcf8b194399ff", "captureId": "blueprints-06",
+      "nameKey": "ab3e33c3-0fa8-4f5d-a068-b282adca275e", "nameRaw": "'Cordial' Fireside",
+      "descriptionKey": "5b3f0e1c-4569-4882-8a78-2c360ffaed73", "descriptionRaw": "A mighty fine fireside.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine fireside.","toString":"A mighty fine fireside.","resultKey":"5b3f0e1c-4569-4882-8a78-2c360ffaed73","nameLookup":"'Cordial' Fireside","templateLookup":"A mighty fine fireside."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Fireplace_Gothic01", "guid": 216089113, "path": "/db/blueprints/tm-castle-object-decor-fireplace-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Fireplace_Gothic01.md", "sourceSha256": "135fa11f57b056538a9791902fc7f502172140f3ff9ba5629aa8c8503756db05", "captureId": "blueprints-06",
+      "nameKey": "66f5c1c6-ce4e-41ab-9171-1e1916b3ea67", "nameRaw": "'Midnight' Fireside",
+      "descriptionKey": "5b3f0e1c-4569-4882-8a78-2c360ffaed73", "descriptionRaw": "A mighty fine fireside.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine fireside.","toString":"A mighty fine fireside.","resultKey":"5b3f0e1c-4569-4882-8a78-2c360ffaed73","nameLookup":"'Midnight' Fireside","templateLookup":"A mighty fine fireside."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Fireplace_Lavish01", "guid": 374407813, "path": "/db/blueprints/tm-castle-object-decor-fireplace-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Fireplace_Lavish01.md", "sourceSha256": "a01a24cc09325639216ec0ec6d586a78ed27719e58e34bb4c19feec6b7f2e38b", "captureId": "blueprints-06",
+      "nameKey": "f3f1d4dc-913c-4a47-b63f-c657e1975e9a", "nameRaw": "'Imperious' Fireside",
+      "descriptionKey": "5b3f0e1c-4569-4882-8a78-2c360ffaed73", "descriptionRaw": "A mighty fine fireside.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine fireside.","toString":"A mighty fine fireside.","resultKey":"5b3f0e1c-4569-4882-8a78-2c360ffaed73","nameLookup":"'Imperious' Fireside","templateLookup":"A mighty fine fireside."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Antlers01", "guid": -508625704, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-antlers01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Antlers01.md", "sourceSha256": "beae2119fe74931bc73af23594dd9c57bfa4143f9ccd379fa656332f2487b19a", "captureId": "blueprints-06",
+      "nameKey": "cdae7b9a-a9d4-4d7d-b706-b9115deed2b0", "nameRaw": "Antler Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Antler Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Bone01", "guid": 765052065, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-bone01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Bone01.md", "sourceSha256": "4b02bc52fef40bd7572fd9fb0c2d41623bd200c4caefe14fcfd322ba3df4321c", "captureId": "blueprints-06",
+      "nameKey": "226353cd-56df-4d5f-b0b5-2f45bf493170", "nameRaw": "Bone Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Bone Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Candles01", "guid": -1705786232, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-candles01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Candles01.md", "sourceSha256": "cf1024feb35648035b833f9bee4ad49a6ae9ed5b2d602852ab795eb4ebf44591", "captureId": "blueprints-06",
+      "nameKey": "38c1a6fc-463b-4435-b2b6-ba2488b9b968", "nameRaw": "'Modest' Flying Candles",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Modest' Flying Candles","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Crystal01", "guid": 2033781589, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-crystal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Crystal01.md", "sourceSha256": "9071df15b2acff7878b89d4e285ed3ef0b1d464a1573d445e18bb35ce0eeb440", "captureId": "blueprints-06",
+      "nameKey": "2d95039b-76de-4e8b-87c3-0677565b68e6", "nameRaw": "Crystal Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Crystal Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Gothic01", "guid": 2070805994, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Gothic01.md", "sourceSha256": "7c184e8ed720d0c7de79da6db0f7656fae3a6f4265997ae45827bfe173e35e81", "captureId": "blueprints-06",
+      "nameKey": "bc6fa5e7-e62d-476d-af37-ce425fe01b11", "nameRaw": "'Elegant' Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Elegant' Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Halloween01", "guid": -2113113839, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-halloween01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Halloween01.md", "sourceSha256": "aedc6a655be6fbf84c44b04448c54c0d2aec1c5d3ff3c4a217cbc472562f8314", "captureId": "blueprints-06",
+      "nameKey": "9a7294ac-33e9-40a4-91d5-118f20006877", "nameRaw": "Haunted Nights Floating Gourd",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Haunted Nights Floating Gourd","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Lavish01", "guid": -1121102574, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-lavish01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Lavish01.md", "sourceSha256": "6eb6c0ea299e10c294a19db97c12eb2265d293750efc6f920f06cb0b62cb6bae", "captureId": "blueprints-06",
+      "nameKey": "b9ae431b-801c-4bf0-ab7c-9a2c1e387032", "nameRaw": "'Imperious' Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Imperious' Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Simple01", "guid": 2005837161, "path": "/db/blueprints/tm-castle-object-decor-flying-chandelier-simple01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FlyingChandelier_Simple01.md", "sourceSha256": "29fcd6c7bcf69aa12b3905051328f6d5a26a294ce133cda23c08235c65bdf336", "captureId": "blueprints-06",
+      "nameKey": "b0996367-7963-4bc2-a90e-706945580907", "nameRaw": "'Modest' Flying Chandelier",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Modest' Flying Chandelier","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FoldingWall_1x6_Cabal01", "guid": 1536811714, "path": "/db/blueprints/tm-castle-object-decor-folding-wall-1x6-cabal01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FoldingWall_1x6_Cabal01.md", "sourceSha256": "3c2bbbce0469c65695c29c893c8d66effdd0f638d8f8457a04b07df52b8e1dae", "captureId": "blueprints-06",
+      "nameKey": "b773318c-7ad1-4ebc-986f-c0b2d2ad4d93", "nameRaw": "'Cordial' Folding Screen",
+      "descriptionKey": "dfc72751-f186-4a0b-8f97-54ba6376381b", "descriptionRaw": "An elegant solution for separating spaces in your rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant solution for separating spaces in your rooms.","toString":"An elegant solution for separating spaces in your rooms.","resultKey":"dfc72751-f186-4a0b-8f97-54ba6376381b","nameLookup":"'Cordial' Folding Screen","templateLookup":"An elegant solution for separating spaces in your rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01", "guid": -808142514, "path": "/db/blueprints/tm-castle-object-decor-folding-wall-1x6-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01.md", "sourceSha256": "a1b87757527155f6944069fdadbcde41a1413c0737388b80cb283ef1d6552d9a", "captureId": "blueprints-06",
+      "nameKey": "b425c362-bfb5-4d26-8038-0d45947d7e4d", "nameRaw": "'Dignity' Folding Screen",
+      "descriptionKey": "dfc72751-f186-4a0b-8f97-54ba6376381b", "descriptionRaw": "An elegant solution for separating spaces in your rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant solution for separating spaces in your rooms.","toString":"An elegant solution for separating spaces in your rooms.","resultKey":"dfc72751-f186-4a0b-8f97-54ba6376381b","nameLookup":"'Dignity' Folding Screen","templateLookup":"An elegant solution for separating spaces in your rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_FoldingWall_Base_1x6", "guid": 1764832621, "path": "/db/blueprints/tm-castle-object-decor-folding-wall-base-1x6",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_FoldingWall_Base_1x6.md", "sourceSha256": "23b80a807e92beb04ca9e1dee12bbe8d1a3fe388140d4ad3734f84f59a3989bb", "captureId": "blueprints-06",
+      "nameKey": "5c3276ac-a754-46c4-a949-930cbdbdfca0", "nameRaw": "A raised flat top supported by legs.",
+      "descriptionKey": "dfc72751-f186-4a0b-8f97-54ba6376381b", "descriptionRaw": "An elegant solution for separating spaces in your rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant solution for separating spaces in your rooms.","toString":"An elegant solution for separating spaces in your rooms.","resultKey":"dfc72751-f186-4a0b-8f97-54ba6376381b","nameLookup":"A raised flat top supported by legs.","templateLookup":"An elegant solution for separating spaces in your rooms."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_ForgeBarrel01", "guid": -2128976183, "path": "/db/blueprints/tm-castle-object-decor-forge-barrel01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_ForgeBarrel01.md", "sourceSha256": "39bfd1d0631918564556b0512f0006373c90458dcf322b0a7fc4f82cc01f4078", "captureId": "blueprints-06",
+      "nameKey": "cf361573-d561-4eca-a206-5be4f4a4b264", "nameRaw": "Quenching Barrel",
+      "descriptionKey": "65022fad-6023-43bc-bce5-2bcb7468d258", "descriptionRaw": "A decoration for your metalworking.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your metalworking.","toString":"A decoration for your metalworking.","resultKey":"65022fad-6023-43bc-bce5-2bcb7468d258","nameLookup":"Quenching Barrel","templateLookup":"A decoration for your metalworking."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenBench01", "guid": 2119410626, "path": "/db/blueprints/tm-castle-object-decor-garden-bench01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenBench01.md", "sourceSha256": "2b27411e9e26ada6d5257822bd78df1d26ad4834ac328ec6b9b273b3ce626725", "captureId": "blueprints-06",
+      "nameKey": "ad995796-f82e-44fd-a6a5-31749f89d865", "nameRaw": "'Noble' Garden Bench",
+      "descriptionKey": "f86a0fe6-fe8d-443b-9f75-c49c0ce25d36", "descriptionRaw": "An elegant seat for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant seat for your garden.","toString":"An elegant seat for your garden.","resultKey":"f86a0fe6-fe8d-443b-9f75-c49c0ce25d36","nameLookup":"'Noble' Garden Bench","templateLookup":"An elegant seat for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenChair01", "guid": -925263583, "path": "/db/blueprints/tm-castle-object-decor-garden-chair01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenChair01.md", "sourceSha256": "87584e8de92953b7724f3b265e0c6c08747b5920dd2e6a5b2c6ab71df443d7ab", "captureId": "blueprints-06",
+      "nameKey": "115af3ad-a4e8-4a7c-acce-82c00c0190e2", "nameRaw": "'Noble' Garden Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Noble' Garden Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenChair02_Dyable", "guid": 1020401996, "path": "/db/blueprints/tm-castle-object-decor-garden-chair02-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenChair02_Dyable.md", "sourceSha256": "180ae6ab0e6e1b07c008deb2b72ed918c40e3dc2fa6dcbaa609b878bcd4800f7", "captureId": "blueprints-06",
+      "nameKey": "26985568-ed5f-41af-bde6-67a4237aac99", "nameRaw": "'Rural' Garden Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Rural' Garden Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenChair_Base", "guid": 830396434, "path": "/db/blueprints/tm-castle-object-decor-garden-chair-base",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenChair_Base.md", "sourceSha256": "92140456e6c94db37522a736ca345d17296d0e2fa56525f7eadaf53176b19740", "captureId": "blueprints-06",
+      "nameKey": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2", "nameRaw": "'Omen' Chair",
+      "descriptionKey": "5277e530-b8a3-423c-a4a5-021e6ac06ae9", "descriptionRaw": "A seat for one.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat for one.","toString":"A seat for one.","resultKey":"5277e530-b8a3-423c-a4a5-021e6ac06ae9","nameLookup":"'Omen' Chair","templateLookup":"A seat for one."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenFountain_Bat01", "guid": 1247163010, "path": "/db/blueprints/tm-castle-object-decor-garden-fountain-bat01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenFountain_Bat01.md", "sourceSha256": "c88787a3192f31e73aa24a0d53237286711b820bea859464f92b54e432427e96", "captureId": "blueprints-06",
+      "nameKey": "c6308d43-ba34-4cd4-931d-99074e2368e7", "nameRaw": "'Nocturne' Iron Fountain",
+      "descriptionKey": "26f64807-a828-4d1b-935c-de9a229c69c2", "descriptionRaw": "An elegant water decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant water decoration for your garden.","toString":"An elegant water decoration for your garden.","resultKey":"26f64807-a828-4d1b-935c-de9a229c69c2","nameLookup":"'Nocturne' Iron Fountain","templateLookup":"An elegant water decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenFountain_Bat02", "guid": -1790149989, "path": "/db/blueprints/tm-castle-object-decor-garden-fountain-bat02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenFountain_Bat02.md", "sourceSha256": "e5ee1b8a72774d061889c4010170c3324b6960c988ea1afca7f8a811811d2aed", "captureId": "blueprints-06",
+      "nameKey": "e45597a7-7eee-4faa-bba8-5d19565fd9d1", "nameRaw": "'Nocturne' Bronze Fountain",
+      "descriptionKey": "26f64807-a828-4d1b-935c-de9a229c69c2", "descriptionRaw": "An elegant water decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant water decoration for your garden.","toString":"An elegant water decoration for your garden.","resultKey":"26f64807-a828-4d1b-935c-de9a229c69c2","nameLookup":"'Nocturne' Bronze Fountain","templateLookup":"An elegant water decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenFountain_Large01", "guid": 177891172, "path": "/db/blueprints/tm-castle-object-decor-garden-fountain-large01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenFountain_Large01.md", "sourceSha256": "3c5c780c92858098f721b99932217c894170c0ea3fb7c5f6eabc7a36a3c46286", "captureId": "blueprints-06",
+      "nameKey": "1bda3335-fcc8-4e01-b4cd-bbab6ffdd8e0", "nameRaw": "'Imperious' Large Fountain",
+      "descriptionKey": "26f64807-a828-4d1b-935c-de9a229c69c2", "descriptionRaw": "An elegant water decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant water decoration for your garden.","toString":"An elegant water decoration for your garden.","resultKey":"26f64807-a828-4d1b-935c-de9a229c69c2","nameLookup":"'Imperious' Large Fountain","templateLookup":"An elegant water decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenFountain_ProjectK01", "guid": 1178389093, "path": "/db/blueprints/tm-castle-object-decor-garden-fountain-project-k01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenFountain_ProjectK01.md", "sourceSha256": "5e00bc0d99811566f514c6a1887b1ab5282e5d9e01779b95509541f9cb01d778", "captureId": "blueprints-06",
+      "nameKey": "5c17f7e3-c7e3-4eef-aef6-9948263a40d7", "nameRaw": "Ancient Symphony Blood Fountain",
+      "descriptionKey": "f71d939c-ab44-4e52-ba4d-eca28bb6f018", "descriptionRaw": "An elegant blood decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant blood decoration for your garden.","toString":"An elegant blood decoration for your garden.","resultKey":"f71d939c-ab44-4e52-ba4d-eca28bb6f018","nameLookup":"Ancient Symphony Blood Fountain","templateLookup":"An elegant blood decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenFountain_Small01", "guid": 549920910, "path": "/db/blueprints/tm-castle-object-decor-garden-fountain-small01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenFountain_Small01.md", "sourceSha256": "5a664dc3fec37d687185de9d85d437f2bd9b85faa368211e0ad912ab77240929", "captureId": "blueprints-06",
+      "nameKey": "464685ce-80a8-4acf-86e5-ed8b6fd18558", "nameRaw": "'Alabaster' Small Fountain",
+      "descriptionKey": "26f64807-a828-4d1b-935c-de9a229c69c2", "descriptionRaw": "An elegant water decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant water decoration for your garden.","toString":"An elegant water decoration for your garden.","resultKey":"26f64807-a828-4d1b-935c-de9a229c69c2","nameLookup":"'Alabaster' Small Fountain","templateLookup":"An elegant water decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost01_Orange", "guid": -55079755, "path": "/db/blueprints/tm-castle-object-decor-garden-lamp-post01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLampPost01_Orange.md", "sourceSha256": "c663c1d8755a6dd2da74d72555161f22f1ad2cd15ef06878e36bde53250b4e5a", "captureId": "blueprints-06",
+      "nameKey": "eb4de034-cca0-439e-9431-404d9973f3d0", "nameRaw": "'Noble' Garden Lamp Post",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Noble' Garden Lamp Post","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost02_Orange", "guid": 1758705562, "path": "/db/blueprints/tm-castle-object-decor-garden-lamp-post02-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLampPost02_Orange.md", "sourceSha256": "6d9e5d3ef36d7d19546ab7d5cd38feadd2f166f173e9bc5e999da565281cef5a", "captureId": "blueprints-06",
+      "nameKey": "5f49a639-818b-4022-9e15-74a62b110632", "nameRaw": "'Paragon' Garden Lamp Post",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Paragon' Garden Lamp Post","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLampPost03_Orange", "guid": 656054963, "path": "/db/blueprints/tm-castle-object-decor-garden-lamp-post03-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLampPost03_Orange.md", "sourceSha256": "6e72f299295af341bbc4bb508ec99d036950576c7a589177e1643a40d2ef245a", "captureId": "blueprints-06",
+      "nameKey": "7d765554-bf58-415d-9b0e-739ba147d721", "nameRaw": "'Rural' Garden Lamp Post",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Rural' Garden Lamp Post","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLantern01_Orange", "guid": -1302860768, "path": "/db/blueprints/tm-castle-object-decor-garden-lantern01-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLantern01_Orange.md", "sourceSha256": "5d98e78051ed007bf632b0caf2440e7850a42b38f66e742b45ec7e8196fba7aa", "captureId": "blueprints-06",
+      "nameKey": "40d4b5bd-129b-4571-b415-ec9e4fc9e2e1", "nameRaw": "'Noble' Garden Lantern",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Noble' Garden Lantern","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLantern02_Orange", "guid": 1759972580, "path": "/db/blueprints/tm-castle-object-decor-garden-lantern02-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLantern02_Orange.md", "sourceSha256": "9247b33100a53cdb95791eae6cf0e8088cae516ba34eade0ce6725192fa3a6e7", "captureId": "blueprints-06",
+      "nameKey": "2e53075c-7661-45be-9196-0833b82ea67d", "nameRaw": "'Paragon' Garden Lantern",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Paragon' Garden Lantern","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_GardenLantern03_Orange", "guid": -451545916, "path": "/db/blueprints/tm-castle-object-decor-garden-lantern03-orange",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_GardenLantern03_Orange.md", "sourceSha256": "1dfb0c3e071ed8c1b4e919546efda444e0a134ca8b933260cb478a74a153d174", "captureId": "blueprints-06",
+      "nameKey": "cac19bbe-5767-4a80-961f-d19f8e3c63a2", "nameRaw": "'Rural' Garden Lantern",
+      "descriptionKey": "c8466887-4ecd-443b-a528-a317a2ea48d2", "descriptionRaw": "Lights up the dark.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Lights up the dark.","toString":"Lights up the dark.","resultKey":"c8466887-4ecd-443b-a528-a317a2ea48d2","nameLookup":"'Rural' Garden Lantern","templateLookup":"Lights up the dark."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge01", "guid": -1458465094, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-bridge01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge01.md", "sourceSha256": "6a8ef25d67e2e9ababe5cb6a13d8ec84e0d3a0bbd417cb34267abe6460d1ef8c", "captureId": "blueprints-06",
+      "nameKey": "e91019a5-3c5c-4ded-bf8e-13acf8c1d3a4", "nameRaw": "Hedge - 2x10 Blend",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Blend","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02", "guid": 1672613686, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-bridge02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02.md", "sourceSha256": "cc752831f6662badbf6fa8632cb17bcb2a9c58dc39b9b4ca9029a2ecfcc17efa", "captureId": "blueprints-06",
+      "nameKey": "e91019a5-3c5c-4ded-bf8e-13acf8c1d3a4", "nameRaw": "Hedge - 2x10 Blend",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Blend","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_short", "guid": -1095847141, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-short",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_short.md", "sourceSha256": "8632b24806232a5e8f1bf5b7e3df53c54c29e5e6de217d28b396693c0452893d", "captureId": "blueprints-06",
+      "nameKey": "0f3f3efc-9875-4f22-a4e1-d08ba3cd47c9", "nameRaw": "Hedge - 2x10 Low",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Low","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall", "guid": 586685623, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-tall",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall.md", "sourceSha256": "9741e564260797d9d5845922efc74a3670a79647c96faf397d965753e498882d", "captureId": "blueprints-06",
+      "nameKey": "dcbf8e63-4bac-454f-b235-95dec8228e58", "nameRaw": "Hedge - 2x10 Tall",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Tall","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_arch01", "guid": 929687735, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-tall-arch01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_arch01.md", "sourceSha256": "33ed0ea5c1ede105ab0a4998ba39521ddeb4a8ca03a5a18320e4377104d007e0", "captureId": "blueprints-06",
+      "nameKey": "80fffd8d-611c-4409-a526-26f431552570", "nameRaw": "Hedge - 2x10 Tall w. Arch",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Tall w. Arch","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_var01", "guid": 850569597, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-10-tall-var01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_var01.md", "sourceSha256": "40d13a7561932f589f9e044001a1242a93f73eccbfed6f5f0731d9f374b7f4b9", "captureId": "blueprints-06",
+      "nameKey": "e6b8fd65-f3a0-4ff9-a099-b3cc756cce48", "nameRaw": "Hedge - 2x10 Tall w. Hole",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x10 Tall w. Hole","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_short", "guid": -794020006, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-1-short",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_1_short.md", "sourceSha256": "31cd6c187c9f99617181d1d34b98116e0423fca1e053b4f61d1f42f0f4da8347", "captureId": "blueprints-06",
+      "nameKey": "7f6070fd-0edb-4017-bc47-904449a4225f", "nameRaw": "Hedge - 2x2 Low",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x2 Low","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_tall", "guid": 1316058863, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-1-tall",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_1_tall.md", "sourceSha256": "60e7383e14725865a650197a9167921fe21f84e785d4fcbd4addf9423d4a2233", "captureId": "blueprints-06",
+      "nameKey": "ac5488f0-81fd-43fc-a102-0be28069ff2d", "nameRaw": "Hedge - 2x2 Tall",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x2 Tall","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01", "guid": -2026589971, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-5-bridge01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01.md", "sourceSha256": "861be89990cf0f6f97cabd94ce95efe1e11b65cd1cac3f35e82a3763ed9ff24a", "captureId": "blueprints-06",
+      "nameKey": "18baed52-8737-430f-8657-f70baee3b910", "nameRaw": "Hedge - 2x5 Blend",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x5 Blend","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_short", "guid": -1130267123, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-5-short",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_5_short.md", "sourceSha256": "a34af5d0c8391d1365594a0c4e8cae8413a5da8b00c43f77ce3927ddb879d908", "captureId": "blueprints-06",
+      "nameKey": "ec571bb8-068e-4a2a-b320-0354463fedb4", "nameRaw": "Hedge - 2x5 Low",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x5 Low","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_tall", "guid": -2132728905, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-5-tall",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_5_tall.md", "sourceSha256": "558da469635026aa4b6e00ae67b5b2bd355c71bc7eebccd5bf003e0910b65483", "captureId": "blueprints-06",
+      "nameKey": "fff7e618-e717-4791-a86b-145cf181e0d8", "nameRaw": "Hedge - 2x5 Tall",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 2x5 Tall","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01", "guid": -258523558, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-corner01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01.md", "sourceSha256": "d902559159b22ee4267129b5de528a3f912e8fd0af10a82ba4f8682c38bfe12d", "captureId": "blueprints-06",
+      "nameKey": "07b67860-d01c-411d-93ee-7f749124ac02", "nameRaw": "Hedge - 10x10 Tall Curve",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 10x10 Tall Curve","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01_arch01", "guid": 527160947, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-corner01-arch01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01_arch01.md", "sourceSha256": "5d3cafd948c41cffe48c1e9bfa6171766e07cdecd2972a2aa27b47c217e076d5", "captureId": "blueprints-06",
+      "nameKey": "8497890e-461a-42b1-8d62-720911cc0d28", "nameRaw": "Hedge - 10x10 Tall Curve w. Arch",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 10x10 Tall Curve w. Arch","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01", "guid": -2120322883, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-corner01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01.md", "sourceSha256": "ce60f6ace2984c8af4a198234642f391d071d3fbbdbfccc6d5fd78748c1fd2c7", "captureId": "blueprints-06",
+      "nameKey": "5dd52f2f-df0f-4567-a856-25bd1d4bdb49", "nameRaw": "Hedge - 10x10 Low Curve",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - 10x10 Low Curve","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01", "guid": -1949816617, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-sculpture-horse01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01.md", "sourceSha256": "4eeb528a147e63120eff0fcba6c8608b6dd561a6a98c57853e814ce6f1ae3627", "captureId": "blueprints-06",
+      "nameKey": "01ab5ec9-8708-43da-82a3-d3c762390a85", "nameRaw": "Hedge - Equine Sculpture",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Equine Sculpture","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02", "guid": -761600498, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-sculpture-horse02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02.md", "sourceSha256": "9037eb5001ee8b330d9299d09a1abc6fc85ecf76001a330f699c39683cdde655", "captureId": "blueprints-06",
+      "nameKey": "01ab5ec9-8708-43da-82a3-d3c762390a85", "nameRaw": "Hedge - Equine Sculpture",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Equine Sculpture","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01", "guid": -1030052444, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01.md", "sourceSha256": "cccd55cddf434cc61351d0fb14fdacd25c67c2cb024e0e690cc410f46153b300", "captureId": "blueprints-06",
+      "nameKey": "1cd1a8db-7469-42e1-8be1-69e91e0a54a8", "nameRaw": "Hedge - Low Square Column",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Square Column","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01", "guid": -1117823422, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar01-decor01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01.md", "sourceSha256": "4cca271b9e560acfd99a012681966bc95a9a526b6604cc43cfc1819eb8caa86d", "captureId": "blueprints-06",
+      "nameKey": "84ed7999-d7b6-45f8-9ada-768a4b0d3f97", "nameRaw": "Hedge - Low Square Column w. Sphere",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Square Column w. Sphere","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor02", "guid": -604532887, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar01-decor02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor02.md", "sourceSha256": "c54044deec3f6161993a477bf3e6149addecfea8865a2d780866e98f631a791e", "captureId": "blueprints-06",
+      "nameKey": "515c9222-c2bb-4e48-9c76-702a5d419c15", "nameRaw": "Hedge - Low Square Column w. Spiral",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Square Column w. Spiral","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor03", "guid": -743622014, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar01-decor03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor03.md", "sourceSha256": "ce737338546c6886376bc728a65eff86c6ae1fb981e042b7196e59f3a1402e1d", "captureId": "blueprints-06",
+      "nameKey": "59e811e1-5613-45fa-94ce-c15786e99b50", "nameRaw": "Hedge - Low Square Column w. Droplet",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Square Column w. Droplet","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02", "guid": 1034151164, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02.md", "sourceSha256": "fd7b4950011c0edce4dd97d4061c76103988dce2449b57b114ca3d1dfaae9088", "captureId": "blueprints-06",
+      "nameKey": "1cd1a8db-7469-42e1-8be1-69e91e0a54a8", "nameRaw": "Hedge - Low Square Column",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Square Column","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor01", "guid": 1453586031, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar02-decor01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor01.md", "sourceSha256": "743922202bbf3631deac05b9b444f3cffd13045ac4c9e1a05a2e9cacbe0f8a30", "captureId": "blueprints-06",
+      "nameKey": "533d57a4-9925-41e9-b501-41d0ea19c7d4", "nameRaw": "Hedge - Low Round Column w. Sphere",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Round Column w. Sphere","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor02", "guid": 2062518804, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar02-decor02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor02.md", "sourceSha256": "f62a3150d8b8f0b89f7940849cf44f62490bbe9936155354d8fb29d6036900d2", "captureId": "blueprints-06",
+      "nameKey": "5b4007d4-0732-4251-a57c-3baa6d01428b", "nameRaw": "Hedge - Low Round Column w. Spiral",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Round Column w. Spiral","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor03", "guid": -316863071, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-short-pillar02-decor03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor03.md", "sourceSha256": "d6cfea006a6a84e93b79d077b485e1077d84d23f8711e4a0f8a5f8b1acaf886d", "captureId": "blueprints-06",
+      "nameKey": "2ae0c6fa-c6fc-4004-8bef-57c03c71ba23", "nameRaw": "Hedge - Low Round Column w. Droplet",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Low Round Column w. Droplet","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01", "guid": 349807177, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01.md", "sourceSha256": "cc45f38e627021ac49948acaf180b9048a040c4bf48ffe15d5e00204e2a97825", "captureId": "blueprints-06",
+      "nameKey": "efcc351d-d755-490a-b9db-dd08eb64ff15", "nameRaw": "Hedge - Tall Square Column",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Square Column","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01", "guid": 1044207305, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar01-decor01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01.md", "sourceSha256": "ef5304d0a332535773fccd3c2711c05b60b24379a927d9b17fca4d86bea44cff", "captureId": "blueprints-06",
+      "nameKey": "437c266e-a292-4ace-9def-f8670594ccc3", "nameRaw": "Hedge - Tall Square Column w. Sphere",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Square Column w. Sphere","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor02", "guid": -253897934, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar01-decor02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor02.md", "sourceSha256": "a4f8677e2d3cc846753e4f9e1c7383c3855e54db5b72d9a8f479c4af3d7efb8f", "captureId": "blueprints-06",
+      "nameKey": "57ad814c-9f69-4e3c-b251-d61351713f71", "nameRaw": "Hedge - Tall Square Column w. Spiral",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Square Column w. Spiral","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor03", "guid": -329463697, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar01-decor03",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor03.md", "sourceSha256": "f162d424b466b97091d0d445e8159ddc18e93aba6246856a6bd46a51edf511fa", "captureId": "blueprints-06",
+      "nameKey": "b7a11e25-a10d-4371-ab78-a9a9075f05aa", "nameRaw": "Hedge - Tall Square Column w. Droplet",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Square Column w. Droplet","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02", "guid": 31164442, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02.md", "sourceSha256": "aabe1baf74c8c0be5190c21f73bda761b3edf63d883d73eb68cd426aa96901dd", "captureId": "blueprints-06",
+      "nameKey": "99564e16-8e59-4303-882f-5ba5c6096de1", "nameRaw": "Hedge - Tall Round Column",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Round Column","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor01", "guid": -391133159, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar02-decor01",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor01.md", "sourceSha256": "547f4a9f6bef6b55a9910f8a7b664e98f1108d439099e2b6c19826a84a161026", "captureId": "blueprints-06",
+      "nameKey": "2607a965-e3bf-489e-8581-54330231654a", "nameRaw": "Hedge - Tall Round Column w. Sphere",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Round Column w. Sphere","templateLookup":"An elegant decoration for your garden."}
+    },
+    {
+      "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor02", "guid": -1295479109, "path": "/db/blueprints/tm-castle-object-decor-garden-hedgerow01-tall-pillar02-decor02",
+      "sourcePath": "content/prefabs/TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor02.md", "sourceSha256": "b06046010b330c703b2b83bf8e5ec4611271b6a2dd9bee87bd77c5d1652e4aa1", "captureId": "blueprints-06",
+      "nameKey": "40b309ab-2a54-4874-9182-23b10d345f82", "nameRaw": "Hedge - Tall Round Column w. Spiral",
+      "descriptionKey": "1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda", "descriptionRaw": "An elegant decoration for your garden.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An elegant decoration for your garden.","toString":"An elegant decoration for your garden.","resultKey":"1a26f8d5-4e15-4ce4-88f1-aa98fce0fbda","nameLookup":"Hedge - Tall Round Column w. Spiral","templateLookup":"An elegant decoration for your garden."}
+    }
+  ]
+}
