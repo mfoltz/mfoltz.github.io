@@ -1,0 +1,484 @@
+{
+  "rows": [
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_02",
+      "guid": -534388394,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-gloomrot-02",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCGloomrot_02.md",
+      "sourceSha256": "6d36549e3672afb901434abc8196e5c0a5d61ad3bfd060ff6b1bdde4fbc84212",
+      "captureId": "blueprints-02",
+      "nameKey": "fca74417-c1f2-4b7b-bbb1-92a86226fce6",
+      "nameRaw": "Exterior Sanctum Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Exterior Sanctum Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_Base",
+      "guid": 1690544659,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-gloomrot-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCGloomrot_Base.md",
+      "sourceSha256": "8d0cc46ee7a9727c3cb7d7cd4cb5c7962902b01c0b37cbdcfd12fa825d6bb5eb",
+      "captureId": "blueprints-02",
+      "nameKey": "7c522152-cf17-4718-a346-673b3005860f",
+      "nameRaw": "Exterior Royal Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Exterior Royal Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_Pillar",
+      "guid": -1601728225,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-gloomrot-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCGloomrot_Pillar.md",
+      "sourceSha256": "4edbb8623f357b524522c4415977c6ebb0f0de638da8802f5d82d2f0d407f798",
+      "captureId": "blueprints-02",
+      "nameKey": "026ee6c5-8227-490d-9358-e51c4f6b80f2",
+      "nameRaw": "Interior Royal Walls",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "Interior Royal Walls",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Base",
+      "guid": 1340269648,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal01_Base.md",
+      "sourceSha256": "c007f4d46fa071682df3c4cf20f99aa02d3d82d96a1862ba9a2590242465d0a2",
+      "captureId": "blueprints-02",
+      "nameKey": "026ee6c5-8227-490d-9358-e51c4f6b80f2",
+      "nameRaw": "Interior Royal Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Interior Royal Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Pillar",
+      "guid": 223872087,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal01-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal01_Pillar.md",
+      "sourceSha256": "2f4118789ec7bb54e3c95d81f4fb8566ce0dfe6b47875c974e7a5ea2a4971961",
+      "captureId": "blueprints-02",
+      "nameKey": "026ee6c5-8227-490d-9358-e51c4f6b80f2",
+      "nameRaw": "Interior Royal Walls",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "Interior Royal Walls",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal01_Wall01",
+      "guid": -1148467159,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal01-wall01",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal01_Wall01.md",
+      "sourceSha256": "0e1f0a40c3620829782ac8107593d8302cc7862aa140ceffa54e302b6b3b1f4a",
+      "captureId": "blueprints-02",
+      "nameKey": "026ee6c5-8227-490d-9358-e51c4f6b80f2",
+      "nameRaw": "Interior Royal Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Interior Royal Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Base",
+      "guid": -277386175,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal02-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal02_Base.md",
+      "sourceSha256": "fa7ca73f3c51aa8a3113bd1b11d589ae9fed72d05c644900bd2f222ad8cf95fb",
+      "captureId": "blueprints-02",
+      "nameKey": "7c522152-cf17-4718-a346-673b3005860f",
+      "nameRaw": "Exterior Royal Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Exterior Royal Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Pillar",
+      "guid": 2027991438,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal02-pillar",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal02_Pillar.md",
+      "sourceSha256": "59c79bd4a4ec05547434e3ae4752593fc63408cf488ac91d20591f67026d91a2",
+      "captureId": "blueprints-02",
+      "nameKey": "026ee6c5-8227-490d-9358-e51c4f6b80f2",
+      "nameRaw": "Interior Royal Walls",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66",
+      "descriptionRaw": "A place to recover when defeated",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "A place to recover when defeated",
+        "toString": "A place to recover when defeated",
+        "resultKey": "302af45d-e696-4660-938f-10f9902cfc66",
+        "nameLookup": "Interior Royal Walls",
+        "templateLookup": "A place to recover when defeated"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_DLCRoyal02_Wall01",
+      "guid": -1375591798,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-dlc-royal02-wall01",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_DLCRoyal02_Wall01.md",
+      "sourceSha256": "102418d78195795dd28698ba5c8efa0c883711010d4a0bdd005e72d93911512d",
+      "captureId": "blueprints-02",
+      "nameKey": "7c522152-cf17-4718-a346-673b3005860f",
+      "nameRaw": "Exterior Royal Walls",
+      "descriptionKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+      "descriptionRaw": "Decorative Stone for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Stone for your Castle Walls.",
+        "toString": "Decorative Stone for your Castle Walls.",
+        "resultKey": "9035ee9e-aa69-467b-be40-37baeabf5f8c",
+        "nameLookup": "Exterior Royal Walls",
+        "templateLookup": "Decorative Stone for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Damaged",
+      "guid": -1727028370,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-damaged",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Damaged.md",
+      "sourceSha256": "01cff996b9ac2f77e0eaad7b8f2ffb0513de2579a81f91d12410b955ee34e09c",
+      "captureId": "blueprints-02",
+      "nameKey": "4a519e2f-4667-4921-8959-f73af3cbe9fa",
+      "nameRaw": "Stone Coffin",
+      "descriptionKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+      "descriptionRaw": "Standard Castle Walls",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Standard Castle Walls",
+        "toString": "Standard Castle Walls",
+        "resultKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+        "nameLookup": "Stone Coffin",
+        "templateLookup": "Standard Castle Walls"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Default",
+      "guid": 2077581638,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-default",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Default.md",
+      "sourceSha256": "f0a2cf9756591dddd4d24e24132148a6862c0f2f6acecd7b88408ca6b0243c06",
+      "captureId": "blueprints-02",
+      "nameKey": "255722ad-8e0e-4000-be76-85dba4c89158",
+      "nameRaw": "Default Stone",
+      "descriptionKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+      "descriptionRaw": "Standard Castle Walls",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Standard Castle Walls",
+        "toString": "Standard Castle Walls",
+        "resultKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+        "nameLookup": "Default Stone",
+        "templateLookup": "Standard Castle Walls"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Disabled",
+      "guid": 1415207415,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-disabled",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Disabled.md",
+      "sourceSha256": "bc30454778e1e052b499c3dec41ca7fde6943c6570b0dd01eb849f057414e7af",
+      "captureId": "blueprints-02",
+      "nameKey": "4a519e2f-4667-4921-8959-f73af3cbe9fa",
+      "nameRaw": "Stone Coffin",
+      "descriptionKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+      "descriptionRaw": "Standard Castle Walls",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Standard Castle Walls",
+        "toString": "Standard Castle Walls",
+        "resultKey": "0aa59a10-d59e-4373-a589-8b5e2199b23c",
+        "nameLookup": "Stone Coffin",
+        "templateLookup": "Standard Castle Walls"
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Halloween01_01",
+      "guid": -971200685,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-halloween01-01",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Halloween01_01.md",
+      "sourceSha256": "eb8834d8a2cc6883ec588f0ae42aeaff10d0d15710c521723e0dcee7916028c8",
+      "captureId": "blueprints-02",
+      "nameKey": "9c775b94-4f1c-4ff1-acf4-c6f4ef19f38d",
+      "nameRaw": "Haunted Nights Wall Decor",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Haunted Nights Wall Decor",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Halloween01_02",
+      "guid": 1031586093,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-halloween01-02",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Halloween01_02.md",
+      "sourceSha256": "6288cc0517573e5f586f8f57ca19b88a346893308abae5c165a13648b61e850d",
+      "captureId": "blueprints-02",
+      "nameKey": "9c775b94-4f1c-4ff1-acf4-c6f4ef19f38d",
+      "nameRaw": "Haunted Nights Wall Decor",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Haunted Nights Wall Decor",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Imperious01_Base",
+      "guid": 2097261851,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-imperious01-base",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Imperious01_Base.md",
+      "sourceSha256": "6c37202971ebcaca97a8ea12199f807c6b6fe367f4f81170a9b3c4a7b431560b",
+      "captureId": "blueprints-02",
+      "nameKey": "3fd78b96-bb2c-4ce1-b0f4-2d5779841277",
+      "nameRaw": "'Imperious' Wall Panels",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "'Imperious' Wall Panels",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    },
+    {
+      "prefab": "BP_Tier02_WallpaperSet_Imperious01_Clean",
+      "guid": 1407127248,
+      "path": "/db/blueprints/bp-tier02-wallpaper-set-imperious01-clean",
+      "sourcePath": "content/prefabs/BP_Tier02_WallpaperSet_Imperious01_Clean.md",
+      "sourceSha256": "d6ffccd1fe301a23a430df33913026e53b4a0aacaeb5d1c019e9e3c4f555cabb",
+      "captureId": "blueprints-02",
+      "nameKey": "55897081-5913-4779-b6aa-2be697adff16",
+      "nameRaw": "Panels",
+      "descriptionKey": "61b32152-d242-43af-b381-8a71848cefc0",
+      "descriptionRaw": "Decorative Wood Panels for your Castle Walls.",
+      "parameters": {
+        "State": "absent-no-parameters-required",
+        "Index": 0,
+        "Count": 0,
+        "BufferLength": null,
+        "ErrorType": null,
+        "Rows": []
+      },
+      "native": {
+        "State": "recorded",
+        "buildInvocations": 1,
+        "reason": null,
+        "text": "Decorative Wood Panels for your Castle Walls.",
+        "toString": "Decorative Wood Panels for your Castle Walls.",
+        "resultKey": "61b32152-d242-43af-b381-8a71848cefc0",
+        "nameLookup": "Panels",
+        "templateLookup": "Decorative Wood Panels for your Castle Walls."
+      }
+    }
+  ]
+}
