@@ -8,3 +8,7 @@ data/enrichment/blueprint-icon-capture.json -text whitespace=cr-at-eol
 # Preserve exact bytes of the additive literal-text witness.
 data/enrichment/blueprint-text-expansion-128.json -text
 data/enrichment/blueprint-text-expansion-128/*.json -text
+
+# Freeze the remaining exact literal Blueprint witness bytes.
+data/enrichment/blueprint-text-remaining-literals.json -text
+data/enrichment/blueprint-text-remaining-literals/*.json -text
