@@ -36,12 +36,24 @@ pass, including native 200% zoom. All 92 final baseline comparisons pass after
 20 inspected permitted updates; 72 baseline hashes remain identical. Required
 verification, unit/artwork tests and repeated field-level generation audits pass.
 
-The clean task branch contains verified local commits. Original local main
-remains `7ff6162e3a`; the original checkout/index/pending files, accepted pilot
-and 3,070 previously sealed evidence files are preserved. The owned preview is
-stopped. Next is review of the combined pilot/expansion stack before any
-separately authorized consolidation or publication. No remote authority was
-refreshed, and no merge, push, deployment or cleanup is authorized here.
+The combined pilot/expansion stack through `21ef73e0da` passed read-only review
+with no blocking findings. Fresh checks confirm all 138 owned source identities,
+276 English lookups and 118 related labels. The combined allowance is 329
+generated files and 28 distinct accepted baseline updates relative to the earlier
+local main, with 64 baseline hashes unchanged; overlapping stage counts are not
+added together.
+
+This consolidation brings the reviewed stack and checkpoint-index/roadmap
+maintenance into local main by fast-forward, preserving history and task branches.
+The original checkout remains at `7ff6162e3a` on
+`codex/reference-focus-start-repair`, with its index and pending files intact.
+The accepted pilot checkout and all 3,520 sealed expansion/review-input evidence
+files are preserved. The owned preview remains stopped.
+
+Next is a separate publication decision covering the full unpublished range.
+The review confirmed remote main at `660e88efae`; refresh that authority before
+any future push. No push, PR, deployment, extraction or cleanup is authorized by
+this consolidation.
 
 ## Historical pilot state through October 9
 
@@ -424,7 +436,7 @@ and pass. The unchanged book suite passes an isolated retry after a zoom worker
 startup timeout; that initial cause remains unestablished. Failed runs remain
 separate from acceptance evidence. The owned preview is stopped for local delivery.
 
-## Next menu: local review and delivery
+## Next menu: publication decision
 
 The approved reverse-navigation candidates are now implemented. Their local
 counts reflect the retained source and current exact routes:
@@ -434,10 +446,11 @@ counts reflect the retained source and current exact routes:
 | Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
 | Material to Blueprint uses (implemented locally) | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-The ready high-value action is review of the combined local ten-record pilot
-and first 128-record expansion before a separately authorized consolidation or
-publication pass. Preserve dependency order and refresh remote authority at that
-point. This checkpoint does not authorize merge, push, PR, deployment or cleanup.
+The combined ten-record pilot and first 128-record expansion passed review and
+are consolidated into local main with the checkpoint-index correction. The next
+delivery action is a separately authorized publication decision covering the
+full unpublished range. Preserve dependency order and refresh remote authority
+then. This record does not authorize push, PR, deployment or branch cleanup.
 
 The delivered ingredient group still covers 1,385 requirements across 221 items
 and 664 recipes, with a largest list of 88. Blueprint text now covers 138/1198
