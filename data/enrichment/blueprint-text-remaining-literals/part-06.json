@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_PillarDecor_Gothic_Torch02", "guid": -962887562, "path": "/db/blueprints/tm-castle-pillar-decor-gothic-torch02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Gothic_Torch02.md", "sourceSha256": "8cc2df304f55f0374c81019d9361f45a996842952b7117864643b264602c79f6", "captureId": "blueprints-08",
+      "nameKey": "0810057c-989d-4d8a-8f0b-4ffa3b94b706", "nameRaw": "'Flare' Sconce",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"'Flare' Sconce","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Halloween01", "guid": 229389372, "path": "/db/blueprints/tm-castle-pillar-decor-halloween01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Halloween01.md", "sourceSha256": "6e895b9d0f70a2d52ae031ebb5da7a5bd359781a0d6fe42cb3975bc88fdaacb0", "captureId": "blueprints-08",
+      "nameKey": "f0cc091f-49a3-41c0-a11d-698c6ce7c1fc", "nameRaw": "Haunted Nights Web Drapes - Pillar",
+      "descriptionKey": "63f6ee46-7756-432b-8e67-08d3051482eb", "descriptionRaw": "A spooky spiderweb for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A spooky spiderweb for your pillars.","toString":"A spooky spiderweb for your pillars.","resultKey":"63f6ee46-7756-432b-8e67-08d3051482eb","nameLookup":"Haunted Nights Web Drapes - Pillar","templateLookup":"A spooky spiderweb for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle01", "guid": 1398111223, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle01.md", "sourceSha256": "2d93c7f1e035c5a040e6ea8bc4194131baf197b616fb623a8a5509580f068d1a", "captureId": "blueprints-08",
+      "nameKey": "6c59aefc-b947-46d2-9dbf-318f7179ed34", "nameRaw": "Gargoyle Vigilant",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Vigilant","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle02", "guid": 1952451618, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle02.md", "sourceSha256": "782fa248eb9b01d5f2fa5dcfcc362f47b02af5831af0f710db667cb9805456de", "captureId": "blueprints-08",
+      "nameKey": "a0323a90-5ee7-4b62-a143-9a90b5281df2", "nameRaw": "Gargoyle Apologist",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Apologist","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle03", "guid": -1591965530, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle03",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle03.md", "sourceSha256": "4c1e93865a381fc641a38f4727a9758b500298325d12fedbd1fc0954ec80010a", "captureId": "blueprints-08",
+      "nameKey": "606f86f4-65e9-4546-ad65-c36dd4d7cd35", "nameRaw": "Gargoyle Sentinel",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Sentinel","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle04", "guid": 171778355, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle04",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle04.md", "sourceSha256": "3b2abf51ee2ffa0e69baf46cedab56313848d13f6f17028cedd4c059925b9379", "captureId": "blueprints-08",
+      "nameKey": "dd70b448-eb64-428b-83d5-fd77ceb34a6e", "nameRaw": "Gargoyle Supplicant",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Supplicant","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle05", "guid": 318475524, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle05",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle05.md", "sourceSha256": "cc900f6cf6d0254116417dac0ede1cffc04d7efa578116a27bd0016c96d04989", "captureId": "blueprints-08",
+      "nameKey": "8477fbf2-6e6e-4a8d-adb2-aae387918911", "nameRaw": "Gargoyle Protector",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Protector","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_HangingGargoyle06", "guid": -432509803, "path": "/db/blueprints/tm-castle-pillar-decor-hanging-gargoyle06",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_HangingGargoyle06.md", "sourceSha256": "d254a4bde2f5c36e06a28e7b50cdd54470d2641bd9924d7591cb37552b696ede", "captureId": "blueprints-08",
+      "nameKey": "d1f95263-7468-4333-a4e7-b4dd839b5fa1", "nameRaw": "Gargoyle Diplomat",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Gargoyle Diplomat","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Stable_Sign01", "guid": 1701464100, "path": "/db/blueprints/tm-castle-pillar-decor-stable-sign01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Stable_Sign01.md", "sourceSha256": "3810e41c31f7f2cf4f76d3e77447d60177f002ed605a4ee63f83033b0b485106", "captureId": "blueprints-08",
+      "nameKey": "493eaefa-ab22-4519-8d99-4db9fd8d591d", "nameRaw": "Stables Sign",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Stables Sign","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_Stable_Sign02", "guid": 1507156777, "path": "/db/blueprints/tm-castle-pillar-decor-stable-sign02",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_Stable_Sign02.md", "sourceSha256": "190d096627c0b9be7f20d06f30dcec2ad353e76b652f08947b33452f90c9d494", "captureId": "blueprints-08",
+      "nameKey": "493eaefa-ab22-4519-8d99-4db9fd8d591d", "nameRaw": "Stables Sign",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Stables Sign","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable", "guid": -1303979929, "path": "/db/blueprints/tm-castle-pillar-decor-strongblade-dlc-lantern01-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable.md", "sourceSha256": "fa0e4fa7e0e40d80c1c9de48bce53114d47c6a187df17905adecb1ba56b64e68", "captureId": "blueprints-08",
+      "nameKey": "f3928d9d-ebc3-4039-9d79-a70322f76c31", "nameRaw": "Nocturnal Opulence Hanging Lamp",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Nocturnal Opulence Hanging Lamp","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_StrongbladeDLC_Lantern02_Dyable", "guid": -558665859, "path": "/db/blueprints/tm-castle-pillar-decor-strongblade-dlc-lantern02-dyable",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_StrongbladeDLC_Lantern02_Dyable.md", "sourceSha256": "861f54f4b2c3b3305f3f5f7d111840bf85a1f35d774a652e16756dc24d4572e8", "captureId": "blueprints-08",
+      "nameKey": "06561022-4e86-428f-9897-a4332ee5696d", "nameRaw": "Nocturnal Opulence Hanging Lamp",
+      "descriptionKey": "71581a56-aabd-4186-81d2-f9c6a004a62d", "descriptionRaw": "Used to light up rooms.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to light up rooms.","toString":"Used to light up rooms.","resultKey":"71581a56-aabd-4186-81d2-f9c6a004a62d","nameLookup":"Nocturnal Opulence Hanging Lamp","templateLookup":"Used to light up rooms."}
+    },
+    {
+      "prefab": "TM_Castle_PillarDecor_WorkshopHoist01", "guid": 623491931, "path": "/db/blueprints/tm-castle-pillar-decor-workshop-hoist01",
+      "sourcePath": "content/prefabs/TM_Castle_PillarDecor_WorkshopHoist01.md", "sourceSha256": "55e52fc0d41bfb351e311f3a6388b0b87180e4165d0c1c31d0693183bc095891", "captureId": "blueprints-08",
+      "nameKey": "34c44c02-eaa4-4b8a-9f91-5cf4449d94fe", "nameRaw": "Workshop Hoist",
+      "descriptionKey": "2f823121-f3a7-484e-9466-5c1080532b5b", "descriptionRaw": "A decoration for your pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration for your pillars.","toString":"A decoration for your pillars.","resultKey":"2f823121-f3a7-484e-9466-5c1080532b5b","nameLookup":"Workshop Hoist","templateLookup":"A decoration for your pillars."}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Lower_End_Left", "guid": 2044737851, "path": "/db/blueprints/tm-castle-stairs-double-lower-end-left",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Lower_End_Left.md", "sourceSha256": "deeaa13876478c3813c8fb47e25aa05aa281c77b3cb8589114d097d8d030e634", "captureId": "blueprints-01",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Lower_End_Right", "guid": 26454196, "path": "/db/blueprints/tm-castle-stairs-double-lower-end-right",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Lower_End_Right.md", "sourceSha256": "65eccb12571d968b5e87e064744c7ee437f7d31fbc66b319fd4d35e19c514f4d", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Lower_Start_Left", "guid": 2117545279, "path": "/db/blueprints/tm-castle-stairs-double-lower-start-left",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Lower_Start_Left.md", "sourceSha256": "e67e7e919dfb62eb4e9da380226024e2ab1be7b83777c85b11d5dc46de1d96f5", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Lower_Start_Right", "guid": -791433293, "path": "/db/blueprints/tm-castle-stairs-double-lower-start-right",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Lower_Start_Right.md", "sourceSha256": "f57773caa3dcb44ec5a48f7e529c990816b064ae6e06e76a00e27f987a2eb9da", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Upper_End_Left", "guid": -1608139464, "path": "/db/blueprints/tm-castle-stairs-double-upper-end-left",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Upper_End_Left.md", "sourceSha256": "b5571cc49fdc706ddb2bea18e00cd77c6e5f7f0ad0fe842957a99b110e049820", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Upper_End_Right", "guid": -1867747921, "path": "/db/blueprints/tm-castle-stairs-double-upper-end-right",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Upper_End_Right.md", "sourceSha256": "50964cb4bd3a52a2fd6b0f4684bd095446a77d40f4cc207498269f022d745a9e", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Upper_Start_Left", "guid": 1376308990, "path": "/db/blueprints/tm-castle-stairs-double-upper-start-left",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Upper_Start_Left.md", "sourceSha256": "b28e191e00d349c85c2582902d8f9a9af2cf30811f680d214d9d2afc1f8d14f5", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Double_Upper_Start_Right", "guid": -874593641, "path": "/db/blueprints/tm-castle-stairs-double-upper-start-right",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Double_Upper_Start_Right.md", "sourceSha256": "e53f4f5f9f88abaddde50c754e0fd6134e73443fbd673257ddf2988d91cd63ff", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Floor_01", "guid": 926709232, "path": "/db/blueprints/tm-castle-stairs-floor-01",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Floor_01.md", "sourceSha256": "7b5a409e920f186467bac4512baeb09c70df8e53445f576a458005f63890fd19", "captureId": "blueprints-08",
+      "nameKey": "50df2c0c-e575-46a1-af60-e17c52f7b316", "nameRaw": "Castle Flooring",
+      "descriptionKey": "5ff968d7-c533-43cd-b74f-cd2e6f5197cb", "descriptionRaw": "Floor sections for building a Castle interior.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Floor sections for building a Castle interior.","toString":"Floor sections for building a Castle interior.","resultKey":"5ff968d7-c533-43cd-b74f-cd2e6f5197cb","nameLookup":"Castle Flooring","templateLookup":"Floor sections for building a Castle interior."}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Floor_Ruined_01", "guid": -1401253655, "path": "/db/blueprints/tm-castle-stairs-floor-ruined-01",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Floor_Ruined_01.md", "sourceSha256": "f1ac6808491d2fb0b831dccb64947098ea358f1e79cf591e9514b7257068c001", "captureId": "blueprints-08",
+      "nameKey": "50df2c0c-e575-46a1-af60-e17c52f7b316", "nameRaw": "Castle Flooring",
+      "descriptionKey": "5ff968d7-c533-43cd-b74f-cd2e6f5197cb", "descriptionRaw": "Floor sections for building a Castle interior.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Floor sections for building a Castle interior.","toString":"Floor sections for building a Castle interior.","resultKey":"5ff968d7-c533-43cd-b74f-cd2e6f5197cb","nameLookup":"Castle Flooring","templateLookup":"Floor sections for building a Castle interior."}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Lower_End", "guid": -1601742249, "path": "/db/blueprints/tm-castle-stairs-single-lower-end",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Lower_End.md", "sourceSha256": "873422a17577b7707ee149f33d79ef58eba9aa8960403222b50f75843f3eaa8f", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Lower_Mid_CCW", "guid": 156372693, "path": "/db/blueprints/tm-castle-stairs-single-lower-mid-ccw",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Lower_Mid_CCW.md", "sourceSha256": "5b6a2ce79ff5d9f03e5ba579d07990bc78b7fe6d546cd1f53e58b5007f00b687", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Lower_Mid_CW", "guid": 91980480, "path": "/db/blueprints/tm-castle-stairs-single-lower-mid-cw",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Lower_Mid_CW.md", "sourceSha256": "b7ef4e6461ace0b65b97fc1a9465deaca3d48a87ee2fea57efc2bb16f4d5cbe8", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Lower_Start", "guid": -1848575035, "path": "/db/blueprints/tm-castle-stairs-single-lower-start",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Lower_Start.md", "sourceSha256": "a95202ae665fb9e91aca5490cc5b71786680161c60c0d5f1244be29c7759aa9a", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Upper_End", "guid": -1069128791, "path": "/db/blueprints/tm-castle-stairs-single-upper-end",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Upper_End.md", "sourceSha256": "4d1e8d2379d2539591bdf49e0b7aa6bc04ec55893ad2fdab122bb078eff6e263", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Upper_Mid_CCW", "guid": 223283194, "path": "/db/blueprints/tm-castle-stairs-single-upper-mid-ccw",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Upper_Mid_CCW.md", "sourceSha256": "230d240500956a3e857ed3c5d8e411f8a33944f08df462bd2868dd21d31af56f", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Upper_Mid_CW", "guid": 553087546, "path": "/db/blueprints/tm-castle-stairs-single-upper-mid-cw",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Upper_Mid_CW.md", "sourceSha256": "672f49a46e26d2948910df3b65b43dbc1edaa608015fc881a368662ac479bba8", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Stairs_Single_Upper_Start", "guid": -628271868, "path": "/db/blueprints/tm-castle-stairs-single-upper-start",
+      "sourcePath": "content/prefabs/TM_Castle_Stairs_Single_Upper_Start.md", "sourceSha256": "b1f696a70a0f19575162a725aa0a7d83c889b314e29491f901cc38cf15008912", "captureId": "blueprints-08",
+      "nameKey": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f", "nameRaw": "Stone Stairs",
+      "descriptionKey": "b009c962-35e8-4a82-961a-68fa4763599b", "descriptionRaw": "Castle Floor",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Castle Floor","toString":"Castle Floor","resultKey":"b009c962-35e8-4a82-961a-68fa4763599b","nameLookup":"Stone Stairs","templateLookup":"Castle Floor"}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01", "guid": -1944735586, "path": "/db/blueprints/tm-castle-throne-01",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01.md", "sourceSha256": "d36d7ec6d74ee5cab9a40b16cd7fb61b0815e3b7d08c5993f3d9fcfefca7671d", "captureId": "blueprints-08",
+      "nameKey": "86eb5251-62f6-49db-8966-4831c58da919", "nameRaw": "Castle Throne",
+      "descriptionKey": "a7aac7f0-cec5-493d-a91f-f30e68c89d9a", "descriptionRaw": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","toString":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","resultKey":"a7aac7f0-cec5-493d-a91f-f30e68c89d9a","nameLookup":"Castle Throne","templateLookup":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood."}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01DLC01Variant", "guid": 1862373808, "path": "/db/blueprints/tm-castle-throne-01-dlc01-variant",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01DLC01Variant.md", "sourceSha256": "52454905e232e8324b005e84d9d5e30c9d9a74189615b99738d7f942a55e33a8", "captureId": "blueprints-08",
+      "nameKey": "8525d8e1-fbc4-4652-a986-2c29c43c67b1", "nameRaw": "Royal Throne",
+      "descriptionKey": "a7aac7f0-cec5-493d-a91f-f30e68c89d9a", "descriptionRaw": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","toString":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","resultKey":"a7aac7f0-cec5-493d-a91f-f30e68c89d9a","nameLookup":"Royal Throne","templateLookup":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood."}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01DLC02Variant", "guid": -625213071, "path": "/db/blueprints/tm-castle-throne-01-dlc02-variant",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01DLC02Variant.md", "sourceSha256": "243b104a174e3bf63ae618849ebb31712f440681cabed8ab50fe7c70a0528295", "captureId": "blueprints-08",
+      "nameKey": "d7d6c566-4be2-48cb-baf3-216de8f3550f", "nameRaw": "Plague Chemist’s Throne",
+      "descriptionKey": "a7aac7f0-cec5-493d-a91f-f30e68c89d9a", "descriptionRaw": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","toString":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","resultKey":"a7aac7f0-cec5-493d-a91f-f30e68c89d9a","nameLookup":"Plague Chemist’s Throne","templateLookup":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood."}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01_Dracula", "guid": -633207199, "path": "/db/blueprints/tm-castle-throne-01-dracula",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01_Dracula.md", "sourceSha256": "5bbb74cff226fc1f2fbbc35ed0ea6446db2291fcc8503836bd46bb489202917e", "captureId": "blueprints-08",
+      "nameKey": "0d2997c8-874a-444d-a699-20ee79d3a4da", "nameRaw": "Throne of Darkness",
+      "descriptionKey": "2449b0c8-4aa5-4690-b40e-69f09cea3286", "descriptionRaw": "A seat worthy of an emperor.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A seat worthy of an emperor.","toString":"A seat worthy of an emperor.","resultKey":"2449b0c8-4aa5-4690-b40e-69f09cea3286","nameLookup":"Throne of Darkness","templateLookup":"A seat worthy of an emperor."}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01_ProjectK", "guid": -229853553, "path": "/db/blueprints/tm-castle-throne-01-project-k",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01_ProjectK.md", "sourceSha256": "237fb4edbae400600e5572081be573c7656ed4b26cc3268d00bfcbd8df2ecd5f", "captureId": "blueprints-08",
+      "nameKey": "1bff629e-19a9-4f6b-8eac-02f78be0722a", "nameRaw": "Ancient Symphony Throne",
+      "descriptionKey": "a7aac7f0-cec5-493d-a91f-f30e68c89d9a", "descriptionRaw": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","toString":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","resultKey":"a7aac7f0-cec5-493d-a91f-f30e68c89d9a","nameLookup":"Ancient Symphony Throne","templateLookup":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood."}
+    },
+    {
+      "prefab": "TM_Castle_Throne_01_StrongbladeDLC", "guid": 980816206, "path": "/db/blueprints/tm-castle-throne-01-strongblade-dlc",
+      "sourcePath": "content/prefabs/TM_Castle_Throne_01_StrongbladeDLC.md", "sourceSha256": "69a3f50d96e6c9918d9cb9c4b9b764e1a80e6a575597486fee91692abb69f896", "captureId": "blueprints-01",
+      "nameKey": "2d6e5410-d6bc-4484-9648-5fb7603b4b5f", "nameRaw": "Nocturnal Opulence Throne",
+      "descriptionKey": "a7aac7f0-cec5-493d-a91f-f30e68c89d9a", "descriptionRaw": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","toString":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.","resultKey":"a7aac7f0-cec5-493d-a91f-f30e68c89d9a","nameLookup":"Nocturnal Opulence Throne","templateLookup":"Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Garden_BloodRose01", "guid": 1203605086, "path": "/db/blueprints/tm-castle-wall-decor-garden-blood-rose01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Garden_BloodRose01.md", "sourceSha256": "60caf3ea54990d48be1c6478c0cf855e8cd311a45627eedc49a0d2bb4fb2571d", "captureId": "blueprints-01",
+      "nameKey": "17b0f7d9-0114-458d-a2b4-a386f2c7a52b", "nameRaw": "Wall Growth - Blood Rose",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Blood Rose","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Garden_Cursed01", "guid": -173804790, "path": "/db/blueprints/tm-castle-wall-decor-garden-cursed01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Garden_Cursed01.md", "sourceSha256": "88b6f25f99c064e46a9bae67b6bbb156b383df3e15f5fa5a252272cf88be7eac", "captureId": "blueprints-08",
+      "nameKey": "a7ba83da-234e-4d68-aaa3-d66955d1fa1c", "nameRaw": "Wall Growth - Morass",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Morass","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Garden_Ivy01", "guid": -298809060, "path": "/db/blueprints/tm-castle-wall-decor-garden-ivy01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Garden_Ivy01.md", "sourceSha256": "d20e1c0568b5cffcb9c5298b4d52fe633cc17fe41f832dedc8c25f6b6b4baa13", "captureId": "blueprints-08",
+      "nameKey": "eac37743-81b7-42da-8868-c7fae7cdbd45", "nameRaw": "Wall Growth - Ivy",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Ivy","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Garden_Wisteria01", "guid": 1957340591, "path": "/db/blueprints/tm-castle-wall-decor-garden-wisteria01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Garden_Wisteria01.md", "sourceSha256": "700f4118a3dc63afae748e9a278763cc77ca4576e6907ac01542f004ac6f4520", "captureId": "blueprints-08",
+      "nameKey": "359df15f-5d16-4e63-8ec9-b71e10ad5512", "nameRaw": "Wall Growth - Wisteria",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Wisteria","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01", "guid": -1218750780, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-gloomrot-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01.md", "sourceSha256": "ca9cffe1b3b3a7c2b47ecb54cbea3aa8a12cb0ef0a5e7833000cb6d1af820c6d", "captureId": "blueprints-08",
+      "nameKey": "2f6006ae-3e89-4d57-8153-6c0ee6aacd80", "nameRaw": "Glass Window - Plague Sanctum",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Plague Sanctum","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_Halloween01", "guid": 1887813312, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-halloween01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_Halloween01.md", "sourceSha256": "c421b56ce88c2eea8d0d06a5ebbe3594fe5c65998767035cf74df69afcaf42ef", "captureId": "blueprints-08",
+      "nameKey": "25563b83-7709-4ca9-b8a6-3be55bf0ce04", "nameRaw": "Glass Window - Haunted Nights",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Haunted Nights","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK01", "guid": -1805858799, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-project-k01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_ProjectK01.md", "sourceSha256": "50c89b11f9a8b588701a0e07663ff68a78e0d84d52a17f697c1eaeab67b71200", "captureId": "blueprints-08",
+      "nameKey": "a58042b9-4804-4cd8-8ed6-18df85899a51", "nameRaw": "Glass Window - Vampire",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Vampire","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK02", "guid": -1938065854, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-project-k02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_ProjectK02.md", "sourceSha256": "9a2fb5f9860514edc66c9a3728caea473329a9216dddfc3613504d1f00bc3601", "captureId": "blueprints-08",
+      "nameKey": "3fd2c674-0c9a-45e9-b818-3efef110beae", "nameRaw": "Glass Window - Wraith",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Wraith","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK03", "guid": 886525362, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-project-k03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_ProjectK03.md", "sourceSha256": "f55a44aeb338ded0ffe2993bc4cf7bb58c983052448cdacb75b0ef4280cf3b46", "captureId": "blueprints-08",
+      "nameKey": "29906660-bf5e-454d-8519-26389e4e13bc", "nameRaw": "Glass Window - Dominus",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Dominus","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC01", "guid": -1167127551, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-royal-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_RoyalDLC01.md", "sourceSha256": "6b0ce80820b9ad02c8940ab8c5c5831923707e6c2e5bac83d36518a7d84b9e96", "captureId": "blueprints-08",
+      "nameKey": "4197235a-fb2a-4a8e-b0b1-31b894b474a5", "nameRaw": "Glass Window - Royal Red & Black",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Royal Red & Black","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02", "guid": -194316523, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-royal-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02.md", "sourceSha256": "a355ecd52e6d476ac8ec0298fd7708d23cf3cc5a8f91009d696e3979e82b6ee5", "captureId": "blueprints-08",
+      "nameKey": "a897dadf-70a9-4389-8933-a688cc014d34", "nameRaw": "Glass Window - Royal Black & Red",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Royal Black & Red","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01", "guid": 1524360644, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window01-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01.md", "sourceSha256": "93cf4d0f481688707f7b160f4ba0bf1ce6b46699e1658ef9ea3e295f089b9b51", "captureId": "blueprints-08",
+      "nameKey": "8d770109-aac3-49a6-93a5-4ef10d628588", "nameRaw": "Glass Window - Nocturnal Opulence",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Nocturnal Opulence","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Bars01", "guid": 1169104268, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-bars01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Bars01.md", "sourceSha256": "82f60810bd0551674b536554b30478506f03852aeddfb2e5a5296437a8aaccc5", "captureId": "blueprints-08",
+      "nameKey": "9d8078b6-501d-4599-8a41-13be2e92a7f0", "nameRaw": "Window Bars",
+      "descriptionKey": "ba4a6541-0f8a-4c16-99fe-b9722e1b7060", "descriptionRaw": "A set of sturdy yet stylish bars that block projectiles while still providing vision.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A set of sturdy yet stylish bars that block projectiles while still providing vision.","toString":"A set of sturdy yet stylish bars that block projectiles while still providing vision.","resultKey":"ba4a6541-0f8a-4c16-99fe-b9722e1b7060","nameLookup":"Window Bars","templateLookup":"A set of sturdy yet stylish bars that block projectiles while still providing vision."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue01", "guid": -667248554, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-blue01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Blue01.md", "sourceSha256": "1d87b0295275a9e50e1d3b324c91e16a97d2ea3215024d169ee6f0ceaa0a1abc", "captureId": "blueprints-08",
+      "nameKey": "d924655a-46ac-42f8-bb4a-cc74495c086f", "nameRaw": "Glass Window - Gothic Deep Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Deep Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue02", "guid": 472162278, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-blue02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Blue02.md", "sourceSha256": "69775b2a2628a76163a870f2402eaaf4c03a9e982a1af823d1e66626ebb3fcb2", "captureId": "blueprints-08",
+      "nameKey": "aa32e4d0-3478-4ef8-9183-0cf356ae4df9", "nameRaw": "Glass Window - Gothic Deep Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Deep Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue03", "guid": 1512293539, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-blue03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Blue03.md", "sourceSha256": "b4a3fc8b7f813c6c0b611a211cd65f304df1eb62dc8eb73f3f511244858618f0", "captureId": "blueprints-08",
+      "nameKey": "d38c26f7-201d-4828-9eda-30fa67a12516", "nameRaw": "Glass Window - Gothic Deep Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Deep Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear01", "guid": 443701342, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-clear01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Clear01.md", "sourceSha256": "fff62b18f44e3813020749eec43f8d2a30e6d834345b9d031d736828f733afa4", "captureId": "blueprints-08",
+      "nameKey": "f452996b-a728-4c85-9ec8-bcd155bef60e", "nameRaw": "Glass Window - Gothic Clear",
+      "descriptionKey": "eee87cb2-b777-4835-aa62-15b6a971e82b", "descriptionRaw": "A clear glass window that block projectiles yet is still see-through.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A clear glass window that block projectiles yet is still see-through.","toString":"A clear glass window that block projectiles yet is still see-through.","resultKey":"eee87cb2-b777-4835-aa62-15b6a971e82b","nameLookup":"Glass Window - Gothic Clear","templateLookup":"A clear glass window that block projectiles yet is still see-through."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear02", "guid": -1220798446, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-clear02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Clear02.md", "sourceSha256": "8b09c74fa32ebf3f973674f939badb1e7a9a30c8fa170416744ff8db53ee5a08", "captureId": "blueprints-08",
+      "nameKey": "24b655b3-98c6-4dcf-8dc4-bdef67136ef8", "nameRaw": "Glass Window - Gothic Clear",
+      "descriptionKey": "eee87cb2-b777-4835-aa62-15b6a971e82b", "descriptionRaw": "A clear glass window that block projectiles yet is still see-through.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A clear glass window that block projectiles yet is still see-through.","toString":"A clear glass window that block projectiles yet is still see-through.","resultKey":"eee87cb2-b777-4835-aa62-15b6a971e82b","nameLookup":"Glass Window - Gothic Clear","templateLookup":"A clear glass window that block projectiles yet is still see-through."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear03", "guid": 322611066, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-clear03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Clear03.md", "sourceSha256": "d1aa1fa1d4476abfba900b211ba2e2aa520228dfba90e7f36128138310917be7", "captureId": "blueprints-08",
+      "nameKey": "e69b3586-a9ee-4ec2-904b-88b3d35a6004", "nameRaw": "Glass Window - Gothic Clear",
+      "descriptionKey": "eee87cb2-b777-4835-aa62-15b6a971e82b", "descriptionRaw": "A clear glass window that block projectiles yet is still see-through.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A clear glass window that block projectiles yet is still see-through.","toString":"A clear glass window that block projectiles yet is still see-through.","resultKey":"eee87cb2-b777-4835-aa62-15b6a971e82b","nameLookup":"Glass Window - Gothic Clear","templateLookup":"A clear glass window that block projectiles yet is still see-through."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable01", "guid": 725659998, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-dyable01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Dyable01.md", "sourceSha256": "0a450044d359e4ccea6a7958a8432b8e09f9542dc7764165cc0580e6f64c4a88", "captureId": "blueprints-08",
+      "nameKey": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867", "nameRaw": "Glass Window - Gothic Colored",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Colored","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable02", "guid": -289420417, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-dyable02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Dyable02.md", "sourceSha256": "cd4beca48c484f5702a3880734f21f02bcddcf133af92ecabf5e01b50cb7bb48", "captureId": "blueprints-08",
+      "nameKey": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867", "nameRaw": "Glass Window - Gothic Colored",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Colored","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable03", "guid": -1119007803, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-dyable03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Dyable03.md", "sourceSha256": "7d65668d064a2959516a830c7f4e1448c5777f2ada32f01fbdf5f2e3e375004f", "captureId": "blueprints-08",
+      "nameKey": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867", "nameRaw": "Glass Window - Gothic Colored",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Colored","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green01", "guid": -659104170, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-green01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Green01.md", "sourceSha256": "7d7b17cbfca72c4785d3d87480d135e43b317104f3f50f3650f3fe3bcfc42061", "captureId": "blueprints-08",
+      "nameKey": "86840971-eefa-477c-93bf-fbaa01d00749", "nameRaw": "Glass Window - Gothic Green",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Green","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green02", "guid": -1204323601, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-green02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Green02.md", "sourceSha256": "f1a36277bd0bc5cef9f6f58c5397639c9cd026d1c13e43d5118a34a881856420", "captureId": "blueprints-08",
+      "nameKey": "783eba3b-1482-4969-9b2d-8a6cc6c2b5bc", "nameRaw": "Glass Window - Gothic Green",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Green","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Green03", "guid": -795601069, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-green03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Green03.md", "sourceSha256": "c0d47999b680f649fa7071e35fe0c3fa0ce681e2fdfdb8e5d6d0131c6c142ad3", "captureId": "blueprints-08",
+      "nameKey": "11af71bd-f506-48b1-8dc6-c94d20dbeca9", "nameRaw": "Glass Window - Gothic Green",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Green","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple01", "guid": -729261826, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-purple01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Purple01.md", "sourceSha256": "3991e5e0513f12c7b470a6b78c671e3602a52ec9d56a2dd89b5095489a51a7fa", "captureId": "blueprints-08",
+      "nameKey": "348cbe4d-9131-44a3-aa42-157d00c4f479", "nameRaw": "Glass Window - Gothic Purple",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Purple","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple02", "guid": 1066937682, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-purple02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Purple02.md", "sourceSha256": "23642af77c76f271cd455a370b9e071e6c24bf891a47b8fc2c2bf70c887efb5d", "captureId": "blueprints-08",
+      "nameKey": "b5c65aa7-ec07-4cfa-9f97-cac50a5b2713", "nameRaw": "Glass Window - Gothic Purple",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Purple","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple03", "guid": -1252378669, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-purple03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Purple03.md", "sourceSha256": "b083284bac8d1bc3b239d62de2fe56287b25b28834880f86f0ec85970749a5c1", "captureId": "blueprints-08",
+      "nameKey": "569989d9-8393-4c43-92ab-9b3b17c20c22", "nameRaw": "Glass Window - Gothic Purple",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Purple","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue01", "guid": -453210601, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-skyblue01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Skyblue01.md", "sourceSha256": "7bdd792c167cf35becb2d4ab1359bbb3e808fdbacd682cef2d7ed19766914899", "captureId": "blueprints-08",
+      "nameKey": "6f4a9334-5998-4017-832d-16fc8e4e84c4", "nameRaw": "Glass Window - Gothic Pale Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Pale Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue02", "guid": -2028788906, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-skyblue02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Skyblue02.md", "sourceSha256": "f1467643222c82922c6fa90d3f1acb54e28947ede2b6a7389aeeeca906510e2d", "captureId": "blueprints-08",
+      "nameKey": "40a4cbb8-c914-494b-97e3-864e66e87446", "nameRaw": "Glass Window - Gothic Pale Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Pale Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue03", "guid": -676131283, "path": "/db/blueprints/tm-castle-wall-decor-gothic-window-skyblue03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Gothic_Window_Skyblue03.md", "sourceSha256": "cf56d725aa3f31d5c6ec401ac87b782d7bb41a2440b4b2143a1566fd229a1ea0", "captureId": "blueprints-08",
+      "nameKey": "f6c9514a-2cf9-4c8e-b46f-78bf183d8900", "nameRaw": "Glass Window - Gothic Pale Blue",
+      "descriptionKey": "32b9d93d-2cf4-4913-8443-51ee1adc6eff", "descriptionRaw": "A coloured glass window that both blocks projectiles and provides some privacy.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A coloured glass window that both blocks projectiles and provides some privacy.","toString":"A coloured glass window that both blocks projectiles and provides some privacy.","resultKey":"32b9d93d-2cf4-4913-8443-51ee1adc6eff","nameLookup":"Glass Window - Gothic Pale Blue","templateLookup":"A coloured glass window that both blocks projectiles and provides some privacy."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_01", "guid": -1307228368, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_01.md", "sourceSha256": "0364cab0d41820b6fd6ed39d4a2382f78beaba6f85a282bb473af41ccaa3e08a", "captureId": "blueprints-08",
+      "nameKey": "e5550ccb-c62b-42e3-bf4b-0d8133116e02", "nameRaw": "'Portents'",
+      "descriptionKey": "72c06bfe-cfcf-4c60-a004-46fa75cb25da", "descriptionRaw": "An impression of a hauntingly beautiful Aether meadow.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An impression of a hauntingly beautiful Aether meadow.","toString":"An impression of a hauntingly beautiful Aether meadow.","resultKey":"72c06bfe-cfcf-4c60-a004-46fa75cb25da","nameLookup":"'Portents'","templateLookup":"An impression of a hauntingly beautiful Aether meadow."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_02", "guid": 1459252359, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_02.md", "sourceSha256": "c945134a8f621c9792e63b701962801b31779b17bee3a4462aa5e9c21a5bb9ed", "captureId": "blueprints-08",
+      "nameKey": "585fd165-5f63-4a12-b105-2c2e88de0833", "nameRaw": "'Waltz'",
+      "descriptionKey": "f3f3de92-7b9e-4d95-91a5-e32221ebe670", "descriptionRaw": "A vampire couple in a whirling waltz.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A vampire couple in a whirling waltz.","toString":"A vampire couple in a whirling waltz.","resultKey":"f3f3de92-7b9e-4d95-91a5-e32221ebe670","nameLookup":"'Waltz'","templateLookup":"A vampire couple in a whirling waltz."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_03", "guid": 6059030, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_03.md", "sourceSha256": "4e4db01b597200bf60c7366827963d9a8307524f51f8763bfe963c99facd311a", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_05", "guid": -103770213, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_05.md", "sourceSha256": "807db7b748da379ed2ad029e5c7500e6a3ccfc0c28b0aa4903dd95b305ad700b", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_07", "guid": 625751737, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-07",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_07.md", "sourceSha256": "ddce3ada0892982a3e6190ffc1be079089f3d466c8b83b490986bffd2883af8e", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_08", "guid": 118962921, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-08",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_08.md", "sourceSha256": "4cdbd3a133c16f2cf5f15d37938d54c32b7eb5ddc3f4db6f88ee9cbf7d60de75", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_09", "guid": -42098265, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-09",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_09.md", "sourceSha256": "9a265fabc51b810c23d52ffb7a11dd2e7f6ed5a665fa5bdb75e276bf6309f01c", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_10", "guid": -1745893180, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-10",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_10.md", "sourceSha256": "273d65b880a611a40e680c42ba4661740f2cc0ff7e8fe03e60a4264fc57e6c95", "captureId": "blueprints-08",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_11", "guid": 1452813388, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-11",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_11.md", "sourceSha256": "492b595e576bbe7564898d318a451d2ad09a0a36a372fcd396eeca9b0372477e", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_12", "guid": 1148566153, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-12",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_12.md", "sourceSha256": "2f90bf0e07d447ad53f8acb4e7391e3f71fc201daa368596ad1cc9e75a4720d8", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_13", "guid": -874388056, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-13",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_13.md", "sourceSha256": "2723d4a378afdb2d23399370ada689ed5a300b6532d17cc8f1b0cdc715c3b6d0", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_14", "guid": -896398724, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-14",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_14.md", "sourceSha256": "aab24c4e95e41c5395c4b78c74b4938b68fb2b17378836542153dacc3ba94e2d", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_15", "guid": -1207990853, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-15",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_15.md", "sourceSha256": "a130ddcf83efae335b9128e3c0ae8c6b0b19413f846f759e8980a5514026dcc1", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_16", "guid": -1751512097, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-16",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_16.md", "sourceSha256": "a6ad6b69b0e993ec34b0e234bf5c18060086185919c712174882eb7bfcb3dd68", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_17", "guid": 962358103, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-17",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_17.md", "sourceSha256": "08119d2069cc4b0798853dfaad27eaa73a0a24a1a9de31589ccc7f5eaac37e82", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_19", "guid": 760787907, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-19",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_19.md", "sourceSha256": "f200ed34fef44eee97f19f1253648f0f7d17f8a40957d13803b4df5e49672634", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_20", "guid": 1234406413, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-20",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_20.md", "sourceSha256": "809b4e0d58543ad15711cba6dc18aa99168c3a17eb26a5d365302454f25d2056", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_21", "guid": 1333571465, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-21",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_21.md", "sourceSha256": "2baa3bb6fd822474526a0c029fe39cfd0b81ee2fe35d47bc81205a7862cb437e", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_22", "guid": -674555145, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-22",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_22.md", "sourceSha256": "514404b0fd000e13dabba2e7f69921172c1bc20c2a6060da6deb62661d89ebbe", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_23", "guid": -1181979524, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-23",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_23.md", "sourceSha256": "b78d7f795a0820ccdbb612efac415b256ecc4e276e2541efc6e3c25d447cb7af", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_27", "guid": 800326898, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-27",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_27.md", "sourceSha256": "5c4cd0abf935fcda3bb8e7ff822e1a2e9dcdee5b0209aa4bb9e89df0ce09f8ad", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Horizontal_Painting_28", "guid": -1442212690, "path": "/db/blueprints/tm-castle-wall-decor-horizontal-painting-28",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Horizontal_Painting_28.md", "sourceSha256": "ecefd50ebc765ed1cedfbc6094f9dc71aae313522b78dcc4f26781dee43e8481", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror01", "guid": 1178448608, "path": "/db/blueprints/tm-castle-wall-decor-mirrors-mirror01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Mirrors_Mirror01.md", "sourceSha256": "2cdc2d370bc8e88ca07df1ded0b27caead1a63a9a326fd9144845302913fe403", "captureId": "blueprints-09",
+      "nameKey": "6e4b2c9e-c314-4d46-b6b4-2cb5b97abc72", "nameRaw": "'Radiant' Small Wall Mirror",
+      "descriptionKey": "4c8cf657-92ad-4f0b-928c-08e4812d3739", "descriptionRaw": "A mirror that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mirror that sits neatly on your walls.","toString":"A mirror that sits neatly on your walls.","resultKey":"4c8cf657-92ad-4f0b-928c-08e4812d3739","nameLookup":"'Radiant' Small Wall Mirror","templateLookup":"A mirror that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror02", "guid": -1556169800, "path": "/db/blueprints/tm-castle-wall-decor-mirrors-mirror02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Mirrors_Mirror02.md", "sourceSha256": "b524f15aede10c2df964ef8951866c80642ec689d21779afacb0bc942d0c7199", "captureId": "blueprints-09",
+      "nameKey": "d42fec7c-f8ed-4589-9e03-bf3106e12a61", "nameRaw": "'Dignity' Small Wall Mirror",
+      "descriptionKey": "4c8cf657-92ad-4f0b-928c-08e4812d3739", "descriptionRaw": "A mirror that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mirror that sits neatly on your walls.","toString":"A mirror that sits neatly on your walls.","resultKey":"4c8cf657-92ad-4f0b-928c-08e4812d3739","nameLookup":"'Dignity' Small Wall Mirror","templateLookup":"A mirror that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror03", "guid": -1193732670, "path": "/db/blueprints/tm-castle-wall-decor-mirrors-mirror03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Mirrors_Mirror03.md", "sourceSha256": "2ab1a882ca8fe1537447a206dcd4766880a7798fc71213ca7c5ce6bd1bf7e8bb", "captureId": "blueprints-09",
+      "nameKey": "9e49dec4-a612-4a62-843f-390fcb3cd26b", "nameRaw": "'Distinguished' Large Wall Mirror",
+      "descriptionKey": "4c8cf657-92ad-4f0b-928c-08e4812d3739", "descriptionRaw": "A mirror that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mirror that sits neatly on your walls.","toString":"A mirror that sits neatly on your walls.","resultKey":"4c8cf657-92ad-4f0b-928c-08e4812d3739","nameLookup":"'Distinguished' Large Wall Mirror","templateLookup":"A mirror that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Mirrors_Mirror04", "guid": -1375980003, "path": "/db/blueprints/tm-castle-wall-decor-mirrors-mirror04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Mirrors_Mirror04.md", "sourceSha256": "1b54b975fa969145e7750c61eb3877b193e49ea2c73096b21e3d4caa302ad827", "captureId": "blueprints-09",
+      "nameKey": "23d9cfd3-17d4-46ba-8255-9ea9f4d41109", "nameRaw": "'Cordial' Large Wall Mirror",
+      "descriptionKey": "4c8cf657-92ad-4f0b-928c-08e4812d3739", "descriptionRaw": "A mirror that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mirror that sits neatly on your walls.","toString":"A mirror that sits neatly on your walls.","resultKey":"4c8cf657-92ad-4f0b-928c-08e4812d3739","nameLookup":"'Cordial' Large Wall Mirror","templateLookup":"A mirror that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol01", "guid": 464203925, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-symbol01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_Symbol01.md", "sourceSha256": "c9a7a42d0959928fd928277a8bc5184c6788c86360827b4fdd43237ade4c2cb9", "captureId": "blueprints-09",
+      "nameKey": "94848814-dfc1-46db-91f0-044b188c8e26", "nameRaw": "'Nightfall' Wall Plaque",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Plaque","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02", "guid": -2049392252, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-symbol02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02.md", "sourceSha256": "4c88f6b7e37586d7023c593b9ca8c443503ef009bdc6853d79b31df9b0031d55", "captureId": "blueprints-09",
+      "nameKey": "94848814-dfc1-46db-91f0-044b188c8e26", "nameRaw": "'Nightfall' Wall Plaque",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Plaque","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol03", "guid": -2085364677, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-symbol03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_Symbol03.md", "sourceSha256": "d6759ff7489671c2080ad2bfdb5c599f43cb6b540728a284f37d767f812b2a0a", "captureId": "blueprints-09",
+      "nameKey": "94848814-dfc1-46db-91f0-044b188c8e26", "nameRaw": "'Nightfall' Wall Plaque",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Plaque","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01", "guid": 1731550316, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-wall-banner01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01.md", "sourceSha256": "9e173088b480643c2df8a46ae3f810eb388973ae42571aef12427e446c27947c", "captureId": "blueprints-09",
+      "nameKey": "508c3110-e864-4844-8442-3ea24787bb19", "nameRaw": "'Nightfall' Wall Banner",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Banner","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02", "guid": 562906620, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-wall-banner02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02.md", "sourceSha256": "7e5bab45b762236129a12404a211f9a2fbe1a77a6453cc426619ef8917b5adf0", "captureId": "blueprints-09",
+      "nameKey": "508c3110-e864-4844-8442-3ea24787bb19", "nameRaw": "'Nightfall' Wall Banner",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Banner","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner03", "guid": -614163586, "path": "/db/blueprints/tm-castle-wall-decor-misc-coat-of-arms-wall-banner03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner03.md", "sourceSha256": "57892eff84783dbef12458b8cb02444945521ff3740aea553ce94eb180cacbb6", "captureId": "blueprints-09",
+      "nameKey": "508c3110-e864-4844-8442-3ea24787bb19", "nameRaw": "'Nightfall' Wall Banner",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"'Nightfall' Wall Banner","templateLookup":"A decoration that sits neatly on your walls."}
+    }
+  ]
+}
