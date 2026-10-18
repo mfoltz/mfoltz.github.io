@@ -15,10 +15,10 @@
   },
   "blueprint-display-map": {
     "total": 1198,
-    "matched": 644,
-    "coveragePct": 0.5376,
+    "matched": 744,
+    "coveragePct": 0.621,
     "signal": "high-signal",
-    "lowSignalExcluded": 554
+    "lowSignalExcluded": 454
   },
   "buff-display-map": {
     "total": 3274,

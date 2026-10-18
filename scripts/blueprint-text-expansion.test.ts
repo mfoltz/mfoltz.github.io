@@ -16,7 +16,7 @@ test("exact frozen 128 identities, signed GUIDs and portable retained-source evi
   assert.equal(evidence.rows[0].prefab, "BP_Castle_Chain_Plant_BleedingHeart");
   assert.equal(evidence.rows.at(-1)!.prefab, "TM_Castle_Fence_Iron02");
   assert(evidence.rows.every(row => row.parameters.Count === 0 && row.native.text === row.descriptionRaw));
-  assert.equal(approved.rows.length, 638); assert.equal(approved.pilot.rows.length, 10);
+  assert.equal(approved.rows.length, 738); assert.equal(approved.pilot.rows.length, 10);
 });
 test("literal text is preserved without whitespace or numeric formatting", () => {
   for (const text of ["Plant", "A  literal sentence.", "â€˜Ownedâ€™ punctuation â€” intact.", "15% remains 15%."])
@@ -63,7 +63,7 @@ test("overlays are deterministic, preserve artwork and all unselected rows", () 
     if (!selected.has(prefab)) assert.deepEqual(updated[prefab], row);
     for (const field of ["iconAssetName", "iconAssetPath"] as const) assert.equal(updated[prefab][field], row[field]);
   }
-  assert.deepEqual(approvedBlueprintTextCoverage(updated), { total: 1198, matched: 644, coveragePct: 0.5376, signal: "high-signal", lowSignalExcluded: 554 });
+  assert.deepEqual(approvedBlueprintTextCoverage(updated), { total: 1198, matched: 744, coveragePct: 0.621, signal: "high-signal", lowSignalExcluded: 454 });
 });
 test("version-1 pilot still leaves Plant and Debug outside its standalone overlay", async () => {
   const pilot = await readBlueprintText(root);

@@ -7124,93 +7124,119 @@
   "TM_Castle_PillarDecor_Gothic_Torch02": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Torch02",
     "guid": -962887562,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Torch02",
+    "displayNameEn": "'Flare' Sconce",
+    "displayLocalizationGuid": "0810057c-989d-4d8a-8f0b-4ffa3b94b706"
   },
   "TM_Castle_PillarDecor_Halloween01": {
     "prefab": "TM_Castle_PillarDecor_Halloween01",
     "guid": 229389372,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A spooky spiderweb for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Halloween01",
+    "displayNameEn": "Haunted Nights Web Drapes - Pillar",
+    "displayLocalizationGuid": "f0cc091f-49a3-41c0-a11d-698c6ce7c1fc"
   },
   "TM_Castle_PillarDecor_HangingGargoyle01": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle01",
     "guid": 1398111223,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle01",
+    "displayNameEn": "Gargoyle Vigilant",
+    "displayLocalizationGuid": "6c59aefc-b947-46d2-9dbf-318f7179ed34"
   },
   "TM_Castle_PillarDecor_HangingGargoyle02": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle02",
     "guid": 1952451618,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle02",
+    "displayNameEn": "Gargoyle Apologist",
+    "displayLocalizationGuid": "a0323a90-5ee7-4b62-a143-9a90b5281df2"
   },
   "TM_Castle_PillarDecor_HangingGargoyle03": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle03",
     "guid": -1591965530,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle03",
+    "displayNameEn": "Gargoyle Sentinel",
+    "displayLocalizationGuid": "606f86f4-65e9-4546-ad65-c36dd4d7cd35"
   },
   "TM_Castle_PillarDecor_HangingGargoyle04": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle04",
     "guid": 171778355,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle04",
+    "displayNameEn": "Gargoyle Supplicant",
+    "displayLocalizationGuid": "dd70b448-eb64-428b-83d5-fd77ceb34a6e"
   },
   "TM_Castle_PillarDecor_HangingGargoyle05": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle05",
     "guid": 318475524,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle05",
+    "displayNameEn": "Gargoyle Protector",
+    "displayLocalizationGuid": "8477fbf2-6e6e-4a8d-adb2-aae387918911"
   },
   "TM_Castle_PillarDecor_HangingGargoyle06": {
     "prefab": "TM_Castle_PillarDecor_HangingGargoyle06",
     "guid": -432509803,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_HangingGargoyle06",
+    "displayNameEn": "Gargoyle Diplomat",
+    "displayLocalizationGuid": "d1f95263-7468-4333-a4e7-b4dd839b5fa1"
   },
   "TM_Castle_PillarDecor_Stable_Sign01": {
     "prefab": "TM_Castle_PillarDecor_Stable_Sign01",
     "guid": 1701464100,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Stable_Sign01",
+    "displayNameEn": "Stables Sign",
+    "displayLocalizationGuid": "493eaefa-ab22-4519-8d99-4db9fd8d591d"
   },
   "TM_Castle_PillarDecor_Stable_Sign02": {
     "prefab": "TM_Castle_PillarDecor_Stable_Sign02",
     "guid": 1507156777,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Stable_Sign02",
+    "displayNameEn": "Stables Sign",
+    "displayLocalizationGuid": "493eaefa-ab22-4519-8d99-4db9fd8d591d"
   },
   "TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable": {
     "prefab": "TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable",
     "guid": -1303979929,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_StrongbladeDLC_Lantern01_Dyable",
+    "displayNameEn": "Nocturnal Opulence Hanging Lamp",
+    "displayLocalizationGuid": "f3928d9d-ebc3-4039-9d79-a70322f76c31"
   },
   "TM_Castle_PillarDecor_StrongbladeDLC_Lantern02_Dyable": {
     "prefab": "TM_Castle_PillarDecor_StrongbladeDLC_Lantern02_Dyable",
     "guid": -558665859,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_StrongbladeDLC_Lantern02_Dyable",
+    "displayNameEn": "Nocturnal Opulence Hanging Lamp",
+    "displayLocalizationGuid": "06561022-4e86-428f-9897-a4332ee5696d"
   },
   "TM_Castle_PillarDecor_WorkshopHoist01": {
     "prefab": "TM_Castle_PillarDecor_WorkshopHoist01",
     "guid": 623491931,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_WorkshopHoist01",
+    "displayNameEn": "Workshop Hoist",
+    "displayLocalizationGuid": "34c44c02-eaa4-4b8a-9f91-5cf4449d94fe"
   },
   "TM_Castle_RefinementStation_Soulshard": {
     "prefab": "TM_Castle_RefinementStation_Soulshard",
@@ -7334,170 +7360,218 @@
   "TM_Castle_Stairs_Double_Lower_End_Left": {
     "prefab": "TM_Castle_Stairs_Double_Lower_End_Left",
     "guid": 2044737851,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Lower_End_Left",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Lower_End_Right": {
     "prefab": "TM_Castle_Stairs_Double_Lower_End_Right",
     "guid": 26454196,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Lower_End_Right",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Lower_Start_Left": {
     "prefab": "TM_Castle_Stairs_Double_Lower_Start_Left",
     "guid": 2117545279,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Lower_Start_Left",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Lower_Start_Right": {
     "prefab": "TM_Castle_Stairs_Double_Lower_Start_Right",
     "guid": -791433293,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Lower_Start_Right",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Upper_End_Left": {
     "prefab": "TM_Castle_Stairs_Double_Upper_End_Left",
     "guid": -1608139464,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Upper_End_Left",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Upper_End_Right": {
     "prefab": "TM_Castle_Stairs_Double_Upper_End_Right",
     "guid": -1867747921,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Upper_End_Right",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Upper_Start_Left": {
     "prefab": "TM_Castle_Stairs_Double_Upper_Start_Left",
     "guid": 1376308990,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Upper_Start_Left",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Double_Upper_Start_Right": {
     "prefab": "TM_Castle_Stairs_Double_Upper_Start_Right",
     "guid": -874593641,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Double_Upper_Start_Right",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Floor_01": {
     "prefab": "TM_Castle_Stairs_Floor_01",
     "guid": 926709232,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floor sections for building a Castle interior.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Floor_01",
+    "displayNameEn": "Castle Flooring",
+    "displayLocalizationGuid": "50df2c0c-e575-46a1-af60-e17c52f7b316"
   },
   "TM_Castle_Stairs_Floor_Ruined_01": {
     "prefab": "TM_Castle_Stairs_Floor_Ruined_01",
     "guid": -1401253655,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floor sections for building a Castle interior.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Floor_Ruined_01",
+    "displayNameEn": "Castle Flooring",
+    "displayLocalizationGuid": "50df2c0c-e575-46a1-af60-e17c52f7b316"
   },
   "TM_Castle_Stairs_Single_Lower_End": {
     "prefab": "TM_Castle_Stairs_Single_Lower_End",
     "guid": -1601742249,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Lower_End",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Lower_Mid_CCW": {
     "prefab": "TM_Castle_Stairs_Single_Lower_Mid_CCW",
     "guid": 156372693,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Lower_Mid_CCW",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Lower_Mid_CW": {
     "prefab": "TM_Castle_Stairs_Single_Lower_Mid_CW",
     "guid": 91980480,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Lower_Mid_CW",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Lower_Start": {
     "prefab": "TM_Castle_Stairs_Single_Lower_Start",
     "guid": -1848575035,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Lower_Start",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Upper_End": {
     "prefab": "TM_Castle_Stairs_Single_Upper_End",
     "guid": -1069128791,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Upper_End",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Upper_Mid_CCW": {
     "prefab": "TM_Castle_Stairs_Single_Upper_Mid_CCW",
     "guid": 223283194,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Upper_Mid_CCW",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Upper_Mid_CW": {
     "prefab": "TM_Castle_Stairs_Single_Upper_Mid_CW",
     "guid": 553087546,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Upper_Mid_CW",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Stairs_Single_Upper_Start": {
     "prefab": "TM_Castle_Stairs_Single_Upper_Start",
     "guid": -628271868,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Stairs_Single_Upper_Start",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "TM_Castle_Throne_01": {
     "prefab": "TM_Castle_Throne_01",
     "guid": -1944735586,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01",
+    "displayNameEn": "Castle Throne",
+    "displayLocalizationGuid": "86eb5251-62f6-49db-8966-4831c58da919"
   },
   "TM_Castle_Throne_01_Dracula": {
     "prefab": "TM_Castle_Throne_01_Dracula",
     "guid": -633207199,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat worthy of an emperor.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01_Dracula",
+    "displayNameEn": "Throne of Darkness",
+    "displayLocalizationGuid": "0d2997c8-874a-444d-a699-20ee79d3a4da"
   },
   "TM_Castle_Throne_01_ProjectK": {
     "prefab": "TM_Castle_Throne_01_ProjectK",
     "guid": -229853553,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01_ProjectK",
+    "displayNameEn": "Ancient Symphony Throne",
+    "displayLocalizationGuid": "1bff629e-19a9-4f6b-8eac-02f78be0722a"
   },
   "TM_Castle_Throne_01_StrongbladeDLC": {
     "prefab": "TM_Castle_Throne_01_StrongbladeDLC",
     "guid": 980816206,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01_StrongbladeDLC",
+    "displayNameEn": "Nocturnal Opulence Throne",
+    "displayLocalizationGuid": "2d6e5410-d6bc-4484-9648-5fb7603b4b5f"
   },
   "TM_Castle_Throne_01DLC01Variant": {
     "prefab": "TM_Castle_Throne_01DLC01Variant",
     "guid": 1862373808,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01DLC01Variant",
+    "displayNameEn": "Royal Throne",
+    "displayLocalizationGuid": "8525d8e1-fbc4-4652-a986-2c29c43c67b1"
   },
   "TM_Castle_Throne_01DLC02Variant": {
     "prefab": "TM_Castle_Throne_01DLC02Variant",
     "guid": -625213071,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Sit down on the Throne and command your servants. Send them to hunt for treasure, knowledge and blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Throne_01DLC02Variant",
+    "displayNameEn": "Plague Chemist’s Throne",
+    "displayLocalizationGuid": "d7d6c566-4be2-48cb-baf3-216de8f3550f"
   },
   "TM_Castle_Wall_Door_Metal_Wide_Tier02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Metal_Wide_Tier02_ServantLock",
@@ -7802,443 +7876,569 @@
   "TM_Castle_WallDecor_Garden_BloodRose01": {
     "prefab": "TM_Castle_WallDecor_Garden_BloodRose01",
     "guid": 1203605086,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Garden_BloodRose01",
+    "displayNameEn": "Wall Growth - Blood Rose",
+    "displayLocalizationGuid": "17b0f7d9-0114-458d-a2b4-a386f2c7a52b"
   },
   "TM_Castle_WallDecor_Garden_Cursed01": {
     "prefab": "TM_Castle_WallDecor_Garden_Cursed01",
     "guid": -173804790,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Garden_Cursed01",
+    "displayNameEn": "Wall Growth - Morass",
+    "displayLocalizationGuid": "a7ba83da-234e-4d68-aaa3-d66955d1fa1c"
   },
   "TM_Castle_WallDecor_Garden_Ivy01": {
     "prefab": "TM_Castle_WallDecor_Garden_Ivy01",
     "guid": -298809060,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Garden_Ivy01",
+    "displayNameEn": "Wall Growth - Ivy",
+    "displayLocalizationGuid": "eac37743-81b7-42da-8868-c7fae7cdbd45"
   },
   "TM_Castle_WallDecor_Garden_Wisteria01": {
     "prefab": "TM_Castle_WallDecor_Garden_Wisteria01",
     "guid": 1957340591,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Garden_Wisteria01",
+    "displayNameEn": "Wall Growth - Wisteria",
+    "displayLocalizationGuid": "359df15f-5d16-4e63-8ec9-b71e10ad5512"
   },
   "TM_Castle_WallDecor_Gothic_Window_Bars01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Bars01",
     "guid": 1169104268,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A set of sturdy yet stylish bars that block projectiles while still providing vision.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Bars01",
+    "displayNameEn": "Window Bars",
+    "displayLocalizationGuid": "9d8078b6-501d-4599-8a41-13be2e92a7f0"
   },
   "TM_Castle_WallDecor_Gothic_Window_Blue01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue01",
     "guid": -667248554,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Blue01",
+    "displayNameEn": "Glass Window - Gothic Deep Blue",
+    "displayLocalizationGuid": "d924655a-46ac-42f8-bb4a-cc74495c086f"
   },
   "TM_Castle_WallDecor_Gothic_Window_Blue02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue02",
     "guid": 472162278,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Blue02",
+    "displayNameEn": "Glass Window - Gothic Deep Blue",
+    "displayLocalizationGuid": "aa32e4d0-3478-4ef8-9183-0cf356ae4df9"
   },
   "TM_Castle_WallDecor_Gothic_Window_Blue03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Blue03",
     "guid": 1512293539,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Blue03",
+    "displayNameEn": "Glass Window - Gothic Deep Blue",
+    "displayLocalizationGuid": "d38c26f7-201d-4828-9eda-30fa67a12516"
   },
   "TM_Castle_WallDecor_Gothic_Window_Clear01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear01",
     "guid": 443701342,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A clear glass window that block projectiles yet is still see-through.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Clear01",
+    "displayNameEn": "Glass Window - Gothic Clear",
+    "displayLocalizationGuid": "f452996b-a728-4c85-9ec8-bcd155bef60e"
   },
   "TM_Castle_WallDecor_Gothic_Window_Clear02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear02",
     "guid": -1220798446,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A clear glass window that block projectiles yet is still see-through.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Clear02",
+    "displayNameEn": "Glass Window - Gothic Clear",
+    "displayLocalizationGuid": "24b655b3-98c6-4dcf-8dc4-bdef67136ef8"
   },
   "TM_Castle_WallDecor_Gothic_Window_Clear03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Clear03",
     "guid": 322611066,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A clear glass window that block projectiles yet is still see-through.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Clear03",
+    "displayNameEn": "Glass Window - Gothic Clear",
+    "displayLocalizationGuid": "e69b3586-a9ee-4ec2-904b-88b3d35a6004"
   },
   "TM_Castle_WallDecor_Gothic_Window_Dyable01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable01",
     "guid": 725659998,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Dyable01",
+    "displayNameEn": "Glass Window - Gothic Colored",
+    "displayLocalizationGuid": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867"
   },
   "TM_Castle_WallDecor_Gothic_Window_Dyable02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable02",
     "guid": -289420417,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Dyable02",
+    "displayNameEn": "Glass Window - Gothic Colored",
+    "displayLocalizationGuid": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867"
   },
   "TM_Castle_WallDecor_Gothic_Window_Dyable03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Dyable03",
     "guid": -1119007803,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Dyable03",
+    "displayNameEn": "Glass Window - Gothic Colored",
+    "displayLocalizationGuid": "a718ffa1-bb4c-4f6c-bbe8-fa706d715867"
   },
   "TM_Castle_WallDecor_Gothic_Window_Green01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Green01",
     "guid": -659104170,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Green01",
+    "displayNameEn": "Glass Window - Gothic Green",
+    "displayLocalizationGuid": "86840971-eefa-477c-93bf-fbaa01d00749"
   },
   "TM_Castle_WallDecor_Gothic_Window_Green02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Green02",
     "guid": -1204323601,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Green02",
+    "displayNameEn": "Glass Window - Gothic Green",
+    "displayLocalizationGuid": "783eba3b-1482-4969-9b2d-8a6cc6c2b5bc"
   },
   "TM_Castle_WallDecor_Gothic_Window_Green03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Green03",
     "guid": -795601069,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Green03",
+    "displayNameEn": "Glass Window - Gothic Green",
+    "displayLocalizationGuid": "11af71bd-f506-48b1-8dc6-c94d20dbeca9"
   },
   "TM_Castle_WallDecor_Gothic_Window_Purple01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple01",
     "guid": -729261826,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Purple01",
+    "displayNameEn": "Glass Window - Gothic Purple",
+    "displayLocalizationGuid": "348cbe4d-9131-44a3-aa42-157d00c4f479"
   },
   "TM_Castle_WallDecor_Gothic_Window_Purple02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple02",
     "guid": 1066937682,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Purple02",
+    "displayNameEn": "Glass Window - Gothic Purple",
+    "displayLocalizationGuid": "b5c65aa7-ec07-4cfa-9f97-cac50a5b2713"
   },
   "TM_Castle_WallDecor_Gothic_Window_Purple03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Purple03",
     "guid": -1252378669,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Purple03",
+    "displayNameEn": "Glass Window - Gothic Purple",
+    "displayLocalizationGuid": "569989d9-8393-4c43-92ab-9b3b17c20c22"
   },
   "TM_Castle_WallDecor_Gothic_Window_Skyblue01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue01",
     "guid": -453210601,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Skyblue01",
+    "displayNameEn": "Glass Window - Gothic Pale Blue",
+    "displayLocalizationGuid": "6f4a9334-5998-4017-832d-16fc8e4e84c4"
   },
   "TM_Castle_WallDecor_Gothic_Window_Skyblue02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue02",
     "guid": -2028788906,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Skyblue02",
+    "displayNameEn": "Glass Window - Gothic Pale Blue",
+    "displayLocalizationGuid": "40a4cbb8-c914-494b-97e3-864e66e87446"
   },
   "TM_Castle_WallDecor_Gothic_Window_Skyblue03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window_Skyblue03",
     "guid": -676131283,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window_Skyblue03",
+    "displayNameEn": "Glass Window - Gothic Pale Blue",
+    "displayLocalizationGuid": "f6c9514a-2cf9-4c8e-b46f-78bf183d8900"
   },
   "TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01",
     "guid": -1218750780,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_GloomrotDLC01",
+    "displayNameEn": "Glass Window - Plague Sanctum",
+    "displayLocalizationGuid": "2f6006ae-3e89-4d57-8153-6c0ee6aacd80"
   },
   "TM_Castle_WallDecor_Gothic_Window01_Halloween01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_Halloween01",
     "guid": 1887813312,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_Halloween01",
+    "displayNameEn": "Glass Window - Haunted Nights",
+    "displayLocalizationGuid": "25563b83-7709-4ca9-b8a6-3be55bf0ce04"
   },
   "TM_Castle_WallDecor_Gothic_Window01_ProjectK01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK01",
     "guid": -1805858799,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_ProjectK01",
+    "displayNameEn": "Glass Window - Vampire",
+    "displayLocalizationGuid": "a58042b9-4804-4cd8-8ed6-18df85899a51"
   },
   "TM_Castle_WallDecor_Gothic_Window01_ProjectK02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK02",
     "guid": -1938065854,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_ProjectK02",
+    "displayNameEn": "Glass Window - Wraith",
+    "displayLocalizationGuid": "3fd2c674-0c9a-45e9-b818-3efef110beae"
   },
   "TM_Castle_WallDecor_Gothic_Window01_ProjectK03": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_ProjectK03",
     "guid": 886525362,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_ProjectK03",
+    "displayNameEn": "Glass Window - Dominus",
+    "displayLocalizationGuid": "29906660-bf5e-454d-8519-26389e4e13bc"
   },
   "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC01",
     "guid": -1167127551,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_RoyalDLC01",
+    "displayNameEn": "Glass Window - Royal Red & Black",
+    "displayLocalizationGuid": "4197235a-fb2a-4a8e-b0b1-31b894b474a5"
   },
   "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02",
     "guid": -194316523,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_RoyalDLC02",
+    "displayNameEn": "Glass Window - Royal Black & Red",
+    "displayLocalizationGuid": "a897dadf-70a9-4389-8933-a688cc014d34"
   },
   "TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01": {
     "prefab": "TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01",
     "guid": 1524360644,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A coloured glass window that both blocks projectiles and provides some privacy.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Gothic_Window01_StrongbladeDLC01",
+    "displayNameEn": "Glass Window - Nocturnal Opulence",
+    "displayLocalizationGuid": "8d770109-aac3-49a6-93a5-4ef10d628588"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_01": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_01",
     "guid": -1307228368,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An impression of a hauntingly beautiful Aether meadow.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_01",
+    "displayNameEn": "'Portents'",
+    "displayLocalizationGuid": "e5550ccb-c62b-42e3-bf4b-0d8133116e02"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_02": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_02",
     "guid": 1459252359,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A vampire couple in a whirling waltz.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_02",
+    "displayNameEn": "'Waltz'",
+    "displayLocalizationGuid": "585fd165-5f63-4a12-b105-2c2e88de0833"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_03": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_03",
     "guid": 6059030,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_03",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_05": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_05",
     "guid": -103770213,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_05",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_07": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_07",
     "guid": 625751737,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_07",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_08": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_08",
     "guid": 118962921,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_08",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_09": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_09",
     "guid": -42098265,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_09",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_10": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_10",
     "guid": -1745893180,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_10",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_11": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_11",
     "guid": 1452813388,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_11",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_12": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_12",
     "guid": 1148566153,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_12",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_13": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_13",
     "guid": -874388056,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_13",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_14": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_14",
     "guid": -896398724,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_14",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_15": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_15",
     "guid": -1207990853,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_15",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_16": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_16",
     "guid": -1751512097,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_16",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_17": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_17",
     "guid": 962358103,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_17",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_19": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_19",
     "guid": 760787907,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_19",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_20": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_20",
     "guid": 1234406413,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_20",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_21": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_21",
     "guid": 1333571465,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_21",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_22": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_22",
     "guid": -674555145,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_22",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_23": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_23",
     "guid": -1181979524,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_23",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_27": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_27",
     "guid": 800326898,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_27",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Horizontal_Painting_28": {
     "prefab": "TM_Castle_WallDecor_Horizontal_Painting_28",
     "guid": -1442212690,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine painting.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Horizontal_Painting_28",
+    "displayNameEn": "Painting",
+    "displayLocalizationGuid": "819491b8-fb45-4a33-82c4-1b1395818e40"
   },
   "TM_Castle_WallDecor_Mirrors_Mirror01": {
     "prefab": "TM_Castle_WallDecor_Mirrors_Mirror01",
     "guid": 1178448608,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mirror that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Mirrors_Mirror01",
+    "displayNameEn": "'Radiant' Small Wall Mirror",
+    "displayLocalizationGuid": "6e4b2c9e-c314-4d46-b6b4-2cb5b97abc72"
   },
   "TM_Castle_WallDecor_Mirrors_Mirror02": {
     "prefab": "TM_Castle_WallDecor_Mirrors_Mirror02",
     "guid": -1556169800,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mirror that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Mirrors_Mirror02",
+    "displayNameEn": "'Dignity' Small Wall Mirror",
+    "displayLocalizationGuid": "d42fec7c-f8ed-4589-9e03-bf3106e12a61"
   },
   "TM_Castle_WallDecor_Mirrors_Mirror03": {
     "prefab": "TM_Castle_WallDecor_Mirrors_Mirror03",
     "guid": -1193732670,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mirror that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Mirrors_Mirror03",
+    "displayNameEn": "'Distinguished' Large Wall Mirror",
+    "displayLocalizationGuid": "9e49dec4-a612-4a62-843f-390fcb3cd26b"
   },
   "TM_Castle_WallDecor_Mirrors_Mirror04": {
     "prefab": "TM_Castle_WallDecor_Mirrors_Mirror04",
     "guid": -1375980003,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mirror that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Mirrors_Mirror04",
+    "displayNameEn": "'Cordial' Large Wall Mirror",
+    "displayLocalizationGuid": "23d9cfd3-17d4-46ba-8255-9ea9f4d41109"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol01": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol01",
     "guid": 464203925,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_Symbol01",
+    "displayNameEn": "'Nightfall' Wall Plaque",
+    "displayLocalizationGuid": "94848814-dfc1-46db-91f0-044b188c8e26"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02",
     "guid": -2049392252,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_Symbol02",
+    "displayNameEn": "'Nightfall' Wall Plaque",
+    "displayLocalizationGuid": "94848814-dfc1-46db-91f0-044b188c8e26"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol03": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_Symbol03",
     "guid": -2085364677,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_Symbol03",
+    "displayNameEn": "'Nightfall' Wall Plaque",
+    "displayLocalizationGuid": "94848814-dfc1-46db-91f0-044b188c8e26"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01",
     "guid": 1731550316,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner01",
+    "displayNameEn": "'Nightfall' Wall Banner",
+    "displayLocalizationGuid": "508c3110-e864-4844-8442-3ea24787bb19"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02",
     "guid": 562906620,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner02",
+    "displayNameEn": "'Nightfall' Wall Banner",
+    "displayLocalizationGuid": "508c3110-e864-4844-8442-3ea24787bb19"
   },
   "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner03": {
     "prefab": "TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner03",
     "guid": -614163586,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration that sits neatly on your walls.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_WallDecor_Misc_CoatOfArms_WallBanner03",
+    "displayNameEn": "'Nightfall' Wall Banner",
+    "displayLocalizationGuid": "508c3110-e864-4844-8442-3ea24787bb19"
   },
   "TM_Castle_WallDecor_Misc_DriedFlowers01": {
     "prefab": "TM_Castle_WallDecor_Misc_DriedFlowers01",
