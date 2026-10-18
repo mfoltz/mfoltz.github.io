@@ -3277,177 +3277,227 @@
   "TM_Castle_Garden_Child_Pergola_Metal_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Metal_Ivy",
     "guid": -2117255138,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Metal_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "8c828eff-0ba5-4201-9d7f-33cada094803"
   },
   "TM_Castle_Garden_Child_Pergola_Wood_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Wood_BloodRose",
     "guid": -348270745,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Wood_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Pergola_Wood_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Cursed",
     "guid": 126642331,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Wood_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "9f9e6eba-8c43-466a-baaf-a45cc6624f7f"
   },
   "TM_Castle_Garden_Child_Pergola_Wood_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Ivy",
     "guid": -27002310,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Wood_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "8c828eff-0ba5-4201-9d7f-33cada094803"
   },
   "TM_Castle_Garden_Child_Pergola_Wood_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Wood_Wisteria",
     "guid": -1863662319,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Wood_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Planter_Large_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Planter_Large_BloodRose",
     "guid": 1831968277,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Large_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Planter_Large_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Planter_Large_Cursed",
     "guid": 1372502590,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Large_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "a5061466-9472-49de-8932-8799fa3e76cc"
   },
   "TM_Castle_Garden_Child_Planter_Large_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Planter_Large_Ivy",
     "guid": 628431890,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Large_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "8fe02c4f-20e6-4907-aaa3-2560bb713b2d"
   },
   "TM_Castle_Garden_Child_Planter_Large_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Planter_Large_Wisteria",
     "guid": 1992180217,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Large_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Planter_Small_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Planter_Small_BloodRose",
     "guid": 1936225910,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Small_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Planter_Small_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Planter_Small_Cursed",
     "guid": -1013891900,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Small_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "a5061466-9472-49de-8932-8799fa3e76cc"
   },
   "TM_Castle_Garden_Child_Planter_Small_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Planter_Small_Ivy",
     "guid": 878769501,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Small_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "8fe02c4f-20e6-4907-aaa3-2560bb713b2d"
   },
   "TM_Castle_Garden_Child_Planter_Small_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Planter_Small_Wisteria",
     "guid": 25064448,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Planter_Small_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Parent_Arch_Large_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Arch_Large_Metal",
     "guid": 658148892,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Arch_Large_Metal",
+    "displayNameEn": "'Noble' Deep Trellis Archway",
+    "displayLocalizationGuid": "cf27856b-c5df-4b2d-a70c-762930e3f350"
   },
   "TM_Castle_Garden_Parent_Arch_Large_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Arch_Large_Wood",
     "guid": -114044430,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Arch_Large_Wood",
+    "displayNameEn": "'Rural' Deep Trellis Archway",
+    "displayLocalizationGuid": "0a107096-440f-4faf-bce5-e7687ed1f9ee"
   },
   "TM_Castle_Garden_Parent_Arch_Small_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Arch_Small_Metal",
     "guid": 258921107,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Arch_Small_Metal",
+    "displayNameEn": "'Noble' Trellis Archway",
+    "displayLocalizationGuid": "342021ea-a0dd-4eed-bfd0-df5fe5902b41"
   },
   "TM_Castle_Garden_Parent_Arch_Small_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Arch_Small_Wood",
     "guid": 1892222213,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Arch_Small_Wood",
+    "displayNameEn": "'Rural' Trellis Archway",
+    "displayLocalizationGuid": "d6f4828d-4d7b-483e-a0cf-ee7a3770cc9d"
   },
   "TM_Castle_Garden_Parent_Obelisk_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Obelisk_Metal",
     "guid": 709885056,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Obelisk_Metal",
+    "displayNameEn": "'Noble' Tower Trellis",
+    "displayLocalizationGuid": "9ed2fd58-6aa5-4d13-8fde-e89a8bad5cf2"
   },
   "TM_Castle_Garden_Parent_Obelisk_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Obelisk_Wood",
     "guid": -562981818,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Obelisk_Wood",
+    "displayNameEn": "'Rural' Tower Trellis",
+    "displayLocalizationGuid": "a32a3be9-8237-44eb-ab27-4a514b315e6d"
   },
   "TM_Castle_Garden_Parent_Pergola_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Pergola_Metal",
     "guid": -1222590743,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Pergola_Metal",
+    "displayNameEn": "'Noble' Trellis Pergola",
+    "displayLocalizationGuid": "f12d55d8-f995-4e74-bb89-ac6def1870d9"
   },
   "TM_Castle_Garden_Parent_Pergola_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Pergola_Wood",
     "guid": 1835696328,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Pergola_Wood",
+    "displayNameEn": "'Rural' Trellis Pergola",
+    "displayLocalizationGuid": "a5887616-0090-452d-9fba-0f5b7431e4dc"
   },
   "TM_Castle_Garden_Parent_Planter_Large_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Planter_Large_Metal",
     "guid": 1768521351,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Planter_Large_Metal",
+    "displayNameEn": "'Noble' Trellis",
+    "displayLocalizationGuid": "2e88f2f7-4526-4fc6-acc2-5a1cdcaafc25"
   },
   "TM_Castle_Garden_Parent_Planter_Large_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Planter_Large_Wood",
     "guid": -1132434077,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Planter_Large_Wood",
+    "displayNameEn": "'Rural' Trellis",
+    "displayLocalizationGuid": "2d441c05-f499-4210-be39-606fa66749f9"
   },
   "TM_Castle_Garden_Parent_Planter_Small_Metal": {
     "prefab": "TM_Castle_Garden_Parent_Planter_Small_Metal",
     "guid": 1056819434,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Planter_Small_Metal",
+    "displayNameEn": "'Noble' Trellis",
+    "displayLocalizationGuid": "2e88f2f7-4526-4fc6-acc2-5a1cdcaafc25"
   },
   "TM_Castle_Garden_Parent_Planter_Small_Wood": {
     "prefab": "TM_Castle_Garden_Parent_Planter_Small_Wood",
     "guid": 167706466,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Parent_Planter_Small_Wood",
+    "displayNameEn": "'Rural' Trellis",
+    "displayLocalizationGuid": "2d441c05-f499-4210-be39-606fa66749f9"
   },
   "TM_Castle_Gate_Wall_Door_01": {
     "prefab": "TM_Castle_Gate_Wall_Door_01",
@@ -3461,23 +3511,29 @@
   "TM_Castle_Gate_Wall_Door_02": {
     "prefab": "TM_Castle_Gate_Wall_Door_02",
     "guid": -1388275148,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Gates are used to keep unwanted enemies out. Requires a fortified castle wall archway to be placed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Gate_Wall_Door_02",
+    "displayNameEn": "Wooden Gate",
+    "displayLocalizationGuid": "cafd7f3b-8ffd-4a98-8fa5-962c5a1619de"
   },
   "TM_Castle_GeneratedRailing_Default01": {
     "prefab": "TM_Castle_GeneratedRailing_Default01",
     "guid": 1196518637,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Railings",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_GeneratedRailing_Default01",
+    "displayNameEn": "Railings",
+    "displayLocalizationGuid": "ef8e8328-0b42-43cb-9ebf-df19d71b3bf4"
   },
   "TM_Castle_GeneratedRailing_Default01_Pillar": {
     "prefab": "TM_Castle_GeneratedRailing_Default01_Pillar",
     "guid": 2118711934,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Standard Castle Railings",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_GeneratedRailing_Default01_Pillar",
+    "displayNameEn": "Railings",
+    "displayLocalizationGuid": "ef8e8328-0b42-43cb-9ebf-df19d71b3bf4"
   },
   "TM_Castle_House_Window_Metal": {
     "prefab": "TM_Castle_House_Window_Metal",
@@ -3503,443 +3559,569 @@
   "TM_Castle_InteriorRailing_Default01": {
     "prefab": "TM_Castle_InteriorRailing_Default01",
     "guid": 160153045,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Railing useful for structuring your castle rooms and exteriors.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_InteriorRailing_Default01",
+    "displayNameEn": "Standard Castle Railings",
+    "displayLocalizationGuid": "21575e71-a3aa-481e-8d26-f8cb409b0d6a"
   },
   "TM_Castle_InteriorRailing_Default01_Pillar": {
     "prefab": "TM_Castle_InteriorRailing_Default01_Pillar",
     "guid": -1691093039,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Railing useful for structuring your castle rooms and exteriors.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_InteriorRailing_Default01_Pillar",
+    "displayNameEn": "Standard Castle Railings - Pillar",
+    "displayLocalizationGuid": "9cc911e5-f74a-4d23-b67d-7a1c1acb8152"
   },
   "TM_Castle_LocalTeleporter_Blue": {
     "prefab": "TM_Castle_LocalTeleporter_Blue",
     "guid": 760696617,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Pair with another teleporter to quickly warp between them.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_LocalTeleporter_Blue",
+    "displayNameEn": "Blue Castle Teleporter",
+    "displayLocalizationGuid": "80d65aad-acd0-447e-90cc-1239d4deb72a"
   },
   "TM_Castle_LocalTeleporter_Purple": {
     "prefab": "TM_Castle_LocalTeleporter_Purple",
     "guid": 2027471241,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Pair with another teleporter to quickly warp between them.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_LocalTeleporter_Purple",
+    "displayNameEn": "Purple Castle Teleporter",
+    "displayLocalizationGuid": "deec5d56-8841-4989-a754-7c70b8645166"
   },
   "TM_Castle_LocalTeleporter_Red": {
     "prefab": "TM_Castle_LocalTeleporter_Red",
     "guid": 1326023321,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Pair with another teleporter to quickly warp between them.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_LocalTeleporter_Red",
+    "displayNameEn": "Red Castle Teleporter",
+    "displayLocalizationGuid": "0518b2be-a1e7-49eb-b47f-c9647f92bebe"
   },
   "TM_Castle_LocalTeleporter_Yellow": {
     "prefab": "TM_Castle_LocalTeleporter_Yellow",
     "guid": 1579702125,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Pair with another teleporter to quickly warp between them.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_LocalTeleporter_Yellow",
+    "displayNameEn": "Yellow Castle Teleporter",
+    "displayLocalizationGuid": "6fe7a7e1-ac92-4442-a152-dabeaf4e15d5"
   },
   "TM_Castle_MistBrazier": {
     "prefab": "TM_Castle_MistBrazier",
     "guid": 1756900697,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Consumes bones to generate a dense mist that blocks out the sun in a small area.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_MistBrazier",
+    "displayNameEn": "Mist Brazier",
+    "displayLocalizationGuid": "86bc0d1b-f1f2-4c06-927a-4085904be54b"
   },
   "TM_Castle_Module_Child_Garden_Shape01": {
     "prefab": "TM_Castle_Module_Child_Garden_Shape01",
     "guid": -823767297,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your Garden Planter.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_Garden_Shape01",
+    "displayNameEn": "Spiral Bush",
+    "displayLocalizationGuid": "c278b96d-86e3-4dfd-8b19-34297283ae28"
   },
   "TM_Castle_Module_Child_Garden_Shape02": {
     "prefab": "TM_Castle_Module_Child_Garden_Shape02",
     "guid": -1376704997,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your Garden Planter.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_Garden_Shape02",
+    "displayNameEn": "Spherical Bush",
+    "displayLocalizationGuid": "7ddfd4c7-ef31-4664-8d87-6827858d4985"
   },
   "TM_Castle_Module_Child_Garden_Shape03": {
     "prefab": "TM_Castle_Module_Child_Garden_Shape03",
     "guid": -2093139794,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your Garden Planter.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_Garden_Shape03",
+    "displayNameEn": "Rose Bush",
+    "displayLocalizationGuid": "89a25cbe-b5b8-49ed-9358-b3430ac06162"
   },
   "TM_Castle_Module_Child_Garden_Shape04": {
     "prefab": "TM_Castle_Module_Child_Garden_Shape04",
     "guid": 1682197623,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your Garden Planter.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_Garden_Shape04",
+    "displayNameEn": "Droplet Bush",
+    "displayLocalizationGuid": "2be47440-4fce-416e-9861-da34c139976c"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC01",
     "guid": 1747478659,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Refreshments & Hookah",
+    "displayLocalizationGuid": "394e911c-90fc-47e9-92d3-299c259779b9"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC02": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC02",
     "guid": -982682474,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03",
     "guid": 1274339627,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_StrongbladeDLC03",
+    "displayNameEn": "Nocturnal Opulence Feast & Refreshments",
+    "displayLocalizationGuid": "4296b331-aa72-4bed-a86b-04535b5c0317"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting_Glass01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting_Glass01",
     "guid": -1842123158,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_TableSetting_Glass01",
+    "displayNameEn": "Candle Set & Glassware",
+    "displayLocalizationGuid": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01",
     "guid": 609879909,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_TableSetting01",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting02": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting02",
     "guid": -1814460463,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_TableSetting02",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting03": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_10x6_TableSetting03",
     "guid": 1415708511,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_10x6_TableSetting03",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC01",
     "guid": 110079461,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Hookah",
+    "displayLocalizationGuid": "00891cc4-f7ca-49ae-a25c-d267475ca80a"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC02": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC02",
     "guid": 846591851,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC03": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC03",
     "guid": -910610447,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_StrongbladeDLC03",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01",
     "guid": 442815015,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_TableSetting_Glass01",
+    "displayNameEn": "Candle Set & Glassware",
+    "displayLocalizationGuid": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting01": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting01",
     "guid": 366145820,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_TableSetting01",
+    "displayNameEn": "Drinkware",
+    "displayLocalizationGuid": "781253a8-9d35-40bd-8231-feec5faa98e9"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting02": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting02",
     "guid": -1077386164,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_TableSetting02",
+    "displayNameEn": "Candle Set",
+    "displayLocalizationGuid": "affb23f8-8b92-434c-ba4c-940b1013167a"
   },
   "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting03": {
     "prefab": "TM_Castle_Module_Child_RectangularTable_3x6_TableSetting03",
     "guid": -1142049453,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RectangularTable_3x6_TableSetting03",
+    "displayNameEn": "Flower Display",
+    "displayLocalizationGuid": "f63e3ada-5732-43ce-9e64-11e246c38181"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01",
     "guid": -207510343,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Hookah",
+    "displayLocalizationGuid": "00891cc4-f7ca-49ae-a25c-d267475ca80a"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC02": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC02",
     "guid": -70745613,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC03": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC03",
     "guid": -784399817,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC03",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC04": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC04",
     "guid": 965422057,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Nocturnal Opulence Feast",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC04",
+    "displayNameEn": "Nocturnal Opulence Flowers",
+    "displayLocalizationGuid": "27d61e19-6993-4718-9526-087dbf51fb2f"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC05": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC05",
     "guid": -1331727612,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Nocturnal Opulence Feast",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_StrongbladeDLC05",
+    "displayNameEn": "Nocturnal Opulence Refreshments",
+    "displayLocalizationGuid": "59e8afe6-54f2-41b8-ba0a-de95e0e5c2ba"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass01",
     "guid": -1484048118,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass01",
+    "displayNameEn": "Candle Set",
+    "displayLocalizationGuid": "affb23f8-8b92-434c-ba4c-940b1013167a"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass02": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass02",
     "guid": 1389877877,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass02",
+    "displayNameEn": "Glassware",
+    "displayLocalizationGuid": "3408db57-1173-47b0-bf20-7b99fb0b7c12"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass03": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass03",
     "guid": 1304353722,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting_Glass03",
+    "displayNameEn": "Glassware",
+    "displayLocalizationGuid": "3408db57-1173-47b0-bf20-7b99fb0b7c12"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting01",
     "guid": -280555422,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting01",
+    "displayNameEn": "Drinkware",
+    "displayLocalizationGuid": "781253a8-9d35-40bd-8231-feec5faa98e9"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting02": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting02",
     "guid": 429599776,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting02",
+    "displayNameEn": "Candle",
+    "displayLocalizationGuid": "2dd0124d-7426-4851-ade2-17d9d9bd5a03"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting03": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting03",
     "guid": -2088437090,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting03",
+    "displayNameEn": "Candleabra",
+    "displayLocalizationGuid": "7b34a21e-6244-47b5-a23a-4035e65374e4"
   },
   "TM_Castle_Module_Child_RoundTable_3x3_TableSetting04": {
     "prefab": "TM_Castle_Module_Child_RoundTable_3x3_TableSetting04",
     "guid": -745029889,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_3x3_TableSetting04",
+    "displayNameEn": "Flowers",
+    "displayLocalizationGuid": "3ded2178-d27a-4066-bd92-c3dcf6ae6b9f"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC01",
     "guid": -1595018806,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Hookah",
+    "displayLocalizationGuid": "00891cc4-f7ca-49ae-a25c-d267475ca80a"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC02": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC02",
     "guid": -1525424692,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Feast",
+    "displayLocalizationGuid": "d4950bdc-f9ff-44ba-ad33-e88edb0b31ce"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC03": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC03",
     "guid": 1592427758,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_StrongbladeDLC03",
+    "displayNameEn": "Nocturnal Opulence Feast & Refreshments",
+    "displayLocalizationGuid": "4296b331-aa72-4bed-a86b-04535b5c0317"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01",
     "guid": -1495633537,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_TableSetting_Glass01",
+    "displayNameEn": "Candle Set & Glassware",
+    "displayLocalizationGuid": "5c72d3b4-4c4a-4ce4-a0c3-a1296fc3e82b"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_TableSetting01": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting01",
     "guid": -812090150,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_TableSetting01",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_TableSetting02": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting02",
     "guid": 1381090712,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_TableSetting02",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Child_RoundTable_6x6_TableSetting03": {
     "prefab": "TM_Castle_Module_Child_RoundTable_6x6_TableSetting03",
     "guid": -181453288,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An arrangement of decorative tableware for the tables in this group.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Child_RoundTable_6x6_TableSetting03",
+    "displayNameEn": "Dinner Set",
+    "displayLocalizationGuid": "106779a1-2195-4bb2-861f-02826ffa4e61"
   },
   "TM_Castle_Module_Parent_Garden_Urn01": {
     "prefab": "TM_Castle_Module_Parent_Garden_Urn01",
     "guid": 1871935324,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_Garden_Urn01",
+    "displayNameEn": "'Noble' Planter",
+    "displayLocalizationGuid": "0d363ca9-f742-48a9-a428-b781a9268a6d"
   },
   "TM_Castle_Module_Parent_Garden_Urn01_Original": {
     "prefab": "TM_Castle_Module_Parent_Garden_Urn01_Original",
     "guid": 275489647,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_Garden_Urn01_Original",
+    "displayNameEn": "'Noble' Planter",
+    "displayLocalizationGuid": "0d363ca9-f742-48a9-a428-b781a9268a6d"
   },
   "TM_Castle_Module_Parent_Garden_Urn02": {
     "prefab": "TM_Castle_Module_Parent_Garden_Urn02",
     "guid": -1932051338,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_Garden_Urn02",
+    "displayNameEn": "'Hex' Planter",
+    "displayLocalizationGuid": "bedc9a09-1427-45f4-83a1-9f499e3824ac"
   },
   "TM_Castle_Module_Parent_Garden_Urn03": {
     "prefab": "TM_Castle_Module_Parent_Garden_Urn03",
     "guid": 1175078735,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_Garden_Urn03",
+    "displayNameEn": "'Noble' Planter w. Decorative Cage",
+    "displayLocalizationGuid": "08d21592-9f6f-4285-a0a1-21b0fab9b61c"
   },
   "TM_Castle_Module_Parent_Garden_Urn04": {
     "prefab": "TM_Castle_Module_Parent_Garden_Urn04",
     "guid": 1181034925,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_Garden_Urn04",
+    "displayNameEn": "'Noble' Tall Planter",
+    "displayLocalizationGuid": "2db0a22a-a07d-43d7-8c0a-3685e6ecd363"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal01",
     "guid": 1369010712,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_Cabal01",
+    "displayNameEn": "'Distinguished' Table",
+    "displayLocalizationGuid": "6824ae15-a52c-4be3-9d18-ca70c7c14187"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal02": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal02",
     "guid": 479941373,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_Cabal02",
+    "displayNameEn": "'Gala' Table",
+    "displayLocalizationGuid": "26cfae75-5644-4f84-b732-e1095f9df6a4"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03",
     "guid": -2004716642,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_Cabal03",
+    "displayNameEn": "'Banquet' Table",
+    "displayLocalizationGuid": "105a8bc0-2fbe-491e-91a0-93c451dfbd54"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_Gothic01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_Gothic01",
     "guid": 1336447117,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_Gothic01",
+    "displayNameEn": "'Implacable' Table",
+    "displayLocalizationGuid": "27cbd1c8-ba83-44dc-ba15-8b0a90763617"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_01",
     "guid": 1119097203,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_01",
+    "displayNameEn": "Nocturnal Opulence Table",
+    "displayLocalizationGuid": "35304f12-60f4-41c0-bc41-f17e6a1e49e6"
   },
   "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02",
     "guid": -1097732927,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_10x6_StrongbladeDLC_02",
+    "displayNameEn": "Nocturnal Opulence Table",
+    "displayLocalizationGuid": "8f8099d9-990a-4f95-806e-c084188c127c"
   },
   "TM_Castle_Module_Parent_RectangularTable_3x6_Cabal01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_Cabal01",
     "guid": 2020208400,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_3x6_Cabal01",
+    "displayNameEn": "'Distinguished' Coffee Table",
+    "displayLocalizationGuid": "cd8761d7-7701-4f7b-82db-a07598e4c402"
   },
   "TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01",
     "guid": -1579557858,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_3x6_Gothic01",
+    "displayNameEn": "'Dignity' Coffee Table",
+    "displayLocalizationGuid": "845a39e8-f4a0-4ee0-90d4-5091882491f0"
   },
   "TM_Castle_Module_Parent_RectangularTable_3x6_StrongbladeDLC_01": {
     "prefab": "TM_Castle_Module_Parent_RectangularTable_3x6_StrongbladeDLC_01",
     "guid": -1829611282,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RectangularTable_3x6_StrongbladeDLC_01",
+    "displayNameEn": "Nocturnal Opulence Table",
+    "displayLocalizationGuid": "35304f12-60f4-41c0-bc41-f17e6a1e49e6"
   },
   "TM_Castle_Module_Parent_RoundTable_3x3_Cabal01": {
     "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_Cabal01",
     "guid": -1666587665,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RoundTable_3x3_Cabal01",
+    "displayNameEn": "'Distinguished' Sidetable",
+    "displayLocalizationGuid": "dd216b3b-d20d-4c86-a188-0e65072e9d0d"
   },
   "TM_Castle_Module_Parent_RoundTable_3x3_Gothic01": {
     "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_Gothic01",
     "guid": -825041900,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RoundTable_3x3_Gothic01",
+    "displayNameEn": "'Dignity' Sidetable",
+    "displayLocalizationGuid": "e1ee2b17-3c9e-4613-89f6-37efdc870f36"
   },
   "TM_Castle_Module_Parent_RoundTable_3x3_StrongbladeDLC_01": {
     "prefab": "TM_Castle_Module_Parent_RoundTable_3x3_StrongbladeDLC_01",
     "guid": 1068226341,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RoundTable_3x3_StrongbladeDLC_01",
+    "displayNameEn": "Nocturnal Opulence Round Table",
+    "displayLocalizationGuid": "433addd7-cb38-4be3-a98d-1acd321bcb54"
   },
   "TM_Castle_Module_Parent_RoundTable_6x6_Cabal02": {
     "prefab": "TM_Castle_Module_Parent_RoundTable_6x6_Cabal02",
     "guid": -1587825473,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RoundTable_6x6_Cabal02",
+    "displayNameEn": "'Gala' Round Table",
+    "displayLocalizationGuid": "67dc3c69-a689-43bd-9af5-16cc1a608054"
   },
   "TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01": {
     "prefab": "TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01",
     "guid": -46629157,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Module_Parent_RoundTable_6x6_StrongbladeDLC_01",
+    "displayNameEn": "Nocturnal Opulence Round Table",
+    "displayLocalizationGuid": "433addd7-cb38-4be3-a98d-1acd321bcb54"
   },
   "TM_Castle_Noctem_Radar_Eye": {
     "prefab": "TM_Castle_Noctem_Radar_Eye",
@@ -3951,65 +4133,83 @@
   "TM_Castle_ObjectDecor_Anvil01": {
     "prefab": "TM_Castle_ObjectDecor_Anvil01",
     "guid": 1277831890,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A small anvil decoration for your metalworking.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Anvil01",
+    "displayNameEn": "Workshop Anvil",
+    "displayLocalizationGuid": "274fb38c-033f-4cb9-a19a-badbc201fdab"
   },
   "TM_Castle_ObjectDecor_Aquarium_Iron_Large": {
     "prefab": "TM_Castle_ObjectDecor_Aquarium_Iron_Large",
     "guid": 198047828,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Aquarium_Iron_Large",
+    "displayNameEn": "Luminescent Mushroom Terrarium",
+    "displayLocalizationGuid": "dbf7d603-0efa-496a-9ca3-83a407083c23"
   },
   "TM_Castle_ObjectDecor_Aquarium_Iron_Small": {
     "prefab": "TM_Castle_ObjectDecor_Aquarium_Iron_Small",
     "guid": 2117907654,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Aquarium_Iron_Small",
+    "displayNameEn": "Luminescent Mushroom Terrarium",
+    "displayLocalizationGuid": "dbf7d603-0efa-496a-9ca3-83a407083c23"
   },
   "TM_Castle_ObjectDecor_Bench_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_Bench_Gothic01",
     "guid": -569832943,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Bench_Gothic01",
+    "displayNameEn": "'Dignity' Bench",
+    "displayLocalizationGuid": "f5b2efa5-cfd3-422f-8a32-864712261e90"
   },
   "TM_Castle_ObjectDecor_BookPedestal01": {
     "prefab": "TM_Castle_ObjectDecor_BookPedestal01",
     "guid": 1579362204,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_BookPedestal01",
+    "displayNameEn": "'Esoterica' Reading Lectern",
+    "displayLocalizationGuid": "44b2e56f-dc7f-4916-be18-10216e3e1b45"
   },
   "TM_Castle_ObjectDecor_BookPedestal02": {
     "prefab": "TM_Castle_ObjectDecor_BookPedestal02",
     "guid": -680809658,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "The latest and juiciest gossip, scandals, pulps, and fanfics are collated into a neat leather-bound tome.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_BookPedestal02",
+    "displayNameEn": "'Circa' Round Bookcase",
+    "displayLocalizationGuid": "e4d31cec-d53d-4c5a-8d08-e446e32b4cad"
   },
   "TM_Castle_ObjectDecor_Cabal_Brazier01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Brazier01_Orange",
     "guid": 1446953312,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Brazier01_Orange",
+    "displayNameEn": "'Cordial' Brazier",
+    "displayLocalizationGuid": "305601b3-bb48-4ead-97e1-94570ef063d5"
   },
   "TM_Castle_ObjectDecor_Cabal_CandleStand01": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_CandleStand01",
     "guid": 797605882,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_CandleStand01",
+    "displayNameEn": "'Cordial' Candelabra",
+    "displayLocalizationGuid": "f57f175a-35d5-4843-8fe1-6b599375f781"
   },
   "TM_Castle_ObjectDecor_Cabal_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase01",
     "guid": 873503098,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Vase01",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_Cabal_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase02",

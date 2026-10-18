@@ -64,14 +64,14 @@ export async function validateGeneratedBlueprintText(root: string) {
       }
     }
   }
-  assert.equal(materialReferences, 205); assert.equal(bookReferences, 81); assert.equal(itemOwners.size, 63);
-  assert.equal(remainingMaterialReferences, 120); assert.equal(remainingBookReferences, 48); assert.equal(remainingOwners.size, 24);
+  assert.equal(materialReferences, 308); assert.equal(bookReferences, 144); assert.equal(itemOwners.size, 74);
+  assert.equal(remainingMaterialReferences, 223); assert.equal(remainingBookReferences, 111); assert.equal(remainingOwners.size, 36);
   assert.equal(newMaterialReferences, 66); assert.equal(newBookReferences, 32); assert.equal(newItemOwners.size, 43);
   for (const prefab of ["BP_Castle_Chain_Plant_BleedingHeart", "BP_Castle_Debug_Room"]) {
     const owned = capture.expansion.rows.find(row => row.prefab === prefab)!;
     assert.equal(map[prefab].sourceKind, "extractor-raw"); assert.equal(map[prefab].displayNameEn, owned.nameRaw);
     assert.equal(map[prefab].summaryEn, owned.native.text);
   }
-  return { names: 238, descriptions: 238, materialReferences, bookReferences, itemOwners: itemOwners.size,
+  return { names: 338, descriptions: 338, materialReferences, bookReferences, itemOwners: itemOwners.size,
     newMaterialReferences, newBookReferences, newItemOwners: newItemOwners.size, remainingMaterialReferences, remainingBookReferences, remainingItemOwners: remainingOwners.size };
 }
