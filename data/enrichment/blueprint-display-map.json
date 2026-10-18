@@ -281,23 +281,29 @@
   "BP_Castle_Stairs_Double_DLC_Gloomrot01": {
     "prefab": "BP_Castle_Stairs_Double_DLC_Gloomrot01",
     "guid": -1940654627,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Double_DLC_Gloomrot01",
+    "displayNameEn": "Plague Sanctum Ascent",
+    "displayLocalizationGuid": "a849a1a8-d6a0-46f0-853d-72bdc8d7f3cc"
   },
   "BP_Castle_Stairs_Double_DLC_ProjectK01": {
     "prefab": "BP_Castle_Stairs_Double_DLC_ProjectK01",
     "guid": 384472583,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Double_DLC_ProjectK01",
+    "displayNameEn": "Ancient Symphony Stairs",
+    "displayLocalizationGuid": "3c519f86-1c05-4313-95aa-af142088ef0e"
   },
   "BP_Castle_Stairs_Double_DLC_StrongbladeDLC01": {
     "prefab": "BP_Castle_Stairs_Double_DLC_StrongbladeDLC01",
     "guid": -2042297302,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Double_DLC_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Stairs",
+    "displayLocalizationGuid": "6da11dc0-c313-417b-84cb-c82eb37b395c"
   },
   "BP_Castle_Stairs_Double_Stone01": {
     "prefab": "BP_Castle_Stairs_Double_Stone01",
@@ -311,142 +317,182 @@
   "BP_Castle_Stairs_Double_Stone02": {
     "prefab": "BP_Castle_Stairs_Double_Stone02",
     "guid": -887317616,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Double_Stone02",
+    "displayNameEn": "'Ebonite' Stone Stairs",
+    "displayLocalizationGuid": "25a1607a-b8a8-4044-aa8d-ca5d6bc05bc4"
   },
   "BP_Castle_Stairs_Double_Stone03": {
     "prefab": "BP_Castle_Stairs_Double_Stone03",
     "guid": -1186795702,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Double_Stone03",
+    "displayNameEn": "Wood Clad Stone Stairs",
+    "displayLocalizationGuid": "5c03b4f4-1bf4-4582-b161-a4a3abd2f03b"
   },
   "BP_Castle_Stairs_Single_CCW_DLC_Gloomrot01": {
     "prefab": "BP_Castle_Stairs_Single_CCW_DLC_Gloomrot01",
     "guid": 249484894,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_DLC_Gloomrot01",
+    "displayNameEn": "Plague Sanctum Stairwell",
+    "displayLocalizationGuid": "7cc4b623-73d6-4d1a-b658-626e1cfc05a2"
   },
   "BP_Castle_Stairs_Single_CCW_DLC_ProjectK01": {
     "prefab": "BP_Castle_Stairs_Single_CCW_DLC_ProjectK01",
     "guid": 787873859,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_DLC_ProjectK01",
+    "displayNameEn": "Ancient Symphony Stairs",
+    "displayLocalizationGuid": "3c519f86-1c05-4313-95aa-af142088ef0e"
   },
   "BP_Castle_Stairs_Single_CCW_DLC_StrongbladeDLC01": {
     "prefab": "BP_Castle_Stairs_Single_CCW_DLC_StrongbladeDLC01",
     "guid": 1748214728,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_DLC_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Stairs",
+    "displayLocalizationGuid": "6da11dc0-c313-417b-84cb-c82eb37b395c"
   },
   "BP_Castle_Stairs_Single_CCW_Stone01": {
     "prefab": "BP_Castle_Stairs_Single_CCW_Stone01",
     "guid": -1323146211,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_Stone01",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "BP_Castle_Stairs_Single_CCW_Stone02": {
     "prefab": "BP_Castle_Stairs_Single_CCW_Stone02",
     "guid": 171455823,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_Stone02",
+    "displayNameEn": "'Ebonite' Stone Stairs",
+    "displayLocalizationGuid": "25a1607a-b8a8-4044-aa8d-ca5d6bc05bc4"
   },
   "BP_Castle_Stairs_Single_CCW_Stone03": {
     "prefab": "BP_Castle_Stairs_Single_CCW_Stone03",
     "guid": 2042236287,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CCW_Stone03",
+    "displayNameEn": "Wood Clad Stone Stairs",
+    "displayLocalizationGuid": "5c03b4f4-1bf4-4582-b161-a4a3abd2f03b"
   },
   "BP_Castle_Stairs_Single_CW_DLC_Gloomrot01": {
     "prefab": "BP_Castle_Stairs_Single_CW_DLC_Gloomrot01",
     "guid": -671167268,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_DLC_Gloomrot01",
+    "displayNameEn": "Plague Sanctum Stairwell",
+    "displayLocalizationGuid": "7cc4b623-73d6-4d1a-b658-626e1cfc05a2"
   },
   "BP_Castle_Stairs_Single_CW_DLC_ProjectK01": {
     "prefab": "BP_Castle_Stairs_Single_CW_DLC_ProjectK01",
     "guid": -2111252824,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_DLC_ProjectK01",
+    "displayNameEn": "Ancient Symphony Stairs",
+    "displayLocalizationGuid": "3c519f86-1c05-4313-95aa-af142088ef0e"
   },
   "BP_Castle_Stairs_Single_CW_DLC_StrongbladeDLC01": {
     "prefab": "BP_Castle_Stairs_Single_CW_DLC_StrongbladeDLC01",
     "guid": 54801101,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_DLC_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Stairs",
+    "displayLocalizationGuid": "6da11dc0-c313-417b-84cb-c82eb37b395c"
   },
   "BP_Castle_Stairs_Single_CW_Stone01": {
     "prefab": "BP_Castle_Stairs_Single_CW_Stone01",
     "guid": -628212401,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_Stone01",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "BP_Castle_Stairs_Single_CW_Stone02": {
     "prefab": "BP_Castle_Stairs_Single_CW_Stone02",
     "guid": 891240110,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_Stone02",
+    "displayNameEn": "'Ebonite' Stone Stairs",
+    "displayLocalizationGuid": "25a1607a-b8a8-4044-aa8d-ca5d6bc05bc4"
   },
   "BP_Castle_Stairs_Single_CW_Stone03": {
     "prefab": "BP_Castle_Stairs_Single_CW_Stone03",
     "guid": 1737385414,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_CW_Stone03",
+    "displayNameEn": "Wood Clad Stone Stairs",
+    "displayLocalizationGuid": "5c03b4f4-1bf4-4582-b161-a4a3abd2f03b"
   },
   "BP_Castle_Stairs_Single_DLC_Gloomrot01": {
     "prefab": "BP_Castle_Stairs_Single_DLC_Gloomrot01",
     "guid": -1808336362,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_DLC_Gloomrot01",
+    "displayNameEn": "Plague Sanctum Steps",
+    "displayLocalizationGuid": "8773bd32-6b48-42c4-860c-c16bb6761ea1"
   },
   "BP_Castle_Stairs_Single_DLC_ProjectK01": {
     "prefab": "BP_Castle_Stairs_Single_DLC_ProjectK01",
     "guid": -601630508,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_DLC_ProjectK01",
+    "displayNameEn": "Ancient Symphony Stairs",
+    "displayLocalizationGuid": "3c519f86-1c05-4313-95aa-af142088ef0e"
   },
   "BP_Castle_Stairs_Single_DLC_StrongbladeDLC01": {
     "prefab": "BP_Castle_Stairs_Single_DLC_StrongbladeDLC01",
     "guid": 1831814293,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_DLC_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Stairs",
+    "displayLocalizationGuid": "6da11dc0-c313-417b-84cb-c82eb37b395c"
   },
   "BP_Castle_Stairs_Single_Stone01": {
     "prefab": "BP_Castle_Stairs_Single_Stone01",
     "guid": -541385494,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_Stone01",
+    "displayNameEn": "Stone Stairs",
+    "displayLocalizationGuid": "da3d728d-e6b7-47e5-adbc-8ec12a8fbe6f"
   },
   "BP_Castle_Stairs_Single_Stone02": {
     "prefab": "BP_Castle_Stairs_Single_Stone02",
     "guid": 1267405974,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_Stone02",
+    "displayNameEn": "'Ebonite' Stone Stairs",
+    "displayLocalizationGuid": "25a1607a-b8a8-4044-aa8d-ca5d6bc05bc4"
   },
   "BP_Castle_Stairs_Single_Stone03": {
     "prefab": "BP_Castle_Stairs_Single_Stone03",
     "guid": 1019577856,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Using stairs, you can construct a multi-level castle. To add another floor to your castle, simply place the stairs, climb them to the next level and expand your castle using foundations. Stairs can also be built on top of terrain slopes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Castle_Stairs_Single_Stone03",
+    "displayNameEn": "Wood Clad Stone Stairs",
+    "displayLocalizationGuid": "5c03b4f4-1bf4-4582-b161-a4a3abd2f03b"
   },
   "BP_Castle_Wall_Tier01_Wood_Entrance": {
     "prefab": "BP_Castle_Wall_Tier01_Wood_Entrance",
@@ -751,8 +797,10 @@
     "prefab": "BP_Tier02_WallpaperSet_Damaged_Pillar",
     "guid": 514475486,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Tier02_WallpaperSet_Damaged_Pillar",
+    "displayNameEn": "Stone Coffin",
+    "displayLocalizationGuid": "4a519e2f-4667-4921-8959-f73af3cbe9fa"
   },
   "BP_Tier02_WallpaperSet_Default": {
     "prefab": "BP_Tier02_WallpaperSet_Default",
@@ -767,8 +815,10 @@
     "prefab": "BP_Tier02_WallpaperSet_Default_Pillar",
     "guid": -1939815127,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Tier02_WallpaperSet_Default_Pillar",
+    "displayNameEn": "Default Stone",
+    "displayLocalizationGuid": "255722ad-8e0e-4000-be76-85dba4c89158"
   },
   "BP_Tier02_WallpaperSet_Disabled": {
     "prefab": "BP_Tier02_WallpaperSet_Disabled",
@@ -783,8 +833,10 @@
     "prefab": "BP_Tier02_WallpaperSet_Disabled_Pillar",
     "guid": -823955345,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Tier02_WallpaperSet_Disabled_Pillar",
+    "displayNameEn": "Default Stone",
+    "displayLocalizationGuid": "255722ad-8e0e-4000-be76-85dba4c89158"
   },
   "BP_Tier02_WallpaperSet_DLCGloomrot_01": {
     "prefab": "BP_Tier02_WallpaperSet_DLCGloomrot_01",
@@ -952,8 +1004,10 @@
     "prefab": "BP_Tier02_WallpaperSet_Phased_Pillar",
     "guid": -47000616,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#BP_Tier02_WallpaperSet_Phased_Pillar",
+    "displayNameEn": "Stone Coffin",
+    "displayLocalizationGuid": "4a519e2f-4667-4921-8959-f73af3cbe9fa"
   },
   "BP_Tier02_WallpaperSet_Prison01_Base": {
     "prefab": "BP_Tier02_WallpaperSet_Prison01_Base",
@@ -1291,289 +1345,371 @@
   "TM_Castle_Container_Bookshelf_3x2_Blood01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Blood01",
     "guid": 1420032361,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_3x2_Blood01",
+    "displayNameEn": "Small Blood Potion Storage",
+    "displayLocalizationGuid": "74bf461f-c752-4314-ba49-7a0abec3844c"
   },
   "TM_Castle_Container_Bookshelf_3x2_Cabal01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Cabal01",
     "guid": -1756991220,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_3x2_Cabal01",
+    "displayNameEn": "'Distinguished' Slim Bookcase",
+    "displayLocalizationGuid": "444a713b-552b-4fea-8678-baeaf19c1878"
   },
   "TM_Castle_Container_Bookshelf_3x2_Gothic01": {
     "prefab": "TM_Castle_Container_Bookshelf_3x2_Gothic01",
     "guid": -668382795,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_3x2_Gothic01",
+    "displayNameEn": "Slim Bookcase",
+    "displayLocalizationGuid": "c36a7cc3-8445-4414-bdc4-a91ac19af967"
   },
   "TM_Castle_Container_Bookshelf_6x2_Blood01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Blood01",
     "guid": -1218782860,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_6x2_Blood01",
+    "displayNameEn": "Large Blood Potion Storage",
+    "displayLocalizationGuid": "6814e2ba-3a10-4f1c-965a-176859116418"
   },
   "TM_Castle_Container_Bookshelf_6x2_Cabal01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Cabal01",
     "guid": -1379130598,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_6x2_Cabal01",
+    "displayNameEn": "'Distinguished' Wide Bookcase",
+    "displayLocalizationGuid": "b87bcca1-066b-4b21-abd1-17b5b325ca94"
   },
   "TM_Castle_Container_Bookshelf_6x2_Gothic01": {
     "prefab": "TM_Castle_Container_Bookshelf_6x2_Gothic01",
     "guid": 895582607,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_6x2_Gothic01",
+    "displayNameEn": "Wide Bookcase",
+    "displayLocalizationGuid": "bba4ebea-b67f-464c-a606-680ef6e5cfb5"
   },
   "TM_Castle_Container_Bookshelf_Base_3x2": {
     "prefab": "TM_Castle_Container_Bookshelf_Base_3x2",
     "guid": -1207657241,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_Base_3x2",
+    "displayNameEn": "Slim Bookcase",
+    "displayLocalizationGuid": "c36a7cc3-8445-4414-bdc4-a91ac19af967"
   },
   "TM_Castle_Container_Bookshelf_Base_6x2": {
     "prefab": "TM_Castle_Container_Bookshelf_Base_6x2",
     "guid": 1118272268,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bookshelf_Base_6x2",
+    "displayNameEn": "Wide Bookcase",
+    "displayLocalizationGuid": "bba4ebea-b67f-464c-a606-680ef6e5cfb5"
   },
   "TM_Castle_Container_Bureau_Cabal01": {
     "prefab": "TM_Castle_Container_Bureau_Cabal01",
     "guid": 609945621,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bureau_Cabal01",
+    "displayNameEn": "Secretaire",
+    "displayLocalizationGuid": "585b54c8-2b40-4768-b160-ad8310317b38"
   },
   "TM_Castle_Container_Bureau_Gothic01": {
     "prefab": "TM_Castle_Container_Bureau_Gothic01",
     "guid": 1969574977,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Bureau_Gothic01",
+    "displayNameEn": "Secretaire",
+    "displayLocalizationGuid": "585b54c8-2b40-4768-b160-ad8310317b38"
   },
   "TM_Castle_Container_Dresser_Cabal01": {
     "prefab": "TM_Castle_Container_Dresser_Cabal01",
     "guid": 427274910,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Dresser_Cabal01",
+    "displayNameEn": "Bureau",
+    "displayLocalizationGuid": "4cff2e02-02f5-404d-9ab6-636dbd431dad"
   },
   "TM_Castle_Container_Dresser_Gothic01": {
     "prefab": "TM_Castle_Container_Dresser_Gothic01",
     "guid": 118432271,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 35 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Dresser_Gothic01",
+    "displayNameEn": "Bureau",
+    "displayLocalizationGuid": "51983b85-f333-4204-af55-acb6f98a9545"
   },
   "TM_Castle_Container_Specialized_Alchemy_T01": {
     "prefab": "TM_Castle_Container_Specialized_Alchemy_T01",
     "guid": 2078423943,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Alchemy_T01",
+    "displayNameEn": "Small Alchemy Storage",
+    "displayLocalizationGuid": "9eb589a7-0adf-4f14-87ca-6434e64c6bb4"
   },
   "TM_Castle_Container_Specialized_Alchemy_T02": {
     "prefab": "TM_Castle_Container_Specialized_Alchemy_T02",
     "guid": -3853700,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Alchemy_T02",
+    "displayNameEn": "Large Alchemy Storage",
+    "displayLocalizationGuid": "f3102f4a-091a-4677-a12b-3e873ba96996"
   },
   "TM_Castle_Container_Specialized_Armor_T02": {
     "prefab": "TM_Castle_Container_Specialized_Armor_T02",
     "guid": 461811658,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 42 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Armor_T02",
+    "displayNameEn": "Armor Storage",
+    "displayLocalizationGuid": "d1b9db98-5b22-42de-b53d-d0d26e0cd938"
   },
   "TM_Castle_Container_Specialized_Coins_T02": {
     "prefab": "TM_Castle_Container_Specialized_Coins_T02",
     "guid": -68447111,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 42 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Coins_T02",
+    "displayNameEn": "Coin Storage",
+    "displayLocalizationGuid": "33584318-3948-4309-9022-940b0ef63ea7"
   },
   "TM_Castle_Container_Specialized_Consumable_T01": {
     "prefab": "TM_Castle_Container_Specialized_Consumable_T01",
     "guid": 1417685635,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Consumable_T01",
+    "displayNameEn": "Small Consumables Storage",
+    "displayLocalizationGuid": "0d558768-982d-4474-ad1e-faef091c18ca"
   },
   "TM_Castle_Container_Specialized_Consumable_T02": {
     "prefab": "TM_Castle_Container_Specialized_Consumable_T02",
     "guid": -1750343583,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Consumable_T02",
+    "displayNameEn": "Large Consumables Storage",
+    "displayLocalizationGuid": "2640a763-4241-4ae1-8ce7-6d9c0bf5bcae"
   },
   "TM_Castle_Container_Specialized_Fish_T02": {
     "prefab": "TM_Castle_Container_Specialized_Fish_T02",
     "guid": -1316912119,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 42 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Fish_T02",
+    "displayNameEn": "Fish Storage",
+    "displayLocalizationGuid": "2ff9a674-cf11-4cad-850d-4a618d26fb7d"
   },
   "TM_Castle_Container_Specialized_Gems_T01": {
     "prefab": "TM_Castle_Container_Specialized_Gems_T01",
     "guid": 572067339,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Gems_T01",
+    "displayNameEn": "Small Gem Storage",
+    "displayLocalizationGuid": "dd1f57ef-db36-46de-85a6-ca645cfcf649"
   },
   "TM_Castle_Container_Specialized_Gems_T02": {
     "prefab": "TM_Castle_Container_Specialized_Gems_T02",
     "guid": 1360847293,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Gems_T02",
+    "displayNameEn": "Large Gem Storage",
+    "displayLocalizationGuid": "b0485051-c7f6-4f6e-b8fe-1288236d6214"
   },
   "TM_Castle_Container_Specialized_Herbs_T01": {
     "prefab": "TM_Castle_Container_Specialized_Herbs_T01",
     "guid": 789484399,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Herbs_T01",
+    "displayNameEn": "Small Herb Storage",
+    "displayLocalizationGuid": "47ec25dd-b454-4f50-a5bb-28c1aa4e109f"
   },
   "TM_Castle_Container_Specialized_Herbs_T02": {
     "prefab": "TM_Castle_Container_Specialized_Herbs_T02",
     "guid": -1895052004,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Herbs_T02",
+    "displayNameEn": "Large Herb Storage",
+    "displayLocalizationGuid": "00c78084-4f29-4eaf-a540-cb86c28d4312"
   },
   "TM_Castle_Container_Specialized_Jewels_T02": {
     "prefab": "TM_Castle_Container_Specialized_Jewels_T02",
     "guid": 1305010703,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 42 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Jewels_T02",
+    "displayNameEn": "Jewel Storage",
+    "displayLocalizationGuid": "69108690-82d1-4bf8-9f13-9665f608569e"
   },
   "TM_Castle_Container_Specialized_Knowledge_T01": {
     "prefab": "TM_Castle_Container_Specialized_Knowledge_T01",
     "guid": 421909879,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Knowledge_T01",
+    "displayNameEn": "Small Knowledge Storage",
+    "displayLocalizationGuid": "a8b61073-6059-4aac-b5b8-726f9f62bbf3"
   },
   "TM_Castle_Container_Specialized_Knowledge_T02": {
     "prefab": "TM_Castle_Container_Specialized_Knowledge_T02",
     "guid": 123232984,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Knowledge_T02",
+    "displayNameEn": "Large Knowledge Storage",
+    "displayLocalizationGuid": "2fe2ff47-6cad-4dea-b454-65bc87975cc5"
   },
   "TM_Castle_Container_Specialized_Minerals_T01": {
     "prefab": "TM_Castle_Container_Specialized_Minerals_T01",
     "guid": -1078314427,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Minerals_T01",
+    "displayNameEn": "Small Material Storage",
+    "displayLocalizationGuid": "dc08a866-0368-4626-9bf7-cc116746e2a2"
   },
   "TM_Castle_Container_Specialized_Minerals_T02": {
     "prefab": "TM_Castle_Container_Specialized_Minerals_T02",
     "guid": -1155345803,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Minerals_T02",
+    "displayNameEn": "Large Material Storage",
+    "displayLocalizationGuid": "f8e3d576-6448-4b75-a4a6-1ee55a08d1ce"
   },
   "TM_Castle_Container_Specialized_Soulshards_Dracula": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Dracula",
     "guid": 1495743889,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pedestal that may hold a Soul Shard.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Soulshards_Dracula",
+    "displayNameEn": "Pedestal of Dracula",
+    "displayLocalizationGuid": "cbdc4c29-f745-450f-b4d2-b5e368103acf"
   },
   "TM_Castle_Container_Specialized_Soulshards_Manticore": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Manticore",
     "guid": 653759442,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pedestal that may hold a Soul Shard.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Soulshards_Manticore",
+    "displayNameEn": "Pedestal of the Winged Horror",
+    "displayLocalizationGuid": "86fe37fd-fbe1-4b61-b255-8190c94e5106"
   },
   "TM_Castle_Container_Specialized_Soulshards_Monster": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Monster",
     "guid": -1996942061,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pedestal that may hold a Soul Shard.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Soulshards_Monster",
+    "displayNameEn": "Pedestal of the Monster",
+    "displayLocalizationGuid": "3664f68f-ba81-45ea-a43c-7d9c2caf293a"
   },
   "TM_Castle_Container_Specialized_Soulshards_Morgana": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Morgana",
     "guid": 1724128982,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pedestal that may hold a Soul Shard.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Soulshards_Morgana",
+    "displayNameEn": "Pedestal of the Serpent",
+    "displayLocalizationGuid": "40bd6f62-0711-4126-89cb-1e0427baa3e8"
   },
   "TM_Castle_Container_Specialized_Soulshards_Solarus": {
     "prefab": "TM_Castle_Container_Specialized_Soulshards_Solarus",
     "guid": -824445631,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pedestal that may hold a Soul Shard.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Soulshards_Solarus",
+    "displayNameEn": "Pedestal of Solarus",
+    "displayLocalizationGuid": "480c1db2-fea5-4937-b85f-1384f24f4af2"
   },
   "TM_Castle_Container_Specialized_Tailoring_T01": {
     "prefab": "TM_Castle_Container_Specialized_Tailoring_T01",
     "guid": 1619086271,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Tailoring_T01",
+    "displayNameEn": "Small Tailoring Storage",
+    "displayLocalizationGuid": "13075df2-60e2-4e14-8f18-752117ddbe22"
   },
   "TM_Castle_Container_Specialized_Tailoring_T02": {
     "prefab": "TM_Castle_Container_Specialized_Tailoring_T02",
     "guid": -1293468445,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Tailoring_T02",
+    "displayNameEn": "Large Tailoring Storage",
+    "displayLocalizationGuid": "16ab8bc9-e376-4f78-a6aa-1c0c3199eb52"
   },
   "TM_Castle_Container_Specialized_Weapon_T02": {
     "prefab": "TM_Castle_Container_Specialized_Weapon_T02",
     "guid": -841698718,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 42 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Weapon_T02",
+    "displayNameEn": "Weapon Storage",
+    "displayLocalizationGuid": "90ad9c60-8628-498c-a562-6580ca397057"
   },
   "TM_Castle_Container_Specialized_Woodworking_T01": {
     "prefab": "TM_Castle_Container_Specialized_Woodworking_T01",
     "guid": 401757801,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 28 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Woodworking_T01",
+    "displayNameEn": "Small Woodworking Storage",
+    "displayLocalizationGuid": "253b03c7-a054-46b0-8dea-de5dca313b82"
   },
   "TM_Castle_Container_Specialized_Woodworking_T02": {
     "prefab": "TM_Castle_Container_Specialized_Woodworking_T02",
     "guid": 725978616,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Specialized_Woodworking_T02",
+    "displayNameEn": "Large Woodworking Storage",
+    "displayLocalizationGuid": "06a2a635-3823-432c-a375-c593552fc14b"
   },
   "TM_Castle_Container_Wardrobe_Cabal01": {
     "prefab": "TM_Castle_Container_Wardrobe_Cabal01",
     "guid": 167886013,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Wardrobe_Cabal01",
+    "displayNameEn": "Cupboard",
+    "displayLocalizationGuid": "c8c7b92a-578e-495e-8f90-b4d1a41c0f36"
   },
   "TM_Castle_Container_Wardrobe_Gothic01": {
     "prefab": "TM_Castle_Container_Wardrobe_Gothic01",
     "guid": -1195045239,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Wardrobe_Gothic01",
+    "displayNameEn": "Cupboard",
+    "displayLocalizationGuid": "4ab57762-b69b-4670-92b8-bddc5b003723"
   },
   "TM_Castle_Container_Wardrobe_Gothic02": {
     "prefab": "TM_Castle_Container_Wardrobe_Gothic02",
     "guid": 1723758048,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 56 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Container_Wardrobe_Gothic02",
+    "displayNameEn": "Cupboard",
+    "displayLocalizationGuid": "4ab57762-b69b-4670-92b8-bddc5b003723"
   },
   "TM_Castle_Fence_Iron01": {
     "prefab": "TM_Castle_Fence_Iron01",
@@ -2234,58 +2370,74 @@
   "TM_Castle_FloorDecor_01_Carpet": {
     "prefab": "TM_Castle_FloorDecor_01_Carpet",
     "guid": 2008193049,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_01_Carpet",
+    "displayNameEn": "Blue Carpet",
+    "displayLocalizationGuid": "935ed62c-4a75-4ff5-b336-d6ae8fdb7e51"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Black",
     "guid": 1306351802,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Black",
+    "displayNameEn": "'Dux' Black Carpet Corner",
+    "displayLocalizationGuid": "294535ad-2e86-447c-8395-789bd722103c"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Burgundy",
     "guid": -134008501,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Burgundy",
+    "displayNameEn": "'Dux' Burgundy Carpet Corner",
+    "displayLocalizationGuid": "bac19cc4-807d-4733-a2c2-face474dcbe2"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Cobalt",
     "guid": 1323406286,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Cobalt",
+    "displayNameEn": "'Dux' Cobalt Carpet Corner",
+    "displayLocalizationGuid": "b6c0f155-e3a7-426f-a3f6-334062860f77"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Dyable",
     "guid": -1295514827,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Dyable",
+    "displayNameEn": "'Dux' Black Carpet Corner",
+    "displayLocalizationGuid": "294535ad-2e86-447c-8395-789bd722103c"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Green",
     "guid": 1813156501,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Green",
+    "displayNameEn": "'Dux' Emerald Carpet Corner",
+    "displayLocalizationGuid": "69699634-be92-4c27-8ba9-e3404cbfb56d"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Ivory",
     "guid": 766673232,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Ivory",
+    "displayNameEn": "'Dux' Ivory Carpet Corner",
+    "displayLocalizationGuid": "eac4e6a2-7d5d-4681-b0cc-178ba87de8a2"
   },
   "TM_Castle_FloorDecor_Carpet01_Corner_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Corner_Purple",
     "guid": 1419026023,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Corner_Purple",
+    "displayNameEn": "'Dux' Purple Carpet Corner",
+    "displayLocalizationGuid": "dc97079e-3bdc-4acb-9d1e-9cf3e876ac8a"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Black",
@@ -2299,93 +2451,119 @@
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy",
     "guid": -461103186,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Burgundy",
+    "displayNameEn": "'Dux' Burgundy Carpet X-Section",
+    "displayLocalizationGuid": "c7743d9f-f1d6-42c1-9c49-6e4f5d6008dc"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Cobalt",
     "guid": -1169847941,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Cobalt",
+    "displayNameEn": "'Dux' Cobalt Carpet X-Section",
+    "displayLocalizationGuid": "2c1d0321-327b-4e8e-b577-243dfdc17706"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Dyable",
     "guid": 2012245119,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Dyable",
+    "displayNameEn": "'Dux' Black Carpet X-Section",
+    "displayLocalizationGuid": "70c60e49-3080-4730-801c-27851e1e2382"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Green",
     "guid": -1123494393,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Green",
+    "displayNameEn": "'Dux' EmeraldCarpet X-Section",
+    "displayLocalizationGuid": "c87c8958-ce29-4337-a7d5-f02a89bedcb7"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Ivory",
     "guid": -227538458,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Ivory",
+    "displayNameEn": "'Dux' Ivory Carpet X-Section",
+    "displayLocalizationGuid": "e57a1f42-2eeb-44d2-adac-83fcabfab17c"
   },
   "TM_Castle_FloorDecor_Carpet01_Cross-Section_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Cross-Section_Purple",
     "guid": -1538523312,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Cross-Section_Purple",
+    "displayNameEn": "'Dux' Purple Carpet X-Section",
+    "displayLocalizationGuid": "015bb0d1-f4e4-400f-94f9-c7461aed513c"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Black",
     "guid": -1243576459,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Black",
+    "displayNameEn": "'Dux' Black Carpet End",
+    "displayLocalizationGuid": "e63e914c-f984-4a25-ad39-9c13fedfb49f"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Burgundy",
     "guid": -776811271,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Burgundy",
+    "displayNameEn": "'Dux' Burgundy Carpet End",
+    "displayLocalizationGuid": "8bf3582a-8ce5-4df8-afd3-eb3226ddbeb3"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Cobalt",
     "guid": 1901825261,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Cobalt",
+    "displayNameEn": "'Dux' Cobalt Carpet End",
+    "displayLocalizationGuid": "eb4aa1f3-4c69-43b1-884b-62fa95696758"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Dyable",
     "guid": -259923899,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Dyable",
+    "displayNameEn": "'Dux' Black Carpet End",
+    "displayLocalizationGuid": "e63e914c-f984-4a25-ad39-9c13fedfb49f"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Green",
     "guid": 1346845826,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Green",
+    "displayNameEn": "'Dux' Emerald Carpet End",
+    "displayLocalizationGuid": "222b7c6e-5099-477d-9b2c-ee44d77752ed"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Ivory",
     "guid": 630554462,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Ivory",
+    "displayNameEn": "'Dux' Ivory Carpet End",
+    "displayLocalizationGuid": "bca38df8-a5c9-4a29-96ad-2c402262c418"
   },
   "TM_Castle_FloorDecor_Carpet01_End_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_End_Purple",
     "guid": 1804431776,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_End_Purple",
+    "displayNameEn": "'Dux' Purple Carpet End",
+    "displayLocalizationGuid": "11263b3c-ace7-4224-9088-d647aac2d48c"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Black",

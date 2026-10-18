@@ -434,7 +434,8 @@ const blueprintOwnedDescription = "An exact owned Blueprint description.";
 const approvedBlueprintTextWitnesses = [
   "data/enrichment/blueprint-text-capture.json#",
   "data/enrichment/blueprint-text-expansion-128.json#",
-  "data/enrichment/blueprint-text-remaining-literals.json#"
+  "data/enrichment/blueprint-text-remaining-literals.json#",
+  "data/enrichment/blueprint-text-completion.json#"
 ];
 function ownedBlueprintRenderingFixture(witness: string, summary = blueprintOwnedDescription): DbEntityDetail {
   const prefab = "BP_Castle_Chain_Plant_BleedingHeart";
@@ -459,7 +460,7 @@ for (const witness of approvedBlueprintTextWitnesses) {
     assert.equal(html.split(secondary).length - 1, 1);
   });
 }
-for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/enrichment/blueprint-text-expansion-128.json.invalid#", "data/enrichment/blueprint-text-remaining-literals.json.invalid#"]) {
+for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/enrichment/blueprint-text-expansion-128.json.invalid#", "data/enrichment/blueprint-text-remaining-literals.json.invalid#", "data/enrichment/blueprint-text-completion.json.invalid#"]) {
   test(`unknown witness does not suppress recorded summary: ${witness}`, () => {
     const fixture = ownedBlueprintRenderingFixture(witness);
     const html = renderDetail(fixture, "blueprints");
@@ -481,4 +482,12 @@ test("captured Ancestral Forge whitespace is preserved while its owned descripti
   assert(html.includes(fixture.descriptionSourceRef));
   const unknown = renderDetail({ ...fixture, descriptionSourceRef: "data/enrichment/unapproved.json#" + prefab }, "blueprints");
   assert.equal(unknown.split(description.trim()).length - 1, 2);
+});
+
+test("description-only Blueprint keeps its fallback title and shows native-owned copy once", () => {
+  const fixture = { ...ownedBlueprintRenderingFixture("data/enrichment/blueprint-text-completion.json#"),
+    title: "Castle Floor Alchemy Lab Base", localizedDisplayNameEn: undefined, localizedDisplayGuid: undefined };
+  const html = renderDetail(fixture, "blueprints");
+  assert(html.includes(fixture.title)); assert(html.includes(fixture.prefab!));
+  assert.equal(html.split(blueprintOwnedDescription).length - 1, 1);
 });

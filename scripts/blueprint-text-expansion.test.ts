@@ -1,3 +1,4 @@
+import { completionExpectedCounts } from "./blueprint-text-completion";
 import assert from "node:assert/strict";
 import { readFile, writeFile, mkdir, mkdtemp, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
@@ -63,7 +64,7 @@ test("overlays are deterministic, preserve artwork and all unselected rows", () 
     if (!selected.has(prefab)) assert.deepEqual(updated[prefab], row);
     for (const field of ["iconAssetName", "iconAssetPath"] as const) assert.equal(updated[prefab][field], row[field]);
   }
-  assert.deepEqual(approvedBlueprintTextCoverage(updated), { total: 1198, matched: 928, coveragePct: 0.7746, signal: "high-signal", lowSignalExcluded: 270 });
+  assert.deepEqual(approvedBlueprintTextCoverage(updated), { total: 1198, matched: completionExpectedCounts.signals, coveragePct: Number((completionExpectedCounts.signals / 1198).toFixed(4)), signal: "high-signal", lowSignalExcluded: 1198 - completionExpectedCounts.signals });
 });
 test("version-1 pilot still leaves Plant and Debug outside its standalone overlay", async () => {
   const pilot = await readBlueprintText(root);

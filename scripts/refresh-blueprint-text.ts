@@ -1,3 +1,4 @@
+import { activeCompletionRows, hasCompletionName, hasCompletionDescription } from "./blueprint-text-completion";
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -13,5 +14,7 @@ const coverage = JSON.parse(await readFile(coveragePath, "utf8")) as Record<stri
 coverage["blueprint-display-map"] = approvedBlueprintTextCoverage(updated);
 await writeFile(mapPath, JSON.stringify(updated, null, 2) + "\n");
 await writeFile(coveragePath, JSON.stringify(coverage, null, 2) + "\n");
-console.log(capture.rows.length + " owned Blueprint names/descriptions imported; display coverage " +
+const completed = activeCompletionRows(capture.completion);
+console.log("Owned Blueprint text: " + (capture.rows.length + completed.filter(hasCompletionName).length) + " names, " +
+  (capture.rows.length + completed.filter(hasCompletionDescription).length) + " descriptions; display coverage " +
   (coverage["blueprint-display-map"] as { matched: number }).matched + "/1198.");

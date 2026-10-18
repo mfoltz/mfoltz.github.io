@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { preserveApprovedBlueprintTextValues, readApprovedBlueprintText, type ApprovedBlueprintTextRow } from "./approved-blueprint-text";
+import { preserveApprovedBlueprintTextValues, readApprovedBlueprintText, blueprintTextBuildRows, type BlueprintTextBuildRow } from "./approved-blueprint-text";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import {
   buildAbilityDamageEvidence,
@@ -448,7 +448,7 @@ interface BuildContext {
   workstationDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buildablePortraitByPrefab: Map<string, BuildablePortraitMapEntry>;
   blueprintDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
-  blueprintTextByPrefab: Map<string, ApprovedBlueprintTextRow>;
+  blueprintTextByPrefab: Map<string, BlueprintTextBuildRow>;
   blueprintUnlockByPrefab: Map<string, BlueprintUnlockMapEntry>;
   questDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
   buffDisplayByPrefab: Map<string, PrefabDisplayMapEntry>;
@@ -1868,7 +1868,7 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
     workstationDisplayByPrefab: parsePrefabDisplayMap(workstationDisplaySnapshot),
     buildablePortraitByPrefab: parseBuildablePortraitMap(buildablePortraitSnapshot),
     blueprintDisplayByPrefab,
-    blueprintTextByPrefab: new Map(blueprintTextCapture.rows.map(row => [row.prefab, row])),
+    blueprintTextByPrefab: new Map(blueprintTextBuildRows(blueprintTextCapture).map(row => [row.prefab, row])),
     blueprintUnlockByPrefab: new Map(),
     questDisplayByPrefab: parsePrefabDisplayMap(questDisplaySnapshot),
     buffDisplayByPrefab: parsePrefabDisplayMap(buffDisplaySnapshot),
@@ -2519,7 +2519,7 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
   const owned = buildContext.blueprintTextByPrefab.get(doc.prefabName);
   const text = owned?.fields;
   const title = text?.displayNameEn ?? resolved.title;
-  const subtitle = text ? doc.prefabName : resolved.subtitle;
+  const subtitle = text?.displayNameEn ? doc.prefabName : resolved.subtitle;
   const summary = uniqueStrings([
     components.has("ProjectM.CastleWorkstation") || components.has("ProjectM.Refinementstation") ? "Workstation blueprint" : "Buildable blueprint",
     isStartBlueprint ? "starter build" : undefined,
@@ -2550,8 +2550,8 @@ function buildBlueprintEntity(doc: PrefabDocument, components: Map<string, Parse
     detail: {
       portraitAssetPath,
       ...materials,
-      descriptionSourceKind: text?.sourceKind,
-      descriptionSourceRef: text?.sourceRef,
+      descriptionSourceKind: text?.summaryEn ? text.sourceKind : undefined,
+      descriptionSourceRef: text?.summaryEn ? text.sourceRef : undefined,
       portraitSourceKind: portraitAssetPath ? portraitMapEntry?.portraitEvidenceKind : undefined,
       portraitSourceRef: portraitAssetPath && portraitMapEntry?.portraitEvidenceKind ? `data/enrichment/buildable-portrait-review.json:${doc.prefabName}` : undefined,
       fullDismantleTime,

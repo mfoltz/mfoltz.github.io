@@ -1,3 +1,4 @@
+import { completionExpectedCounts } from "./blueprint-text-completion";
 import assert from "node:assert/strict";
 import { readFile, writeFile, mkdir, mkdtemp, rm } from "node:fs/promises";
 import path from "node:path";
@@ -64,7 +65,7 @@ test("combined overlay is idempotent, preserves accepted records, icons and ever
     for (const field of ["iconAssetName", "iconAssetPath"] as const) assert.equal(updated[prefab][field], before[field]);
   }
   assert.deepEqual(approvedBlueprintTextCoverage(updated),
-    { total: 1198, matched: 928, coveragePct: 0.7746, signal: "high-signal", lowSignalExcluded: 270 });
+    { total: 1198, matched: completionExpectedCounts.signals, coveragePct: Number((completionExpectedCounts.signals / 1198).toFixed(4)), signal: "high-signal", lowSignalExcluded: 1198 - completionExpectedCounts.signals });
 });
 test("missing artwork works; missing, ambiguous and conflicting display joins fail closed", () => {
   const seed: Record<string, BlueprintTextDisplay> = Object.fromEntries(evidence.rows.map(row => [row.prefab, { prefab: row.prefab, guid: row.guid }]));

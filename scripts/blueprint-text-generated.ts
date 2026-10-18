@@ -1,3 +1,4 @@
+import { validateGeneratedCompletion } from "./blueprint-text-completion-generated";
 import assert from "node:assert/strict";
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
@@ -72,6 +73,7 @@ export async function validateGeneratedBlueprintText(root: string) {
     assert.equal(map[prefab].sourceKind, "extractor-raw"); assert.equal(map[prefab].displayNameEn, owned.nameRaw);
     assert.equal(map[prefab].summaryEn, owned.native.text);
   }
+  await validateGeneratedCompletion(root);
   return { names: 928, descriptions: 928, materialReferences, bookReferences, itemOwners: itemOwners.size,
     newMaterialReferences, newBookReferences, newItemOwners: newItemOwners.size, remainingMaterialReferences, remainingBookReferences, remainingItemOwners: remainingOwners.size };
 }
