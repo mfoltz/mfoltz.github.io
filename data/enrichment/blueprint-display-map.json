@@ -3891,8 +3891,10 @@
     "prefab": "TM_Castle_House_Window_Wood",
     "guid": -1719836801,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_House_Window_Wood",
+    "displayNameEn": "Wooden hatch",
+    "displayLocalizationGuid": "f85085b9-3d3f-4017-a5d8-3b0118dc35c1"
   },
   "TM_Castle_InteriorRailing_Default01": {
     "prefab": "TM_Castle_InteriorRailing_Default01",
@@ -4464,9 +4466,11 @@
   "TM_Castle_Noctem_Radar_Eye": {
     "prefab": "TM_Castle_Noctem_Radar_Eye",
     "guid": 1383395802,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Once constructed the Eye of Mortium allows you to track Rift Incursions within the Ruins of Mortium.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Noctem_Radar_Eye",
+    "displayNameEn": "Eye of Mortium",
+    "displayLocalizationGuid": "e49f0d52-0181-424f-91b1-19304da5a455"
   },
   "TM_Castle_ObjectDecor_Anvil01": {
     "prefab": "TM_Castle_ObjectDecor_Anvil01",
@@ -6658,44 +6662,44 @@
   "TM_Castle_ObjectDecor_Table_10x6_Banquet01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Banquet01_Deprecated",
     "guid": -888478474,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_Banquet01_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_Banquet02_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Banquet02_Deprecated",
     "guid": -1064177564,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_Banquet02_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_Banquet03_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Banquet03_Deprecated",
     "guid": 2113855149,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_Banquet03_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth01_Deprecated",
     "guid": 521727187,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_BanquetCloth01_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth02_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth02_Deprecated",
     "guid": 709037000,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_BanquetCloth02_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth03_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_BanquetCloth03_Deprecated",
     "guid": 2111290770,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_BanquetCloth03_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated",
@@ -6718,16 +6722,16 @@
   "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_01_Deprecated",
     "guid": 645454990,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_01_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_02_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_02_Deprecated",
     "guid": 1397513493,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_02_Deprecated"
   },
   "TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated",
@@ -6867,44 +6871,44 @@
   "TM_Castle_ObjectDecor_Table_Base_10x6": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_10x6",
     "guid": 1799867777,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_10x6"
   },
   "TM_Castle_ObjectDecor_Table_Base_3x3": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_3x3",
     "guid": 725472058,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_3x3"
   },
   "TM_Castle_ObjectDecor_Table_Base_3x6": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_3x6",
     "guid": 794694058,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_3x6"
   },
   "TM_Castle_ObjectDecor_Table_Base_4x4_Garden": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_4x4_Garden",
     "guid": 1176115109,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_4x4_Garden"
   },
   "TM_Castle_ObjectDecor_Table_Base_6x4": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_6x4",
     "guid": 1597270759,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_6x4"
   },
   "TM_Castle_ObjectDecor_Table_Base_6x6": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_6x6",
     "guid": -2024489020,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_ObjectDecor_Table_Base_6x6"
   },
   "TM_Castle_ObjectDecor_TargetDummy_Basic01": {
     "prefab": "TM_Castle_ObjectDecor_TargetDummy_Basic01",
@@ -6990,107 +6994,137 @@
   "TM_Castle_Pavement_Cobblestone02_Corner": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_Corner",
     "guid": -1311856292,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Cobblestone02_Corner",
+    "displayNameEn": "Cobblestone Path Corner",
+    "displayLocalizationGuid": "c4aeac4b-15a6-4912-80fc-ffbd70737f59"
   },
   "TM_Castle_Pavement_Cobblestone02_Cross-Section": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_Cross-Section",
     "guid": -133073227,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Cobblestone02_Cross-Section",
+    "displayNameEn": "Cobblestone Path X-Section",
+    "displayLocalizationGuid": "20b3fc31-c6ed-4a8c-85b1-c3fbea13d902"
   },
   "TM_Castle_Pavement_Cobblestone02_End": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_End",
     "guid": -1917517340,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Cobblestone02_End",
+    "displayNameEn": "Cobblestone Path End",
+    "displayLocalizationGuid": "6a3974a2-6a39-45d1-bf52-a8fea17f8982"
   },
   "TM_Castle_Pavement_Cobblestone02_Straight": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_Straight",
     "guid": 1202397949,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Cobblestone02_Straight",
+    "displayNameEn": "Straight Cobblestone Path",
+    "displayLocalizationGuid": "d81d9460-0a46-446f-82d0-d9291f7de4af"
   },
   "TM_Castle_Pavement_Cobblestone02_T-Section": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_T-Section",
     "guid": -1604165419,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Cobblestone02_T-Section",
+    "displayNameEn": "Cobblestone Path T-Section",
+    "displayLocalizationGuid": "536e1938-cd2f-427b-acd9-12d8cfe211da"
   },
   "TM_Castle_Pavement_Gravel_Corner": {
     "prefab": "TM_Castle_Pavement_Gravel_Corner",
     "guid": -1150704729,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Outdoor landscape gravel that increases your movement speed by 15%. A crushed angular granite aggregate, gently polished into impeccable smoothness by imp pebble-polishers, one stone at a time.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Gravel_Corner",
+    "displayNameEn": "Gravel Path Corner",
+    "displayLocalizationGuid": "d1b5eb48-b67c-4bfb-9c9e-195f24b41317"
   },
   "TM_Castle_Pavement_Gravel_Cross_Section": {
     "prefab": "TM_Castle_Pavement_Gravel_Cross_Section",
     "guid": 940495998,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Outdoor landscape gravel that increases your movement speed by 15%. A crushed angular granite aggregate, gently polished into impeccable smoothness by imp pebble-polishers, one stone at a time.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Gravel_Cross_Section",
+    "displayNameEn": "Gravel Path X-Section",
+    "displayLocalizationGuid": "4cfba6bc-e397-404f-bc79-00c400655bc8"
   },
   "TM_Castle_Pavement_Gravel_End": {
     "prefab": "TM_Castle_Pavement_Gravel_End",
     "guid": -855972220,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Outdoor landscape gravel that increases your movement speed by 15%. A crushed angular granite aggregate, gently polished into impeccable smoothness by imp pebble-polishers, one stone at a time.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Gravel_End",
+    "displayNameEn": "Straight Gravel Path",
+    "displayLocalizationGuid": "e172b6d5-e172-42e8-917c-ed1c548d9bc1"
   },
   "TM_Castle_Pavement_Gravel_Straight": {
     "prefab": "TM_Castle_Pavement_Gravel_Straight",
     "guid": -342424861,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Outdoor landscape gravel that increases your movement speed by 15%. A crushed angular granite aggregate, gently polished into impeccable smoothness by imp pebble-polishers, one stone at a time.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Gravel_Straight",
+    "displayNameEn": "Straight Gravel Path",
+    "displayLocalizationGuid": "e172b6d5-e172-42e8-917c-ed1c548d9bc1"
   },
   "TM_Castle_Pavement_Gravel_T_Section": {
     "prefab": "TM_Castle_Pavement_Gravel_T_Section",
     "guid": 1468258825,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Outdoor landscape gravel that increases your movement speed by 15%. A crushed angular granite aggregate, gently polished into impeccable smoothness by imp pebble-polishers, one stone at a time.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_Gravel_T_Section",
+    "displayNameEn": "Gravel Path T-Section",
+    "displayLocalizationGuid": "9165a447-b493-4472-b6f7-cfe07364a43b"
   },
   "TM_Castle_Pavement_StoneTiles_Corner": {
     "prefab": "TM_Castle_Pavement_StoneTiles_Corner",
     "guid": -1590852004,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_StoneTiles_Corner",
+    "displayNameEn": "Stone Tile Path Corner",
+    "displayLocalizationGuid": "316d79ab-e0be-4f03-9261-8c34e63a2d71"
   },
   "TM_Castle_Pavement_StoneTiles_Cross-Section": {
     "prefab": "TM_Castle_Pavement_StoneTiles_Cross-Section",
     "guid": -2068184188,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_StoneTiles_Cross-Section",
+    "displayNameEn": "Stone Tile Path X-Section",
+    "displayLocalizationGuid": "3fa3490c-01a4-479b-9884-c54afc2f96fd"
   },
   "TM_Castle_Pavement_StoneTiles_End": {
     "prefab": "TM_Castle_Pavement_StoneTiles_End",
     "guid": -330567583,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_StoneTiles_End",
+    "displayNameEn": "Stone Tile Path End",
+    "displayLocalizationGuid": "f7388c8f-a8ec-4674-9d80-596e31f10081"
   },
   "TM_Castle_Pavement_StoneTiles_Straight": {
     "prefab": "TM_Castle_Pavement_StoneTiles_Straight",
     "guid": -2030277052,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_StoneTiles_Straight",
+    "displayNameEn": "Straight Stone Tile Path",
+    "displayLocalizationGuid": "72d27b72-c0bc-4ff7-9293-e5697b634007"
   },
   "TM_Castle_Pavement_StoneTiles_T-Section": {
     "prefab": "TM_Castle_Pavement_StoneTiles_T-Section",
     "guid": -1834344633,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fancy outdoor pathing for the discerning gardener, increases your movement speed by 15%. Mostly weather-resistant.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Pavement_StoneTiles_T-Section",
+    "displayNameEn": "Stone Tile Path T-Section",
+    "displayLocalizationGuid": "83e7741a-1fe3-4ffc-9f09-396df0e18bc4"
   },
   "TM_Castle_PillarDecor_Banner01": {
     "prefab": "TM_Castle_PillarDecor_Banner01",
@@ -7239,9 +7273,9 @@
   "TM_Castle_PillarDecor_DecorationPropBase": {
     "prefab": "TM_Castle_PillarDecor_DecorationPropBase",
     "guid": 962747391,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_PillarDecor_DecorationPropBase"
   },
   "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable": {
     "prefab": "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable",
@@ -7580,120 +7614,154 @@
     "prefab": "TM_Castle_RefinementStation_Soulshard",
     "guid": 1794206684,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_RefinementStation_Soulshard",
+    "displayNameEn": "Slim Bookcase",
+    "displayLocalizationGuid": "c36a7cc3-8445-4414-bdc4-a91ac19af967"
   },
   "TM_Castle_Relic_Radar_Eye": {
     "prefab": "TM_Castle_Relic_Radar_Eye",
     "guid": -622002417,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Once constructed the Eye of Twilight allows you to see the current location of Soul Shards. Only one of each type of soul shard exists on a PvP server while on a PvE server there may exist multiple instances.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Relic_Radar_Eye",
+    "displayNameEn": "Eye of Twilight",
+    "displayLocalizationGuid": "97db39a8-aa0b-4197-aa82-f0a047809d05"
   },
   "TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter01": {
     "prefab": "TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter01",
     "guid": -451145631,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Large growing plot for seeds and saplings. Has room for 7 seeds or 1 sapling.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter01",
+    "displayNameEn": "Large Growing Plot w. Decorative Paving",
+    "displayLocalizationGuid": "718824ca-4213-46ce-96cf-47a26e38698b"
   },
   "TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter02": {
     "prefab": "TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter02",
     "guid": 904702946,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SaplingPlanter_7x_Castle_Mega_Planter02",
+    "displayNameEn": "Extra Large Growing Plot w. Decorative Paving",
+    "displayLocalizationGuid": "ac7c4a76-647f-4176-ab94-e9858b188a2e"
   },
   "TM_Castle_SaplingPlanter_7x_NoUnitBlock_Big": {
     "prefab": "TM_Castle_SaplingPlanter_7x_NoUnitBlock_Big",
     "guid": -1811290122,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Large growing plot for seeds and saplings. Has room for 7 seeds or 1 sapling.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SaplingPlanter_7x_NoUnitBlock_Big",
+    "displayNameEn": "Large Growing Plot",
+    "displayLocalizationGuid": "66727855-d1f0-4dc0-9a9d-3d65bdc0bf97"
   },
   "TM_Castle_SeedPlanter_1x_NoUnitBlock": {
     "prefab": "TM_Castle_SeedPlanter_1x_NoUnitBlock",
     "guid": 20308236,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Small growing plot for seeds. Has room for 1 seed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_1x_NoUnitBlock",
+    "displayNameEn": "Small Growing Plot",
+    "displayLocalizationGuid": "ed33160e-1bb6-435d-902f-c7e256d1ca03"
   },
   "TM_Castle_SeedPlanter_1x_NoUnitBlock_OutdoorDirt": {
     "prefab": "TM_Castle_SeedPlanter_1x_NoUnitBlock_OutdoorDirt",
     "guid": -1620680520,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Small growing plot for seeds. Has room for 1 seed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_1x_NoUnitBlock_OutdoorDirt",
+    "displayNameEn": "Small Growing Plot",
+    "displayLocalizationGuid": "ed33160e-1bb6-435d-902f-c7e256d1ca03"
   },
   "TM_Castle_SeedPlanter_1x_UnitBlock_01": {
     "prefab": "TM_Castle_SeedPlanter_1x_UnitBlock_01",
     "guid": 633628073,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Small growing plot for seeds. Has room for 1 seed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_1x_UnitBlock_01",
+    "displayNameEn": "Small Growing Plot",
+    "displayLocalizationGuid": "ed33160e-1bb6-435d-902f-c7e256d1ca03"
   },
   "TM_Castle_SeedPlanter_1x_UnitBlock_02": {
     "prefab": "TM_Castle_SeedPlanter_1x_UnitBlock_02",
     "guid": -2070120080,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Small growing plot for seeds. Has room for 1 seed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_1x_UnitBlock_02",
+    "displayNameEn": "Small Growing Plot",
+    "displayLocalizationGuid": "ed33160e-1bb6-435d-902f-c7e256d1ca03"
   },
   "TM_Castle_SeedPlanter_1x_UnitBlock_03": {
     "prefab": "TM_Castle_SeedPlanter_1x_UnitBlock_03",
     "guid": -614728956,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Small growing plot for seeds. Has room for 1 seed.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_1x_UnitBlock_03",
+    "displayNameEn": "Small Growing Plot",
+    "displayLocalizationGuid": "ed33160e-1bb6-435d-902f-c7e256d1ca03"
   },
   "TM_Castle_SeedPlanter_3x_NoUnitBlock_OutdoorDirt": {
     "prefab": "TM_Castle_SeedPlanter_3x_NoUnitBlock_OutdoorDirt",
     "guid": -1777622178,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Growing plot for seeds. Has room for 3 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_3x_NoUnitBlock_OutdoorDirt",
+    "displayNameEn": "Medium Growing Plot",
+    "displayLocalizationGuid": "e86aa2ef-2610-439b-baa1-89d9b591f6b6"
   },
   "TM_Castle_SeedPlanter_4x_NoUnitBlock": {
     "prefab": "TM_Castle_SeedPlanter_4x_NoUnitBlock",
     "guid": -727003724,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Medium growing plot for seeds. Has room for 4 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_4x_NoUnitBlock",
+    "displayNameEn": "Medium Growing Plot",
+    "displayLocalizationGuid": "e86aa2ef-2610-439b-baa1-89d9b591f6b6"
   },
   "TM_Castle_SeedPlanter_4x_UnitBlock_01": {
     "prefab": "TM_Castle_SeedPlanter_4x_UnitBlock_01",
     "guid": -2016984283,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Medium growing plot for seeds. Has room for 4 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_4x_UnitBlock_01",
+    "displayNameEn": "Medium Growing Plot",
+    "displayLocalizationGuid": "e86aa2ef-2610-439b-baa1-89d9b591f6b6"
   },
   "TM_Castle_SeedPlanter_4x_UnitBlock_02": {
     "prefab": "TM_Castle_SeedPlanter_4x_UnitBlock_02",
     "guid": 1348525260,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Medium growing plot for seeds. Has room for 4 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_4x_UnitBlock_02",
+    "displayNameEn": "Medium Growing Plot",
+    "displayLocalizationGuid": "e86aa2ef-2610-439b-baa1-89d9b591f6b6"
   },
   "TM_Castle_SeedPlanter_4x_UnitBlock_03": {
     "prefab": "TM_Castle_SeedPlanter_4x_UnitBlock_03",
     "guid": 70490531,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Medium growing plot for seeds. Has room for 4 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_4x_UnitBlock_03",
+    "displayNameEn": "Medium Growing Plot",
+    "displayLocalizationGuid": "e86aa2ef-2610-439b-baa1-89d9b591f6b6"
   },
   "TM_Castle_SeedPlanter_5x_NoUnitBlock_OutdoorDirt": {
     "prefab": "TM_Castle_SeedPlanter_5x_NoUnitBlock_OutdoorDirt",
     "guid": -634052640,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Growing plot for seeds. Has room for 5 seeds.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_5x_NoUnitBlock_OutdoorDirt",
+    "displayNameEn": "Large Growing Plot",
+    "displayLocalizationGuid": "66727855-d1f0-4dc0-9a9d-3d65bdc0bf97"
   },
   "TM_Castle_SeedPlanter_7x_NoUnitBlock_Big": {
     "prefab": "TM_Castle_SeedPlanter_7x_NoUnitBlock_Big",
     "guid": 576488226,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Large growing plot for seeds and saplings. Has room for 7 seeds or 1 sapling.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_SeedPlanter_7x_NoUnitBlock_Big",
+    "displayNameEn": "Large Growing Plot",
+    "displayLocalizationGuid": "66727855-d1f0-4dc0-9a9d-3d65bdc0bf97"
   },
   "TM_Castle_Stairs_Double_Lower_End_Left": {
     "prefab": "TM_Castle_Stairs_Double_Lower_End_Left",
@@ -7914,9 +7982,11 @@
   "TM_Castle_Wall_Door_Metal_Wide_Tier02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Metal_Wide_Tier02_ServantLock",
     "guid": 809177531,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Metal_Wide_Tier02_ServantLock",
+    "displayNameEn": "Castle Gate - Servant Lock",
+    "displayLocalizationGuid": "736f2011-8327-455d-9aba-34876b72997c"
   },
   "TM_Castle_Wall_Door_Metal_Wide_Tier02_Standard": {
     "prefab": "TM_Castle_Wall_Door_Metal_Wide_Tier02_Standard",
@@ -7939,9 +8009,11 @@
   "TM_Castle_Wall_Door_Tier02_PrisonStyle01_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle01_ServantLock",
     "guid": -2120778385,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Tier02_PrisonStyle01_ServantLock",
+    "displayNameEn": "Prison Gate - Servant Lock",
+    "displayLocalizationGuid": "9a8fda43-1cba-4d00-8616-2fc30e190504"
   },
   "TM_Castle_Wall_Door_Tier02_PrisonStyle01_Standard": {
     "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle01_Standard",
@@ -7955,9 +8027,11 @@
   "TM_Castle_Wall_Door_Tier02_PrisonStyle02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle02_ServantLock",
     "guid": 1031154600,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Tier02_PrisonStyle02_ServantLock",
+    "displayNameEn": "'Barrier' Gate - Servant Lock",
+    "displayLocalizationGuid": "53b01c97-c62f-456b-9a37-6b0dbf45c673"
   },
   "TM_Castle_Wall_Door_Tier02_PrisonStyle02_Standard": {
     "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle02_Standard",
@@ -7971,9 +8045,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_ServantLock",
     "guid": 2063389605,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_ServantLock",
+    "displayNameEn": "Royal Gate - Servant Lock",
+    "displayLocalizationGuid": "72fd6f0f-c53c-44d5-be3e-c58b8ab6f079"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_Standard",
@@ -7987,9 +8063,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_ServantLock",
     "guid": 214726352,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_ServantLock",
+    "displayNameEn": "Plague Sanctum Gate - Servant Lock",
+    "displayLocalizationGuid": "2c1b294a-7f9b-460e-910f-eca866e2a349"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_Standard",
@@ -8003,9 +8081,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_ServantLock",
     "guid": 423018316,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_ServantLock",
+    "displayNameEn": "Ancient Symphony Gate - Servant Lock",
+    "displayLocalizationGuid": "c84f2043-a9a4-4aee-a200-80e79e4af580"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_Standard",
@@ -8019,9 +8099,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_ServantLock",
     "guid": 1523490679,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_ServantLock",
+    "displayNameEn": "Ancient Symphony Gate - Servant Lock",
+    "displayLocalizationGuid": "c84f2043-a9a4-4aee-a200-80e79e4af580"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_Standard",
@@ -8035,9 +8117,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ServantLock",
     "guid": 1325579315,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_ServantLock",
+    "displayNameEn": "Castle Gate - Servant Lock",
+    "displayLocalizationGuid": "736f2011-8327-455d-9aba-34876b72997c"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard",
@@ -8051,9 +8135,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_Standard01_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard01_ServantLock",
     "guid": 661164434,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_Standard01_ServantLock",
+    "displayNameEn": "'Battlement' Gate - Servant Lock",
+    "displayLocalizationGuid": "98e6d073-4f05-4632-b86a-a352f336355c"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_Standard01_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard01_Standard",
@@ -8067,9 +8153,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_Standard02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard02_ServantLock",
     "guid": -324390719,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_Standard02_ServantLock",
+    "displayNameEn": "'Cordial' Gate - Servant Lock",
+    "displayLocalizationGuid": "ab7895af-370c-4ad8-8827-844bcb6b6834"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_Standard02_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard02_Standard",
@@ -8083,9 +8171,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_Standard03_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard03_ServantLock",
     "guid": 1671467399,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_Standard03_ServantLock",
+    "displayNameEn": "'Verdant' Gate - Servant Lock",
+    "displayLocalizationGuid": "d8220346-904c-416c-aae5-958a4c150145"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_Standard03_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard03_Standard",
@@ -8099,9 +8189,11 @@
   "TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_ServantLock",
     "guid": 1394627606,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_ServantLock",
+    "displayNameEn": "Nocturnal Opulence Gate - Servant Lock",
+    "displayLocalizationGuid": "9afe361d-168a-4e7e-bb3a-db2626a7d253"
   },
   "TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_Standard",
@@ -8115,9 +8207,11 @@
   "TM_Castle_Wall_Door_Wood_Wide_Tier02_ServantLock": {
     "prefab": "TM_Castle_Wall_Door_Wood_Wide_Tier02_ServantLock",
     "guid": 1790947395,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed. Servants will not open or close this door",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Wall_Door_Wood_Wide_Tier02_ServantLock",
+    "displayNameEn": "Castle Gate - Servant Lock",
+    "displayLocalizationGuid": "736f2011-8327-455d-9aba-34876b72997c"
   },
   "TM_Castle_Wall_Door_Wood_Wide_Tier02_Standard": {
     "prefab": "TM_Castle_Wall_Door_Wood_Wide_Tier02_Standard",
@@ -9944,9 +10038,11 @@
   "TM_CraftingStation_Stables": {
     "prefab": "TM_CraftingStation_Stables",
     "guid": 472278220,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An animal pen that will automatically supply one horse with plant fibre. Feeding the horse nutritious plants will improve their attributes.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_CraftingStation_Stables",
+    "displayNameEn": "Stables",
+    "displayLocalizationGuid": "be1846f8-db74-41fa-9c9a-25ac76434ad5"
   },
   "TM_CraftingStation_TailorBench": {
     "prefab": "TM_CraftingStation_TailorBench",
@@ -9996,9 +10092,11 @@
   "TM_Duel_Flag": {
     "prefab": "TM_Duel_Flag",
     "guid": 871546629,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A placeable banner that allows you to initiate a duel against another vampire player. Crafted from Inventory.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Duel_Flag",
+    "displayNameEn": "Dueling Banner",
+    "displayLocalizationGuid": "8949a1b0-843d-42dc-9c77-e19afda7151e"
   },
   "TM_EH_EMP_Placeable_T01": {
     "prefab": "TM_EH_EMP_Placeable_T01",
@@ -10013,15 +10111,19 @@
     "prefab": "TM_EH_Mines_ExplosiveBarrel_Placeable_T01",
     "guid": -1401715476,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_EH_Mines_ExplosiveBarrel_Placeable_T01",
+    "displayNameEn": "Minor Explosive Box",
+    "displayLocalizationGuid": "c8616346-1ed2-4a6e-beb5-e1ddc9d01ef2"
   },
   "TM_EH_Mines_ExplosiveBarrel_Placeable_T02": {
     "prefab": "TM_EH_Mines_ExplosiveBarrel_Placeable_T02",
     "guid": 2036168659,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_EH_Mines_ExplosiveBarrel_Placeable_T02",
+    "displayNameEn": "Major Explosive Box",
+    "displayLocalizationGuid": "d8bf027d-8089-4108-a14b-f1aad7909f00"
   },
   "TM_Framework_SunShelter": {
     "prefab": "TM_Framework_SunShelter",
@@ -10035,9 +10137,11 @@
   "TM_GloomRot_LightningRod_Refinement_01": {
     "prefab": "TM_GloomRot_LightningRod_Refinement_01",
     "guid": -1932531289,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Harness the lightning to recharge batteries. WARNING - Extended usage will destabilize the Lightning Harvester!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_GloomRot_LightningRod_Refinement_01",
+    "displayNameEn": "Lightning Harvester",
+    "displayLocalizationGuid": "9db39e81-dcb5-479d-b4cf-972000aa12a1"
   },
   "TM_LiquidStation_Water_Well01": {
     "prefab": "TM_LiquidStation_Water_Well01",
@@ -10205,36 +10309,46 @@
     "prefab": "TM_RefinementStation_TeslaLightningRod",
     "guid": 1311814093,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_RefinementStation_TeslaLightningRod",
+    "displayNameEn": "Lightning Harvester",
+    "displayLocalizationGuid": "9db39e81-dcb5-479d-b4cf-972000aa12a1"
   },
   "TM_Relic_SoulShard_Behemoth": {
     "prefab": "TM_Relic_SoulShard_Behemoth",
     "guid": -1634027738,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Relic_SoulShard_Behemoth",
+    "displayNameEn": "Soul Shard of the Behemoth",
+    "displayLocalizationGuid": "2a66b27c-3a1a-49a0-996e-b15ab82083bf"
   },
   "TM_Relic_SoulShard_Manticore": {
     "prefab": "TM_Relic_SoulShard_Manticore",
     "guid": 4777796,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Relic_SoulShard_Manticore",
+    "displayNameEn": "Soul Shard of the Winged Horror",
+    "displayLocalizationGuid": "a7e02b2f-4171-4257-9148-32387cbff763"
   },
   "TM_Relic_SoulShard_Monster": {
     "prefab": "TM_Relic_SoulShard_Monster",
     "guid": -676422497,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Relic_SoulShard_Monster",
+    "displayNameEn": "Soul Shard of the Monster",
+    "displayLocalizationGuid": "6029af38-711d-4550-b572-64075b574feb"
   },
   "TM_Relic_SoulShard_Paladin": {
     "prefab": "TM_Relic_SoulShard_Paladin",
     "guid": 433842875,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Relic_SoulShard_Paladin",
+    "displayNameEn": "Soul Shard of Solarus",
+    "displayLocalizationGuid": "ad330dd2-1c52-49db-91ac-81a808347b8e"
   },
   "TM_ResearchStation_T01": {
     "prefab": "TM_ResearchStation_T01",
@@ -10303,64 +10417,82 @@
     "prefab": "TM_Siege_Structure_T02",
     "guid": 2022737514,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Siege_Structure_T02",
+    "displayNameEn": "Siege Golem Stone",
+    "displayLocalizationGuid": "6951b2d2-bca1-4edc-bcf2-4f4d49e85d2d"
   },
   "TM_SpecialStation_ArenaFlag_01_Red": {
     "prefab": "TM_SpecialStation_ArenaFlag_01_Red",
     "guid": 109967665,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a Team Banner to add an Arena Team to a Castle Arena. When placed vampires may use the Team Banner to join the corresponding team. Multiple Team Banners can be placed in the same arena, allowing vampires to join different teams.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaFlag_01_Red",
+    "displayNameEn": "Red Team",
+    "displayLocalizationGuid": "6c2b5f1f-ee10-4022-a4f6-4e4b2724d51f"
   },
   "TM_SpecialStation_ArenaFlag_02_Blue": {
     "prefab": "TM_SpecialStation_ArenaFlag_02_Blue",
     "guid": 940351894,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a Team Banner to add an Arena Team to a Castle Arena. When placed vampires may use the Team Banner to join the corresponding team. Multiple Team Banners can be placed in the same arena, allowing vampires to join different teams.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaFlag_02_Blue",
+    "displayNameEn": "Blue Team",
+    "displayLocalizationGuid": "f785ee2a-7632-4180-b74a-3c98530d4c25"
   },
   "TM_SpecialStation_ArenaFlag_03_Green": {
     "prefab": "TM_SpecialStation_ArenaFlag_03_Green",
     "guid": -992935202,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a Team Banner to add an Arena Team to a Castle Arena. When placed vampires may use the Team Banner to join the corresponding team. Multiple Team Banners can be placed in the same arena, allowing vampires to join different teams.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaFlag_03_Green",
+    "displayNameEn": "Green Team",
+    "displayLocalizationGuid": "79070767-638f-471b-9f90-ebd2a707eb0b"
   },
   "TM_SpecialStation_ArenaFlag_04_Purple": {
     "prefab": "TM_SpecialStation_ArenaFlag_04_Purple",
     "guid": 1513357066,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a Team Banner to add an Arena Team to a Castle Arena. When placed vampires may use the Team Banner to join the corresponding team. Multiple Team Banners can be placed in the same arena, allowing vampires to join different teams.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaFlag_04_Purple",
+    "displayNameEn": "Purple Team",
+    "displayLocalizationGuid": "587bf5ad-620b-46a5-8f51-82cc0184a18c"
   },
   "TM_SpecialStation_ArenaHealthOrb": {
     "prefab": "TM_SpecialStation_ArenaHealthOrb",
     "guid": 2145966113,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a breakable orb within the arena that respawns periodically. Breaking the orb heals the team of the player who landed the final blow.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaHealthOrb",
+    "displayNameEn": "Arena Orb",
+    "displayLocalizationGuid": "09755304-443f-4a12-9a2e-ff7751d6f2d0"
   },
   "TM_SpecialStation_ArenaShrinkingCircle": {
     "prefab": "TM_SpecialStation_ArenaShrinkingCircle",
     "guid": -1857667976,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Place a center location for the arena. During Sudden Death, the battlefield will shrink toward this point.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaShrinkingCircle",
+    "displayNameEn": "Arena Center",
+    "displayLocalizationGuid": "40328b82-16d8-46e8-a260-c5cd0abe2641"
   },
   "TM_SpecialStation_ArenaStation": {
     "prefab": "TM_SpecialStation_ArenaStation",
     "guid": 1418230009,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A station that adds an Arena to your Castle. Use it to start or cancel Arena Contests and to adjust arena rules. Placing the station creates a connected Arena Zone, which defines the contest boundaries. You may customize this zone to create your own Arena layout.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_ArenaStation",
+    "displayNameEn": "Arena Station",
+    "displayLocalizationGuid": "51c4337a-94eb-456e-9ee7-b000d06cec84"
   },
   "TM_SpecialStation_InventoryRouting": {
     "prefab": "TM_SpecialStation_InventoryRouting",
     "guid": -624818956,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A complicated piece of machinery that allows you to redirect the output of most crafting and refinement stations. Additional Redistribution Engines increases the capacity of stations connected to the network.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_InventoryRouting",
+    "displayNameEn": "Redistribution Engine",
+    "displayLocalizationGuid": "8b7f89f4-af44-47a6-a75c-30d002a392bb"
   },
   "TM_SpecialStation_MusicPlayer": {
     "prefab": "TM_SpecialStation_MusicPlayer",
@@ -10383,9 +10515,11 @@
   "TM_SpecialStation_PrisonCell_StrongbladeDLC": {
     "prefab": "TM_SpecialStation_PrisonCell_StrongbladeDLC",
     "guid": 371396732,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Bring a charmed human to the Prison Cell to imprison them. Allows you to craft blood potions by tapping prisoners on blood.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_SpecialStation_PrisonCell_StrongbladeDLC",
+    "displayNameEn": "Nocturnal Opulence Prison Cell",
+    "displayLocalizationGuid": "2aabfb97-d85f-4c5c-9de7-34e13f92bd98"
   },
   "TM_SpecialStation_ServantCoffin": {
     "prefab": "TM_SpecialStation_ServantCoffin",
@@ -10480,58 +10614,74 @@
   "TM_Stash_Chest_Rebuilding": {
     "prefab": "TM_Stash_Chest_Rebuilding",
     "guid": -220201461,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "These travel bags will hold all of the items you have relocated using the Castle Relocation Heart.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Rebuilding",
+    "displayNameEn": "Travel Bags",
+    "displayLocalizationGuid": "2ee6fb91-01ca-46f5-86da-79827ad96b29"
   },
   "TM_Stash_Chest_SafetyBox": {
     "prefab": "TM_Stash_Chest_SafetyBox",
     "guid": 1842080060,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A unique container that can hold up to 14 items. Enemy players cannot loot items from this container.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_SafetyBox",
+    "displayNameEn": "Vampire Lockbox",
+    "displayLocalizationGuid": "bf26da63-5ee2-4d41-8638-c0e2e314f3d5"
   },
   "TM_Stash_Chest_Wood_Gems_Test": {
     "prefab": "TM_Stash_Chest_Wood_Gems_Test",
     "guid": 1460447336,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 14 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_Gems_Test",
+    "displayNameEn": "Large Gem Bag",
+    "displayLocalizationGuid": "d920deca-2707-4a91-99ce-96df30897f30"
   },
   "TM_Stash_Chest_Wood_General": {
     "prefab": "TM_Stash_Chest_Wood_General",
     "guid": -251472465,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 14 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_General",
+    "displayNameEn": "Small Chest",
+    "displayLocalizationGuid": "bc259b08-9194-492b-9f3c-ca0f05294a60"
   },
   "TM_Stash_Chest_Wood_General_Big": {
     "prefab": "TM_Stash_Chest_Wood_General_Big",
     "guid": -198459384,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 21 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_General_Big",
+    "displayNameEn": "Large Chest",
+    "displayLocalizationGuid": "80def7cb-ed43-486f-bb71-4373b0736c40"
   },
   "TM_Stash_Chest_Wood_General_Halloween01Variant": {
     "prefab": "TM_Stash_Chest_Wood_General_Halloween01Variant",
     "guid": 167900559,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 14 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_General_Halloween01Variant",
+    "displayNameEn": "Haunted Nights Small Chest",
+    "displayLocalizationGuid": "a4894330-7d77-4254-b7ef-c59c6794d5ba"
   },
   "TM_Stash_Chest_Wood_General_PLACEHOLDER": {
     "prefab": "TM_Stash_Chest_Wood_General_PLACEHOLDER",
     "guid": 279811010,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 14 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_General_PLACEHOLDER",
+    "displayNameEn": "Small Chest",
+    "displayLocalizationGuid": "bc259b08-9194-492b-9f3c-ca0f05294a60"
   },
   "TM_Stash_Chest_Wood_Lumber_Big": {
     "prefab": "TM_Stash_Chest_Wood_Lumber_Big",
     "guid": -852162858,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A container that can hold up to 21 items.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Stash_Chest_Wood_Lumber_Big",
+    "displayNameEn": "Large Lumber Storage",
+    "displayLocalizationGuid": "93368f86-3db4-4d61-834b-38cf691ea9b3"
   },
   "TM_StygianAltar_Passive_T01": {
     "prefab": "TM_StygianAltar_Passive_T01",

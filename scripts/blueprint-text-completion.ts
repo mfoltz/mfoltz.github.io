@@ -6,7 +6,7 @@ import type { BlueprintTextDisplay, BlueprintTextRow } from "./blueprint-text";
 
 export const completionSource = "data/enrichment/blueprint-text-completion.json";
 export const completionManifestSha256 = "137b627340fc6f2e889ad9bd02cbf4d784f25759ac1a5653bab90c1ffa826202";
-export const completionActivationCount: number = 180;
+export const completionActivationCount: number = 270;
 const completionCountsByActivation: Record<number, { signals: number; names: number; descriptions: number; pairs: number }> = {"0":{"signals":928,"names":928,"descriptions":928,"pairs":928},"45":{"signals":972,"names":972,"descriptions":968,"pairs":968},"90":{"signals":1017,"names":1017,"descriptions":1013,"pairs":1013},"135":{"signals":1062,"names":1062,"descriptions":1058,"pairs":1058},"180":{"signals":1107,"names":1097,"descriptions":1101,"pairs":1091},"225":{"signals":1152,"names":1127,"descriptions":1143,"pairs":1118},"270":{"signals":1197,"names":1172,"descriptions":1180,"pairs":1155}};
 export const completionExpectedCounts = completionCountsByActivation[completionActivationCount];
 type Field = { State: string; Key: string; EnglishText: string | null };
