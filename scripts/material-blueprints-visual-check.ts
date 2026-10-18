@@ -253,7 +253,7 @@ try {
           const icon = art.icon;
           assert(icon);
           await page.route(`**${icon}`, route => { failures++; return route.abort(); });
-          await ready(page, cases[0], `?buildQ=${encodeURIComponent(art.prefab)}`);
+          await ready(page, cases[0], `?buildQ=${encodeURIComponent(`${art.prefab} ${art.guid}`)}`);
           await measure(page, [art]);
           assert(failures > 0);
           await focusByKeyboard(page, page.locator("#item-blueprint-uses [data-db-reference]").first().locator("xpath=.."));

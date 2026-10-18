@@ -30,7 +30,7 @@
     "test:blueprint-unlocks": "tsx scripts/blueprint-unlocks.test.ts && tsx scripts/blueprint-unlock-validation.test.ts && tsx --test src/lib/blueprintBrowse.test.ts",
     "test:ingredient-recipes": "tsx --test scripts/ingredient-recipes.test.ts scripts/ingredient-recipes-generated.test.ts",
     "test:material-blueprints-visual": "tsx scripts/material-blueprints-visual-check.ts",
-    "test:material-blueprints": "tsx --test scripts/material-blueprints.test.ts scripts/material-blueprints-generated.test.ts",
+    "test:material-blueprints": "tsx --test scripts/material-blueprints.test.ts scripts/material-blueprints-generated.test.ts scripts/material-blueprints-browser-query.test.ts",
     "test:book-blueprints": "tsx --test scripts/book-blueprints.test.ts scripts/book-blueprints-generated.test.ts",
     "test:book-blueprints-visual": "tsx scripts/book-blueprints-visual-check.ts",
     "test:ingredient-recipes-visual": "tsx scripts/ingredient-recipes-visual-check.ts",
