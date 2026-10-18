@@ -1,11 +1,58 @@
 # Active Source-Backed Roadmap
 
-Reviewed: 2026-10-17. This is the single active roadmap for this repository.
+Reviewed: 2026-10-18. This is the single active roadmap for this repository.
 Older plans and checkpoints describe their dated state; they do not queue new
 work. This roadmap records priorities and boundaries, not publication or
 extraction authority.
 
 ## Current delivery state
+
+The remaining 270 Blueprint evidence records are reviewed and accepted locally
+on `codex/blueprint-text-completion`, based on the accepted remaining-literals
+tip `4efc62efc4c19365204369a2d2f028292f0d90a9`. This pass adds 244 owned names
+and 252 descriptions across 269 records; the both-empty Tower stays unchanged.
+The combined witnesses now provide **1,172 owned names, 1,180 descriptions and
+1,155 complete pairs** across 1,198 Blueprints. Any-field display coverage is
+1,197/1,198 (0.9992), distinct from complete-pair coverage. See the
+[completion checkpoint](checkpoints/2026-10-17-blueprint-text-completion.md).
+
+The portable version-4 witness pins exact managed keys, signed prefab GUIDs,
+retained sources, ten accepted catalog captures, pinned English and native
+descriptions in six 45-record parts. Names and descriptions qualify separately.
+Eight exact description cases resolve six unused parameter slices, Stables'
+raw/native spelling drift and Vampire Lockbox's observed native capacity.
+No general numeric formatter, inferred text, artwork or evidence-strength change
+is added. The previous 928 pairs and their witnesses remain unchanged.
+
+Exactly 590 generated JSON files change: 269 Blueprint details, 75 item details,
+244 source backlink pages and two indexes. The 341 material and 109 book label
+updates preserve link membership, identities, quantities, provenance and routes.
+The other 46,046 generated JSON files and unrelated aggregate rows stay identical.
+
+Fresh verification, unit/artwork tests, focused acceptance and all thirteen
+navigation/browse/Blueprint regression suites pass. Changed captures are
+personally inspected with loaded Inter/Cinzel fonts; complete identifiers,
+keyboard visibility, return state, artwork failure and native 200% zoom pass.
+All 92 final baseline comparisons pass after twelve inspected allowed updates;
+80 baseline hashes stay unchanged. Repeated generation, exact field audits and
+protected-byte/history audits preserve source, maps, artwork, prior evidence,
+original/pilot checkouts, indexes, pending files and earlier branches.
+The approved material harness repair qualifies its artwork search by exact
+prefab and signed GUID; every product assertion and fixture remains intact.
+
+Forty-three records still lack a complete pair: 25 description-only, 17 name-only
+and one both-empty Tower. The unpromoted fields are explicit: 17 shared-name
+ownership holds, nine empty name keys, 16 empty description keys, an empty native
+Soulshard-refinement fragment and malformed Mega Planter markup. Further text
+promotion requires new ownership or native-text evidence for those exact holds.
+
+Next is combined local-stack review before a separate consolidation/publication
+decision. Local main remains `cf8f931052281ed045dbe9a26f7e2dbc2037ad12`; the
+owned preview is stopped. No merge, rebase, cleanup, push, PR, deployment,
+game launch or new extraction is included. Historical claims below retain
+their dated scope.
+
+## Historical remaining 790 literal pairs through October 17
 
 The remaining 790 literal-only Blueprint text pairs are accepted locally on
 `codex/blueprint-text-remaining-literals`, based on unchanged local main
