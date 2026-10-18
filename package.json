@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
+    "test:blueprint-text-completion-visual": "tsx scripts/blueprint-text-completion-visual-check.ts",
     "test:blueprint-text-completion": "tsx --test scripts/blueprint-text-completion.test.ts",
     "refresh:blueprint-text": "tsx scripts/refresh-blueprint-text.ts",
     "test:blueprint-text": "tsx --test scripts/blueprint-text.test.ts scripts/blueprint-text-generated.test.ts scripts/blueprint-text-zoom.test.ts scripts/blueprint-visual-fixtures.test.ts",
