@@ -4214,597 +4214,767 @@
   "TM_Castle_ObjectDecor_Cabal_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase02",
     "guid": 1864693233,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Vase02",
+    "displayNameEn": "Coffee Plant",
+    "displayLocalizationGuid": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb"
   },
   "TM_Castle_ObjectDecor_Cabal_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase03",
     "guid": -761353546,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Vase03",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_Cabal_Vase04": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase04",
     "guid": 1943013666,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Vase04",
+    "displayNameEn": "Coffee Plant",
+    "displayLocalizationGuid": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb"
   },
   "TM_Castle_ObjectDecor_Cabal_Vase06": {
     "prefab": "TM_Castle_ObjectDecor_Cabal_Vase06",
     "guid": 1512138920,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Cabal_Vase06",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_CandleStand_Cabal": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand_Cabal",
     "guid": 1130658863,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand_Cabal",
+    "displayNameEn": "'Cordial' Candelabra",
+    "displayLocalizationGuid": "f57f175a-35d5-4843-8fe1-6b599375f781"
   },
   "TM_Castle_ObjectDecor_CandleStand_Gothic": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand_Gothic",
     "guid": 570436365,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand_Gothic",
+    "displayNameEn": "'Elegant' Candelabra",
+    "displayLocalizationGuid": "37a7fed3-a644-409f-be5b-ade3613ced46"
   },
   "TM_Castle_ObjectDecor_CandleStand_Lavish": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand_Lavish",
     "guid": 780798903,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand_Lavish",
+    "displayNameEn": "'Ardent' Candelabra",
+    "displayLocalizationGuid": "d5051e1b-553a-460e-a5ac-75c3d2f918ed"
   },
   "TM_Castle_ObjectDecor_CandleStand01": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand01",
     "guid": -939151406,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand01",
+    "displayNameEn": "'Modest' Candelabra",
+    "displayLocalizationGuid": "35479a57-4a0d-4cb0-adb6-38b9a77e159e"
   },
   "TM_Castle_ObjectDecor_CandleStand02": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand02",
     "guid": -629121130,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand02",
+    "displayNameEn": "'Omen' Candle Stand",
+    "displayLocalizationGuid": "d2cae281-23a7-4691-98b6-d6603fbfcd5e"
   },
   "TM_Castle_ObjectDecor_CandleStand03": {
     "prefab": "TM_Castle_ObjectDecor_CandleStand03",
     "guid": -2022124892,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CandleStand03",
+    "displayNameEn": "'Invocation' Candle Stand",
+    "displayLocalizationGuid": "a775be83-4e17-4899-959c-73ae7b29af94"
   },
   "TM_Castle_ObjectDecor_Chair_Base": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Base",
     "guid": -1325342529,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Base",
+    "displayNameEn": "'Omen' Chair",
+    "displayLocalizationGuid": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2"
   },
   "TM_Castle_ObjectDecor_Chair_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Cabal01",
     "guid": -1126014450,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Cabal01",
+    "displayNameEn": "'Nocturne' Chair",
+    "displayLocalizationGuid": "f2fc862e-c1ec-440b-bd25-a8c891b51857"
   },
   "TM_Castle_ObjectDecor_Chair_DeskCabal01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_DeskCabal01",
     "guid": 465502058,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_DeskCabal01",
+    "displayNameEn": "'Cordial' Chair",
+    "displayLocalizationGuid": "c770c285-9a57-43f4-b337-1c9cc9625be4"
   },
   "TM_Castle_ObjectDecor_Chair_DeskGothic01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_DeskGothic01",
     "guid": 2096482330,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_DeskGothic01",
+    "displayNameEn": "'Erudition' Chair",
+    "displayLocalizationGuid": "77f75bd1-f4f7-469b-b006-1f47042a178d"
   },
   "TM_Castle_ObjectDecor_Chair_DeskLavish01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_DeskLavish01",
     "guid": -752836365,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_DeskLavish01",
+    "displayNameEn": "'Elegance' Chair",
+    "displayLocalizationGuid": "bf464c30-4318-48c7-9990-7bc2275bc6bc"
   },
   "TM_Castle_ObjectDecor_Chair_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Gothic01",
     "guid": 1147414470,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Gothic01",
+    "displayNameEn": "'Omen' Chair",
+    "displayLocalizationGuid": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2"
   },
   "TM_Castle_ObjectDecor_Chair_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Lavish01",
     "guid": 1481841976,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Lavish01",
+    "displayNameEn": "'Distinguished' Chair",
+    "displayLocalizationGuid": "823519a5-a350-4666-b552-e149ecb7588f"
   },
   "TM_Castle_ObjectDecor_Chair_Red_Base": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Red_Base",
     "guid": -8015754,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Red_Base",
+    "displayNameEn": "'Omen' Chair",
+    "displayLocalizationGuid": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2"
   },
   "TM_Castle_ObjectDecor_Chair_Simple01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_Simple01",
     "guid": 551046781,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_Simple01",
+    "displayNameEn": "Rustic Chair",
+    "displayLocalizationGuid": "d2ff043c-d111-4298-8b7a-95267d1581ba"
   },
   "TM_Castle_ObjectDecor_Chair_StrongbladeDLC01": {
     "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC01",
     "guid": 930898512,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Pouffe",
+    "displayLocalizationGuid": "52e70063-4062-48ee-811a-6c8710dc890b"
   },
   "TM_Castle_ObjectDecor_Chair_StrongbladeDLC02": {
     "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC02",
     "guid": -162599930,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Chair",
+    "displayLocalizationGuid": "6dba7569-5f36-481c-beb0-32edc8c1af5d"
   },
   "TM_Castle_ObjectDecor_Chair_StrongbladeDLC03": {
     "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC03",
     "guid": 1865135472,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_StrongbladeDLC03",
+    "displayNameEn": "Nocturnal Opulence Seat",
+    "displayLocalizationGuid": "d91c8da2-ee59-4d59-b38a-ed84e2b72341"
   },
   "TM_Castle_ObjectDecor_Chair_StrongbladeDLC04": {
     "prefab": "TM_Castle_ObjectDecor_Chair_StrongbladeDLC04",
     "guid": -706081177,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Chair_StrongbladeDLC04",
+    "displayNameEn": "Nocturnal Opulence Chair",
+    "displayLocalizationGuid": "a711de7f-0883-48ba-9e58-62f59e6fc1f1"
   },
   "TM_Castle_ObjectDecor_ChessTable01": {
     "prefab": "TM_Castle_ObjectDecor_ChessTable01",
     "guid": 624218349,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "If only you knew how to play it.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_ChessTable01",
+    "displayNameEn": "Chess Table",
+    "displayLocalizationGuid": "9402f8f9-98f5-485e-b1f5-7ccebaa2b451"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant01": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant01",
     "guid": 27432785,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant01",
+    "displayNameEn": "Coffee Plant",
+    "displayLocalizationGuid": "7e1eec7b-9d7e-4a66-969a-f03e9ab213bb"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant02": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant02",
     "guid": -259659131,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant02",
+    "displayNameEn": "Coleus Plant",
+    "displayLocalizationGuid": "36ba993a-12bb-4c91-af5a-8c3b586da25c"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant03": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant03",
     "guid": -1503503213,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant03",
+    "displayNameEn": "Red Cranesbill Plant",
+    "displayLocalizationGuid": "8d90d8cf-86ed-40b6-b3d8-134008e3ed05"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant04": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant04",
     "guid": 823459617,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant04",
+    "displayNameEn": "White Cranesbill Plant",
+    "displayLocalizationGuid": "8676c0f1-1050-4bb0-a279-92f78d125212"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant05": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant05",
     "guid": -1877692880,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant05",
+    "displayNameEn": "Begonia Plant",
+    "displayLocalizationGuid": "7e34342e-8738-48cb-af0e-81051670da6f"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant06": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant06",
     "guid": -1971857623,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant06",
+    "displayNameEn": "Spider Plant",
+    "displayLocalizationGuid": "4a438546-a2b7-41a6-adea-71a831014a00"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant07": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant07",
     "guid": 648206774,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant07",
+    "displayNameEn": "Weeping Fig Plant",
+    "displayLocalizationGuid": "5333b8eb-0138-4b07-8fae-c44672afb852"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant08": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant08",
     "guid": -692880320,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant08",
+    "displayNameEn": "Weeping Fig Plant",
+    "displayLocalizationGuid": "5333b8eb-0138-4b07-8fae-c44672afb852"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant09": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant09",
     "guid": -272063893,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant09",
+    "displayNameEn": "Monstera Plant",
+    "displayLocalizationGuid": "258c6aa0-d782-4c55-87eb-9370f1cc6bc6"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant10": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant10",
     "guid": -681023682,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant10",
+    "displayNameEn": "Dracaena Kedarnath Plant",
+    "displayLocalizationGuid": "ed24c444-a767-4db1-8288-4ec76708dbae"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant11": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant11",
     "guid": 975438498,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant11",
+    "displayNameEn": "Dracaena Kedarnath Plant",
+    "displayLocalizationGuid": "ed24c444-a767-4db1-8288-4ec76708dbae"
   },
   "TM_Castle_ObjectDecor_Child_Vase_Plant12": {
     "prefab": "TM_Castle_ObjectDecor_Child_Vase_Plant12",
     "guid": 575437684,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A plant that can live in your vase.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Child_Vase_Plant12",
+    "displayNameEn": "Lavender Plant",
+    "displayLocalizationGuid": "8b284159-843f-4dfb-8609-e8cb767c3c32"
   },
   "TM_Castle_ObjectDecor_CrystalLamp_Brazier01": {
     "prefab": "TM_Castle_ObjectDecor_CrystalLamp_Brazier01",
     "guid": -1023837449,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_CrystalLamp_Brazier01",
+    "displayNameEn": "'Clairvoyance' Lamp",
+    "displayLocalizationGuid": "ce0bca25-dba9-44ee-b993-456e814c98e9"
   },
   "TM_Castle_ObjectDecor_Divan_Base": {
     "prefab": "TM_Castle_ObjectDecor_Divan_Base",
     "guid": 2082207027,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Divan_Base",
+    "displayNameEn": "'Distinguished' Divan",
+    "displayLocalizationGuid": "6c36d4e1-6cb0-4eca-8b56-9e3eff362690"
   },
   "TM_Castle_ObjectDecor_Divan_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_Divan_Lavish01",
     "guid": -398243796,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Divan_Lavish01",
+    "displayNameEn": "'Distinguished' Divan",
+    "displayLocalizationGuid": "6c36d4e1-6cb0-4eca-8b56-9e3eff362690"
   },
   "TM_Castle_ObjectDecor_Fireplace_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_Fireplace_Cabal01",
     "guid": 780398112,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine fireside.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Fireplace_Cabal01",
+    "displayNameEn": "'Cordial' Fireside",
+    "displayLocalizationGuid": "ab3e33c3-0fa8-4f5d-a068-b282adca275e"
   },
   "TM_Castle_ObjectDecor_Fireplace_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_Fireplace_Gothic01",
     "guid": 216089113,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine fireside.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Fireplace_Gothic01",
+    "displayNameEn": "'Midnight' Fireside",
+    "displayLocalizationGuid": "66f5c1c6-ce4e-41ab-9171-1e1916b3ea67"
   },
   "TM_Castle_ObjectDecor_Fireplace_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_Fireplace_Lavish01",
     "guid": 374407813,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A mighty fine fireside.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Fireplace_Lavish01",
+    "displayNameEn": "'Imperious' Fireside",
+    "displayLocalizationGuid": "f3f1d4dc-913c-4a47-b63f-c657e1975e9a"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Antlers01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Antlers01",
     "guid": -508625704,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Antlers01",
+    "displayNameEn": "Antler Flying Chandelier",
+    "displayLocalizationGuid": "cdae7b9a-a9d4-4d7d-b706-b9115deed2b0"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Bone01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Bone01",
     "guid": 765052065,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Bone01",
+    "displayNameEn": "Bone Flying Chandelier",
+    "displayLocalizationGuid": "226353cd-56df-4d5f-b0b5-2f45bf493170"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Candles01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Candles01",
     "guid": -1705786232,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Candles01",
+    "displayNameEn": "'Modest' Flying Candles",
+    "displayLocalizationGuid": "38c1a6fc-463b-4435-b2b6-ba2488b9b968"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Crystal01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Crystal01",
     "guid": 2033781589,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Crystal01",
+    "displayNameEn": "Crystal Flying Chandelier",
+    "displayLocalizationGuid": "2d95039b-76de-4e8b-87c3-0677565b68e6"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Gothic01",
     "guid": 2070805994,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Gothic01",
+    "displayNameEn": "'Elegant' Flying Chandelier",
+    "displayLocalizationGuid": "bc6fa5e7-e62d-476d-af37-ce425fe01b11"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Halloween01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Halloween01",
     "guid": -2113113839,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Halloween01",
+    "displayNameEn": "Haunted Nights Floating Gourd",
+    "displayLocalizationGuid": "9a7294ac-33e9-40a4-91d5-118f20006877"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Lavish01",
     "guid": -1121102574,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Lavish01",
+    "displayNameEn": "'Imperious' Flying Chandelier",
+    "displayLocalizationGuid": "b9ae431b-801c-4bf0-ab7c-9a2c1e387032"
   },
   "TM_Castle_ObjectDecor_FlyingChandelier_Simple01": {
     "prefab": "TM_Castle_ObjectDecor_FlyingChandelier_Simple01",
     "guid": 2005837161,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FlyingChandelier_Simple01",
+    "displayNameEn": "'Modest' Flying Chandelier",
+    "displayLocalizationGuid": "b0996367-7963-4bc2-a90e-706945580907"
   },
   "TM_Castle_ObjectDecor_FoldingWall_1x6_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_FoldingWall_1x6_Cabal01",
     "guid": 1536811714,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant solution for separating spaces in your rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FoldingWall_1x6_Cabal01",
+    "displayNameEn": "'Cordial' Folding Screen",
+    "displayLocalizationGuid": "b773318c-7ad1-4ebc-986f-c0b2d2ad4d93"
   },
   "TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01",
     "guid": -808142514,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant solution for separating spaces in your rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FoldingWall_1x6_Gothic01",
+    "displayNameEn": "'Dignity' Folding Screen",
+    "displayLocalizationGuid": "b425c362-bfb5-4d26-8038-0d45947d7e4d"
   },
   "TM_Castle_ObjectDecor_FoldingWall_Base_1x6": {
     "prefab": "TM_Castle_ObjectDecor_FoldingWall_Base_1x6",
     "guid": 1764832621,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant solution for separating spaces in your rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_FoldingWall_Base_1x6",
+    "displayNameEn": "A raised flat top supported by legs.",
+    "displayLocalizationGuid": "5c3276ac-a754-46c4-a949-930cbdbdfca0"
   },
   "TM_Castle_ObjectDecor_ForgeBarrel01": {
     "prefab": "TM_Castle_ObjectDecor_ForgeBarrel01",
     "guid": -2128976183,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your metalworking.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_ForgeBarrel01",
+    "displayNameEn": "Quenching Barrel",
+    "displayLocalizationGuid": "cf361573-d561-4eca-a206-5be4f4a4b264"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_short": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_short",
     "guid": -794020006,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_1_short",
+    "displayNameEn": "Hedge - 2x2 Low",
+    "displayLocalizationGuid": "7f6070fd-0edb-4017-bc47-904449a4225f"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_tall": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_1_tall",
     "guid": 1316058863,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_1_tall",
+    "displayNameEn": "Hedge - 2x2 Tall",
+    "displayLocalizationGuid": "ac5488f0-81fd-43fc-a102-0be28069ff2d"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge01",
     "guid": -1458465094,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge01",
+    "displayNameEn": "Hedge - 2x10 Blend",
+    "displayLocalizationGuid": "e91019a5-3c5c-4ded-bf8e-13acf8c1d3a4"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02",
     "guid": 1672613686,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_bridge02",
+    "displayNameEn": "Hedge - 2x10 Blend",
+    "displayLocalizationGuid": "e91019a5-3c5c-4ded-bf8e-13acf8c1d3a4"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_short": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_short",
     "guid": -1095847141,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_short",
+    "displayNameEn": "Hedge - 2x10 Low",
+    "displayLocalizationGuid": "0f3f3efc-9875-4f22-a4e1-d08ba3cd47c9"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall",
     "guid": 586685623,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall",
+    "displayNameEn": "Hedge - 2x10 Tall",
+    "displayLocalizationGuid": "dcbf8e63-4bac-454f-b235-95dec8228e58"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_arch01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_arch01",
     "guid": 929687735,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_arch01",
+    "displayNameEn": "Hedge - 2x10 Tall w. Arch",
+    "displayLocalizationGuid": "80fffd8d-611c-4409-a526-26f431552570"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_var01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_var01",
     "guid": 850569597,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_10_tall_var01",
+    "displayNameEn": "Hedge - 2x10 Tall w. Hole",
+    "displayLocalizationGuid": "e6b8fd65-f3a0-4ff9-a099-b3cc756cce48"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01",
     "guid": -2026589971,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_5_bridge01",
+    "displayNameEn": "Hedge - 2x5 Blend",
+    "displayLocalizationGuid": "18baed52-8737-430f-8657-f70baee3b910"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_short": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_short",
     "guid": -1130267123,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_5_short",
+    "displayNameEn": "Hedge - 2x5 Low",
+    "displayLocalizationGuid": "ec571bb8-068e-4a2a-b320-0354463fedb4"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_tall": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_5_tall",
     "guid": -2132728905,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_5_tall",
+    "displayNameEn": "Hedge - 2x5 Tall",
+    "displayLocalizationGuid": "fff7e618-e717-4791-a86b-145cf181e0d8"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01",
     "guid": -258523558,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01",
+    "displayNameEn": "Hedge - 10x10 Tall Curve",
+    "displayLocalizationGuid": "07b67860-d01c-411d-93ee-7f749124ac02"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01_arch01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01_arch01",
     "guid": 527160947,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_Corner01_arch01",
+    "displayNameEn": "Hedge - 10x10 Tall Curve w. Arch",
+    "displayLocalizationGuid": "8497890e-461a-42b1-8d62-720911cc0d28"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01",
     "guid": -1949816617,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse01",
+    "displayNameEn": "Hedge - Equine Sculpture",
+    "displayLocalizationGuid": "01ab5ec9-8708-43da-82a3-d3c762390a85"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02",
     "guid": -761600498,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_sculpture_horse02",
+    "displayNameEn": "Hedge - Equine Sculpture",
+    "displayLocalizationGuid": "01ab5ec9-8708-43da-82a3-d3c762390a85"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01",
     "guid": -2120322883,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_Short_corner01",
+    "displayNameEn": "Hedge - 10x10 Low Curve",
+    "displayLocalizationGuid": "5dd52f2f-df0f-4567-a856-25bd1d4bdb49"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01",
     "guid": -1030052444,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01",
+    "displayNameEn": "Hedge - Low Square Column",
+    "displayLocalizationGuid": "1cd1a8db-7469-42e1-8be1-69e91e0a54a8"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01",
     "guid": -1117823422,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor01",
+    "displayNameEn": "Hedge - Low Square Column w. Sphere",
+    "displayLocalizationGuid": "84ed7999-d7b6-45f8-9ada-768a4b0d3f97"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor02",
     "guid": -604532887,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor02",
+    "displayNameEn": "Hedge - Low Square Column w. Spiral",
+    "displayLocalizationGuid": "515c9222-c2bb-4e48-9c76-702a5d419c15"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor03": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor03",
     "guid": -743622014,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar01_decor03",
+    "displayNameEn": "Hedge - Low Square Column w. Droplet",
+    "displayLocalizationGuid": "59e811e1-5613-45fa-94ce-c15786e99b50"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02",
     "guid": 1034151164,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02",
+    "displayNameEn": "Hedge - Low Square Column",
+    "displayLocalizationGuid": "1cd1a8db-7469-42e1-8be1-69e91e0a54a8"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor01",
     "guid": 1453586031,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor01",
+    "displayNameEn": "Hedge - Low Round Column w. Sphere",
+    "displayLocalizationGuid": "533d57a4-9925-41e9-b501-41d0ea19c7d4"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor02",
     "guid": 2062518804,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor02",
+    "displayNameEn": "Hedge - Low Round Column w. Spiral",
+    "displayLocalizationGuid": "5b4007d4-0732-4251-a57c-3baa6d01428b"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor03": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor03",
     "guid": -316863071,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_short_pillar02_decor03",
+    "displayNameEn": "Hedge - Low Round Column w. Droplet",
+    "displayLocalizationGuid": "2ae0c6fa-c6fc-4004-8bef-57c03c71ba23"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01",
     "guid": 349807177,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01",
+    "displayNameEn": "Hedge - Tall Square Column",
+    "displayLocalizationGuid": "efcc351d-d755-490a-b9db-dd08eb64ff15"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01",
     "guid": 1044207305,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor01",
+    "displayNameEn": "Hedge - Tall Square Column w. Sphere",
+    "displayLocalizationGuid": "437c266e-a292-4ace-9def-f8670594ccc3"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor02",
     "guid": -253897934,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor02",
+    "displayNameEn": "Hedge - Tall Square Column w. Spiral",
+    "displayLocalizationGuid": "57ad814c-9f69-4e3c-b251-d61351713f71"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor03": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor03",
     "guid": -329463697,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar01_decor03",
+    "displayNameEn": "Hedge - Tall Square Column w. Droplet",
+    "displayLocalizationGuid": "b7a11e25-a10d-4371-ab78-a9a9075f05aa"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02",
     "guid": 31164442,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02",
+    "displayNameEn": "Hedge - Tall Round Column",
+    "displayLocalizationGuid": "99564e16-8e59-4303-882f-5ba5c6096de1"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor01": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor01",
     "guid": -391133159,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor01",
+    "displayNameEn": "Hedge - Tall Round Column w. Sphere",
+    "displayLocalizationGuid": "2607a965-e3bf-489e-8581-54330231654a"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor02": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor02",
     "guid": -1295479109,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor02",
+    "displayNameEn": "Hedge - Tall Round Column w. Spiral",
+    "displayLocalizationGuid": "40b309ab-2a54-4874-9182-23b10d345f82"
   },
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03",
@@ -4816,107 +4986,137 @@
   "TM_Castle_ObjectDecor_GardenBench01": {
     "prefab": "TM_Castle_ObjectDecor_GardenBench01",
     "guid": 2119410626,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant seat for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenBench01",
+    "displayNameEn": "'Noble' Garden Bench",
+    "displayLocalizationGuid": "ad995796-f82e-44fd-a6a5-31749f89d865"
   },
   "TM_Castle_ObjectDecor_GardenChair_Base": {
     "prefab": "TM_Castle_ObjectDecor_GardenChair_Base",
     "guid": 830396434,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenChair_Base",
+    "displayNameEn": "'Omen' Chair",
+    "displayLocalizationGuid": "df4ebfb5-6542-4d1f-9475-b7e8fc439ec2"
   },
   "TM_Castle_ObjectDecor_GardenChair01": {
     "prefab": "TM_Castle_ObjectDecor_GardenChair01",
     "guid": -925263583,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenChair01",
+    "displayNameEn": "'Noble' Garden Chair",
+    "displayLocalizationGuid": "115af3ad-a4e8-4a7c-acce-82c00c0190e2"
   },
   "TM_Castle_ObjectDecor_GardenChair02_Dyable": {
     "prefab": "TM_Castle_ObjectDecor_GardenChair02_Dyable",
     "guid": 1020401996,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenChair02_Dyable",
+    "displayNameEn": "'Rural' Garden Chair",
+    "displayLocalizationGuid": "26985568-ed5f-41af-bde6-67a4237aac99"
   },
   "TM_Castle_ObjectDecor_GardenFountain_Bat01": {
     "prefab": "TM_Castle_ObjectDecor_GardenFountain_Bat01",
     "guid": 1247163010,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant water decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenFountain_Bat01",
+    "displayNameEn": "'Nocturne' Iron Fountain",
+    "displayLocalizationGuid": "c6308d43-ba34-4cd4-931d-99074e2368e7"
   },
   "TM_Castle_ObjectDecor_GardenFountain_Bat02": {
     "prefab": "TM_Castle_ObjectDecor_GardenFountain_Bat02",
     "guid": -1790149989,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant water decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenFountain_Bat02",
+    "displayNameEn": "'Nocturne' Bronze Fountain",
+    "displayLocalizationGuid": "e45597a7-7eee-4faa-bba8-5d19565fd9d1"
   },
   "TM_Castle_ObjectDecor_GardenFountain_Large01": {
     "prefab": "TM_Castle_ObjectDecor_GardenFountain_Large01",
     "guid": 177891172,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant water decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenFountain_Large01",
+    "displayNameEn": "'Imperious' Large Fountain",
+    "displayLocalizationGuid": "1bda3335-fcc8-4e01-b4cd-bbab6ffdd8e0"
   },
   "TM_Castle_ObjectDecor_GardenFountain_ProjectK01": {
     "prefab": "TM_Castle_ObjectDecor_GardenFountain_ProjectK01",
     "guid": 1178389093,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant blood decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenFountain_ProjectK01",
+    "displayNameEn": "Ancient Symphony Blood Fountain",
+    "displayLocalizationGuid": "5c17f7e3-c7e3-4eef-aef6-9948263a40d7"
   },
   "TM_Castle_ObjectDecor_GardenFountain_Small01": {
     "prefab": "TM_Castle_ObjectDecor_GardenFountain_Small01",
     "guid": 549920910,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant water decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenFountain_Small01",
+    "displayNameEn": "'Alabaster' Small Fountain",
+    "displayLocalizationGuid": "464685ce-80a8-4acf-86e5-ed8b6fd18558"
   },
   "TM_Castle_ObjectDecor_GardenLampPost01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLampPost01_Orange",
     "guid": -55079755,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLampPost01_Orange",
+    "displayNameEn": "'Noble' Garden Lamp Post",
+    "displayLocalizationGuid": "eb4de034-cca0-439e-9431-404d9973f3d0"
   },
   "TM_Castle_ObjectDecor_GardenLampPost02_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLampPost02_Orange",
     "guid": 1758705562,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLampPost02_Orange",
+    "displayNameEn": "'Paragon' Garden Lamp Post",
+    "displayLocalizationGuid": "5f49a639-818b-4022-9e15-74a62b110632"
   },
   "TM_Castle_ObjectDecor_GardenLampPost03_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLampPost03_Orange",
     "guid": 656054963,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLampPost03_Orange",
+    "displayNameEn": "'Rural' Garden Lamp Post",
+    "displayLocalizationGuid": "7d765554-bf58-415d-9b0e-739ba147d721"
   },
   "TM_Castle_ObjectDecor_GardenLantern01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLantern01_Orange",
     "guid": -1302860768,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLantern01_Orange",
+    "displayNameEn": "'Noble' Garden Lantern",
+    "displayLocalizationGuid": "40d4b5bd-129b-4571-b415-ec9e4fc9e2e1"
   },
   "TM_Castle_ObjectDecor_GardenLantern02_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLantern02_Orange",
     "guid": 1759972580,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLantern02_Orange",
+    "displayNameEn": "'Paragon' Garden Lantern",
+    "displayLocalizationGuid": "2e53075c-7661-45be-9196-0833b82ea67d"
   },
   "TM_Castle_ObjectDecor_GardenLantern03_Orange": {
     "prefab": "TM_Castle_ObjectDecor_GardenLantern03_Orange",
     "guid": -451545916,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GardenLantern03_Orange",
+    "displayNameEn": "'Rural' Garden Lantern",
+    "displayLocalizationGuid": "cac19bbe-5767-4a80-961f-d19f8e3c63a2"
   },
   "TM_Castle_ObjectDecor_Globe02": {
     "prefab": "TM_Castle_ObjectDecor_Globe02",
