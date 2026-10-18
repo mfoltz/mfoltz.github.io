@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readRemaining, remainingTextFields, overlayRemaining, validateRemainingEvidence, type RemainingEvidence } from "./blueprint-text-remaining";
-const importedRemainingCount = 600;
+const importedRemainingCount = 700;
 import { assertBlueprintTextDisplay, assertBuildablePortraitDisplayName, blueprintTextFields,
   overlayBlueprintText, readBlueprintText, type BlueprintTextDisplay, type BlueprintTextCapture } from "./blueprint-text";
 import { expansionTextFields, overlayExpansion, readExpansion, validateExpansionEvidence,
@@ -37,7 +37,7 @@ export function approvedBlueprintTextCoverage(map: Record<string, BlueprintTextD
   assert.equal(Object.keys(map).length, 1198, "Blueprint census divergence");
   const matched = Object.values(map).filter(row => !["catalog-seed", "generated-fallback", "alias-match"].includes(row.sourceKind ?? "")
     && Boolean(row.displayNameEn || row.displayLocalizationGuid || row.summaryEn || row.iconAssetName || row.iconAssetPath)).length;
-  assert.equal(matched, 744, "Expected 744 approved display rows");
+  assert.equal(matched, 844, "Expected 844 approved display rows");
   return { total: 1198, matched, coveragePct: Number((matched / 1198).toFixed(4)), signal: "high-signal", lowSignalExcluded: 1198 - matched };
 }
 /** Keep artwork evidence and workstation checks independent of owned Blueprint copy. */
