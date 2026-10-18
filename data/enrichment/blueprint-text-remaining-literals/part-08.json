@@ -1,0 +1,724 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_Wall_DoorPlug_Tier02_PrisonStyle02_Standard", "guid": -335563583, "path": "/db/blueprints/tm-castle-wall-door-plug-tier02-prison-style02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_DoorPlug_Tier02_PrisonStyle02_Standard.md", "sourceSha256": "e11d6e4deacf992e8d65b5d1f2ce643637dc05bab399a83351dc1674d219959e", "captureId": "blueprints-09",
+      "nameKey": "ded29b3c-5fea-47e2-9672-750b61cb45b0", "nameRaw": "'Barrier' Entrance Block",
+      "descriptionKey": "28aa8491-509f-4e5f-ba6d-a31b7d8e55df", "descriptionRaw": "A non-opening element for doorways. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A non-opening element for doorways. Requires a Castle Entrance to be placed.","toString":"A non-opening element for doorways. Requires a Castle Entrance to be placed.","resultKey":"28aa8491-509f-4e5f-ba6d-a31b7d8e55df","nameLookup":"'Barrier' Entrance Block","templateLookup":"A non-opening element for doorways. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Metal_Wide_Tier02_Standard", "guid": -1378161357, "path": "/db/blueprints/tm-castle-wall-door-metal-wide-tier02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Metal_Wide_Tier02_Standard.md", "sourceSha256": "e6e5b12af5f749b2548e151eb10a57351f8dfd99888848b5c2c09a5ca3c69afb", "captureId": "blueprints-09",
+      "nameKey": "ca2f1a00-aa71-407c-af21-cbd2842c8197", "nameRaw": "Castle Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Castle Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Palisade_Tier01", "guid": -1259825508, "path": "/db/blueprints/tm-castle-wall-door-palisade-tier01",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Palisade_Tier01.md", "sourceSha256": "438fe47d9d91149e5c75a4c9c947a6aa32beb76de65a59125be7678f93070890", "captureId": "blueprints-09",
+      "nameKey": "a0d88441-5e37-42cc-93b8-10317c9ff0c4", "nameRaw": "Palisade Gate",
+      "descriptionKey": "9fe325af-e155-4465-8ac8-75579941456c", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires an archway to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires an archway to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires an archway to be placed.","resultKey":"9fe325af-e155-4465-8ac8-75579941456c","nameLookup":"Palisade Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires an archway to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle01_Standard", "guid": -1615530056, "path": "/db/blueprints/tm-castle-wall-door-tier02-prison-style01-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Tier02_PrisonStyle01_Standard.md", "sourceSha256": "54d2916b81c3190d664468ea129d99659eecafd99ddc6777403906b6e98167cb", "captureId": "blueprints-10",
+      "nameKey": "48836dd6-b549-462d-85ec-77e024cd9676", "nameRaw": "Prison Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Prison Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Tier02_PrisonStyle02_Standard", "guid": -29749970, "path": "/db/blueprints/tm-castle-wall-door-tier02-prison-style02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Tier02_PrisonStyle02_Standard.md", "sourceSha256": "e8d47ffdd75859fa757c8f8400db511f15c3bb3a053b4afa6820b3b1258a829c", "captureId": "blueprints-10",
+      "nameKey": "6acfb67d-a852-495f-9c11-b9704a4e2461", "nameRaw": "'Barrier' Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"'Barrier' Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_Standard", "guid": 1690783957, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-dlc01-variant-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_DLC01Variant_Standard.md", "sourceSha256": "e4cdb9d490886574c4951e718ec4c3c193e458f64e1d2be5894d5c7d73813127", "captureId": "blueprints-10",
+      "nameKey": "34689cc2-7989-4b56-a20d-5bbac1311d2e", "nameRaw": "Royal Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Royal Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_Standard", "guid": -1872077746, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-dlc02-variant-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_DLC02Variant_Standard.md", "sourceSha256": "13131ad7726cb2cb3dffd7c8c40ca7bcc30dc79673579e680596399e1ccd84a5", "captureId": "blueprints-10",
+      "nameKey": "948de5b2-a881-429a-9f1b-aef86230e613", "nameRaw": "Plague Sanctum Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Plague Sanctum Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_Standard", "guid": -1725918454, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-project-k01-variant-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_ProjectK01Variant_Standard.md", "sourceSha256": "b265bf8f46a776070b35590fa1cec9e2e5e41c7b39f169c8b677cf0c18e480b5", "captureId": "blueprints-10",
+      "nameKey": "ba838381-c3f0-47e4-853d-4be8719c2611", "nameRaw": "Ancient Symphony Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Ancient Symphony Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_Standard", "guid": 1362023808, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-project-k02-variant-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_ProjectK02Variant_Standard.md", "sourceSha256": "16bf0da5b55f26b2975be8a1f23117d3f51a4b755ed3b441b5700fa0ab1974c9", "captureId": "blueprints-10",
+      "nameKey": "ba838381-c3f0-47e4-853d-4be8719c2611", "nameRaw": "Ancient Symphony Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Ancient Symphony Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard", "guid": -1462717684, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_Standard.md", "sourceSha256": "5b5e2b575fa15840398961496be7abf1e29b02fbdd41313fd248969b97e890f3", "captureId": "blueprints-10",
+      "nameKey": "ca2f1a00-aa71-407c-af21-cbd2842c8197", "nameRaw": "Castle Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Castle Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard01_Standard", "guid": -1720487003, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-standard01-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_Standard01_Standard.md", "sourceSha256": "0547c54a783a1841f558a027d5d7a7b18ea76ee605a1576e493a1d8ab9c1d4bb", "captureId": "blueprints-10",
+      "nameKey": "921335b5-bb4e-4113-bd93-3902132a2558", "nameRaw": "'Battlement' Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"'Battlement' Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard02_Standard", "guid": 163814050, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-standard02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_Standard02_Standard.md", "sourceSha256": "61be2005ce85d96ff73871f36ad8863a8c4f559875bc11695622ef573e994357", "captureId": "blueprints-10",
+      "nameKey": "380c22bd-3f18-47d4-bb4f-df6158ebbd96", "nameRaw": "'Cordial' Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"'Cordial' Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_Standard03_Standard", "guid": -183045232, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-standard03-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_Standard03_Standard.md", "sourceSha256": "79d6c1b872425a4d0e48d70d0fd78229fe2881dcc42dc6218d6cfa8530f035be", "captureId": "blueprints-10",
+      "nameKey": "22865d34-a6ed-4982-ac71-c50c3cd694c5", "nameRaw": "'Verdant' Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"'Verdant' Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_Standard", "guid": -1441209695, "path": "/db/blueprints/tm-castle-wall-door-wood-tier02-strongblade-dlc01-variant-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Tier02_StrongbladeDLC01Variant_Standard.md", "sourceSha256": "ed321d32a9b7ffd74de8c266ce26e20793ed63420de87387b7f1f55a6c15b1a3", "captureId": "blueprints-10",
+      "nameKey": "2ac1e4c2-1dfe-486a-b50c-c5bfbd19012a", "nameRaw": "Nocturnal Opulence Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Nocturnal Opulence Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Door_Wood_Wide_Tier02_Standard", "guid": 1407457927, "path": "/db/blueprints/tm-castle-wall-door-wood-wide-tier02-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Door_Wood_Wide_Tier02_Standard.md", "sourceSha256": "16fa88ddd49369503a90269c33ad6a0de393a2f0cd6b7c3bcd3eb09cb5e956fa", "captureId": "blueprints-10",
+      "nameKey": "ca2f1a00-aa71-407c-af21-cbd2842c8197", "nameRaw": "Castle Gate",
+      "descriptionKey": "2edb9d2e-f16f-491d-b88e-cd46dab319a4", "descriptionRaw": "Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","toString":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed.","resultKey":"2edb9d2e-f16f-491d-b88e-cd46dab319a4","nameLookup":"Castle Gate","templateLookup":"Doors are used to keep unwanted enemies out. Requires a Castle Entrance to be placed."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Entrance_Center_Stone01", "guid": 1451022870, "path": "/db/blueprints/tm-castle-wall-entrance-center-stone01",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Entrance_Center_Stone01.md", "sourceSha256": "7d63c1b54b1895672810877eb9aa1572cf8984abab34d5a8a65385628d42d1b5", "captureId": "blueprints-10",
+      "nameKey": "242c6e3c-d2a8-4bd8-b5a8-172260723d88", "nameRaw": "Castle Entrance",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Entrance","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Invisible", "guid": 1987149974, "path": "/db/blueprints/tm-castle-wall-invisible",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Invisible.md", "sourceSha256": "3c8af0826ee8b03cd01059564bccb9c1254582371abfdce786c75aaf9ee49672", "captureId": "blueprints-10",
+      "nameKey": "5e6818f1-47f1-47b4-8e39-15282edd5418", "nameRaw": "Castle Wall",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Wall","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Pillar_Invisible", "guid": -871263573, "path": "/db/blueprints/tm-castle-wall-pillar-invisible",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Pillar_Invisible.md", "sourceSha256": "ff15be436d2e103cf8d8c9260876d055d46fa5f9608265e8f75d97e0773c59cc", "captureId": "blueprints-10",
+      "nameKey": "f0c5a8f2-601a-4200-bfec-79559e1215fa", "nameRaw": "Castle Pillar",
+      "descriptionKey": "784aecbb-9ab1-4253-9400-ad1ea04b8a1f", "descriptionRaw": "Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","toString":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","resultKey":"784aecbb-9ab1-4253-9400-ad1ea04b8a1f","nameLookup":"Castle Pillar","templateLookup":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier01_Wood", "guid": 792289367, "path": "/db/blueprints/tm-castle-wall-tier01-wood",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier01_Wood.md", "sourceSha256": "0649bb35cc5774ea4e4f71c1d22170a6921f326cd6ff8a2e2934492c0a0bde82", "captureId": "blueprints-10",
+      "nameKey": "2cc9511b-ad4a-4b7d-a354-6b7947a4f702", "nameRaw": "Palisade",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Palisade","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Entrance", "guid": -1293632412, "path": "/db/blueprints/tm-castle-wall-tier01-wood-entrance",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier01_Wood_Entrance.md", "sourceSha256": "82905c90de722ecfef418e9210128dc7ab5e0575c8ceb630ef4a195f48380c30", "captureId": "blueprints-10",
+      "nameKey": "242c6e3c-d2a8-4bd8-b5a8-172260723d88", "nameRaw": "Castle Entrance",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Entrance","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier01_Wood_Pillar", "guid": 1639432090, "path": "/db/blueprints/tm-castle-wall-tier01-wood-pillar",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier01_Wood_Pillar.md", "sourceSha256": "abf8215af68e5f2e605c69ee1e0e1cdc900e43fd5ec9acf4422ecb58c4256d5e", "captureId": "blueprints-10",
+      "nameKey": "ba43acec-1cec-4964-8012-38bc4c3e9620", "nameRaw": "Palisade Pillar",
+      "descriptionKey": "784aecbb-9ab1-4253-9400-ad1ea04b8a1f", "descriptionRaw": "Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","toString":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","resultKey":"784aecbb-9ab1-4253-9400-ad1ea04b8a1f","nameLookup":"Palisade Pillar","templateLookup":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone", "guid": 1909288154, "path": "/db/blueprints/tm-castle-wall-tier02-stone",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone.md", "sourceSha256": "3c12865e18ad229b49d6b6ce1d84da7b1b946ee88f3cbfa7f3f3b1d024c22e60", "captureId": "blueprints-10",
+      "nameKey": "5e6818f1-47f1-47b4-8e39-15282edd5418", "nameRaw": "Castle Wall",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Wall","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Entrance", "guid": 728150320, "path": "/db/blueprints/tm-castle-wall-tier02-stone-entrance",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_Entrance.md", "sourceSha256": "4810be9551cbc0822f68283f3f089210e3a6bf3fca501bfb12820e3e3bfaaaeb", "captureId": "blueprints-10",
+      "nameKey": "242c6e3c-d2a8-4bd8-b5a8-172260723d88", "nameRaw": "Castle Entrance",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Entrance","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_EntranceWide", "guid": 996421136, "path": "/db/blueprints/tm-castle-wall-tier02-stone-entrance-wide",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_EntranceWide.md", "sourceSha256": "3e6e4ad49142c0c61eb6ff617363623075075d98c2bb8f0bea79bd278a8ae73c", "captureId": "blueprints-10",
+      "nameKey": "7892a353-4cc6-4284-ae6b-2245a6b8d30f", "nameRaw": "Fortified Archway",
+      "descriptionKey": "8cef3cdb-6bcb-4032-ba8c-b2f8aa351599", "descriptionRaw": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.","toString":"Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.","resultKey":"8cef3cdb-6bcb-4032-ba8c-b2f8aa351599","nameLookup":"Fortified Archway","templateLookup":"Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_EntranceWide_Left", "guid": 1960255814, "path": "/db/blueprints/tm-castle-wall-tier02-stone-entrance-wide-left",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_EntranceWide_Left.md", "sourceSha256": "609e9aaa1ce7387696752226d3e591187de6307f92e38f0fcffaccea9ec42f08", "captureId": "blueprints-10",
+      "nameKey": "5e6818f1-47f1-47b4-8e39-15282edd5418", "nameRaw": "Castle Wall",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Wall","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_EntranceWide_Right", "guid": -2018964383, "path": "/db/blueprints/tm-castle-wall-tier02-stone-entrance-wide-right",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_EntranceWide_Right.md", "sourceSha256": "96d8d1a186d7f3445d3ef2379e7a975942355c1f8504c09136cbcfcb77205f38", "captureId": "blueprints-10",
+      "nameKey": "5e6818f1-47f1-47b4-8e39-15282edd5418", "nameRaw": "Castle Wall",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Wall","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Pillar", "guid": 1506730526, "path": "/db/blueprints/tm-castle-wall-tier02-stone-pillar",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_Pillar.md", "sourceSha256": "585acc47fb7c63d8d74eef703d51d49c2dc7cb8060f45b4b1ed1d12b9311865b", "captureId": "blueprints-10",
+      "nameKey": "f0c5a8f2-601a-4200-bfec-79559e1215fa", "nameRaw": "Castle Pillar",
+      "descriptionKey": "784aecbb-9ab1-4253-9400-ad1ea04b8a1f", "descriptionRaw": "Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","toString":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars.","resultKey":"784aecbb-9ab1-4253-9400-ad1ea04b8a1f","nameLookup":"Castle Pillar","templateLookup":"Pillars are required for connecting walls but can also be placed individually. Light sources such as torches can be attached to pillars."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_Tier02_Stone_Window", "guid": -764944520, "path": "/db/blueprints/tm-castle-wall-tier02-stone-window",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_Tier02_Stone_Window.md", "sourceSha256": "801767b631032cfeae812a82a057c83d7217a56d638c4514399f75140799d4ff", "captureId": "blueprints-10",
+      "nameKey": "5e6818f1-47f1-47b4-8e39-15282edd5418", "nameRaw": "Castle Wall",
+      "descriptionKey": "4735ebd4-7314-405e-9617-a3456eaf7ac4", "descriptionRaw": "Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","toString":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings.","resultKey":"4735ebd4-7314-405e-9617-a3456eaf7ac4","nameLookup":"Castle Wall","templateLookup":"Build walls on foundations to enclose rooms. Encapsulated rooms will generate ceilings."}
+    },
+    {
+      "prefab": "TM_Castle_Window_Hatches_Gothic01", "guid": -1771014048, "path": "/db/blueprints/tm-castle-window-hatches-gothic01",
+      "sourcePath": "content/prefabs/TM_Castle_Window_Hatches_Gothic01.md", "sourceSha256": "3a973938d83f6006ca3d18e545d3f8b7685152179e4915fba32bbe880831cf5e", "captureId": "blueprints-01",
+      "nameKey": "65c02934-9f75-45c2-af23-148bf07833e1", "nameRaw": "Wooden Window Hatches",
+      "descriptionKey": "96aaff54-951f-4a43-9117-4966a3400bcc", "descriptionRaw": "A pair of window hatches that can be opened, closed and then opened again!",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A pair of window hatches that can be opened, closed and then opened again!","toString":"A pair of window hatches that can be opened, closed and then opened again!","resultKey":"96aaff54-951f-4a43-9117-4966a3400bcc","nameLookup":"Wooden Window Hatches","templateLookup":"A pair of window hatches that can be opened, closed and then opened again!"}
+    },
+    {
+      "prefab": "TM_CraftingStation_AlchemyLab_Small", "guid": 181938440, "path": "/db/blueprints/tm-crafting-station-alchemy-lab-small",
+      "sourcePath": "content/prefabs/TM_CraftingStation_AlchemyLab_Small.md", "sourceSha256": "3ff259876dae0a9282ded468186ead4035eb8e8aec311edb7999828fcd7c33cc", "captureId": "blueprints-01",
+      "nameKey": "d881d6cb-dd44-44b3-a75b-eb438b20f50a", "nameRaw": "Alchemy Table",
+      "descriptionKey": "ed6dfb2f-19c3-4286-bffc-407e2eb93700", "descriptionRaw": "A workstation used for potion making.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for potion making.","toString":"A workstation used for potion making.","resultKey":"ed6dfb2f-19c3-4286-bffc-407e2eb93700","nameLookup":"Alchemy Table","templateLookup":"A workstation used for potion making."}
+    },
+    {
+      "prefab": "TM_CraftingStation_Altar_Frost", "guid": -609878016, "path": "/db/blueprints/tm-crafting-station-altar-frost",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Altar_Frost.md", "sourceSha256": "fbf6ba243adb34a70158b9f78282546572f7851c7f3fe96c7bae5ebfc6405f54", "captureId": "blueprints-01",
+      "nameKey": "0a69be72-68ee-448d-8aef-e5353fabba2a", "nameRaw": "Frost Altar",
+      "descriptionKey": "8b3cc6ad-4a77-4b2c-b0b4-b0668413fd0e", "descriptionRaw": "An altar for dark rituals where one can unlock powerful spells.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An altar for dark rituals where one can unlock powerful spells.","toString":"An altar for dark rituals where one can unlock powerful spells.","resultKey":"8b3cc6ad-4a77-4b2c-b0b4-b0668413fd0e","nameLookup":"Frost Altar","templateLookup":"An altar for dark rituals where one can unlock powerful spells."}
+    },
+    {
+      "prefab": "TM_CraftingStation_Altar_Spectral", "guid": -64110296, "path": "/db/blueprints/tm-crafting-station-altar-spectral",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Altar_Spectral.md", "sourceSha256": "b876b89e31821429830e9dfad5a041c916727713fae19a826e113e97b3aae35b", "captureId": "blueprints-10",
+      "nameKey": "9d42edac-3387-489b-af6c-e64923391fab", "nameRaw": "Spectral Altar",
+      "descriptionKey": "7204fecc-1ad6-4ece-96c9-1ca0731edafa", "descriptionRaw": "An altar for dark rituals where one can unlock powerful spells.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An altar for dark rituals where one can unlock powerful spells.","toString":"An altar for dark rituals where one can unlock powerful spells.","resultKey":"7204fecc-1ad6-4ece-96c9-1ca0731edafa","nameLookup":"Spectral Altar","templateLookup":"An altar for dark rituals where one can unlock powerful spells."}
+    },
+    {
+      "prefab": "TM_CraftingStation_Altar_Unholy", "guid": -676962218, "path": "/db/blueprints/tm-crafting-station-altar-unholy",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Altar_Unholy.md", "sourceSha256": "bd9cc76e3dbc7519e94d14ed1cf8aaf4360a08ed005a264d012c3ace762791b9", "captureId": "blueprints-10",
+      "nameKey": "0e40a092-2405-481b-982a-5a296858968e", "nameRaw": "Unholy Altar",
+      "descriptionKey": "7204fecc-1ad6-4ece-96c9-1ca0731edafa", "descriptionRaw": "An altar for dark rituals where one can unlock powerful spells.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An altar for dark rituals where one can unlock powerful spells.","toString":"An altar for dark rituals where one can unlock powerful spells.","resultKey":"7204fecc-1ad6-4ece-96c9-1ca0731edafa","nameLookup":"Unholy Altar","templateLookup":"An altar for dark rituals where one can unlock powerful spells."}
+    },
+    {
+      "prefab": "TM_CraftingStation_AncestralForge", "guid": 48521126, "path": "/db/blueprints/tm-crafting-station-ancestral-forge",
+      "sourcePath": "content/prefabs/TM_CraftingStation_AncestralForge.md", "sourceSha256": "8191ec583de625fa3756ab32c98502e0fc5ec8618fef9e6a7e05656f317d2d9c", "captureId": "blueprints-10",
+      "nameKey": "b3a5426c-2969-496d-a2ef-ed78d7eadb83", "nameRaw": "Ancestral Forge",
+      "descriptionKey": "1486f7c0-cf11-46f4-89b6-8bb73ccacf0f", "descriptionRaw": "A workstation used for restoring ancient shattered weapons. ",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for restoring ancient shattered weapons. ","toString":"A workstation used for restoring ancient shattered weapons. ","resultKey":"1486f7c0-cf11-46f4-89b6-8bb73ccacf0f","nameLookup":"Ancestral Forge","templateLookup":"A workstation used for restoring ancient shattered weapons. "}
+    },
+    {
+      "prefab": "TM_CraftingStation_Anvil", "guid": -437790980, "path": "/db/blueprints/tm-crafting-station-anvil",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Anvil.md", "sourceSha256": "da4ef0805c9ee9c93b1ffd509e6d2cb5f493da8f39d3d38c7547887035fbaebb", "captureId": "blueprints-01",
+      "nameKey": "35732835-3ae0-4f7e-8adb-1a7ba1e1b3d3", "nameRaw": "Anvil",
+      "descriptionKey": "63a3e364-126b-44d7-ac55-5fd4f0c4b27a", "descriptionRaw": "A workstation used for crafting of weapons.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for crafting of weapons.","toString":"A workstation used for crafting of weapons.","resultKey":"63a3e364-126b-44d7-ac55-5fd4f0c4b27a","nameLookup":"Anvil","templateLookup":"A workstation used for crafting of weapons."}
+    },
+    {
+      "prefab": "TM_CraftingStation_ArtisanTable", "guid": -1718710437, "path": "/db/blueprints/tm-crafting-station-artisan-table",
+      "sourcePath": "content/prefabs/TM_CraftingStation_ArtisanTable.md", "sourceSha256": "21ad76503cdbf5a8cc278f8adc5dc2b9cb6bae38e07a87643bbce70fb146b7c2", "captureId": "blueprints-10",
+      "nameKey": "8a8bdb9a-1f67-4062-8fcd-99d80e9b217f", "nameRaw": "Artisan Table",
+      "descriptionKey": "66382f79-31ac-4590-be7b-f5b8dd5f8514", "descriptionRaw": "A workstation used for crafting of magical objects.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for crafting of magical objects.","toString":"A workstation used for crafting of magical objects.","resultKey":"66382f79-31ac-4590-be7b-f5b8dd5f8514","nameLookup":"Artisan Table","templateLookup":"A workstation used for crafting of magical objects."}
+    },
+    {
+      "prefab": "TM_CraftingStation_ArtisansCorner", "guid": 1121480632, "path": "/db/blueprints/tm-crafting-station-artisans-corner",
+      "sourcePath": "content/prefabs/TM_CraftingStation_ArtisansCorner.md", "sourceSha256": "9fb7d4e631b3ee96ce9ab89e3e77d80215cdd8932bf61f1d14aa890b1e5dbbfc", "captureId": "blueprints-10",
+      "nameKey": "ba78a518-b999-480f-bdcc-5542cc5491bc", "nameRaw": "Artisans Corner",
+      "descriptionKey": "1cbe1041-4a50-4a03-83bf-e8979600bf31", "descriptionRaw": "A workstation for pottery, paintings and other decorations.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation for pottery, paintings and other decorations.","toString":"A workstation for pottery, paintings and other decorations.","resultKey":"1cbe1041-4a50-4a03-83bf-e8979600bf31","nameLookup":"Artisans Corner","templateLookup":"A workstation for pottery, paintings and other decorations."}
+    },
+    {
+      "prefab": "TM_CraftingStation_BloodBank", "guid": -452732692, "path": "/db/blueprints/tm-crafting-station-blood-bank",
+      "sourcePath": "content/prefabs/TM_CraftingStation_BloodBank.md", "sourceSha256": "a5a45ce10a3a9955ce4e4561fd5ec1aadf1ec04fb7dac295b72ce43bf9aa55c9", "captureId": "blueprints-10",
+      "nameKey": "db058eb8-bed8-4254-8761-98b90a65b614", "nameRaw": "Blood Bank",
+      "descriptionKey": "f9659cc7-ffcc-4658-b06d-f2290ee1e803", "descriptionRaw": "A container for Blood. Connect a pipeline from one or more blood extractors to fill and mix different blood sources.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A container for Blood. Connect a pipeline from one or more blood extractors to fill and mix different blood sources.","toString":"A container for Blood. Connect a pipeline from one or more blood extractors to fill and mix different blood sources.","resultKey":"f9659cc7-ffcc-4658-b06d-f2290ee1e803","nameLookup":"Blood Bank","templateLookup":"A container for Blood. Connect a pipeline from one or more blood extractors to fill and mix different blood sources."}
+    },
+    {
+      "prefab": "TM_CraftingStation_BloodMixer", "guid": -969931747, "path": "/db/blueprints/tm-crafting-station-blood-mixer",
+      "sourcePath": "content/prefabs/TM_CraftingStation_BloodMixer.md", "sourceSha256": "3f435753f53a4f6f4ea81d82d35c4ceb8ae42fdad158ba3d3be555637aeb5bd0", "captureId": "blueprints-10",
+      "nameKey": "8b2257a3-f137-4e28-a036-4988a703d2fe", "nameRaw": "Blood Homogenizer",
+      "descriptionKey": "06d26ee0-729b-40fd-854c-6494e2cf1fc5", "descriptionRaw": "A workstation used for mixing blood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for mixing blood.","toString":"A workstation used for mixing blood.","resultKey":"06d26ee0-729b-40fd-854c-6494e2cf1fc5","nameLookup":"Blood Homogenizer","templateLookup":"A workstation used for mixing blood."}
+    },
+    {
+      "prefab": "TM_CraftingStation_FusionForge", "guid": -1286344051, "path": "/db/blueprints/tm-crafting-station-fusion-forge",
+      "sourcePath": "content/prefabs/TM_CraftingStation_FusionForge.md", "sourceSha256": "5124591c9cc7fa519d78043d41a291a4c57355e407b25004aa246d8d2c17d709", "captureId": "blueprints-10",
+      "nameKey": "f2d9189f-ccef-4b33-9aee-df8c6e71b9eb", "nameRaw": "Fusion Forge",
+      "descriptionKey": "99d39fc6-7dda-4c2f-9e88-26ae3b1f98ca", "descriptionRaw": "A workstation used for fusing weapons or jewels.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for fusing weapons or jewels.","toString":"A workstation used for fusing weapons or jewels.","resultKey":"99d39fc6-7dda-4c2f-9e88-26ae3b1f98ca","nameLookup":"Fusion Forge","templateLookup":"A workstation used for fusing weapons or jewels."}
+    },
+    {
+      "prefab": "TM_CraftingStation_JewelcraftingTable", "guid": 508953830, "path": "/db/blueprints/tm-crafting-station-jewelcrafting-table",
+      "sourcePath": "content/prefabs/TM_CraftingStation_JewelcraftingTable.md", "sourceSha256": "83a3c30403eface4ad86fdfb85ec60b167a7654e014aa43160ec54f31b48d8e6", "captureId": "blueprints-10",
+      "nameKey": "eef422ec-7d9f-4086-a1df-66033cc6dc3b", "nameRaw": "Jewelcrafting Table",
+      "descriptionKey": "3e15e3ca-df1d-4a19-a19d-e3a9df260c17", "descriptionRaw": "A workstation used for crafting of jewels.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for crafting of jewels.","toString":"A workstation used for crafting of jewels.","resultKey":"3e15e3ca-df1d-4a19-a19d-e3a9df260c17","nameLookup":"Jewelcrafting Table","templateLookup":"A workstation used for crafting of jewels."}
+    },
+    {
+      "prefab": "TM_CraftingStation_Leatherworking", "guid": 1779320855, "path": "/db/blueprints/tm-crafting-station-leatherworking",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Leatherworking.md", "sourceSha256": "9be0635c22a995dad9d0fa3985c760acef77a998310afbf97781ca0f45fd2eea", "captureId": "blueprints-10",
+      "nameKey": "0a6e7bcb-67ea-41f3-b139-b01c91fb12fd", "nameRaw": "Leatherworking Station",
+      "descriptionKey": "df896ffb-e1aa-47b9-93ae-f7cef28114f2", "descriptionRaw": "A workstation used for shaping leather into bags and various items.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for shaping leather into bags and various items.","toString":"A workstation used for shaping leather into bags and various items.","resultKey":"df896ffb-e1aa-47b9-93ae-f7cef28114f2","nameLookup":"Leatherworking Station","templateLookup":"A workstation used for shaping leather into bags and various items."}
+    },
+    {
+      "prefab": "TM_CraftingStation_MetalworkStation", "guid": 2014944075, "path": "/db/blueprints/tm-crafting-station-metalwork-station",
+      "sourcePath": "content/prefabs/TM_CraftingStation_MetalworkStation.md", "sourceSha256": "4e654ccc54b5194a25ad997e3b046e5ede87a9064dfab46e57d652b87e28c501", "captureId": "blueprints-10",
+      "nameKey": "3298e556-0c56-4b0e-a39e-26b9fcd974b0", "nameRaw": "Metalwork Station",
+      "descriptionKey": "25ccc69e-4884-42d1-90dc-86a8882b567b", "descriptionRaw": "A workstation used for creating decorative metal objects.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for creating decorative metal objects.","toString":"A workstation used for creating decorative metal objects.","resultKey":"25ccc69e-4884-42d1-90dc-86a8882b567b","nameLookup":"Metalwork Station","templateLookup":"A workstation used for creating decorative metal objects."}
+    },
+    {
+      "prefab": "TM_CraftingStation_SimpleCraftingBench", "guid": -1107784271, "path": "/db/blueprints/tm-crafting-station-simple-crafting-bench",
+      "sourcePath": "content/prefabs/TM_CraftingStation_SimpleCraftingBench.md", "sourceSha256": "13cab22d3428a13e1f6c7032a05462eab446d99565e0232424c4aee6c7d71d3d", "captureId": "blueprints-10",
+      "nameKey": "fd7d1d66-58b2-460f-ae82-22f968d6f470", "nameRaw": "Simple Workbench",
+      "descriptionKey": "7c1bc893-5dec-4baa-aa2f-b096ea95745b", "descriptionRaw": "A simple workbench for improving weapons and armour.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A simple workbench for improving weapons and armour.","toString":"A simple workbench for improving weapons and armour.","resultKey":"7c1bc893-5dec-4baa-aa2f-b096ea95745b","nameLookup":"Simple Workbench","templateLookup":"A simple workbench for improving weapons and armour."}
+    },
+    {
+      "prefab": "TM_CraftingStation_Smithy", "guid": -1840926436, "path": "/db/blueprints/tm-crafting-station-smithy",
+      "sourcePath": "content/prefabs/TM_CraftingStation_Smithy.md", "sourceSha256": "49f842af384bc28e5402a6be1a85e87fbb2a5e135f1f7dd6140f97a09d7f1046", "captureId": "blueprints-10",
+      "nameKey": "51ae4d65-4a02-42cd-9bb7-2af131a41740", "nameRaw": "Smithy",
+      "descriptionKey": "85660508-81e1-4bed-9388-7174fc43a912", "descriptionRaw": "A workstation used for crafting iron weapons.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for crafting iron weapons.","toString":"A workstation used for crafting iron weapons.","resultKey":"85660508-81e1-4bed-9388-7174fc43a912","nameLookup":"Smithy","templateLookup":"A workstation used for crafting iron weapons."}
+    },
+    {
+      "prefab": "TM_CraftingStation_TailorBench", "guid": -952755594, "path": "/db/blueprints/tm-crafting-station-tailor-bench",
+      "sourcePath": "content/prefabs/TM_CraftingStation_TailorBench.md", "sourceSha256": "54196a969b944d93d72746d4184b61906529c68073e02ca85d04c1b335a1b4d1", "captureId": "blueprints-10",
+      "nameKey": "1320cca5-cb66-495b-987f-c187b2af3078", "nameRaw": "Tailoring Bench",
+      "descriptionKey": "d9a46f8c-101c-4dfd-98ec-8d8be3d7c0d7", "descriptionRaw": "A workstation used for crafting cloth armour.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for crafting cloth armour.","toString":"A workstation used for crafting cloth armour.","resultKey":"d9a46f8c-101c-4dfd-98ec-8d8be3d7c0d7","nameLookup":"Tailoring Bench","templateLookup":"A workstation used for crafting cloth armour."}
+    },
+    {
+      "prefab": "TM_CraftingStation_WoodworkingBench", "guid": -332123372, "path": "/db/blueprints/tm-crafting-station-woodworking-bench",
+      "sourcePath": "content/prefabs/TM_CraftingStation_WoodworkingBench.md", "sourceSha256": "4d926ce7b05cfc82393a291e6fbe6580ff85f59e8ba1ecfa1a4c23bd6810ce9d", "captureId": "blueprints-10",
+      "nameKey": "22738d88-d6a3-4692-9ab9-799da92185a1", "nameRaw": "Woodworking Bench",
+      "descriptionKey": "daff14dd-41a5-4821-9013-368a7fd2b3cc", "descriptionRaw": "A workstation used for shaping wood.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for shaping wood.","toString":"A workstation used for shaping wood.","resultKey":"daff14dd-41a5-4821-9013-368a7fd2b3cc","nameLookup":"Woodworking Bench","templateLookup":"A workstation used for shaping wood."}
+    },
+    {
+      "prefab": "TM_Customization_Mirror_Cabal_01", "guid": 1711288798, "path": "/db/blueprints/tm-customization-mirror-cabal-01",
+      "sourcePath": "content/prefabs/TM_Customization_Mirror_Cabal_01.md", "sourceSha256": "cfabb874472870c2c5b29fef48dc5b9133df254dc681aaa6a7096840ed3b6dc9", "captureId": "blueprints-01",
+      "nameKey": "cadf2971-4959-41db-b81e-6446b16d2590", "nameRaw": "'Distinguished' Standing Mirror",
+      "descriptionKey": "5f46ca94-cdcb-450f-93f1-72912254a1da", "descriptionRaw": "This magic mirror allows you to customize your Vampire.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"This magic mirror allows you to customize your Vampire.","toString":"This magic mirror allows you to customize your Vampire.","resultKey":"5f46ca94-cdcb-450f-93f1-72912254a1da","nameLookup":"'Distinguished' Standing Mirror","templateLookup":"This magic mirror allows you to customize your Vampire."}
+    },
+    {
+      "prefab": "TM_Customization_Mirror_Gothic_01", "guid": -1400505344, "path": "/db/blueprints/tm-customization-mirror-gothic-01",
+      "sourcePath": "content/prefabs/TM_Customization_Mirror_Gothic_01.md", "sourceSha256": "d543a42b9775486305a100d5061b3402b7981c024304e25550e83801d783b589", "captureId": "blueprints-10",
+      "nameKey": "f12a7b26-715f-4752-a3cb-4fbacd0431d7", "nameRaw": "'Omen' Standing Mirror",
+      "descriptionKey": "5f46ca94-cdcb-450f-93f1-72912254a1da", "descriptionRaw": "This magic mirror allows you to customize your Vampire.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"This magic mirror allows you to customize your Vampire.","toString":"This magic mirror allows you to customize your Vampire.","resultKey":"5f46ca94-cdcb-450f-93f1-72912254a1da","nameLookup":"'Omen' Standing Mirror","templateLookup":"This magic mirror allows you to customize your Vampire."}
+    },
+    {
+      "prefab": "TM_Customization_Mirror_Halloween_01", "guid": -1633556205, "path": "/db/blueprints/tm-customization-mirror-halloween-01",
+      "sourcePath": "content/prefabs/TM_Customization_Mirror_Halloween_01.md", "sourceSha256": "86c88de0ce2cf6f4efd58e3b5a3770b14431fe3e7d87ec4db2fc34a8b742ec7a", "captureId": "blueprints-10",
+      "nameKey": "1a067725-5bff-48f3-a377-92228a663acc", "nameRaw": "Haunted Nights Standing Mirror",
+      "descriptionKey": "5f46ca94-cdcb-450f-93f1-72912254a1da", "descriptionRaw": "This magic mirror allows you to customize your Vampire.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"This magic mirror allows you to customize your Vampire.","toString":"This magic mirror allows you to customize your Vampire.","resultKey":"5f46ca94-cdcb-450f-93f1-72912254a1da","nameLookup":"Haunted Nights Standing Mirror","templateLookup":"This magic mirror allows you to customize your Vampire."}
+    },
+    {
+      "prefab": "TM_EH_EMP_Placeable_T01", "guid": -259301876, "path": "/db/blueprints/tm-eh-emp-placeable-t01",
+      "sourcePath": "content/prefabs/TM_EH_EMP_Placeable_T01.md", "sourceSha256": "b15610e57c84649f878b70edca88bd049a9fe98ca89530c180efd74230a74f6c", "captureId": "blueprints-10",
+      "nameKey": "1726158b-cd92-425d-895e-0286b4795d2c", "nameRaw": "EMP",
+      "descriptionKey": "254b09a0-7c60-48db-9264-cdd2255592f0", "descriptionRaw": "An empty waterskin, useful for creating potions.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"An empty waterskin, useful for creating potions.","toString":"An empty waterskin, useful for creating potions.","resultKey":"254b09a0-7c60-48db-9264-cdd2255592f0","nameLookup":"EMP","templateLookup":"An empty waterskin, useful for creating potions."}
+    },
+    {
+      "prefab": "TM_Framework_SunShelter", "guid": 1065960329, "path": "/db/blueprints/tm-framework-sun-shelter",
+      "sourcePath": "content/prefabs/TM_Framework_SunShelter.md", "sourceSha256": "0449098c8bfe3763305e2a784633d21f8750d2d92b69e446e0805431d8bc4780", "captureId": "blueprints-10",
+      "nameKey": "7fc82839-db18-424a-8c03-e7fb817d5a09", "nameRaw": "Sun Shelter",
+      "descriptionKey": "e875964c-c071-4866-839c-c8d4bfdf6d98", "descriptionRaw": "A simple shelter to protect against the burning sun.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A simple shelter to protect against the burning sun.","toString":"A simple shelter to protect against the burning sun.","resultKey":"e875964c-c071-4866-839c-c8d4bfdf6d98","nameLookup":"Sun Shelter","templateLookup":"A simple shelter to protect against the burning sun."}
+    },
+    {
+      "prefab": "TM_LiquidStation_Water_Well01", "guid": 986517450, "path": "/db/blueprints/tm-liquid-station-water-well01",
+      "sourcePath": "content/prefabs/TM_LiquidStation_Water_Well01.md", "sourceSha256": "4c5feca7381e8ebeb4fd94ff907d53857389fb94daa024981fe6b10b29505272", "captureId": "blueprints-01",
+      "nameKey": "cffa2a58-6ada-4102-9de3-8b908ffe09c4", "nameRaw": "Water Well",
+      "descriptionKey": "b87da25e-0979-4c00-836e-967964b7ba2d", "descriptionRaw": "A decorative well for the complete castle experience.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative well for the complete castle experience.","toString":"A decorative well for the complete castle experience.","resultKey":"b87da25e-0979-4c00-836e-967964b7ba2d","nameLookup":"Water Well","templateLookup":"A decorative well for the complete castle experience."}
+    },
+    {
+      "prefab": "TM_LiquidStation_Water_Well02", "guid": -1919124085, "path": "/db/blueprints/tm-liquid-station-water-well02",
+      "sourcePath": "content/prefabs/TM_LiquidStation_Water_Well02.md", "sourceSha256": "12cf616929d14220dfe2c990d10d62182aa01c8101e3a90bda002b0a69818fe3", "captureId": "blueprints-10",
+      "nameKey": "cffa2a58-6ada-4102-9de3-8b908ffe09c4", "nameRaw": "Water Well",
+      "descriptionKey": "b87da25e-0979-4c00-836e-967964b7ba2d", "descriptionRaw": "A decorative well for the complete castle experience.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative well for the complete castle experience.","toString":"A decorative well for the complete castle experience.","resultKey":"b87da25e-0979-4c00-836e-967964b7ba2d","nameLookup":"Water Well","templateLookup":"A decorative well for the complete castle experience."}
+    },
+    {
+      "prefab": "TM_LiquidStation_Water_Well03", "guid": 1742891933, "path": "/db/blueprints/tm-liquid-station-water-well03",
+      "sourcePath": "content/prefabs/TM_LiquidStation_Water_Well03.md", "sourceSha256": "6ee9f89214d15b2555c245715a7e99cc5a520ac0dec2277cf7f6d6159d747658", "captureId": "blueprints-10",
+      "nameKey": "cffa2a58-6ada-4102-9de3-8b908ffe09c4", "nameRaw": "Water Well",
+      "descriptionKey": "b87da25e-0979-4c00-836e-967964b7ba2d", "descriptionRaw": "A decorative well for the complete castle experience.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decorative well for the complete castle experience.","toString":"A decorative well for the complete castle experience.","resultKey":"b87da25e-0979-4c00-836e-967964b7ba2d","nameLookup":"Water Well","templateLookup":"A decorative well for the complete castle experience."}
+    },
+    {
+      "prefab": "TM_RefinementStation_BloodPress_Large", "guid": -684391635, "path": "/db/blueprints/tm-refinement-station-blood-press-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_BloodPress_Large.md", "sourceSha256": "8d5d53a95432c0a56bcfc891e5c1ae550bbda9823963fd008be34701f7849e1e", "captureId": "blueprints-01",
+      "nameKey": "7e6d6f7e-11ca-4f8f-80c8-febc3dcf1495", "nameRaw": "Advanced Blood Press",
+      "descriptionKey": "8551294a-378c-4e7e-a59f-61b7d96190e2", "descriptionRaw": "A workstation used for extracting blood essence from biomaterial.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for extracting blood essence from biomaterial.","toString":"A workstation used for extracting blood essence from biomaterial.","resultKey":"8551294a-378c-4e7e-a59f-61b7d96190e2","nameLookup":"Advanced Blood Press","templateLookup":"A workstation used for extracting blood essence from biomaterial."}
+    },
+    {
+      "prefab": "TM_RefinementStation_BloodPress_Small", "guid": -300823465, "path": "/db/blueprints/tm-refinement-station-blood-press-small",
+      "sourcePath": "content/prefabs/TM_RefinementStation_BloodPress_Small.md", "sourceSha256": "cbee509b0e43e9e398f7a4800b97e4707412f17850e2a68aa1bd9162b6a6896d", "captureId": "blueprints-10",
+      "nameKey": "2239d338-d177-4ada-b398-44df090e53df", "nameRaw": "Blood Press",
+      "descriptionKey": "8551294a-378c-4e7e-a59f-61b7d96190e2", "descriptionRaw": "A workstation used for extracting blood essence from biomaterial.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for extracting blood essence from biomaterial.","toString":"A workstation used for extracting blood essence from biomaterial.","resultKey":"8551294a-378c-4e7e-a59f-61b7d96190e2","nameLookup":"Blood Press","templateLookup":"A workstation used for extracting blood essence from biomaterial."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Fabricator", "guid": -465055967, "path": "/db/blueprints/tm-refinement-station-fabricator",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Fabricator.md", "sourceSha256": "41e38245482be29db6ccd0fad37f6b66db6896d5ad570adfa1b02cb7757ab9c1", "captureId": "blueprints-10",
+      "nameKey": "c0ad9200-6fc5-4beb-ae18-081ade98bbd4", "nameRaw": "Fabricator",
+      "descriptionKey": "0f213dba-7d3c-4234-ab13-f4bfbf550643", "descriptionRaw": "A workstation used for assembling advanced materials.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for assembling advanced materials.","toString":"A workstation used for assembling advanced materials.","resultKey":"0f213dba-7d3c-4234-ab13-f4bfbf550643","nameLookup":"Fabricator","templateLookup":"A workstation used for assembling advanced materials."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Furnace_Large", "guid": -222851985, "path": "/db/blueprints/tm-refinement-station-furnace-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Furnace_Large.md", "sourceSha256": "01f86ccefcda61d1d36b9471933990cf03e2fc1d76b8173ef23f7220108ce5fa", "captureId": "blueprints-10",
+      "nameKey": "4765269a-729d-42d0-abc0-257dcbc6d571", "nameRaw": "Advanced Furnace",
+      "descriptionKey": "49bcd550-ce3d-4cd6-96f5-ad291f625a1b", "descriptionRaw": "A workstation used for refinement of ores.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refinement of ores.","toString":"A workstation used for refinement of ores.","resultKey":"49bcd550-ce3d-4cd6-96f5-ad291f625a1b","nameLookup":"Advanced Furnace","templateLookup":"A workstation used for refinement of ores."}
+    },
+    {
+      "prefab": "TM_RefinementStation_GemCutting", "guid": -21483617, "path": "/db/blueprints/tm-refinement-station-gem-cutting",
+      "sourcePath": "content/prefabs/TM_RefinementStation_GemCutting.md", "sourceSha256": "f6d74cfd616a9e1d318d6ee96ccd08961fde7c66a1f052672a84065411e44e94", "captureId": "blueprints-10",
+      "nameKey": "0999e4d8-d1cc-4b11-b526-c9070359623f", "nameRaw": "Gem Cutting Table",
+      "descriptionKey": "e88b6e8d-beea-41a1-bc2a-892c2ecd291b", "descriptionRaw": "A workstation used for combining lower quality gems into higher quality gems.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for combining lower quality gems into higher quality gems.","toString":"A workstation used for combining lower quality gems into higher quality gems.","resultKey":"e88b6e8d-beea-41a1-bc2a-892c2ecd291b","nameLookup":"Gem Cutting Table","templateLookup":"A workstation used for combining lower quality gems into higher quality gems."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Loom_Large", "guid": 1299929048, "path": "/db/blueprints/tm-refinement-station-loom-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Loom_Large.md", "sourceSha256": "4d1496e886bba8bb9977e696f5b50df77f444e3f264f486c30ae0fdf3769a749", "captureId": "blueprints-01",
+      "nameKey": "99249987-9a39-4ec9-a274-0f663089dc0e", "nameRaw": "Advanced Loom",
+      "descriptionKey": "a01587fd-77c0-4176-9506-02db7fbfa7fd", "descriptionRaw": "A workstation used for refining fibres into various fabrics.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refining fibres into various fabrics.","toString":"A workstation used for refining fibres into various fabrics.","resultKey":"a01587fd-77c0-4176-9506-02db7fbfa7fd","nameLookup":"Advanced Loom","templateLookup":"A workstation used for refining fibres into various fabrics."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Loom_Small", "guid": -16328955, "path": "/db/blueprints/tm-refinement-station-loom-small",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Loom_Small.md", "sourceSha256": "26b49b0663a310290ccce7fb4d44a509bfae6810f87c26f7cc81cf9512a32562", "captureId": "blueprints-10",
+      "nameKey": "0afc804a-911d-47db-9a40-1ceb0f005b58", "nameRaw": "Loom",
+      "descriptionKey": "a01587fd-77c0-4176-9506-02db7fbfa7fd", "descriptionRaw": "A workstation used for refining fibres into various fabrics.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refining fibres into various fabrics.","toString":"A workstation used for refining fibres into various fabrics.","resultKey":"a01587fd-77c0-4176-9506-02db7fbfa7fd","nameLookup":"Loom","templateLookup":"A workstation used for refining fibres into various fabrics."}
+    },
+    {
+      "prefab": "TM_RefinementStation_PaperPress_Small", "guid": -1628971842, "path": "/db/blueprints/tm-refinement-station-paper-press-small",
+      "sourcePath": "content/prefabs/TM_RefinementStation_PaperPress_Small.md", "sourceSha256": "518a1dd188e0c8f7b98c439ed2f52475d3c78e096072dd4b0d08bb6d760971c0", "captureId": "blueprints-10",
+      "nameKey": "eb8e5147-888e-48e7-8d3d-226f371f8ecf", "nameRaw": "Paper Press",
+      "descriptionKey": "af389db5-8d87-4afe-bbf7-eed7993a2cc7", "descriptionRaw": "A workstation used for refining fibres and sawdust into paper.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refining fibres and sawdust into paper.","toString":"A workstation used for refining fibres and sawdust into paper.","resultKey":"af389db5-8d87-4afe-bbf7-eed7993a2cc7","nameLookup":"Paper Press","templateLookup":"A workstation used for refining fibres and sawdust into paper."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Sawmill_Large", "guid": -163562336, "path": "/db/blueprints/tm-refinement-station-sawmill-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Sawmill_Large.md", "sourceSha256": "b2fc6de497fdca8d6bf5f76083905642dfccd52fcab3c92eaacb3d3390f77660", "captureId": "blueprints-10",
+      "nameKey": "96f275e2-e705-47e6-853b-b892ac899483", "nameRaw": "Advanced Sawmill",
+      "descriptionKey": "ee885c8e-d0ec-4093-a944-c3dd0e8cf044", "descriptionRaw": "A workstation used for refinement of wooden materials.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refinement of wooden materials.","toString":"A workstation used for refinement of wooden materials.","resultKey":"ee885c8e-d0ec-4093-a944-c3dd0e8cf044","nameLookup":"Advanced Sawmill","templateLookup":"A workstation used for refinement of wooden materials."}
+    },
+    {
+      "prefab": "TM_RefinementStation_StonecuttingTable_Large", "guid": -178579946, "path": "/db/blueprints/tm-refinement-station-stonecutting-table-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_StonecuttingTable_Large.md", "sourceSha256": "49e211dce8ceab2294af70c88d9b9bd039cf68c4ef005bdb56c0cfb136256d28", "captureId": "blueprints-01",
+      "nameKey": "c6505c74-d41b-4b9c-b576-b1ccccd8b3f4", "nameRaw": "Advanced Grinder",
+      "descriptionKey": "cd97f772-1adb-4a2e-825e-64c47c9f0c25", "descriptionRaw": "A workstation for turning raw materials into bricks and dust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation for turning raw materials into bricks and dust.","toString":"A workstation for turning raw materials into bricks and dust.","resultKey":"cd97f772-1adb-4a2e-825e-64c47c9f0c25","nameLookup":"Advanced Grinder","templateLookup":"A workstation for turning raw materials into bricks and dust."}
+    },
+    {
+      "prefab": "TM_RefinementStation_StonecuttingTable_Small", "guid": -600683642, "path": "/db/blueprints/tm-refinement-station-stonecutting-table-small",
+      "sourcePath": "content/prefabs/TM_RefinementStation_StonecuttingTable_Small.md", "sourceSha256": "d0080f74aa561f24e1554c2890992aa96a2e9064af81449f1b43f28f33d4420b", "captureId": "blueprints-10",
+      "nameKey": "922d6aee-bab0-4c84-8e1b-490b6e8c0906", "nameRaw": "Grinder",
+      "descriptionKey": "cd97f772-1adb-4a2e-825e-64c47c9f0c25", "descriptionRaw": "A workstation for turning raw materials into bricks and dust.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation for turning raw materials into bricks and dust.","toString":"A workstation for turning raw materials into bricks and dust.","resultKey":"cd97f772-1adb-4a2e-825e-64c47c9f0c25","nameLookup":"Grinder","templateLookup":"A workstation for turning raw materials into bricks and dust."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Tannery_Large", "guid": -1422196107, "path": "/db/blueprints/tm-refinement-station-tannery-large",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Tannery_Large.md", "sourceSha256": "8a86f417803abebef77ede7d3d9f96a70ccd266dc351b2136e26510585cd1724", "captureId": "blueprints-01",
+      "nameKey": "3621246b-27de-4d18-afd9-3bc61c820c9c", "nameRaw": "Advanced Tannery",
+      "descriptionKey": "95a56ff0-82de-4179-97e9-507f03aabc6f", "descriptionRaw": "A workstation used for refining animal hides into leather.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refining animal hides into leather.","toString":"A workstation used for refining animal hides into leather.","resultKey":"95a56ff0-82de-4179-97e9-507f03aabc6f","nameLookup":"Advanced Tannery","templateLookup":"A workstation used for refining animal hides into leather."}
+    },
+    {
+      "prefab": "TM_RefinementStation_Tannery_Small", "guid": -635885386, "path": "/db/blueprints/tm-refinement-station-tannery-small",
+      "sourcePath": "content/prefabs/TM_RefinementStation_Tannery_Small.md", "sourceSha256": "807e0faa7fbc394ad71569f11887c9b52254173d8515ebc3ac44c9e5cb51b853", "captureId": "blueprints-10",
+      "nameKey": "ac86b4a2-2e71-43b6-ae2f-e3167ca40a3a", "nameRaw": "Tannery",
+      "descriptionKey": "95a56ff0-82de-4179-97e9-507f03aabc6f", "descriptionRaw": "A workstation used for refining animal hides into leather.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A workstation used for refining animal hides into leather.","toString":"A workstation used for refining animal hides into leather.","resultKey":"95a56ff0-82de-4179-97e9-507f03aabc6f","nameLookup":"Tannery","templateLookup":"A workstation used for refining animal hides into leather."}
+    },
+    {
+      "prefab": "TM_ResearchStation_T01", "guid": -495424062, "path": "/db/blueprints/tm-research-station-t01",
+      "sourcePath": "content/prefabs/TM_ResearchStation_T01.md", "sourceSha256": "eeedd86c66d73489cd6fdb6ab0b5c0a54b34e73cb28804549c90040ad6046e0b", "captureId": "blueprints-10",
+      "nameKey": "e3d1a79c-a296-4e52-ab3a-71509ac92237", "nameRaw": "Research Desk",
+      "descriptionKey": "5a26d834-1caa-472e-839c-b6f5b1b67571", "descriptionRaw": "Use the Research Desk to uncover new technology and items.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Use the Research Desk to uncover new technology and items.","toString":"Use the Research Desk to uncover new technology and items.","resultKey":"5a26d834-1caa-472e-839c-b6f5b1b67571","nameLookup":"Research Desk","templateLookup":"Use the Research Desk to uncover new technology and items."}
+    },
+    {
+      "prefab": "TM_ResearchStation_T02", "guid": -1292809886, "path": "/db/blueprints/tm-research-station-t02",
+      "sourcePath": "content/prefabs/TM_ResearchStation_T02.md", "sourceSha256": "0d52b935dcb0c45418a2b9ecc10bbc3565aeb456e3f8db3cceaebbe3e427113a", "captureId": "blueprints-10",
+      "nameKey": "7e442234-7470-4e91-a374-baee223934ad", "nameRaw": "Study",
+      "descriptionKey": "30c2d5fa-4a3a-4fe9-ae31-616e8f41d6c5", "descriptionRaw": "Use the Study to uncover new technology and items.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Use the Study to uncover new technology and items.","toString":"Use the Study to uncover new technology and items.","resultKey":"30c2d5fa-4a3a-4fe9-ae31-616e8f41d6c5","nameLookup":"Study","templateLookup":"Use the Study to uncover new technology and items."}
+    },
+    {
+      "prefab": "TM_ResearchStation_T03", "guid": -1262194203, "path": "/db/blueprints/tm-research-station-t03",
+      "sourcePath": "content/prefabs/TM_ResearchStation_T03.md", "sourceSha256": "64e0af62a292ef785934658e660cfa5b2f5a075ffa4a8b4f25ab33ea47bb4cfb", "captureId": "blueprints-10",
+      "nameKey": "48c70d64-d508-4914-8b0c-98733537e460", "nameRaw": "Athenaeum",
+      "descriptionKey": "8652bc41-2350-4324-b858-9049477aed6f", "descriptionRaw": "Use the Athenaeum to uncover new technology and items.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Use the Athenaeum to uncover new technology and items.","toString":"Use the Athenaeum to uncover new technology and items.","resultKey":"8652bc41-2350-4324-b858-9049477aed6f","nameLookup":"Athenaeum","templateLookup":"Use the Athenaeum to uncover new technology and items."}
+    },
+    {
+      "prefab": "TM_Respawn_TombCoffin", "guid": 1398472022, "path": "/db/blueprints/tm-respawn-tomb-coffin",
+      "sourcePath": "content/prefabs/TM_Respawn_TombCoffin.md", "sourceSha256": "7c433784d8959268ab9b8fed879e3b2239fee048a06646b955e656eff2c5f868", "captureId": "blueprints-10",
+      "nameKey": "6d0147e9-4c9f-49d5-9ce8-8682220fa89b", "nameRaw": "Stone Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Stone Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_Respawn_WaypointCoffin", "guid": 2022796115, "path": "/db/blueprints/tm-respawn-waypoint-coffin",
+      "sourcePath": "content/prefabs/TM_Respawn_WaypointCoffin.md", "sourceSha256": "fa1873f7ee5c3b447854d1f354dc313b07fd4b069d98a13be5058b85f09d8b7e", "captureId": "blueprints-10",
+      "nameKey": "6d0147e9-4c9f-49d5-9ce8-8682220fa89b", "nameRaw": "Stone Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Stone Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_Respawn_WoodenCoffin", "guid": 1217011662, "path": "/db/blueprints/tm-respawn-wooden-coffin",
+      "sourcePath": "content/prefabs/TM_Respawn_WoodenCoffin.md", "sourceSha256": "4cb03532021f3c580c39c655f2cb66450834fc15fd66ac37448b289dc4160172", "captureId": "blueprints-10",
+      "nameKey": "6d0147e9-4c9f-49d5-9ce8-8682220fa89b", "nameRaw": "Stone Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Stone Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SalvageStation_Table", "guid": -1719849142, "path": "/db/blueprints/tm-salvage-station-table",
+      "sourcePath": "content/prefabs/TM_SalvageStation_Table.md", "sourceSha256": "264dc639c35bb82641fa4abf5c3ca82c66dd9a8534d0994cef88e3a37849d470", "captureId": "blueprints-10",
+      "nameKey": "f8f95026-76a6-4c22-ac08-875b37497179", "nameRaw": "The Devourer",
+      "descriptionKey": "8aa65119-c9e0-4b76-b760-620ccaffab06", "descriptionRaw": "The Devourer can tear apart equipment, items and components and turn them into raw materials.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"The Devourer can tear apart equipment, items and components and turn them into raw materials.","toString":"The Devourer can tear apart equipment, items and components and turn them into raw materials.","resultKey":"8aa65119-c9e0-4b76-b760-620ccaffab06","nameLookup":"The Devourer","templateLookup":"The Devourer can tear apart equipment, items and components and turn them into raw materials."}
+    },
+    {
+      "prefab": "TM_SpecialStation_MusicPlayer", "guid": 1278389141, "path": "/db/blueprints/tm-special-station-music-player",
+      "sourcePath": "content/prefabs/TM_SpecialStation_MusicPlayer.md", "sourceSha256": "f535e5c131c3287366151d78d0cf08320068cf1b599dcc04cd9fe6a9525ac26f", "captureId": "blueprints-01",
+      "nameKey": "928e916c-dc50-464f-a76e-5640f10ef624", "nameRaw": "Music Box",
+      "descriptionKey": "6e6215cf-4ae1-4e08-b700-114667d0c4fc", "descriptionRaw": "Using this box you may listen to the music of your choice.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Using this box you may listen to the music of your choice.","toString":"Using this box you may listen to the music of your choice.","resultKey":"6e6215cf-4ae1-4e08-b700-114667d0c4fc","nameLookup":"Music Box","templateLookup":"Using this box you may listen to the music of your choice."}
+    },
+    {
+      "prefab": "TM_SpecialStation_ServantCoffin_StrongbladeDLC", "guid": 1789222770, "path": "/db/blueprints/tm-special-station-servant-coffin-strongblade-dlc",
+      "sourcePath": "content/prefabs/TM_SpecialStation_ServantCoffin_StrongbladeDLC.md", "sourceSha256": "62ef55d80f8653d7e7152ab73e7a55285333a146b2a75479a7fa8571fc867bfe", "captureId": "blueprints-10",
+      "nameKey": "923e62c8-9af1-4d68-b839-538d4f0b1743", "nameRaw": "Nocturnal Opulence Servant Coffin",
+      "descriptionKey": "7b1483d8-3109-403e-977c-6bc3c573e9eb", "descriptionRaw": "Used to convert a human into a vampire",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to convert a human into a vampire","toString":"Used to convert a human into a vampire","resultKey":"7b1483d8-3109-403e-977c-6bc3c573e9eb","nameLookup":"Nocturnal Opulence Servant Coffin","templateLookup":"Used to convert a human into a vampire"}
+    },
+    {
+      "prefab": "TM_SpecialStation_StablePen", "guid": -336743839, "path": "/db/blueprints/tm-special-station-stable-pen",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StablePen.md", "sourceSha256": "7260dadafdf6e1e13b2f06de89e05a5b6d1da61da578b615d08446da33c02032", "captureId": "blueprints-10",
+      "nameKey": "8a15c2da-dd4d-48d2-8a02-59db85c49ac8", "nameRaw": "Animal Pen",
+      "descriptionKey": "4698c693-2034-4079-bd85-417294d48a51", "descriptionRaw": "A pen for hosting and feeding animals.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A pen for hosting and feeding animals.","toString":"A pen for hosting and feeding animals.","resultKey":"4698c693-2034-4079-bd85-417294d48a51","nameLookup":"Animal Pen","templateLookup":"A pen for hosting and feeding animals."}
+    },
+    {
+      "prefab": "TM_SpecialStation_StoneCoffin", "guid": -1939721641, "path": "/db/blueprints/tm-special-station-stone-coffin",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StoneCoffin.md", "sourceSha256": "0d58e6cacb21b519bd567e819666996dd6f8129699e3d9a4f043ad22a3b96fd1", "captureId": "blueprints-10",
+      "nameKey": "6d0147e9-4c9f-49d5-9ce8-8682220fa89b", "nameRaw": "Stone Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Stone Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SpecialStation_StoneCoffinDLC01Variant", "guid": -750982654, "path": "/db/blueprints/tm-special-station-stone-coffin-dlc01-variant",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StoneCoffinDLC01Variant.md", "sourceSha256": "a69851cfc67060e1dad8340e7b47acb83cc427c0ccad940abef3cc58e13f74b8", "captureId": "blueprints-10",
+      "nameKey": "faa6ed75-d1e1-45c9-ab47-15f21776be5d", "nameRaw": "Royal Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Royal Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SpecialStation_StoneCoffinDLC02Variant", "guid": -390082555, "path": "/db/blueprints/tm-special-station-stone-coffin-dlc02-variant",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StoneCoffinDLC02Variant.md", "sourceSha256": "83cdb914632f510bb279bbedd45d442a9187cf79c9c77ed6bd180d9e73782db2", "captureId": "blueprints-10",
+      "nameKey": "d4a57f82-4a15-4a3a-a727-cee4a4faa413", "nameRaw": "Plague Chemist’s Casket",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Plague Chemist’s Casket","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SpecialStation_StoneCoffinProjectKVariant", "guid": -1746633144, "path": "/db/blueprints/tm-special-station-stone-coffin-project-k-variant",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StoneCoffinProjectKVariant.md", "sourceSha256": "73accd8e549794fe7543cb46a2dd55337f93160a74db5610f747e82a0a2fb1b1", "captureId": "blueprints-10",
+      "nameKey": "641f0e54-782f-498f-9e54-f54c9071b99f", "nameRaw": "Ancient Symphony Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Ancient Symphony Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SpecialStation_StoneCoffinStrongbladeDLC01Variant", "guid": 18293671, "path": "/db/blueprints/tm-special-station-stone-coffin-strongblade-dlc01-variant",
+      "sourcePath": "content/prefabs/TM_SpecialStation_StoneCoffinStrongbladeDLC01Variant.md", "sourceSha256": "9e63646b0308fbcd207b73721f0a472edb0d40c403bd33c7aef6abd11348c00a", "captureId": "blueprints-10",
+      "nameKey": "46212b27-56ba-4f35-8b2f-07f0ea87f860", "nameRaw": "Nocturnal Opulence Coffin",
+      "descriptionKey": "302af45d-e696-4660-938f-10f9902cfc66", "descriptionRaw": "A place to recover when defeated",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A place to recover when defeated","toString":"A place to recover when defeated","resultKey":"302af45d-e696-4660-938f-10f9902cfc66","nameLookup":"Nocturnal Opulence Coffin","templateLookup":"A place to recover when defeated"}
+    },
+    {
+      "prefab": "TM_SpecialStation_WoodenCoffin", "guid": 1523835471, "path": "/db/blueprints/tm-special-station-wooden-coffin",
+      "sourcePath": "content/prefabs/TM_SpecialStation_WoodenCoffin.md", "sourceSha256": "d267de601e102fbc736e78df7dac88bd21640cd49312ebcc40ad0b039e865e87", "captureId": "blueprints-10",
+      "nameKey": "2df68eef-f6d0-449a-8c5a-7f60d161ba54", "nameRaw": "Wooden Coffin",
+      "descriptionKey": "8fc25183-c475-4429-b9cb-29b3b0ec401b", "descriptionRaw": "Acts as a respawn location. Can only have one active at a time.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Acts as a respawn location. Can only have one active at a time.","toString":"Acts as a respawn location. Can only have one active at a time.","resultKey":"8fc25183-c475-4429-b9cb-29b3b0ec401b","nameLookup":"Wooden Coffin","templateLookup":"Acts as a respawn location. Can only have one active at a time."}
+    },
+    {
+      "prefab": "TM_SpecialStation_WoodenCoffinHalloween01Variant", "guid": 1567106242, "path": "/db/blueprints/tm-special-station-wooden-coffin-halloween01-variant",
+      "sourcePath": "content/prefabs/TM_SpecialStation_WoodenCoffinHalloween01Variant.md", "sourceSha256": "197f5ff369814bc469abab937460788ae5f8ae12ca719df7137fd985e149f37e", "captureId": "blueprints-10",
+      "nameKey": "191da6c8-3136-4529-9969-fc33076c149f", "nameRaw": "Haunted Nights Coffin",
+      "descriptionKey": "8fc25183-c475-4429-b9cb-29b3b0ec401b", "descriptionRaw": "Acts as a respawn location. Can only have one active at a time.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Acts as a respawn location. Can only have one active at a time.","toString":"Acts as a respawn location. Can only have one active at a time.","resultKey":"8fc25183-c475-4429-b9cb-29b3b0ec401b","nameLookup":"Haunted Nights Coffin","templateLookup":"Acts as a respawn location. Can only have one active at a time."}
+    },
+    {
+      "prefab": "TM_StygianAltar_Passive_T01", "guid": -1938449679, "path": "/db/blueprints/tm-stygian-altar-passive-t01",
+      "sourcePath": "content/prefabs/TM_StygianAltar_Passive_T01.md", "sourceSha256": "75e3dfd0a44138ae7f524e7e341348dc07d1ed22ad2df0bba403e2fe6d9d6806", "captureId": "blueprints-10",
+      "nameKey": "2b832334-84dd-41b5-a809-315cb6211a29", "nameRaw": "Altar of Stygian Awakening",
+      "descriptionKey": "7480aad6-8886-468c-b30f-2eb70a21c423", "descriptionRaw": "Used to unlock and infuse your vampire with passive powers.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Used to unlock and infuse your vampire with passive powers.","toString":"Used to unlock and infuse your vampire with passive powers.","resultKey":"7480aad6-8886-468c-b30f-2eb70a21c423","nameLookup":"Altar of Stygian Awakening","templateLookup":"Used to unlock and infuse your vampire with passive powers."}
+    },
+    {
+      "prefab": "TM_UnitStation_Tomb", "guid": 1127059420, "path": "/db/blueprints/tm-unit-station-tomb",
+      "sourcePath": "content/prefabs/TM_UnitStation_Tomb.md", "sourceSha256": "3e41e3e631f0256d4789c0257267dc737f1fefa8803b693dec2346a76d962eec", "captureId": "blueprints-10",
+      "nameKey": "60cbcdf1-08c8-437e-b0db-ced20815ab36", "nameRaw": "Tomb",
+      "descriptionKey": "0a51b002-b826-4055-9d5e-b67c1983bfd8", "descriptionRaw": "Put flowers on this tomb to raise various undead, then slay them once more for their remains.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Put flowers on this tomb to raise various undead, then slay them once more for their remains.","toString":"Put flowers on this tomb to raise various undead, then slay them once more for their remains.","resultKey":"0a51b002-b826-4055-9d5e-b67c1983bfd8","nameLookup":"Tomb","templateLookup":"Put flowers on this tomb to raise various undead, then slay them once more for their remains."}
+    },
+    {
+      "prefab": "TM_UnitStation_VerminNest", "guid": 150776081, "path": "/db/blueprints/tm-unit-station-vermin-nest",
+      "sourcePath": "content/prefabs/TM_UnitStation_VerminNest.md", "sourceSha256": "d75f652e2c02b377fb3a493f61fe79b36bc4a3eaeae4032c23a5cb027ed44904", "captureId": "blueprints-10",
+      "nameKey": "5645f080-1cc8-4fc2-8eae-db41b307abc7", "nameRaw": "Vermin Nest",
+      "descriptionKey": "3f395b11-d68f-437c-ba2e-e00d27abcb10", "descriptionRaw": "A nest for luring vermin into your castle.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A nest for luring vermin into your castle.","toString":"A nest for luring vermin into your castle.","resultKey":"3f395b11-d68f-437c-ba2e-e00d27abcb10","nameLookup":"Vermin Nest","templateLookup":"A nest for luring vermin into your castle."}
+    },
+    {
+      "prefab": "TM_Workstation_Waypoint_Castle", "guid": -1348294483, "path": "/db/blueprints/tm-workstation-waypoint-castle",
+      "sourcePath": "content/prefabs/TM_Workstation_Waypoint_Castle.md", "sourceSha256": "009a7cc861f135130a79a3e0656b3209ab5cd4d63748fd817b71f43cf06cddbd", "captureId": "blueprints-01",
+      "nameKey": "b3e1698e-5a39-4ba4-86c5-6d4b3ff5ec32", "nameRaw": "Castle Waygate",
+      "descriptionKey": "99fb4bc8-516b-4bac-bf2e-ba4b8554a99c", "descriptionRaw": "The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.","toString":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.","resultKey":"99fb4bc8-516b-4bac-bf2e-ba4b8554a99c","nameLookup":"Castle Waygate","templateLookup":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world."}
+    },
+    {
+      "prefab": "TM_Workstation_Waypoint_Castle_StrongbladeDLC", "guid": -1237621022, "path": "/db/blueprints/tm-workstation-waypoint-castle-strongblade-dlc",
+      "sourcePath": "content/prefabs/TM_Workstation_Waypoint_Castle_StrongbladeDLC.md", "sourceSha256": "abfc344a3f3f3a963c9171bb06482961938c592094ae8166f39fd12ca1ddb91c", "captureId": "blueprints-10",
+      "nameKey": "8bdd6dde-3862-46c1-bc5d-fbf70e288e0a", "nameRaw": "Nocturnal Opulence Waygate",
+      "descriptionKey": "99fb4bc8-516b-4bac-bf2e-ba4b8554a99c", "descriptionRaw": "The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.","toString":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world.","resultKey":"99fb4bc8-516b-4bac-bf2e-ba4b8554a99c","nameLookup":"Nocturnal Opulence Waygate","templateLookup":"The Castle Waygate allows you to teleport to any Waygate you have discovered within the world."}
+    }
+  ]
+}
