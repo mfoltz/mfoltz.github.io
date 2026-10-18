@@ -6014,240 +6014,308 @@
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05",
     "guid": 1405941468,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05",
+    "displayNameEn": "'Eldest' Roaring Gargoyle",
+    "displayLocalizationGuid": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle06": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle06",
     "guid": 518448448,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle06",
+    "displayNameEn": "'Eldest' Agonized Gargoyle",
+    "displayLocalizationGuid": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle07": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle07",
     "guid": -1141919540,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle07",
+    "displayNameEn": "'Eldest' Victorious Gargoyle",
+    "displayLocalizationGuid": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle08": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle08",
     "guid": 1663229398,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle08",
+    "displayNameEn": "'Eldest' Challenging Gargoyle",
+    "displayLocalizationGuid": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Female01",
     "guid": 2071819023,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_Female01",
+    "displayNameEn": "Granite Statue - Female",
+    "displayLocalizationGuid": "36f709d8-6935-418d-a6d5-9d84e7cd4d3a"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01",
     "guid": -883197188,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_Gargoyle01",
+    "displayNameEn": "Patient Gargoyle",
+    "displayLocalizationGuid": "c5f4fcb8-b0ce-4182-9092-95c1f83d1e90"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_Male01",
     "guid": -1866338269,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_Male01",
+    "displayNameEn": "Granite Statue - Male",
+    "displayLocalizationGuid": "fc2665be-1af2-4f03-a007-0315171e9942"
   },
   "TM_Castle_ObjectDecor_Sofa_Base": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_Base",
     "guid": 1752496674,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_Base",
+    "displayNameEn": "'Cordial' Sofa",
+    "displayLocalizationGuid": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9"
   },
   "TM_Castle_ObjectDecor_Sofa_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_Cabal01",
     "guid": 1991412107,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_Cabal01",
+    "displayNameEn": "'Cordial' Sofa",
+    "displayLocalizationGuid": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9"
   },
   "TM_Castle_ObjectDecor_Sofa_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_Gothic01",
     "guid": 833803769,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_Gothic01",
+    "displayNameEn": "'Omen' Sofa",
+    "displayLocalizationGuid": "8c387de2-9705-480d-a7fe-91bb5d76fd41"
   },
   "TM_Castle_ObjectDecor_Sofa_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_Lavish01",
     "guid": -1613630707,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_Lavish01",
+    "displayNameEn": "'Distinguished' Sofa",
+    "displayLocalizationGuid": "49a02598-400d-4081-81f0-c6d0c9112ad0"
   },
   "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01",
     "guid": 397717192,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Divan",
+    "displayLocalizationGuid": "60fad773-7622-4fbf-aa44-1486f1440973"
   },
   "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC02": {
     "prefab": "TM_Castle_ObjectDecor_Sofa_StrongbladeDLC02",
     "guid": -269507805,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Sofa_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Sofa",
+    "displayLocalizationGuid": "9c85f520-7496-482e-bd9b-a77ec457fd9a"
   },
   "TM_Castle_ObjectDecor_StableHay01": {
     "prefab": "TM_Castle_ObjectDecor_StableHay01",
     "guid": 1495755479,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableHay01",
+    "displayNameEn": "Hay Bale",
+    "displayLocalizationGuid": "1166b429-589d-4b7a-92a9-f794d2b60241"
   },
   "TM_Castle_ObjectDecor_StableHay02": {
     "prefab": "TM_Castle_ObjectDecor_StableHay02",
     "guid": 1925146830,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableHay02",
+    "displayNameEn": "Hay Bale",
+    "displayLocalizationGuid": "1166b429-589d-4b7a-92a9-f794d2b60241"
   },
   "TM_Castle_ObjectDecor_StableHay03": {
     "prefab": "TM_Castle_ObjectDecor_StableHay03",
     "guid": -1990152390,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableHay03",
+    "displayNameEn": "Hay Pile",
+    "displayLocalizationGuid": "e5ba0087-6f6a-49ce-9311-92f4e4fd5212"
   },
   "TM_Castle_ObjectDecor_StableHitchingPost01": {
     "prefab": "TM_Castle_ObjectDecor_StableHitchingPost01",
     "guid": 194712289,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableHitchingPost01",
+    "displayNameEn": "Hitching Post",
+    "displayLocalizationGuid": "3df6c7ee-167c-4170-a137-83f4d86c74ff"
   },
   "TM_Castle_ObjectDecor_StableHitchingPost02": {
     "prefab": "TM_Castle_ObjectDecor_StableHitchingPost02",
     "guid": -1543977056,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableHitchingPost02",
+    "displayNameEn": "Hitching Post",
+    "displayLocalizationGuid": "3df6c7ee-167c-4170-a137-83f4d86c74ff"
   },
   "TM_Castle_ObjectDecor_StableSign01": {
     "prefab": "TM_Castle_ObjectDecor_StableSign01",
     "guid": -726476711,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableSign01",
+    "displayNameEn": "Stables Sign",
+    "displayLocalizationGuid": "493eaefa-ab22-4519-8d99-4db9fd8d591d"
   },
   "TM_Castle_ObjectDecor_StableSign02": {
     "prefab": "TM_Castle_ObjectDecor_StableSign02",
     "guid": 1395968105,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableSign02",
+    "displayNameEn": "Stables Sign",
+    "displayLocalizationGuid": "493eaefa-ab22-4519-8d99-4db9fd8d591d"
   },
   "TM_Castle_ObjectDecor_StableWaterTrough01": {
     "prefab": "TM_Castle_ObjectDecor_StableWaterTrough01",
     "guid": 1565409593,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decoration for your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StableWaterTrough01",
+    "displayNameEn": "Watering Trough",
+    "displayLocalizationGuid": "092943cb-e2ac-4097-b0ad-217a7e837c7e"
   },
   "TM_Castle_ObjectDecor_StandingBurnerPot01": {
     "prefab": "TM_Castle_ObjectDecor_StandingBurnerPot01",
     "guid": -202816279,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your alchemical laboratory.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StandingBurnerPot01",
+    "displayNameEn": "Stand with Boiling Flask & Burner",
+    "displayLocalizationGuid": "f9df5ecd-4af4-4fa3-a523-1fb70d160884"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_AngelStatue01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_AngelStatue01",
     "guid": -1777182058,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_AngelStatue01",
+    "displayNameEn": "Ancient Symphony Angelic Statue",
+    "displayLocalizationGuid": "a5e2ccc6-f256-4118-93fd-2dd68722c0be"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01",
     "guid": 858552228,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_BonePillarStatue01",
+    "displayNameEn": "Ancient Symphony Bone Trophy",
+    "displayLocalizationGuid": "55372b64-b80a-48d1-80af-ca86887e3a99"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue01",
     "guid": 1924883160,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue01",
+    "displayNameEn": "Ancient Symphony Statue of Maria",
+    "displayLocalizationGuid": "f95fa111-785d-41db-9e83-90fd094263a6"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02",
     "guid": 57934274,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_FemaleStatue02",
+    "displayNameEn": "Ancient Symphony Statue of Maria",
+    "displayLocalizationGuid": "f95fa111-785d-41db-9e83-90fd094263a6"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue01",
     "guid": 1837038558,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue01",
+    "displayNameEn": "Ancient Symphony Evolved Being",
+    "displayLocalizationGuid": "9cb7feec-3e95-4f76-bf39-c56a1db04376"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue02": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue02",
     "guid": -1121713940,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_GargoyleStatue02",
+    "displayNameEn": "Ancient Symphony Evolved Being",
+    "displayLocalizationGuid": "9cb7feec-3e95-4f76-bf39-c56a1db04376"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue01",
     "guid": 1735150840,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue01",
+    "displayNameEn": "Ancient Symphony Statue of Alucard",
+    "displayLocalizationGuid": "3641725f-078b-458f-929a-6201a07a2457"
   },
   "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue02": {
     "prefab": "TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue02",
     "guid": -2122532810,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_ProjectK_MaleStatue02",
+    "displayNameEn": "Ancient Symphony Statue of Alucard",
+    "displayLocalizationGuid": "3641725f-078b-458f-929a-6201a07a2457"
   },
   "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01",
     "guid": -1212536125,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female01",
+    "displayNameEn": "Nocturnal Opulence Female Statue",
+    "displayLocalizationGuid": "6b1525e9-1814-4234-bae8-943b8237a197"
   },
   "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female02": {
     "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female02",
     "guid": -2006858566,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Female02",
+    "displayNameEn": "Nocturnal Opulence Female Statue",
+    "displayLocalizationGuid": "6b1525e9-1814-4234-bae8-943b8237a197"
   },
   "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Male01",
     "guid": -1071569211,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Statue_StrongbladeDLC_Male01",
+    "displayNameEn": "Nocturnal Opulence Male Statue",
+    "displayLocalizationGuid": "faf9babd-fb0c-4392-b210-6aaaeff46b13"
   },
   "TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable": {
     "prefab": "TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable",
     "guid": 606753096,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_StrongbladeDLC_StandingLamp01_Dyable",
+    "displayNameEn": "Nocturnal Opulence Lamp Stand",
+    "displayLocalizationGuid": "c9bc8fa3-19d9-421f-9984-bd51c5711b2c"
   },
   "TM_Castle_ObjectDecor_Table_10x6_Banquet01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Banquet01_Deprecated",
@@ -6294,16 +6362,20 @@
   "TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated",
     "guid": 733591670,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_10x6_Cabal01_Deprecated",
+    "displayNameEn": "'Distinguished' Table",
+    "displayLocalizationGuid": "6824ae15-a52c-4be3-9d18-ca70c7c14187"
   },
   "TM_Castle_ObjectDecor_Table_10x6_Gothic01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_Gothic01_Deprecated",
     "guid": -2005881662,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A table made of stone.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_10x6_Gothic01_Deprecated",
+    "displayNameEn": "'Implacable' Table",
+    "displayLocalizationGuid": "27cbd1c8-ba83-44dc-ba15-8b0a90763617"
   },
   "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_10x6_StrongbladeDLC_01_Deprecated",
@@ -6322,107 +6394,137 @@
   "TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated",
     "guid": -532692664,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_3x3_Cabal01_Deprecated",
+    "displayNameEn": "'Distinguished' Sidetable",
+    "displayLocalizationGuid": "dd216b3b-d20d-4c86-a188-0e65072e9d0d"
   },
   "TM_Castle_ObjectDecor_Table_3x3_Gothic01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_3x3_Gothic01_Deprecated",
     "guid": -1887056619,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_3x3_Gothic01_Deprecated",
+    "displayNameEn": "'Dignity' Sidetable",
+    "displayLocalizationGuid": "e1ee2b17-3c9e-4613-89f6-37efdc870f36"
   },
   "TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated",
     "guid": -34752264,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_3x6_Cabal01_Deprecated",
+    "displayNameEn": "'Distinguished' Coffee Table",
+    "displayLocalizationGuid": "cd8761d7-7701-4f7b-82db-a07598e4c402"
   },
   "TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated",
     "guid": 180499181,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_3x6_Gothic01_Deprecated",
+    "displayNameEn": "'Dignity' Coffee Table",
+    "displayLocalizationGuid": "845a39e8-f4a0-4ee0-90d4-5091882491f0"
   },
   "TM_Castle_ObjectDecor_Table_4x3_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_Cabal01",
     "guid": -742777303,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_Cabal01",
+    "displayNameEn": "'Erudition' Study Table",
+    "displayLocalizationGuid": "0a02da94-6147-44ad-9b23-bf777271611a"
   },
   "TM_Castle_ObjectDecor_Table_4x3_CabalDesk01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_CabalDesk01",
     "guid": -521027642,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_CabalDesk01",
+    "displayNameEn": "'Cordial' Secretary Desk",
+    "displayLocalizationGuid": "cf7a2dea-3a14-4e28-8452-70804d984ebc"
   },
   "TM_Castle_ObjectDecor_Table_4x3_CabalVanity01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_CabalVanity01",
     "guid": -544060510,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_CabalVanity01",
+    "displayNameEn": "'Cordial' Dressing Table",
+    "displayLocalizationGuid": "af9b24bf-5a79-4c4a-b778-356b238356c1"
   },
   "TM_Castle_ObjectDecor_Table_4x3_GothicDesk01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_GothicDesk01",
     "guid": -1583533114,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_GothicDesk01",
+    "displayNameEn": "'Omen' Secretary Desk",
+    "displayLocalizationGuid": "d2035016-86bf-4e53-8a1c-02624a8939d3"
   },
   "TM_Castle_ObjectDecor_Table_4x3_GothicVanity01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_GothicVanity01",
     "guid": -203928758,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_GothicVanity01",
+    "displayNameEn": "'Omen' Dressing Table",
+    "displayLocalizationGuid": "a4abea11-13a9-49de-b772-e8335eb4a701"
   },
   "TM_Castle_ObjectDecor_Table_4x3_LavishDesk01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_LavishDesk01",
     "guid": -1186490712,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_LavishDesk01",
+    "displayNameEn": "'Distinguished' Secretary Desk",
+    "displayLocalizationGuid": "b13fdbf4-bd22-4423-b061-a37f28a3e5e6"
   },
   "TM_Castle_ObjectDecor_Table_4x3_LavishVanity01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x3_LavishVanity01",
     "guid": 444727609,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative desk.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x3_LavishVanity01",
+    "displayNameEn": "'Distinguished' Dressing Table",
+    "displayLocalizationGuid": "cbd80b61-66e6-4b45-bf99-28615e502aaa"
   },
   "TM_Castle_ObjectDecor_Table_4x4_Garden01": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x4_Garden01",
     "guid": 1338051453,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A table made of metal.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x4_Garden01",
+    "displayNameEn": "'Noble' Garden Table",
+    "displayLocalizationGuid": "bb018a85-a32d-4b41-bd16-6f8d9af51dcb"
   },
   "TM_Castle_ObjectDecor_Table_4x4_Garden02_Dyable": {
     "prefab": "TM_Castle_ObjectDecor_Table_4x4_Garden02_Dyable",
     "guid": -649433906,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_4x4_Garden02_Dyable",
+    "displayNameEn": "'Rural' Garden Table",
+    "displayLocalizationGuid": "40947989-af8a-4979-ad16-a25c15749472"
   },
   "TM_Castle_ObjectDecor_Table_6x4_Simple01": {
     "prefab": "TM_Castle_ObjectDecor_Table_6x4_Simple01",
     "guid": 2061278827,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_6x4_Simple01",
+    "displayNameEn": "Rustic Table",
+    "displayLocalizationGuid": "1547ac0b-2933-4560-95f3-ca45d34c17f7"
   },
   "TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated": {
     "prefab": "TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated",
     "guid": 2012743857,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A raised flat top supported by legs.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Table_6x6_StrongbladeDLC_01_Deprecated",
+    "displayNameEn": "Nocturnal Opulence Round Table",
+    "displayLocalizationGuid": "433addd7-cb38-4be3-a98d-1acd321bcb54"
   },
   "TM_Castle_ObjectDecor_Table_Base_10x6": {
     "prefab": "TM_Castle_ObjectDecor_Table_Base_10x6",
@@ -6469,65 +6571,83 @@
   "TM_Castle_ObjectDecor_TargetDummy_Basic01": {
     "prefab": "TM_Castle_ObjectDecor_TargetDummy_Basic01",
     "guid": 2101121636,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A hapless dummy to test your combat prowess on.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_TargetDummy_Basic01",
+    "displayNameEn": "Basic Target Dummy",
+    "displayLocalizationGuid": "c982c0d3-1eee-4ccb-9063-77a4f58d54e1"
   },
   "TM_Castle_ObjectDecor_TargetDummy_Soldier01": {
     "prefab": "TM_Castle_ObjectDecor_TargetDummy_Soldier01",
     "guid": 104465058,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A hapless dummy to test your combat prowess on.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_TargetDummy_Soldier01",
+    "displayNameEn": "Soldier Target Dummy",
+    "displayLocalizationGuid": "b760bb29-f157-4cd4-b7e6-a6055dad1f82"
   },
   "TM_Castle_ObjectDecor_TargetDummy_Vampire01": {
     "prefab": "TM_Castle_ObjectDecor_TargetDummy_Vampire01",
     "guid": 230163020,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A hapless dummy to test your combat prowess on.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_TargetDummy_Vampire01",
+    "displayNameEn": "Vampire Target Dummy",
+    "displayLocalizationGuid": "0b6b2193-2ffe-464b-bf2a-174683477063"
   },
   "TM_Castle_ObjectDecor_TargetDummy_Villager01": {
     "prefab": "TM_Castle_ObjectDecor_TargetDummy_Villager01",
     "guid": 1098118571,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A hapless dummy to test your combat prowess on.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_TargetDummy_Villager01",
+    "displayNameEn": "Villager Target Dummy",
+    "displayLocalizationGuid": "66eaa0c4-28ee-4fc7-aa1e-a22aee77f4cd"
   },
   "TM_Castle_ObjectDecor_Terrarium01": {
     "prefab": "TM_Castle_ObjectDecor_Terrarium01",
     "guid": -1558674217,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Bioluminescent mushrooms extracted from the Cursed Forest.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Terrarium01",
+    "displayNameEn": "Luminescent Mushroom Terrarium",
+    "displayLocalizationGuid": "dbf7d603-0efa-496a-9ca3-83a407083c23"
   },
   "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01": {
     "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01",
     "guid": 886692114,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Delightfully cushy!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows01",
+    "displayNameEn": "Nocturnal Opulence Floor Cushions",
+    "displayLocalizationGuid": "1a243c48-6d10-489f-9754-b3a952ab2ff1"
   },
   "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows02": {
     "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows02",
     "guid": 95608669,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Delightfully cushy!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows02",
+    "displayNameEn": "Nocturnal Opulence Floor Cushions",
+    "displayLocalizationGuid": "e2834efb-3e65-4a04-857f-53577d22af24"
   },
   "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows03": {
     "prefab": "TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows03",
     "guid": 1123292049,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Delightfully cushy!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_WalkableFurnishing_StrongbladeDLC_Pillows03",
+    "displayNameEn": "Nocturnal Opulence Floor Cushions",
+    "displayLocalizationGuid": "440b0d40-4d32-4c4f-a928-ffc3f986b06a"
   },
   "TM_Castle_ObjectDecor_WashBasin01": {
     "prefab": "TM_Castle_ObjectDecor_WashBasin01",
     "guid": -3042048,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "For the sanitary vampire.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_WashBasin01",
+    "displayNameEn": "Wash Stand",
+    "displayLocalizationGuid": "bd7db43a-73a7-4fe8-bd5b-cb134ab83be9"
   },
   "TM_Castle_Pavement_Cobblestone02_Corner": {
     "prefab": "TM_Castle_Pavement_Cobblestone02_Corner",
@@ -6637,114 +6757,146 @@
   "TM_Castle_PillarDecor_Banner01": {
     "prefab": "TM_Castle_PillarDecor_Banner01",
     "guid": -1117554565,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner01",
+    "displayNameEn": "'Nocturne' Mounted Banner",
+    "displayLocalizationGuid": "6cc66371-bcc3-4577-99d6-bb6183ad956e"
   },
   "TM_Castle_PillarDecor_Banner02": {
     "prefab": "TM_Castle_PillarDecor_Banner02",
     "guid": -1123773678,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner02",
+    "displayNameEn": "'Cabal' Mounted Banner",
+    "displayLocalizationGuid": "d9367c15-f0f1-4db4-96b5-b193c67e472c"
   },
   "TM_Castle_PillarDecor_Banner03": {
     "prefab": "TM_Castle_PillarDecor_Banner03",
     "guid": 1652335816,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner03",
+    "displayNameEn": "'Nocturne' Flush Mounted Banner",
+    "displayLocalizationGuid": "af771c31-d01c-411c-bd33-8cef10d6f63c"
   },
   "TM_Castle_PillarDecor_Banner04": {
     "prefab": "TM_Castle_PillarDecor_Banner04",
     "guid": -163088387,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner04",
+    "displayNameEn": "'Cabal' Flush Mounted Banner",
+    "displayLocalizationGuid": "de470714-713f-482d-86fc-6ec6cdae8659"
   },
   "TM_Castle_PillarDecor_Banner05": {
     "prefab": "TM_Castle_PillarDecor_Banner05",
     "guid": 1317859336,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner05",
+    "displayNameEn": "Frayed Mounted Banner",
+    "displayLocalizationGuid": "1318fc45-7938-49c0-9a04-89baedea2e74"
   },
   "TM_Castle_PillarDecor_Banner06": {
     "prefab": "TM_Castle_PillarDecor_Banner06",
     "guid": -725227635,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Banner06",
+    "displayNameEn": "Frayed Flush Mounted Banner",
+    "displayLocalizationGuid": "86cee154-f486-4fc4-becc-a4880d2f4ea1"
   },
   "TM_Castle_PillarDecor_BatWing01": {
     "prefab": "TM_Castle_PillarDecor_BatWing01",
     "guid": -1727572164,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_BatWing01",
+    "displayNameEn": "'Nocturne' Wing",
+    "displayLocalizationGuid": "3e695ca7-c4b8-476b-97ec-6a9a9c8e7903"
   },
   "TM_Castle_PillarDecor_CoafOfArms01_Banner01": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner01",
     "guid": -760358969,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms01_Banner01",
+    "displayNameEn": "'Nightfall' Mounted Banner",
+    "displayLocalizationGuid": "733a413b-a9ee-408f-8360-2a5e8a7e2380"
   },
   "TM_Castle_PillarDecor_CoafOfArms01_Banner02": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms01_Banner02",
     "guid": 1027890023,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms01_Banner02",
+    "displayNameEn": "'Nightfall' Flush Mounted Banner",
+    "displayLocalizationGuid": "6514ad25-e8e3-406b-ba4c-eb75427e30c1"
   },
   "TM_Castle_PillarDecor_CoafOfArms02_Banner01": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms02_Banner01",
     "guid": 87261865,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms02_Banner01",
+    "displayNameEn": "'Nightfall' Mounted Banner",
+    "displayLocalizationGuid": "733a413b-a9ee-408f-8360-2a5e8a7e2380"
   },
   "TM_Castle_PillarDecor_CoafOfArms02_Banner02": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms02_Banner02",
     "guid": 1615364717,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms02_Banner02",
+    "displayNameEn": "'Nightfall' Flush Mounted Banner",
+    "displayLocalizationGuid": "6514ad25-e8e3-406b-ba4c-eb75427e30c1"
   },
   "TM_Castle_PillarDecor_CoafOfArms03_Banner01": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms03_Banner01",
     "guid": 955474763,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms03_Banner01",
+    "displayNameEn": "'Nightfall' Mounted Banner",
+    "displayLocalizationGuid": "733a413b-a9ee-408f-8360-2a5e8a7e2380"
   },
   "TM_Castle_PillarDecor_CoafOfArms03_Banner02": {
     "prefab": "TM_Castle_PillarDecor_CoafOfArms03_Banner02",
     "guid": -876427373,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CoafOfArms03_Banner02",
+    "displayNameEn": "'Nightfall' Flush Mounted Banner",
+    "displayLocalizationGuid": "6514ad25-e8e3-406b-ba4c-eb75427e30c1"
   },
   "TM_Castle_PillarDecor_CrowWing01": {
     "prefab": "TM_Castle_PillarDecor_CrowWing01",
     "guid": 1713970619,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CrowWing01",
+    "displayNameEn": "'Corax' Wing",
+    "displayLocalizationGuid": "8f69e2cb-70f1-489a-a0f1-56ff04413926"
   },
   "TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01": {
     "prefab": "TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01",
     "guid": 1870073967,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CrystalLamp_HangingLanterns01",
+    "displayNameEn": "'Clairvoyance' Hanging Lamp",
+    "displayLocalizationGuid": "231b6bb5-0d6c-4e4d-8928-65468e294320"
   },
   "TM_Castle_PillarDecor_CrystalLamp_Lantern01": {
     "prefab": "TM_Castle_PillarDecor_CrystalLamp_Lantern01",
     "guid": -1996281667,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_CrystalLamp_Lantern01",
+    "displayNameEn": "'Clairvoyance' Lamp Sconce",
+    "displayLocalizationGuid": "5ccc2118-c2c0-4c29-bfd1-6636e281ec31"
   },
   "TM_Castle_PillarDecor_DecorationPropBase": {
     "prefab": "TM_Castle_PillarDecor_DecorationPropBase",
@@ -6756,170 +6908,218 @@
   "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable": {
     "prefab": "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable",
     "guid": 1969574504,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Dyable",
+    "displayNameEn": "Ancient Symphony Candelabra",
+    "displayLocalizationGuid": "9262ffe9-3eb3-43f0-9822-332e18ea89ba"
   },
   "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange": {
     "prefab": "TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange",
     "guid": 876159415,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_DLC_ProjectK_Torch01_Orange",
+    "displayNameEn": "Ancient Symphony Candelabra",
+    "displayLocalizationGuid": "9262ffe9-3eb3-43f0-9822-332e18ea89ba"
   },
   "TM_Castle_PillarDecor_DoorBell_Gothic01": {
     "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic01",
     "guid": 743735705,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A functional decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_DoorBell_Gothic01",
+    "displayNameEn": "'Nocturne' Door Bell",
+    "displayLocalizationGuid": "b94aad61-ed38-492a-9d60-b5b187c00b44"
   },
   "TM_Castle_PillarDecor_DoorBell_Gothic02": {
     "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic02",
     "guid": -359707458,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A functional decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_DoorBell_Gothic02",
+    "displayNameEn": "'Cordial' Door Bell",
+    "displayLocalizationGuid": "1841de7e-5bbc-4933-96d1-226f46fcad65"
   },
   "TM_Castle_PillarDecor_DoorBell_Gothic03": {
     "prefab": "TM_Castle_PillarDecor_DoorBell_Gothic03",
     "guid": -1037785378,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A functional decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_DoorBell_Gothic03",
+    "displayNameEn": "'Distinguished' Door Bell",
+    "displayLocalizationGuid": "eadb1493-2550-43f3-9b5d-2d557e3e87b1"
   },
   "TM_Castle_PillarDecor_Garden_BloodRose01": {
     "prefab": "TM_Castle_PillarDecor_Garden_BloodRose01",
     "guid": -328288413,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Garden_BloodRose01",
+    "displayNameEn": "Wall Growth - Blood Rose",
+    "displayLocalizationGuid": "17b0f7d9-0114-458d-a2b4-a386f2c7a52b"
   },
   "TM_Castle_PillarDecor_Garden_Cursed01": {
     "prefab": "TM_Castle_PillarDecor_Garden_Cursed01",
     "guid": 1932505670,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Garden_Cursed01",
+    "displayNameEn": "Wall Growth - Morass",
+    "displayLocalizationGuid": "a7ba83da-234e-4d68-aaa3-d66955d1fa1c"
   },
   "TM_Castle_PillarDecor_Garden_Ivy01": {
     "prefab": "TM_Castle_PillarDecor_Garden_Ivy01",
     "guid": 172664191,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Garden_Ivy01",
+    "displayNameEn": "Wall Growth - Ivy",
+    "displayLocalizationGuid": "eac37743-81b7-42da-8868-c7fae7cdbd45"
   },
   "TM_Castle_PillarDecor_Garden_Wisteria01": {
     "prefab": "TM_Castle_PillarDecor_Garden_Wisteria01",
     "guid": -479059917,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Decorative vegetation for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Garden_Wisteria01",
+    "displayNameEn": "Wall Growth - Wisteria",
+    "displayLocalizationGuid": "359df15f-5d16-4e63-8ec9-b71e10ad5512"
   },
   "TM_Castle_PillarDecor_Gargoyle01": {
     "prefab": "TM_Castle_PillarDecor_Gargoyle01",
     "guid": 328148479,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decoration for your pillars.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gargoyle01",
+    "displayNameEn": "'Nocturne' Gargoyle",
+    "displayLocalizationGuid": "8978021a-d3f2-4894-a3aa-b3dc767c37f3"
   },
   "TM_Castle_PillarDecor_Gothic_Candle01_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle01_Dyable",
     "guid": 1209886173,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle01_Dyable",
+    "displayNameEn": "'Ardent' Candle Sconce",
+    "displayLocalizationGuid": "cd578430-b4e8-40d3-9a1f-4f9e24aa0a5b"
   },
   "TM_Castle_PillarDecor_Gothic_Candle02_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle02_Dyable",
     "guid": 1810336204,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle02_Dyable",
+    "displayNameEn": "'Modest' Candle Sconce",
+    "displayLocalizationGuid": "72456486-ab90-4445-a745-bf061b5854e2"
   },
   "TM_Castle_PillarDecor_Gothic_Candle03_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle03_Dyable",
     "guid": -777269524,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle03_Dyable",
+    "displayNameEn": "'Gothica' Candle Sconce",
+    "displayLocalizationGuid": "53d73ef6-f806-484b-82d1-b49938134a8b"
   },
   "TM_Castle_PillarDecor_Gothic_Candle04_Gold_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Gold_Dyable",
     "guid": 1171228583,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle04_Gold_Dyable",
+    "displayNameEn": "'Verdant' Candle Sconce",
+    "displayLocalizationGuid": "a5b5fc90-cbef-4d24-bf21-36a421854cf6"
   },
   "TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable",
     "guid": -42990661,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle04_Silver_Dyable",
+    "displayNameEn": "'Verdant' Candle Sconce",
+    "displayLocalizationGuid": "a5b5fc90-cbef-4d24-bf21-36a421854cf6"
   },
   "TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable",
     "guid": 1321004130,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Candle04_Wood_Dyable",
+    "displayNameEn": "'Verdant' Candle Sconce",
+    "displayLocalizationGuid": "a5b5fc90-cbef-4d24-bf21-36a421854cf6"
   },
   "TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green": {
     "prefab": "TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green",
     "guid": -19009133,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_GloomrotLantern01_Green",
+    "displayNameEn": "Mounted Chemical Light",
+    "displayLocalizationGuid": "cf8e572b-51a3-47b3-8209-26dd8f8091be"
   },
   "TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange",
     "guid": -721714254,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HalloweenLantern01_Orange",
+    "displayNameEn": "Haunted Nights Gourd Lantern",
+    "displayLocalizationGuid": "55e5a681-1261-4d9f-a051-5f9599b3f9c5"
   },
   "TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange",
     "guid": 514660688,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HangingLantern01_Orange",
+    "displayNameEn": "'Elegant' Hanging Lantern",
+    "displayLocalizationGuid": "b72a901c-1998-4da8-b71b-41815681dd53"
   },
   "TM_Castle_PillarDecor_Gothic_HangingLantern02": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern02",
     "guid": 1039319072,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HangingLantern02",
+    "displayNameEn": "'Basilica' Hanging Lantern",
+    "displayLocalizationGuid": "b9610f92-5515-42ed-a330-ac5eccf7a2fa"
   },
   "TM_Castle_PillarDecor_Gothic_HangingLantern03": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern03",
     "guid": 222452688,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HangingLantern03",
+    "displayNameEn": "'Balefire' Hanging Lantern",
+    "displayLocalizationGuid": "353ce81a-d441-48fa-8402-b7ffd38310db"
   },
   "TM_Castle_PillarDecor_Gothic_HangingLantern04": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern04",
     "guid": -1938248109,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HangingLantern04",
+    "displayNameEn": "'Gothica' Hanging Lantern",
+    "displayLocalizationGuid": "677ebefd-03b2-4d71-b084-1ae3d0b92f91"
   },
   "TM_Castle_PillarDecor_Gothic_HangingLantern05": {
     "prefab": "TM_Castle_PillarDecor_Gothic_HangingLantern05",
     "guid": 1990191735,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_HangingLantern05",
+    "displayNameEn": "'Esoterica' Hanging Lantern",
+    "displayLocalizationGuid": "14212a72-6833-4f9b-9cec-9f71ddb511ef"
   },
   "TM_Castle_PillarDecor_Gothic_Torch01_Orange": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Torch01_Orange",
     "guid": -1998196357,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_PillarDecor_Gothic_Torch01_Orange",
+    "displayNameEn": "'Modest' Torch",
+    "displayLocalizationGuid": "d79e5faa-5593-4ae4-aa1b-d9048665f898"
   },
   "TM_Castle_PillarDecor_Gothic_Torch02": {
     "prefab": "TM_Castle_PillarDecor_Gothic_Torch02",
