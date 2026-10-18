@@ -4979,9 +4979,11 @@
   "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03": {
     "prefab": "TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03",
     "guid": 2032291686,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An elegant decoration for your garden.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Garden_Hedgerow01_tall_pillar02_decor03",
+    "displayNameEn": "Hedge - Tall Round Column w. Droplet",
+    "displayLocalizationGuid": "681c286a-fd6c-4ea8-a2bf-89cbed5818e8"
   },
   "TM_Castle_ObjectDecor_GardenBench01": {
     "prefab": "TM_Castle_ObjectDecor_GardenBench01",
@@ -5121,695 +5123,893 @@
   "TM_Castle_ObjectDecor_Globe02": {
     "prefab": "TM_Castle_ObjectDecor_Globe02",
     "guid": 1988389551,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Vardoran-centric world globe.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Globe02",
+    "displayNameEn": "'Vardoran' Globe",
+    "displayLocalizationGuid": "ef871279-ec66-4732-b524-6fd53824baa5"
   },
   "TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green": {
     "prefab": "TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green",
     "guid": -618554922,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gloomrot01_Brazier01_Green",
+    "displayNameEn": "Chemical Light Podium",
+    "displayLocalizationGuid": "eacb2b67-cd4b-4c41-b59a-d9b783ab3f17"
   },
   "TM_Castle_ObjectDecor_Gothic_Brazier01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier01_Orange",
     "guid": -2093005534,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Brazier01_Orange",
+    "displayNameEn": "'Elegant' Brazier",
+    "displayLocalizationGuid": "f0294c4b-2cb5-4fa9-9189-86d8c32785af"
   },
   "TM_Castle_ObjectDecor_Gothic_Brazier02_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier02_Orange",
     "guid": 1965326190,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Brazier02_Orange",
+    "displayNameEn": "'Gothica' Brazier",
+    "displayLocalizationGuid": "d6ce9ffa-c250-4a8a-8280-a571afcd849b"
   },
   "TM_Castle_ObjectDecor_Gothic_Brazier03_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier03_Orange",
     "guid": 224878241,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Brazier03_Orange",
+    "displayNameEn": "'Cabal' Brazier",
+    "displayLocalizationGuid": "3ac4a98b-23be-460a-bd1d-0bd7e7c7eee5"
   },
   "TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC",
     "guid": 1965581787,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Brazier04_Orange_DLC",
+    "displayNameEn": "Royal Brazier",
+    "displayLocalizationGuid": "f8492fcd-621a-4b6f-976f-26217a6a1a25"
   },
   "TM_Castle_ObjectDecor_Gothic_Brazier05_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Brazier05_Orange",
     "guid": -887031154,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Brazier05_Orange",
+    "displayNameEn": "'Balefire' Brazier",
+    "displayLocalizationGuid": "70f44964-1210-4f44-a9d3-7cba581de17f"
   },
   "TM_Castle_ObjectDecor_Gothic_BustStatue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_BustStatue_Female01",
     "guid": 1005770867,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_BustStatue_Female01",
+    "displayNameEn": "Black Marble Bust - Female",
+    "displayLocalizationGuid": "19e0c65e-528b-4408-bd76-982cc59e970e"
   },
   "TM_Castle_ObjectDecor_Gothic_BustStatue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_BustStatue_Male01",
     "guid": -1463516461,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_BustStatue_Male01",
+    "displayNameEn": "Black Marble Bust - Male",
+    "displayLocalizationGuid": "d5ec3671-82ed-4d7c-993d-19df16e84295"
   },
   "TM_Castle_ObjectDecor_Gothic_CandleRack01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_CandleRack01_Orange",
     "guid": 656976091,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_CandleRack01_Orange",
+    "displayNameEn": "'Invocation' Candle Rack",
+    "displayLocalizationGuid": "6bfb9326-269f-4333-aa9d-5875184a61cf"
   },
   "TM_Castle_ObjectDecor_Gothic_CandleStand01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_CandleStand01",
     "guid": 709669487,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_CandleStand01",
+    "displayNameEn": "'Elegant' Candelabra",
+    "displayLocalizationGuid": "37a7fed3-a644-409f-be5b-ade3613ced46"
   },
   "TM_Castle_ObjectDecor_Gothic_Podium01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Podium01",
     "guid": -590609504,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A simple podium.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Podium01",
+    "displayNameEn": "'Dignity' Podium",
+    "displayLocalizationGuid": "aa6c54fa-c48f-4db3-b5b5-07ce456ded51"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01",
     "guid": -593905838,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01DuoGargoyle01",
+    "displayNameEn": "'Eldest' Dueling Gargoyles",
+    "displayLocalizationGuid": "a5edb03e-6948-4bdf-9405-c69ad887c86d"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle01",
     "guid": 1326445798,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle01",
+    "displayNameEn": "'Eldest' Lurking Gargoyle",
+    "displayLocalizationGuid": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle02": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle02",
     "guid": 2123129022,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle02",
+    "displayNameEn": "'Eldest' Crouching Gargoyle",
+    "displayLocalizationGuid": "05b850a4-e3d9-41d5-93f8-1f6d513286f6"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle03": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle03",
     "guid": 725766266,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle03",
+    "displayNameEn": "'Eldest' Pleading Gargoyle",
+    "displayLocalizationGuid": "69941111-c888-442e-938a-ccb15322940c"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle04": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle04",
     "guid": -1985503763,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle04",
+    "displayNameEn": "'Eldest' Pondering Gargoyle",
+    "displayLocalizationGuid": "85091ca8-0ec7-4b62-ac30-9631d6df7321"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle05": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle05",
     "guid": -411374179,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle05",
+    "displayNameEn": "'Eldest' Roaring Gargoyle",
+    "displayLocalizationGuid": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle06": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle06",
     "guid": 581940747,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle06",
+    "displayNameEn": "'Eldest' Agonized Gargoyle",
+    "displayLocalizationGuid": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle07": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle07",
     "guid": -1986302834,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle07",
+    "displayNameEn": "'Eldest' Victorious Gargoyle",
+    "displayLocalizationGuid": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08",
     "guid": 1245961354,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLC01Gargoyle08",
+    "displayNameEn": "'Eldest' Challenging Gargoyle",
+    "displayLocalizationGuid": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Female": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Female",
     "guid": -1509963504,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Female",
+    "displayNameEn": "Female Plague Chemist’s Dedication",
+    "displayLocalizationGuid": "27d7c8d6-e618-4889-a9c9-e40e84ad4bd7"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Male": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Male",
     "guid": 1853226864,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Male",
+    "displayNameEn": "Male Plague Chemist’s Dedication",
+    "displayLocalizationGuid": "7cd5d373-310c-49c9-9b2c-b2399e7e1579"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat01",
     "guid": -154100892,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative glass display.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat01",
+    "displayNameEn": "Plague Chemist’s Experiment",
+    "displayLocalizationGuid": "2f5035cc-de8c-42af-87db-7c65a2043ce4"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat02": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat02",
     "guid": -567491057,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative glass display.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat02",
+    "displayNameEn": "Plague Chemist’s Prototype",
+    "displayLocalizationGuid": "c8ea0e49-87e3-4322-b07b-c744c1abd4cc"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03",
     "guid": -751931539,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative glass display.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_DLCGloomrot_Vat03",
+    "displayNameEn": "Plague Chemist’s Thesis",
+    "displayLocalizationGuid": "9617cb1c-70e1-4642-8d93-f1a86981b511"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Female01",
     "guid": -84369225,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_Female01",
+    "displayNameEn": "Black Marble Statue - Female",
+    "displayLocalizationGuid": "bf65578e-80c8-4f8f-a495-a2ba0427567d"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Gargoyle01",
     "guid": -1870409563,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_Gargoyle01",
+    "displayNameEn": "Patient Gargoyle",
+    "displayLocalizationGuid": "2328f26b-2956-4d5c-9342-03193c5bb301"
   },
   "TM_Castle_ObjectDecor_Gothic_Statue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Statue_Male01",
     "guid": -1198796948,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Statue_Male01",
+    "displayNameEn": "Black Marble Statue - Male",
+    "displayLocalizationGuid": "92ff50d6-1635-4366-afaa-33505b81d998"
   },
   "TM_Castle_ObjectDecor_Gothic_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Vase01",
     "guid": -479280465,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Vase01",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_Gothic_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Vase02",
     "guid": -1076384196,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Vase02",
+    "displayNameEn": "'Augur' Series Vase w. Geranium Plant",
+    "displayLocalizationGuid": "ebd5145e-1e17-45a5-8576-b873793a0d63"
   },
   "TM_Castle_ObjectDecor_Gothic_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Vase03",
     "guid": -76851715,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Vase03",
+    "displayNameEn": "'Augur' Series Vase w. Coleus Plant",
+    "displayLocalizationGuid": "2f42b89d-e77a-4219-a081-31cee1d4a2d7"
   },
   "TM_Castle_ObjectDecor_Gothic_Vase04": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Vase04",
     "guid": 2030984728,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Vase04",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_Gothic_Vase05": {
     "prefab": "TM_Castle_ObjectDecor_Gothic_Vase05",
     "guid": -1537403426,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Gothic_Vase05",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_GrandfatherClock_Base": {
     "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Base",
     "guid": -6983693,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A large clock.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GrandfatherClock_Base",
+    "displayNameEn": "'Omen' Longcase Clock",
+    "displayLocalizationGuid": "e36a4d18-f7f6-439b-86d3-389ea2db0c91"
   },
   "TM_Castle_ObjectDecor_GrandfatherClock_Cabal01": {
     "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Cabal01",
     "guid": -1623564712,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A large clock.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GrandfatherClock_Cabal01",
+    "displayNameEn": "'Cordial' Longcase Clock",
+    "displayLocalizationGuid": "23468223-1b23-4120-af44-7c72e0d38ae0"
   },
   "TM_Castle_ObjectDecor_GrandfatherClock_Gothic01": {
     "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Gothic01",
     "guid": -561639815,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A large clock.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GrandfatherClock_Gothic01",
+    "displayNameEn": "'Omen' Longcase Clock",
+    "displayLocalizationGuid": "e36a4d18-f7f6-439b-86d3-389ea2db0c91"
   },
   "TM_Castle_ObjectDecor_GrandfatherClock_Lavish01": {
     "prefab": "TM_Castle_ObjectDecor_GrandfatherClock_Lavish01",
     "guid": 1136472160,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A large clock.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_GrandfatherClock_Lavish01",
+    "displayNameEn": "'Distinguished' Longcase Clock",
+    "displayLocalizationGuid": "5d9012d3-9f47-4356-94aa-83033e9c967e"
   },
   "TM_Castle_ObjectDecor_Halloween01_Brazier01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier01_Orange",
     "guid": -1296321304,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Halloween01_Brazier01_Orange",
+    "displayNameEn": "Haunted Nights Laughing Pumpkin",
+    "displayLocalizationGuid": "28265fc9-acd4-485f-a897-bbe67547e15a"
   },
   "TM_Castle_ObjectDecor_Halloween01_Brazier02_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier02_Orange",
     "guid": 561843274,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Halloween01_Brazier02_Orange",
+    "displayNameEn": "Haunted Nights Grinning Pumpkin",
+    "displayLocalizationGuid": "640b31a5-c097-4fa8-a548-f99f75ca06b2"
   },
   "TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange",
     "guid": -86884256,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Halloween01_Brazier03_Orange",
+    "displayNameEn": "Haunted Nights Wailing Pumpkin",
+    "displayLocalizationGuid": "3e2f40f5-b2b3-4da4-8d7b-c89e17c70965"
   },
   "TM_Castle_ObjectDecor_Halloween01_Brazier04_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Halloween01_Brazier04_Orange",
     "guid": 444000363,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Halloween01_Brazier04_Orange",
+    "displayNameEn": "Haunted Nights Skull Candles",
+    "displayLocalizationGuid": "2032a643-5172-4d7f-8e14-b0715ffba0ac"
   },
   "TM_Castle_ObjectDecor_Instrument_Base": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_Base",
     "guid": -1848307090,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_Base",
+    "displayNameEn": "'Distinguished' Grand Piano",
+    "displayLocalizationGuid": "a54c3066-9cab-4311-8dfb-8d901846890e"
   },
   "TM_Castle_ObjectDecor_Instrument_GrandPiano01": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_GrandPiano01",
     "guid": -409684408,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_GrandPiano01",
+    "displayNameEn": "'Distinguished' Grand Piano",
+    "displayLocalizationGuid": "a54c3066-9cab-4311-8dfb-8d901846890e"
   },
   "TM_Castle_ObjectDecor_Instrument_GrandPiano02": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_GrandPiano02",
     "guid": -280549553,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_GrandPiano02",
+    "displayNameEn": "'Omen' Grand Piano",
+    "displayLocalizationGuid": "daa6503c-2d92-44c9-93d1-c1be59580504"
   },
   "TM_Castle_ObjectDecor_Instrument_Harp01": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_Harp01",
     "guid": 1246795581,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_Harp01",
+    "displayNameEn": "'Distinguished' Harp",
+    "displayLocalizationGuid": "5c490aa3-cb79-4b50-8555-0ee64a301a2a"
   },
   "TM_Castle_ObjectDecor_Instrument_Harp02": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_Harp02",
     "guid": 591881817,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_Harp02",
+    "displayNameEn": "'Omen' Harp",
+    "displayLocalizationGuid": "4179e764-63d2-4e00-8a1b-80ed064eb785"
   },
   "TM_Castle_ObjectDecor_Instrument_Organ01": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_Organ01",
     "guid": -1894293910,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_Organ01",
+    "displayNameEn": "'Omen' Organ",
+    "displayLocalizationGuid": "8fd6afa4-7652-4edc-90af-7e488f01f3e5"
   },
   "TM_Castle_ObjectDecor_Instrument_Organ02": {
     "prefab": "TM_Castle_ObjectDecor_Instrument_Organ02",
     "guid": -544504736,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A musical instrument.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Instrument_Organ02",
+    "displayNameEn": "'Distinguished' Organ",
+    "displayLocalizationGuid": "c2a0b079-b7f5-4b12-ba70-a55f26aaeb4f"
   },
   "TM_Castle_ObjectDecor_Lavish_Brazier01_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Brazier01_Orange",
     "guid": 521970438,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Brazier01_Orange",
+    "displayNameEn": "'Ardent' Brazier",
+    "displayLocalizationGuid": "b3bc9551-a772-4284-8ec7-c0eba42120c1"
   },
   "TM_Castle_ObjectDecor_Lavish_BustStatue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_BustStatue_Female01",
     "guid": -420564298,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_BustStatue_Female01",
+    "displayNameEn": "Alabaster Bust - Female",
+    "displayLocalizationGuid": "92455726-a299-4681-8784-dd27a17e9427"
   },
   "TM_Castle_ObjectDecor_Lavish_BustStatue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_BustStatue_Male01",
     "guid": -1841799555,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_BustStatue_Male01",
+    "displayNameEn": "Alabaster Bust - Male",
+    "displayLocalizationGuid": "2a47df6e-c902-4e90-a800-d3437ee86127"
   },
   "TM_Castle_ObjectDecor_Lavish_CandleStand01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_CandleStand01",
     "guid": 1080320533,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Used to light up rooms.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_CandleStand01",
+    "displayNameEn": "'Ardent' Candelabra",
+    "displayLocalizationGuid": "d5051e1b-553a-460e-a5ac-75c3d2f918ed"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01DuoGargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01DuoGargoyle01",
     "guid": -596981388,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01DuoGargoyle01",
+    "displayNameEn": "'Eldest' Dueling Gargoyles",
+    "displayLocalizationGuid": "180be719-4217-43bd-a097-22a8c46ba514"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle01",
     "guid": 34149911,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle01",
+    "displayNameEn": "'Eldest' Lurking Gargoyle",
+    "displayLocalizationGuid": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02",
     "guid": -444096842,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle02",
+    "displayNameEn": "'Eldest' Crouching Gargoyle",
+    "displayLocalizationGuid": "05b850a4-e3d9-41d5-93f8-1f6d513286f6"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle03": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle03",
     "guid": 22771948,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle03",
+    "displayNameEn": "'Eldest' Pleading Gargoyle",
+    "displayLocalizationGuid": "69941111-c888-442e-938a-ccb15322940c"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle04": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle04",
     "guid": 210845918,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle04",
+    "displayNameEn": "'Eldest' Pondering Gargoyle",
+    "displayLocalizationGuid": "85091ca8-0ec7-4b62-ac30-9631d6df7321"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle05": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle05",
     "guid": 1065525459,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle05",
+    "displayNameEn": "'Eldest' Roaring Gargoyle",
+    "displayLocalizationGuid": "a83915f6-3f91-4090-9ce6-6d9c56f26ad4"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle06": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle06",
     "guid": -374509611,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle06",
+    "displayNameEn": "'Eldest' Agonized Gargoyle",
+    "displayLocalizationGuid": "db3b15bd-abc9-4066-b03b-bdf2d5e4e4c5"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle07": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle07",
     "guid": -1086525411,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle07",
+    "displayNameEn": "'Eldest' Victorious Gargoyle",
+    "displayLocalizationGuid": "3aa3bdbb-4b8d-4dd5-8df1-cc4663527b8b"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle08": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle08",
     "guid": -96779386,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_DLC01Gargoyle08",
+    "displayNameEn": "'Eldest' Challenging Gargoyle",
+    "displayLocalizationGuid": "9ca32b0b-4604-4a50-bedf-a937d2f0f9e7"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Female01",
     "guid": 1302388238,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_Female01",
+    "displayNameEn": "Alabaster Statue - Female",
+    "displayLocalizationGuid": "f7e20019-c818-4494-ad6b-40fdc25b1a3f"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Gargoyle01",
     "guid": 1902853849,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_Gargoyle01",
+    "displayNameEn": "Patient Gargoyle",
+    "displayLocalizationGuid": "b2716016-5095-4fc5-8826-201281617ad3"
   },
   "TM_Castle_ObjectDecor_Lavish_Statue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Statue_Male01",
     "guid": -1248717894,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Statue_Male01",
+    "displayNameEn": "Alabaster Statue - Male",
+    "displayLocalizationGuid": "bdac9fb5-3ced-4a0b-9344-f667f8f7a0a0"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase01",
     "guid": -779774088,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase01",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase02",
     "guid": -2087497758,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase02",
+    "displayNameEn": "'Alabaster' Series Vase w. Geranium Plant",
+    "displayLocalizationGuid": "c4c2ad86-13d2-412a-bdb9-c29295eb8e62"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase03",
     "guid": -1218974349,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase03",
+    "displayNameEn": "'Alabaster' Series Vase w. Coffee Plant",
+    "displayLocalizationGuid": "e6ece542-9239-4e3e-9403-8bfd534c3d71"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase04_Unused": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase04_Unused",
     "guid": 1781510688,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase04_Unused",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase05": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase05",
     "guid": -1312712675,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase05",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase06": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase06",
     "guid": 851602346,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase06",
+    "displayNameEn": "'Alabaster' Series Vase w. Coleus Plant",
+    "displayLocalizationGuid": "bcad404f-fb43-4c14-8b41-6e7adf7770b4"
   },
   "TM_Castle_ObjectDecor_Lavish_Vase07": {
     "prefab": "TM_Castle_ObjectDecor_Lavish_Vase07",
     "guid": -595181570,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Lavish_Vase07",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_OutdoorDecoration_Base": {
     "prefab": "TM_Castle_ObjectDecor_OutdoorDecoration_Base",
     "guid": 845709672,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A wider, less efficient seat for one.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_OutdoorDecoration_Base",
+    "displayNameEn": "'Cordial' Sofa",
+    "displayLocalizationGuid": "7c8f9275-f69b-4ad1-8ca3-89740dbe05f9"
   },
   "TM_Castle_ObjectDecor_Parent_Cabal_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase01",
     "guid": 1958206979,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Cabal_Vase01",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_Parent_Cabal_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase02",
     "guid": 144463441,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Cabal_Vase02",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_Parent_Cabal_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Cabal_Vase03",
     "guid": -209525166,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Cabal_Vase03",
+    "displayNameEn": "'Pelagic' Series Vase",
+    "displayLocalizationGuid": "02974344-300b-4732-a8fe-b994e2ed63de"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase01",
     "guid": -1346427067,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase01",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase02",
     "guid": 407233445,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase02",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase03",
     "guid": -1275348909,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase03",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase04": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase04",
     "guid": 133934624,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase04",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase05": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase05",
     "guid": -118403276,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase05",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Fancy_Vase06": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Fancy_Vase06",
     "guid": -1781755513,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Fancy_Vase06",
+    "displayNameEn": "'Opulent' Series Vase",
+    "displayLocalizationGuid": "bd9bfc0e-bccc-4332-977c-227935fff3ba"
   },
   "TM_Castle_ObjectDecor_Parent_Marble_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase01",
     "guid": 64005732,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Marble_Vase01",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Parent_Marble_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase02",
     "guid": -394501959,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Marble_Vase02",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Parent_Marble_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Marble_Vase03",
     "guid": 1650910016,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Marble_Vase03",
+    "displayNameEn": "'Noble' Series Vase",
+    "displayLocalizationGuid": "203d58b8-1137-4c6e-9e0e-70a6fcc38582"
   },
   "TM_Castle_ObjectDecor_Parent_Metal_Vase01": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase01",
     "guid": -1359956150,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Metal_Vase01",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_Parent_Metal_Vase02": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase02",
     "guid": 814967763,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Metal_Vase02",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_Parent_Metal_Vase03": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Metal_Vase03",
     "guid": -1227210056,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A fancy vase for a fancy castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Metal_Vase03",
+    "displayNameEn": "'Augur' Series Vase",
+    "displayLocalizationGuid": "4e5359df-92be-4736-91c0-7cc613d0655d"
   },
   "TM_Castle_ObjectDecor_Parent_Stable_BarrelVase01": {
     "prefab": "TM_Castle_ObjectDecor_Parent_Stable_BarrelVase01",
     "guid": 1310922184,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A less fancy \"vase\" for your rustic castle?",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Parent_Stable_BarrelVase01",
+    "displayNameEn": "Barrel Planter",
+    "displayLocalizationGuid": "319bcd5b-105c-4bc8-81a1-7c5bcf6a460d"
   },
   "TM_Castle_ObjectDecor_Pool_StrongbladeDLC01": {
     "prefab": "TM_Castle_ObjectDecor_Pool_StrongbladeDLC01",
     "guid": 558668025,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pool for relaxation and cleanliness.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Pool_StrongbladeDLC01",
+    "displayNameEn": "Nocturnal Opulence Square Pool",
+    "displayLocalizationGuid": "f1405cef-0101-4e87-8b01-12003f25d023"
   },
   "TM_Castle_ObjectDecor_Pool_StrongbladeDLC02": {
     "prefab": "TM_Castle_ObjectDecor_Pool_StrongbladeDLC02",
     "guid": -1963794511,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A pool for relaxation and cleanliness.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Pool_StrongbladeDLC02",
+    "displayNameEn": "Nocturnal Opulence Round Pool",
+    "displayLocalizationGuid": "177d9629-3982-401c-ab3f-689b3d6af9d0"
   },
   "TM_Castle_ObjectDecor_Simple_Brazier_Orange": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Brazier_Orange",
     "guid": -899747642,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Lights up the dark.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Brazier_Orange",
+    "displayNameEn": "'Modest' Brazier",
+    "displayLocalizationGuid": "26bbf869-c76e-40f7-b4d1-12828dd470a5"
   },
   "TM_Castle_ObjectDecor_Simple_BustStatue_Female01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_BustStatue_Female01",
     "guid": 2003546745,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_BustStatue_Female01",
+    "displayNameEn": "Granite Bust - Female",
+    "displayLocalizationGuid": "026238ec-318a-4b87-8ced-55e97618c4ed"
   },
   "TM_Castle_ObjectDecor_Simple_BustStatue_Male01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_BustStatue_Male01",
     "guid": -83822172,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted bust.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_BustStatue_Male01",
+    "displayNameEn": "Granite Bust - Male",
+    "displayLocalizationGuid": "48f9558e-c07f-41f7-a88e-1343d72a17c5"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01",
     "guid": 2093267606,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01DuoGargoyle01",
+    "displayNameEn": "'Eldest' Dueling Gargoyles",
+    "displayLocalizationGuid": "180be719-4217-43bd-a097-22a8c46ba514"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle01": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle01",
     "guid": -1145446161,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle01",
+    "displayNameEn": "'Eldest' Lurking Gargoyle",
+    "displayLocalizationGuid": "3e453a7e-0b79-4927-9ecb-4e84e74f58c6"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle02": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle02",
     "guid": -1017411502,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle02",
+    "displayNameEn": "'Eldest' Crouching Gargoyle",
+    "displayLocalizationGuid": "05b850a4-e3d9-41d5-93f8-1f6d513286f6"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle03": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle03",
     "guid": 1951605041,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle03",
+    "displayNameEn": "'Eldest' Pleading Gargoyle",
+    "displayLocalizationGuid": "69941111-c888-442e-938a-ccb15322940c"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle04": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle04",
     "guid": 781996044,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A decorative sculpted statue.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle04",
+    "displayNameEn": "'Eldest' Pondering Gargoyle",
+    "displayLocalizationGuid": "85091ca8-0ec7-4b62-ac30-9631d6df7321"
   },
   "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05": {
     "prefab": "TM_Castle_ObjectDecor_Simple_Statue_DLC01Gargoyle05",
