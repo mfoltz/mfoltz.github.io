@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { validateGeneratedBlueprintText } from "./blueprint-text-generated";
-test("138 owned Blueprint descriptions and all 118 related labels propagate to exact destinations", async () => {
+test("238 owned Blueprint descriptions and all 286 related labels propagate to exact destinations", async () => {
   assert.deepEqual(await validateGeneratedBlueprintText(process.cwd()),
-    { names: 138, descriptions: 138, materialReferences: 85, bookReferences: 33, itemOwners: 51, newMaterialReferences: 66, newBookReferences: 32, newItemOwners: 43 });
+    { names: 238, descriptions: 238, materialReferences: 205, bookReferences: 81, itemOwners: 63, newMaterialReferences: 66, newBookReferences: 32, newItemOwners: 43,
+      remainingMaterialReferences: 120, remainingBookReferences: 48, remainingItemOwners: 24 });
 });

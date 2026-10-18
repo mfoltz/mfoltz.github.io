@@ -41,6 +41,8 @@ export async function validateGeneratedBlueprintText(root: string) {
     destinations.set(row.prefab, { entry, detail });
   }
   let materialReferences = 0, bookReferences = 0, newMaterialReferences = 0, newBookReferences = 0;
+  let remainingMaterialReferences = 0, remainingBookReferences = 0;
+  const remainingOwners = new Set<string>(), remainingPrefabs = new Set(capture.remaining.rows.map(row => row.prefab));
   const itemOwners = new Set<string>(), newItemOwners = new Set<string>();
   const expansionPrefabs = new Set(capture.expansion.rows.map(row => row.prefab));
   for (const name of await readdir(path.join(root, "public/data/db/items/by-slug"))) {
@@ -52,19 +54,24 @@ export async function validateGeneratedBlueprintText(root: string) {
       assert.equal(ref.icon, target.entry.portraitAssetPath);
       itemOwners.add(item.prefab!);
       if (field === "materialBlueprints") materialReferences++; else bookReferences++;
+      if (remainingPrefabs.has(ref.prefab)) {
+        remainingOwners.add(item.prefab!);
+        if (field === "materialBlueprints") remainingMaterialReferences++; else remainingBookReferences++;
+      }
       if (expansionPrefabs.has(ref.prefab)) {
         newItemOwners.add(item.prefab!);
         if (field === "materialBlueprints") newMaterialReferences++; else newBookReferences++;
       }
     }
   }
-  assert.equal(materialReferences, 85); assert.equal(bookReferences, 33); assert.equal(itemOwners.size, 51);
+  assert.equal(materialReferences, 205); assert.equal(bookReferences, 81); assert.equal(itemOwners.size, 63);
+  assert.equal(remainingMaterialReferences, 120); assert.equal(remainingBookReferences, 48); assert.equal(remainingOwners.size, 24);
   assert.equal(newMaterialReferences, 66); assert.equal(newBookReferences, 32); assert.equal(newItemOwners.size, 43);
   for (const prefab of ["BP_Castle_Chain_Plant_BleedingHeart", "BP_Castle_Debug_Room"]) {
     const owned = capture.expansion.rows.find(row => row.prefab === prefab)!;
     assert.equal(map[prefab].sourceKind, "extractor-raw"); assert.equal(map[prefab].displayNameEn, owned.nameRaw);
     assert.equal(map[prefab].summaryEn, owned.native.text);
   }
-  return { names: 138, descriptions: 138, materialReferences, bookReferences, itemOwners: itemOwners.size,
-    newMaterialReferences, newBookReferences, newItemOwners: newItemOwners.size };
+  return { names: 238, descriptions: 238, materialReferences, bookReferences, itemOwners: itemOwners.size,
+    newMaterialReferences, newBookReferences, newItemOwners: newItemOwners.size, remainingMaterialReferences, remainingBookReferences, remainingItemOwners: remainingOwners.size };
 }

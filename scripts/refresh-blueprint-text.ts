@@ -13,4 +13,5 @@ const coverage = JSON.parse(await readFile(coveragePath, "utf8")) as Record<stri
 coverage["blueprint-display-map"] = approvedBlueprintTextCoverage(updated);
 await writeFile(mapPath, JSON.stringify(updated, null, 2) + "\n");
 await writeFile(coveragePath, JSON.stringify(coverage, null, 2) + "\n");
-console.log("138 owned Blueprint names/descriptions imported; display coverage 144/1198.");
+console.log(capture.rows.length + " owned Blueprint names/descriptions imported; display coverage " +
+  (coverage["blueprint-display-map"] as { matched: number }).matched + "/1198.");

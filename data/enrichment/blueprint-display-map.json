@@ -1596,86 +1596,110 @@
   "TM_Castle_Fence_Iron03": {
     "prefab": "TM_Castle_Fence_Iron03",
     "guid": 1316387312,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_Iron03",
+    "displayNameEn": "'Verdant' Garden Fence",
+    "displayLocalizationGuid": "a92d0d82-7cd7-46c6-a748-ada3b9eb816c"
   },
   "TM_Castle_Fence_IronGate01": {
     "prefab": "TM_Castle_Fence_IronGate01",
     "guid": -448001608,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_IronGate01",
+    "displayNameEn": "'Nocturne' Garden Gate",
+    "displayLocalizationGuid": "472437f4-eb21-4f78-8df4-c62f1869aef1"
   },
   "TM_Castle_Fence_IronGate02": {
     "prefab": "TM_Castle_Fence_IronGate02",
     "guid": -1921424515,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_IronGate02",
+    "displayNameEn": "'Noble' Garden Gate",
+    "displayLocalizationGuid": "b5ef118b-164e-4260-ac27-5441adb55bbd"
   },
   "TM_Castle_Fence_IronGate03": {
     "prefab": "TM_Castle_Fence_IronGate03",
     "guid": -663581951,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_IronGate03",
+    "displayNameEn": "'Verdant' Garden Gate",
+    "displayLocalizationGuid": "4f99bee6-59be-4e2f-b2f0-526c13cab30c"
   },
   "TM_Castle_Fence_ProjectK01": {
     "prefab": "TM_Castle_Fence_ProjectK01",
     "guid": 519452653,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_ProjectK01",
+    "displayNameEn": "Ancient Symphony Garden Fence",
+    "displayLocalizationGuid": "2ef9eec7-d3d6-4d56-9e9e-a0f72956f446"
   },
   "TM_Castle_Fence_ProjectK01_Gate": {
     "prefab": "TM_Castle_Fence_ProjectK01_Gate",
     "guid": 155733373,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_ProjectK01_Gate",
+    "displayNameEn": "Ancient Symphony Garden Gate",
+    "displayLocalizationGuid": "96516f4a-56e0-4975-983a-7bdadd5f35e9"
   },
   "TM_Castle_Fence_Stable01": {
     "prefab": "TM_Castle_Fence_Stable01",
     "guid": 809204083,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_Stable01",
+    "displayNameEn": "Stables Fence",
+    "displayLocalizationGuid": "85faadb7-13d7-4426-a901-4d0459981368"
   },
   "TM_Castle_Fence_StableGate01": {
     "prefab": "TM_Castle_Fence_StableGate01",
     "guid": 1997273288,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your stables.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_StableGate01",
+    "displayNameEn": "Stables Gate",
+    "displayLocalizationGuid": "9ff031f7-98b7-479a-9a91-959a7fd828e8"
   },
   "TM_Castle_Fence_Wood01": {
     "prefab": "TM_Castle_Fence_Wood01",
     "guid": 1268956656,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_Wood01",
+    "displayNameEn": "'Rural' Garden Fence",
+    "displayLocalizationGuid": "28cd7f53-037e-4f9a-b1e5-a373a0c760b1"
   },
   "TM_Castle_Fence_Wood02": {
     "prefab": "TM_Castle_Fence_Wood02",
     "guid": 1847178717,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_Wood02",
+    "displayNameEn": "'Rural' Garden Fence",
+    "displayLocalizationGuid": "28cd7f53-037e-4f9a-b1e5-a373a0c760b1"
   },
   "TM_Castle_Fence_WoodGate01": {
     "prefab": "TM_Castle_Fence_WoodGate01",
     "guid": 2114550113,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_WoodGate01",
+    "displayNameEn": "'Rural' Garden Gate",
+    "displayLocalizationGuid": "452255c9-5348-412f-98e6-60dbe38ee2eb"
   },
   "TM_Castle_Fence_WoodGate02": {
     "prefab": "TM_Castle_Fence_WoodGate02",
     "guid": -191378828,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Fencing useful for elegantly structuring your gardens.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fence_WoodGate02",
+    "displayNameEn": "'Rural' Garden Gate",
+    "displayLocalizationGuid": "452255c9-5348-412f-98e6-60dbe38ee2eb"
   },
   "TM_Castle_Floor_AlchemyLab01": {
     "prefab": "TM_Castle_Floor_AlchemyLab01",
@@ -1689,16 +1713,20 @@
   "TM_Castle_Floor_AlchemyLab02": {
     "prefab": "TM_Castle_Floor_AlchemyLab02",
     "guid": -1897961716,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Alchemy Lab Floor - Applies bonuses to Alchemy Lab structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_AlchemyLab02",
+    "displayNameEn": "'Vermis' Pattern",
+    "displayLocalizationGuid": "21ab7f3a-0a64-4e31-81e1-6c807cc82664"
   },
   "TM_Castle_Floor_AlchemyLab03": {
     "prefab": "TM_Castle_Floor_AlchemyLab03",
     "guid": -1205461952,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Alchemy Lab Floor - Applies bonuses to Alchemy Lab structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_AlchemyLab03",
+    "displayNameEn": "'Exsanguinatus' Pattern",
+    "displayLocalizationGuid": "ebffd0a1-b12b-4de1-9a8d-1745d2910a5d"
   },
   "TM_Castle_Floor_AlchemyLabBase": {
     "prefab": "TM_Castle_Floor_AlchemyLabBase",
@@ -1710,23 +1738,29 @@
   "TM_Castle_Floor_Crypt01": {
     "prefab": "TM_Castle_Floor_Crypt01",
     "guid": -685318965,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Crypt Floor - Applies bonuses to Crypt structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Crypt01",
+    "displayNameEn": "'Vault' Pattern",
+    "displayLocalizationGuid": "059d54e1-8f63-4d82-a994-b947f01573be"
   },
   "TM_Castle_Floor_Crypt02": {
     "prefab": "TM_Castle_Floor_Crypt02",
     "guid": 572228191,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Crypt Floor - Applies bonuses to Crypt structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Crypt02",
+    "displayNameEn": "'Catacomb' Pattern",
+    "displayLocalizationGuid": "9490858f-e1b3-4954-b23f-580dd4c67aa9"
   },
   "TM_Castle_Floor_Crypt03": {
     "prefab": "TM_Castle_Floor_Crypt03",
     "guid": 304985570,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Crypt Floor - Applies bonuses to Crypt structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Crypt03",
+    "displayNameEn": "'Mausoleum' Pattern",
+    "displayLocalizationGuid": "d89a1b81-b008-4c95-ba61-ff58730980f3"
   },
   "TM_Castle_Floor_CryptBase": {
     "prefab": "TM_Castle_Floor_CryptBase",
@@ -1738,23 +1772,29 @@
   "TM_Castle_Floor_Forge01": {
     "prefab": "TM_Castle_Floor_Forge01",
     "guid": -420140629,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Forge Floor - Applies bonuses to Forge structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Forge01",
+    "displayNameEn": "'Sigil' Pattern",
+    "displayLocalizationGuid": "1fa289cc-f33f-4d20-8eee-afb6935c1e4c"
   },
   "TM_Castle_Floor_Forge02": {
     "prefab": "TM_Castle_Floor_Forge02",
     "guid": 1695410320,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Forge Floor - Applies bonuses to Forge structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Forge02",
+    "displayNameEn": "'Redoubt' Pattern",
+    "displayLocalizationGuid": "99b2092f-72fc-4428-821b-913ffe26baf1"
   },
   "TM_Castle_Floor_Forge03": {
     "prefab": "TM_Castle_Floor_Forge03",
     "guid": 63772249,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Forge Floor - Applies bonuses to Forge structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Forge03",
+    "displayNameEn": "'Caminus' Pattern",
+    "displayLocalizationGuid": "2cbf9878-681d-41e7-a209-e51a44d0a111"
   },
   "TM_Castle_Floor_ForgeBase": {
     "prefab": "TM_Castle_Floor_ForgeBase",
@@ -1766,79 +1806,101 @@
   "TM_Castle_Floor_Foundation_Rubble": {
     "prefab": "TM_Castle_Floor_Foundation_Rubble",
     "guid": -2018427219,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floor sections for building a Castle interior.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Rubble",
+    "displayNameEn": "Castle Flooring",
+    "displayLocalizationGuid": "50df2c0c-e575-46a1-af60-e17c52f7b316"
   },
   "TM_Castle_Floor_Foundation_Stable01": {
     "prefab": "TM_Castle_Floor_Foundation_Stable01",
     "guid": 747452298,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stable01",
+    "displayNameEn": "Brick Stables Floor",
+    "displayLocalizationGuid": "c1ef269b-000a-473f-b8e8-271a5e1e4353"
   },
   "TM_Castle_Floor_Foundation_Stable02": {
     "prefab": "TM_Castle_Floor_Foundation_Stable02",
     "guid": 2025363113,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stable02",
+    "displayNameEn": "Wooden Stables Floor",
+    "displayLocalizationGuid": "98f0e464-b6de-47dd-af9f-0840071021a1"
   },
   "TM_Castle_Floor_Foundation_Stone01": {
     "prefab": "TM_Castle_Floor_Foundation_Stone01",
     "guid": -2108338233,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone01",
+    "displayNameEn": "Diamond Pattern",
+    "displayLocalizationGuid": "1e724094-890e-4d54-863e-c33a42630b81"
   },
   "TM_Castle_Floor_Foundation_Stone01_DLCProjectK": {
     "prefab": "TM_Castle_Floor_Foundation_Stone01_DLCProjectK",
     "guid": 2111694272,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone01_DLCProjectK",
+    "displayNameEn": "Ancient Symphony Pattern",
+    "displayLocalizationGuid": "34f916d9-5f07-4c46-8150-5b7ecccb19aa"
   },
   "TM_Castle_Floor_Foundation_Stone01_DLCStrongblade01": {
     "prefab": "TM_Castle_Floor_Foundation_Stone01_DLCStrongblade01",
     "guid": -457072746,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone01_DLCStrongblade01",
+    "displayNameEn": "Nocturnal Opulence Tiles",
+    "displayLocalizationGuid": "ed2e1ec8-ddbd-49e0-ad7d-63e2b23d6835"
   },
   "TM_Castle_Floor_Foundation_Stone01_DLCVariant01": {
     "prefab": "TM_Castle_Floor_Foundation_Stone01_DLCVariant01",
     "guid": 1931758209,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone01_DLCVariant01",
+    "displayNameEn": "Royal Pattern",
+    "displayLocalizationGuid": "e99e131a-1fb5-40be-b26e-e816cb9bcd12"
   },
   "TM_Castle_Floor_Foundation_Stone01_DLCVariant02": {
     "prefab": "TM_Castle_Floor_Foundation_Stone01_DLCVariant02",
     "guid": 1081445770,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone01_DLCVariant02",
+    "displayNameEn": "Plague Sanctum Tiles",
+    "displayLocalizationGuid": "23f4971a-f1e9-4b8f-ad0e-01770d4648f6"
   },
   "TM_Castle_Floor_Foundation_Stone02": {
     "prefab": "TM_Castle_Floor_Foundation_Stone02",
     "guid": 296786024,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone02",
+    "displayNameEn": "Square Pattern",
+    "displayLocalizationGuid": "540efc86-ba5d-4147-a78d-a2bc44d2bb02"
   },
   "TM_Castle_Floor_Foundation_Stone03": {
     "prefab": "TM_Castle_Floor_Foundation_Stone03",
     "guid": 679413487,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone03",
+    "displayNameEn": "'Ebonite' Floor",
+    "displayLocalizationGuid": "2d347830-6cc9-4639-8ddb-399559fdb9a8"
   },
   "TM_Castle_Floor_Foundation_Stone04": {
     "prefab": "TM_Castle_Floor_Foundation_Stone04",
     "guid": 2092503115,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Foundation_Stone04",
+    "displayNameEn": "Diagonal Pattern",
+    "displayLocalizationGuid": "43671ab6-8f62-44b6-acf3-de692e211d7d"
   },
   "TM_Castle_Floor_FoundationBase": {
     "prefab": "TM_Castle_Floor_FoundationBase",
@@ -1850,44 +1912,56 @@
   "TM_Castle_Floor_Garden_Grass01": {
     "prefab": "TM_Castle_Floor_Garden_Grass01",
     "guid": 2142175856,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Exterior garden flooring.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Garden_Grass01",
+    "displayNameEn": "Grass",
+    "displayLocalizationGuid": "740e472c-e627-4de2-885e-83cc41df228e"
   },
   "TM_Castle_Floor_InvisibleFloor": {
     "prefab": "TM_Castle_Floor_InvisibleFloor",
     "guid": 1289169078,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Exterior garden flooring.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_InvisibleFloor",
+    "displayNameEn": "Invisible Foundation",
+    "displayLocalizationGuid": "3b606256-ff12-47c2-accb-2e9b03f41073"
   },
   "TM_Castle_Floor_InvisibleRoofBlocker": {
     "prefab": "TM_Castle_Floor_InvisibleRoofBlocker",
     "guid": 350417170,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "An invisible castle foundation, useful for building interior balconies. Cannot be placed on ground level. Can be used to replace roofs while still enclosing a room.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_InvisibleRoofBlocker",
+    "displayNameEn": "Invisible Foundation",
+    "displayLocalizationGuid": "3b606256-ff12-47c2-accb-2e9b03f41073"
   },
   "TM_Castle_Floor_Jewelcrafting01": {
     "prefab": "TM_Castle_Floor_Jewelcrafting01",
     "guid": -1984599765,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Jeweller's Chamber Floor - Applies bonuses to Jeweller's Chamber structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Jewelcrafting01",
+    "displayNameEn": "'Regulus' Pattern",
+    "displayLocalizationGuid": "f66eedb4-408d-4d9b-bc3d-11e832cb1eea"
   },
   "TM_Castle_Floor_Jewelcrafting02": {
     "prefab": "TM_Castle_Floor_Jewelcrafting02",
     "guid": -1838091713,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Jeweller's Chamber Floor - Applies bonuses to Jeweller's Chamber structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Jewelcrafting02",
+    "displayNameEn": "'Geometrica' Pattern",
+    "displayLocalizationGuid": "81fab65c-24d8-491f-ae2b-0309caf97b67"
   },
   "TM_Castle_Floor_Jewelcrafting03": {
     "prefab": "TM_Castle_Floor_Jewelcrafting03",
     "guid": -4617437,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Jeweller's Chamber Floor - Applies bonuses to Jeweller's Chamber structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Jewelcrafting03",
+    "displayNameEn": "'Refraction' Pattern",
+    "displayLocalizationGuid": "428cd719-c438-412a-86f5-566cd9ab2cf9"
   },
   "TM_Castle_Floor_JewelcraftingBase": {
     "prefab": "TM_Castle_Floor_JewelcraftingBase",
@@ -1899,23 +1973,29 @@
   "TM_Castle_Floor_Library01": {
     "prefab": "TM_Castle_Floor_Library01",
     "guid": -866132980,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Library Floor - Applies bonuses to Library structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Library01",
+    "displayNameEn": "'Chevron' Parquet",
+    "displayLocalizationGuid": "b994fa30-e6db-4e9b-9be7-082d7e48aec7"
   },
   "TM_Castle_Floor_Library02": {
     "prefab": "TM_Castle_Floor_Library02",
     "guid": -87390675,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Library Floor - Applies bonuses to Library structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Library02",
+    "displayNameEn": "'Discernment' Parquet",
+    "displayLocalizationGuid": "2e5def20-027a-4e9f-b4c5-1e376199818e"
   },
   "TM_Castle_Floor_Library03": {
     "prefab": "TM_Castle_Floor_Library03",
     "guid": 483075292,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Library Floor - Applies bonuses to Library structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Library03",
+    "displayNameEn": "'Elocution' Parquet",
+    "displayLocalizationGuid": "f1933a26-40b6-4caa-98bd-27fbf53dcfae"
   },
   "TM_Castle_Floor_LibraryBase": {
     "prefab": "TM_Castle_Floor_LibraryBase",
@@ -1927,93 +2007,119 @@
   "TM_Castle_Floor_Outdoor_Base": {
     "prefab": "TM_Castle_Floor_Outdoor_Base",
     "guid": -364140707,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Base",
+    "displayNameEn": "Large Cobblestone Blocks",
+    "displayLocalizationGuid": "44d8389d-b10a-4461-9801-04692f6e2f72"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone01": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone01",
     "guid": -1760943046,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone01",
+    "displayNameEn": "Large Cobblestone Blocks",
+    "displayLocalizationGuid": "44d8389d-b10a-4461-9801-04692f6e2f72"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone02": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone02",
     "guid": 887146255,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone02",
+    "displayNameEn": "Small Cobblestone Blocks",
+    "displayLocalizationGuid": "2c31d245-e315-41a9-938c-4a1787b1e9db"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone03": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone03",
     "guid": 334719508,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone03",
+    "displayNameEn": "Small Pavement Tiles",
+    "displayLocalizationGuid": "6cadfa80-de01-407c-ad35-bc907866b88f"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone04": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone04",
     "guid": -1385691355,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone04",
+    "displayNameEn": "Terracotta Tiles",
+    "displayLocalizationGuid": "f00e4b85-1ec0-4820-a1b2-8e450244b06f"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone05": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone05",
     "guid": -923972985,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone05",
+    "displayNameEn": "Gothic Tiles",
+    "displayLocalizationGuid": "61a18c26-9371-4101-a3d7-129504c1f587"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone06": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone06",
     "guid": -1877354305,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone06",
+    "displayNameEn": "Garden Cobblestones",
+    "displayLocalizationGuid": "2cb4be22-b849-4ec2-a8a3-3ed666b87fc9"
   },
   "TM_Castle_Floor_Outdoor_Cobblestone07": {
     "prefab": "TM_Castle_Floor_Outdoor_Cobblestone07",
     "guid": 241387358,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Cobblestone07",
+    "displayNameEn": "Mossy Cobblestones",
+    "displayLocalizationGuid": "9bee6756-1577-474b-8a46-f97218072354"
   },
   "TM_Castle_Floor_Outdoor_Grass01": {
     "prefab": "TM_Castle_Floor_Outdoor_Grass01",
     "guid": 1883720184,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Grass01",
+    "displayNameEn": "Grass",
+    "displayLocalizationGuid": "740e472c-e627-4de2-885e-83cc41df228e"
   },
   "TM_Castle_Floor_Outdoor_Plain01": {
     "prefab": "TM_Castle_Floor_Outdoor_Plain01",
     "guid": 1356453147,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Floors expand your territory and allows you to place walls. Must be placed adjacent to a Castle Heart or another floor tile.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Outdoor_Plain01",
+    "displayNameEn": "Rough Floor",
+    "displayLocalizationGuid": "b38e7987-c404-42d7-a7e7-882326000795"
   },
   "TM_Castle_Floor_Prison01": {
     "prefab": "TM_Castle_Floor_Prison01",
     "guid": -1632933767,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Prison Floor - Applies bonuses to Prison structures,",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Prison01",
+    "displayNameEn": "'Bastille' Pattern",
+    "displayLocalizationGuid": "a22af295-215a-4880-a9cb-d7ad8320300b"
   },
   "TM_Castle_Floor_Prison02": {
     "prefab": "TM_Castle_Floor_Prison02",
     "guid": -1431268048,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Prison Floor - Applies bonuses to Prison structures,",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Prison02",
+    "displayNameEn": "'Stockade' Pattern",
+    "displayLocalizationGuid": "976ee0db-b0d8-4d09-a34b-aad0d9bb125e"
   },
   "TM_Castle_Floor_Prison03": {
     "prefab": "TM_Castle_Floor_Prison03",
     "guid": 1559900574,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Prison Floor - Applies bonuses to Prison structures,",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Prison03",
+    "displayNameEn": "'Oubliette' Pattern",
+    "displayLocalizationGuid": "c6393e78-53bf-4184-926c-3c239d479005"
   },
   "TM_Castle_Floor_PrisonBase": {
     "prefab": "TM_Castle_Floor_PrisonBase",
@@ -2025,23 +2131,29 @@
   "TM_Castle_Floor_Tailor01": {
     "prefab": "TM_Castle_Floor_Tailor01",
     "guid": 497865962,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Tailor’s Floor - Applies bonuses to Tailor's structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Tailor01",
+    "displayNameEn": "'Myrtle' Floor Carpet",
+    "displayLocalizationGuid": "f4bb7b31-dfe7-4e9c-8261-ef6df6a72b28"
   },
   "TM_Castle_Floor_Tailor02": {
     "prefab": "TM_Castle_Floor_Tailor02",
     "guid": 1216440822,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Tailor’s Floor - Applies bonuses to Tailor's structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Tailor02",
+    "displayNameEn": "'Burgundy' Floor Carpet",
+    "displayLocalizationGuid": "583c320d-01c3-4f58-bf89-f1a2907e8b5d"
   },
   "TM_Castle_Floor_Tailor03": {
     "prefab": "TM_Castle_Floor_Tailor03",
     "guid": -1138152299,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Tailor’s Floor - Applies bonuses to Tailor's structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Tailor03",
+    "displayNameEn": "'Cobalt' Floor Carpet",
+    "displayLocalizationGuid": "2d882e50-1834-49f9-8f7d-03c9e17d2569"
   },
   "TM_Castle_Floor_TailorBase": {
     "prefab": "TM_Castle_Floor_TailorBase",
@@ -2088,23 +2200,29 @@
   "TM_Castle_Floor_Workshop01": {
     "prefab": "TM_Castle_Floor_Workshop01",
     "guid": 1514919762,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Workshop Floor - Applies bonuses to Workshop structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Workshop01",
+    "displayNameEn": "Five-Finger Workboards",
+    "displayLocalizationGuid": "aecd5f9c-3104-4896-b7df-cedfea9fd4c8"
   },
   "TM_Castle_Floor_Workshop02": {
     "prefab": "TM_Castle_Floor_Workshop02",
     "guid": -2138878020,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Workshop Floor - Applies bonuses to Workshop structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Workshop02",
+    "displayNameEn": "Long Boards",
+    "displayLocalizationGuid": "31441625-3cc8-4bf2-afe6-fdb8948358dc"
   },
   "TM_Castle_Floor_Workshop03": {
     "prefab": "TM_Castle_Floor_Workshop03",
     "guid": -156221515,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Workshop Floor - Applies bonuses to Workshop structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Floor_Workshop03",
+    "displayNameEn": "Worn Old Boards",
+    "displayLocalizationGuid": "a095c134-5633-44e3-8d7e-ae01fb4b30cb"
   },
   "TM_Castle_Floor_WorkshopBase": {
     "prefab": "TM_Castle_Floor_WorkshopBase",
@@ -2790,289 +2908,371 @@
   "TM_Castle_FloorDecor_FancyCarpet01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_FancyCarpet01_Dyable",
     "guid": 240238952,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_FancyCarpet01_Dyable",
+    "displayNameEn": "'Ostentatious' Rectangular Carpet",
+    "displayLocalizationGuid": "991d7706-b58a-488f-bd79-cc03df76009f"
   },
   "TM_Castle_FloorDecor_FancyCarpet02_Dyable": {
     "prefab": "TM_Castle_FloorDecor_FancyCarpet02_Dyable",
     "guid": 1867846200,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_FancyCarpet02_Dyable",
+    "displayNameEn": "'Ostentatious' Round Carpet",
+    "displayLocalizationGuid": "f02513d2-88fa-4652-8f55-971d58ebd356"
   },
   "TM_Castle_FloorDecor_FurRug01": {
     "prefab": "TM_Castle_FloorDecor_FurRug01",
     "guid": 1899686895,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_FurRug01",
+    "displayNameEn": "Gray Pelt",
+    "displayLocalizationGuid": "09f01cb7-0375-4b52-bf3e-b642b1bbfe55"
   },
   "TM_Castle_FloorDecor_FurRug02": {
     "prefab": "TM_Castle_FloorDecor_FurRug02",
     "guid": -1781488171,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_FurRug02",
+    "displayNameEn": "Brown Pelt",
+    "displayLocalizationGuid": "14680fa6-54ed-42c2-b311-e6dfa14fd6a4"
   },
   "TM_Castle_FloorDecor_GothicCarpet01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_GothicCarpet01_Dyable",
     "guid": -1847029206,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_GothicCarpet01_Dyable",
+    "displayNameEn": "'Stately' Rectangular Carpet",
+    "displayLocalizationGuid": "a63e4873-e742-4715-9074-2dc06102958c"
   },
   "TM_Castle_FloorDecor_GothicCarpet02_Dyable": {
     "prefab": "TM_Castle_FloorDecor_GothicCarpet02_Dyable",
     "guid": 307134587,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_GothicCarpet02_Dyable",
+    "displayNameEn": "'Stately' Round Carpet",
+    "displayLocalizationGuid": "66f3cf7f-6892-4936-88ec-1bac7f017b0c"
   },
   "TM_Castle_FloorDecor_RippedCarpet01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_RippedCarpet01_Dyable",
     "guid": 1839491208,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_RippedCarpet01_Dyable",
+    "displayNameEn": "Frayed Long Rug",
+    "displayLocalizationGuid": "4259f75a-54cc-4ec8-a655-82e2491b70a0"
   },
   "TM_Castle_FloorDecor_RippedCarpet02_Dyable": {
     "prefab": "TM_Castle_FloorDecor_RippedCarpet02_Dyable",
     "guid": 1295587736,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_RippedCarpet02_Dyable",
+    "displayNameEn": "Frayed Short Rug",
+    "displayLocalizationGuid": "58e82381-8109-49dd-9120-50158490729e"
   },
   "TM_Castle_FloorDecor_Rug01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Rug01_Dyable",
     "guid": 252879515,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_Rug01_Dyable",
+    "displayNameEn": "'Cordial' Rectangular Rug",
+    "displayLocalizationGuid": "9717a6f8-5f45-4588-af6f-854fa182c37c"
   },
   "TM_Castle_FloorDecor_Rug02_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Rug02_Dyable",
     "guid": -260509121,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_Rug02_Dyable",
+    "displayNameEn": "'Cordial' Round Rug",
+    "displayLocalizationGuid": "08ded913-4fae-40f6-af06-e41fa74fce0e"
   },
   "TM_Castle_FloorDecor_StrongbladeDLC_Carpet01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_StrongbladeDLC_Carpet01_Dyable",
     "guid": -690616247,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_StrongbladeDLC_Carpet01_Dyable",
+    "displayNameEn": "Nocturnal Opulence Round Carpet",
+    "displayLocalizationGuid": "bdb3f3f5-52b2-415d-ba50-8a401a625d79"
   },
   "TM_Castle_FloorDecor_StrongbladeDLC_Carpet02_Dyable": {
     "prefab": "TM_Castle_FloorDecor_StrongbladeDLC_Carpet02_Dyable",
     "guid": 892642237,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_StrongbladeDLC_Carpet02_Dyable",
+    "displayNameEn": "Nocturnal Opulence Elegant Square Carpet",
+    "displayLocalizationGuid": "bbb20144-dae6-4eef-a4c6-7825b97f3e7f"
   },
   "TM_Castle_FloorDecor_StrongbladeDLC_Carpet03_Dyable": {
     "prefab": "TM_Castle_FloorDecor_StrongbladeDLC_Carpet03_Dyable",
     "guid": 1433503658,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_StrongbladeDLC_Carpet03_Dyable",
+    "displayNameEn": "Nocturnal Opulence Ornate Square Carpet",
+    "displayLocalizationGuid": "4a2feea7-8650-4355-a521-f898d9583885"
   },
   "TM_Castle_FloorDecor_StrongbladeDLC_Carpet04_Dyable": {
     "prefab": "TM_Castle_FloorDecor_StrongbladeDLC_Carpet04_Dyable",
     "guid": -2003925881,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_StrongbladeDLC_Carpet04_Dyable",
+    "displayNameEn": "Nocturnal Opulence Rectangular Carpet",
+    "displayLocalizationGuid": "1d5367cb-a8a9-4d74-8ebf-75b33366e37e"
   },
   "TM_Castle_FloorDecor_StrongbladeDLC_Carpet05_Dyable": {
     "prefab": "TM_Castle_FloorDecor_StrongbladeDLC_Carpet05_Dyable",
     "guid": 575413764,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_FloorDecor_StrongbladeDLC_Carpet05_Dyable",
+    "displayNameEn": "Nocturnal Opulence Rhombus Carpet",
+    "displayLocalizationGuid": "0f4897e1-2860-4a5d-ab1d-f68c65969479"
   },
   "TM_Castle_Fortification_Stone_Entrance01": {
     "prefab": "TM_Castle_Fortification_Stone_Entrance01",
     "guid": 223208782,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fortification_Stone_Entrance01",
+    "displayNameEn": "Fortified Archway",
+    "displayLocalizationGuid": "7892a353-4cc6-4284-ae6b-2245a6b8d30f"
   },
   "TM_Castle_Fortification_Stone_Wall01": {
     "prefab": "TM_Castle_Fortification_Stone_Wall01",
     "guid": 572652285,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Restore the Castle Wall to protect your empire from attacks. Can only be placed on an existing castle wall foundation.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Fortification_Stone_Wall01",
+    "displayNameEn": "Fortified Wall",
+    "displayLocalizationGuid": "f5b3c4bd-fb19-4acf-9542-da3e5932b880"
   },
   "TM_Castle_Garden_Child_Arch_Large_Metal_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Metal_BloodRose",
     "guid": -696518716,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Metal_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Arch_Large_Metal_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Metal_Cursed",
     "guid": 329771592,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Metal_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "2112e551-eaaf-4fc7-84ef-1516eaf0d210"
   },
   "TM_Castle_Garden_Child_Arch_Large_Metal_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Metal_Ivy",
     "guid": -27245786,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Metal_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "78ca5a54-dd53-498c-b200-3373194d609d"
   },
   "TM_Castle_Garden_Child_Arch_Large_Wood_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Wood_BloodRose",
     "guid": -2142374854,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Wood_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Arch_Large_Wood_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Wood_Cursed",
     "guid": -2072930723,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Wood_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "2112e551-eaaf-4fc7-84ef-1516eaf0d210"
   },
   "TM_Castle_Garden_Child_Arch_Large_Wood_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Wood_Ivy",
     "guid": 624203220,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Wood_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "78ca5a54-dd53-498c-b200-3373194d609d"
   },
   "TM_Castle_Garden_Child_Arch_Large_Wood_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Arch_Large_Wood_Wisteria",
     "guid": -1545173719,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Large_Wood_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Arch_Small_Metal_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Metal_BloodRose",
     "guid": 1820938592,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Metal_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Arch_Small_Metal_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Metal_Cursed",
     "guid": -1860278799,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Metal_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "2112e551-eaaf-4fc7-84ef-1516eaf0d210"
   },
   "TM_Castle_Garden_Child_Arch_Small_Metal_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Metal_Ivy",
     "guid": -1340651820,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Metal_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "78ca5a54-dd53-498c-b200-3373194d609d"
   },
   "TM_Castle_Garden_Child_Arch_Small_Wood_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Wood_BloodRose",
     "guid": -551176897,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Wood_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Arch_Small_Wood_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Wood_Cursed",
     "guid": 1028376291,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Wood_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "2112e551-eaaf-4fc7-84ef-1516eaf0d210"
   },
   "TM_Castle_Garden_Child_Arch_Small_Wood_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Wood_Ivy",
     "guid": -352700400,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Wood_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "78ca5a54-dd53-498c-b200-3373194d609d"
   },
   "TM_Castle_Garden_Child_Arch_Small_Wood_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Arch_Small_Wood_Wisteria",
     "guid": -165398122,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Arch_Small_Wood_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Obelisk_Metal_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Metal_BloodRose",
     "guid": 2068662970,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Metal_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Obelisk_Metal_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Metal_Cursed",
     "guid": -28278410,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Metal_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "37816fbf-a354-4996-874e-a4220833cea4"
   },
   "TM_Castle_Garden_Child_Obelisk_Metal_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Metal_Ivy",
     "guid": 1835868485,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Metal_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "0446acec-b2cc-4471-ade6-2b0f75004815"
   },
   "TM_Castle_Garden_Child_Obelisk_Metal_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Metal_Wisteria",
     "guid": 1770705355,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Metal_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Obelisk_Wood_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Wood_BloodRose",
     "guid": -893594484,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Wood_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Obelisk_Wood_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Wood_Cursed",
     "guid": 524127162,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Wood_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "765c7924-27f6-4036-be88-73c6e841d326"
   },
   "TM_Castle_Garden_Child_Obelisk_Wood_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Wood_Ivy",
     "guid": 588827151,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Wood_Ivy",
+    "displayNameEn": "Ivy",
+    "displayLocalizationGuid": "162ba2d2-b8d6-4339-bca1-ac16546eb6a1"
   },
   "TM_Castle_Garden_Child_Obelisk_Wood_Wisteria": {
     "prefab": "TM_Castle_Garden_Child_Obelisk_Wood_Wisteria",
     "guid": -1858504726,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Obelisk_Wood_Wisteria",
+    "displayNameEn": "Wisteria",
+    "displayLocalizationGuid": "a97300d8-6567-44fa-a527-c36f060ded37"
   },
   "TM_Castle_Garden_Child_Pergola_Metal_BloodRose": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Metal_BloodRose",
     "guid": 1683380284,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Metal_BloodRose",
+    "displayNameEn": "Blood Rose",
+    "displayLocalizationGuid": "302e097b-c1ad-449f-bf81-7f89d138400b"
   },
   "TM_Castle_Garden_Child_Pergola_Metal_Cursed": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Metal_Cursed",
     "guid": 2002956115,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A climbing plant for your ornamental structure.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-remaining-literals.json#TM_Castle_Garden_Child_Pergola_Metal_Cursed",
+    "displayNameEn": "Morass",
+    "displayLocalizationGuid": "9f9e6eba-8c43-466a-baaf-a45cc6624f7f"
   },
   "TM_Castle_Garden_Child_Pergola_Metal_Ivy": {
     "prefab": "TM_Castle_Garden_Child_Pergola_Metal_Ivy",
