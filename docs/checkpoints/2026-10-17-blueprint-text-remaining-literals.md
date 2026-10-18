@@ -122,4 +122,3 @@ under an explicit policy; the current lane does not broaden automatically.
 
 Private evidence is retained under
 stack-delivery-review-20261006/blueprint-text-remaining-literals-20261017/.
-

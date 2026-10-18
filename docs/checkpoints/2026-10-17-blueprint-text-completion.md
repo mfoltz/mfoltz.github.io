@@ -16,7 +16,7 @@ the accepted witnesses now provide 1,172 owned names, 1,180 descriptions and
 1,155 complete pairs. Any-field display coverage is 1,197/1,198 (0.9992);
 that signal count does not mean 1,197 complete text pairs.
 
-The version-4 repository witness pins six 45-record parts, exact prefab/signed
+The schema version 1 witness pins six 45-record parts, exact prefab/signed
 GUID/source joins, raw and native strings, localization keys, parameter slices
 and provenance hashes. Independent validation rereads retained Markdown, ten
 accepted catalog captures and the unchanged 8,358-entry English table.

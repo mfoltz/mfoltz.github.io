@@ -16,8 +16,8 @@ The combined witnesses now provide **1,172 owned names, 1,180 descriptions and
 1,197/1,198 (0.9992), distinct from complete-pair coverage. See the
 [completion checkpoint](checkpoints/2026-10-17-blueprint-text-completion.md).
 
-The portable version-4 witness pins exact managed keys, signed prefab GUIDs,
-retained sources, ten accepted catalog captures, pinned English and native
+The portable witness (schema version 1) pins exact managed keys, signed prefab
+GUIDs, retained sources, ten accepted catalog captures, pinned English and native
 descriptions in six 45-record parts. Names and descriptions qualify separately.
 Eight exact description cases resolve six unused parameter slices, Stables'
 raw/native spelling drift and Vampire Lockbox's observed native capacity.
