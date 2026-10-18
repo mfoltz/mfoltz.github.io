@@ -9,6 +9,7 @@ import { readExpansion, expansionTextFields, type ExpansionRow } from "./bluepri
 import { readRemaining, remainingTextFields } from "./blueprint-text-remaining";
 import { readRemainingReviewItems } from "./blueprint-text-remaining-fixtures";
 import { assertFocusedReferenceVisible } from "./reference-focus";
+import { settleExpansionKeyboardFocus } from "./blueprint-expansion-focus-scroll";
 import { revealExpansionSourceBacklink } from "./blueprint-expansion-source-navigation";
 import { blueprintZoomExtensionId, blueprintZoomStage } from "./blueprint-text-zoom";
 import { clipboardMockSource, measureReferenceSource, type ExpansionPageMeasurement } from "./blueprint-expansion-browser-evaluation";
@@ -117,8 +118,10 @@ async function checkGuidCopy(page: Page, fixture: Fixture) {
 }
 async function keyboardActivate(page: Page, link: ReturnType<Page["locator"]>) {
   await page.locator("main h1").evaluate(element => { const heading = element as HTMLElement; heading.tabIndex = -1; heading.focus(); });
+  await settleExpansionKeyboardFocus(page);
   for (let i = 0; i < 220; i++) {
     await page.keyboard.press("Tab");
+    await settleExpansionKeyboardFocus(page);
     if (await link.evaluate(element => element === document.activeElement)) {
       measurements.push(await assertFocusedReferenceVisible(page, link)); await page.keyboard.press("Enter"); return;
     }
