@@ -12,3 +12,7 @@ data/enrichment/blueprint-text-expansion-128/*.json -text
 # Freeze the remaining exact literal Blueprint witness bytes.
 data/enrichment/blueprint-text-remaining-literals.json -text
 data/enrichment/blueprint-text-remaining-literals/*.json -text
+
+# Preserve the exact native completion witness.
+data/enrichment/blueprint-text-completion.json -text
+data/enrichment/blueprint-text-completion/*.json -text

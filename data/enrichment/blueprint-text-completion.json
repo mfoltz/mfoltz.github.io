@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "sourceKind": "managed-blueprint-text-completion",
+  "rowCount": 270,
+  "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+  "selectionSha256": "e364f599d833bfe8249fdba4039dbb7a513b575e83d2d9132faf591e1a61e455",
+  "rowsSemanticSha256": "5d08039e7a28716e27bde59a9f2ecdfdeeeafc4915f1ce9d66fda47daf35acee",
+  "counts": {
+    "names": 244,
+    "descriptions": 252,
+    "pairs": 227,
+    "anyField": 269,
+    "heldSharedNames": 17,
+    "unknownNames": 9,
+    "heldDescriptions": 2,
+    "unknownDescriptions": 16,
+    "resolvedUnusedMetadata": 6,
+    "resolvedNativeSpelling": 1,
+    "resolvedInlineObservation": 1
+  },
+  "captures": {
+    "blueprints-01": {
+      "artifactRef": "blueprint-text-attempt13-preparation-20261010/BlueprintTextCatalogBatch-blueprints-01.json",
+      "captureSha256": "27094a90d0394d333ef21f9021dd8cef6e7acd8a0b5f27129612140f017a07f3",
+      "capturedUtc": "2026-10-10T21:36:16.8926608Z",
+      "captureStartedUtc": "2026-10-10T21:36:16.359534Z",
+      "manifestSha256": "2378042faeaabc0fbe74877a4e4f6dd3031fe91ee65285945bf6d9520147a954",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-02": {
+      "artifactRef": "blueprint-text-attempt14-preparation-20261010/BlueprintTextCatalogBatch-blueprints-02.json",
+      "captureSha256": "5aa180daf3e9af204be1c25a3d7810ed47ad00f9a90dda5403e89878c900a66e",
+      "capturedUtc": "2026-10-11T17:47:35.9768803Z",
+      "captureStartedUtc": "2026-10-11T17:47:34.5721122Z",
+      "manifestSha256": "4e79ca2894081c64ed40e9ba6a2bda829f5558ecb8e06fc6e9cfbf6a441cf033",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-03": {
+      "artifactRef": "blueprint-text-attempt15-preparation-20261011/BlueprintTextCatalogBatch-blueprints-03.json",
+      "captureSha256": "c7ba1424b307921b8f0ef4342edd932098a01b9de025ca919c9fdb8c5357f935",
+      "capturedUtc": "2026-10-11T18:23:38.7671253Z",
+      "captureStartedUtc": "2026-10-11T18:23:37.7770189Z",
+      "manifestSha256": "0768b7d89e5f08143ab6c7006579ed9f40b2abb9f302416af2c2835895fd2ff2",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-04": {
+      "artifactRef": "blueprint-text-attempt16-preparation-20261011/BlueprintTextCatalogBatch-blueprints-04.json",
+      "captureSha256": "921265adbf2c1bdf145e6a29b175b2231f3bc1421b4b37da73e582ad48f53976",
+      "capturedUtc": "2026-10-11T19:40:39.5767234Z",
+      "captureStartedUtc": "2026-10-11T19:40:38.6437379Z",
+      "manifestSha256": "08ae99440af48a526b0e57ace67393528421de3458ef9cd2647cc144b6d0149c",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-05": {
+      "artifactRef": "blueprint-text-attempt17-preparation-20261011/BlueprintTextCatalogBatch-blueprints-05.json",
+      "captureSha256": "3cb89f2760a4cf2d33cd4322d81f7a2e3169deb28e2fe271f8317494ba00b0ae",
+      "capturedUtc": "2026-10-11T23:28:03.2947331Z",
+      "captureStartedUtc": "2026-10-11T23:28:01.9651072Z",
+      "manifestSha256": "70cecc4f47b9c83dfe68f189e7390cf90bc9e3b7086554817a5f3f2492006137",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-06": {
+      "artifactRef": "blueprint-text-attempt18-preparation-20261011/BlueprintTextCatalogBatch-blueprints-06.json",
+      "captureSha256": "12b6f3a31a3d98289c9e10708c54aa7b54b7d4cff003ae764b6835eede4536ba",
+      "capturedUtc": "2026-10-12T03:04:38.7454304Z",
+      "captureStartedUtc": "2026-10-12T03:04:37.2076176Z",
+      "manifestSha256": "6a32c77d780ae066c0e3cdea3389b5051dd38708b41ca4a25393855ca8b4456a",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-07": {
+      "artifactRef": "blueprint-text-attempt19-reconciled-20261016/BlueprintTextCatalogBatch-blueprints-07.json",
+      "captureSha256": "0340a7109cc7e0d01691795e44b84dc321effdb68f8276fd855e3c012cd164f9",
+      "capturedUtc": "2026-10-16T20:44:28.3342407Z",
+      "captureStartedUtc": "2026-10-16T20:44:27.1127587Z",
+      "manifestSha256": "660d0440266f8b7734a1fc6558d24b82228ea13e30039fa59097571e368e7950",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-08": {
+      "artifactRef": "blueprint-text-attempt20-preparation-20261016/BlueprintTextCatalogBatch-blueprints-08.json",
+      "captureSha256": "80934a5a7604dc0c40879e9e3b484bf6272e0c6acb86ef1139ce635da762af1c",
+      "capturedUtc": "2026-10-17T00:34:18.7452526Z",
+      "captureStartedUtc": "2026-10-17T00:34:16.3416377Z",
+      "manifestSha256": "540656241fb795df7b88c5a24d17542dfbf0651df4efc55bc167674acd211462",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-09": {
+      "artifactRef": "blueprint-text-attempt21-preparation-20261016/BlueprintTextCatalogBatch-blueprints-09.json",
+      "captureSha256": "ca6df4d97e26d4148a5851bf40add7ca905dc3fe6071b683a99914f73ed5e4b1",
+      "capturedUtc": "2026-10-17T01:07:47.278885Z",
+      "captureStartedUtc": "2026-10-17T01:07:46.1125175Z",
+      "manifestSha256": "37b2aba34767f2f2c789a487c533c093d9d65d38491a78fcc133abcf2e779968",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f8c4750426b33386020676a8bc508aa4436aa3546e56a0b6eb11ede165888fa5",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    },
+    "blueprints-10": {
+      "artifactRef": "blueprint-text-attempt23-preparation-20261016/BlueprintTextCatalogBatch-blueprints-10.json",
+      "captureSha256": "4557596ed5467e07f5977677a346f5d2de4f6e7fd3bb7f120fe9a27702d738a1",
+      "capturedUtc": "2026-10-17T02:36:26.4033884Z",
+      "captureStartedUtc": "2026-10-17T02:36:25.4522542Z",
+      "manifestSha256": "d93ec1d6456f51b334da0c2fe220789b134fe560a476e6909e3d09e8138fda96",
+      "campaignId": "2d2e1731d03f5099c13f54d8b9852f7716151069a73eb3a69f193a8de68008f0",
+      "campaignIndexSha256": "ee94b26ad27afdc5603cdacfbc2bfae7dde720578d06fb24266d3b8c5876f195",
+      "catalogManifestSha256": "40f8d24906e6ba02637e34b255dabbf2864fdd3b6a1cfeffadc042bdaf660bd7",
+      "englishSha256": "9259f01bc5ef4bedd74e456c526fd3aedd154f852cc6bcfc8aba5ff6c535cbb7",
+      "captureAssemblySha256": "f4da35f039b429905656a7710495d5b265f420f0b851b4b7ca239d5c0605c51b",
+      "runtimeReferenceSha256": "0216a6426ce0f09c06ee0b8d5146a9d67a5bca7a0d3f925ce9c869eed9c54266",
+      "builderReferenceSha256": "13899d328dcc3e5adea13272e55686d0d970223d64b4a377f0e9791625d01fcc",
+      "localizationReferenceSha256": "d2d4475c0c4f3809cb462724794f3c5dad77419a1cb3d8f3971acfc73ff6df69",
+      "requestedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "requestedServerVersion": "VRisingServer: v1.1.15.0-r101082-b2 (202609071358)",
+      "observedClientVersion": "VRising: v1.1.13.0-r99712-b17 (202605251526)",
+      "world": "Client_0",
+      "locale": {
+        "initialized": true,
+        "language": "english",
+        "version": 5
+      }
+    }
+  },
+  "parts": [
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-01.json",
+      "sha256": "85cfba91de7194d96c45876b13228e36079666f61b5d19b1a40e7dcdd286c6f2",
+      "rowCount": 45
+    },
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-02.json",
+      "sha256": "2e18e27890cee7e2cc285856ca01f1eaf208fa6e8a03e371e510741515e80259",
+      "rowCount": 45
+    },
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-03.json",
+      "sha256": "84014814779d5fd095369c0c0e48e5a1b7419189eba7027738f7e15241ba8714",
+      "rowCount": 45
+    },
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-04.json",
+      "sha256": "d9ba01ece27661a35a0d4554b1e22ea50586cb6da6982edac09089971f89cb23",
+      "rowCount": 45
+    },
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-05.json",
+      "sha256": "592b5f0423bc2fa9fedce6befd504f11da3e39c06368040fce35f269c579134d",
+      "rowCount": 45
+    },
+    {
+      "path": "data/enrichment/blueprint-text-completion/part-06.json",
+      "sha256": "7a601b2ed2dbebf9f35085ef95e80aa6f4bb4ed6387c914058aa4ea1ee0ae502",
+      "rowCount": 45
+    }
+  ],
+  "generalNumericRuleEstablished": false,
+  "uiEquivalenceEstablished": false,
+  "auditSha256": "cd3a094a92c40a39573ee85c928d19b70ef3974a1ba74543b9657b4d8dc282a8"
+}
