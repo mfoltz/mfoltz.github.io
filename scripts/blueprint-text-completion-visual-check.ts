@@ -1,3 +1,4 @@
+import { completionArtworkPath } from "./blueprint-completion-artwork";
 import assert from "node:assert/strict";
 import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -65,6 +66,11 @@ for (const pin of [
   extra.push({ id: pin.slug, route: entry.path, detail });
 }
 fixtures.push(...extra);
+const failedArtworkFixture = fixtures.find(f => f.promoted?.prefab === "BP_Castle_Stairs_Double_Stone02");
+assert(failedArtworkFixture?.detail, "Exact failed-artwork fixture missing");
+const failedArtworkAsset = completionArtworkPath(failedArtworkFixture.detail);
+assert((await readFile("public" + failedArtworkAsset)).length > 0);
+
 const expectedCaptures = 2 * [320, 390, 639, 640, 1280].reduce((count, width) => count +
   fixtures.filter(f => !f.promoted || width === 320 || width === 1280 || representatives.has(f.promoted.prefab)).length, 0);
 if (process.argv.includes("--preflight")) {
@@ -303,12 +309,19 @@ try {
         await relatedNavigation(page, extra.find(f => f.id === "item-ingredient-stone-brick")!);
         await relatedNavigation(page, extra.find(f => f.id === bookSlug)!, true);
         await searchChecks(page);
-        await page.route("**/icons/**", route => route.abort());
-        const artwork = fixtures.find(f => f.promoted?.prefab === "TM_Stash_Chest_SafetyBox")!;
-        await ready(page, artwork.route); await checkFixture(page, artwork);
-        await page.mouse.move(0, 0);
-        await page.screenshot({ path: path.join(directory, `failed-artwork--${theme}.png`), animations: "disabled" });
-        receipts.push({ failedArtwork: true, theme });
+        const failureContext = await browser.newContext({ viewport: { width, height: 960 }, colorScheme: theme });
+        const abortedAssets: string[] = [];
+        try {
+          await failureContext.addInitScript(value => localStorage.setItem("vrising-theme", value), theme);
+          const failurePage = await failureContext.newPage();
+          await failurePage.route("**/icons/**", route => { abortedAssets.push(route.request().url()); return route.abort(); });
+          await ready(failurePage, failedArtworkFixture.route); await checkFixture(failurePage, failedArtworkFixture);
+          assert(abortedAssets.includes(new URL(failedArtworkAsset, base).href), "Primary portrait request actually failed");
+          await failurePage.waitForFunction(() => !document.querySelector("main img.database-record-artwork"));
+          await failurePage.mouse.move(0, 0);
+          await failurePage.screenshot({ path: path.join(directory, "failed-artwork--" + theme + ".png"), animations: "disabled" });
+          receipts.push({ failedArtwork: true, theme, fixture: failedArtworkFixture.id, abortedAssets });
+        } finally { await failureContext.close(); }
       }
       assert.deepEqual(errors, []);
     } finally { await context.close(); }

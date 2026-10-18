@@ -6,6 +6,7 @@ import { blueprintPlainText, blueprintTextFields, blueprintTextTargets, overlayB
 const capture = await readBlueprintText(process.cwd());
 const expansion = await import("./blueprint-text-expansion").then(module => module.readExpansion(process.cwd()));
 const remaining = await import("./blueprint-text-remaining").then(module => module.readRemaining(process.cwd()));
+const completion = await import("./blueprint-text-completion").then(module => module.readCompletion(process.cwd()));
 const original = JSON.parse(await readFile("data/enrichment/blueprint-display-map.json", "utf8")) as Record<string, BlueprintTextDisplay>;
 
 test("ten frozen signed identities reproduce retained Markdown and accepted witness", () => {
@@ -57,7 +58,7 @@ test("overlay is deterministic/idempotent and preserves all artwork and unrelate
   // Keep the standalone v1 coverage contract at its accepted pre-expansion state.
   const pilotOnly = { ...overlaid };
   const earlierIconSignals = new Set(["BP_Castle_Wall_Tier01_Wood_Entrance", "BP_Castle_Wall_Tier02_Stone_Entrance"]);
-  for (const row of [...expansion.rows, ...remaining.rows]) pilotOnly[row.prefab] = { ...pilotOnly[row.prefab], displayNameEn: undefined,
+  for (const row of [...expansion.rows, ...remaining.rows, ...completion.rows]) pilotOnly[row.prefab] = { ...pilotOnly[row.prefab], displayNameEn: undefined,
     displayLocalizationGuid: undefined, summaryEn: "Blueprint record.",
     sourceKind: (earlierIconSignals.has(row.prefab) || Boolean(original[row.prefab].iconAssetName)) ? "localized-resource" : "generated-fallback", sourceRef: "content/prefabs" };
   assert.deepEqual(blueprintTextCoverage(pilotOnly), { total: 1198, matched: 18, coveragePct: 0.015, signal: "high-signal", lowSignalExcluded: 1180 });
