@@ -7,6 +7,45 @@ extraction authority.
 
 ## Current delivery state
 
+The remaining 790 literal-only Blueprint text pairs are accepted locally on
+`codex/blueprint-text-remaining-literals`, based on unchanged local main
+`cf8f931052281ed045dbe9a26f7e2dbc2037ad12`. Together with the accepted
+ten-record pilot and first 128-record expansion, the repository now provides
+928 owned English names and 928 descriptions, with 928/1,198 high-signal display
+rows (0.7746). Six newly owned rows already had icon signals. See the
+[remaining-literals checkpoint](checkpoints/2026-10-17-blueprint-text-remaining-literals.md).
+
+Exact managed keys, retained Markdown, nine accepted captures, pinned English and
+native literal descriptions support the version-3 portable witness in eight
+parts. The original 138 pairs remain unchanged. No new extraction, formatter,
+markup/escape policy, artwork or evidence-strength change is involved.
+
+The exact generated allowance is 1,669 JSON files: 790 Blueprint details,
+87 item details, 790 source backlink pages and two aggregate indexes.
+Only owned text/provenance and existing title ordering change; 1,013 material
+and 287 book reference labels update without changing quantities, membership,
+identities or destinations. The other 44,967 generated JSON files stay identical.
+
+Fresh verification, unit/artwork tests and every focused/legacy browser suite
+pass. The focused suite retains 6,660 before/after PNGs; all 3,315 changed or
+additional frames were inspected, including exact-hash reuse of prior inspected
+frames. Inter/Cinzel loaded, keyboard visibility and native 200% zoom pass.
+All 92 final baseline comparisons pass after 30 inspected permitted updates;
+62 baseline hashes stay identical. Repeated generation and protected-byte/history
+audits preserve the original/pilot checkouts, indexes, pending files, earlier
+branches, source, artwork, captures and historical evidence.
+
+The separately approved repair waits for native focus scrolling to settle in the
+new harness only. Product focus/CSS and all final visibility assertions remain
+unchanged. Failed attempts and their evidence are retained.
+
+Next is combined local-stack review before a separate consolidation/publication
+decision. Main remains at `cf8f931052`; this pass does not refresh remote
+publication authority. The 219 paired formatting/parameter candidates and
+51 partial/held records remain parked.
+
+## Historical first 128-record expansion and consolidation through October 17
+
 The first 128-record literal Blueprint text expansion is accepted locally on
 `codex/blueprint-text-expansion-128`, based on the accepted ten-record pilot
 `a5042b567fbeebd8b4c7dd35566c6d8811a5a9c8`. It adds 128 owned English names
@@ -436,36 +475,35 @@ and pass. The unchanged book suite passes an isolated retry after a zoom worker
 startup timeout; that initial cause remains unestablished. Failed runs remain
 separate from acceptance evidence. The owned preview is stopped for local delivery.
 
-## Next menu: publication decision
+## Next menu: combined local-stack review
 
-The approved reverse-navigation candidates are now implemented. Their local
-counts reflect the retained source and current exact routes:
+The approved reverse-navigation candidates are implemented. Their local counts
+reflect the retained source and current exact routes:
 
 | Candidate | Recorded links | Items | Target records | Largest item list |
 | --- | ---: | ---: | ---: | ---: |
 | Book to declaring Blueprint requirements (implemented locally) | 429 | 72 | 424 Blueprints | 49 |
 | Material to Blueprint uses (implemented locally) | 1,470 | 96 | 1,080 Blueprints | 147 |
 
-The combined ten-record pilot and first 128-record expansion passed review and
-are consolidated into local main with the checkpoint-index correction. The next
-delivery action is a separately authorized publication decision covering the
-full unpublished range. Preserve dependency order and refresh remote authority
-then. This record does not authorize push, PR, deployment or branch cleanup.
+The pilot and first 128-record expansion are already consolidated into local main.
+The additional 790-record branch is accepted separately. Review its combined diff,
+commit inventory and receipts before deciding on consolidation or publication.
+Refresh remote authority at that later boundary; no push, PR, deployment or branch
+cleanup follows automatically.
 
 The delivered ingredient group still covers 1,385 requirements across 221 items
-and 664 recipes, with a largest list of 88. Blueprint text now covers 138/1198
-owned names and descriptions, with 144/1198 high-signal display rows. Complete
-source identifiers remain available. Absent reverse rows do not establish
-absence of uses; recorded requirements do not establish crafting access,
-acquisition or availability.
+and 664 recipes, with a largest list of 88. Blueprint text now covers 928/1,198
+owned names and descriptions and 928/1,198 high-signal display rows. Complete
+source identifiers remain available. Absent reverse rows do not establish absence
+of uses; recorded requirements do not establish access or availability.
 
-The catalog ownership/formatting audit supports 918 new literal-only,
-zero-parameter pairs. This expansion imports 128, leaving 790 candidates for a
-separate bounded plan. Parameterized text, malformed markup and other held rows
-need their own explicit contracts. No additional import, extraction or artwork
-widening is queued. The October 5 census remains historical evidence under
-`roadmap-next-pass-20261005/census.json` in the local artifact root. Other
-enrichment lanes below remain parked.
+All 918 new literal-only, zero-parameter candidates are imported across the
+128-record and 790-record passes. The remaining 270 records comprise 219 paired
+formatting/parameter candidates and 51 partial/held records. They need their own
+explicit policy and ownership decisions; no general formatter, further import,
+extraction or artwork widening is queued. The October 5 census remains historical
+evidence under `roadmap-next-pass-20261005/census.json` in the local artifact root.
+Other enrichment lanes below remain parked.
 
 ## Parked lanes
 

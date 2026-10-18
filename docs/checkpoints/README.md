@@ -6,7 +6,8 @@ Older notes in this folder predate the polish overlay and should be read as vali
 
 Use the [active roadmap](../source-backed-next-thread-roadmap.md) for current
 delivery status and priorities. The latest local implementation receipt is the
-[first 128-record Blueprint text expansion](2026-10-17-blueprint-text-expansion-128.md). Earlier receipts include
+[remaining 790 literal Blueprint text pairs](2026-10-17-blueprint-text-remaining-literals.md). Earlier receipts include
+[first 128-record expansion](2026-10-17-blueprint-text-expansion-128.md),
 [ten-record Blueprint text pilot](2026-10-09-blueprint-text-pilot.md),
 [mobile linked-record cards](2026-10-02-mobile-linked-record-cards.md),
 [jewel-to-ability navigation](2026-10-02-jewel-ability-navigation.md) and its
