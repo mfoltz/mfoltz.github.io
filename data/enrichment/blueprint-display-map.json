@@ -1867,9 +1867,9 @@
   "TM_Castle_Floor_AlchemyLabBase": {
     "prefab": "TM_Castle_Floor_AlchemyLabBase",
     "guid": 1049312363,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Alchemy Lab Floor - Applies bonuses to Alchemy Lab structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_AlchemyLabBase"
   },
   "TM_Castle_Floor_Crypt01": {
     "prefab": "TM_Castle_Floor_Crypt01",
@@ -1901,9 +1901,9 @@
   "TM_Castle_Floor_CryptBase": {
     "prefab": "TM_Castle_Floor_CryptBase",
     "guid": 1901518512,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Crypt Floor - Applies bonuses to Crypt structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_CryptBase"
   },
   "TM_Castle_Floor_Forge01": {
     "prefab": "TM_Castle_Floor_Forge01",
@@ -1935,9 +1935,9 @@
   "TM_Castle_Floor_ForgeBase": {
     "prefab": "TM_Castle_Floor_ForgeBase",
     "guid": -1266606195,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Forge Floor - Applies bonuses to Forge structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_ForgeBase"
   },
   "TM_Castle_Floor_Foundation_Rubble": {
     "prefab": "TM_Castle_Floor_Foundation_Rubble",
@@ -2041,9 +2041,9 @@
   "TM_Castle_Floor_FoundationBase": {
     "prefab": "TM_Castle_Floor_FoundationBase",
     "guid": 1326064797,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Castle Floor",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_FoundationBase"
   },
   "TM_Castle_Floor_Garden_Grass01": {
     "prefab": "TM_Castle_Floor_Garden_Grass01",
@@ -2102,9 +2102,9 @@
   "TM_Castle_Floor_JewelcraftingBase": {
     "prefab": "TM_Castle_Floor_JewelcraftingBase",
     "guid": 691024400,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Jeweller's Chamber Floor - Applies bonuses to Jeweller's Chamber structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_JewelcraftingBase"
   },
   "TM_Castle_Floor_Library01": {
     "prefab": "TM_Castle_Floor_Library01",
@@ -2136,9 +2136,9 @@
   "TM_Castle_Floor_LibraryBase": {
     "prefab": "TM_Castle_Floor_LibraryBase",
     "guid": -1387641031,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Library Floor - Applies bonuses to Library structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_LibraryBase"
   },
   "TM_Castle_Floor_Outdoor_Base": {
     "prefab": "TM_Castle_Floor_Outdoor_Base",
@@ -2260,9 +2260,9 @@
   "TM_Castle_Floor_PrisonBase": {
     "prefab": "TM_Castle_Floor_PrisonBase",
     "guid": 90417130,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Prison Floor - Applies bonuses to Prison structures,",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_PrisonBase"
   },
   "TM_Castle_Floor_Tailor01": {
     "prefab": "TM_Castle_Floor_Tailor01",
@@ -2294,44 +2294,52 @@
   "TM_Castle_Floor_TailorBase": {
     "prefab": "TM_Castle_Floor_TailorBase",
     "guid": 1577452402,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Tailor’s Floor - Applies bonuses to Tailor's structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_TailorBase"
   },
   "TM_Castle_Floor_Treasury01": {
     "prefab": "TM_Castle_Floor_Treasury01",
     "guid": -1887758253,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "When all floors in a room are covered with Treasury Flooring, all storage containers in that room share their inventory, allowing items to be used for building and crafting anywhere in the castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_Treasury01",
+    "displayNameEn": "'Affluent' Pattern",
+    "displayLocalizationGuid": "77308db0-715c-4b74-9050-1d1580bb9f3c"
   },
   "TM_Castle_Floor_Treasury01_DLCStrongblade01": {
     "prefab": "TM_Castle_Floor_Treasury01_DLCStrongblade01",
     "guid": -773919175,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "When all floors in a room are covered with Treasury Flooring, all storage containers in that room share their inventory, allowing items to be used for building and crafting anywhere in the castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_Treasury01_DLCStrongblade01",
+    "displayNameEn": "Nocturnal Opulence Treasury Tiles",
+    "displayLocalizationGuid": "4886c63e-60a2-4eed-82de-07762369d9ab"
   },
   "TM_Castle_Floor_Treasury02": {
     "prefab": "TM_Castle_Floor_Treasury02",
     "guid": -2097552164,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "When all floors in a room are covered with Treasury Flooring, all storage containers in that room share their inventory, allowing items to be used for building and crafting anywhere in the castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_Treasury02",
+    "displayNameEn": "'Prized' Pattern",
+    "displayLocalizationGuid": "180a0708-dbb5-47dd-a83d-f495dd91e69d"
   },
   "TM_Castle_Floor_Treasury03": {
     "prefab": "TM_Castle_Floor_Treasury03",
     "guid": 849335034,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "When all floors in a room are covered with Treasury Flooring, all storage containers in that room share their inventory, allowing items to be used for building and crafting anywhere in the castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_Treasury03",
+    "displayNameEn": "'Prosperous' Pattern",
+    "displayLocalizationGuid": "ba0831a7-195b-43df-9b24-3473b7cf5c3a"
   },
   "TM_Castle_Floor_TreasuryBase": {
     "prefab": "TM_Castle_Floor_TreasuryBase",
     "guid": 370873101,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "When all floors in a room are covered with Treasury Flooring, all storage containers in that room share their inventory, allowing items to be used for building and crafting anywhere in the castle.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_TreasuryBase"
   },
   "TM_Castle_Floor_Workshop01": {
     "prefab": "TM_Castle_Floor_Workshop01",
@@ -2363,9 +2371,9 @@
   "TM_Castle_Floor_WorkshopBase": {
     "prefab": "TM_Castle_Floor_WorkshopBase",
     "guid": -290215811,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "Workshop Floor - Applies bonuses to Workshop structures.",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_Floor_WorkshopBase"
   },
   "TM_Castle_FloorDecor_01_Carpet": {
     "prefab": "TM_Castle_FloorDecor_01_Carpet",
@@ -2568,520 +2576,668 @@
   "TM_Castle_FloorDecor_Carpet01_Straight_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Black",
     "guid": 1651816484,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Black",
+    "displayNameEn": "'Dux' Black Carpet Straight",
+    "displayLocalizationGuid": "917c51df-cdbd-4d1f-90b6-aed8604aa93b"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Burgundy",
     "guid": 1716091064,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Burgundy",
+    "displayNameEn": "'Dux' Burgundy Carpet Straight",
+    "displayLocalizationGuid": "32b77d76-8b0e-4e63-a0ea-7af03b2e68ec"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Cobalt",
     "guid": -526419579,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Cobalt",
+    "displayNameEn": "'Dux' Cobalt Carpet Straight",
+    "displayLocalizationGuid": "53ec3643-13b7-414b-a544-db73c4497b7a"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Dyable",
     "guid": 1637369895,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Dyable",
+    "displayNameEn": "'Dux' Black Carpet Straight",
+    "displayLocalizationGuid": "917c51df-cdbd-4d1f-90b6-aed8604aa93b"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Green",
     "guid": 1301144755,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Green",
+    "displayNameEn": "'Dux' Emerald Carpet Straight",
+    "displayLocalizationGuid": "07d960c4-5ce9-4493-9579-bfebae234a76"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Ivory",
     "guid": -780934839,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Ivory",
+    "displayNameEn": "'Dux' Ivory Carpet Straight",
+    "displayLocalizationGuid": "384041ff-7e72-425b-919f-b595fa31ade8"
   },
   "TM_Castle_FloorDecor_Carpet01_Straight_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_Straight_Purple",
     "guid": -481588988,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_Straight_Purple",
+    "displayNameEn": "'Dux' Purple Carpet Straight",
+    "displayLocalizationGuid": "7917d2d2-c818-4eb0-9038-f633b0053597"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Black",
     "guid": 1932720842,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Black",
+    "displayNameEn": "'Dux' Black Carpet T-Section",
+    "displayLocalizationGuid": "0f0848f3-26b2-43c0-97a4-1fcda55dc678"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Burgundy",
     "guid": 818030323,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Burgundy",
+    "displayNameEn": "'Dux' Burgundy Carpet T-Section",
+    "displayLocalizationGuid": "01d1222d-e964-4dd9-937b-a280f52341c6"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Cobalt",
     "guid": 692406210,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Cobalt",
+    "displayNameEn": "'Dux' Cobalt Carpet T-Section",
+    "displayLocalizationGuid": "dbcf3eeb-7fe4-4b0b-b4c2-55195c2173ce"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Dyable",
     "guid": -1058099541,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Dyable",
+    "displayNameEn": "'Dux' Black Carpet T-Section",
+    "displayLocalizationGuid": "0f0848f3-26b2-43c0-97a4-1fcda55dc678"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Green",
     "guid": 1249427094,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Green",
+    "displayNameEn": "'Dux' Emerald Carpet T-Section",
+    "displayLocalizationGuid": "f2b575a2-0e44-4fc4-a219-b9b5a593be8f"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Ivory",
     "guid": 1442410065,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Ivory",
+    "displayNameEn": "'Dux' Ivory Carpet T-Section",
+    "displayLocalizationGuid": "d17a0b8b-e1b0-4697-917b-69703392414f"
   },
   "TM_Castle_FloorDecor_Carpet01_T-Section_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet01_T-Section_Purple",
     "guid": -678125428,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet01_T-Section_Purple",
+    "displayNameEn": "'Dux' Purple Carpet T-Section",
+    "displayLocalizationGuid": "9b725e25-a0f3-44fe-8d89-3039bab8e5a7"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Black",
     "guid": 682668082,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Black",
+    "displayNameEn": "'Distinguished' Black Carpet Corner",
+    "displayLocalizationGuid": "73b2e2c7-5f63-4fd0-b720-ad64fdc6c331"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Burgundy",
     "guid": 1857601828,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Burgundy",
+    "displayNameEn": "'Distinguished' Burgundy Carpet Corner",
+    "displayLocalizationGuid": "279cb560-56f6-463f-91de-3d4659b02565"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Cobalt",
     "guid": -473831223,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Cobalt",
+    "displayNameEn": "'Distinguished' Cobalt Carpet Corner",
+    "displayLocalizationGuid": "9e9ed312-90e8-48e7-9146-d3ae1614c8fd"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Dyable",
     "guid": 2126549881,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Dyable",
+    "displayNameEn": "'Distinguished' Black Carpet Corner",
+    "displayLocalizationGuid": "73b2e2c7-5f63-4fd0-b720-ad64fdc6c331"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Green",
     "guid": 82108540,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Green",
+    "displayNameEn": "'Distinguished' Emerald Carpet Corner",
+    "displayLocalizationGuid": "08d42c4b-a941-4320-89c7-cbd14bb60772"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Ivory",
     "guid": -597687406,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Ivory",
+    "displayNameEn": "'Distinguished' Ivory Carpet Corner",
+    "displayLocalizationGuid": "f7a8ea32-bbff-4f56-b055-ed03084afa13"
   },
   "TM_Castle_FloorDecor_Carpet02_Corner_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Corner_Purple",
     "guid": -617258233,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Corner_Purple",
+    "displayNameEn": "'Distinguished' Purple Carpet Corner",
+    "displayLocalizationGuid": "d5ac41c7-e132-4e6b-ae89-be40e8090d34"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Black",
     "guid": 1683066508,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Black",
+    "displayNameEn": "'Distinguished' Black Carpet X-Section",
+    "displayLocalizationGuid": "c3181724-afd3-4de0-82f5-c401cc3b27a2"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Burgundy",
     "guid": 512681452,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Burgundy",
+    "displayNameEn": "'Distinguished' Burgundy Carpet X-Section",
+    "displayLocalizationGuid": "08f4ba5a-3fa4-4491-a1e5-cdb539416b3e"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Cobalt",
     "guid": 1130659161,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Cobalt",
+    "displayNameEn": "'Distinguished' Cobalt Carpet X-Section",
+    "displayLocalizationGuid": "645d8036-7c79-4b8c-b4c4-b7ffdfdc05d1"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Dyable",
     "guid": -922187970,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Dyable",
+    "displayNameEn": "'Distinguished' Black Carpet X-Section",
+    "displayLocalizationGuid": "c3181724-afd3-4de0-82f5-c401cc3b27a2"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Green",
     "guid": 103048648,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Green",
+    "displayNameEn": "'Distinguished' EmeraldCarpet X-Section",
+    "displayLocalizationGuid": "5a42b4cd-d0f2-402e-a944-fdb410248d72"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Ivory",
     "guid": 991498568,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Ivory",
+    "displayNameEn": "'Distinguished' Ivory Carpet X-Section",
+    "displayLocalizationGuid": "02efff14-f59f-424f-8ea6-b74074a26a0e"
   },
   "TM_Castle_FloorDecor_Carpet02_Cross-Section_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Cross-Section_Purple",
     "guid": 1919893824,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Cross-Section_Purple",
+    "displayNameEn": "'Distinguished' Purple Carpet X-Section",
+    "displayLocalizationGuid": "f74dc0c4-fffa-4600-88a2-a9f07298ca18"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Black",
     "guid": 804493387,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Black",
+    "displayNameEn": "'Distinguished' Black Carpet End",
+    "displayLocalizationGuid": "7e057936-2f28-45a8-8ea3-24bc4e372d7e"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Burgundy",
     "guid": -518095715,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Burgundy",
+    "displayNameEn": "'Distinguished' Burgundy Carpet End",
+    "displayLocalizationGuid": "36f2672b-8079-474c-95a9-3bae617c2a8d"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Cobalt",
     "guid": 1989655669,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Cobalt",
+    "displayNameEn": "'Distinguished' Cobalt Carpet End",
+    "displayLocalizationGuid": "30cb992b-c6d6-4d49-9a03-fdc4580e9f7d"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Dyable",
     "guid": -1143821389,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Dyable",
+    "displayNameEn": "'Distinguished' Black Carpet End",
+    "displayLocalizationGuid": "7e057936-2f28-45a8-8ea3-24bc4e372d7e"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Green",
     "guid": -507593057,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Green",
+    "displayNameEn": "'Distinguished' Emerald Carpet End",
+    "displayLocalizationGuid": "6a02bf73-5246-46d8-b663-a157a8e31a6f"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Ivory",
     "guid": -128416884,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Ivory",
+    "displayNameEn": "'Distinguished' Ivory Carpet End",
+    "displayLocalizationGuid": "77c005c5-8b5b-4911-ba58-d6b279e274b5"
   },
   "TM_Castle_FloorDecor_Carpet02_End_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_End_Purple",
     "guid": 532005924,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_End_Purple",
+    "displayNameEn": "'Distinguished' Purple Carpet End",
+    "displayLocalizationGuid": "55a67a4e-0012-495f-b497-3569a6d3e4cd"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Black",
     "guid": 893695403,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Black",
+    "displayNameEn": "'Distinguished' Black Carpet Straight",
+    "displayLocalizationGuid": "8557a2ce-1290-4ca7-bc77-faea0fa5152a"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Burgundy",
     "guid": 574337327,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Burgundy",
+    "displayNameEn": "'Distinguished' Burgundy Carpet Straight",
+    "displayLocalizationGuid": "60117bb3-1cc9-428a-8aef-9435595cb99a"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Cobalt",
     "guid": -1511289700,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Cobalt",
+    "displayNameEn": "'Distinguished' Cobalt Carpet Straight",
+    "displayLocalizationGuid": "43ea367d-1f6d-42f8-8368-711f1a8f70b2"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Dyable",
     "guid": -1845664226,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Dyable",
+    "displayNameEn": "'Distinguished' Black Carpet Straight",
+    "displayLocalizationGuid": "8557a2ce-1290-4ca7-bc77-faea0fa5152a"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Green",
     "guid": -1114619332,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Green",
+    "displayNameEn": "'Distinguished' Emerald Carpet Straight",
+    "displayLocalizationGuid": "1a9701c9-a680-4276-a438-d864122c7d8d"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Ivory",
     "guid": 164698768,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Ivory",
+    "displayNameEn": "'Distinguished' Ivory Carpet Straight",
+    "displayLocalizationGuid": "40c1b0f7-acc6-4993-abd0-ee4ffebda660"
   },
   "TM_Castle_FloorDecor_Carpet02_Straight_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_Straight_Purple",
     "guid": -2029999606,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_Straight_Purple",
+    "displayNameEn": "'Distinguished' Purple Carpet Straight",
+    "displayLocalizationGuid": "b1987461-84a9-4f18-8b39-ee5a4dbda48d"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Black": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Black",
     "guid": 919347321,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Black",
+    "displayNameEn": "'Distinguished' Black Carpet T-Section",
+    "displayLocalizationGuid": "44acbf4f-1684-4eda-b5c7-d0e378f1be22"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Burgundy": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Burgundy",
     "guid": 1955810365,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Burgundy",
+    "displayNameEn": "'Distinguished' Burgundy Carpet T-Section",
+    "displayLocalizationGuid": "a6ae787c-7e39-4760-8abd-206e84c89279"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Cobalt": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Cobalt",
     "guid": 553792296,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Cobalt",
+    "displayNameEn": "'Distinguished' Cobalt Carpet T-Section",
+    "displayLocalizationGuid": "7779bf44-9ed3-480d-9d3f-215760da12e5"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Dyable": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Dyable",
     "guid": 1006618280,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Dyable",
+    "displayNameEn": "'Distinguished' Black Carpet T-Section",
+    "displayLocalizationGuid": "44acbf4f-1684-4eda-b5c7-d0e378f1be22"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Green": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Green",
     "guid": -1932733299,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Green",
+    "displayNameEn": "'Distinguished' Emerald Carpet T-Section",
+    "displayLocalizationGuid": "cf66128b-f0c1-4d5a-ae86-0de744896c2c"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Ivory": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Ivory",
     "guid": 526993414,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Ivory",
+    "displayNameEn": "'Distinguished' Ivory Carpet T-Section",
+    "displayLocalizationGuid": "fd89de7b-5030-4618-a450-b9ed2e2289b4"
   },
   "TM_Castle_FloorDecor_Carpet02_T-Section_Purple": {
     "prefab": "TM_Castle_FloorDecor_Carpet02_T-Section_Purple",
     "guid": 1820953353,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_Carpet02_T-Section_Purple",
+    "displayNameEn": "'Distinguished' Purple Carpet T-Section",
+    "displayLocalizationGuid": "520dfa70-51fc-4c38-9e6e-cd35d9ab03b3"
   },
   "TM_Castle_FloorDecor_CarpetDLC01_Corner": {
     "prefab": "TM_Castle_FloorDecor_CarpetDLC01_Corner",
     "guid": 1103606275,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetDLC01_Corner",
+    "displayNameEn": "Royal Carpet Corner",
+    "displayLocalizationGuid": "7f121804-27af-4b16-98f7-324ce89117b2"
   },
   "TM_Castle_FloorDecor_CarpetDLC01_Cross-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetDLC01_Cross-Section",
     "guid": -181524704,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetDLC01_Cross-Section",
+    "displayNameEn": "Royal Carpet X-Section",
+    "displayLocalizationGuid": "cede6d6d-36dd-453a-b52f-c6b625a7767a"
   },
   "TM_Castle_FloorDecor_CarpetDLC01_End": {
     "prefab": "TM_Castle_FloorDecor_CarpetDLC01_End",
     "guid": 1855507356,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetDLC01_End",
+    "displayNameEn": "Royal Carpet End",
+    "displayLocalizationGuid": "0c290d39-2687-4046-858e-62784fb80b8c"
   },
   "TM_Castle_FloorDecor_CarpetDLC01_Straight": {
     "prefab": "TM_Castle_FloorDecor_CarpetDLC01_Straight",
     "guid": 534774102,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetDLC01_Straight",
+    "displayNameEn": "Royal Carpet Straight",
+    "displayLocalizationGuid": "953652f7-d7eb-4831-adc0-61d543ef5588"
   },
   "TM_Castle_FloorDecor_CarpetDLC01_T-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetDLC01_T-Section",
     "guid": -1664644149,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetDLC01_T-Section",
+    "displayNameEn": "Royal Carpet T-Section",
+    "displayLocalizationGuid": "e8e69ef9-8040-4e81-8116-840e88d559e3"
   },
   "TM_Castle_FloorDecor_CarpetGloomrot01_Corner": {
     "prefab": "TM_Castle_FloorDecor_CarpetGloomrot01_Corner",
     "guid": 1630742707,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetGloomrot01_Corner",
+    "displayNameEn": "Plague Sanctum Carpet - Corner",
+    "displayLocalizationGuid": "6426ad78-034a-499a-8257-79d1f73dfaec"
   },
   "TM_Castle_FloorDecor_CarpetGloomrot01_Cross-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetGloomrot01_Cross-Section",
     "guid": 1416970934,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetGloomrot01_Cross-Section",
+    "displayNameEn": "Plague Sanctum Carpet - X-Section",
+    "displayLocalizationGuid": "2c4064ef-52fc-4d48-9bb8-d7816d0a7a7c"
   },
   "TM_Castle_FloorDecor_CarpetGloomrot01_End": {
     "prefab": "TM_Castle_FloorDecor_CarpetGloomrot01_End",
     "guid": -1761526212,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetGloomrot01_End",
+    "displayNameEn": "Plague Sanctum Carpet - End",
+    "displayLocalizationGuid": "6e0bab44-3d2a-4fbe-936f-b72642278022"
   },
   "TM_Castle_FloorDecor_CarpetGloomrot01_Straight": {
     "prefab": "TM_Castle_FloorDecor_CarpetGloomrot01_Straight",
     "guid": 1012471326,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetGloomrot01_Straight",
+    "displayNameEn": "Plague Sanctum Carpet - Straight",
+    "displayLocalizationGuid": "e1f521a6-eb47-498e-a0c5-8dc56f9f118b"
   },
   "TM_Castle_FloorDecor_CarpetGloomrot01_T-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetGloomrot01_T-Section",
     "guid": 1037297955,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetGloomrot01_T-Section",
+    "displayNameEn": "Plague Sanctum Carpet - T-Section",
+    "displayLocalizationGuid": "a7deea2e-46d3-49e8-965c-3e5e53bd6171"
   },
   "TM_Castle_FloorDecor_CarpetHalloween01_Corner": {
     "prefab": "TM_Castle_FloorDecor_CarpetHalloween01_Corner",
     "guid": 908557664,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetHalloween01_Corner",
+    "displayNameEn": "Haunted Nights Carpet - Corner",
+    "displayLocalizationGuid": "bb8ffdfd-f553-46a9-8e56-a4ee42905f58"
   },
   "TM_Castle_FloorDecor_CarpetHalloween01_Cross-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetHalloween01_Cross-Section",
     "guid": -1588047588,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetHalloween01_Cross-Section",
+    "displayNameEn": "Haunted Nights Carpet - X-Section",
+    "displayLocalizationGuid": "3c0cce06-a45e-4eb4-a598-8659a7bcd27d"
   },
   "TM_Castle_FloorDecor_CarpetHalloween01_End": {
     "prefab": "TM_Castle_FloorDecor_CarpetHalloween01_End",
     "guid": 2097305970,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetHalloween01_End",
+    "displayNameEn": "Haunted Nights Carpet - End",
+    "displayLocalizationGuid": "95f0c342-9c71-4974-a4fc-df033e4b9b18"
   },
   "TM_Castle_FloorDecor_CarpetHalloween01_Straight": {
     "prefab": "TM_Castle_FloorDecor_CarpetHalloween01_Straight",
     "guid": 832684882,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetHalloween01_Straight",
+    "displayNameEn": "Haunted Nights Carpet - Straight",
+    "displayLocalizationGuid": "f71765d3-59ed-47c2-bf34-0d9041971db1"
   },
   "TM_Castle_FloorDecor_CarpetHalloween01_T-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetHalloween01_T-Section",
     "guid": -633127683,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetHalloween01_T-Section",
+    "displayNameEn": "Haunted Nights Carpet - T-Section",
+    "displayLocalizationGuid": "7f7201e0-bf3d-4070-8a6f-d06caddeff8c"
   },
   "TM_Castle_FloorDecor_CarpetProjectK01_Corner": {
     "prefab": "TM_Castle_FloorDecor_CarpetProjectK01_Corner",
     "guid": 1271352880,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetProjectK01_Corner",
+    "displayNameEn": "Ancient Symphony Carpet - Corner",
+    "displayLocalizationGuid": "3523bc81-6868-4a60-a6d0-bf3025b38074"
   },
   "TM_Castle_FloorDecor_CarpetProjectK01_Cross-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetProjectK01_Cross-Section",
     "guid": -24431530,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetProjectK01_Cross-Section",
+    "displayNameEn": "Ancient Symphony Carpet - X-Section",
+    "displayLocalizationGuid": "253430f0-645f-4347-b5d8-43bc0ef546bb"
   },
   "TM_Castle_FloorDecor_CarpetProjectK01_End": {
     "prefab": "TM_Castle_FloorDecor_CarpetProjectK01_End",
     "guid": 990139966,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetProjectK01_End",
+    "displayNameEn": "Ancient Symphony Carpet - End",
+    "displayLocalizationGuid": "4d92a627-6dcb-43c6-b1cf-d717f9304b8f"
   },
   "TM_Castle_FloorDecor_CarpetProjectK01_Straight": {
     "prefab": "TM_Castle_FloorDecor_CarpetProjectK01_Straight",
     "guid": -1507536062,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetProjectK01_Straight",
+    "displayNameEn": "Ancient Symphony Carpet - Straight",
+    "displayLocalizationGuid": "29309d5a-f0c0-4ae5-b6c8-5204ecc101fa"
   },
   "TM_Castle_FloorDecor_CarpetProjectK01_T-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetProjectK01_T-Section",
     "guid": 1128182070,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetProjectK01_T-Section",
+    "displayNameEn": "Ancient Symphony Carpet - T-Section",
+    "displayLocalizationGuid": "8dae9ea5-1b9d-4ca5-8437-156d5fd365e1"
   },
   "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Corner": {
     "prefab": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Corner",
     "guid": -57770233,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetStrongbladeDLC_Corner",
+    "displayNameEn": "Nocturnal Opulence Carpet - Corner",
+    "displayLocalizationGuid": "fa5d958f-a2e7-4981-9dde-fa5d751a8f5e"
   },
   "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Cross-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Cross-Section",
     "guid": -787655845,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetStrongbladeDLC_Cross-Section",
+    "displayNameEn": "Nocturnal Opulence Carpet - X-Section",
+    "displayLocalizationGuid": "65849c24-7600-49ae-b1cc-7dc1ed4a17d9"
   },
   "TM_Castle_FloorDecor_CarpetStrongbladeDLC_End": {
     "prefab": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_End",
     "guid": 1784663116,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetStrongbladeDLC_End",
+    "displayNameEn": "Nocturnal Opulence Carpet - End",
+    "displayLocalizationGuid": "f239704e-2b21-44d9-bd9e-fb21ac8dcc28"
   },
   "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Straight": {
     "prefab": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_Straight",
     "guid": -164197545,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetStrongbladeDLC_Straight",
+    "displayNameEn": "Nocturnal Opulence Carpet - Straight",
+    "displayLocalizationGuid": "1c83deaf-69d2-4461-9c8c-fce442cb3808"
   },
   "TM_Castle_FloorDecor_CarpetStrongbladeDLC_T-Section": {
     "prefab": "TM_Castle_FloorDecor_CarpetStrongbladeDLC_T-Section",
     "guid": -2084701667,
-    "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "summaryEn": "A splendid carpet that increases your movement speed by 15%. There is no better way to hide all the dust!",
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_FloorDecor_CarpetStrongbladeDLC_T-Section",
+    "displayNameEn": "Nocturnal Opulence Carpet - T-Section",
+    "displayLocalizationGuid": "dc28c776-e004-4510-a0a1-ba1bef3b50ff"
   },
   "TM_Castle_FloorDecor_FancyCarpet01_Dyable": {
     "prefab": "TM_Castle_FloorDecor_FancyCarpet01_Dyable",
@@ -3717,15 +3873,19 @@
     "prefab": "TM_Castle_House_Window_Metal",
     "guid": 545291818,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_House_Window_Metal",
+    "displayNameEn": "Metalbars",
+    "displayLocalizationGuid": "53e8d449-0bbf-400d-bed4-f81ea9575e31"
   },
   "TM_Castle_House_Window_SimpleCurtains": {
     "prefab": "TM_Castle_House_Window_SimpleCurtains",
     "guid": 236180419,
     "summaryEn": "Blueprint record.",
-    "sourceKind": "generated-fallback",
-    "sourceRef": "content/prefabs"
+    "sourceKind": "extractor-raw",
+    "sourceRef": "data/enrichment/blueprint-text-completion.json#TM_Castle_House_Window_SimpleCurtains",
+    "displayNameEn": "Hatches & Curtain",
+    "displayLocalizationGuid": "86d525e6-eb70-4f65-b645-fb1c1dd4dfa0"
   },
   "TM_Castle_House_Window_Wood": {
     "prefab": "TM_Castle_House_Window_Wood",
