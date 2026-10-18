@@ -433,7 +433,8 @@ test("empty, missing and held zero-valued Blueprint requirements do not imply a 
 const blueprintOwnedDescription = "An exact owned Blueprint description.";
 const approvedBlueprintTextWitnesses = [
   "data/enrichment/blueprint-text-capture.json#",
-  "data/enrichment/blueprint-text-expansion-128.json#"
+  "data/enrichment/blueprint-text-expansion-128.json#",
+  "data/enrichment/blueprint-text-remaining-literals.json#"
 ];
 function ownedBlueprintRenderingFixture(witness: string, summary = blueprintOwnedDescription): DbEntityDetail {
   const prefab = "BP_Castle_Chain_Plant_BleedingHeart";
@@ -458,7 +459,7 @@ for (const witness of approvedBlueprintTextWitnesses) {
     assert.equal(html.split(secondary).length - 1, 1);
   });
 }
-for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/enrichment/blueprint-text-expansion-128.json.invalid#"]) {
+for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/enrichment/blueprint-text-expansion-128.json.invalid#", "data/enrichment/blueprint-text-remaining-literals.json.invalid#"]) {
   test(`unknown witness does not suppress recorded summary: ${witness}`, () => {
     const fixture = ownedBlueprintRenderingFixture(witness);
     const html = renderDetail(fixture, "blueprints");

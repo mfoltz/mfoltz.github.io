@@ -6,6 +6,8 @@ import { generateKeyPairSync } from "node:crypto";
 import { chromium, type Page } from "playwright";
 import type { DbEntityDetail, DbIndexEntry, DbRelatedEntityRef } from "../src/types/db";
 import { readExpansion, expansionTextFields, type ExpansionRow } from "./blueprint-text-expansion";
+import { readRemaining, remainingTextFields } from "./blueprint-text-remaining";
+import { readRemainingReviewItems } from "./blueprint-text-remaining-fixtures";
 import { assertFocusedReferenceVisible } from "./reference-focus";
 import { revealExpansionSourceBacklink } from "./blueprint-expansion-source-navigation";
 import { blueprintZoomExtensionId, blueprintZoomStage } from "./blueprint-text-zoom";
@@ -17,7 +19,10 @@ const output = path.resolve(process.env.BLUEPRINT_EXPANSION_REVIEW_OUTPUT ?? ".c
 const before = process.argv.includes("--before"), phase = before ? "before" : "after", directory = path.join(output, phase);
 await mkdir(directory, { recursive: true });
 const json = async <T,>(file: string): Promise<T> => JSON.parse(await readFile(file, "utf8"));
-const evidence = await readExpansion(process.cwd());
+const remaining = process.argv.includes("--remaining");
+const evidence = remaining ? await readRemaining(process.cwd()) : await readExpansion(process.cwd());
+const fieldsFor = remaining ? remainingTextFields : expansionTextFields;
+const bookSlug = remaining ? "item-ingredient-book-structure-paintings-t01" : "item-ingredient-book-structure-wallpaper-classical-t03";
 const blueprints = await json<DbIndexEntry[]>("public/data/db/blueprints/index.json");
 type Fixture = { id: string; route: string; detail?: DbEntityDetail; promoted?: ExpansionRow };
 const fixtures: Fixture[] = [];
@@ -27,18 +32,33 @@ for (const row of evidence.rows) {
   fixtures.push({ id: entries[0].slug, route: row.path, promoted: row,
     detail: await json(`public/data/db/blueprints/by-slug/${entries[0].slug}.json`) });
 }
-const representatives = new Set([
+const representatives = remaining ? new Set([
+  ...Object.keys(evidence.manifest.captures).map(id => evidence.rows.find(row => row.captureId === id)!.prefab),
+  [...evidence.rows].sort((a, b) => b.prefab.length - a.prefab.length)[0].prefab,
+  [...evidence.rows].sort((a, b) => b.nameRaw.length - a.nameRaw.length)[0].prefab,
+  [...evidence.rows].sort((a, b) => b.descriptionRaw.length - a.descriptionRaw.length)[0].prefab,
+  evidence.rows.at(-1)!.prefab, "TM_CraftingStation_Anvil", "TM_Castle_Wall_Tier01_Wood_Entrance",
+  "TM_Castle_Wall_Tier02_Stone_EntranceWide"
+]) : new Set([
   "BP_Castle_Chain_Plant_BleedingHeart", "BP_Castle_Chain_Plant_Cotton", "BP_Castle_Chain_Tree_AppleTree_01",
   "BP_Castle_Debug_Room", "BP_Castle_Debug_ArtQualityBenchmarkRoom", "BP_Castle_Wall_Tier01_Wood_Entrance",
   "BP_Castle_Wall_Tier02_Stone_Entrance", "BP_Tier02_WallpaperSet_CastleStone01", "BP_Tier02_WallpaperSet_ProjectK_Middle",
   "TM_BloodAltar_T01", "TM_BloodFountain_CastleHeart_Rebuilding", "TM_Castle_Fence_Iron02"
 ]);
-const extra: Fixture[] = [{ id: "browse", route: "/db/blueprints" }, { id: "duplicate-name", route: "/db/blueprints?q=plant" },
-  { id: "global-search", route: "/search?q=plant&scope=db" }];
-for (const slug of ["item-ingredient-stone-brick", "item-blood-essence-t01", "item-building-plants-bleeding-heart-seed",
-  "item-ingredient-book-structure-wallpaper-classical-t03"])
-  extra.push({ id: slug, route: `/db/items/${slug}`, detail: await json(`public/data/db/items/by-slug/${slug}.json`) });
+if (remaining) { assert.equal(evidence.rows.length, 790); assert.equal(representatives.size, 16); }
+const extra: Fixture[] = [{ id: "browse", route: "/db/blueprints" }, { id: "duplicate-name", route: remaining ? "/db/blueprints?q=painting" : "/db/blueprints?q=plant" },
+  { id: "global-search", route: remaining ? "/search?q=painting&scope=db" : "/search?q=plant&scope=db" }];
+if (remaining) extra.push(...await readRemainingReviewItems(process.cwd()));
+else for (const slug of ["item-ingredient-stone-brick", "item-blood-essence-t01", "item-building-plants-bleeding-heart-seed", bookSlug])
+  extra.push({ id: slug, route: "/db/items/" + slug, detail: await json("public/data/db/items/by-slug/" + slug + ".json") });
 fixtures.push(...extra);
+const expectedCaptures = 2 * [320, 390, 639, 640, 1280].reduce((count, width) => count +
+  fixtures.filter(f => !f.promoted || width === 320 || width === 1280 || representatives.has(f.promoted.prefab)).length, 0);
+if (process.argv.includes("--preflight")) {
+  console.log(JSON.stringify({ status: "FIXTURES_READY_NO_BROWSER", mode: remaining ? "remaining" : "expansion-128",
+    fixtures: fixtures.length, responsiveCaptures: expectedCaptures }));
+  process.exit(0);
+}
 const receipts: unknown[] = [], measurements: unknown[] = [];
 const browser = await chromium.launch({ headless: true });
 async function ready(page: Page, route: string) {
@@ -74,11 +94,17 @@ async function checkFixture(page: Page, fixture: Fixture) {
   if (fixture.detail) {
     await page.getByRole("heading", { level: 1, name: fixture.detail.title, exact: true }).waitFor();
     assert.equal(await page.locator("main h1").textContent(), fixture.detail.title);
+    assert(await page.locator("main h1").evaluate(element => element.scrollWidth <= element.clientWidth + 1
+      && element.scrollHeight <= element.clientHeight + 1), "Complete title containment");
     assert((await page.locator("main").innerText()).includes(fixture.detail.prefab!), "Complete prefab available");
     if (fixture.promoted && !before) {
-      const fields = expansionTextFields(fixture.promoted);
+      const fields = fieldsFor(fixture.promoted);
       assert.equal(fixture.detail.title, fields.displayNameEn); assert.equal(fixture.detail.description, fields.summaryEn);
-      assert.equal(await page.getByText(fields.summaryEn, { exact: true }).count(), 1, "Owned description displayed once");
+      const description = page.getByText(fields.summaryEn, { exact: true });
+      assert.equal(await description.count(), 1, "Owned description displayed once");
+      assert(await description.isVisible(), "Owned description visible");
+      assert(await description.evaluate(element => element.scrollWidth <= element.clientWidth + 1
+        && element.scrollHeight <= element.clientHeight + 1), "Complete description containment");
     }
   }
   await measure(page);
@@ -158,7 +184,7 @@ async function searchChecks(page: Page) {
   await page.locator('main a.database-ledger-row[href^="/db/blueprints/"]').first().waitFor();
   assert.equal(await page.locator('main a.database-ledger-row[href^="/db/blueprints/"]').count(), 14);
   assert.equal(await page.getByRole("heading", { level: 2, name: "Plant", exact: true }).count(), 14);
-  for (const query of [evidence.rows[0].prefab, String(evidence.rows[0].guid)]) {
+  for (const query of [evidence.rows[0].prefab, String(evidence.rows[0].guid), ...(remaining ? [evidence.rows[0].nameRaw] : [])]) {
     for (const route of ["/db/blueprints", "/search"]) {
       const params = new URLSearchParams({ q: query }); if (route === "/search") params.set("scope", "db");
       await ready(page, route + "?" + params.toString());
@@ -199,7 +225,7 @@ async function nativeZoom() {
       assert.equal(new URL(controller.url()).hostname, extensionId);
       assert.equal(await blueprintZoomStage(`${theme}: extension identity`, () => controller.evaluate(() =>
         (globalThis as unknown as { chrome: { runtime: { id: string } } }).chrome.runtime.id), record), extensionId);
-      for (const fixture of [fixtures.find(f => f.promoted?.prefab === "BP_Tier02_WallpaperSet_ProjectK_Middle")!, fixtures.find(f => f.promoted?.prefab === "BP_Castle_Wall_Tier01_Wood_Entrance")!, extra.find(f => f.id === "item-ingredient-stone-brick")!]) {
+      for (const fixture of [fixtures.find(f => f.promoted?.prefab === (remaining ? [...evidence.rows].sort((a, b) => b.prefab.length - a.prefab.length)[0].prefab : "BP_Tier02_WallpaperSet_ProjectK_Middle"))!, fixtures.find(f => f.promoted?.prefab === (remaining ? "TM_Castle_Wall_Tier01_Wood_Entrance" : "BP_Castle_Wall_Tier01_Wood_Entrance"))!, extra.find(f => f.id === "item-ingredient-stone-brick")!]) {
         await ready(page, fixture.route);
         const stage = `${theme}: ${fixture.id}`;
         const tabs = await blueprintZoomStage(`${stage}: tabs.query`, () => controller.evaluate(async url => {
@@ -253,14 +279,14 @@ try {
         await page.screenshot({ path: path.join(directory, `${fixture.id}--${theme}--${width}.png`), animations: "disabled" });
         await checkGuidCopy(page, fixture);
         receipts.push({ fixture: fixture.id, theme, width, fonts: "Inter/Cinzel loaded", frameHeight: 960 });
-        captures++; if (captures % 25 === 0) console.log(`${phase}: ${captures}/654 responsive captures accepted`);
+        captures++; if (captures % 25 === 0) console.log(`${phase}: ${captures}/${expectedCaptures} responsive captures accepted`);
       }
       if (!before && width === 390) {
         await relatedNavigation(page, extra.find(f => f.id === "item-ingredient-stone-brick")!);
-        await relatedNavigation(page, extra.find(f => f.id === "item-ingredient-book-structure-wallpaper-classical-t03")!, true);
+        await relatedNavigation(page, extra.find(f => f.id === bookSlug)!, true);
         await searchChecks(page);
         await page.route("**/icons/**", route => route.abort());
-        const artwork = fixtures.find(f => f.promoted?.prefab === "BP_Castle_Wall_Tier01_Wood_Entrance")!;
+        const artwork = fixtures.find(f => f.promoted?.prefab === (remaining ? "TM_Castle_Wall_Tier01_Wood_Entrance" : "BP_Castle_Wall_Tier01_Wood_Entrance"))!;
         await ready(page, artwork.route); await checkFixture(page, artwork);
         await page.mouse.move(0, 0);
         await page.screenshot({ path: path.join(directory, `failed-artwork--${theme}.png`), animations: "disabled" });
@@ -269,7 +295,7 @@ try {
       assert.deepEqual(errors, []);
     } finally { await context.close(); }
   }
-  assert.equal(captures, 654); if (!before) await nativeZoom();
+  assert.equal(captures, expectedCaptures); if (!before) await nativeZoom();
   await writeFile(path.join(output, `${phase}-receipt.json`), JSON.stringify({ status: "PASSED", phase, captures,
     viewportPolicy: "960px frames; complete-page DOM/card measurements; existing regression suites retain their capture policies", receipts, measurements }, null, 2));
   console.log(`Blueprint text expansion ${phase}: ${captures} responsive captures passed.`);

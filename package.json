@@ -57,7 +57,8 @@
     "qa:ingestion-readiness": "jiti scripts/qa-ingestion-readiness.ts",
     "qa:spawn-readiness": "jiti scripts/qa-spawn-readiness.ts",
     "test:blueprint-text-expansion": "tsx --test scripts/blueprint-text-expansion.test.ts scripts/blueprint-expansion-browser-evaluation.test.ts scripts/blueprint-expansion-source-navigation.test.ts scripts/browse-search-label-contract.test.ts",
-    "test:blueprint-text-expansion-visual": "tsx scripts/blueprint-text-expansion-visual-check.ts"
+    "test:blueprint-text-expansion-visual": "tsx scripts/blueprint-text-expansion-visual-check.ts",
+    "test:blueprint-text-remaining-visual": "tsx scripts/blueprint-text-expansion-visual-check.ts --remaining"
   },
   "dependencies": {
     "react": "^18.3.1",
