@@ -1,0 +1,804 @@
+{
+  "rows": [
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_DriedFlowers01", "guid": 1238138229, "path": "/db/blueprints/tm-castle-wall-decor-misc-dried-flowers01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_DriedFlowers01.md", "sourceSha256": "a1b61a2988974a182c34763fd29563fc1467b68dc144e3d7fef7a2f24d071290", "captureId": "blueprints-09",
+      "nameKey": "1ec9a066-029d-40df-ac52-a04842b46e4d", "nameRaw": "Wall Hanging Flowers",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Wall Hanging Flowers","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_DriedFlowers02", "guid": 369925576, "path": "/db/blueprints/tm-castle-wall-decor-misc-dried-flowers02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_DriedFlowers02.md", "sourceSha256": "a2ef624390038140284f8e37502f4f39ad1780d132e56adaa9a6dfeba6c3c7fa", "captureId": "blueprints-09",
+      "nameKey": "1ec9a066-029d-40df-ac52-a04842b46e4d", "nameRaw": "Wall Hanging Flowers",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Wall Hanging Flowers","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_Stable_WallProps01", "guid": 1609638790, "path": "/db/blueprints/tm-castle-wall-decor-misc-stable-wall-props01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_Stable_WallProps01.md", "sourceSha256": "4ee2fbc4764546a496d0fd8b58ede46c1c9f4a72aaab41d94f3744df12940af3", "captureId": "blueprints-09",
+      "nameKey": "794a6356-362c-462c-93b9-841d294921fa", "nameRaw": "Horse Equipment",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Horse Equipment","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_StrongbladeDLC_WallFountain01", "guid": -2080018629, "path": "/db/blueprints/tm-castle-wall-decor-misc-strongblade-dlc-wall-fountain01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_StrongbladeDLC_WallFountain01.md", "sourceSha256": "2846ca9d5bbf19ba609eae53c38de80d84e9d297691c811e3f6abdbc4c54e7ce", "captureId": "blueprints-09",
+      "nameKey": "9300af8f-9fe3-49e3-8c73-c743b0b5f3ae", "nameRaw": "Nocturnal Opulence Wall Fountain",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Nocturnal Opulence Wall Fountain","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_TrophySkull01", "guid": -509538861, "path": "/db/blueprints/tm-castle-wall-decor-misc-trophy-skull01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_TrophySkull01.md", "sourceSha256": "66fc66f959496b05d5387fd843142345380d9cd9aedb628ea0c5dfaad791c58e", "captureId": "blueprints-09",
+      "nameKey": "0988b4be-4544-4843-a659-e6dd9399d850", "nameRaw": "Hunting Trophy",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Hunting Trophy","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WallTools01", "guid": -2108225406, "path": "/db/blueprints/tm-castle-wall-decor-misc-wall-tools01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WallTools01.md", "sourceSha256": "fcd2fce03a0dee1bb3dbb4841ce94e27301e872363a55afbe16960321a26097e", "captureId": "blueprints-09",
+      "nameKey": "9d7261f7-2369-4a54-a0cf-76884bd308c2", "nameRaw": "Tool Wall",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Tool Wall","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WallTools02", "guid": 183821441, "path": "/db/blueprints/tm-castle-wall-decor-misc-wall-tools02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WallTools02.md", "sourceSha256": "622f5abdbf0e33006156ca86daed4628b29e4868d1a28fc4417bcdea39d80c37", "captureId": "blueprints-09",
+      "nameKey": "9d7261f7-2369-4a54-a0cf-76884bd308c2", "nameRaw": "Tool Wall",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Tool Wall","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament01", "guid": 1766219278, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament01.md", "sourceSha256": "d1f1fd1c9dad1dd24939232e8a93f7d124c48d0766895dd5c3e7e4ffaf3418d4", "captureId": "blueprints-09",
+      "nameKey": "bf3f49e0-2f71-40d0-855b-e0ab4e4c091b", "nameRaw": "Weapon Rack - Iron Greatswords",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Greatswords","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament02", "guid": -777333175, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament02.md", "sourceSha256": "3e7e62baa02b076fbdae67fe514958d057a47390b31ed906da60bd1708c32786", "captureId": "blueprints-09",
+      "nameKey": "6bacec71-05f5-4f9d-94ff-6eaba2c32ce7", "nameRaw": "Weapon Rack - Iron Axes",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Axes","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament03", "guid": -557407971, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament03.md", "sourceSha256": "52edc95731a0443b0153c6ab0b2bfe29666da9b367d46494b819e3a07191cbf5", "captureId": "blueprints-09",
+      "nameKey": "fdce2b5d-f014-4f95-ae3f-9025c02714a9", "nameRaw": "Weapon Rack - Iron Crossbows",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Crossbows","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament04", "guid": -24347868, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament04.md", "sourceSha256": "867034477319db8e8ee95ef181bd95925a37eac3afee77c19b5b55ee16c25e8e", "captureId": "blueprints-09",
+      "nameKey": "18690701-fdc5-413b-a364-09df818af80b", "nameRaw": "Weapon Rack - Iron Greatsword",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Greatsword","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament05", "guid": -2037044181, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament05.md", "sourceSha256": "2522b04b4113ea8916696b361aaa759296a899a35083ef1eb72de4c433fbf8fc", "captureId": "blueprints-09",
+      "nameKey": "580f8e63-9e90-4c6f-a979-8a4e7fe0ffda", "nameRaw": "Weapon Rack - Iron Crossbow",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Crossbow","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament06", "guid": 1517094056, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament06.md", "sourceSha256": "db45d487f32cd00de1fbb2e41708ce081bf866c636bd1073f33c96c102674501", "captureId": "blueprints-09",
+      "nameKey": "6bacec71-05f5-4f9d-94ff-6eaba2c32ce7", "nameRaw": "Weapon Rack - Iron Axes",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Axes","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament07", "guid": 416779558, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament07",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament07.md", "sourceSha256": "5ca5429c7756cbfb305fd5334b98fce4ff67d6b45cf6c9315732bf3da259c337", "captureId": "blueprints-09",
+      "nameKey": "1c8f73c5-6845-40aa-8ac4-3cabd0987ad1", "nameRaw": "Weapon Rack - Iron Longswords",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Longswords","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Misc_WeaponOrnament08", "guid": -255512362, "path": "/db/blueprints/tm-castle-wall-decor-misc-weapon-ornament08",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Misc_WeaponOrnament08.md", "sourceSha256": "b053df4b7044f6809bd8c5a877ae79299a594f4c0541fa50d8c2012b1c53493c", "captureId": "blueprints-09",
+      "nameKey": "0574f7d9-0cbf-4c8c-a335-7f5cbcd730c3", "nameRaw": "Weapon Rack - Iron Swords",
+      "descriptionKey": "9381b64f-e5e8-4739-bc07-c968c6e3ccdb", "descriptionRaw": "A decoration that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A decoration that sits neatly on your walls.","toString":"A decoration that sits neatly on your walls.","resultKey":"9381b64f-e5e8-4739-bc07-c968c6e3ccdb","nameLookup":"Weapon Rack - Iron Swords","templateLookup":"A decoration that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_01", "guid": -265936608, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_01.md", "sourceSha256": "36d01bc362a83e73f438bfd795f971e75a20c9262c18b935f488e8830c3785f1", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_02", "guid": -457497939, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_02.md", "sourceSha256": "38bb7046f7f285013f841aa007e6e30c4e46713daddc76052289c9885be9e5af", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_03", "guid": -877164120, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_03.md", "sourceSha256": "8fd2f4547454a6455263ef4b43e6245904fe1a9c007b7b5c362d858aa6909e9f", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_04", "guid": -1770486397, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_04.md", "sourceSha256": "339761d998941658f5b5bdaf9e326658918dd5dbcfdbe3cb934d4db31e634a6f", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_05", "guid": 1104397231, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_05.md", "sourceSha256": "e7797148c4d0b296b3210f5d13ada54f3648adc179f56cc5d22391c93559995b", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_06", "guid": -637480316, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_06.md", "sourceSha256": "cbc581c11657579284be6e5944591ba5c63ec387b98ce1ac299434f9999a7ba4", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_07", "guid": 621107396, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-07",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_07.md", "sourceSha256": "d0e1c5f0983efd6bfeff99cf7e8c942bc99564f20c3984fb50b5d9ff5dc2db0c", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_08", "guid": -80712975, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-08",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_08.md", "sourceSha256": "d1ea0cedb73130fa7df3f68f56c6d8f186c2f468efe8bd0c23442eceb323bddd", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Oval_Painting_09", "guid": 790955618, "path": "/db/blueprints/tm-castle-wall-decor-oval-painting-09",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Oval_Painting_09.md", "sourceSha256": "52f9b5ffd3cf7de6df62eb86945b36ec2b607783284bb68c09f34c2e5e7a6502", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_01", "guid": 1549709004, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_01.md", "sourceSha256": "4b7210b3b429987cc880ed5e27dd5211cb922e8167fdee75b01f5d204fb0def1", "captureId": "blueprints-09",
+      "nameKey": "1082d2cb-b244-45a7-b178-ef40c3a3acac", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_02", "guid": -1105873872, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_02.md", "sourceSha256": "54973c4ebe82db167eb1a26db3c7d93227aae442302da1b82f8fb97a10e19564", "captureId": "blueprints-09",
+      "nameKey": "614ab921-1eff-429c-abe4-22c13386e39d", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_03", "guid": 1235438962, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_03.md", "sourceSha256": "e141a27f7d3928b5907934673915f0179ddc64ca17f353a4767fcc1f4bcd065a", "captureId": "blueprints-09",
+      "nameKey": "1082d2cb-b244-45a7-b178-ef40c3a3acac", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_04", "guid": -2073893355, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_04.md", "sourceSha256": "bdf67c060ea1f71405261edf3162af99aad95f87fe3790a18714f7181e1f8267", "captureId": "blueprints-09",
+      "nameKey": "1082d2cb-b244-45a7-b178-ef40c3a3acac", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_05", "guid": 620046867, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_05.md", "sourceSha256": "8f8fbcc965cfcdd8ad8c97437d4ce1200dcd7a3add0d240f164ab48d2482dd7a", "captureId": "blueprints-09",
+      "nameKey": "1082d2cb-b244-45a7-b178-ef40c3a3acac", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_ProjectK_Painting_06", "guid": 209794964, "path": "/db/blueprints/tm-castle-wall-decor-project-k-painting-06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_ProjectK_Painting_06.md", "sourceSha256": "802631b6c532e0cd24ccd9eeb84de3f3a36edcc21eef76f7c627aecf9451a958", "captureId": "blueprints-09",
+      "nameKey": "1082d2cb-b244-45a7-b178-ef40c3a3acac", "nameRaw": "Ancient Symphony Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Ancient Symphony Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf01", "guid": -55125931, "path": "/db/blueprints/tm-castle-wall-decor-shelves-shelf01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Shelves_Shelf01.md", "sourceSha256": "4ae3dc622c1e315014e84148c6e11c73ff9d79ab45502c9c833738b25deffc87", "captureId": "blueprints-09",
+      "nameKey": "5376cc45-db83-43cd-a6c5-a1292fcfa5f0", "nameRaw": "'Omen' Triple Wall Shelf - Literature",
+      "descriptionKey": "a3eae1a0-30ab-4275-80c1-63c32e5421c0", "descriptionRaw": "A shelving unit that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A shelving unit that sits neatly on your walls.","toString":"A shelving unit that sits neatly on your walls.","resultKey":"a3eae1a0-30ab-4275-80c1-63c32e5421c0","nameLookup":"'Omen' Triple Wall Shelf - Literature","templateLookup":"A shelving unit that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf02", "guid": -1759419888, "path": "/db/blueprints/tm-castle-wall-decor-shelves-shelf02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Shelves_Shelf02.md", "sourceSha256": "edacc4c6c85aba2e4536035125ddd8038cfcd64bf38435a2d179a1b0ac22a76e", "captureId": "blueprints-09",
+      "nameKey": "8b1366db-d55a-48ca-82a9-4d9b4d0858ec", "nameRaw": "'Omen' Triple Wall Shelf - Ingredients",
+      "descriptionKey": "a3eae1a0-30ab-4275-80c1-63c32e5421c0", "descriptionRaw": "A shelving unit that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A shelving unit that sits neatly on your walls.","toString":"A shelving unit that sits neatly on your walls.","resultKey":"a3eae1a0-30ab-4275-80c1-63c32e5421c0","nameLookup":"'Omen' Triple Wall Shelf - Ingredients","templateLookup":"A shelving unit that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf03", "guid": 1648986010, "path": "/db/blueprints/tm-castle-wall-decor-shelves-shelf03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Shelves_Shelf03.md", "sourceSha256": "95d0fc9deb5931994fdc16f787562d975a87fcd943012f59adf743ddd1a0d9d7", "captureId": "blueprints-09",
+      "nameKey": "d30a0ad2-5386-4378-855b-73c14afea06b", "nameRaw": "'Omen' Single Wall Shelf - Literature",
+      "descriptionKey": "a3eae1a0-30ab-4275-80c1-63c32e5421c0", "descriptionRaw": "A shelving unit that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A shelving unit that sits neatly on your walls.","toString":"A shelving unit that sits neatly on your walls.","resultKey":"a3eae1a0-30ab-4275-80c1-63c32e5421c0","nameLookup":"'Omen' Single Wall Shelf - Literature","templateLookup":"A shelving unit that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Shelves_Shelf04", "guid": -993266118, "path": "/db/blueprints/tm-castle-wall-decor-shelves-shelf04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Shelves_Shelf04.md", "sourceSha256": "534d7571eb3e8115b9d6d50304bd4b81e64737b843e55d25fa17a11ba1e8ebc4", "captureId": "blueprints-09",
+      "nameKey": "249ba8e6-da46-4cc0-8ec4-143ad4a7723c", "nameRaw": "'Cordial' Double Wall Shelf",
+      "descriptionKey": "a3eae1a0-30ab-4275-80c1-63c32e5421c0", "descriptionRaw": "A shelving unit that sits neatly on your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A shelving unit that sits neatly on your walls.","toString":"A shelving unit that sits neatly on your walls.","resultKey":"a3eae1a0-30ab-4275-80c1-63c32e5421c0","nameLookup":"'Cordial' Double Wall Shelf","templateLookup":"A shelving unit that sits neatly on your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_01", "guid": 1125316242, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_01.md", "sourceSha256": "182e7205f8dc5468a2635a112035d6c12d807806aa6e6730547abbd44edb0977", "captureId": "blueprints-09",
+      "nameKey": "55a3805c-e0af-4b91-997e-ca9e2647ac08", "nameRaw": "'Contemplation'",
+      "descriptionKey": "a28270ef-cb20-43b7-914a-a6cc3352dddb", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"a28270ef-cb20-43b7-914a-a6cc3352dddb","nameLookup":"'Contemplation'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_02", "guid": 622570691, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_02.md", "sourceSha256": "c5c3f03ac580840ddca502f66510f5c4bf38cb699550199877a9513ccf319354", "captureId": "blueprints-09",
+      "nameKey": "88dab23e-13e1-448b-ad60-60fd1c5a6f58", "nameRaw": "'Baroness Hardedge'",
+      "descriptionKey": "fc04ec66-d1ed-4939-a53a-13d90682586a", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"fc04ec66-d1ed-4939-a53a-13d90682586a","nameLookup":"'Baroness Hardedge'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_03", "guid": 1349599249, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_03.md", "sourceSha256": "be30e97dfbe1c05c7aa148b6f5bf5b9095144bb1a4561cacd88ad0fcd2dae8f4", "captureId": "blueprints-09",
+      "nameKey": "457060df-e58d-4ac9-b0c0-402b8024647e", "nameRaw": "'Countess Lindblüm'",
+      "descriptionKey": "231ab83f-38c4-4e34-8c83-43f9300f329d", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"231ab83f-38c4-4e34-8c83-43f9300f329d","nameLookup":"'Countess Lindblüm'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_06", "guid": -1761226177, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_06.md", "sourceSha256": "5f437084bcbc3b269d1439e3ff21e35a232ff9451489455dfa195737b48dacb3", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_07", "guid": 2119591728, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-07",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_07.md", "sourceSha256": "9a15826f7df6405210f1901f0fc64d6caf992a88dfab8958c3be450c27daee71", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_08", "guid": 687516047, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-08",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_08.md", "sourceSha256": "c5c6f7069f0a25382deca24d332fcf5edaaca8c79dba761761a8616ab30772e2", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_09", "guid": -364590536, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-09",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_09.md", "sourceSha256": "04177066a2f0742dad2d33c9d47f9ff5da2a42acfa01a5f941bdcc498cafd5ea", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_10", "guid": 175786489, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-10",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_10.md", "sourceSha256": "a8f6e048a8d59edf477a79de4ab1f369fc72b3353f99c6a18f6dbb8581ffd03a", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_11", "guid": 1237080090, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-11",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_11.md", "sourceSha256": "3018e7705afdfcef6a3fdbeba63c509d77cc2119a5259891d3c73fdc34813ccb", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Square_Painting_12", "guid": 1361398761, "path": "/db/blueprints/tm-castle-wall-decor-square-painting-12",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Square_Painting_12.md", "sourceSha256": "49f882ad5e63429591c876ce476793ec27ee19a2589bef3adaa604705fad89c1", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_01", "guid": 2032410610, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_01.md", "sourceSha256": "c2bb03bd01a5bfef1570b241fae82c22b9a8b6fe39c386d6bfc708b126b87368", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_02", "guid": -1458092673, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_02.md", "sourceSha256": "7cb3513347afc12c7615827ec18713d1d8e1ce72feca0fd06e7277278f186cba", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_03", "guid": 2080830789, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_03.md", "sourceSha256": "28b0d9f8cc98fda1173bd770c8f64a3de9708085d8ae9d2f1be2b7d5deb82165", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_04", "guid": 792422254, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_04.md", "sourceSha256": "1b17d5fb5c1b0a51fe86da182dba3e2e627a71fac69b60ae85b0ee8ad4550545", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_05", "guid": 1286490723, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_05.md", "sourceSha256": "4f95284b58567cf3161b2b32135b4429ba529c29cdf46dc234334df69d6e9662", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_StrongbladeDLC01_Painting_06", "guid": 142999579, "path": "/db/blueprints/tm-castle-wall-decor-strongblade-dlc01-painting-06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_StrongbladeDLC01_Painting_06.md", "sourceSha256": "33a92c325f77568bdf4e32059c4d39f2b359b6da70b7d7d87006f6e4e79ee56c", "captureId": "blueprints-09",
+      "nameKey": "ed816fb7-e708-4738-afba-28bfe8840ed0", "nameRaw": "Nocturnal Opulence Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Nocturnal Opulence Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_01", "guid": 2146556248, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_01.md", "sourceSha256": "a99c4114f0901d4257d2769b1083355031b50ce92636bdebbb228850af9b29c8", "captureId": "blueprints-09",
+      "nameKey": "7ba086c1-bb09-4df0-aa98-604096b60851", "nameRaw": "'Dusk'",
+      "descriptionKey": "df816cc0-c00c-4270-b088-606ccc710887", "descriptionRaw": "A painting of the perfect hunting ground...",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A painting of the perfect hunting ground...","toString":"A painting of the perfect hunting ground...","resultKey":"df816cc0-c00c-4270-b088-606ccc710887","nameLookup":"'Dusk'","templateLookup":"A painting of the perfect hunting ground..."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_02", "guid": -1001786463, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_02.md", "sourceSha256": "46d13b9ad498da97403a49b8e1167d6bbc818000d64fb0b6f98fc29034443da0", "captureId": "blueprints-09",
+      "nameKey": "31913be8-f440-466e-bd0a-dbdf03291e40", "nameRaw": "'Count Johann'",
+      "descriptionKey": "231ab83f-38c4-4e34-8c83-43f9300f329d", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"231ab83f-38c4-4e34-8c83-43f9300f329d","nameLookup":"'Count Johann'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_03", "guid": 1048605404, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_03.md", "sourceSha256": "da19d484464942c0d5d63baf967b32c0aabea41defdc8de2374c54377e9aeccc", "captureId": "blueprints-09",
+      "nameKey": "78391f17-5746-46bb-9c89-773f80d41954", "nameRaw": "'Mistress'",
+      "descriptionKey": "c63f50d4-c3ad-4cf1-8112-a9451973c83e", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"c63f50d4-c3ad-4cf1-8112-a9451973c83e","nameLookup":"'Mistress'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_04", "guid": 1386044340, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_04.md", "sourceSha256": "b2d28b1aa73a745cab93ed9a7471eba2822806002d695413fba768a0659c5d00", "captureId": "blueprints-09",
+      "nameKey": "79cf707d-249b-47ed-97be-646d60fc12fb", "nameRaw": "'Baron Ilves'",
+      "descriptionKey": "29cd1e33-933b-40d1-abd0-d659a8f619e2", "descriptionRaw": "Portrait, oil on canvas.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Portrait, oil on canvas.","toString":"Portrait, oil on canvas.","resultKey":"29cd1e33-933b-40d1-abd0-d659a8f619e2","nameLookup":"'Baron Ilves'","templateLookup":"Portrait, oil on canvas."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_05", "guid": -954911330, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-05",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_05.md", "sourceSha256": "28cab030af16af347fd0c9c39969a2d1c917886988110c4f8e446fe7f1232d6e", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_06", "guid": -1683005611, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-06",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_06.md", "sourceSha256": "73b12329da3d05a1ed222d134e6d214d61491ea9c9b825191b34fef03f6c213f", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_07", "guid": -945436353, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-07",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_07.md", "sourceSha256": "fa0975baaae63cb9588fc97fc256c25062aad9ee289231cf71fbe702b0e97869", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_08", "guid": 238986012, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-08",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_08.md", "sourceSha256": "d9dce0b1c14d7938ebdd1c15d9124168e92742c592450a6168acba9f17e7c946", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Vertical_Painting_09", "guid": 741508302, "path": "/db/blueprints/tm-castle-wall-decor-vertical-painting-09",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Vertical_Painting_09.md", "sourceSha256": "a01b34fd9310b3639ec34ea08e1ee16618460cca96df400a3f843766a0eab1eb", "captureId": "blueprints-09",
+      "nameKey": "819491b8-fb45-4a33-82c4-1b1395818e40", "nameRaw": "Painting",
+      "descriptionKey": "b891e9da-0772-4aac-b6fb-1836e2434cfd", "descriptionRaw": "A mighty fine painting.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A mighty fine painting.","toString":"A mighty fine painting.","resultKey":"b891e9da-0772-4aac-b6fb-1836e2434cfd","nameLookup":"Painting","templateLookup":"A mighty fine painting."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Black02", "guid": -1501439420, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-black02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Black02.md", "sourceSha256": "0e89e1207d6809ee3522ad14ebcddb9c1a330a6e468c98825dd4ee4489b6d518", "captureId": "blueprints-09",
+      "nameKey": "796421ca-9e3d-4d63-8b1a-8bb5b07a59f5", "nameRaw": "Black",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Black","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Burgundy01", "guid": 231309079, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-burgundy01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Burgundy01.md", "sourceSha256": "d29ef24de0690159b7a62e553ffed057327558687e6f0ff0c08bfa4f8b02436d", "captureId": "blueprints-09",
+      "nameKey": "813f063a-e222-4cdb-b6e1-c5cdd5dbcd4c", "nameRaw": "Burgundy",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Burgundy","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Burgundy02", "guid": 1606211486, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-burgundy02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Burgundy02.md", "sourceSha256": "5e69f0ec16c57b9b4238a1f8a6f97f616708c2f72c80e1a5e7bafde98dad4cbc", "captureId": "blueprints-09",
+      "nameKey": "813f063a-e222-4cdb-b6e1-c5cdd5dbcd4c", "nameRaw": "Burgundy",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Burgundy","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Cobalt01", "guid": -422405678, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-cobalt01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Cobalt01.md", "sourceSha256": "03661b49b3af7955f86faff1b9455200ff20a694604b3038f4e2fbedfe784c75", "captureId": "blueprints-09",
+      "nameKey": "821443b9-bba3-487a-80b4-053cfe4c11f4", "nameRaw": "Cobalt",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Cobalt","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Cobalt02", "guid": 12749038, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-cobalt02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Cobalt02.md", "sourceSha256": "ae22b68a5d8c3785134a737bf33f112e23f0c741cdc383d9e9dbd906128f4e33", "captureId": "blueprints-09",
+      "nameKey": "821443b9-bba3-487a-80b4-053cfe4c11f4", "nameRaw": "Cobalt",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Cobalt","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Dyable01", "guid": -1177431120, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-dyable01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Dyable01.md", "sourceSha256": "f18c790e3125759063b3f053da03130bed17debd40967dfa26731c6e5f0004d2", "captureId": "blueprints-09",
+      "nameKey": "1e42eb15-fe48-46b6-8e93-6d307971e9e8", "nameRaw": "'Orderly' Wall Draperies",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"'Orderly' Wall Draperies","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Dyable02", "guid": -1229482665, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-dyable02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Dyable02.md", "sourceSha256": "cf8440f5280a4f48d96fd88c773df65d76c1dff547e1f408ef6c4f9534e4d787", "captureId": "blueprints-09",
+      "nameKey": "220b2385-2c6a-414a-abe0-6bb58e4c37a4", "nameRaw": "'Distinguished' Wall Draperies",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"'Distinguished' Wall Draperies","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Dyable03", "guid": -984791408, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-dyable03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Dyable03.md", "sourceSha256": "d5db23c269fc732911a1c683be70b7c77b029d73f67a3a27cc5c7450d778ac04", "captureId": "blueprints-09",
+      "nameKey": "617cc890-9e65-4839-a386-9eb1eaa6b59c", "nameRaw": "'Cordial' Wall Draperies",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"'Cordial' Wall Draperies","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Dyable04", "guid": -1969049484, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-dyable04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Dyable04.md", "sourceSha256": "380446c5f072dcbb6dd24bfcdc28056469bef3ba67bb0ff5dbc92b1e35f90ad4", "captureId": "blueprints-09",
+      "nameKey": "945dc33e-c9e8-431b-a1f1-ebe9f8bfed76", "nameRaw": "Frayed Wall Draperies",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Frayed Wall Draperies","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Green01", "guid": 1864414502, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-green01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Green01.md", "sourceSha256": "79d258ba91ddaded2d70372f3e8e01b3119921eaea9a9ceb792d391629aec0cc", "captureId": "blueprints-09",
+      "nameKey": "613c88f1-65fb-4353-9ee8-0903c52e221d", "nameRaw": "Emerald",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Emerald","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Green02", "guid": 990866755, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-green02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Green02.md", "sourceSha256": "4f3d5b8187119c66104bc4fb7671f4c8af1e34c4b60919499b71a464af904bec", "captureId": "blueprints-09",
+      "nameKey": "613c88f1-65fb-4353-9ee8-0903c52e221d", "nameRaw": "Emerald",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Emerald","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Halloween01", "guid": 271242862, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-halloween01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Halloween01.md", "sourceSha256": "1632fc3b217894dff898b85df9c3cd29bf2ae2be86c5b72fa0412cb9f2eda9e9", "captureId": "blueprints-09",
+      "nameKey": "0d59afe9-32a2-4928-b1fb-805ca59bf8ba", "nameRaw": "Haunted Nights Web Drapes - Wall",
+      "descriptionKey": "875fa9c7-206a-44e3-b433-7f13d126ef97", "descriptionRaw": "Spooky spiderwebs for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Spooky spiderwebs for your walls.","toString":"Spooky spiderwebs for your walls.","resultKey":"875fa9c7-206a-44e3-b433-7f13d126ef97","nameLookup":"Haunted Nights Web Drapes - Wall","templateLookup":"Spooky spiderwebs for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Ivory01", "guid": -567222601, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-ivory01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Ivory01.md", "sourceSha256": "997e1249d3c9ea451bc38be9b56de9479e29dd704d19986ae968d7d293b0f1ac", "captureId": "blueprints-09",
+      "nameKey": "6f5e0e68-d486-46e9-bb7a-64ea1e099d50", "nameRaw": "Ivory",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Ivory","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Ivory02", "guid": -780805196, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-ivory02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Ivory02.md", "sourceSha256": "80101d7f20db9da43205b1143acd9402d4192e13beebd237030ecda4d9cc53a7", "captureId": "blueprints-09",
+      "nameKey": "6f5e0e68-d486-46e9-bb7a-64ea1e099d50", "nameRaw": "Ivory",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Ivory","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Purple01", "guid": 2083352962, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-purple01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Purple01.md", "sourceSha256": "e5db6112a34433ac792d9c22895fed13fca57deee25998aa249c5ea02b2dd235", "captureId": "blueprints-09",
+      "nameKey": "b99d9fe7-4db6-416e-89fa-89bf1fd5e7d4", "nameRaw": "Purple",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Purple","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_Purple02", "guid": 1867773052, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-purple02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_Purple02.md", "sourceSha256": "5d25f3a264f77087a5349d977618c4785c0fb4e53a72a417f7e8362e50a55e48", "captureId": "blueprints-09",
+      "nameKey": "b99d9fe7-4db6-416e-89fa-89bf1fd5e7d4", "nameRaw": "Purple",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Purple","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WallCurtain_StrongbladeDLC01", "guid": 1959531938, "path": "/db/blueprints/tm-castle-wall-decor-wall-curtain-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WallCurtain_StrongbladeDLC01.md", "sourceSha256": "fb339cb343c4263afeea4ca2bb8cd9a2fa13b75f73a65f94f6f3358ba20a542f", "captureId": "blueprints-09",
+      "nameKey": "c1d24268-ee3d-4ea6-ad28-3ffa34ded72a", "nameRaw": "Nocturnal Opulence Wall Curtain",
+      "descriptionKey": "ac8be2d0-c92d-42ec-9ab4-99af7a400c04", "descriptionRaw": "Decorative cloth for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your walls.","toString":"Decorative cloth for your walls.","resultKey":"ac8be2d0-c92d-42ec-9ab4-99af7a400c04","nameLookup":"Nocturnal Opulence Wall Curtain","templateLookup":"Decorative cloth for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Burgundy01", "guid": -1943675284, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-burgundy01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Burgundy01.md", "sourceSha256": "2130e4ba18efa85390f64c1298c0567185b8ea2c3ea3387700114d3288f79330", "captureId": "blueprints-09",
+      "nameKey": "813f063a-e222-4cdb-b6e1-c5cdd5dbcd4c", "nameRaw": "Burgundy",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Burgundy","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Burgundy02", "guid": 1577175893, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-burgundy02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Burgundy02.md", "sourceSha256": "b55131c7b00d8aa642340a5e4cd352c350a63e9e7e1107a900f8dfb8c2cda9cc", "captureId": "blueprints-09",
+      "nameKey": "813f063a-e222-4cdb-b6e1-c5cdd5dbcd4c", "nameRaw": "Burgundy",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Burgundy","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Cobalt01", "guid": 1673999068, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-cobalt01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Cobalt01.md", "sourceSha256": "c23770388d3e99aaa29f9d179d56a9e78eeb6811359922178ed5d6e75d06e9bc", "captureId": "blueprints-09",
+      "nameKey": "821443b9-bba3-487a-80b4-053cfe4c11f4", "nameRaw": "Cobalt",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Cobalt","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Cobalt02", "guid": 1638424638, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-cobalt02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Cobalt02.md", "sourceSha256": "110adaded575992274caf0d1574e81b29ec3b5a2fc30d2683941c4a98b8714bc", "captureId": "blueprints-09",
+      "nameKey": "821443b9-bba3-487a-80b4-053cfe4c11f4", "nameRaw": "Cobalt",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Cobalt","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Dyable01", "guid": 1067847850, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-dyable01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Dyable01.md", "sourceSha256": "d4b6c2a0a4ded124792e9f7f4514a7801c078d56d52978b7d68adddd527ee1c3", "captureId": "blueprints-09",
+      "nameKey": "2b6050c2-f84b-42bf-ac10-040787ed5d50", "nameRaw": "'Orderly' Window Draperies",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"'Orderly' Window Draperies","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Dyable02", "guid": 2076807891, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-dyable02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Dyable02.md", "sourceSha256": "12b5deca1c16cf15f6129752686a95e40714ae628b0c3b60b9b5a375e1f29ee8", "captureId": "blueprints-09",
+      "nameKey": "4d87932c-93bf-4e5f-8ac8-df0c9b27d543", "nameRaw": "'Distinguished' Window Draperies",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"'Distinguished' Window Draperies","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Dyable03", "guid": 214563375, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-dyable03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Dyable03.md", "sourceSha256": "e8259ab34f8f9078f60d13064ba99f55e8947bd815a029cef8333643df8b5c21", "captureId": "blueprints-09",
+      "nameKey": "96e09c28-2b8b-43a1-8a48-faa3e3c3d01d", "nameRaw": "'Cordial' Window Draperies",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"'Cordial' Window Draperies","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Dyable04", "guid": 636765323, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-dyable04",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Dyable04.md", "sourceSha256": "bd9cc7d126e9d567e7439bb5acebf84ba90e3e8a3e54ef3abf87dde2c1d791a3", "captureId": "blueprints-09",
+      "nameKey": "0677505f-5ce2-40ad-a3f2-14f5f723bd45", "nameRaw": "Frayed Window Draperies",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Frayed Window Draperies","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Green01", "guid": 593603087, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-green01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Green01.md", "sourceSha256": "2d2435b5392a676e90f4fe4e2777f8c88f95676ffb2d1aca9ed2345a8fb804ba", "captureId": "blueprints-09",
+      "nameKey": "613c88f1-65fb-4353-9ee8-0903c52e221d", "nameRaw": "Emerald",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Emerald","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Green02", "guid": 1489965429, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-green02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Green02.md", "sourceSha256": "81c41dca290366a45580eb1fcfde04fd736c00f6d36bb05bc3f9bed6b9269311", "captureId": "blueprints-09",
+      "nameKey": "613c88f1-65fb-4353-9ee8-0903c52e221d", "nameRaw": "Emerald",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Emerald","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Halloween01", "guid": -1073349521, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-halloween01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Halloween01.md", "sourceSha256": "e18bc6db2cc367db815dd91c71cc99f4ab79dc54b003bf8d214340ee8c1dbe30", "captureId": "blueprints-09",
+      "nameKey": "141a9fbc-1af7-43d8-a74b-5f3834e106be", "nameRaw": "Haunted Nights Web Drapes - Window",
+      "descriptionKey": "4ffc0b77-81c9-445a-a656-69c5a066622a", "descriptionRaw": "Spooky spiderwebs for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Spooky spiderwebs for your windows.","toString":"Spooky spiderwebs for your windows.","resultKey":"4ffc0b77-81c9-445a-a656-69c5a066622a","nameLookup":"Haunted Nights Web Drapes - Window","templateLookup":"Spooky spiderwebs for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Ivory01", "guid": -1293253763, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-ivory01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Ivory01.md", "sourceSha256": "20db932cfd07cc45076a96c6ca1fc4f9355c105041ee6a75157abcfb9d85623b", "captureId": "blueprints-09",
+      "nameKey": "6f5e0e68-d486-46e9-bb7a-64ea1e099d50", "nameRaw": "Ivory",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Ivory","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Ivory02", "guid": -456871310, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-ivory02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Ivory02.md", "sourceSha256": "ba59417141b009adf9eb962cbe0b3efe053a12d652dee4f66b615ecee2da8491", "captureId": "blueprints-09",
+      "nameKey": "6f5e0e68-d486-46e9-bb7a-64ea1e099d50", "nameRaw": "Ivory",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Ivory","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Purple01", "guid": -887526082, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-purple01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Purple01.md", "sourceSha256": "dca53e6f23b69a32dea6b56040e1c6e7391da8d39b8411e3e039b489c95acb4a", "captureId": "blueprints-09",
+      "nameKey": "b99d9fe7-4db6-416e-89fa-89bf1fd5e7d4", "nameRaw": "Purple",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Purple","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_Purple02", "guid": 373906916, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-purple02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_Purple02.md", "sourceSha256": "3411859649a1cf3554189fee7700c2131f805ac44fe61859077543b78842709b", "captureId": "blueprints-09",
+      "nameKey": "b99d9fe7-4db6-416e-89fa-89bf1fd5e7d4", "nameRaw": "Purple",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Purple","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC01", "guid": -1320180911, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-strongblade-dlc01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC01.md", "sourceSha256": "72feca2ce85936a7fff7863e5286ba252edba34de11144e85fdcd9b611877f31", "captureId": "blueprints-09",
+      "nameKey": "071fc029-9819-4e08-926c-f24f7390d3c2", "nameRaw": "Nocturnal Opulence Window Curtain",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Nocturnal Opulence Window Curtain","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC02", "guid": 1802534145, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-strongblade-dlc02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC02.md", "sourceSha256": "61fb9d4edaf4b65322d84e9fa018d33c18fe5fc50ab35ad5dcf0c5bcba605505", "captureId": "blueprints-09",
+      "nameKey": "071fc029-9819-4e08-926c-f24f7390d3c2", "nameRaw": "Nocturnal Opulence Window Curtain",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Nocturnal Opulence Window Curtain","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC03", "guid": -513302771, "path": "/db/blueprints/tm-castle-wall-decor-window-curtains-strongblade-dlc03",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_WindowCurtains_StrongbladeDLC03.md", "sourceSha256": "f4ca1a8ff534317eaf917c68fba2f4d4b9a21c99bb0d5c958ec3097788d60dba", "captureId": "blueprints-09",
+      "nameKey": "071fc029-9819-4e08-926c-f24f7390d3c2", "nameRaw": "Nocturnal Opulence Window Curtain",
+      "descriptionKey": "f9d24f2e-6e80-443e-9ad8-6b08196beafd", "descriptionRaw": "Decorative cloth for your windows.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative cloth for your windows.","toString":"Decorative cloth for your windows.","resultKey":"f9d24f2e-6e80-443e-9ad8-6b08196beafd","nameLookup":"Nocturnal Opulence Window Curtain","templateLookup":"Decorative cloth for your windows."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Window_Garden_BloodRose01", "guid": -153992684, "path": "/db/blueprints/tm-castle-wall-decor-window-garden-blood-rose01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Window_Garden_BloodRose01.md", "sourceSha256": "3f7e52cdb6d783d157247f6fc2776b6335dc6b4565decd62d9a72361646d9535", "captureId": "blueprints-09",
+      "nameKey": "17b0f7d9-0114-458d-a2b4-a386f2c7a52b", "nameRaw": "Wall Growth - Blood Rose",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Blood Rose","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Window_Garden_Cursed01", "guid": 692934651, "path": "/db/blueprints/tm-castle-wall-decor-window-garden-cursed01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Window_Garden_Cursed01.md", "sourceSha256": "36986e047bfd87d7bffa8a837b7c44a3deb200e48ae5e41427e6ee0010daffdb", "captureId": "blueprints-09",
+      "nameKey": "a7ba83da-234e-4d68-aaa3-d66955d1fa1c", "nameRaw": "Wall Growth - Morass",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Morass","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Window_Garden_Ivy01", "guid": 470275151, "path": "/db/blueprints/tm-castle-wall-decor-window-garden-ivy01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Window_Garden_Ivy01.md", "sourceSha256": "fa3c8eb3d7abcdc9123a3ed4f56fe89f3f39bc7e32122868296ec08c5b22dbf6", "captureId": "blueprints-09",
+      "nameKey": "eac37743-81b7-42da-8868-c7fae7cdbd45", "nameRaw": "Wall Growth - Ivy",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Ivy","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Window_Garden_Ivy02", "guid": 809118249, "path": "/db/blueprints/tm-castle-wall-decor-window-garden-ivy02",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Window_Garden_Ivy02.md", "sourceSha256": "0a4260bb4c52028ea4f50cb8c97793359ea285c570b55c6f94a3fa39d13895a7", "captureId": "blueprints-09",
+      "nameKey": "eac37743-81b7-42da-8868-c7fae7cdbd45", "nameRaw": "Wall Growth - Ivy",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Ivy","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_WallDecor_Window_Garden_Wisteria01", "guid": 17765511, "path": "/db/blueprints/tm-castle-wall-decor-window-garden-wisteria01",
+      "sourcePath": "content/prefabs/TM_Castle_WallDecor_Window_Garden_Wisteria01.md", "sourceSha256": "433ed413a56051080975499b379cf89a10a128df7f89e763025439746c6ccefb", "captureId": "blueprints-09",
+      "nameKey": "359df15f-5d16-4e63-8ec9-b71e10ad5512", "nameRaw": "Wall Growth - Wisteria",
+      "descriptionKey": "c69898ea-aa15-4f62-9346-e737db2adcf0", "descriptionRaw": "Decorative vegetation for your walls.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"Decorative vegetation for your walls.","toString":"Decorative vegetation for your walls.","resultKey":"c69898ea-aa15-4f62-9346-e737db2adcf0","nameLookup":"Wall Growth - Wisteria","templateLookup":"Decorative vegetation for your walls."}
+    },
+    {
+      "prefab": "TM_Castle_Wall_DoorPlug_Tier02_PrisonStyle01_Standard", "guid": -1431484465, "path": "/db/blueprints/tm-castle-wall-door-plug-tier02-prison-style01-standard",
+      "sourcePath": "content/prefabs/TM_Castle_Wall_DoorPlug_Tier02_PrisonStyle01_Standard.md", "sourceSha256": "103e0ba4035b301fb2001a1842694f39c5bf63ca6e9b82dd076d7bb602997508", "captureId": "blueprints-01",
+      "nameKey": "af7982a8-67d0-4bc6-b0f0-d02006a7e034", "nameRaw": "Prison Entrance Block",
+      "descriptionKey": "28aa8491-509f-4e5f-ba6d-a31b7d8e55df", "descriptionRaw": "A non-opening element for doorways. Requires a Castle Entrance to be placed.",
+      "parameters": {"State":"absent-no-parameters-required","Index":0,"Count":0,"BufferLength":null,"ErrorType":null,"Rows":[]},
+      "native": {"State":"recorded","buildInvocations":1,"reason":null,"text":"A non-opening element for doorways. Requires a Castle Entrance to be placed.","toString":"A non-opening element for doorways. Requires a Castle Entrance to be placed.","resultKey":"28aa8491-509f-4e5f-ba6d-a31b7d8e55df","nameLookup":"Prison Entrance Block","templateLookup":"A non-opening element for doorways. Requires a Castle Entrance to be placed."}
+    }
+  ]
+}
