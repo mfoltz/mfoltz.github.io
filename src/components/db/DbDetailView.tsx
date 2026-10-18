@@ -284,7 +284,7 @@ function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value:
   }
 
   const descriptionSourceRef = detail.descriptionSourceRef;
-  if (spec.key === "localizedSummaryEn" && normalized === detail.description &&
+  if (spec.key === "localizedSummaryEn" && normalized === detail.description?.trim() &&
       typeof descriptionSourceRef === "string" &&
       (descriptionSourceRef.startsWith("data/enrichment/blueprint-text-capture.json#") ||
         descriptionSourceRef.startsWith("data/enrichment/blueprint-text-expansion-128.json#") ||

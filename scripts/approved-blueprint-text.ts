@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { readRemaining, remainingTextFields, overlayRemaining, validateRemainingEvidence, type RemainingEvidence } from "./blueprint-text-remaining";
-const importedRemainingCount = 700;
+const importedRemainingCount = 790;
 import { assertBlueprintTextDisplay, assertBuildablePortraitDisplayName, blueprintTextFields,
   overlayBlueprintText, readBlueprintText, type BlueprintTextDisplay, type BlueprintTextCapture } from "./blueprint-text";
 import { expansionTextFields, overlayExpansion, readExpansion, validateExpansionEvidence,
@@ -37,7 +37,7 @@ export function approvedBlueprintTextCoverage(map: Record<string, BlueprintTextD
   assert.equal(Object.keys(map).length, 1198, "Blueprint census divergence");
   const matched = Object.values(map).filter(row => !["catalog-seed", "generated-fallback", "alias-match"].includes(row.sourceKind ?? "")
     && Boolean(row.displayNameEn || row.displayLocalizationGuid || row.summaryEn || row.iconAssetName || row.iconAssetPath)).length;
-  assert.equal(matched, 844, "Expected 844 approved display rows");
+  assert.equal(matched, 928, "Expected 928 approved display rows");
   return { total: 1198, matched, coveragePct: Number((matched / 1198).toFixed(4)), signal: "high-signal", lowSignalExcluded: 1198 - matched };
 }
 /** Keep artwork evidence and workstation checks independent of owned Blueprint copy. */
@@ -56,4 +56,20 @@ export function assertApprovedBuildablePortraitDisplayName(
   for (const key of Object.keys(fields) as (keyof typeof fields)[])
     assert.equal(display[key], fields[key], `${row.prefab}: display ${key} differs from witness`);
   if (portrait.displayNameEn !== undefined) assert.equal(portrait.displayNameEn, row.nameRaw, `${row.prefab}: conflicting artwork label`);
+}
+
+/** Preserve exact validated owned strings after generic display normalization. */
+export function preserveApprovedBlueprintTextValues<T extends BlueprintTextDisplay>(
+  raw: Record<string, unknown> | null, parsed: Record<string, T>, evidence: ApprovedBlueprintText
+): Record<string, T> {
+  assert(raw, "Owned Blueprint display snapshot is missing");
+  assertApprovedBlueprintTextDisplay(raw as Record<string, BlueprintTextDisplay>, evidence);
+  const result = { ...parsed };
+  for (const row of evidence.rows) {
+    const entry = parsed[row.prefab];
+    assert(entry && entry.prefab === row.prefab && entry.guid === row.guid, row.prefab + ": normalized display identity mismatch");
+    result[row.prefab] = { ...entry, ...row.fields };
+  }
+  assertApprovedBlueprintTextDisplay(result, evidence);
+  return result;
 }

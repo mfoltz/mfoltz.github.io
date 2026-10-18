@@ -467,3 +467,18 @@ for (const witness of ["data/enrichment/unapproved-blueprint-text.json#", "data/
     assert(html.includes(fixture.descriptionSourceRef as string));
   });
 }
+
+test("captured Ancestral Forge whitespace is preserved while its owned description appears once", () => {
+  const prefab = "TM_CraftingStation_AncestralForge";
+  const description = "A workstation used for restoring ancient shattered weapons. ";
+  const fixture = { ...blueprintDetailFixture, title: "Ancestral Forge", prefab, guid: 48521126,
+    description, localizedSummaryEn: description, descriptionSourceKind: "extractor-raw",
+    descriptionSourceRef: "data/enrichment/blueprint-text-remaining-literals.json#" + prefab };
+  const html = renderDetail(fixture, "blueprints");
+  assert.equal(html.split(description.trim()).length - 1, 1);
+  assert.equal(fixture.description, description); assert.equal(fixture.localizedSummaryEn, description);
+  assert(html.includes(prefab)); assert(html.includes("48521126"));
+  assert(html.includes(fixture.descriptionSourceRef));
+  const unknown = renderDetail({ ...fixture, descriptionSourceRef: "data/enrichment/unapproved.json#" + prefab }, "blueprints");
+  assert.equal(unknown.split(description.trim()).length - 1, 2);
+});

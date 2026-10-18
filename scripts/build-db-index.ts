@@ -1,7 +1,7 @@
 import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { assertApprovedBlueprintTextDisplay, readApprovedBlueprintText, type ApprovedBlueprintTextRow } from "./approved-blueprint-text";
+import { preserveApprovedBlueprintTextValues, readApprovedBlueprintText, type ApprovedBlueprintTextRow } from "./approved-blueprint-text";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import {
   buildAbilityDamageEvidence,
@@ -1851,8 +1851,9 @@ async function loadBuildContext(repoRoot: string): Promise<BuildContext> {
       .filter((entry): entry is readonly [string, RecipeLinkMapEntry] => Boolean(entry))
   );
 
-  const blueprintDisplayByPrefab = parsePrefabDisplayMap(blueprintDisplaySnapshot);
-  assertApprovedBlueprintTextDisplay(Object.fromEntries(blueprintDisplayByPrefab), blueprintTextCapture);
+  const blueprintDisplayByPrefab = new Map(Object.entries(preserveApprovedBlueprintTextValues(
+    blueprintDisplaySnapshot, Object.fromEntries(parsePrefabDisplayMap(blueprintDisplaySnapshot)), blueprintTextCapture
+  )));
   return {
     localizedNamesByGuid,
     abilityCatalogByPrefab,
