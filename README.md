@@ -144,6 +144,8 @@ npm run verify
 
 This is the canonical release-safe check. It runs TypeScript verification, shortcode syntax validation, the full build/generation pipeline, and a Pages artifact sanity pass that confirms the expected `dist/` and `public/` output shape.
 
+For a manual post-deployment browser check with external evidence, see [Manual release smoke](docs/release-smoke.md).
+
 On Windows inside a restricted Codex sandbox, Vite and esbuild may still fail with `spawn EPERM` during `npm run build`, `npm run verify`, dev-server startup, or visual review. Treat that as an execution-lane limit rather than a repo failure: rerun the same canonical command from an environment where native child-process spawning is allowed, or use approved Codex escalation for that command. Do not replace `verify` with a weaker check before push or merge.
 
 Spawn readiness preflight:
