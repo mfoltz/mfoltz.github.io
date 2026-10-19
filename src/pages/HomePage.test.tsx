@@ -10,6 +10,7 @@ test("rendered homepage directory retains all gameplay routes and partial Bluepr
   for (const section of dbSections) {
     assert.equal(html.split(`href="/db/${section}"`).length - 1, 1, section);
   }
+  assert.equal(html.split('href="/db/vendors"').length - 1, 1);
   assert.match(html, /Build rules, recorded unlock sources, and linked book requirements\. Source coverage is partial\./);
   assert.match(html, /Station roles, matching floors, servant bonuses, recipes, and outputs/);
   assert.doesNotMatch(html, /Guaranteed|Purchase|Drops from/);

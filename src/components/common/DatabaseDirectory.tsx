@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { dbSections, getDbSectionLabel, getReferenceSectionLabel, referenceSections } from "../../config/sections";
+import { getReferenceSectionLabel, referenceSections } from "../../config/sections";
+import { dbBrowseCategories, getDbBrowseCategoryLabel } from "../../config/dbCategories";
 
 const descriptions: Record<string, string> = {
   items: "Equipment, resources, consumables, and inventory.",
@@ -7,6 +8,7 @@ const descriptions: Record<string, string> = {
   npcs: "Units, V Blood bosses, drops, and blood types.",
   abilities: "Spells, weapon skills, schools, and mechanics.",
   workstations: "Station roles, matching floors, servant bonuses, recipes, and outputs.",
+  vendors: "Traders, regions, recorded inventory types, and source references.",
   blueprints: "Build rules, recorded unlock sources, and linked book requirements. Source coverage is partial.",
   quests: "Journal entries, requirements, and rewards.",
   buffs: "Buff records and component references.",
@@ -17,8 +19,8 @@ export function DatabaseDirectory() {
   return <section aria-labelledby="gameplay-heading">
     <h2 id="gameplay-heading" className="mb-4 text-xl font-semibold">Gameplay data</h2>
     <div className="grid gap-x-10 sm:grid-cols-2 lg:grid-cols-3">
-      {dbSections.map(section => <Link key={section} to={`/db/${section}`} className="directory-link border-t border-[var(--database-divider)] py-4">
-        <h3 className="font-semibold text-[var(--database-ink)]">{getDbSectionLabel(section)} <span aria-hidden="true" className="float-right text-[var(--database-accent-soft)]">↗</span></h3>
+      {dbBrowseCategories.map(section => <Link key={section} to={`/db/${section}`} className="directory-link border-t border-[var(--database-divider)] py-4">
+        <h3 className="font-semibold text-[var(--database-ink)]">{getDbBrowseCategoryLabel(section)} <span aria-hidden="true" className="float-right text-[var(--database-accent-soft)]">↗</span></h3>
         <p className="mt-1 text-sm leading-6 text-[var(--database-muted)]">{descriptions[section]}</p>
       </Link>)}
     </div>

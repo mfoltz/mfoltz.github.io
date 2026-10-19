@@ -12,7 +12,10 @@ function breadcrumbLabel(part: string): string {
     .replace(/\b\w/g, (letter) => letter.toUpperCase());
 }
 
-export function Breadcrumbs({ currentLabel }: { currentLabel?: string }) {
+export function Breadcrumbs({ currentLabel, ancestorOverrides = {} }: {
+  currentLabel?: string;
+  ancestorOverrides?: Record<string, { label: string; path: string }>;
+}) {
   const location = useLocation();
   const parts = location.pathname.split("/").filter(Boolean);
 
@@ -30,6 +33,7 @@ export function Breadcrumbs({ currentLabel }: { currentLabel?: string }) {
         </li>
         {parts.map((part, index) => {
           const path = `/${parts.slice(0, index + 1).join("/")}`;
+          const ancestor = ancestorOverrides[path];
           const isLast = index === parts.length - 1;
 
           return (
@@ -40,8 +44,8 @@ export function Breadcrumbs({ currentLabel }: { currentLabel?: string }) {
                   {currentLabel || breadcrumbLabel(part)}
                 </span>
               ) : (
-                <Link to={path} className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
-                  {breadcrumbLabel(part)}
+                <Link to={ancestor?.path ?? path} className="brand-breadcrumb-link rounded-md px-2 py-1 transition">
+                  {ancestor?.label ?? breadcrumbLabel(part)}
                 </Link>
               )}
             </li>

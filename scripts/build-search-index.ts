@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { type TextVariableResolutionMap } from "../src/lib/textVariables";
+import { isVendorWorkstation } from "../src/config/dbCategories";
 
 const referenceSections = ["prefabs", "components", "systems", "queries"];
 const dbSections = ["items", "recipes", "npcs", "abilities", "workstations", "blueprints", "quests", "buffs", "itemsets"];
@@ -10,6 +11,7 @@ interface SearchEntry {
   title: string;
   slug: string;
   section: string;
+  browseCategory?: "vendors";
   kind?: string;
   tags: string[];
   excerpt: string;
@@ -99,6 +101,7 @@ async function main() {
         tier?: string;
         icon?: string;
         portraitAssetPath?: string;
+        workstationRole?: string;
         textVariableValues?: TextVariableResolutionMap;
       }>
     >(indexPath);
@@ -112,6 +115,7 @@ async function main() {
         slug: entry.slug,
         section,
         kind: dbKinds[section],
+        ...(section === "workstations" && isVendorWorkstation(entry) ? { browseCategory: "vendors" as const } : {}),
         tags: entry.tags ?? [],
         excerpt: entry.excerpt,
         path: entry.path,

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { Link, useParams, useSearchParams } from "react-router-dom";
+import { Link, Navigate, useParams, useSearchParams } from "react-router-dom";
 import { BrowseControlStrip, type BrowseMetric } from "../components/common/BrowseControlStrip";
 import { SearchInput } from "../components/common/SearchInput";
 import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../components/common/States";
@@ -16,9 +16,10 @@ import {
   slugifyDbBrowseValue
 } from "../config/dbBrowse";
 import { getDbSectionLabel, isDbSection } from "../config/sections";
+import { isVendorWorkstation, legacyVendorBrowseTarget } from "../config/dbCategories";
 import { fetchJson } from "../lib/fetch";
 import { includesQuery } from "../lib/text";
-import { itemRowSummary } from "../lib/dbPresentation";
+import { itemRowSummary, workstationRowSummary } from "../lib/dbPresentation";
 import { DbIndexEntry } from "../types/db";
 import { BlueprintListPage } from "./BlueprintListPage";
 
@@ -178,12 +179,14 @@ function DenseIndexRow({
   entry,
   badges,
   body,
-  rightMeta
+  rightMeta,
+  prominentArtwork = false
 }: {
   entry: DbIndexEntry;
   badges: Array<{ label: string; tone?: "accent" | "muted" | "default" }>;
   body?: string;
   rightMeta?: string[];
+  prominentArtwork?: boolean;
 }) {
   const visibleBadges = badges.slice(0, 3);
   const extraBadgeCount = Math.max(0, badges.length - visibleBadges.length);
@@ -219,7 +222,7 @@ function DenseIndexRow({
           </ul>
         ) : null}
         </div>
-        <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} />
+        <DbArtwork icon={entry.icon} portraitAssetPath={entry.portraitAssetPath} size={prominentArtwork ? "row-prominent" : "row"} />
       </Link>
     </li>
   );
@@ -281,17 +284,11 @@ function RecipeIndexRow({ entry }: { entry: DbIndexEntry }) {
   return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
 }
 
-function WorkstationIndexRow({ entry }: { entry: DbIndexEntry }) {
+export function WorkstationIndexRow({ entry }: { entry: DbIndexEntry }) {
   const secondaryLabel = entry.workstationRole === "Vendor" ? normalizeFacet(entry.merchantInventory) : normalizeFacet(entry.stationKind);
   const tertiaryLabel = getWorkstationArea(entry);
   const badges = dedupeBadges([entry.workstationRole, secondaryLabel, tertiaryLabel]).map((label) => ({ label }));
-  const rightMeta = [
-    normalizeFacet(entry.bonusServantType) ? `Servant ${normalizeFacet(entry.bonusServantType)}` : null,
-    entry.workstationRole === "Vendor" && normalizeFacet(entry.merchantRegion) ? normalizeFacet(entry.merchantRegion) : null,
-    normalizeFacet(entry.status, []) ? normalizeFacet(entry.status, []) : null
-  ].filter((value): value is string => Boolean(value));
-
-  return <DenseIndexRow entry={entry} badges={badges} body={entry.excerpt ?? entry.description ?? "No summary available yet."} rightMeta={rightMeta} />;
+  return <DenseIndexRow entry={entry} badges={badges} body={workstationRowSummary(entry.description ?? entry.excerpt)} prominentArtwork />;
 }
 
 export function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
@@ -316,7 +313,10 @@ export function NpcIndexRow({ entry }: { entry: DbIndexEntry }) {
 
 export function DbListPage({ section: sectionProp }: { section?: string }) {
   const params = useParams();
+  const [searchParams] = useSearchParams();
   const section = sectionProp ?? params.section ?? "";
+  const vendorTarget = section === "workstations" ? legacyVendorBrowseTarget(searchParams) : null;
+  if (vendorTarget) return <Navigate to={vendorTarget} replace />;
   return section === "blueprints" ? <BlueprintListPage /> : <GeneralDbListPage section={section} />;
 }
 
@@ -341,7 +341,7 @@ function GeneralDbListPage({ section: sectionProp }: { section?: string }) {
     setLoading(true);
     setError(null);
     fetchJson<DbIndexEntry[]>(`/data/db/${validSection}/index.json`)
-      .then((data) => setEntries(data))
+      .then((data) => setEntries(validSection === "workstations" ? data.filter(entry => !isVendorWorkstation(entry)) : data))
       .catch((err: Error) => setError(err.message))
       .finally(() => setLoading(false));
   }, [validSection]);
@@ -698,8 +698,7 @@ function GeneralDbListPage({ section: sectionProp }: { section?: string }) {
           : isWorkstationSection
             ? [
                 { label: `${workstationFiltered.length} results` },
-                { label: `${entries.length} indexed stations`, tone: "muted" },
-                { label: `${queryFiltered.filter((entry) => entry.workstationRole === "Vendor").length} vendors`, tone: "muted" }
+                { label: `${entries.length} indexed stations`, tone: "muted" }
               ]
             : isNpcSection
               ? [

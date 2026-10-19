@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "test:workstations": "tsx --test scripts/workstation-text.test.ts scripts/workstation-text-generated.test.ts",
+    "test:workstations": "tsx --test scripts/workstation-text.test.ts scripts/workstation-text-generated.test.ts src/config/dbCategories.test.ts src/lib/vendorBrowse.test.ts",
+    "test:workstations-visual": "tsx scripts/workstations-visual-check.ts",
     "test:blueprint-text-completion-visual": "tsx scripts/blueprint-text-completion-visual-check.ts",
     "test:blueprint-text-completion": "tsx --test scripts/blueprint-text-completion.test.ts scripts/blueprint-text-completion-generated.test.ts scripts/blueprint-completion-artwork.test.ts",
     "refresh:blueprint-text": "tsx scripts/refresh-blueprint-text.ts",

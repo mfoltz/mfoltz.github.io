@@ -176,8 +176,8 @@ export const dbBrowseProfiles: Record<DbSection, DbBrowseProfile> = {
   },
   workstations: {
     searchParam: "q",
-    searchPlaceholder: "Search by station name, prefab, role, floor, or region...",
-    sectionSubtitle: "Stations and traders, with recipes, bonuses, and prefab references.",
+    searchPlaceholder: "Search by station name, prefab, role, or floor...",
+    sectionSubtitle: "Stations with recipes, bonuses, and prefab references.",
     surfaceEyebrow: "Browse",
     surfaceTitle: "Workstation Records",
     helperText: "Browse normalized player-facing stations while keeping technical source identity intact.",

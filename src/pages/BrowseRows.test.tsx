@@ -4,7 +4,7 @@ import { renderToStaticMarkup } from "react-dom/server";
 import { MemoryRouter } from "react-router-dom";
 import { DbArtwork } from "../components/db/DbArtwork";
 import { BrowseControlStrip } from "../components/common/BrowseControlStrip";
-import { ItemIndexRow, NpcIndexRow } from "./DbListPage";
+import { ItemIndexRow, NpcIndexRow, WorkstationIndexRow } from "./DbListPage";
 import { DbIndexCard, DbReferenceList } from "../components/db/DbCards";
 import { hasUsefulDbFacet } from "../config/dbBrowse";
 import { itemRowSummary } from "../lib/dbPresentation";
@@ -67,6 +67,23 @@ test("artwork is optional and portraits take precedence over an existing sprite"
   assert.doesNotMatch(html, /sprite.png|database-avatar-well/);
 });
 
+test("workstation rows keep complete owned prose and omit servant/status clutter", () => {
+  const description = "Exact owned prose ".repeat(16) + "including its complete ending.";
+  const entry: DbIndexEntry = { title: "Anvil", slug: "anvil", path: "/db/workstations/anvil", categories: [],
+    workstationRole: "Station", stationKind: "Castle Workstation", matchingFloorType: "Forge",
+    bonusServantType: "Blacksmith", status: "NoInput", description, excerpt: description.slice(0, 220),
+    portraitAssetPath: "/existing.png" };
+  const html = render(<WorkstationIndexRow entry={entry} />);
+  assert(html.includes(description));
+  assert.doesNotMatch(html, /Servant Blacksmith|NoInput/);
+  assert.match(html, /loading="lazy"/);
+  const sourceCopy = "Station workstation record with player-facing naming and technical prefab context.";
+  assert.doesNotMatch(render(<WorkstationIndexRow entry={{ ...entry, description: sourceCopy }} />), /<p|player-facing/);
+  const search = { ...entry, section: "workstations", tags: [], excerpt: sourceCopy };
+  assert.doesNotMatch(render(<SearchResultRow entry={search} query="" />), /player-facing/);
+  assert.equal(entry.bonusServantType, "Blacksmith");
+});
+
 test("item rows put the title first and remove only summary-covered metadata", () => {
   const html = render(<ItemIndexRow entry={{ ...item, icon: "/blood.png", tier: "Tier 1" }} />);
   assert.ok(html.indexOf("Blood Essence") < html.indexOf("Tier 1"));
@@ -88,6 +105,16 @@ test("database search retains meaningful badges and reference search retains rou
   const reference = render(<SearchResultRow entry={{ ...entry, section: "prefabs", path: "/prefabs/raw-prefab" }} query="" />);
   assert.match(reference, />Reference</);
   assert.match(reference, />\/prefabs\/raw-prefab</);
+});
+
+test("vendor search replaces the legacy workstation badge without changing source badges", () => {
+  const entry = { ...item, section: "workstations", browseCategory: "vendors" as const,
+    tags: [], badges: ["CHAR", "Castle Workstation"] };
+  const html = render(<SearchResultRow entry={entry} query="" />);
+  assert.match(html, />Vendor</);
+  assert.doesNotMatch(html, />Castle Workstation</);
+  assert.deepEqual(entry.badges, ["CHAR", "Castle Workstation"]);
+  assert.match(render(<SearchResultRow entry={{ ...entry, browseCategory: undefined }} query="" />), />Castle Workstation</);
 });
 
 test("detailed filters are opt-in on desktop and absent filters have no disclosure", () => {

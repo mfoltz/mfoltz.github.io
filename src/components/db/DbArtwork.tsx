@@ -8,13 +8,16 @@ export function DbArtwork({
 }: {
   icon?: string;
   portraitAssetPath?: string;
-  size?: "row" | "detail" | "ingredient";
+  size?: "row" | "row-prominent" | "detail" | "ingredient";
 }) {
   const src = portraitAssetPath || icon;
   const [failedSrc, setFailedSrc] = useState<string>();
   if (!src || src === failedSrc) return null;
 
-  const dimensions = size === "ingredient" ? "h-6 w-6" : size === "row"
+  const isRow = size === "row" || size === "row-prominent";
+  const dimensions = size === "row-prominent" && portraitAssetPath
+    ? "h-14 w-auto max-w-[4.5rem] sm:h-20 sm:max-w-28"
+    : size === "ingredient" ? "h-6 w-6" : isRow
     ? "h-12 w-12 sm:h-16 sm:w-16"
     : portraitAssetPath
       ? "h-16 w-auto max-w-24 md:h-24 md:max-w-36 xl:h-32 xl:max-w-48"
@@ -24,7 +27,7 @@ export function DbArtwork({
     <img
       src={src}
       alt=""
-      loading={size === "row" ? "lazy" : "eager"}
+      loading={isRow ? "lazy" : "eager"}
       onError={() => setFailedSrc(src)}
       className={`database-record-artwork shrink-0 object-contain ${dimensions}`}
     />

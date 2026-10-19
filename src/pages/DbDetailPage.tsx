@@ -6,6 +6,7 @@ import { EmptyState, ErrorState, LoadingState } from "../components/common/State
 import { DbSection, isDbSection } from "../config/sections";
 import { fetchJson } from "../lib/fetch";
 import { DbEntityDetail } from "../types/db";
+import { isVendorWorkstation } from "../config/dbCategories";
 
 export function DbDetailPage({ section: sectionProp }: { section?: string }) {
   const params = useParams();
@@ -30,7 +31,8 @@ export function DbDetailPage({ section: sectionProp }: { section?: string }) {
 
   return (
     <div>
-      <Breadcrumbs currentLabel={current?.detail?.title} />
+      <Breadcrumbs currentLabel={current?.detail?.title} ancestorOverrides={section === "workstations" && current?.detail && isVendorWorkstation(current.detail)
+        ? { "/db/workstations": { label: "Vendors", path: "/db/vendors" } } : undefined} />
       {!current ? <LoadingState label="Loading entity detail..." />
         : current.error ? <ErrorState message={current.error} />
         : current.detail ? <DbDetailView key={recordPath} detail={current.detail} section={section as DbSection} />

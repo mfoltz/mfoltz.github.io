@@ -12,6 +12,7 @@ import { DbSection } from "../../config/sections";
 import { DbEntityDetail, DbRelatedEntityRef, DbRuntimeDamageEvidence } from "../../types/db";
 import { DbBadge, DbDisplayRow, DbFieldGrid, DbReferenceList, DbSurface } from "./DbCards";
 import { DbArtwork } from "./DbArtwork";
+import { isVendorWorkstation } from "../../config/dbCategories";
 import { DbFieldSpec, DbRelationSpec, dbSchemas, hasDbSchema } from "./dbSchemas";
 import { BlueprintUnlockSources } from "./BlueprintUnlockSources";
 import { BlueprintBuildMaterials } from "./BlueprintBuildMaterials";
@@ -1617,7 +1618,8 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
     const value = detail[row.key];
     return typeof value !== "string" || !visibleBadgeKeys.has(normalizeLooseToken(value));
   });
-  const eyebrow = hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
+  const eyebrow = section === "workstations" && isVendorWorkstation(detail) ? "Vendor Database"
+    : hasDbSchema(section) ? dbSchemas[section].eyebrow : `${humanizeKey(section)} Archive`;
   const subtitle = typeof detail.subtitle === "string" ? detail.subtitle : typeof detail.prefab === "string" ? detail.prefab : undefined;
   const { text: bodyCopy, key: heroBodyKey } = getHeroBodyCopy(section, detail);
   const structuredSummary = renderRecipeSummary(section, detail)

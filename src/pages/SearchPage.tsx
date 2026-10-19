@@ -7,13 +7,14 @@ import { EmptyState, ErrorState, LoadingState, SectionHeader } from "../componen
 import { VariableText } from "../components/common/VariableText";
 import { ReferenceBadge } from "../components/reference/ReferenceUi";
 import { DbArtwork } from "../components/db/DbArtwork";
-import { dbSections, getDbSectionLabel, getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
+import { getReferenceSectionLabel, isDbSection, isReferenceSection, referenceSections } from "../config/sections";
+import { dbBrowseCategories, getDbBrowseCategoryLabel, getSearchBrowseCategory, isDbBrowseCategory, matchesSearchScope } from "../config/dbCategories";
 import { fetchJson } from "../lib/fetch";
 import { SearchEntry } from "../types/content";
 import { scoreSearchEntry } from "../lib/search";
-import { itemRowSummary } from "../lib/dbPresentation";
+import { itemRowSummary, workstationRowSummary } from "../lib/dbPresentation";
 
-const sectionOrder: string[] = [...referenceSections, ...dbSections];
+const sectionOrder: string[] = [...referenceSections, ...dbBrowseCategories];
 const perSectionLimit = 24;
 
 function getSectionLabel(section: string): string {
@@ -21,8 +22,8 @@ function getSectionLabel(section: string): string {
     return getReferenceSectionLabel(section);
   }
 
-  if (isDbSection(section)) {
-    return getDbSectionLabel(section);
+  if (isDbBrowseCategory(section)) {
+    return getDbBrowseCategoryLabel(section);
   }
 
   return section;
@@ -33,7 +34,7 @@ function getSectionFamily(section: string): string {
     return "Reference";
   }
 
-  if (isDbSection(section)) {
+  if (isDbBrowseCategory(section)) {
     return "Database";
   }
 
@@ -42,22 +43,6 @@ function getSectionFamily(section: string): string {
 
 function isVisibleBadge(value: string): boolean {
   return value.length > 0 && !/^-?\d+$/.test(value) && !/^\d+\s+(prefabs?|components?|systems?|queries?)$/i.test(value);
-}
-
-function matchesScope(entry: SearchEntry, scope: string): boolean {
-  if (scope === "all") {
-    return true;
-  }
-
-  if (scope === "reference") {
-    return isReferenceSection(entry.section);
-  }
-
-  if (scope === "db") {
-    return isDbSection(entry.section);
-  }
-
-  return entry.section === scope;
 }
 
 function ScopeChip({ active, label, count, onClick, primary = false }: { active: boolean; label: string; count?: number; onClick: () => void; primary?: boolean }) {
@@ -75,9 +60,11 @@ function ScopeChip({ active, label, count, onClick, primary = false }: { active:
 
 export function SearchResultRow({ entry, query }: { entry: SearchEntry; query: string }) {
   const isDatabase = isDbSection(entry.section);
-  const excerpt = entry.section === "items" ? itemRowSummary(entry.excerpt) : entry.excerpt;
+  const excerpt = entry.section === "items" ? itemRowSummary(entry.excerpt)
+    : entry.section === "workstations" ? workstationRowSummary(entry.excerpt) : entry.excerpt;
   const redundantBadges = new Set(["database", entry.section.toLowerCase(), entry.kind?.toLowerCase()]);
-  const visibleBadges = [...new Set((entry.badges ?? []).filter(isVisibleBadge))]
+  const visibleBadges = [...new Set((entry.badges ?? []).filter(isVisibleBadge).map(badge =>
+    getSearchBrowseCategory(entry) === "vendors" && badge.toLowerCase() === "castle workstation" ? "Vendor" : badge))]
     .filter((badge) => !isDatabase || !redundantBadges.has(badge.toLowerCase()))
     .slice(0, isDatabase ? 3 : 1);
 
@@ -162,7 +149,7 @@ export function SearchPage() {
   const scored = useMemo(
     () =>
       matched
-        .filter(({ entry }) => matchesScope(entry, scope))
+        .filter(({ entry }) => matchesSearchScope(entry, scope))
         .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title)),
     [matched, scope]
   );
@@ -178,7 +165,8 @@ export function SearchPage() {
     counts.set("db", matched.filter(({ entry }) => isDbSection(entry.section)).length);
 
     for (const { entry } of matched) {
-      counts.set(entry.section, (counts.get(entry.section) ?? 0) + 1);
+      const category = getSearchBrowseCategory(entry);
+      counts.set(category, (counts.get(category) ?? 0) + 1);
     }
 
     return counts;
@@ -186,16 +174,17 @@ export function SearchPage() {
 
   const grouped = useMemo(() => {
     const bySection = scored.reduce<Record<string, { items: SearchEntry[]; total: number }>>((acc, result) => {
-      const existing = acc[result.entry.section] ?? { items: [], total: 0 };
+      const category = getSearchBrowseCategory(result.entry);
+      const existing = acc[category] ?? { items: [], total: 0 };
       existing.total += 1;
       if (existing.items.length < perSectionLimit) {
         existing.items.push(result.entry);
       }
-      acc[result.entry.section] = existing;
+      acc[category] = existing;
       return acc;
     }, {});
 
-    const orderedKeys = [...new Set(scored.map(({ entry }) => entry.section))];
+    const orderedKeys = [...new Set(scored.map(({ entry }) => getSearchBrowseCategory(entry)))];
     return orderedKeys.map((section) => ({ section, items: bySection[section].items, total: bySection[section].total }));
   }, [scored]);
 
@@ -204,7 +193,7 @@ export function SearchPage() {
     { value: "reference", label: "Reference" },
     { value: "db", label: "Database" },
     ...referenceSections.map((section) => ({ value: section, label: getReferenceSectionLabel(section) })),
-    ...dbSections.map((section) => ({ value: section, label: getDbSectionLabel(section) }))
+    ...dbBrowseCategories.map((section) => ({ value: section, label: getDbBrowseCategoryLabel(section) }))
   ];
 
   function updateSearchParams(nextQuery: string, nextScope: string) {

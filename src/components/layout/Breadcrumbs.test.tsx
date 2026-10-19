@@ -20,3 +20,13 @@ test("a loading detail uses the route-derived breadcrumb fallback", () => {
   assert.match(html, /aria-current="page"[^>]*>Item Blood Essence T01</);
   assert.equal((html.match(/aria-label="Breadcrumbs"/g) ?? []).length, 1);
 });
+
+test("a vendor ancestor can point to its browse category while the canonical URL stays unchanged", () => {
+  const html = renderToStaticMarkup(<MemoryRouter initialEntries={["/db/workstations/char-trader-noctem-minor"]}>
+    <Breadcrumbs currentLabel="Vampire Merchant" ancestorOverrides={{ "/db/workstations": { label: "Vendors", path: "/db/vendors" } }} />
+  </MemoryRouter>);
+  assert.match(html, /href="\/db\/vendors"[^>]*>Vendors</);
+  assert.match(html, /href="\/db"/);
+  assert.doesNotMatch(html, />Workstations</);
+  assert.match(html, /aria-current="page"[^>]*>Vampire Merchant</);
+});

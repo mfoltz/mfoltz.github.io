@@ -4,6 +4,7 @@ export interface SearchEntry {
   title: string;
   slug: string;
   section: string;
+  browseCategory?: "vendors";
   kind?: string;
   tags: string[];
   excerpt: string;
