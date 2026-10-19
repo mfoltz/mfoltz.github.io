@@ -114,6 +114,12 @@ const workstationDetailPresentation = {
   ] as const
 };
 
+const vendorStationSourceFields: DbFieldSpec[] = [
+  { key: "stationKind", label: "Source Station Kind" },
+  { key: "matchingFloorType", label: "Source Matching Floor" },
+  { key: "bonusServantType", label: "Source Servant Bonus" }
+];
+
 interface ProvenanceLink {
   label: string;
   value: string;
@@ -347,6 +353,7 @@ function getHeroCategories(section: DbSection, detail: DbEntityDetail): string[]
   const seen = new Set(detail.tier ? [normalizeLooseToken(detail.tier)] : []);
   return prioritized.filter((value) => {
     const key = normalizeLooseToken(value);
+    if (section === "workstations" && isVendorWorkstation(detail) && key === "castleworkstation") return false;
     if (isLowSignalCategory(detail, section, value) || seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -1514,12 +1521,13 @@ function renderWorkstationSummaryRow(label: string, value: ReactNode) {
 }
 
 function renderWorkstationSummaryRows(detail: DbEntityDetail) {
+  const isVendor = isVendorWorkstation(detail);
   return (
     <dl className="database-summary-rows-soft">
       {typeof detail.workstationRole === "string" ? renderWorkstationSummaryRow("Role", detail.workstationRole) : null}
-      {typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
-      {typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
-      {typeof detail.bonusServantType === "string" ? renderWorkstationSummaryRow("Servant bonus", renderMutedNone(detail.bonusServantType)) : null}
+      {!isVendor && typeof detail.stationKind === "string" ? renderWorkstationSummaryRow("Station kind", detail.stationKind) : null}
+      {!isVendor && typeof detail.matchingFloorType === "string" ? renderWorkstationSummaryRow("Matching floor", renderMutedNone(detail.matchingFloorType)) : null}
+      {!isVendor && typeof detail.bonusServantType === "string" ? renderWorkstationSummaryRow("Servant bonus", renderMutedNone(detail.bonusServantType)) : null}
       {typeof detail.workstationRecipeCount === "number"
         ? renderWorkstationSummaryRow("Recipes", `${formatNumber(detail.workstationRecipeCount)} linked`)
         : null}
@@ -1841,7 +1849,8 @@ function renderSchemaDetail(section: DbSection, detail: DbEntityDetail) {
     provenanceRows.push({ key: "associatedAbilityGuid", label: "Associated Ability GUID",
       value: formatNumber(associatedAbility.guid), copyValue: String(associatedAbility.guid) });
   }
-  const technicalRows = buildRowsFromSpecs(detail, schema.technicalFields);
+  const technicalRows = buildRowsFromSpecs(detail, [...schema.technicalFields,
+    ...(section === "workstations" && isVendorWorkstation(detail) ? vendorStationSourceFields : [])]);
   const usedKeys = new Set<string>([
     ...hiddenKeys,
     ...schema.factFields.map((field) => field.key),

@@ -6,7 +6,8 @@ Older notes in this folder predate the polish overlay and should be read as vali
 
 Use the [active roadmap](../source-backed-next-thread-roadmap.md) for current
 delivery status and priorities. The latest local implementation receipt is
-[Workstations and Vendors](2026-10-18-workstation-vendor-browse.md). Earlier receipts include
+[Workstations and Vendors final review](2026-10-19-workstation-vendor-final-review.md).
+Earlier receipts include [Workstations and Vendors implementation](2026-10-18-workstation-vendor-browse.md),
 [Blueprint text completion](2026-10-17-blueprint-text-completion.md),
 [remaining 790 literal Blueprint text pairs](2026-10-17-blueprint-text-remaining-literals.md),
 [first 128-record expansion](2026-10-17-blueprint-text-expansion-128.md),

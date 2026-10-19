@@ -20,6 +20,11 @@ Canonical detail paths, source identities, relationships, and artwork bytes
 remain intact. See the [delivery checkpoint](checkpoints/2026-10-18-workstation-vendor-browse.md)
 for acceptance results and the remaining publication boundary.
 
+The [October 19 final review](checkpoints/2026-10-19-workstation-vendor-final-review.md)
+adds vendor-aware detail heroes while retaining station-specific source fields
+in provenance, plus singular workstation result wording. Local-main integration
+remains a separate step after review and validation.
+
 The original chat checkout's pending reference-focus edits are preserved.
 This isolated delivery does not move main or publish the changes. The Blueprint
 completion section below records its earlier, pre-consolidation branch state;

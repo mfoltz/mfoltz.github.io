@@ -78,6 +78,27 @@ function countMatches(value: string, pattern: RegExp): number {
   return value.match(pattern)?.length ?? 0;
 }
 
+test("vendor details keep workstation source fields out of the hero and available in provenance", () => {
+  const html = renderDetail({ ...workstationDetailFixture, title: "Vampire Merchant",
+    subtitle: "CHAR_Trader_Noctem_Minor", categories: ["CHAR", "Castle Workstation", "Vendor"],
+    workstationRole: "Vendor", matchingFloorType: "None", merchantRegion: "Noctem", merchantInventory: "Minor"
+  }, "workstations");
+  const hero = html.slice(0, html.indexOf("</section>") + "</section>".length);
+  assert.match(hero, /Vendor Database/);
+  assert.match(hero, />Vendor</);
+  assert.match(hero, />Noctem</);
+  assert.match(hero, />Minor</);
+  assert.match(hero, /126 linked/);
+  assert.doesNotMatch(hero, /Castle Workstation|Station kind|Matching floor|Servant bonus/);
+  const sourceStart = html.indexOf('id="source-provenance"');
+  assert(sourceStart > 0);
+  const source = html.slice(sourceStart);
+  assert.match(source, /Source Station Kind/);
+  assert.match(source, /Castle Workstation/);
+  assert.match(source, /Source Matching Floor/);
+  assert.match(source, /Source Servant Bonus/);
+});
+
 const ingredientRecipeFixture = Array.from({ length: 13 }, (_, i) => ({
   title: `Complete Recipe Name ${i}`, prefab: `Recipe_Test_${i}`, guid: i === 0 ? 0 : -i, amount: i + 1,
   slug: `recipe-test-${i}`, path: `/db/recipes/recipe-test-${i}`,

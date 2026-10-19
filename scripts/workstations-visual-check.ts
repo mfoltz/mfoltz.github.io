@@ -133,6 +133,10 @@ try {
       assert.equal(await page.locator("main h1").innerText(), entry.title);
       assert.equal(await page.getByRole("link", { name: "Vendors", exact: true }).getAttribute("href"), "/db/vendors");
       assert((await page.locator("main").innerText()).toLowerCase().includes("vendor database"));
+      const hero = page.locator("main section").first();
+      assert.doesNotMatch(await hero.innerText(), /Castle Workstation|Station kind|Matching floor|Servant bonus/i);
+      const source = await page.locator("#source-provenance").textContent();
+      for (const label of ["Source Station Kind", "Source Matching Floor", "Source Servant Bonus"]) assert(source?.includes(label));
     }
     await ready(page, "/db/workstations?q=Blood%20Mixer");
     assert.equal(await page.locator("main .database-ledger-row h2").innerText(), "Blood Homogenizer");

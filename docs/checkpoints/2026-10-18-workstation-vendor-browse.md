@@ -2,6 +2,9 @@
 
 Accepted locally: 2026-10-18. No integration or publication is included.
 
+The [October 19 follow-up review](2026-10-19-workstation-vendor-final-review.md)
+records the subsequent vendor-detail cleanup and integration-readiness checks.
+
 ## Goal
 
 Apply the approved [implementation plan](../design-feedback/workstation-browse-implementation-plan-2026-10-18.md):

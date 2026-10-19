@@ -697,7 +697,7 @@ function GeneralDbListPage({ section: sectionProp }: { section?: string }) {
             ]
           : isWorkstationSection
             ? [
-                { label: `${workstationFiltered.length} results` },
+                { label: `${workstationFiltered.length} result${workstationFiltered.length === 1 ? "" : "s"}` },
                 { label: `${entries.length} indexed stations`, tone: "muted" }
               ]
             : isNpcSection
