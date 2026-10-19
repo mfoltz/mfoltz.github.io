@@ -2,6 +2,7 @@ import { mkdir, readdir, readFile, rm, stat, writeFile } from "node:fs/promises"
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { preserveApprovedBlueprintTextValues, readApprovedBlueprintText, blueprintTextBuildRows, type BlueprintTextBuildRow } from "./approved-blueprint-text";
+import { resolveWorkstationText } from "./workstation-text";
 import { isNpcDisplayCandidateDoc, isNpcDisplayRelatedCategory } from "./npc-display-classification";
 import {
   buildAbilityDamageEvidence,
@@ -2427,12 +2428,14 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
     formatPrefabDisplayName(doc.prefabName, ["TM", "BP", "StationBonus", "Refinementstation"])
   );
   const { title: resolvedTitle } = resolveTitle(buildContext, doc, fallbackTitle);
-  const title = normalizeWorkstationTitle(resolvedTitle);
+  const previousTitle = normalizeWorkstationTitle(resolvedTitle);
+  const text = resolveWorkstationText(doc, buildContext.blueprintTextByPrefab.get(doc.prefabName));
+  const title = text?.displayNameEn ?? previousTitle;
   const subtitle = doc.prefabName;
-  const description =
+  const description = text?.summaryEn ?? (
     workstationRole === "Vendor"
       ? `${merchantRegion ? `${merchantRegion} ` : ""}${merchantInventory ? `${merchantInventory.toLowerCase()} ` : ""}vendor record with normalized naming and source-prefab context.`
-      : `${workstationRole} workstation record with player-facing naming and technical prefab context.`;
+      : `${workstationRole} workstation record with player-facing naming and technical prefab context.`);
   const summary = uniqueStrings([
     workstationRole,
     workstationRole === "Vendor" ? merchantRegion : stationKind,
@@ -2449,7 +2452,7 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
     categories: uniqueStrings([...docCategories, stationKind, workstationRole]),
     summary,
     icon: displayEntry?.iconAssetPath,
-    tags: [matchingFloorType, bonusServantType, status, inventoryPrefab?.prefab, respawnPointType, merchantRegion, merchantInventory],
+    tags: [previousTitle, matchingFloorType, bonusServantType, status, inventoryPrefab?.prefab, respawnPointType, merchantRegion, merchantInventory],
     indexFields: {
       workstationRole,
       portraitAssetPath: portraitEntry?.portraitAssetPath,
@@ -2469,9 +2472,11 @@ function buildWorkstationEntity(doc: PrefabDocument, components: Map<string, Par
       merchantRegion,
       merchantInventory,
       respawnPointType,
-      localizedDisplayNameEn: displayEntry?.displayNameEn,
-      localizedDisplayGuid: displayEntry?.displayLocalizationGuid,
-      localizedSummaryEn: displayEntry?.summaryEn,
+      localizedDisplayNameEn: text?.displayNameEn ?? displayEntry?.displayNameEn,
+      localizedDisplayGuid: text?.displayLocalizationGuid ?? displayEntry?.displayLocalizationGuid,
+      localizedSummaryEn: text?.summaryEn ?? displayEntry?.summaryEn,
+      ...(text?.displayNameEn !== undefined ? { nameSourceKind: text.sourceKind, nameSourceRef: text.sourceRef } : {}),
+      ...(text?.summaryEn !== undefined ? { descriptionSourceKind: text.sourceKind, descriptionSourceRef: text.sourceRef } : {}),
       iconAssetName: displayEntry?.iconAssetName,
       iconAssetPath: displayEntry?.iconAssetPath,
       portraitAssetPath: portraitEntry?.portraitAssetPath,

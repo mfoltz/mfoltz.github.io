@@ -149,6 +149,8 @@ export interface DbEntityDetail {
   iconSourceRef?: string;
   descriptionSourceKind?: string;
   descriptionSourceRef?: string;
+  nameSourceKind?: string;
+  nameSourceRef?: string;
   normalizedSourceKind?: string;
   normalizedSourceRef?: string;
   tags?: string[];

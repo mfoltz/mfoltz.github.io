@@ -63,6 +63,17 @@ function renderWorkstationWithInventoryDetail() {
   return renderDetail(workstationWithInventoryDetailFixture, "workstations");
 }
 
+test("owned workstation prose appears once beside structural facts with independent provenance", () => {
+  const description = "A workstation used for crafting of weapons.";
+  const source = "data/enrichment/blueprint-text-remaining-literals.json#TM_CraftingStation_Anvil";
+  const html = renderDetail({ ...workstationDetailFixture, description, localizedSummaryEn: description,
+    nameSourceKind: "extractor-raw", nameSourceRef: source,
+    descriptionSourceKind: "extractor-raw", descriptionSourceRef: source }, "workstations");
+  assert.equal(html.split(description).length - 1, 1);
+  assert.match(html, /Matching floor/);
+  assert(html.includes(source));
+});
+
 function countMatches(value: string, pattern: RegExp): number {
   return value.match(pattern)?.length ?? 0;
 }

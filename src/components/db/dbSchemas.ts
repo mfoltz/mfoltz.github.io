@@ -216,7 +216,11 @@ export const dbSchemas: Record<SchemaDbSection, DbSchemaConfig> = {
     ],
     provenanceFields: [
       { key: "workstationRecipeSourceKind", label: "Recipe Join Source" },
-      { key: "workstationRecipeSourceRef", label: "Recipe Join Source Ref", format: "code" }
+      { key: "workstationRecipeSourceRef", label: "Recipe Join Source Ref", format: "code" },
+      { key: "nameSourceKind", label: "Name Source" },
+      { key: "nameSourceRef", label: "Name Source Ref", format: "code" },
+      { key: "descriptionSourceKind", label: "Description Source" },
+      { key: "descriptionSourceRef", label: "Description Source Ref", format: "code" }
     ],
     technicalFields: [
       { key: "prefab", label: "Prefab", format: "code" },

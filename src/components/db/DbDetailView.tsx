@@ -273,6 +273,12 @@ function getCopyValue(key: string, value: unknown, format?: DbFieldSpec["format"
   return undefined;
 }
 
+function hasOwnedBlueprintDescription(detail: DbEntityDetail): boolean {
+  return typeof detail.descriptionSourceRef === "string" && [
+    "blueprint-text-capture", "blueprint-text-expansion-128", "blueprint-text-remaining-literals", "blueprint-text-completion"
+  ].some(source => detail.descriptionSourceRef!.startsWith(`data/enrichment/${source}.json#`));
+}
+
 function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value: unknown): boolean {
   if (typeof value !== "string") {
     return false;
@@ -283,13 +289,8 @@ function isRedundantFieldValue(detail: DbEntityDetail, spec: DbFieldSpec, value:
     return false;
   }
 
-  const descriptionSourceRef = detail.descriptionSourceRef;
   if (spec.key === "localizedSummaryEn" && normalized === detail.description?.trim() &&
-      typeof descriptionSourceRef === "string" &&
-      (descriptionSourceRef.startsWith("data/enrichment/blueprint-text-capture.json#") ||
-        descriptionSourceRef.startsWith("data/enrichment/blueprint-text-expansion-128.json#") ||
-        descriptionSourceRef.startsWith("data/enrichment/blueprint-text-remaining-literals.json#") ||
-        descriptionSourceRef.startsWith("data/enrichment/blueprint-text-completion.json#"))) {
+      hasOwnedBlueprintDescription(detail)) {
     return true;
   }
   if (spec.key === "localizedDisplayNameEn" && normalized === detail.title) {
@@ -1625,7 +1626,8 @@ function renderHero(section: DbSection, detail: DbEntityDetail, factRows: DbDisp
     ?? renderNpcSummary(section, detail);
   const placeStructuredSummaryInRail = Boolean(structuredSummary);
   const summaryRailLabel = placeStructuredSummaryInRail ? eyebrow : humanizeKey(section);
-  const showHeroBodyCopy = Boolean(hasUsefulDescription(bodyCopy) && (!structuredSummary || (section === "items" && heroBodyKey !== "summary")));
+  const showHeroBodyCopy = Boolean(hasUsefulDescription(bodyCopy) && (!structuredSummary || (section === "items" && heroBodyKey !== "summary") ||
+    (section === "workstations" && heroBodyKey === "description" && hasOwnedBlueprintDescription(detail))));
   const inlineFactRows = visibleFacts.slice(0, 4);
   const summaryFactRows = visibleFacts.slice(4);
   const showSummaryRail = summaryFactRows.length > 0 || placeStructuredSummaryInRail;
