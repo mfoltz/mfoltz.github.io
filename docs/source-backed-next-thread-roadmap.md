@@ -7,6 +7,26 @@ extraction authority.
 
 ## Current delivery state
 
+### Workstations and Vendors
+
+The workstation browse plan is implemented locally on
+`codex/workstation-vendor-browse`, based on accepted main
+`49075761cfda88bcc62548ac5294fd6590a12dc9`. It reuses independently approved
+Blueprint fields for 121 exact workstation identities (119 descriptions),
+enlarges existing portraits through shared artwork logic, removes trailing
+servant/status boilerplate, and exposes the 15 source-classified Vendors through
+their own catalog, directory links, search scope, and detail breadcrumbs.
+Canonical detail paths, source identities, relationships, and artwork bytes
+remain intact. See the [delivery checkpoint](checkpoints/2026-10-18-workstation-vendor-browse.md)
+for acceptance results and the remaining publication boundary.
+
+The original chat checkout's pending reference-focus edits are preserved.
+This isolated delivery does not move main or publish the changes. The Blueprint
+completion section below records its earlier, pre-consolidation branch state;
+its main pointer and next-step wording are historical.
+
+### Blueprint completion before consolidation
+
 The remaining 270 Blueprint evidence records are reviewed and accepted locally
 on `codex/blueprint-text-completion`, based on the accepted remaining-literals
 tip `4efc62efc4c19365204369a2d2f028292f0d90a9`. This pass adds 244 owned names
